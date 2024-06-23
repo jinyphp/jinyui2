@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "no-inline-style": "off",
+    "close-order": "error",
+    "prefer-native-element": "off",
+    "no-trailing-whitespace": "off",
+    "no-autoplay": "off",
+    "wcag/h32": "off",
+    "unique-landmark": "off",
+    "hidden-focusable": "off"
+  }
+}

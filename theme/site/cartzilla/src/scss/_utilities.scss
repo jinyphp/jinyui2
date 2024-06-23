@@ -1,0 +1,318 @@
+// Utilities
+// Extend / update default Bootstrap's utility classes
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+/* stylelint-disable @stylistic/value-list-max-empty-lines, @stylistic/function-max-empty-lines */
+$utilities: map-merge(
+  $utilities,
+  (
+    // Remove utilities
+    "link-offset": null,
+    "link-underline": null,
+    "link-underline-opacity": null,
+
+    // Border radius
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-xs),
+        2: var(--#{$prefix}border-radius-sm),
+        3: var(--#{$prefix}border-radius),
+        4: var(--#{$prefix}border-radius-lg),
+        5: var(--#{$prefix}border-radius-xl),
+        6: var(--#{$prefix}border-radius-xxl),
+        7: var(--#{$prefix}border-radius-xxxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill)
+      )
+    ),
+    "rounded-top": (
+      property: border-top-left-radius border-top-right-radius,
+      class: rounded-top,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-xs),
+        2: var(--#{$prefix}border-radius-sm),
+        3: var(--#{$prefix}border-radius),
+        4: var(--#{$prefix}border-radius-lg),
+        5: var(--#{$prefix}border-radius-xl),
+        6: var(--#{$prefix}border-radius-xxl),
+        7: var(--#{$prefix}border-radius-xxxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill)
+      )
+    ),
+    "rounded-end": (
+      property: border-top-right-radius border-bottom-right-radius,
+      class: rounded-end,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-xs),
+        2: var(--#{$prefix}border-radius-sm),
+        3: var(--#{$prefix}border-radius),
+        4: var(--#{$prefix}border-radius-lg),
+        5: var(--#{$prefix}border-radius-xl),
+        6: var(--#{$prefix}border-radius-xxl),
+        7: var(--#{$prefix}border-radius-xxxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill)
+      )
+    ),
+    "rounded-bottom": (
+      property: border-bottom-right-radius border-bottom-left-radius,
+      class: rounded-bottom,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-xs),
+        2: var(--#{$prefix}border-radius-sm),
+        3: var(--#{$prefix}border-radius),
+        4: var(--#{$prefix}border-radius-lg),
+        5: var(--#{$prefix}border-radius-xl),
+        6: var(--#{$prefix}border-radius-xxl),
+        7: var(--#{$prefix}border-radius-xxxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill)
+      )
+    ),
+    "rounded-start": (
+      property: border-bottom-left-radius border-top-left-radius,
+      class: rounded-start,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-xs),
+        2: var(--#{$prefix}border-radius-sm),
+        3: var(--#{$prefix}border-radius),
+        4: var(--#{$prefix}border-radius-lg),
+        5: var(--#{$prefix}border-radius-xl),
+        6: var(--#{$prefix}border-radius-xxl),
+        7: var(--#{$prefix}border-radius-xxxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill)
+      )
+    ),
+
+    // Min width
+    "min-width": (
+      property: min-width,
+      class: min-w,
+      values: (
+        0: 0,
+        100: 100
+      )
+    ),
+
+    // Line height
+    "line-height": (
+      property: line-height,
+      class: lh,
+      values: (
+        0: 0,
+        1: 1,
+        sm: $line-height-sm,
+        base: $line-height-base,
+        lg: $line-height-lg,
+      )
+    ),
+
+    // Opacity
+    "opacity": (
+      property: opacity,
+      values: (
+        0: 0,
+        25: .25,
+        40: .4,
+        50: .5,
+        60: .6,
+        75: .75,
+        100: 1,
+      )
+    ),
+
+    // z-index
+    "z-index": (
+      property: z-index,
+      class: z,
+      values: map-merge(
+        $zindex-levels,
+        (
+          sticky: $zindex-sticky,
+          fixed: $zindex-fixed
+        )
+      )
+    ),
+
+    // cursor
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      values: (
+        pointer: pointer,
+        default: default,
+        help: help,
+        wait: wait,
+        crosshair: crosshair,
+        not-allowed: not-allowed,
+        zoom-in: zoom-in,
+        zoom-out: zoom-out,
+        grab: grab
+      )
+    )
+  )
+);
+
+
+// Disable :focus / :focus-visible
+
+.focus-none {
+  &:focus,
+  &:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+
+// Fix Safari quirk of rounded corners
+
+[class^="rounded"].overflow-hidden,
+[class*=" rounded"].overflow-hidden {
+  transform: translateZ(0);
+}
+
+
+// Dotted background
+
+.bg-dotted {
+  --#{$prefix}bg-color: var(--#{$prefix}tertiary-bg);
+  --#{$prefix}dot-color: var(--#{$prefix}secondary);
+  --#{$prefix}dot-size: 1px;
+  --#{$prefix}dot-space: 20px;
+
+  background: linear-gradient(90deg, var(--#{$prefix}bg-color) calc(var(--#{$prefix}dot-space) - var(--#{$prefix}dot-size)), transparent 1%) center, linear-gradient(var(--#{$prefix}bg-color) calc(var(--#{$prefix}dot-space) - var(--#{$prefix}dot-size)), transparent 1%) center, var(--#{$prefix}dot-color);
+  background-size: var(--#{$prefix}dot-space) var(--#{$prefix}dot-space);
+}
+
+
+// Border styles
+
+.border-dashed {
+  --#{$prefix}border-style: dashed;
+}
+.border-dotted {
+  --#{$prefix}border-style: dotted;
+}
+
+
+// Disable transition on element
+
+.transition-none {
+  transition: none !important;
+}
+
+
+// Disable transform on element
+
+.transform-none {
+  transform: none !important;
+}
+
+
+// Disable background image on element
+
+.bg-image-none {
+  background-image: none !important;
+}
+
+
+// Flip objects horizontally when the direction is set to RTL
+
+[dir="rtl"] .rtl-flip {
+  transform: rotateY(180deg);
+}
+
+
+// Display element only when the direction is set to RTL
+
+[dir="rtl"] .d-none-rtl {
+  display: none !important;
+}
+
+[dir="rtl"] .d-block-rtl {
+  display: block !important;
+}
+
+[dir="rtl"] .d-inline-rtl {
+  display: inline !important;
+}
+
+[dir="rtl"] .d-inline-block-rtl {
+  display: inline-block !important;
+}
+
+[dir="rtl"] .d-flex-rtl {
+  display: flex !important;
+}
+
+[dir="rtl"] .d-inline-flex-rtl {
+  display: inline-flex !important;
+}
+
+
+// To make IntersectionObserver work with ".sticky-top" class correctly
+
+[data-sticky-element] {
+  top: -1px !important;
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+
+    // Display utilities
+    .d-none-dark {
+      display: none !important;
+    }
+    .d-block-dark {
+      display: block !important;
+    }
+    .d-inline-dark {
+      display: inline !important;
+    }
+    .d-inline-block-dark {
+      display: inline-block !important;
+    }
+    .d-inline-flex-dark {
+      display: inline-flex !important;
+    }
+    .d-flex-dark {
+      display: flex !important;
+    }
+
+    // Shadows
+    .shadow:not([data-bs-theme="light"]) {
+      box-shadow: $box-shadow-dark !important;
+    }
+    .shadow-sm:not([data-bs-theme="light"]) {
+      box-shadow: $box-shadow-sm-dark !important;
+    }
+    .shadow-lg:not([data-bs-theme="light"]) {
+      box-shadow: $box-shadow-lg-dark !important;
+    }
+  }
+}
+/* stylelint-enable @stylistic/value-list-max-empty-lines, @stylistic/function-max-empty-lines */

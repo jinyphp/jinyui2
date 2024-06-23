@@ -1,0 +1,33 @@
+// Tables
+
+.table {
+  --#{$prefix}table-th-color: #{$table-th-color};
+
+  thead th,
+  tbody th {
+    color: var(--#{$prefix}table-th-color) !important;
+  }
+
+  &.table-dark th,
+  .table-dark th {
+    color: $white !important;
+  }
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .table:not([data-bs-theme="light"]) {
+      --#{$prefix}table-striped-bg: #{$table-striped-bg-dark};
+      --#{$prefix}table-active-bg: #{$table-active-bg-dark};
+      --#{$prefix}table-hover-bg: #{$table-hover-bg-dark};
+    }
+
+    .table-dark {
+      --#{$prefix}table-bg: var(--#{$prefix}dark);
+      --#{$prefix}table-border-color: #{$table-border-color};
+    }
+  }
+}

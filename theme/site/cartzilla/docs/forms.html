@@ -1,0 +1,2614 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light" data-pwa="true">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <title>Cartzilla Docs | Forms</title>
+
+    <!-- Theme switcher (color modes) -->
+    <script src="../assets/js/theme-switcher.js"></script>
+
+    <!-- Webmanifest + Favicon / App icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="icon" type="image/png" href="../assets/app-icons/icon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="../assets/app-icons/icon-180x180.png">
+
+    <!-- Preloaded local web font (Inter) -->
+    <link rel="preload" href="../assets/fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Font icons -->
+    <link rel="preload" href="../assets/icons/cartzilla-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../assets/icons/cartzilla-icons.min.css">
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../assets/vendor/simplebar/dist/simplebar.min.css">
+    <link rel="stylesheet" href="../assets/vendor/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="../assets/vendor/nouislider/dist/nouislider.min.css">
+
+    <!-- Bootstrap + Theme styles -->
+    <link rel="preload" href="../assets/css/theme.min.css" as="style">
+    <link rel="stylesheet" href="../assets/css/theme.min.css" id="theme-styles">
+
+    <!-- Docs specific styles -->
+    <style>
+      .cd-section {
+        scroll-margin-top: 100px;
+      }
+      @media (min-width: 992px) {
+        .cd-sidebar {
+          position: sticky;
+          top: 7rem;
+          height: calc(100vh - 8.5rem);
+        }
+        .cd-section {
+          scroll-margin-top: 118px;
+        }
+      }
+    </style>
+  </head>
+
+
+  <!-- Body -->
+  <body data-bs-spy="scroll" data-bs-target="#anchorNav">
+
+    <!-- Navigation bar (Header) -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top z-fixed px-0" data-bs-theme="dark">
+      <div class="container py-1 py-lg-2">
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav" aria-controls="sidebarNav" aria-expanded="false" aria-label="Toggle sidebar navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mx-auto mx-lg-0" href="../index.html">
+          <span class="d-flex flex-shrink-0 text-primary me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><path d="M36 18.01c0 8.097-5.355 14.949-12.705 17.2a18.12 18.12 0 0 1-5.315.79C9.622 36 2.608 30.313.573 22.611.257 21.407.059 20.162 0 18.879v-1.758c.02-.395.059-.79.099-1.185.099-.908.277-1.817.514-2.686C2.687 5.628 9.682 0 18 0c5.572 0 10.551 2.528 13.871 6.517 1.502 1.797 2.648 3.91 3.359 6.201.494 1.659.771 3.436.771 5.292z" fill="currentColor"/><g fill="#fff"><path d="M17.466 21.624c-.514 0-.988-.316-1.146-.829-.198-.632.138-1.303.771-1.501l7.666-2.469-1.205-8.254-13.317 4.621a1.19 1.19 0 0 1-1.521-.75 1.19 1.19 0 0 1 .751-1.521l13.89-4.818c.553-.197 1.166-.138 1.64.158a1.82 1.82 0 0 1 .85 1.284l1.344 9.183c.138.987-.494 1.994-1.482 2.33l-7.864 2.528-.375.04zm7.31.138c-.178-.632-.85-1.007-1.482-.81l-5.177 1.58c-2.331.79-3.28.02-3.418-.099l-6.56-8.412a4.25 4.25 0 0 0-4.406-1.758l-3.122.987c-.237.889-.415 1.777-.514 2.686l4.228-1.363a1.84 1.84 0 0 1 1.857.81l6.659 8.551c.751.948 2.015 1.323 3.359 1.323.909 0 1.857-.178 2.687-.474l5.078-1.54c.632-.178 1.008-.829.81-1.481z"/><use href="#czlogo"/><use href="#czlogo" x="8.516" y="-2.172"/></g><defs><path id="czlogo" d="M18.689 28.654a1.94 1.94 0 0 1-1.936 1.935 1.94 1.94 0 0 1-1.936-1.935 1.94 1.94 0 0 1 1.936-1.935 1.94 1.94 0 0 1 1.936 1.935z"/></defs></svg>
+          </span>
+          Cartzilla
+          <span class="badge text-primary bg-primary bg-opacity-10 fs-xs rounded-pill d-none d-lg-inline-block ms-2">v3.0.0</span>
+        </a>
+        <div id="navbarNav" class="offcanvas-lg offcanvas-end ms-auto" tabindex="-1" aria-labelledby="navbarNavLabel">
+          <div class="offcanvas-header py-3">
+            <h5 class="offcanvas-title" id="navbarNavLabel">Cartzilla</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#navbarNav" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body pt-0">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="installation.html">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="typography.html">Components</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Live demo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://createx.studio/contact" target="_blank" rel="noreferrer">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="offcanvas-header border-top">
+            <a class="btn btn-primary w-100" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noreferrer">
+              <i class="ci-shopping-cart fs-base ms-n1 me-2"></i>
+              Buy now
+            </a>
+          </div>
+        </div>
+        <div class="dropdown pe-lg-1 ms-lg-3">
+          <button type="button" class="theme-switcher btn btn-icon btn-secondary fs-base rounded-circle animate-scale" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle theme (light)">
+            <span class="theme-icon-active d-flex animate-target">
+              <i class="ci-sun"></i>
+            </span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" style="--cz-dropdown-spacer: .625rem; --cz-dropdown-min-width: 9rem">
+            <li>
+              <button type="button" class="dropdown-item active" data-bs-theme-value="light" aria-pressed="true">
+                <span class="theme-icon d-flex fs-base me-2">
+                  <i class="ci-sun"></i>
+                </span>
+                <span class="theme-label">Light</span>
+                <i class="item-active-indicator ci-check ms-auto"></i>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item" data-bs-theme-value="dark" aria-pressed="false">
+                <span class="theme-icon d-flex fs-base me-2">
+                  <i class="ci-moon"></i>
+                </span>
+                <span class="theme-label">Dark</span>
+                <i class="item-active-indicator ci-check ms-auto"></i>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item" data-bs-theme-value="auto" aria-pressed="false">
+                <span class="theme-icon d-flex fs-base me-2">
+                  <i class="ci-auto"></i>
+                </span>
+                <span class="theme-label">Auto</span>
+                <i class="item-active-indicator ci-check ms-auto"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-icon btn-outline-secondary border-0 d-lg-none ms-2 me-n2" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navbar navigation">
+          <i class="ci-more-horizontal fs-3"></i>
+        </button>
+        <a class="btn btn-primary animate-slide-end d-none d-lg-inline-flex ms-4" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noreferrer">
+          <i class="ci-shopping-cart fs-base animate-target ms-n1 me-2"></i>
+          Buy now
+        </a>
+      </div>
+    </header>
+
+
+    <!-- Page container -->
+    <div class="container pt-4">
+      <div class="row pt-sm-2">
+
+        <!-- Sidebar navigation -->
+        <aside class="col-lg-3 pe-xl-4">
+          <div class="cd-sidebar" data-filter-list='{"searchClass": "docs-search", "listClass": "docs-list", "valueNames": ["list-group-item"]}'>
+            <div id="sidebarNav" class="offcanvas-lg offcanvas-start d-flex flex-column h-100" tabindex="-1" aria-labelledby="sidebarNavLabel">
+              <div class="offcanvas-header py-3">
+                <h5 class="offcanvas-title" id="sidebarNavLabel">Browse docs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav" aria-label="Close"></button>
+              </div>
+              <div class="position-relative mx-4 ms-lg-0 mb-4">
+                <i class="ci-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <input type="search" class="docs-search form-control form-icon-start" placeholder="Quick search...">
+              </div>
+              <div class="offcanvas-body d-block flex-grow-1 overflow-hidden pt-0 pe-0 pb-lg-2">
+                <div id="scrollable" class="h-100 overflow-y-auto pe-4">
+                  <nav class="docs-list list-group list-group-borderless" onclick="closeSidebar()">
+                    <h3 class="h6 d-flex align-items-center pb-1 mb-2">
+                      <i class="ci-book fs-lg text-success me-2"></i>
+                      Getting started
+                    </h3>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="installation.html">
+                        Installation
+                        <span class="visually-hidden">setup npm prerequisites</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle text-wrap pe-3" href="npm-scripts.html">
+                        Npm commands (Scripts)
+                        <span class="visually-hidden">dev build styles:compile styles:minify scripts:compile scripts:minify icon-font vendor validate watch dist</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="structure.html">
+                        File structure
+                        <span class="visually-hidden">project folders</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="configuration.html">
+                        Configuration files
+                        <span class="visually-hidden">package.json config.js babelrc browserslistrc editorconfig eslintrc gitignore htmlvalidate prettierignore prettierrc stylelintrc webmanifest manifest.json</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle text-wrap pe-3" href="pwa.html">
+                        Progressive Web App (PWA)
+                        <span class="visually-hidden">service worker manifest</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="web-font.html">
+                        Web font(s)
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="icon-font.html">
+                        Icon font
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="performance.html">
+                        Performance: CLS &amp; Preload
+                        <span class="visually-hidden">cumulative layout shift loading aspect-ratio</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="browser-support.html">
+                        Browser support
+                        <span class="visually-hidden">autoprefixer</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="rtl.html">Right-to-Left (RTL)</a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="deployment.html">
+                        Deployment guide
+                        <span class="visually-hidden">launch hosting publishing rollout go-live</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="credits.html">
+                        Sources and credits
+                        <span class="visually-hidden">resources plugins libraries frameworks assets</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="changelog.html">
+                        Changelog
+                        <span class="visually-hidden">updates</span>
+                      </a>
+                    </div>
+                    <h3 class="h6 d-flex align-items-center border-top pt-4 pb-1 mt-3 mb-2">
+                      <i class="ci-settings fs-lg text-primary me-2"></i>
+                      Customize
+                    </h3>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="options.html">
+                        Global options
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="colors.html">
+                        Colors
+                        <span class="visually-hidden">grayscale primary secondary info warning success danger dark light</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3 text-wrap" href="color-modes.html">
+                        Color modes (Light/Dark)
+                        <span class="visually-hidden">themes</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="css-variables.html">
+                        CSS variables
+                      </a>
+                    </div>
+                    <h3 class="h6 d-flex align-items-center border-top pt-4 pb-1 mt-3 mb-2">
+                      <i class="ci-file-text fs-lg text-secondary me-2"></i>
+                      Content
+                    </h3>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="typography.html">
+                        Typography
+                        <span class="visually-hidden">text font heading title paragraph list ordered unordered description blockquote quotation abbreviation</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="icons.html">Icons</a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="code.html">
+                        Code
+                        <span class="visually-hidden">pre kbd highlight</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="images.html">
+                        Images &amp; figures
+                        <span class="visually-hidden">thumbnails picture</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                       <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="tables.html">
+                        Tables
+                      </a>
+                    </div>
+                    <h3 class="h6 d-flex align-items-center border-top pt-4 pb-1 mt-3 mb-2">
+                      <i class="ci-layers fs-lg text-info me-2"></i>
+                      Components
+                    </h3>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="accordion.html">
+                        Accordion
+                        <span class="visually-hidden">collapse</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="alerts.html">
+                        Alerts
+                        <span class="visually-hidden">notification callout</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="badges.html">
+                        Badges
+                        <span class="visually-hidden">count indicator</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="blog-components.html">
+                        Blog components
+                        <span class="visually-hidden">post article</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="breadcrumb.html">
+                        Breadcrumb
+                        <span class="visually-hidden">navigation links</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="buttons.html">
+                        Buttons
+                        <span class="visually-hidden">navigation links</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="button-group.html">
+                        Button group
+                        <span class="visually-hidden">navigation link</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="card.html">
+                        Card
+                        <span class="visually-hidden">box container</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="carousel.html">
+                        Carousel (Slider)
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="collapse.html">
+                        Collapse
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="countdown.html">
+                        Countdown
+                        <span class="visually-hidden">timer</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="date-picker.html">
+                        Date / time picker
+                        <span class="visually-hidden">calendar form control input select</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="dropdowns.html">
+                        Dropdowns
+                        <span class="visually-hidden">navigation menu submenu overlay links dropend dropstart dropup</span>
+                      </a>
+                    </div>
+                    <div class="dropdown">
+                      <span class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3 active pe-none">
+                        Forms
+                        <span class="visually-hidden">input select textarea checkbox radio range slider picker floating label validation control file switch quantity</span>
+                      </span>
+                      <ul id="anchorNav" class="nav nav-underline flex-column border-start ms-2 my-2" style="gap: .25rem;">
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-types">Supported input types</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-floating-labels">Floating labels</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-custom-select">Custom select</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-password-toggle">Password visibility toggle</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-checkboxes">Checkboxes</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-radios">Radio buttons</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-switches">Switches</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-btns">Button toggles (Color, size options)</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-count">Count input (+/-)</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-range-slider">Range slider</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-shapes">Shapes</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-sizes">Sizes</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-disabled">Readonly &amp; disabled</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-inline">Inline form</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-help-text">Help text</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-validation-text">Validation: status text</a></li>
+                        <li class="nav-item"><a class="nav-link fw-normal" href="#forms-validation-tooltips">Validation: status tooltips</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="hotspots.html">
+                        Hotspots
+                        <span class="visually-hidden">overlay popover tooltip image picture</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="image-comparison-slider.html">
+                        Image comparison slider
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="image-zoom.html">
+                        Image zoom
+                        <span class="visually-hidden">hover overlay popover picture</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="input-group.html">
+                        Input group
+                        <span class="visually-hidden">form control select textarea addon</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="input-formatter.html">
+                        Input text formatter
+                        <span class="visually-hidden">form control mask</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="lightbox.html">
+                        Lightbox (Gallery)
+                        <span class="visually-hidden">popup modal overlay image picture video youtube vimeo iframe</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="list-group.html">
+                        List group
+                        <span class="visually-hidden">navigation links menu ordered unordered</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="modal.html">
+                        Modal
+                        <span class="visually-hidden">dialog popup overlay lightbox</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="nav-links.html">
+                        Nav links
+                        <span class="visually-hidden">navigation menu links</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="navbar.html">
+                        Navbar
+                        <span class="visually-hidden">header navigation menu submenu links brand logo</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="offcanvas.html">
+                        Offcanvas
+                        <span class="visually-hidden">drawer overlay sidebar</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="pagination.html">
+                        Pagination
+                        <span class="visually-hidden">pager navigation links</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="pills.html">
+                        Pills
+                        <span class="visually-hidden">navigation links tabs</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="placeholders.html">
+                        Placeholders
+                        <span class="visually-hidden">loading loader</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="popovers.html">
+                        Popovers
+                        <span class="visually-hidden">tooltip overlay popup</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="product-cards.html">
+                        Product cards
+                        <span class="visually-hidden">shop store sell item cart</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="progress.html">
+                        Progress
+                        <span class="visually-hidden">bars status</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="reviews.html">
+                        Reviews
+                        <span class="visually-hidden">testimonials feedback stars rating</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="scrollbar.html">
+                        Scrollbar
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="scrollspy.html">
+                        Scrollspy
+                        <span class="visually-hidden">anchor links navigation menu</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="select-box.html">
+                        Select box
+                        <span class="visually-hidden">tags choices input form multiple control</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="shop-categories.html">
+                        Shop categories
+                        <span class="visually-hidden">store filter links navigation cards</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="shop-filters.html">
+                        Shop filters
+                        <span class="visually-hidden">store sidebar widgets sort</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="spinners.html">
+                        Spinners
+                        <span class="visually-hidden">loading loader</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="tabs.html">
+                        Tabs
+                        <span class="visually-hidden">navigation links underline</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="toasts.html">
+                        Toasts
+                        <span class="visually-hidden">notification overlay popup alert feedback</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="tooltips.html">
+                        Tooltips
+                        <span class="visually-hidden">overlay popup popover</span>
+                      </a>
+                    </div>
+                    <h3 class="h6 d-flex align-items-center border-top pt-4 pb-1 mt-3 mb-2">
+                      <i class="ci-tool fs-lg text-warning me-2"></i>
+                      Utilities &amp; helpers
+                    </h3>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="utilities.html">
+                        Cartzilla utilities
+                        <span class="visually-hidden">border background cursor</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="https://getbootstrap.com/docs/5.3/utilities/background/" target="_blank" rel="noreferrer">
+                        Bootstrap utilities
+                        <span class="visually-hidden">border background color text font size position weight display opacity flex space spacing align visibility overflow object float shadow</span>
+                      </a>
+                    </div>
+                    <div class="dropend">
+                      <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3" href="https://getbootstrap.com/docs/5.3/helpers/clearfix/" target="_blank" rel="noreferrer">
+                        Bootstrap helpers
+                        <span class="visually-hidden">position ratio stacks stretched link focus truncation rule</span>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+
+        <!-- Page content -->
+        <main class="col-lg-9 pt-1 pb-5 mb-sm-2 mb-md-3">
+
+          <!-- Page title -->
+          <section class="pt-2 pb-md-2">
+            <a class="badge d-inline-flex align-items-center text-info bg-info-subtle fw-semibold text-decoration-none py-2 px-3 mb-2 rounded-pill" href="https://getbootstrap.com/docs/5.3/forms/overview/" target="_blank" rel="noreferrer">
+              Bootstrap docs
+              <i class="ci-external-link fs-sm ms-1"></i>
+            </a>
+            <h1 class="pt-1">Forms</h1>
+            <p class="text-body-secondary mb-4">Form control styles, layout options, and custom components.</p>
+          </section>
+
+
+          <!-- Info alert -->
+          <section class="alert d-sm-flex text-body-emphasis bg-info-subtle border-0 py-4 mb-5">
+            <i class="ci-info text-info fs-4 mb-2 mb-sm-0"></i>
+            <div class="ps-sm-3 pe-sm-5 w-100">
+              <p><strong>Range slider</strong> depends on <a class="alert-link" href="https://refreshless.com/nouislider/" target="_blank" rel="noreferrer">noUISlider</a> plugin. Make sure to link to the plugin's css and js files in your document.</p>
+              <p class="mb-2">CSS file is linked in the <code>&lt;head&gt;</code> section and above <code>theme.min.css</code> reference in your document:</p>
+              <pre class="code-highlight border mb-3" data-bs-theme="dark"><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/vendor/nouislider/dist/nouislider.min.css&quot;&gt;</code></pre>
+              <p class="mb-2">JavaScript file is linked before the closing <code>&lt;/body&gt;</code> tag and above <code>theme.min.js</code> reference in your document:</p>
+              <pre class="code-highlight border mb-4" data-bs-theme="dark"><code class="language-html">&lt;script src=&quot;assets/vendor/nouislider/dist/nouislider.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+              <p>The <strong>Custom select</strong> component relies on the <a class="alert-link" href="https://github.com/Choices-js/Choices" target="_blank" rel="noreferrer">Choices.js</a> plugin. To use this component, make sure to include the required reference to the plugin's css and js files in your document:</p>
+              <pre class="code-highlight border mt-3" data-bs-theme="dark"><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/vendor/choices.js/public/assets/styles/choices.min.css&quot;&gt;
+&lt;script src=&quot;assets/vendor/choices.js/public/assets/scripts/choices.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+            </div>
+          </section>
+
+
+          <!-- Supported input types -->
+          <section id="forms-types" class="cd-section pb-sm-2 mb-5">
+            <h4>Supported input types</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-1" role="tab" aria-controls="preview-1" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-1" role="tab" aria-controls="html-1" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-1" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="mb-2 mb-md-3 mt-n3 mt-md-0 row align-items-center">
+                      <label for="text-input" class="col-md-2 col-form-label">Text</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="text-input" value="Artisanal kale">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="search-input" class="col-md-2 col-form-label">Search</label>
+                      <div class="col-md-10">
+                        <input type="search" class="form-control" id="search-input" value="How do I shoot web">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="email-input" class="col-md-2 col-form-label">Email</label>
+                      <div class="col-md-10">
+                        <input type="email" class="form-control" id="email-input" value="email@example.com">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="url-input" class="col-md-2 col-form-label">URL</label>
+                      <div class="col-md-10">
+                        <input type="url" class="form-control" id="url-input" value="https://getbootstrap.com">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="tel-input" class="col-md-2 col-form-label">Phone</label>
+                      <div class="col-md-10">
+                        <input type="tel" class="form-control" id="tel-input" value="1-(770)-334-2518">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="pass-input" class="col-md-2 col-form-label">Password</label>
+                      <div class="col-md-10">
+                        <input type="password" class="form-control" id="pass-input" value="mypasswordexample">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row">
+                      <label for="textarea-input" class="col-md-2 col-form-label">Textarea</label>
+                      <div class="col-md-10">
+                        <textarea class="form-control" id="textarea-input" rows="5">Hello World!</textarea>
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="select-input" class="col-md-2 col-form-label">Select</label>
+                      <div class="col-md-10">
+                        <select class="form-select" id="select-input" aria-label="Default select example">
+                          <option selected disabled>Choose option...</option>
+                          <option value="1">Option item 1</option>
+                          <option value="2">Option item 2</option>
+                          <option value="3">Option item 3</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="multiselect-input" class="col-md-2 col-form-label">Multiselect</label>
+                      <div class="col-md-10">
+                        <select class="form-select" id="multiselect-input" size="3" multiple aria-label="Multiple select example">
+                          <option value="1" selected>Option item 1</option>
+                          <option value="2">Option item 2</option>
+                          <option value="3">Option item 3</option>
+                          <option value="4">Option item 4</option>
+                          <option value="5">Option item 5</option>
+                          <option value="6">Option item 6</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="file-input" class="col-md-2 col-form-label">File</label>
+                      <div class="col-md-10">
+                        <input type="file" class="form-control" id="file-input">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="number-input" class="col-md-2 col-form-label">Number</label>
+                      <div class="col-md-10">
+                        <input type="number" class="form-control" id="number-input" value="37">
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="datalist-input" class="col-md-2 col-form-label">Datalist</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" list="datalist-options" id="datalist-input" placeholder="Type to search...">
+                        <datalist id="datalist-options">
+                          <option value="San Francisco"></option>
+                          <option value="New York"></option>
+                          <option value="Seattle"></option>
+                          <option value="Los Angeles"></option>
+                          <option value="Chicago"></option>
+                        </datalist>
+                      </div>
+                    </div>
+                    <div class="mb-2 mb-md-3 row align-items-center">
+                      <label for="range-input" class="col-md-2 col-form-label">Range</label>
+                      <div class="col-md-10">
+                        <input type="range" class="form-range" id="range-input">
+                      </div>
+                    </div>
+                    <div class="row align-items-center">
+                      <label for="color-input" class="col-md-2 col-form-label">Color</label>
+                      <div class="col-md-10">
+                        <input type="color" class="form-control form-control-color" id="color-input" value="#ffa14a">
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-1" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-types-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-types-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Text input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;text-input&quot; class=&quot;form-label&quot;&gt;Text&lt;/label&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;text-input&quot; value=&quot;Artisanal kale&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Search input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;search-input&quot; class=&quot;form-label&quot;&gt;Search&lt;/label&gt;
+  &lt;input type=&quot;search&quot; class=&quot;form-control&quot; id=&quot;search-input&quot; value=&quot;How do I shoot web&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Email input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;email-input&quot; class=&quot;form-label&quot;&gt;Email&lt;/label&gt;
+  &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email-input&quot; value=&quot;email@example.com&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- URL input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;url-input&quot; class=&quot;form-label&quot;&gt;URL&lt;/label&gt;
+  &lt;input type=&quot;url&quot; class=&quot;form-control&quot; id=&quot;url-input&quot; value=&quot;https://getbootstrap.com&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Phone input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;tel-input&quot; class=&quot;form-label&quot;&gt;Phone&lt;/label&gt;
+  &lt;input type=&quot;tel&quot; class=&quot;form-control&quot; id=&quot;tel-input&quot; value=&quot;1-(770)-334-2518&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Password input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;pass-input&quot; class=&quot;form-label&quot;&gt;Password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;pass-input&quot; value=&quot;mypasswordexample&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Textarea --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;textarea-input&quot; class=&quot;form-label&quot;&gt;Textarea&lt;/label&gt;
+  &lt;textarea class=&quot;form-control&quot; id=&quot;textarea-input&quot; rows=&quot;5&quot;&gt;Hello World!&lt;/textarea&gt;
+&lt;/div&gt;
+
+&lt;!-- Select --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;select-input&quot; class=&quot;form-label&quot;&gt;Select&lt;/label&gt;
+  &lt;select class=&quot;form-select&quot; id=&quot;select-input&quot; aria-label=&quot;Default select example&quot;&gt;
+    &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+    &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+    &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+    &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;!-- Multiselect --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;multiselect-input&quot; class=&quot;form-label&quot;&gt;Multiselect&lt;/label&gt;
+  &lt;select class=&quot;form-select&quot; id=&quot;multiselect-input&quot; size=&quot;3&quot; multiple aria-label=&quot;Multiple select example&quot;&gt;
+    &lt;option value=&quot;1&quot; selected&gt;Option item 1&lt;/option&gt;
+    &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+    &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+    &lt;option value=&quot;4&quot;&gt;Option item 4&lt;/option&gt;
+    &lt;option value=&quot;5&quot;&gt;Option item 5&lt;/option&gt;
+    &lt;option value=&quot;6&quot;&gt;Option item 6&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;!-- File input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;file-input&quot; class=&quot;form-label&quot;&gt;File&lt;/label&gt;
+  &lt;input type=&quot;file&quot; class=&quot;form-control&quot; id=&quot;file-input&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Number input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;number-input&quot; class=&quot;form-label&quot;&gt;Number&lt;/label&gt;
+  &lt;input type=&quot;number&quot; class=&quot;form-control&quot; id=&quot;number-input&quot; value=&quot;37&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Datalist --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;datalist-input&quot; class=&quot;form-label&quot;&gt;Datalist&lt;/label&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; list=&quot;datalist-options&quot; id=&quot;datalist-input&quot; placeholder=&quot;Type to search...&quot;&gt;
+  &lt;datalist id=&quot;datalist-options&quot;&gt;
+    &lt;option value=&quot;San Francisco&quot;&gt;
+    &lt;option value=&quot;New York&quot;&gt;
+    &lt;option value=&quot;Seattle&quot;&gt;
+    &lt;option value=&quot;Los Angeles&quot;&gt;
+    &lt;option value=&quot;Chicago&quot;&gt;
+  &lt;/datalist&gt;
+&lt;/div&gt;
+
+&lt;!-- Range input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;range-input&quot; class=&quot;form-label&quot;&gt;Range&lt;/label&gt;
+  &lt;input type=&quot;range&quot; class=&quot;form-range&quot; id=&quot;range-input&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Color input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;color-input&quot; class=&quot;form-label&quot;&gt;Color&lt;/label&gt;
+  &lt;input type=&quot;color&quot; class=&quot;form-control form-control-color&quot; id=&quot;color-input&quot; value=&quot;#ffa14a&quot;&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Floating labels -->
+          <section id="forms-floating-labels" class="cd-section pb-sm-2 mb-5">
+            <h4>Floating labels</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-2" role="tab" aria-controls="preview-2" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-2" role="tab" aria-controls="html-2" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-2" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div style="max-width: 400px">
+                      <div class="form-floating mb-3">
+                        <input class="form-control" type="text" id="fl-text" placeholder="Your name">
+                        <label for="fl-text">Your name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <select class="form-select" id="fl-select" aria-label="Floating label select">
+                          <option value="Argentina" selected>Argentina</option>
+                          <option value="Belgium">Belgium</option>
+                          <option value="France">France</option>
+                          <option value="Germany">Germany</option>
+                          <option value="Japan">Japan</option>
+                          <option value="Spain">Spain</option>
+                          <option value="USA">USA</option>
+                        </select>
+                        <label for="fl-select">Your country</label>
+                      </div>
+                      <div class="form-floating">
+                        <textarea class="form-control" id="fl-textarea" style="height: 120px;" placeholder="Your message"></textarea>
+                        <label for="fl-textarea">Your message</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-2" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-floating-labels-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-floating-labels-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Floating label: Text input --&gt;
+&lt;div class=&quot;form-floating mb-3&quot;&gt;
+  &lt;input class=&quot;form-control&quot; type=&quot;text&quot; id=&quot;fl-text&quot; placeholder=&quot;Your name&quot;&gt;
+  &lt;label for=&quot;fl-text&quot;&gt;Your name&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Floating label: Select --&gt;
+&lt;div class=&quot;form-floating mb-3&quot;&gt;
+  &lt;select class=&quot;form-select&quot; id=&quot;fl-select&quot; aria-label=&quot;Floating label select&quot;&gt;
+    &lt;option value=&quot;Argentina&quot; selected&gt;Argentina&lt;/option&gt;
+    &lt;option value=&quot;Belgium&quot;&gt;Belgium&lt;/option&gt;
+    &lt;option value=&quot;France&quot;&gt;France&lt;/option&gt;
+    &lt;option value=&quot;Germany&quot;&gt;Germany&lt;/option&gt;
+    &lt;option value=&quot;Japan&quot;&gt;Japan&lt;/option&gt;
+    &lt;option value=&quot;Spain&quot;&gt;Spain&lt;/option&gt;
+    &lt;option value=&quot;USA&quot;&gt;USA&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;label for=&quot;fl-select&quot;&gt;Your country&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Floating label: Textarea --&gt;
+&lt;div class=&quot;form-floating mb-3&quot;&gt;
+  &lt;textarea class=&quot;form-control&quot; id=&quot;fl-textarea&quot; style=&quot;height: 120px;&quot; placeholder=&quot;Your message&quot;&gt;&lt;/textarea&gt;
+  &lt;label for=&quot;fl-textarea&quot;&gt;Your message&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Custom select -->
+          <section id="forms-custom-select" class="cd-section position-relative z-3 pb-sm-2 mb-5">
+            <h4 class="mb-2">Custom select</h4>
+            <p class="fs-sm"><span class="opacity-75">Learn more about this component in</span> <a class="fw-medium" href="select-box.html">Select box</a> <span class="opacity-75">section.</span></p>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-3" role="tab" aria-controls="preview-3" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-3" role="tab" aria-controls="html-3" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-3" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <label class="form-label">Basic example</label>
+                    <div class="mb-3" style="max-width: 400px">
+                      <select class="form-select" data-select aria-label="Basic select example">
+                        <option value="">Select country...</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Switzerland">Switzerland</option>
+                      </select>
+                    </div>
+                    <label class="form-label">Search example</label>
+                    <div style="max-width: 400px">
+                      <select class="form-select" data-select='{"searchEnabled": true}' aria-label="Select with search">
+                        <option value="">Select country...</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United Kingdom">United States</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div id="html-3" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-custom-select-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-custom-select-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Basic example of custom select --&gt;
+&lt;label class=&quot;form-label&quot;&gt;Basic example&lt;/label&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;select class=&quot;form-select&quot; data-select aria-label=&quot;Basic select example&quot;&gt;
+    &lt;option value=&quot;&quot;&gt;Select country...&lt;/option&gt;
+    &lt;option value=&quot;Argentina&quot;&gt;Argentina&lt;/option&gt;
+    &lt;option value=&quot;Belgium&quot;&gt;Belgium&lt;/option&gt;
+    &lt;option value=&quot;Denmark&quot;&gt;Denmark&lt;/option&gt;
+    &lt;option value=&quot;France&quot;&gt;France&lt;/option&gt;
+    &lt;option value=&quot;Germany&quot;&gt;Germany&lt;/option&gt;
+    &lt;option value=&quot;Japan&quot;&gt;Japan&lt;/option&gt;
+    &lt;option value=&quot;Switzerland&quot;&gt;Switzerland&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;!-- Added search functionality --&gt;
+&lt;label class=&quot;form-label&quot;&gt;Search example&lt;/label&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;select class=&quot;form-select&quot; data-select='{&quot;searchEnabled&quot;: true}' aria-label=&quot;Select with search&quot;&gt;
+    &lt;option value=&quot;&quot;&gt;Select country...&lt;/option&gt;
+    &lt;option value=&quot;Argentina&quot;&gt;Argentina&lt;/option&gt;
+    &lt;option value=&quot;Belgium&quot;&gt;Belgium&lt;/option&gt;
+    &lt;option value=&quot;Denmark&quot;&gt;Denmark&lt;/option&gt;
+    &lt;option value=&quot;France&quot;&gt;France&lt;/option&gt;
+    &lt;option value=&quot;Germany&quot;&gt;Germany&lt;/option&gt;
+    &lt;option value=&quot;Japan&quot;&gt;Japan&lt;/option&gt;
+    &lt;option value=&quot;Poland&quot;&gt;Poland&lt;/option&gt;
+    &lt;option value=&quot;Spain&quot;&gt;Spain&lt;/option&gt;
+    &lt;option value=&quot;Switzerland&quot;&gt;Switzerland&lt;/option&gt;
+    &lt;option value=&quot;United Kingdom&quot;&gt;United Kingdom&lt;/option&gt;
+    &lt;option value=&quot;United Kingdom&quot;&gt;United States&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Password visibility toggle -->
+          <section id="forms-password-toggle" class="cd-section pb-sm-2 mb-5">
+            <h4>Password visibility toggle</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-4" role="tab" aria-controls="preview-4" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-4" role="tab" aria-controls="html-4" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-4" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <label for="pass-visibility" class="form-label">Password</label>
+                    <div class="password-toggle" style="max-width: 400px">
+                      <input type="password" class="form-control" id="pass-visibility" value="hidden@password">
+                      <label class="password-toggle-button" aria-label="Show/hide password">
+                        <input type="checkbox" class="btn-check">
+                      </label>
+                    </div>
+                  </div>
+                  <div id="html-4" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-password-toggle-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-password-toggle-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Password visibility toggle --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;pass-visibility&quot; class=&quot;form-label&quot;&gt;Password&lt;/label&gt;
+  &lt;div class=&quot;password-toggle&quot;&gt;
+    &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;pass-visibility&quot; value=&quot;hidden@password&quot;&gt;
+    &lt;label class=&quot;password-toggle-button&quot; aria-label=&quot;Show/hide password&quot;&gt;
+      &lt;input type=&quot;checkbox&quot; class=&quot;btn-check&quot;&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Checkboxes -->
+          <section id="forms-checkboxes" class="cd-section pb-sm-2 mb-5">
+            <h4>Checkboxes</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-5" role="tab" aria-controls="preview-5" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-5" role="tab" aria-controls="html-5" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-5" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="ex-check-1">
+                      <label for="ex-check-1" class="form-check-label">Check this checkbox</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="ex-check-2" checked>
+                      <label for="ex-check-2" class="form-check-label">Uncheck this checkbox</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="ex-check-3" disabled>
+                      <label for="ex-check-3" class="form-check-label">Disabled checkbox</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="ex-check-4" checked disabled>
+                      <label for="ex-check-4" class="form-check-label">Disabled checked</label>
+                    </div>
+                    <div class="pt-3">
+                      <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="ex-check-5">
+                        <label for="ex-check-5" class="form-check-label">Check this checkbox</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="ex-check-6" checked>
+                        <label for="ex-check-6" class="form-check-label">Uncheck this checkbox</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="ex-check-7" disabled>
+                        <label for="ex-check-7" class="form-check-label">Disabled checkbox</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="ex-check-8" checked disabled>
+                        <label for="ex-check-8" class="form-check-label">Disabled checked</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-5" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-checkboxes-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-checkboxes-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Stacked checkboxes --&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-1&quot;&gt;
+  &lt;label for=&quot;ex-check-1&quot; class=&quot;form-check-label&quot;&gt;Check this checkbox&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-2&quot; checked&gt;
+  &lt;label for=&quot;ex-check-2&quot; class=&quot;form-check-label&quot;&gt;Uncheck this checkbox&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-3&quot; disabled&gt;
+  &lt;label for=&quot;ex-check-3&quot; class=&quot;form-check-label&quot;&gt;Disabled checkbox&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-4&quot; checked disabled&gt;
+  &lt;label for=&quot;ex-check-4&quot; class=&quot;form-check-label&quot;&gt;Disabled checked&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Inline checkboxes --&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-5&quot;&gt;
+  &lt;label for=&quot;ex-check-5&quot; class=&quot;form-check-label&quot;&gt;Check this checkbox&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-6&quot; checked&gt;
+  &lt;label for=&quot;ex-check-6&quot; class=&quot;form-check-label&quot;&gt;Uncheck this checkbox&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-7&quot; disabled&gt;
+  &lt;label for=&quot;ex-check-7&quot; class=&quot;form-check-label&quot;&gt;Disabled checkbox&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;ex-check-8&quot; checked disabled&gt;
+  &lt;label for=&quot;ex-check-8&quot; class=&quot;form-check-label&quot;&gt;Disabled checked&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Radio buttons -->
+          <section id="forms-radios" class="cd-section pb-sm-2 mb-5">
+            <h4>Radio buttons</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-6" role="tab" aria-controls="preview-6" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-6" role="tab" aria-controls="html-6" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-6" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="ex-radio-1" name="radio">
+                      <label for="ex-radio-1" class="form-check-label">Toggle this radio</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="ex-radio-2" name="radio" checked>
+                      <label for="ex-radio-2" class="form-check-label">Toggle this radio</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="ex-radio-3" disabled>
+                      <label for="ex-radio-3" class="form-check-label">Disabled radio</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="ex-radio-4" checked disabled>
+                      <label for="ex-radio-4" class="form-check-label">Disabled checked</label>
+                    </div>
+                    <div class="pt-3">
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="ex-radio-5" name="radio-inline">
+                        <label for="ex-radio-5" class="form-check-label">Toggle this radio</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="ex-radio-6" name="radio-inline" checked>
+                        <label for="ex-radio-6" class="form-check-label">Toggle this radio</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="ex-radio-7" disabled>
+                        <label for="ex-radio-7" class="form-check-label">Disabled radio</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="ex-radio-8" checked disabled>
+                        <label for="ex-radio-8" class="form-check-label">Disabled checked</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-6" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-radios-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-radios-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Stacked radio buttons --&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-1&quot; name=&quot;radio&quot;&gt;
+  &lt;label for=&quot;ex-radio-1&quot; class=&quot;form-check-label&quot;&gt;Toggle this radio&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-2&quot; name=&quot;radio&quot; checked&gt;
+  &lt;label for=&quot;ex-radio-2&quot; class=&quot;form-check-label&quot;&gt;Toggle this radio&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-3&quot; disabled&gt;
+  &lt;label for=&quot;ex-radio-3&quot; class=&quot;form-check-label&quot;&gt;Disabled radio&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-4&quot; checked disabled&gt;
+  &lt;label for=&quot;ex-radio-4&quot; class=&quot;form-check-label&quot;&gt;Disabled checked&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Inline radio buttons --&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-5&quot; name=&quot;radio-inline&quot;&gt;
+  &lt;label for=&quot;ex-radio-5&quot; class=&quot;form-check-label&quot;&gt;Toggle this radio&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-6&quot; name=&quot;radio-inline&quot; checked&gt;
+  &lt;label for=&quot;ex-radio-6&quot; class=&quot;form-check-label&quot;&gt;Toggle this radio&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-7&quot; disabled&gt;
+  &lt;label for=&quot;ex-radio-7&quot; class=&quot;form-check-label&quot;&gt;Disabled radio&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-check form-check-inline&quot;&gt;
+  &lt;input type=&quot;radio&quot; class=&quot;form-check-input&quot; id=&quot;ex-radio-8&quot; checked disabled&gt;
+  &lt;label for=&quot;ex-radio-8&quot; class=&quot;form-check-label&quot;&gt;Disabled checked&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Switches -->
+          <section id="forms-switches" class="cd-section pb-sm-2 mb-5">
+            <h4>Switches</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-7" role="tab" aria-controls="preview-7" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-7" role="tab" aria-controls="html-7" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-7" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="form-check form-switch">
+                      <input type="checkbox" class="form-check-input" role="switch" id="ex-switch-1">
+                      <label for="ex-switch-1" class="form-check-label">Default switch checkbox</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" class="form-check-input" role="switch" id="ex-switch-2" checked>
+                      <label for="ex-switch-2" class="form-check-label">Checked switch checkbox</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" class="form-check-input" role="switch" id="ex-switch-3" disabled>
+                      <label for="ex-switch-3" class="form-check-label">Disabled switch checkbox</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" class="form-check-input" role="switch" id="ex-switch-4" checked disabled>
+                      <label for="ex-switch-4" class="form-check-label">Disabled checked switch checkbox</label>
+                    </div>
+                  </div>
+                  <div id="html-7" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-switches-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-switches-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Idle switch --&gt;
+&lt;div class=&quot;form-check form-switch&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; role=&quot;switch&quot; id=&quot;ex-switch-1&quot;&gt;
+  &lt;label for=&quot;ex-switch-1&quot; class=&quot;form-check-label&quot;&gt;Default switch checkbox&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Checked switch --&gt;
+&lt;div class=&quot;form-check form-switch&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; role=&quot;switch&quot; id=&quot;ex-switch-2&quot; checked&gt;
+  &lt;label for=&quot;ex-switch-2&quot; class=&quot;form-check-label&quot;&gt;Checked switch checkbox&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Disabled switch --&gt;
+&lt;div class=&quot;form-check form-switch&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; role=&quot;switch&quot; id=&quot;ex-switch-3&quot; disabled&gt;
+  &lt;label for=&quot;ex-switch-3&quot; class=&quot;form-check-label&quot;&gt;Disabled switch checkbox&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;!-- Checked disabled switch --&gt;
+&lt;div class=&quot;form-check form-switch&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; role=&quot;switch&quot; id=&quot;ex-switch-4&quot; checked disabled&gt;
+  &lt;label for=&quot;ex-switch-4&quot; class=&quot;form-check-label&quot;&gt;Disabled checked switch checkbox&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Button toggles (Color, size options) -->
+          <section id="forms-btns" class="cd-section pb-sm-2 mb-5">
+            <h4>Button toggles (Color, size options)</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-8" role="tab" aria-controls="preview-8" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-8" role="tab" aria-controls="html-8" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-8" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="mb-4">
+                      <label class="form-label pb-1 mb-2">Sizes</label>
+                      <div class="d-flex flex-wrap gap-2">
+                        <input type="radio" class="btn-check" name="size-options" id="size-1" checked>
+                        <label for="size-1" class="btn btn-icon btn-sm btn-outline-secondary">XL</label>
+                        <input type="radio" class="btn-check" name="size-options" id="size-2">
+                        <label for="size-2" class="btn btn-icon btn-sm btn-outline-secondary">L</label>
+                        <input type="radio" class="btn-check" name="size-options" id="size-3">
+                        <label for="size-3" class="btn btn-icon btn-sm btn-outline-secondary">M</label>
+                        <input type="radio" class="btn-check" name="size-options" id="size-4" disabled>
+                        <label for="size-4" class="btn btn-icon btn-sm btn-outline-secondary">S</label>
+                        <input type="radio" class="btn-check" name="size-options" id="size-5">
+                        <label for="size-5" class="btn btn-icon btn-sm btn-outline-secondary">XS</label>
+                      </div>
+                    </div>
+                    <div class="mb-4">
+                      <label class="form-label pb-1 mb-2">Model</label>
+                      <div class="d-flex flex-wrap gap-2">
+                        <input type="radio" class="btn-check" name="model-options" id="model-1" checked>
+                        <label for="model-1" class="btn btn-sm btn-outline-secondary">64 GB</label>
+                        <input type="radio" class="btn-check" name="model-options" id="model-2">
+                        <label for="model-2" class="btn btn-sm btn-outline-secondary">128 GB</label>
+                        <input type="radio" class="btn-check" name="model-options" id="model-3">
+                        <label for="model-3" class="btn btn-sm btn-outline-secondary">256 GB</label>
+                        <input type="radio" class="btn-check" name="model-options" id="model-4" disabled>
+                        <label for="model-4" class="btn btn-sm btn-outline-secondary">512 GB</label>
+                      </div>
+                    </div>
+                    <div class="mb-4">
+                      <label class="form-label pb-1 mb-2">Color: <span class="text-body fw-normal" id="colorOption">Gray blue</span></label>
+                      <div class="d-flex flex-wrap gap-2" data-binded-label="#colorOption">
+                        <input type="radio" class="btn-check" name="color-options" id="color-1" checked>
+                        <label for="color-1" class="btn btn-color fs-xl" data-label="Gray blue" style="color: #5a7aa1">
+                          <span class="visually-hidden">Gray blue</span>
+                        </label>
+                        <input type="radio" class="btn-check" name="color-options" id="color-2">
+                        <label for="color-2" class="btn btn-color fs-xl" data-label="Pink" style="color: #ee7976">
+                          <span class="visually-hidden">Pink</span>
+                        </label>
+                        <input type="radio" class="btn-check" name="color-options" id="color-3">
+                        <label for="color-3" class="btn btn-color fs-xl" data-label="Light blue" style="color: #9acbf1">
+                          <span class="visually-hidden">Light blue</span>
+                        </label>
+                        <input type="radio" class="btn-check" name="color-options" id="color-4">
+                        <label for="color-4" class="btn btn-color fs-xl" data-label="Green" style="color: #8cd1ab">
+                          <span class="visually-hidden">Green</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div>
+                      <label class="form-label pb-1 mb-2">Color: <span class="text-body fw-normal" id="colorImageOption">Viridian</span></label>
+                      <div class="d-flex flex-wrap gap-2" data-binded-label="#colorImageOption">
+                        <input type="radio" class="btn-check" name="color-image-options" id="colorImage-1" checked>
+                        <label for="colorImage-1" class="btn btn-image p-0" data-label="Viridian">
+                          <img src="../assets/img/shop/furniture/product/colors/color01.png" width="56" alt="Viridian color">
+                          <span class="visually-hidden">Viridian</span>
+                        </label>
+                        <input type="radio" class="btn-check" name="color-image-options" id="colorImage-2">
+                        <label for="colorImage-2" class="btn btn-image p-0" data-label="Green">
+                          <img src="../assets/img/shop/furniture/product/colors/color02.png" width="56" alt="Green color">
+                          <span class="visually-hidden">Green</span>
+                        </label>
+                        <input type="radio" class="btn-check" name="color-image-options" id="colorImage-3">
+                        <label for="colorImage-3" class="btn btn-image p-0" data-label="Blue">
+                          <img src="../assets/img/shop/furniture/product/colors/color03.png" width="56" alt="Blue color">
+                          <span class="visually-hidden">Blue</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-8" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-btns-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-btns-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- All these components depend on Bootstrap's button-check which can either be radio button or checkbox. --&gt;
+
+&lt;!-- Size options made of .btn-outline-secondary --&gt;
+&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;label class=&quot;form-label pb-1 mb-2&quot;&gt;Sizes&lt;/label&gt;
+  &lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;size-options&quot; id=&quot;size-1&quot; checked&gt;
+    &lt;label for=&quot;size-1&quot; class=&quot;btn btn-icon btn-sm btn-outline-secondary&quot;&gt;XL&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;size-options&quot; id=&quot;size-2&quot;&gt;
+    &lt;label for=&quot;size-2&quot; class=&quot;btn btn-icon btn-sm btn-outline-secondary&quot;&gt;L&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;size-options&quot; id=&quot;size-3&quot;&gt;
+    &lt;label for=&quot;size-3&quot; class=&quot;btn btn-icon btn-sm btn-outline-secondary&quot;&gt;M&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;size-options&quot; id=&quot;size-4&quot; disabled&gt;
+    &lt;label for=&quot;size-4&quot; class=&quot;btn btn-icon btn-sm btn-outline-secondary&quot;&gt;S&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;size-options&quot; id=&quot;size-5&quot;&gt;
+    &lt;label for=&quot;size-5&quot; class=&quot;btn btn-icon btn-sm btn-outline-secondary&quot;&gt;XS&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Model options made of .btn-outline-secondary --&gt;
+&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;label class=&quot;form-label pb-1 mb-2&quot;&gt;Model&lt;/label&gt;
+  &lt;div class=&quot;d-flex flex-wrap gap-2&quot;&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;model-options&quot; id=&quot;model-1&quot; checked&gt;
+    &lt;label for=&quot;model-1&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;64 GB&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;model-options&quot; id=&quot;model-2&quot;&gt;
+    &lt;label for=&quot;model-2&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;128 GB&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;model-options&quot; id=&quot;model-3&quot;&gt;
+    &lt;label for=&quot;model-3&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;256 GB&lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;model-options&quot; id=&quot;model-4&quot; disabled&gt;
+    &lt;label for=&quot;model-4&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;512 GB&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Color options made of .btn-color with binded label --&gt;
+&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;label class=&quot;form-label pb-1 mb-2&quot;&gt;Color: &lt;span class=&quot;text-body fw-normal&quot; id=&quot;colorOption&quot;&gt;Gray blue&lt;/span&gt;&lt;/label&gt;
+  &lt;div class=&quot;d-flex flex-wrap gap-2&quot; data-binded-label=&quot;#colorOption&quot;&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-options&quot; id=&quot;color-1&quot; checked&gt;
+    &lt;label for=&quot;color-1&quot; class=&quot;btn btn-color fs-xl&quot; data-label=&quot;Gray blue&quot; style=&quot;color: #5a7aa1&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Gray blue&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-options&quot; id=&quot;color-2&quot;&gt;
+    &lt;label for=&quot;color-2&quot; class=&quot;btn btn-color fs-xl&quot; data-label=&quot;Pink&quot; style=&quot;color: #ee7976&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Pink&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-options&quot; id=&quot;color-3&quot;&gt;
+    &lt;label for=&quot;color-3&quot; class=&quot;btn btn-color fs-xl&quot; data-label=&quot;Light blue&quot; style=&quot;color: #9acbf1&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Light blue&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-options&quot; id=&quot;color-4&quot;&gt;
+    &lt;label for=&quot;color-4&quot; class=&quot;btn btn-color fs-xl&quot; data-label=&quot;Green&quot; style=&quot;color: #8cd1ab&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Green&lt;/span&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Color options made of .btn-image with binded label --&gt;
+&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;label class=&quot;form-label pb-1 mb-2&quot;&gt;Color: &lt;span class=&quot;text-body fw-normal&quot; id=&quot;colorImageOption&quot;&gt;Viridian&lt;/span&gt;&lt;/label&gt;
+  &lt;div class=&quot;d-flex flex-wrap gap-2&quot; data-binded-label=&quot;#colorImageOption&quot;&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-image-options&quot; id=&quot;colorImage-1&quot; checked&gt;
+    &lt;label for=&quot;colorImage-1&quot; class=&quot;btn btn-image p-0&quot; data-label=&quot;Viridian&quot;&gt;
+      &lt;img src=&quot;assets/img/shop/furniture/product/colors/color01.png&quot; width=&quot;56&quot; alt=&quot;Viridian color&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Viridian&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-image-options&quot; id=&quot;colorImage-2&quot;&gt;
+    &lt;label for=&quot;colorImage-2&quot; class=&quot;btn btn-image p-0&quot; data-label=&quot;Green&quot;&gt;
+      &lt;img src=&quot;assets/img/shop/furniture/product/colors/color02.png&quot; width=&quot;56&quot; alt=&quot;Green color&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Green&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;btn-check&quot; name=&quot;color-image-options&quot; id=&quot;colorImage-3&quot;&gt;
+    &lt;label for=&quot;colorImage-3&quot; class=&quot;btn btn-image p-0&quot; data-label=&quot;Blue&quot;&gt;
+      &lt;img src=&quot;assets/img/shop/furniture/product/colors/color03.png&quot; width=&quot;56&quot; alt=&quot;Blue color&quot;&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Blue&lt;/span&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Count input (+/-) -->
+          <section id="forms-count" class="cd-section pb-sm-2 mb-5">
+            <h4>Count input (+/-)</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-9" role="tab" aria-controls="preview-9" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-9" role="tab" aria-controls="html-9" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-9" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="count-input rounded-2 mb-3">
+                      <button type="button" class="btn btn-icon btn-sm" data-decrement aria-label="Decrement quantity">
+                        <i class="ci-minus"></i>
+                      </button>
+                      <input type="number" class="form-control form-control-sm" value="1" min="1" max="5" readonly>
+                      <button type="button" class="btn btn-icon btn-sm" data-increment aria-label="Increment quantity">
+                        <i class="ci-plus"></i>
+                      </button>
+                    </div>
+                    <br>
+                    <div class="count-input mb-3">
+                      <button type="button" class="btn btn-icon" data-decrement aria-label="Decrement quantity">
+                        <i class="ci-minus"></i>
+                      </button>
+                      <input type="number" class="form-control" value="1" readonly>
+                      <button type="button" class="btn btn-icon" data-increment aria-label="Increment quantity">
+                        <i class="ci-plus"></i>
+                      </button>
+                    </div>
+                    <br>
+                    <div class="count-input mb-3">
+                      <button type="button" class="btn btn-icon btn-lg" data-decrement aria-label="Decrement quantity">
+                        <i class="ci-minus"></i>
+                      </button>
+                      <input type="number" class="form-control form-control-lg" value="1" readonly>
+                      <button type="button" class="btn btn-icon btn-lg" data-increment aria-label="Increment quantity">
+                        <i class="ci-plus"></i>
+                      </button>
+                    </div>
+                    <br>
+                    <div class="count-input disabled">
+                      <button type="button" class="btn btn-icon disabled" data-decrement aria-label="Decrement quantity">
+                        <i class="ci-minus"></i>
+                      </button>
+                      <input type="number" class="form-control" value="1" disabled>
+                      <button type="button" class="btn btn-icon disabled" data-increment aria-label="Increment quantity">
+                        <i class="ci-plus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="html-9" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-count-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-count-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- The number input within the Count Input component accepts two attributes: "min" and "max." See it in action in the first example below. --&gt;
+&lt;!-- Small count input --&gt;
+&lt;div class=&quot;count-input rounded-2 mb-3&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon btn-sm&quot; data-decrement aria-label=&quot;Decrement quantity&quot;&gt;
+    &lt;i class=&quot;ci-minus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+  &lt;input type=&quot;number&quot; class=&quot;form-control form-control-sm&quot; value=&quot;1&quot; min=&quot;1&quot; max=&quot;5&quot; readonly&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon btn-sm&quot; data-increment aria-label=&quot;Increment quantity&quot;&gt;
+    &lt;i class=&quot;ci-plus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Normal count input --&gt;
+&lt;div class=&quot;count-input mb-3&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon&quot; data-decrement aria-label=&quot;Decrement quantity&quot;&gt;
+    &lt;i class=&quot;ci-minus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+  &lt;input type=&quot;number&quot; class=&quot;form-control&quot; value=&quot;1&quot; readonly&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon&quot; data-increment aria-label=&quot;Increment quantity&quot;&gt;
+    &lt;i class=&quot;ci-plus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Large count input --&gt;
+&lt;div class=&quot;count-input mb-3&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon btn-lg&quot; data-decrement aria-label=&quot;Decrement quantity&quot;&gt;
+    &lt;i class=&quot;ci-minus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+  &lt;input type=&quot;number&quot; class=&quot;form-control form-control-lg&quot; value=&quot;1&quot; readonly&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon btn-lg&quot; data-increment aria-label=&quot;Increment quantity&quot;&gt;
+    &lt;i class=&quot;ci-plus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Disabled count input --&gt;
+&lt;div class=&quot;count-input disabled&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon disabled&quot; data-decrement aria-label=&quot;Decrement quantity&quot;&gt;
+    &lt;i class=&quot;ci-minus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+  &lt;input type=&quot;number&quot; class=&quot;form-control&quot; value=&quot;1&quot; disabled&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-icon disabled&quot; data-increment aria-label=&quot;Increment quantity&quot;&gt;
+    &lt;i class=&quot;ci-plus&quot;&gt;&lt;/i&gt;
+  &lt;/button&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Range slider -->
+          <section id="forms-range-slider" class="cd-section pb-sm-2 mb-5">
+            <h4>Range slider</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-10" role="tab" aria-controls="preview-10" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-10" role="tab" aria-controls="html-10" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-10" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div style="max-width: 350px">
+                      <label class="form-label" id="slider-label-1">Two handles + inputs</label>
+                      <div class="range-slider pb-2 mb-4" data-range-slider='{"startMin": 280, "startMax": 720, "min": 0, "max": 1000, "step": 1, "tooltipPrefix": "$"}' aria-labelledby="slider-label-1">
+                        <div class="range-slider-ui"></div>
+                        <div class="d-flex align-items-center">
+                          <div class="position-relative w-50">
+                            <i class="ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                            <input type="number" class="form-control form-icon-start" min="0" data-range-slider-min>
+                          </div>
+                          <i class="ci-minus text-body-emphasis mx-2"></i>
+                          <div class="position-relative w-50">
+                            <i class="ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                            <input type="number" class="form-control form-icon-start" min="0" data-range-slider-max>
+                          </div>
+                        </div>
+                      </div>
+                      <label class="form-label" id="slider-label-2">With value scale (pips)</label>
+                      <div class="range-slider pb-2 mb-4" data-range-slider='{"startMin": 250, "startMax": 680, "min": 0, "max": 1000, "step": 1, "pips": true, "tooltipPrefix": "$"}' aria-labelledby="slider-label-2">
+                        <div class="range-slider-ui"></div>
+                        <div class="d-flex align-items-center pt-4">
+                          <div class="position-relative w-50">
+                            <i class="ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                            <input type="number" class="form-control form-icon-start" min="0" data-range-slider-min>
+                          </div>
+                          <i class="ci-minus text-body-emphasis mx-2"></i>
+                          <div class="position-relative w-50">
+                            <i class="ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                            <input type="number" class="form-control form-icon-start" min="0" data-range-slider-max>
+                          </div>
+                        </div>
+                      </div>
+                      <label class="form-label" id="slider-label-3">One handle + no inputs</label>
+                      <div class="range-slider" data-range-slider='{"startMin": 450, "min": 0, "max": 1000, "step": 1, "tooltipPrefix": "$"}' aria-labelledby="slider-label-3">
+                        <div class="range-slider-ui"></div>
+                        <input type="hidden" class="form-control" data-range-slider-min>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-10" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-range-slider-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-range-slider-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Range slider: Two handles + inputs --&gt;
+&lt;label class=&quot;form-label&quot; id=&quot;slider-label-1&quot;&gt;Two handles + inputs&lt;/label&gt;
+&lt;div class=&quot;range-slider pb-2 mb-4&quot; data-range-slider='{&quot;startMin&quot;: 280, &quot;startMax&quot;: 720, &quot;min&quot;: 0, &quot;max&quot;: 1000, &quot;step&quot;: 1, &quot;tooltipPrefix&quot;: &quot;$&quot;}' aria-labelledby=&quot;slider-label-1&quot;&gt;
+  &lt;div class=&quot;range-slider-ui&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;position-relative w-50&quot;&gt;
+      &lt;i class=&quot;ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3&quot;&gt;&lt;/i&gt;
+      &lt;input type=&quot;number&quot; class=&quot;form-control form-icon-start&quot; min=&quot;0&quot; data-range-slider-min&gt;
+    &lt;/div&gt;
+    &lt;i class=&quot;ci-minus text-body-emphasis mx-2&quot;&gt;&lt;/i&gt;
+    &lt;div class=&quot;position-relative w-50&quot;&gt;
+      &lt;i class=&quot;ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3&quot;&gt;&lt;/i&gt;
+      &lt;input type=&quot;number&quot; class=&quot;form-control form-icon-start&quot; min=&quot;0&quot; data-range-slider-max&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Range slider: With value scale (pips) --&gt;
+&lt;label class=&quot;form-label&quot; id=&quot;slider-label-2&quot;&gt;With value scale (pips)&lt;/label&gt;
+&lt;div class=&quot;range-slider pb-2 mb-4&quot; data-range-slider='{&quot;startMin&quot;: 250, &quot;startMax&quot;: 680, &quot;min&quot;: 0, &quot;max&quot;: 1000, &quot;step&quot;: 1, &quot;pips&quot;: true, &quot;tooltipPrefix&quot;: &quot;$&quot;}' aria-labelledby=&quot;slider-label-2&quot;&gt;
+  &lt;div class=&quot;range-slider-ui&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;d-flex align-items-center pt-4&quot;&gt;
+    &lt;div class=&quot;position-relative w-50&quot;&gt;
+      &lt;i class=&quot;ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3&quot;&gt;&lt;/i&gt;
+      &lt;input type=&quot;number&quot; class=&quot;form-control form-icon-start&quot; min=&quot;0&quot; data-range-slider-min&gt;
+    &lt;/div&gt;
+    &lt;i class=&quot;ci-minus text-body-emphasis mx-2&quot;&gt;&lt;/i&gt;
+    &lt;div class=&quot;position-relative w-50&quot;&gt;
+      &lt;i class=&quot;ci-dollar-sign position-absolute top-50 start-0 translate-middle-y ms-3&quot;&gt;&lt;/i&gt;
+      &lt;input type=&quot;number&quot; class=&quot;form-control form-icon-start&quot; min=&quot;0&quot; data-range-slider-max&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- One handle + no inputs --&gt;
+&lt;label class=&quot;form-label&quot; id=&quot;slider-label-3&quot;&gt;One handle + no inputs&lt;/label&gt;
+&lt;div class=&quot;range-slider&quot; data-range-slider='{&quot;startMin&quot;: 450, &quot;min&quot;: 0, &quot;max&quot;: 1000, &quot;step&quot;: 1, &quot;tooltipPrefix&quot;: &quot;$&quot;}' aria-labelledby=&quot;slider-label-3&quot;&gt;
+  &lt;div class=&quot;range-slider-ui&quot;&gt;&lt;/div&gt;
+  &lt;input type=&quot;hidden&quot; class=&quot;form-control&quot; data-range-slider-min&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Shapes -->
+          <section id="forms-shapes" class="cd-section pb-sm-2 mb-5">
+            <h4>Shapes</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-11" role="tab" aria-controls="preview-11" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-11" role="tab" aria-controls="html-11" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-11" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="d-flex flex-wrap flex-sm-nowrap gap-4">
+                      <div class="w-100" style="max-width: 400px">
+                        <input type="text" class="form-control mb-3" placeholder="Rounded input">
+                        <input type="text" class="form-control rounded-pill mb-3" placeholder="Pill input">
+                        <input type="text" class="form-control rounded-0" placeholder="Square input">
+                      </div>
+                      <div class="w-100" style="max-width: 400px">
+                        <select class="form-select mb-3" aria-label="Rounded select">
+                          <option selected disabled>Choose option...</option>
+                          <option value="1">Option item 1</option>
+                          <option value="2">Option item 2</option>
+                          <option value="3">Option item 3</option>
+                        </select>
+                        <select class="form-select rounded-pill mb-3" aria-label="Pill select">
+                          <option selected disabled>Choose option...</option>
+                          <option value="1">Option item 1</option>
+                          <option value="2">Option item 2</option>
+                          <option value="3">Option item 3</option>
+                        </select>
+                        <select class="form-select rounded-0" aria-label="Square select">
+                          <option selected disabled>Choose option...</option>
+                          <option value="1">Option item 1</option>
+                          <option value="2">Option item 2</option>
+                          <option value="3">Option item 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-11" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-shapes-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-shapes-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Alter the shape of .form-control component with .rounded-* utility classes. --&gt;
+
+&lt;!-- Rounded text input --&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control mb-3&quot; placeholder=&quot;Rounded input&quot;&gt;
+
+&lt;!-- Pill text input --&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control rounded-pill mb-3&quot; placeholder=&quot;Pill input&quot;&gt;
+
+&lt;!-- Square text input --&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control rounded-0 mb-3&quot; placeholder=&quot;Square input&quot;&gt;
+
+&lt;!-- Rounded select --&gt;
+&lt;select class=&quot;form-select mb-3&quot; aria-label=&quot;Rounded select&quot;&gt;
+  &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+  &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+  &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+  &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;!-- Pill select --&gt;
+&lt;select class=&quot;form-select rounded-pill mb-3&quot; aria-label=&quot;Pill select&quot;&gt;
+  &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+  &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+  &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+  &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;!-- Square select --&gt;
+&lt;select class=&quot;form-select rounded-0 mb-3&quot; aria-label=&quot;Square select&quot;&gt;
+  &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+  &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+  &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+  &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Sizes -->
+          <section id="forms-sizes" class="cd-section pb-sm-2 mb-5">
+            <h4>Sizes</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-12" role="tab" aria-controls="preview-12" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-12" role="tab" aria-controls="html-12" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-12" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="d-flex flex-wrap flex-sm-nowrap gap-4">
+                      <div class="w-100" style="max-width: 400px">
+                        <div class="mb-3">
+                          <label for="input-lg" class="form-label fs-base">Large input</label>
+                          <input type="text" class="form-control form-control-lg" id="input-lg" placeholder="Large input placeholder">
+                        </div>
+                        <div class="mb-3">
+                          <label for="input-md" class="form-label">Normal input</label>
+                          <input type="text" class="form-control" id="input-md" placeholder="Normal input placeholder">
+                        </div>
+                        <div>
+                          <label for="input-sm" class="form-label fs-xs">Small input</label>
+                          <input type="text" class="form-control form-control-sm" id="input-sm" placeholder="Small input placeholder">
+                        </div>
+                      </div>
+                      <div class="w-100" style="max-width: 400px">
+                        <div class="mb-3">
+                          <label for="select-lg" class="form-label fs-base">Large select</label>
+                          <select class="form-select form-select-lg" id="select-lg">
+                            <option selected disabled>Choose option...</option>
+                            <option value="1">Option item 1</option>
+                            <option value="2">Option item 2</option>
+                            <option value="3">Option item 3</option>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                          <label for="select-md" class="form-label">Normal select</label>
+                          <select class="form-select" id="select-md">
+                            <option selected disabled>Choose option...</option>
+                            <option value="1">Option item 1</option>
+                            <option value="2">Option item 2</option>
+                            <option value="3">Option item 3</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label for="select-sm" class="form-label fs-xs">Small select</label>
+                          <select class="form-select form-select-sm" id="select-sm">
+                            <option selected disabled>Choose option...</option>
+                            <option value="1">Option item 1</option>
+                            <option value="2">Option item 2</option>
+                            <option value="3">Option item 3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-12" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-sizes-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-sizes-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Large text input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;input-lg&quot; class=&quot;form-label fs-base&quot;&gt;Large input&lt;/label&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control form-control-lg&quot; id=&quot;input-lg&quot; placeholder=&quot;Large input placeholder&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Normal text input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;input-md&quot; class=&quot;form-label&quot;&gt;Normal input&lt;/label&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;input-md&quot; placeholder=&quot;Normal input placeholder&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Small text input --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;input-sm&quot; class=&quot;form-label fs-xs&quot;&gt;Small input&lt;/label&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control form-control-sm&quot; id=&quot;input-sm&quot; placeholder=&quot;Small input placeholder&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Large select --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;select-lg&quot; class=&quot;form-label fs-base&quot;&gt;Large select&lt;/label&gt;
+  &lt;select class=&quot;form-select form-select-lg&quot; id=&quot;select-lg&quot;&gt;
+    &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+    &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+    &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+    &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;!-- Normal select --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;select-md&quot; class=&quot;form-label&quot;&gt;Normal select&lt;/label&gt;
+  &lt;select class=&quot;form-select&quot; id=&quot;select-md&quot;&gt;
+    &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+    &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+    &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+    &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;!-- Small select --&gt;
+&lt;div class=&quot;mb-3&quot;&gt;
+  &lt;label for=&quot;select-sm&quot; class=&quot;form-label fs-xs&quot;&gt;Small select&lt;/label&gt;
+  &lt;select class=&quot;form-select form-select-sm&quot; id=&quot;select-sm&quot;&gt;
+    &lt;option selected disabled&gt;Choose option...&lt;/option&gt;
+    &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+    &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+    &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Readonly & disabled -->
+          <section id="forms-disabled" class="cd-section pb-sm-2 mb-5">
+            <h4>Readonly &amp; disabled</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-13" role="tab" aria-controls="preview-13" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-13" role="tab" aria-controls="html-13" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-13" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div style="max-width: 400px">
+                      <input type="text" class="form-control mb-2" value="Readonly input" readonly>
+                      <input type="text" class="form-control-plaintext fs-sm mb-2" value="Plain text input" readonly>
+                      <input type="text" class="form-control mb-3" value="Disabled input" disabled>
+                      <select class="form-select" aria-label="Disabled select" disabled>
+                        <option selected disabled>Disabled select</option>
+                        <option value="1">Option item 1</option>
+                        <option value="2">Option item 2</option>
+                        <option value="3">Option item 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div id="html-13" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-disabled-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-disabled-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Readonly text input --&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control mb-3&quot; value=&quot;Readonly input&quot; readonly&gt;
+
+&lt;!-- Readonly plain text input --&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control-plaintext fs-sm mb-3&quot; value=&quot;Plain text input&quot; readonly&gt;
+
+&lt;!-- Disabled text input --&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control mb-3&quot; value=&quot;Disabled input&quot; disabled&gt;
+
+&lt;!-- Disabled select --&gt;
+&lt;select class=&quot;form-select mb-3&quot; aria-label=&quot;Disabled select&quot; disabled&gt;
+  &lt;option selected disabled&gt;Disabled select&lt;/option&gt;
+  &lt;option value=&quot;1&quot;&gt;Option item 1&lt;/option&gt;
+  &lt;option value=&quot;2&quot;&gt;Option item 2&lt;/option&gt;
+  &lt;option value=&quot;3&quot;&gt;Option item 3&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Inline form -->
+          <section id="forms-inline" class="cd-section pb-sm-2 mb-5">
+            <h4>Inline form</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-14" role="tab" aria-controls="preview-14" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-14" role="tab" aria-controls="html-14" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-14" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <form class="row row-cols-sm-auto g-3 align-items-center">
+                      <div class="col-12">
+                        <label for="inline-form-input" class="visually-hidden">Full name</label>
+                        <input type="text" class="form-control" id="inline-form-input" placeholder="Full name">
+                      </div>
+                      <div class="col-12">
+                        <label for="inline-form-input" class="visually-hidden">Preference</label>
+                        <select class="form-select" id="inline-form-select">
+                          <option selected disabled>Choose...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input type="checkbox" id="inline-form-check" class="form-check-input">
+                          <label for="inline-form-check" class="form-check-label">Remember me</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div id="html-14" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-inline-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-inline-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Inline form built with rows and columns --&gt;
+&lt;form class=&quot;row row-cols-sm-auto g-3 align-items-center&quot;&gt;
+  &lt;div class=&quot;col-12&quot;&gt;
+    &lt;label for=&quot;inline-form-input&quot; class=&quot;visually-hidden&quot;&gt;Full name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;inline-form-input&quot; placeholder=&quot;Full name&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-12&quot;&gt;
+    &lt;label for=&quot;inline-form-input&quot; class=&quot;visually-hidden&quot;&gt;Preference&lt;/label&gt;
+    &lt;select class=&quot;form-select&quot; id=&quot;inline-form-select&quot;&gt;
+      &lt;option selected disabled&gt;Choose...&lt;/option&gt;
+      &lt;option value=&quot;1&quot;&gt;One&lt;/option&gt;
+      &lt;option value=&quot;2&quot;&gt;Two&lt;/option&gt;
+      &lt;option value=&quot;3&quot;&gt;Three&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-12&quot;&gt;
+    &lt;div class=&quot;form-check&quot;&gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;inline-form-check&quot; class=&quot;form-check-input&quot;&gt;
+      &lt;label for=&quot;inline-form-check&quot; class=&quot;form-check-label&quot;&gt;Remember me&lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-12&quot;&gt;
+    &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Help text -->
+          <section id="forms-help-text" class="cd-section pb-sm-2 mb-5">
+            <h4>Help text</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-15" role="tab" aria-controls="preview-15" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-15" role="tab" aria-controls="html-15" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-15" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <div class="mb-3" style="max-width: 400px">
+                      <label for="inputPassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Your password..." aria-labelledby="passwordHelpBlock">
+                      <div class="form-text" id="passwordHelpBlock">
+                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                      </div>
+                    </div>
+                  </div>
+                  <div id="html-15" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-help-text-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-help-text-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Adding helper description text to the form input with .form-text --&gt;
+&lt;label for=&quot;inputPassword&quot; class=&quot;form-label&quot;&gt;Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;inputPassword&quot; placeholder=&quot;Your password...&quot; aria-labelledby=&quot;passwordHelpBlock&quot;&gt;
+&lt;div class=&quot;form-text&quot; id=&quot;passwordHelpBlock&quot;&gt;
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Validation: status text -->
+          <section id="forms-validation-text" class="cd-section pb-sm-2 mb-5">
+            <h4>Validation: status text</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-16" role="tab" aria-controls="preview-16" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-16" role="tab" aria-controls="html-16" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-16" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <form class="needs-validation" novalidate>
+                      <div class="row">
+                        <div class="col-md-4 mb-3">
+                          <label for="validationText01" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="validationText01" placeholder="First name" value="John" required>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="validationText02" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="validationText02" placeholder="Last name" value="Doe" required>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="validationTextUsername" class="form-label">Username</label>
+                          <input type="text" class="form-control" id="validationTextUsername" placeholder="Username" required>
+                          <div class="invalid-feedback">Please choose a username.</div>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-3">
+                          <label for="validationText03" class="form-label">City</label>
+                          <select class="form-select" id="validationText03" required>
+                            <option value="" selected disabled>Choose city...</option>
+                            <option value="Dallas">Dallas</option>
+                            <option value="Houston">Houston</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Miami">Miami</option>
+                            <option value="New York">New York</option>
+                          </select>
+                          <div class="invalid-feedback">Please provide a valid city.</div>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="validationText04" class="form-label">State</label>
+                          <select class="form-select" id="validationText04" required>
+                            <option value="" selected disabled>Choose state...</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Texas">Texas</option>
+                          </select>
+                          <div class="invalid-feedback">Please provide a valid state.</div>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="validationText05" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="validationText05" placeholder="Zip" required>
+                          <div class="invalid-feedback">Please provide a valid zip.</div>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="validationText06" required>
+                          <label for="validationText06" class="form-check-label">Agree to terms and conditions</label>
+                          <div class="invalid-feedback">You must agree before submitting.</div>
+                        </div>
+                      </div>
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </form>
+                  </div>
+                  <div id="html-16" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-validation-text-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-validation-text-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Forms validation: status text --&gt;
+&lt;form class=&quot;needs-validation&quot; novalidate&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-4 mb-3&quot;&gt;
+      &lt;label for=&quot;validationText01&quot; class=&quot;form-label&quot;&gt;First name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationText01&quot; placeholder=&quot;First name&quot; value=&quot;John&quot; required&gt;
+      &lt;div class=&quot;valid-feedback&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4 mb-3&quot;&gt;
+      &lt;label for=&quot;validationText02&quot; class=&quot;form-label&quot;&gt;Last name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationText02&quot; placeholder=&quot;Last name&quot; value=&quot;Doe&quot; required&gt;
+      &lt;div class=&quot;valid-feedback&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4 mb-3&quot;&gt;
+      &lt;label for=&quot;validationTextUsername&quot; class=&quot;form-label&quot;&gt;Username&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationTextUsername&quot; placeholder=&quot;Username&quot; required&gt;
+      &lt;div class=&quot;invalid-feedback&quot;&gt;Please choose a username.&lt;/div&gt;
+      &lt;div class=&quot;valid-feedback&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-6 mb-3&quot;&gt;
+      &lt;label for=&quot;validationText03&quot; class=&quot;form-label&quot;&gt;City&lt;/label&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;validationText03&quot; required&gt;
+        &lt;option value=&quot;&quot; selected disabled&gt;Choose city...&lt;/option&gt;
+        &lt;option value=&quot;Dallas&quot;&gt;Dallas&lt;/option&gt;
+        &lt;option value=&quot;Houston&quot;&gt;Houston&lt;/option&gt;
+        &lt;option value=&quot;Los Angeles&quot;&gt;Los Angeles&lt;/option&gt;
+        &lt;option value=&quot;Miami&quot;&gt;Miami&lt;/option&gt;
+        &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;div class=&quot;invalid-feedback&quot;&gt;Please provide a valid city.&lt;/div&gt;
+      &lt;div class=&quot;valid-feedback&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-3 mb-3&quot;&gt;
+      &lt;label for=&quot;validationText04&quot; class=&quot;form-label&quot;&gt;State&lt;/label&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;validationText04&quot; required&gt;
+        &lt;option value=&quot;&quot; selected disabled&gt;Choose state...&lt;/option&gt;
+        &lt;option value=&quot;Arizona&quot;&gt;Arizona&lt;/option&gt;
+        &lt;option value=&quot;Colorado&quot;&gt;Colorado&lt;/option&gt;
+        &lt;option value=&quot;Florida&quot;&gt;Florida&lt;/option&gt;
+        &lt;option value=&quot;Indiana&quot;&gt;Indiana&lt;/option&gt;
+        &lt;option value=&quot;Kentucky&quot;&gt;Kentucky&lt;/option&gt;
+        &lt;option value=&quot;Texas&quot;&gt;Texas&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;div class=&quot;invalid-feedback&quot;&gt;Please provide a valid state.&lt;/div&gt;
+      &lt;div class=&quot;valid-feedback&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-3 mb-3&quot;&gt;
+      &lt;label for=&quot;validationText05&quot; class=&quot;form-label&quot;&gt;Zip&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationText05&quot; placeholder=&quot;Zip&quot; required&gt;
+      &lt;div class=&quot;invalid-feedback&quot;&gt;Please provide a valid zip.&lt;/div&gt;
+      &lt;div class=&quot;valid-feedback&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;mb-3&quot;&gt;
+    &lt;div class=&quot;form-check&quot;&gt;
+      &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;validationText06&quot; required&gt;
+      &lt;label for=&quot;validationText06&quot; class=&quot;form-check-label&quot;&gt;Agree to terms and conditions&lt;/label&gt;
+      &lt;div class=&quot;invalid-feedback&quot;&gt;You must agree before submitting.&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-primary&quot; type=&quot;submit&quot;&gt;Submit form&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Validation: status tooltips -->
+          <section id="forms-validation-tooltips" class="cd-section">
+            <h4>Validation: status tooltips</h4>
+            <div class="card border-0 shadow">
+              <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded" style="opacity: .4"></span>
+              <div class="card-body position-relative z-2">
+                <ul class="nav nav-tabs m-n2" role="tablist" style="max-width: 240px">
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#preview-17" role="tab" aria-controls="preview-17" aria-selected="true">
+                      <i class="ci-eye opacity-75 ms-n1 me-2"></i>
+                      Preview
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#html-17" role="tab" aria-controls="html-17" aria-selected="false">
+                      <i class="ci-code opacity-75 ms-n1 me-2"></i>
+                      HTML
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="preview-17" class="tab-pane pt-4 pb-2 mt-3 fade show active" role="tabpanel">
+                    <form class="needs-validation" novalidate>
+                      <div class="row">
+                        <div class="col-md-4 position-relative mb-4">
+                          <label for="validationTooltipt01" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="validationTooltipt01" placeholder="First name" value="John" required>
+                          <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="col-md-4 position-relative mb-4">
+                          <label for="validationTooltipt02" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="validationTooltipt02" placeholder="Last name" value="Doe" required>
+                          <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="col-md-4 position-relative mb-4">
+                          <label for="validationTooltiptUsername" class="form-label">Username</label>
+                          <input type="text" class="form-control" id="validationTooltiptUsername" placeholder="Username" required>
+                          <div class="invalid-tooltip">Please choose a username.</div>
+                          <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 position-relative mb-4">
+                          <label for="validationTooltipt03" class="form-label">City</label>
+                          <select class="form-select" id="validationTooltipt03" required>
+                            <option value="" selected disabled>Choose city...</option>
+                            <option value="Dallas">Dallas</option>
+                            <option value="Houston">Houston</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Miami">Miami</option>
+                            <option value="New York">New York</option>
+                          </select>
+                          <div class="invalid-tooltip">Please provide a valid city.</div>
+                          <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="col-md-3 position-relative mb-4">
+                          <label for="validationTooltipt04" class="form-label">State</label>
+                          <select class="form-select" id="validationTooltipt04" required>
+                            <option value="" selected disabled>Choose state...</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Texas">Texas</option>
+                          </select>
+                          <div class="invalid-tooltip">Please provide a valid state.</div>
+                          <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="col-md-3 position-relative mb-4">
+                          <label for="validationTooltipt05" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="validationTooltipt05" placeholder="Zip" required>
+                          <div class="invalid-tooltip">Please provide a valid zip.</div>
+                          <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                      </div>
+                      <div class="position-relative mb-4">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="validationTooltipt06" required>
+                          <label for="validationTooltipt06" class="form-check-label">Agree to terms and conditions</label>
+                          <div class="invalid-tooltip">You must agree before submitting.</div>
+                        </div>
+                      </div>
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </form>
+                  </div>
+                  <div id="html-17" class="tab-pane pt-4 fade" role="tabpanel">
+                    <div class="position-relative" data-bs-theme="dark">
+                      <button type="button" class="btn btn-sm btn-outline-secondary bg-dark position-absolute top-0 end-0 mt-2 px-2 z-3" data-copy-code="#forms-validation-tooltips-code">
+                        <i class="ci-copy fs-sm me-1"></i>
+                        Copy
+                      </button>
+                      <pre id="forms-validation-tooltips-code" class="code-highlight mx-n2 mb-n2"><code class="language-html">&lt;!-- Forms validation: status tooltips --&gt;
+&lt;form class=&quot;needs-validation&quot; novalidate&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-4 position-relative mb-4&quot;&gt;
+      &lt;label for=&quot;validationTooltipt01&quot; class=&quot;form-label&quot;&gt;First name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationTooltipt01&quot; placeholder=&quot;First name&quot; value=&quot;John&quot; required&gt;
+      &lt;div class=&quot;valid-tooltip&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4 position-relative mb-4&quot;&gt;
+      &lt;label for=&quot;validationTooltipt02&quot; class=&quot;form-label&quot;&gt;Last name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationTooltipt02&quot; placeholder=&quot;Last name&quot; value=&quot;Doe&quot; required&gt;
+      &lt;div class=&quot;valid-tooltip&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4 position-relative mb-4&quot;&gt;
+      &lt;label for=&quot;validationTooltiptUsername&quot; class=&quot;form-label&quot;&gt;Username&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationTooltiptUsername&quot; placeholder=&quot;Username&quot; required&gt;
+      &lt;div class=&quot;invalid-tooltip&quot;&gt;Please choose a username.&lt;/div&gt;
+      &lt;div class=&quot;valid-tooltip&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-6 position-relative mb-4&quot;&gt;
+      &lt;label for=&quot;validationTooltipt03&quot; class=&quot;form-label&quot;&gt;City&lt;/label&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;validationTooltipt03&quot; required&gt;
+        &lt;option value=&quot;&quot; selected disabled&gt;Choose city...&lt;/option&gt;
+        &lt;option value=&quot;Dallas&quot;&gt;Dallas&lt;/option&gt;
+        &lt;option value=&quot;Houston&quot;&gt;Houston&lt;/option&gt;
+        &lt;option value=&quot;Los Angeles&quot;&gt;Los Angeles&lt;/option&gt;
+        &lt;option value=&quot;Miami&quot;&gt;Miami&lt;/option&gt;
+        &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;div class=&quot;invalid-tooltip&quot;&gt;Please provide a valid city.&lt;/div&gt;
+      &lt;div class=&quot;valid-tooltip&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-3 position-relative mb-4&quot;&gt;
+      &lt;label for=&quot;validationTooltipt04&quot; class=&quot;form-label&quot;&gt;State&lt;/label&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;validationTooltipt04&quot; required&gt;
+        &lt;option value=&quot;&quot; selected disabled&gt;Choose state...&lt;/option&gt;
+        &lt;option value=&quot;Arizona&quot;&gt;Arizona&lt;/option&gt;
+        &lt;option value=&quot;Colorado&quot;&gt;Colorado&lt;/option&gt;
+        &lt;option value=&quot;Florida&quot;&gt;Florida&lt;/option&gt;
+        &lt;option value=&quot;Indiana&quot;&gt;Indiana&lt;/option&gt;
+        &lt;option value=&quot;Kentucky&quot;&gt;Kentucky&lt;/option&gt;
+        &lt;option value=&quot;Texas&quot;&gt;Texas&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;div class=&quot;invalid-tooltip&quot;&gt;Please provide a valid state.&lt;/div&gt;
+      &lt;div class=&quot;valid-tooltip&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-3 position-relative mb-4&quot;&gt;
+      &lt;label for=&quot;validationTooltipt05&quot; class=&quot;form-label&quot;&gt;Zip&lt;/label&gt;
+      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;validationTooltipt05&quot; placeholder=&quot;Zip&quot; required&gt;
+      &lt;div class=&quot;invalid-tooltip&quot;&gt;Please provide a valid zip.&lt;/div&gt;
+      &lt;div class=&quot;valid-tooltip&quot;&gt;Looks good!&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;position-relative mb-4&quot;&gt;
+    &lt;div class=&quot;form-check&quot;&gt;
+      &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;validationTooltipt06&quot; required&gt;
+      &lt;label for=&quot;validationTooltipt06&quot; class=&quot;form-check-label&quot;&gt;Agree to terms and conditions&lt;/label&gt;
+      &lt;div class=&quot;invalid-tooltip&quot;&gt;You must agree before submitting.&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-primary&quot; type=&quot;submit&quot;&gt;Submit form&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+
+    <!-- Back to top button -->
+    <div class="floating-buttons position-fixed top-50 end-0 z-sticky me-3 me-xl-4 pb-4">
+      <a class="btn-scroll-top btn btn-sm bg-body border-0 rounded-pill shadow animate-slide-end" href="#top">
+        Top
+        <i class="ci-arrow-right fs-base ms-1 me-n1 animate-target"></i>
+        <span class="position-absolute top-0 start-0 w-100 h-100 border rounded-pill z-0"></span>
+        <svg class="position-absolute top-0 start-0 w-100 h-100 z-1" viewBox="0 0 62 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x=".75" y=".75" width="60.5" height="30.5" rx="15.25" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
+        </svg>
+      </a>
+    </div>
+
+
+    <!-- Vendor scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="../assets/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="../assets/vendor/list.js/dist/list.min.js"></script>
+    <script src="../assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="../assets/vendor/nouislider/dist/nouislider.min.js"></script>
+
+    <!-- Bootstrap + Theme scripts -->
+    <script src="../assets/js/theme.min.js"></script>
+
+    <!-- Docs specific scripts -->
+    <script>
+      const sidebar = new bootstrap.Offcanvas('#sidebarNav')
+      const closeSidebar = () => {
+        setTimeout(() => {
+          sidebar.hide()
+        }, 500)
+      }
+      (() => {
+        const scrollable = document.getElementById('scrollable')
+        const simplebar = new SimpleBar(scrollable)
+        const anchor = scrollable.querySelector('.list-group-item.active')
+        if (anchor === null) return
+        simplebar.getScrollElement().scrollTo({
+          top: anchor.parentNode.offsetTop,
+          behavior: 'instant'
+        })
+      })()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+// Adding custom tooltip size that is applied via data-bs-custom-class="tooltip-sm"
+
+.tooltip-sm {
+  --#{$prefix}tooltip-padding-x: #{$tooltip-padding-x * .75};
+  --#{$prefix}tooltip-padding-y: #{$tooltip-padding-y * .75};
+  @include rfs($font-size-xs, --#{$prefix}tooltip-font-size);
+  --#{$prefix}tooltip-border-radius: var(--#{$prefix}border-radius-xs);
+}

@@ -1,0 +1,203 @@
+// Extend default Bootstrap's .nav, .nav-item, .nav-link classes
+
+.nav {
+  --#{$prefix}nav-link-line-height: #{$nav-link-line-height};
+  --#{$prefix}nav-link-active-color: #{$nav-link-active-color};
+
+  flex-direction: row;
+  gap: 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+
+  &.show {
+    color: var(--#{$prefix}nav-link-hover-color);
+  }
+
+  &.active {
+    color: var(--#{$prefix}nav-link-active-color);
+  }
+
+  &.disabled,
+  &:disabled {
+    color: var(--#{$prefix}nav-link-disabled-color);
+  }
+
+  &.text-body,
+  &.text-body-secondary,
+  &.text-body-tertiary {
+    &:hover,
+    &:focus-visible,
+    &.show {
+      color: var(--#{$prefix}nav-link-hover-color) !important;
+    }
+    &.active {
+      color: var(--#{$prefix}nav-link-active-color) !important;
+    }
+    &.disabled,
+    &:disabled {
+      color: var(--#{$prefix}nav-link-disabled-color) !important;
+    }
+  }
+}
+
+
+// Tabs
+
+.nav-tabs {
+  --#{$prefix}nav-tabs-padding: #{$nav-tabs-padding};
+  --#{$prefix}nav-tabs-bg: #{$nav-tabs-bg};
+  --#{$prefix}nav-tabs-link-hover-bg: #{$nav-tabs-link-hover-bg};
+  --#{$prefix}nav-tabs-link-active-box-shadow: #{$nav-tabs-link-active-box-shadow};
+
+  gap: var(--#{$prefix}nav-tabs-padding);
+  padding: var(--#{$prefix}nav-tabs-padding);
+  background-color: var(--#{$prefix}nav-tabs-bg);
+  @include border-radius(var(--#{$prefix}nav-tabs-border-radius));
+
+  .nav-item {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .nav-link {
+    justify-content: center;
+    width: 100%;
+    line-height: var(--#{$prefix}nav-link-line-height);
+    @include border-radius(var(--#{$prefix}nav-tabs-border-radius));
+
+    &:hover,
+    &.show,
+    &:focus-visible {
+      background-color: var(--#{$prefix}nav-tabs-link-hover-bg);
+    }
+
+    &:focus-visible {
+      box-shadow: $nav-link-focus-box-shadow !important;
+    }
+
+    &.active {
+      background-color: var(--#{$prefix}nav-tabs-link-active-bg);
+      @include box-shadow(var(--#{$prefix}nav-tabs-link-active-box-shadow));
+    }
+
+    &.disabled,
+    &:disabled {
+      background: none;
+    }
+  }
+
+  &.flex-column .nav-link {
+    justify-content: start;
+  }
+
+  .dropdown-menu {
+    @include border-radius(var(--#{$prefix}dropdown-border-radius));
+  }
+}
+
+
+// Pills
+
+.nav-pills {
+  --#{$prefix}nav-pills-gap: #{$nav-pills-gap};
+  --#{$prefix}nav-pills-link-border-width: #{$nav-pills-link-border-width};
+  --#{$prefix}nav-pills-link-border-color: #{$nav-pills-link-border-color};
+  --#{$prefix}nav-pills-link-hover-color: #{$nav-pills-link-hover-color};
+  --#{$prefix}nav-pills-link-hover-border-color: #{$nav-pills-link-hover-border-color};
+  --#{$prefix}nav-pills-link-active-border-color: #{$nav-pills-link-active-border-color};
+  --#{$prefix}nav-pills-link-disabled-color: #{$nav-pills-link-disabled-color};
+  --#{$prefix}nav-pills-link-disabled-border-color: #{$nav-pills-link-border-color};
+
+  gap: var(--#{$prefix}nav-pills-gap);
+
+  .nav-link {
+    line-height: var(--#{$prefix}nav-link-line-height);
+    border: var(--#{$prefix}nav-pills-link-border-width) solid var(--#{$prefix}nav-pills-link-border-color);
+
+    &:hover,
+    &.show,
+    &:focus-visible {
+      color: var(--#{$prefix}nav-pills-link-hover-color);
+      border-color: var(--#{$prefix}nav-pills-link-hover-border-color);
+    }
+
+    &.active {
+      border-color: var(--#{$prefix}nav-pills-link-active-border-color);
+    }
+
+    &.disabled,
+    &:disabled {
+      color: var(--#{$prefix}nav-pills-link-disabled-color);
+      border-color: var(--#{$prefix}nav-pills-link-disabled-border-color);
+    }
+  }
+}
+
+
+// Underline
+
+.nav-underline {
+  gap: var(--#{$prefix}nav-underline-gap);
+
+  .nav-link {
+    line-height: var(--#{$prefix}nav-link-line-height);
+    border: 0;
+
+    @include underline(var(--#{$prefix}nav-underline-border-width), before);
+
+    &::before {
+      bottom: calc(var(--#{$prefix}nav-underline-border-width) * -1);
+    }
+
+    &.active {
+      font-weight: $nav-link-font-weight;
+      background-color: transparent;
+      @include underline-action(before);
+    }
+  }
+
+  &.flex-column .nav-link {
+    padding: calc(var(--#{$prefix}nav-link-padding-y) * .5) var(--#{$prefix}nav-link-padding-x);
+
+    &::before {
+      top: 0;
+      left: calc(var(--#{$prefix}nav-underline-border-width) * -1);
+      width: var(--#{$prefix}nav-underline-border-width);
+      height: 100%;
+      transform: scaleY(0);
+      transform-origin: bottom left;
+    }
+
+    &.active::before {
+      transform: scaleY(1);
+      transform-origin: top left;
+    }
+  }
+}
+
+
+// Fill and justify
+
+.nav-fill:not(.flex-column) .nav-link,
+.nav-justified:not(.flex-column) .nav-link {
+  justify-content: center;
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .nav-tabs:not([data-bs-theme="light"]) {
+      .nav-link {
+        --#{$prefix}nav-tabs-link-hover-bg: #{$nav-tabs-link-hover-bg-dark};
+        --#{$prefix}nav-tabs-link-active-bg: #{$nav-tabs-link-active-bg-dark};
+        --#{$prefix}nav-tabs-link-active-box-shadow: #{$nav-tabs-link-active-box-shadow-dark};
+      }
+    }
+  }
+}

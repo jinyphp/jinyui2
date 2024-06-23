@@ -1,0 +1,26 @@
+/*!
+ * Cartzilla | Multipurpose E-Commerce Bootstrap HTML Template
+ * Copyright 2024 Createx Studio
+ * Theme styles
+*/
+
+// User variables
+@import "user-variables";
+
+// // Configuration & utilities
+@import "fonts";
+@import "variables";
+@import "variables-dark";
+@import "utilities";
+
+// Bootstrap
+@import "bootstrap";
+
+// Layout, animations & components
+@import "root";
+@import "reboot";
+@import "animations";
+@import "components";
+
+// User custom styles
+@import "user";

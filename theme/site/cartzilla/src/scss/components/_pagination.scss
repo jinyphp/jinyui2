@@ -1,0 +1,49 @@
+// Override Bootstrap's pagination component
+
+.pagination {
+  --#{$prefix}pagination-spacer: #{$pagination-spacer};
+  --#{$prefix}pagination-font-weight: #{$pagination-font-weight};
+
+  flex-direction: row;
+  gap: var(--#{$prefix}pagination-spacer);
+  margin-bottom: 0;
+}
+
+.page-link {
+  font-weight: var(--#{$prefix}pagination-font-weight);
+
+  &:hover,
+  &:focus,
+  &.active,
+  .active > & {
+    z-index: 0;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+  &:focus-visible {
+    z-index: 4;
+    color: var(--#{$prefix}pagination-focus-color);
+    background-color: var(--#{$prefix}pagination-focus-bg);
+    outline: $pagination-focus-outline;
+    box-shadow: var(--#{$prefix}pagination-focus-box-shadow);
+  }
+
+  // Fix icon vertical aligment
+  [class*=" #{$icon-prefix}"],
+  [class^="#{$icon-prefix}"] {
+    margin-top: .125rem;
+  }
+}
+
+
+// Sizing
+
+.pagination-sm {
+  @include rfs($pagination-font-size-sm, --#{$prefix}pagination-font-size);
+}
+
+.pagination-lg {
+  @include rfs($pagination-font-size-lg, --#{$prefix}pagination-font-size);
+}

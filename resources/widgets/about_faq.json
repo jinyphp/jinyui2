@@ -1,0 +1,18 @@
+{
+    "title": "FAQ",
+    "subtitle": "자주 질문되는 내용들 입니다.",
+    "items": {
+        "1": {
+            "question": "ㅀㄴㅇㅎㄴㅇㅀ",
+            "answer": "ㅀㄴㅇㅀㄴㅇㅀ",
+            "created_at": "2024-06-15 04:58:13",
+            "updated_at": "2024-06-15 04:58:13"
+        },
+        "2": {
+            "question": "dfasd",
+            "answer": "dfasdf",
+            "created_at": "2024-06-15 06:09:51",
+            "updated_at": "2024-06-15 06:09:51"
+        }
+    }
+}

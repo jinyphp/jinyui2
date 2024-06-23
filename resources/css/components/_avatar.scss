@@ -1,0 +1,48 @@
+// xs: 매우 작음
+// sm: 작음
+// md: 중간
+// lg: 대형
+// xl: 초대형
+.avatar-xs {
+    width: 16px;
+    height: 16px;
+}
+
+.avatar-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+  }
+
+.avatar-lg {
+  width: 64px;
+  height: 64px;
+}
+
+.avatar-xl {
+    width: 80px;
+    height: 80px;
+}
+
+.avatar-xxl {
+    width: 96px;
+    height: 96px;
+}
+
+.avatar-3xl {
+    width: 112px;
+    height: 112px;
+}
+
+.avatar-title {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: $primary;
+}

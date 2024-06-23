@@ -1,0 +1,45 @@
+// Override Bootstrap's breadcrumb component
+
+.breadcrumb {
+  --#{$prefix}breadcrumb-font-weight: #{$breadcrumb-font-weight};
+  --#{$prefix}breadcrumb-color: #{$breadcrumb-color};
+  --#{$prefix}breadcrumb-hover-color: #{$breadcrumb-hover-color};
+
+  flex-direction: row;
+  gap: 0;
+  font-weight: var(--#{$prefix}breadcrumb-font-weight);
+}
+
+.breadcrumb-item {
+  > a {
+    color: var(--#{$prefix}breadcrumb-color);
+    text-decoration: none;
+    transition: $breadcrumb-transition;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--#{$prefix}breadcrumb-hover-color);
+    }
+  }
+
+  + .breadcrumb-item::before {
+    width: 1.125em;
+    height: 1.125em;
+    padding-right: 0;
+    margin-right: var(--#{$prefix}breadcrumb-item-padding-x);
+    line-height: 2em;
+  }
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .breadcrumb:not([data-bs-theme="light"]) {
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: var(--#{$prefix}breadcrumb-divider, escape-svg($breadcrumb-divider-dark)) #{"/* rtl:"} var(--#{$prefix}breadcrumb-divider, escape-svg($breadcrumb-divider-flipped-dark)) #{"*/"};
+      }
+    }
+  }
+}

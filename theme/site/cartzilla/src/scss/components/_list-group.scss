@@ -1,0 +1,51 @@
+// Extend default Bootstrap's list group component
+
+.list-group {
+  --#{$prefix}list-group-font-size: #{$list-group-font-size};
+  --#{$prefix}list-group-action-font-weight: #{$list-group-action-font-weight};
+  --#{$prefix}list-group-borderless-item-spacer: #{$list-group-borderless-item-spacer};
+
+  gap: 0;
+  @include font-size(var(--#{$prefix}list-group-font-size));
+}
+
+.list-group-item-action {
+  font-weight: var(--#{$prefix}list-group-action-font-weight);
+  color: var(--#{$prefix}list-group-action-color);
+  transition: $list-group-item-transition;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--#{$prefix}list-group-action-hover-color);
+    background-color: var(--#{$prefix}list-group-action-hover-bg);
+  }
+
+  &.active {
+    color: var(--#{$prefix}list-group-action-active-color);
+    background-color: var(--#{$prefix}list-group-action-active-bg);
+  }
+}
+
+
+// Borderless list group
+
+.list-group-borderless {
+  gap: var(--#{$prefix}list-group-borderless-item-spacer);
+  @include border-radius(0);
+
+  .list-group-item {
+    border: 0;
+    @include border-radius(var(--#{$prefix}list-group-border-radius) !important);
+
+    &.active {
+      margin-top: 0;
+    }
+  }
+}
+
+
+// Flush list group inside card
+
+.card > .list-group-flush {
+  --#{$prefix}list-group-item-padding-x: var(--#{$prefix}card-spacer-x);
+}

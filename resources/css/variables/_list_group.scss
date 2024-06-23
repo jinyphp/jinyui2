@@ -1,0 +1,40 @@
+/*
+ * List group
+ * scss-docs-start list-group-variables
+ */
+
+$list-group-color: #495E7D !default;
+$list-group-bg: #ffffff !default;
+
+$list-group-border-color: #DEE2E6 !default;
+
+/*
+
+
+
+
+$list-group-border-width: var(--border-width) !default;
+$list-group-border-radius: var(--border-radius-lg) !default;
+
+$list-group-item-padding-y: $spacer * 0.5 !default;
+$list-group-item-padding-x: $spacer !default;
+// fusv-disable
+$list-group-item-bg-scale: -80% !default; // Deprecated in v5.3.0
+$list-group-item-color-scale: 40% !default; // Deprecated in v5.3.0
+// fusv-enable
+
+$list-group-hover-bg: var(--tertiary-bg) !default;
+$list-group-active-color: $component-active-color !default;
+$list-group-active-bg: $component-active-bg !default;
+$list-group-active-border-color: $list-group-active-bg !default;
+
+$list-group-disabled-color: var(--secondary-color) !default;
+$list-group-disabled-bg: $list-group-bg !default;
+
+$list-group-action-color: var(--secondary-color) !default;
+$list-group-action-hover-color: var(--emphasis-color) !default;
+
+$list-group-action-active-color: var(--body-color) !default;
+$list-group-action-active-bg: var(--secondary-bg) !default;
+// scss-docs-end list-group-variables
+*/

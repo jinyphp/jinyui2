@@ -1,0 +1,238 @@
+{
+    "view": {
+        "layout": "www::slot1._layouts.topmenu.layout",
+        "list": "www::slot1._layouts.topmenu.list",
+        "item": "www::slot1._layouts.topmenu.item"
+    },
+    "code": "topmenu",
+    "items": {
+        "1": {
+            "code": "topmenu",
+            "name": "home2",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-15 10:40:45",
+            "updated_at": "2024-05-15 10:40:45",
+            "id": 1,
+            "link": "\/"
+        },
+        "2": {
+            "code": "topmenu",
+            "name": "docs",
+            "link": "\/docs",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-15 14:39:33",
+            "updated_at": "2024-05-15 14:39:33",
+            "id": 2
+        },
+        "3": {
+            "code": "topmenu",
+            "name": "UI",
+            "link": "\/ui",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-18 05:34:52",
+            "updated_at": "2024-05-18 05:34:52",
+            "id": 3
+        },
+        "4": {
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-18 05:34:52",
+            "updated_at": "2024-05-18 05:34:52",
+            "id": 4
+        },
+        "5": {
+            "code": "topmenu",
+            "name": "쇼핑몰",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-20 09:51:07",
+            "updated_at": "2024-05-20 09:51:07",
+            "id": 5
+        },
+        "6": {
+            "code": "topmenu",
+            "name": "카트",
+            "link": "\/shop\/cart",
+            "ref": "5",
+            "level": 2,
+            "created_at": "2024-05-21 04:44:18",
+            "updated_at": "2024-05-21 04:44:18",
+            "id": 6
+        },
+        "7": {
+            "code": "topmenu",
+            "name": "About",
+            "link": "\/about",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 05:14:09",
+            "updated_at": "2024-05-21 05:14:09",
+            "id": 7
+        },
+        "8": {
+            "code": "topmenu",
+            "name": "Contact",
+            "link": "\/contact",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 05:14:25",
+            "updated_at": "2024-05-21 05:14:25",
+            "id": 8
+        },
+        "9": {
+            "code": "topmenu",
+            "name": "상품목록",
+            "link": "\/shop\/products",
+            "ref": "5",
+            "level": 2,
+            "created_at": "2024-05-21 06:28:32",
+            "updated_at": "2024-05-21 06:28:32",
+            "id": 9
+        },
+        "10": {
+            "code": "topmenu",
+            "name": "메인",
+            "link": "\/shop",
+            "ref": "5",
+            "level": 2,
+            "created_at": "2024-05-21 06:30:11",
+            "updated_at": "2024-05-21 06:30:11",
+            "id": 10
+        },
+        "11": {
+            "code": "topmenu",
+            "name": "Pricing",
+            "link": "\/pricing",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:18:56",
+            "updated_at": "2024-05-21 07:18:56",
+            "id": 11
+        },
+        "12": {
+            "code": "topmenu",
+            "name": "FAQ",
+            "link": "\/faq",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:19:19",
+            "updated_at": "2024-05-21 07:19:19",
+            "id": 12
+        },
+        "13": {
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:19:19",
+            "updated_at": "2024-05-21 07:19:19",
+            "id": 13
+        },
+        "14": {
+            "code": "topmenu",
+            "name": "Feature",
+            "link": "\/feature",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:19:38",
+            "updated_at": "2024-05-21 07:19:38",
+            "id": 14
+        },
+        "15": {
+            "code": "topmenu",
+            "name": "Bare",
+            "link": "\/bare",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:19:56",
+            "updated_at": "2024-05-21 07:19:56",
+            "id": 15
+        },
+        "16": {
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:19:56",
+            "updated_at": "2024-05-21 07:19:56",
+            "id": 16
+        },
+        "17": {
+            "code": "topmenu",
+            "name": "Blog",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-21 07:20:29",
+            "updated_at": "2024-05-21 07:20:29",
+            "id": 17
+        },
+        "18": {
+            "code": "topmenu",
+            "name": "Blog",
+            "link": "\/blog",
+            "ref": "17",
+            "level": 2,
+            "created_at": "2024-05-21 07:21:05",
+            "updated_at": "2024-05-21 07:21:05",
+            "id": 18
+        },
+        "19": {
+            "code": "topmenu",
+            "name": "Blog Home",
+            "link": "\/blog\/home",
+            "ref": "17",
+            "level": 2,
+            "created_at": "2024-05-21 07:21:40",
+            "updated_at": "2024-05-21 07:21:40",
+            "id": 19
+        },
+        "20": {
+            "code": "topmenu",
+            "name": "Post",
+            "link": "\/blog\/post",
+            "ref": "17",
+            "level": 2,
+            "created_at": "2024-05-21 07:21:57",
+            "updated_at": "2024-05-21 07:21:57",
+            "id": 20
+        },
+        "21": {
+            "code": "topmenu",
+            "name": "Post2",
+            "link": "\/blog\/post2",
+            "ref": "17",
+            "level": 2,
+            "created_at": "2024-05-21 07:28:01",
+            "updated_at": "2024-05-21 07:28:01",
+            "id": 21
+        },
+        "22": {
+            "code": "topmenu",
+            "name": "아이",
+            "link": "\/shop\/item",
+            "ref": "5",
+            "level": 2,
+            "created_at": "2024-05-21 07:29:01",
+            "updated_at": "2024-05-21 07:29:01",
+            "id": 22
+        },
+        "23": {
+            "code": "topmenu",
+            "name": "crm",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-05-31 04:47:25",
+            "updated_at": "2024-05-31 04:47:25",
+            "id": 23
+        },
+        "24": {
+            "code": "topmenu",
+            "name": "HR",
+            "link": "\/hr",
+            "ref": 0,
+            "level": 1,
+            "created_at": "2024-06-15 07:25:09",
+            "updated_at": "2024-06-15 07:25:09",
+            "id": 24
+        }
+    }
+}

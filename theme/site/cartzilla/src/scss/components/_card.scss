@@ -1,0 +1,149 @@
+// Extend default Bootstrap's card compopnent
+
+// Header navs
+
+.card-header-nav-underline {
+  --#{$prefix}nav-link-padding-y: calc(1.25 * var(--#{$prefix}card-cap-padding-y));
+
+  margin: calc(-1 * var(--#{$prefix}card-cap-padding-y)) calc(-.125 * var(--#{$prefix}card-cap-padding-x));
+}
+
+.card-header-tabs {
+  --#{$prefix}nav-tabs-padding: var(--#{$prefix}card-cap-padding-y);
+
+  margin: calc(-1 * var(--#{$prefix}card-cap-padding-y)) calc(-1 * var(--#{$prefix}card-cap-padding-x));
+  @include border-bottom-radius(0);
+}
+
+
+// Shop product card
+
+.product-card {
+  position: relative;
+
+  .product-card-details {
+    display: none;
+  }
+
+  &.hover-effect-opacity .hover-effect-target {
+    transition: none;
+  }
+
+  &:hover,
+  &:has(.select-card-check:checked) {
+    @include media-breakpoint-up(lg) {
+      z-index: 2;
+      box-shadow: var(--#{$prefix}box-shadow);
+    }
+  }
+
+  &:hover .product-card-button,
+  .count-input:not(.collapsed) .product-card-button {
+    @extend .btn-primary;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &:hover {
+    @include media-breakpoint-up(lg) {
+      .product-card-details {
+        display: block;
+      }
+    }
+
+    .hover-effect-underline {
+      text-decoration: underline !important;
+      text-decoration-thickness: var(--#{$prefix}underline-thickness) !important;
+    }
+
+    .count-input .form-control,
+    [data-decrement] {
+      transition: visibility .2s ease-in-out, opacity .2s ease-in-out;
+    }
+
+    .count-input:not(.collapsed) {
+      [data-count-input-value] {
+        display: none;
+      }
+
+      [data-increment] > i {
+        display: inline-flex;
+      }
+    }
+
+    .count-input.collapsed {
+      [data-increment] {
+        border-radius: var(--#{$prefix}border-radius-sm) !important;
+      }
+    }
+  }
+
+  &:not(:hover) {
+    .count-input .form-control,
+    [data-decrement] {
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .count-input:not(.collapsed) {
+      [data-count-input-value] {
+        display: inline;
+      }
+      [data-increment] > i {
+        display: none;
+      }
+    }
+
+    [data-increment] {
+      border-radius: var(--#{$prefix}border-radius-sm) !important;
+    }
+  }
+}
+
+
+// Animated category card
+
+.category-card-body,
+.category-card-title {
+  transition: transform .35s ease-in-out;
+  transform-origin: top center;
+  will-change: transform;
+}
+
+.category-card-list {
+  position: absolute;
+  opacity: 0;
+  transition: transform .35s ease-in-out, opacity .35s ease-in-out;
+  will-change: transform, opacity;
+}
+
+.category-card {
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    .category-card-body {
+      transform: scale(.67);
+    }
+    .category-card-title,
+    .category-card-list {
+      transform: scale(1.45);
+    }
+    .category-card-list {
+      opacity: 1;
+    }
+  }
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .product-card:hover .product-card-button {
+      @extend .btn-primary;
+    }
+  }
+}

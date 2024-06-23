@@ -1,0 +1,32 @@
+// Override default Bootstrap's popover component
+
+.popover {
+  --#{$prefix}popover-arrow-border: var(--#{$prefix}border-color);
+}
+
+.popover-header {
+  padding-bottom: 0;
+  margin-bottom: -$popover-body-padding-y * .5;
+  border-bottom: 0;
+}
+
+
+// Adding custom popover size that is applied via data-bs-custom-class="popover-sm"
+
+.popover-sm {
+  --#{$prefix}popover-max-width: #{$popover-max-width * .75};
+  --#{$prefix}popover-body-padding-x: #{$popover-body-padding-x * .75};
+  --#{$prefix}popover-body-padding-y: #{$popover-body-padding-y * .75};
+  @include rfs($font-size-xs, --#{$prefix}popover-font-size);
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .popover:not([data-bs-theme="light"]) {
+      --#{$prefix}popover-box-shadow: #{$popover-box-shadow-dark};
+    }
+  }
+}

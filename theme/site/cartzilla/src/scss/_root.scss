@@ -1,0 +1,67 @@
+// Root CSS variables
+
+:root,
+[data-bs-theme="light"] {
+
+  // Link color
+  --#{$prefix}link-color: var(--#{$prefix}info);
+  --#{$prefix}link-color-rgb: var(--#{$prefix}info-rgb);
+  --#{$prefix}link-hover-color: var(--#{$prefix}info);
+  --#{$prefix}link-hover-color-rgb: var(--#{$prefix}info-rgb);
+  --#{$prefix}component-hover-color: #{$component-hover-color};
+
+  // Common component colors
+  --#{$prefix}component-color: #{$component-color};
+  --#{$prefix}component-hover-color: #{$component-hover-color};
+  --#{$prefix}component-hover-bg: #{$component-hover-bg};
+  --#{$prefix}component-active-color: #{$component-active-color};
+  --#{$prefix}component-active-bg: #{$component-active-bg};
+  --#{$prefix}component-disabled-color: #{$component-disabled-color};
+
+  // User selection color
+  --#{$prefix}user-selection-color: #{$user-selection-color};
+
+  // Add xs and xxxl border-radius
+  --#{$prefix}border-radius-xs: #{$border-radius-xs};
+  --#{$prefix}border-radius-xxxl: #{$border-radius-xxxl};
+
+  // Add underline thickness global variable
+  --#{$prefix}underline-thickness: #{$underline-thickness};
+
+  // Plyr video player main accent color
+  --plyr-color-main: #{$primary};
+}
+
+
+// Dark mode overrides
+
+@if $enable-dark-mode {
+  @include color-mode(dark, true) {
+
+    // Link color
+    --#{$prefix}link-color: var(--#{$prefix}info);
+    --#{$prefix}link-color-rgb: var(--#{$prefix}info-rgb);
+    --#{$prefix}link-hover-color: var(--#{$prefix}info);
+    --#{$prefix}link-hover-color-rgb: var(--#{$prefix}info-rgb);
+
+    // Common component colors
+    --#{$prefix}component-color: #{$component-color-dark};
+    --#{$prefix}component-hover-color: #{$component-hover-color-dark};
+    --#{$prefix}component-hover-bg: #{$component-hover-bg-dark};
+    --#{$prefix}component-active-color: #{$component-active-color-dark};
+    --#{$prefix}component-active-bg: #{$component-active-bg-dark};
+    --#{$prefix}component-disabled-color: #{$component-disabled-color-dark};
+
+    // User selection color
+    --#{$prefix}user-selection-color-dark: #{$user-selection-color-dark};
+
+    // Focus styles
+    --#{$prefix}focus-ring-opacity: #{$focus-ring-opacity-dark};
+    --#{$prefix}focus-ring-color: #{$focus-ring-color-dark};
+
+    // Box shadow
+    --#{$prefix}box-shadow: #{$box-shadow-dark};
+    --#{$prefix}box-shadow-sm: #{$box-shadow-sm-dark};
+    --#{$prefix}box-shadow-lg: #{$box-shadow-lg-dark};
+  }
+}

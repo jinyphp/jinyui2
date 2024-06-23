@@ -1,0 +1,419 @@
+// Collection of animation utility classes
+
+// Underline
+
+@mixin underline(
+  $border-width: var(--#{$prefix}underline-thickness),
+  $element: after
+) {
+  position: relative;
+
+  &::#{$element} {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: $border-width;
+    content: "";
+    background-color: currentcolor;
+    transition: transform .3s ease-out;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+}
+
+@mixin underline-action($element: after) {
+  &::#{$element} {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+.animate-underline {
+
+  &.animate-target,
+  .animate-target {
+    text-decoration: none;
+    @include underline();
+  }
+
+  &:hover,
+  &.show,
+  &.active,
+  &:focus-visible {
+    &.animate-target,
+    .animate-target {
+      @include underline-action();
+    }
+  }
+}
+
+
+// Shake
+
+.animate-shake {
+  &:hover,
+  &:focus-visible {
+    .animate-target {
+      animation: shake .8s;
+    }
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -5deg);
+  }
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 5deg);
+  }
+  60%,
+  80% {
+    transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+// Pulse
+
+.animate-pulse {
+  &:hover,
+  &:focus-visible {
+    .animate-target {
+      animation: pulse .9s;
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.25);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.25);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+
+
+// Rotate
+
+.animate-rotate {
+  &:hover,
+  &:focus-visible {
+    .animate-target {
+      animation: rotate .45s ease-in-out;
+    }
+  }
+}
+
+@keyframes rotate  {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+// Scale
+
+.animate-scale {
+  &:hover,
+  &:focus-visible {
+    .animate-target {
+      animation: scale .35s ease-in-out;
+    }
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+// Slide
+
+@mixin slide( $direction: end ) {
+  overflow: hidden;
+
+  &:hover,
+  &:focus-visible {
+    .animate-target {
+      animation: slide-#{$direction} .3s forwards;
+    }
+  }
+}
+
+.animate-slide-end {
+  @include slide(end);
+}
+
+.animate-slide-start {
+  @include slide(start);
+}
+
+.animate-slide-up {
+  @include slide(up);
+}
+
+.animate-slide-down {
+  @include slide(down);
+}
+
+@keyframes slide-end {
+  49% {
+    transform: translate(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-start {
+  49% {
+    transform: translate(-100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  49% {
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+
+// Blinking
+
+.animate-blinking {
+  animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+  from {
+    opacity: 0;
+  }
+}
+
+
+// Disable pseudo elements on .animate-target when used inside .animate-underline parent
+
+.animate-shake,
+.animate-pulse,
+.animate-rotate,
+.animate-scale,
+.animate-slide-end,
+.animate-slide-start,
+.animate-slide-up,
+.animate-slide-down {
+  .animate-target::after {
+    display: none;
+  }
+}
+
+
+// Move up and down infinite animation
+
+.animate-up-down {
+  animation: move-up-down 5s linear infinite;
+}
+
+@keyframes move-up-down {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+}
+
+
+// Move down and up infinite animation
+
+.animate-down-up {
+  animation: move-down-up 5s linear infinite;
+}
+
+@keyframes move-down-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1rem);
+  }
+}
+
+
+// Spin infinite animation
+
+.animate-spin {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+// Blink infinite animation
+
+.animate-blink {
+  animation: blink 1.75s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+// Fade in animation (for Dropdowns)
+
+@keyframes fade-in  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+// Fade up animation (for Dropdowns)
+
+@keyframes fade-up  {
+  from {
+    opacity: 0;
+    transform: translateY(.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+// Hover effects
+
+.hover-effect-scale {
+  --#{$prefix}transition-duration: .35s;
+  --#{$prefix}transform-scale: 1.06;
+
+  .hover-effect-target {
+    transition: transform var(--#{$prefix}transition-duration) ease-in-out;
+  }
+
+  &:hover .hover-effect-target,
+  &:focus-visible .hover-effect-target,
+  &:focus-within .hover-effect-target {
+    transform: scale(var(--#{$prefix}transform-scale));
+  }
+}
+
+.hover-effect-opacity {
+  --#{$prefix}transition-duration: .25s;
+
+  .hover-effect-target {
+    transition: visibility var(--#{$prefix}transition-duration) ease-in-out, opacity var(--#{$prefix}transition-duration) ease-in-out;
+  }
+
+  &:hover .hover-effect-target.opacity-0,
+  &:focus-visible .hover-effect-target.opacity-0,
+  &:focus-within .hover-effect-target.opacity-0 {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  &:hover .hover-effect-target.opacity-100,
+  &:focus-visible .hover-effect-target.opacity-100,
+  &:focus-within .hover-effect-target.opacity-100 {
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+}
+
+.hover-effect-scale.hover-effect-opacity {
+  .hover-effect-target {
+    transition: all var(--#{$prefix}transition-duration) ease-in-out;
+  }
+}
+
+.hover-effect-underline:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: var(--#{$prefix}underline-thickness) !important;
+}

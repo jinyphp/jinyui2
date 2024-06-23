@@ -1,0 +1,138 @@
+// Carousel (slider) component
+// based on https://swiperjs.com/
+
+
+// Pagination
+
+// Navigation (Prev/next buttons)
+
+.swiper-button-lock {
+  display: none !important;
+}
+
+
+// Bullets
+
+.swiper-pagination-bullets {
+  --swiper-pagination-bottom: 1.5rem;
+  --swiper-pagination-right: 1.5rem;
+  --swiper-pagination-bullet-inactive-color: #{$carousel-bullet-bg};
+  --swiper-pagination-color: #{$carousel-bullet-active-bg};
+  --swiper-pagination-bullet-border-radius: #{$carousel-bullet-border-radius};
+  --swiper-pagination-bullet-inactive-opacity: #{$carousel-bullet-opacity};
+  --swiper-pagination-bullet-opacity: #{$carousel-bullet-active-opacity};
+  --swiper-pagination-bullet-horizontal-gap: #{$carousel-bullet-gap * .5};
+  --swiper-pagination-bullet-vertical-gap: #{$carousel-bullet-gap * .5};
+  --swiper-pagination-bullet-transition: #{$carousel-bullet-transition};
+}
+
+.swiper-pagination-bullet {
+  transition: var(--swiper-pagination-bullet-transition);
+}
+
+
+// Progress bar
+
+.swiper-pagination-progressbar {
+  --swiper-pagination-progressbar-size: #{$carousel-progressbar-size};
+  --swiper-pagination-progressbar-border-radius: #{$carousel-progressbar-border-radius};
+  --swiper-pagination-progressbar-bg-color: #{$carousel-progressbar-bg};
+  --swiper-pagination-color: #{$carousel-progressbar-fill-bg};
+
+  overflow: hidden;
+  @include border-radius(var(--swiper-pagination-progressbar-border-radius));
+}
+
+
+// Scrollbar
+
+.swiper-scrollbar {
+  --swiper-scrollbar-bottom: .25rem;
+  --swiper-scrollbar-right: .25rem;
+  --swiper-scrollbar-size: #{$carousel-scrollbar-size};
+  --swiper-scrollbar-border-radius: #{$carousel-scrollbar-border-radius};
+  --swiper-scrollbar-bg-color: #{$carousel-scrollbar-bg};
+  --swiper-scrollbar-drag-bg-color: #{$carousel-scrollbar-drag-bg};
+
+  display: none;
+
+  &.swiper-scrollbar-horizontal,
+  &.swiper-scrollbar-vertical {
+    display: block;
+  }
+}
+
+
+// Thumbnails
+
+.swiper-thumbs {
+  --swiper-thumbnail-border-width: var(--#{$prefix}border-width);
+  --swiper-thumbnail-border-color: var(--#{$prefix}border-color);
+  --swiper-thumbnail-active-border-color: var(--#{$prefix}component-active-color);
+  --swiper-thumbnail-border-radius: var(--#{$prefix}border-radius);
+  --swiper-thumbnail-opacity: .5;
+  --swiper-thumbnail-active-opacity: 1;
+}
+
+.swiper-thumb-img {
+  opacity: var(--swiper-thumbnail-opacity);
+  transition: opacity .2s ease-in-out;
+  @include border-radius(var(--swiper-thumbnail-border-radius));
+}
+
+.swiper-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  border: var(--swiper-thumbnail-border-width) solid var(--swiper-thumbnail-border-color);
+  @include border-radius(var(--swiper-thumbnail-border-radius));
+  transition: border-color .2s ease-in-out;
+
+  &:hover,
+  &.active,
+  &.swiper-slide-thumb-active {
+    .swiper-thumb-img {
+      opacity: var(--swiper-thumbnail-active-opacity);
+    }
+  }
+
+  &.active,
+  &.swiper-slide-thumb-active {
+    border-color: var(--swiper-thumbnail-active-border-color);
+  }
+}
+
+
+// Load swiper nicely
+
+.swiper-load {
+  visibility: hidden;
+
+  &.swiper-initialized {
+    visibility: visible;
+  }
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .swiper-pagination-bullets:not([data-bs-theme="light"]) {
+      --swiper-pagination-bullet-inactive-color: #{$carousel-bullet-bg-dark};
+      --swiper-pagination-color: #{$carousel-bullet-active-bg-dark};
+    }
+    .swiper-pagination-progressbar:not([data-bs-theme="light"]) {
+      --swiper-pagination-progressbar-bg-color: #{$carousel-progressbar-bg-dark};
+      --swiper-pagination-color: #{$carousel-progressbar-fill-bg-dark};
+    }
+    .swiper-scrollbar:not([data-bs-theme="light"]) {
+      --swiper-scrollbar-bg-color: #{$carousel-scrollbar-bg-dark};
+      --swiper-scrollbar-drag-bg-color: #{$carousel-scrollbar-drag-bg-dark};
+    }
+  }
+}
+

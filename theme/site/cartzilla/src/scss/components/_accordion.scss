@@ -1,0 +1,88 @@
+// Override default Bootstrap's accordion component
+
+.accordion {
+  --#{$prefix}accordion-btn-font-size: #{$accordion-button-font-size};
+  --#{$prefix}accordion-btn-font-weight: #{$accordion-button-font-weight};
+  --#{$prefix}accordion-body-font-size: #{$accordion-body-font-size};
+}
+
+.accordion-button {
+  @include font-size(var(--#{$prefix}accordion-btn-font-size));
+  font-weight: var(--#{$prefix}accordion-btn-font-weight);
+
+  &:focus-visible {
+    @include box-shadow($focus-ring-box-shadow);
+  }
+
+  &:not(.collapsed) {
+    box-shadow: none;
+  }
+}
+
+.accordion-item {
+  border: 0;
+  border-bottom: var(--#{$prefix}accordion-border-width) solid var(--#{$prefix}accordion-border-color);
+}
+
+.accordion-body {
+  padding-bottom: var(--#{$prefix}accordion-btn-padding-y);
+  @include font-size(var(--#{$prefix}accordion-body-font-size));
+}
+
+
+// Alternative button icon
+
+.accordion-alt-icon {
+  --#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon-alt)};
+  --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon-alt)};
+}
+
+
+// Update accordion / collapse button label text
+
+[data-label-collapsed] {
+  &::before {
+    content: attr(data-label-expanded);
+  }
+
+  &.collapsed::before,
+  .collapsed > &::before {
+    content: attr(data-label-collapsed);
+  }
+}
+
+
+// Collapse toggle icon
+
+.collapse-toggle-icon {
+  :not(.collapsed) > & {
+    transform: rotate(180deg);
+  }
+}
+
+
+// Hiding collapse toggle
+
+.hiding-collapse-toggle:not(.collapsed) {
+  display: none;
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .accordion:not([data-bs-theme="light"]) {
+      .accordion-button::after {
+        --#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon-dark)};
+        --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon-dark)};
+      }
+    }
+    .accordion-alt-icon:not([data-bs-theme="light"]) {
+      .accordion-button::after {
+        --#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon-alt-dark)};
+        --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon-alt-dark)};
+      }
+    }
+  }
+}

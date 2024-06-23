@@ -1,0 +1,21 @@
+// Close button
+// It is used to dismiss alerts, modals, etc.
+
+.btn-close {
+  --#{$prefix}btn-close-size: #{$btn-close-width};
+
+  width: var(--#{$prefix}btn-close-size);
+  height: var(--#{$prefix}btn-close-size);
+  background-size: var(--#{$prefix}btn-close-size) auto;
+  transition: $btn-close-transition;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  &:focus-visible {
+    box-shadow: var(--#{$prefix}btn-close-focus-shadow);
+    opacity: var(--#{$prefix}btn-close-focus-opacity);
+  }
+}

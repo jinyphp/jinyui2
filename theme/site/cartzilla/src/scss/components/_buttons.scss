@@ -1,0 +1,283 @@
+// Override Bootstrap's base button class
+
+.btn {
+  --#{$prefix}btn-active-border-color: transparent;
+  --#{$prefix}btn-disabled-border-color: transparent;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:focus-visible {
+    box-shadow: $focus-ring-box-shadow;
+  }
+
+  // Fix chevron icons vertical aligment
+  &:not(.btn-icon) [class*=" #{$icon-prefix}chevron"],
+  &:not(.btn-icon) [class^="#{$icon-prefix}chevron"] {
+    margin-top: .125rem;
+  }
+}
+
+
+// Override solid buttons
+
+@each $color, $value in map-remove($theme-colors, "secondary", "dark", "light") {
+  .btn-#{$color} {
+    --#{$prefix}btn-hover-bg: #{darken($value, 10%)};
+    --#{$prefix}btn-active-bg: #{darken($value, 10%)};
+    --#{$prefix}btn-hover-border-color: #{darken($value, 10%)};
+    --#{$prefix}btn-active-border-color: #{darken($value, 10%)};
+  }
+}
+
+.btn-secondary {
+  --#{$prefix}btn-color: #{$gray-700};
+  --#{$prefix}btn-bg: #{$gray-100};
+  --#{$prefix}btn-border-color: #{$gray-100};
+  --#{$prefix}btn-hover-color: #{$gray-900};
+  --#{$prefix}btn-hover-bg: #{$gray-200};
+  --#{$prefix}btn-hover-border-color: #{$gray-200};
+  --#{$prefix}btn-active-color: #{$gray-700};
+  --#{$prefix}btn-active-bg: #{$gray-200};
+  --#{$prefix}btn-active-border-color: #{$gray-200};
+  --#{$prefix}btn-disabled-color: #{$gray-700};
+  --#{$prefix}btn-disabled-bg: #{$gray-100};
+  --#{$prefix}btn-disabled-border-color: #{$gray-100};
+}
+
+.btn-dark {
+  --#{$prefix}btn-hover-bg: #{$gray-950};
+  --#{$prefix}btn-hover-border-color: #{$gray-950};
+  --#{$prefix}btn-active-bg: #{$gray-950};
+  --#{$prefix}btn-active-border-color: #{$gray-950};
+}
+
+.btn-light {
+  --#{$prefix}btn-color: #{$gray-900};
+  --#{$prefix}btn-hover-color: #{$gray-900};
+  --#{$prefix}btn-hover-bg: #{$gray-200};
+  --#{$prefix}btn-hover-border-color: #{$gray-200};
+  --#{$prefix}btn-active-color: #{$gray-900};
+  --#{$prefix}btn-active-bg: #{$gray-200};
+  --#{$prefix}btn-active-border-color: #{$gray-200};
+}
+
+.btn-link {
+  font-weight: $btn-font-weight;
+}
+
+
+// Override outline buttons
+
+.btn-outline-secondary {
+  --#{$prefix}btn-color: #{$gray-700};
+  --#{$prefix}btn-border-color: #{$gray-200};
+  --#{$prefix}btn-hover-color: #{$gray-900};
+  --#{$prefix}btn-hover-bg: transparent;
+  --#{$prefix}btn-hover-border-color: #{$gray-500};
+  --#{$prefix}btn-active-color: #{$gray-900};
+  --#{$prefix}btn-active-bg: transparent;
+  --#{$prefix}btn-active-border-color: #{$gray-900};
+  --#{$prefix}btn-disabled-color: #{$gray-700};
+  --#{$prefix}btn-disabled-border-color: #{$gray-200};
+}
+
+
+// Ghost button
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: transparent;
+
+  &:hover,
+  &:focus-visible,
+  &.show {
+    background-color: var(--#{$prefix}btn-bg);
+    border-color: var(--#{$prefix}btn-border-color);
+  }
+
+  &.active {
+    background-color: var(--#{$prefix}btn-active-bg);
+    border-color: var(--#{$prefix}btn-active-border-color);
+  }
+}
+
+
+// Icon button
+
+.btn-icon {
+  --#{$prefix}btn-size: #{$btn-icon-size};
+
+  flex-shrink: 0;
+  width: var(--#{$prefix}btn-size);
+  height: var(--#{$prefix}btn-size);
+  padding: 0;
+
+  &.btn-lg {
+    --#{$prefix}btn-size: #{$btn-icon-size-lg};
+  }
+
+  &.btn-sm {
+    --#{$prefix}btn-size: #{$btn-icon-size-sm};
+  }
+}
+
+
+// Market button
+
+.btn-market {
+  --#{$prefix}btn-padding-y: .625rem;
+  --#{$prefix}btn-padding-x: 1rem;
+  --#{$prefix}btn-border-width: 0;
+
+  &.btn-lg {
+    --#{$prefix}btn-padding-y: .75rem;
+    --#{$prefix}btn-padding-x: 1.125rem;
+  }
+}
+
+
+// Color button
+
+.btn-color {
+  --#{$prefix}btn-active-border-color: var(--#{$prefix}tertiary-color);
+
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1em;
+  height: 1em;
+  padding: .125rem;
+  @include border-radius(50%);
+
+  &::before {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: currentcolor;
+    @include border-radius(50%);
+  }
+}
+
+
+// Image button
+
+.btn-image {
+  --#{$prefix}btn-active-border-color: var(--#{$prefix}component-active-color);
+}
+
+
+// Back to top button
+
+.btn-scroll-top {
+  --#{$prefix}btn-padding-x: .75rem;
+  --#{$prefix}btn-padding-y: #{calc($btn-padding-y-sm + var(--#{$prefix}border-width))};
+
+  position: relative;
+  @include font-size($font-size-base * .625);
+  text-transform: uppercase;
+  visibility: hidden;
+  opacity: 0;
+  transition: transform .25s ease-in-out, opacity .25s, visibility .25s;
+  transform: scale(0);
+
+  &.show {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+// Sort button
+
+[data-sort] {
+  display: inline-flex;
+  align-items: center;
+
+  &::after {
+    width: 1.25em;
+    margin-top: .125em;
+    font-size: 1.25em;
+    content: "\2195";
+  }
+
+  &.asc::after {
+    content: "\2191";
+    transform: scale(.75);
+  }
+
+  &.desc::after {
+    content: "\2193";
+    transform: scale(.75);
+  }
+}
+
+
+// Revoke Bootstrap badge inside button fix
+
+.btn .badge {
+  top: 0;
+}
+
+
+// Floating buttons
+
+.floating-buttons {
+  transform: translateX(50%) rotate(-90deg);
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .btn-secondary:not([data-bs-theme="light"]) {
+      --#{$prefix}btn-color: #{$gray-200};
+      --#{$prefix}btn-bg: #{$gray-700};
+      --#{$prefix}btn-border-color: #{$gray-700};
+      --#{$prefix}btn-hover-color: #{$white};
+      --#{$prefix}btn-hover-bg: #{$gray-600};
+      --#{$prefix}btn-hover-border-color: #{$gray-600};
+      --#{$prefix}btn-active-color: #{$gray-200};
+      --#{$prefix}btn-active-bg: #{$gray-600};
+      --#{$prefix}btn-active-border-color: #{$gray-600};
+      --#{$prefix}btn-disabled-color: #{$gray-200};
+      --#{$prefix}btn-disabled-bg: #{$gray-700};
+      --#{$prefix}btn-disabled-border-color: #{$gray-700};
+    }
+
+    .btn-dark:not([data-bs-theme="light"]) {
+      @extend .btn-light;
+    }
+
+    .btn-link:not([data-bs-theme="light"]) {
+      --#{$prefix}btn-disabled-color: #{$btn-link-disabled-color-dark};
+    }
+
+    .btn-outline-secondary:not([data-bs-theme="light"]) {
+      --#{$prefix}btn-color: #{$gray-200};
+      --#{$prefix}btn-border-color: #{$gray-700};
+      --#{$prefix}btn-hover-color: #{$white};
+      --#{$prefix}btn-hover-border-color: #{$gray-400};
+      --#{$prefix}btn-active-color: #{$white};
+      --#{$prefix}btn-active-border-color: #{$white};
+      --#{$prefix}btn-disabled-color: #{$gray-200};
+      --#{$prefix}btn-disabled-border-color: #{$gray-700};
+    }
+
+    .btn-outline-dark:not([data-bs-theme="light"]) {
+      --#{$prefix}btn-color: #{$gray-50};
+      --#{$prefix}btn-border-color: #{$gray-50};
+      --#{$prefix}btn-hover-color: #{$gray-900};
+      --#{$prefix}btn-hover-bg: #{$white};
+      --#{$prefix}btn-hover-border-color: #{$white};
+      --#{$prefix}btn-active-color: #{$gray-900};
+      --#{$prefix}btn-active-bg: #{$white};
+      --#{$prefix}btn-active-border-color: #{$white};
+      --#{$prefix}btn-disabled-color: #{$gray-50};
+      --#{$prefix}btn-disabled-border-color: #{$gray-50};
+    }
+  }
+}

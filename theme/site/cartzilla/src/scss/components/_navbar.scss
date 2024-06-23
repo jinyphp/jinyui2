@@ -1,0 +1,401 @@
+// Add new CSS variables to default Bootstrap's .navbar
+
+.navbar {
+  --#{$prefix}navbar-brand-font-weight: #{$navbar-brand-font-weight};
+}
+
+
+// Navbar brand
+
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  font-weight: var(--#{$prefix}navbar-brand-font-weight);
+}
+
+
+// Navbar nav
+
+.navbar-nav {
+  --#{$prefix}nav-link-font-size: #{$navbar-nav-link-font-size};
+  --#{$prefix}nav-link-underline-border-width: #{$navbar-nav-link-underline-border-width};
+
+  gap: 0;
+
+  > .nav-item > .nav-link {
+    padding: var(--#{$prefix}nav-link-padding-y) var(--#{$prefix}navbar-nav-link-padding-x);
+
+    @include underline(var(--#{$prefix}nav-link-underline-border-width), before);
+
+    &::before {
+      top: calc(var(--#{$prefix}nav-link-padding-y) * .75);
+      width: var(--#{$prefix}nav-link-underline-border-width);
+      height: calc(100% - var(--#{$prefix}nav-link-padding-y) * 1.5);
+      transform: scaleY(0);
+      transform-origin: bottom left;
+    }
+
+    &:hover,
+    &.show,
+    &:focus-visible,
+    &.active {
+      &::before {
+        transform: scaleY(1);
+        transform-origin: top left;
+      }
+    }
+
+    @if $enable-caret {
+      &.dropdown-toggle::after {
+        margin-left: auto;
+      }
+    }
+  }
+
+  &:hover {
+    > .nav-item > .nav-link.active:not(:hover):not(.show):not(:focus-visible) {
+      &::before {
+        transform: scaleY(0);
+        transform-origin: bottom left;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    --#{$prefix}dropdown-box-shadow: none;
+    position: static;
+
+    @if $enable-caret {
+      .dropup .dropdown-toggle::after,
+      .dropend .dropdown-toggle::after,
+      .dropstart .dropdown-toggle::after {
+        -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M8.7,13.7c0.4-0.4,1.1-0.4,1.5,0l6,6l6-6c0.4-0.4,1.1-0.4,1.5,0s0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0l-6.7-6.7C8.3,14.6,8.3,14.1,8.7,13.7z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+        mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M8.7,13.7c0.4-0.4,1.1-0.4,1.5,0l6,6l6-6c0.4-0.4,1.1-0.4,1.5,0s0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0l-6.7-6.7C8.3,14.6,8.3,14.1,8.7,13.7z'/></svg>")) no-repeat 50% 50%;
+      }
+      .dropstart .dropdown-toggle {
+        &::before {
+          display: none;
+        }
+        &::after {
+          display: inline-block;
+          width: $caret-width;
+          height: $caret-width;
+          margin-right: -.125rem;
+          content: "";
+          background-color: currentcolor;
+          border: 0 !important;
+          -webkit-mask-size: cover; // stylelint-disable-line property-no-vendor-prefix
+          mask-size: cover;
+        }
+      }
+    }
+
+    .dropend .dropdown-menu,
+    .dropstart .dropdown-menu {
+      margin: var(--#{$prefix}dropdown-spacer) 0 !important;
+    }
+  }
+
+  .dropdown > .dropdown-menu,
+  .dropup > .dropdown-menu {
+    &::before,
+    &::after {
+      height: calc(var(--#{$prefix}dropdown-spacer) * 1.125);
+    }
+  }
+}
+
+[dir="rtl"] .navbar-nav .dropdown-menu {
+  .dropup .dropdown-toggle::after,
+  .dropend .dropdown-toggle::after,
+  .dropstart .dropdown-toggle::after {
+    -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M15.3,13.3c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6-6l-6,6c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5L15.3,13.3z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+    mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M15.3,13.3c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6-6l-6,6c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5L15.3,13.3z'/></svg>")) no-repeat 50% 50%;
+  }
+}
+
+
+// Fix nav inside dark navbar but light offcanvas
+
+@if $enable-dark-mode {
+  @include color-mode(light) {
+    .navbar-dark:not([data-bs-theme="dark"]) .offcanvas .navbar-nav {
+      --#{$prefix}nav-link-color: #{$navbar-light-color};
+      --#{$prefix}nav-link-hover-color: #{$navbar-light-hover-color};
+      --#{$prefix}navbar-active-color: #{$navbar-light-active-color};
+      --#{$prefix}nav-link-disabled-color: #{$navbar-light-disabled-color};
+    }
+  }
+}
+
+
+// Navbar toggler
+
+.navbar-toggler {
+  position: relative;
+  width: $navbar-toggler-bar-width + $navbar-toggler-padding-x * 2;
+  height: $navbar-toggler-bar-height * 3 + $navbar-toggler-bar-spacing * 2 + $navbar-toggler-padding-y * 2;
+}
+
+.navbar-toggler-icon {
+  top: 50%;
+  display: block;
+  margin-top: $navbar-toggler-bar-height * -.5;
+  transition-timing-function: cubic-bezier(.55, .055, .675, .19);
+  transition-duration: .075s;
+
+  &,
+  &::before,
+  &::after {
+    position: absolute;
+    width: $navbar-toggler-bar-width;
+    height: $navbar-toggler-bar-height;
+    background-color: var(--#{$prefix}navbar-color);
+    transition-property: transform;
+  }
+  &::before,
+  &::after {
+    display: block;
+    content: "";
+  }
+  &::before {
+    top: ($navbar-toggler-bar-spacing + $navbar-toggler-bar-height) * -1;
+    transition: top .075s .12s ease, opacity .075s ease, width .15s ease-in-out;
+  }
+  &::after {
+    right: 0;
+    bottom: ($navbar-toggler-bar-spacing + $navbar-toggler-bar-height) * -1;
+    transition: bottom .075s .12s ease, transform .075s cubic-bezier(.55, .055, .675, .19), width .15s ease-in-out;
+  }
+}
+
+.navbar-toggler:not(.active):not([aria-expanded="true"]):hover .navbar-toggler-icon {
+  &::before,
+  &::after {
+    width: $navbar-toggler-bar-width * .75;
+  }
+}
+
+.navbar-toggler.active,
+[aria-expanded="true"] {
+  .navbar-toggler-icon {
+    transition-delay: .12s;
+    transition-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transform: rotate(45deg);
+    &::before,
+    &::after {
+      width: $navbar-toggler-bar-width;
+    }
+    &::before {
+      top: 0;
+      opacity: 0;
+      transition: top .075s ease, opacity .075s .12s ease;
+    }
+    &::after {
+      bottom: 0;
+      transition: bottom .075s ease, transform .075s .12s cubic-bezier(.215, .61, .355, 1);
+      transform: rotate(-90deg);
+    }
+  }
+}
+
+.navbar-stuck-hide.collapse {
+  display: block;
+}
+
+
+// Generate series of `.navbar-expand-*` responsive classes for configuring
+// where your navbar collapses.
+
+.navbar-expand {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    $next: breakpoint-next($breakpoint, $grid-breakpoints);
+    $infix: breakpoint-infix($next, $grid-breakpoints);
+    &#{$infix} {
+      @include media-breakpoint-up($next) {
+        .navbar-nav {
+          > .nav-item > .nav-link {
+            &::before {
+              top: auto;
+              bottom: calc(var(--#{$prefix}nav-link-padding-y) * .875);
+              left: var(--#{$prefix}navbar-nav-link-padding-x);
+              width: calc(100% - var(--#{$prefix}navbar-nav-link-padding-x) * 2);
+              height: var(--#{$prefix}nav-link-underline-border-width);
+              transform: scaleX(0);
+              transform-origin: bottom right;
+            }
+
+            @if $enable-caret {
+              &.dropdown-toggle::before {
+                width: calc(100% - $caret-width - $caret-spacing - var(--#{$prefix}navbar-nav-link-padding-x) * 2);
+              }
+            }
+
+            &:hover,
+            &.show,
+            &:focus-visible,
+            &.active {
+              @include underline-action(before);
+            }
+
+            @if $enable-caret {
+              &.dropdown-toggle::after {
+                margin-left: $caret-spacing;
+              }
+            }
+          }
+
+          &:hover {
+            > .nav-item > .nav-link.active:not(:hover):not(.show):not(:focus-visible) {
+              &::before {
+                transform: scaleX(0);
+                transform-origin: bottom right;
+              }
+            }
+          }
+
+
+          .dropdown-menu {
+            --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
+
+            &.show {
+              animation: fade-up .25s ease-in-out;
+            }
+
+            @if $enable-caret {
+              .dropend .dropdown-toggle::after {
+                -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M12.7,9.7c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5l6-6l-6-6C12.3,10.6,12.3,10.1,12.7,9.7L12.7,9.7z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+                mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M12.7,9.7c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5l6-6l-6-6C12.3,10.6,12.3,10.1,12.7,9.7L12.7,9.7z'/></svg>")) no-repeat 50% 50%;
+              }
+              .dropstart .dropdown-toggle {
+                &::after {
+                  display: none;
+                }
+                &::before {
+                  display: inline-block;
+                  width: $caret-width;
+                  height: $caret-width;
+                  margin-left: -.25rem;
+                  content: "";
+                  background-color: currentcolor;
+                  border: 0 !important;
+                  -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M19.3,9.7c0.4,0.4,0.4,1.1,0,1.5L13.5,17l6,6c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6.7-6.7c-0.4-0.4-0.4-1.1,0-1.5L18,9.7C18.4,9.3,18.9,9.3,19.3,9.7L19.3,9.7z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+                  mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M19.3,9.7c0.4,0.4,0.4,1.1,0,1.5L13.5,17l6,6c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6.7-6.7c-0.4-0.4-0.4-1.1,0-1.5L18,9.7C18.4,9.3,18.9,9.3,19.3,9.7L19.3,9.7z'/></svg>")) no-repeat 50% 50%;
+                  -webkit-mask-size: cover; // stylelint-disable-line property-no-vendor-prefix
+                  mask-size: cover;
+                }
+              }
+            }
+
+            .dropend .dropdown-menu,
+            .dropstart .dropdown-menu {
+              margin: calc(var(--#{$prefix}dropdown-padding-y) * -1 + var(--#{$prefix}dropdown-border-width) * -1) var(--#{$prefix}dropdown-spacer) 0 var(--#{$prefix}dropdown-spacer) !important;
+            }
+          }
+        }
+
+        &.navbar-dark:not([data-bs-theme="dark"]) .offcanvas .navbar-nav {
+          --#{$prefix}nav-link-color: var(--#{$prefix}navbar-color);
+          --#{$prefix}nav-link-hover-color: var(--#{$prefix}navbar-hover-color);
+          --#{$prefix}navbar-active-color: #{$navbar-dark-active-color};
+          --#{$prefix}nav-link-disabled-color: var(--#{$prefix}navbar-disabled-color);
+        }
+
+        &:not(.navbar-stuck) .dropdown-menu-static {
+          display: block;
+          animation: none !important;
+        }
+
+        &.navbar-stuck {
+          .navbar-stuck-show {
+            display: block !important;
+          }
+          .navbar-stuck-hide:not(.collapse):not(.collapsing) {
+            display: none !important;
+          }
+          .navbar-stuck-hide.collapse:not(.show) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Sticky navbar
+
+.navbar-stuck {
+  animation: navbar-show .25s;
+}
+
+.navbar-sticky.is-stuck,
+.navbar-sticky.navbar-stuck {
+  &.navbar,
+  .navbar {
+    @include box-shadow($box-shadow);
+  }
+
+  &.rounded-pill:not(.form-control):not(.badge):not(.btn),
+  .rounded-pill:not(.form-control):not(.badge):not(.btn) {
+    border-radius: var(--#{$prefix}border-radius-lg) !important;
+    border: {
+      top-left-radius: 0 !important;
+      top-right-radius: 0 !important;
+    }
+  }
+}
+
+@keyframes navbar-show  {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.sticky-product-banner {
+
+  .sticky-product-banner-inner {
+    position: absolute;
+    width: 100%;
+    transition: transform .3s ease-in-out;
+    transform: translateY(0);
+  }
+
+  &:not(.is-stuck) .sticky-product-banner-inner {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    transform: translateY(-100%);
+  }
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .navbar:not([data-bs-theme="light"]) {
+      --#{$prefix}navbar-color: #{$navbar-dark-color};
+      --#{$prefix}navbar-hover-color: #{$navbar-dark-hover-color};
+      --#{$prefix}navbar-disabled-color: #{$navbar-dark-disabled-color};
+      --#{$prefix}navbar-active-color: #{$navbar-dark-active-color};
+      --#{$prefix}navbar-brand-color: #{$navbar-dark-brand-color};
+      --#{$prefix}navbar-brand-hover-color: #{$navbar-dark-brand-hover-color};
+    }
+    .navbar-sticky.is-stuck,
+    .navbar-sticky.navbar-stuck {
+      &.navbar:not([data-bs-theme="light"]),
+      .navbar:not([data-bs-theme="light"]) {
+        @include box-shadow($box-shadow-dark);
+      }
+    }
+  }
+}

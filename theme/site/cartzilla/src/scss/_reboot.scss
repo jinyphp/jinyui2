@@ -1,0 +1,197 @@
+// Reboot
+
+// Make the edges of fonts smoother + apply globally :focus-visible styles
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:focus-visible {
+    outline: var(--#{$prefix}focus-ring-width) solid var(--#{$prefix}focus-ring-color);
+  }
+}
+
+
+// Disable :focus-visible for offcanvas component
+
+.offcanvas:focus-visible {
+  outline: none;
+}
+
+
+// Sticky footer
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrapper {
+  flex: 1;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+
+// Images
+// Responsive images (ensure images don't scale beyond their parents)
+
+img,
+figure {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+svg {
+  max-width: 100%;
+}
+
+
+// Responsive iframes
+
+iframe {
+  width: 100%;
+}
+
+
+// Links
+/* stylelint-disable selector-no-qualifying-type */
+a,
+button {
+  text-underline-offset: .25em;
+  &.text-decoration-underline:hover {
+    text-decoration: none !important;
+  }
+}
+/* stylelint-enable selector-no-qualifying-type */
+
+.link-body-emphasis {
+  --#{$prefix}link-opacity: 1;
+}
+
+
+// Text Selection Color
+
+::selection {
+  background: var(--#{$prefix}user-selection-color);
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    ::selection {
+      background: var(--#{$prefix}user-selection-color-dark);
+    }
+  }
+}
+
+
+// Lists
+
+ol,
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: $spacer * .5;
+  padding-left: $spacer * 1.5;
+
+  ul,
+  ol {
+    margin-top: $spacer * .5;
+  }
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+dt {
+  color: $dt-color;
+}
+
+dd {
+  margin-bottom: $spacer * .75;
+}
+
+
+// Legend
+
+legend {
+  color: $legend-color;
+}
+
+
+// Base font icons styles
+
+[class*=" #{$icon-prefix}"],
+[class^="#{$icon-prefix}"] {
+  display: inline-flex;
+
+  &:not(.animate-target) {
+    a &,
+    button & {
+      transition: opacity .2s ease-in-out;
+    }
+    a:hover &,
+    a:focus-visible &,
+    a.active &,
+    a.show &,
+    button:hover &,
+    button:focus-visible &,
+    button.active &,
+    button.show & {
+      opacity: 1 !important;
+    }
+  }
+}
+
+
+// Code
+
+pre,
+.hljs {
+  padding: $pre-padding-y $pre-padding-x;
+  margin: 0;
+  background-color: $pre-bg;
+  @include border-radius($pre-border-radius);
+}
+
+kbd {
+  @include border-radius($border-radius-xs);
+}
+
+.hljs-comment,
+.hljs-quote {
+  font-style: normal;
+}
+
+
+// Section that is wider than a container on a left/right side
+
+.container-start {
+  margin-left: calc((100% - (map-get($container-max-widths, "xxl") - $grid-gutter-width)) / 2);
+}
+.container-end {
+  margin-right: calc((100% - (map-get($container-max-widths, "xxl") - $grid-gutter-width)) / 2);
+}
+@include media-breakpoint-down(xxl) {
+  .container-start {
+    margin-left: calc((100% - (map-get($container-max-widths, "xl") - $grid-gutter-width)) / 2);
+  }
+  .container-end {
+    margin-right: calc((100% - (map-get($container-max-widths, "xl") - $grid-gutter-width)) / 2);
+  }
+}
+@include media-breakpoint-down(sm) {
+  .container-start {
+    padding-left: $container-padding-x * .5;
+    margin-left: 0;
+  }
+  .container-end {
+    padding-right: $container-padding-x * .5;
+    margin-right: 0;
+  }
+}

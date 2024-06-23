@@ -1,0 +1,23 @@
+// Image zoom on hover
+// based on https://github.com/imgix/drift
+
+[data-zoom]:hover {
+  cursor: crosshair;
+}
+
+.drift-zoom-pane {
+  background-color: var(--#{$prefix}body-bg);
+  border: $border-width solid var(--#{$prefix}border-color);
+  @include border-radius(var(--#{$prefix}border-radius-lg));
+}
+
+[dir="rtl"] .drift-zoom-pane img {
+  /* rtl:begin:ignore */
+  left: 0;
+
+  /* rtl:end:ignore */
+}
+
+.drift-inline {
+  z-index: 10;
+}

@@ -1,0 +1,25 @@
+// Override default Bootstrap's toast component
+
+.toast {
+  padding: var(--#{$prefix}toast-padding-y) var(--#{$prefix}toast-padding-x);
+
+  .btn-close {
+    --#{$prefix}btn-close-size: .625em;
+    margin-top: .125rem;
+  }
+}
+
+.toast-header,
+.toast-body {
+  padding: 0;
+
+  .btn-close {
+    --#{$prefix}btn-close-size: .625em;
+    margin: .125rem 0 0;
+  }
+}
+
+.toast-header {
+  margin-bottom: var(--#{$prefix}toast-padding-y);
+  border: 0;
+}

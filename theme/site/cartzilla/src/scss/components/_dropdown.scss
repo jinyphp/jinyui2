@@ -1,0 +1,188 @@
+// Override default Bootstrap's dropdown component
+
+// Dropdown toggle
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+
+  @if $enable-caret {
+    &::after {
+      flex-shrink: 0;
+      width: $caret-width;
+      height: $caret-width;
+      margin-right: -.25rem;
+      content: "";
+      background-color: currentcolor;
+      border: 0 !important;
+      -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M8.7,13.7c0.4-0.4,1.1-0.4,1.5,0l6,6l6-6c0.4-0.4,1.1-0.4,1.5,0s0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0l-6.7-6.7C8.3,14.6,8.3,14.1,8.7,13.7z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+      mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M8.7,13.7c0.4-0.4,1.1-0.4,1.5,0l6,6l6-6c0.4-0.4,1.1-0.4,1.5,0s0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0l-6.7-6.7C8.3,14.6,8.3,14.1,8.7,13.7z'/></svg>")) no-repeat 50% 50%;
+      -webkit-mask-size: cover; // stylelint-disable-line property-no-vendor-prefix
+      mask-size: cover;
+    }
+  }
+}
+
+@if $enable-caret {
+  .dropup .dropdown-toggle::after {
+    -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M15.3,13.3c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6-6l-6,6c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5L15.3,13.3z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+    mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M15.3,13.3c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6-6l-6,6c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5L15.3,13.3z'/></svg>")) no-repeat 50% 50%;
+  }
+
+  .dropend .dropdown-toggle::after {
+    -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M12.7,9.7c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5l6-6l-6-6C12.3,10.6,12.3,10.1,12.7,9.7L12.7,9.7z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+    mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M12.7,9.7c0.4-0.4,1.1-0.4,1.5,0l6.7,6.7c0.4,0.4,0.4,1.1,0,1.5l-6.7,6.7c-0.4,0.4-1.1,0.4-1.5,0s-0.4-1.1,0-1.5l6-6l-6-6C12.3,10.6,12.3,10.1,12.7,9.7L12.7,9.7z'/></svg>")) no-repeat 50% 50%;
+  }
+
+  [dir="rtl"] .dropend .dropdown-toggle::after {
+    transform: rotate(180deg);
+  }
+
+  .dropstart .dropdown-toggle {
+    &::before {
+      flex-shrink: 0;
+      width: $caret-width;
+      height: $caret-width;
+      margin-left: -.25rem;
+      content: "";
+      background-color: currentcolor;
+      border: 0 !important;
+      -webkit-mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M19.3,9.7c0.4,0.4,0.4,1.1,0,1.5L13.5,17l6,6c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6.7-6.7c-0.4-0.4-0.4-1.1,0-1.5L18,9.7C18.4,9.3,18.9,9.3,19.3,9.7L19.3,9.7z'/></svg>")) no-repeat 50% 50%; // stylelint-disable-line property-no-vendor-prefix
+      mask: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M19.3,9.7c0.4,0.4,0.4,1.1,0,1.5L13.5,17l6,6c0.4,0.4,0.4,1.1,0,1.5s-1.1,0.4-1.5,0l-6.7-6.7c-0.4-0.4-0.4-1.1,0-1.5L18,9.7C18.4,9.3,18.9,9.3,19.3,9.7L19.3,9.7z'/></svg>")) no-repeat 50% 50%;
+      -webkit-mask-size: cover; // stylelint-disable-line property-no-vendor-prefix
+      mask-size: cover;
+    }
+  }
+
+  [dir="rtl"] .dropstart .dropdown-toggle::before {
+    transform: rotate(180deg);
+  }
+
+  .dropdown-toggle-split {
+    &::after,
+    &::before {
+      margin: 0 -.25rem;
+    }
+  }
+}
+
+
+// Highlight dropdown-toggle with specific "filter-select" class if there is any checkbox checked inside dropdown-menu
+
+.dropdown:has(:checked) .filter-select {
+  --#{$prefix}btn-border-color: #{$gray-900};
+  --#{$prefix}btn-hover-border-color: #{$gray-900};
+}
+
+
+// Dropdown menu
+
+.dropdown-menu {
+  --#{$prefix}dropdown-item-border-radius: #{$dropdown-item-border-radius};
+  --#{$prefix}dropdown-item-spacer: #{$dropdown-item-spacer};
+
+  padding-bottom: calc(var(--#{$prefix}dropdown-padding-y) - var(--#{$prefix}dropdown-item-spacer));
+
+  &.show {
+    animation: fade-in .15s ease-in-out;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+  }
+}
+
+.dropdown,
+.dropup {
+  .dropdown-menu {
+    margin: {
+      top: var(--#{$prefix}dropdown-spacer) !important;
+      bottom: var(--#{$prefix}dropdown-spacer) !important;
+    }
+
+    &::before,
+    &::after {
+      left: 0;
+      width: 100%;
+      height: calc(var(--#{$prefix}dropdown-spacer) * 1.5);
+    }
+    &::before {
+      bottom: 100%;
+    }
+    &::after {
+      top: 100%;
+    }
+  }
+}
+
+.dropstart,
+.dropend {
+  .dropdown-menu {
+    margin: {
+      right: var(--#{$prefix}dropdown-spacer) !important;
+      left: var(--#{$prefix}dropdown-spacer) !important;
+    }
+
+    &::before,
+    &::after {
+      top: 0;
+      width: calc(var(--#{$prefix}dropdown-spacer) * 2);
+      height: 100%;
+    }
+    &::before {
+      left: calc(var(--#{$prefix}dropdown-spacer) * -2);
+    }
+    &::after {
+      left: 100%;
+    }
+  }
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--#{$prefix}dropdown-item-spacer);
+  @include border-radius(var(--#{$prefix}dropdown-item-border-radius));
+  transition: $dropdown-link-transition;
+
+  &.show,
+  [data-bs-toggle].show > &,
+  [data-bs-toggle]:hover > &,
+  &:active {
+    color: var(--#{$prefix}dropdown-link-hover-color);
+    background-color: var(--#{$prefix}dropdown-link-hover-bg);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: $focus-ring-box-shadow;
+  }
+
+  &.dropdown-toggle::after {
+    margin-left: auto;
+  }
+
+  .item-active-indicator {
+    display: none;
+  }
+
+  &.active .item-active-indicator {
+    display: flex;
+    padding-left: .5rem;
+  }
+}
+
+
+// Dark mode
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .dropdown:not([data-bs-theme="light"]):has(:checked) .filter-select {
+      --#{$prefix}btn-border-color: #{$white};
+      --#{$prefix}btn-hover-border-color: #{$white};
+    }
+  }
+}

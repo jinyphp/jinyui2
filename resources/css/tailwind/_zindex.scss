@@ -1,0 +1,144 @@
+
+.z-0{
+    z-index: 0;
+  }
+
+  .z-10{
+    z-index: 10;
+  }
+
+  .z-20{
+    z-index: 20;
+  }
+
+  .z-30{
+    z-index: 30;
+  }
+
+  .z-40{
+    z-index: 40;
+  }
+
+  .z-50{
+    z-index: 50;
+  }
+
+  .z-auto{
+    z-index: auto;
+  }
+
+  .focus-within\:z-0:focus-within{
+    z-index: 0;
+  }
+
+  .focus-within\:z-10:focus-within{
+    z-index: 10;
+  }
+
+  .focus-within\:z-20:focus-within{
+    z-index: 20;
+  }
+
+  .focus-within\:z-30:focus-within{
+    z-index: 30;
+  }
+
+  .focus-within\:z-40:focus-within{
+    z-index: 40;
+  }
+
+  .focus-within\:z-50:focus-within{
+    z-index: 50;
+  }
+
+  .focus-within\:z-auto:focus-within{
+    z-index: auto;
+  }
+
+  .focus\:z-0:focus{
+    z-index: 0;
+  }
+
+  .focus\:z-10:focus{
+    z-index: 10;
+  }
+
+  .focus\:z-20:focus{
+    z-index: 20;
+  }
+
+  .focus\:z-30:focus{
+    z-index: 30;
+  }
+
+  .focus\:z-40:focus{
+    z-index: 40;
+  }
+
+  .focus\:z-50:focus{
+    z-index: 50;
+  }
+
+  .focus\:z-auto:focus{
+    z-index: auto;
+  }
+
+  .order-1{
+    order: 1;
+  }
+
+  .order-2{
+    order: 2;
+  }
+
+  .order-3{
+    order: 3;
+  }
+
+  .order-4{
+    order: 4;
+  }
+
+  .order-5{
+    order: 5;
+  }
+
+  .order-6{
+    order: 6;
+  }
+
+  .order-7{
+    order: 7;
+  }
+
+  .order-8{
+    order: 8;
+  }
+
+  .order-9{
+    order: 9;
+  }
+
+  .order-10{
+    order: 10;
+  }
+
+  .order-11{
+    order: 11;
+  }
+
+  .order-12{
+    order: 12;
+  }
+
+  .order-first{
+    order: -9999;
+  }
+
+  .order-last{
+    order: 9999;
+  }
+
+  .order-none{
+    order: 0;
+  }
