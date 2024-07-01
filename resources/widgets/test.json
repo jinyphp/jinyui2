@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Custom tooltips ",
+        "description": "You can customize the appearance of tooltips using CSS variables. We set a custom class with data-bs-custom-class=\"custom-tooltip\" to scope our custom appearance and use it to override a local CSS variable.",
+        "code": ".custom-tooltip {\n  --bs-tooltip-bg: var(--bd-violet-bg);\n  --bs-tooltip-color: var(--bs-white);\n}",
+        "updated_at": "2024-07-01 12:10:09"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Directions ",
+        "description": "Hover over the buttons below to see the four tooltips directions: top, right, bottom, and left. Directions are mirrored when using Bootstrap in RTL.",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n  Tooltip on top\n<\/button>\n<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n  Tooltip on right\n<\/button>\n<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n  Tooltip on bottom\n<\/button>\n<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n  Tooltip on left\n<\/button>",
+        "updated_at": "2024-07-01 09:26:45"
+    }
+}
