@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Usage ",
+        "description": "The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element. Trigger the tooltip via JavaScript:",
+        "code": "The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element. Trigger the tooltip via JavaScript:",
+        "updated_at": "2024-07-01 12:18:40"
+    }
+}
