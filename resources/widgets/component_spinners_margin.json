@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Margin ",
+        "description": "Use margin utilities like .m-5 for easy spacing.",
+        "code": "<div class=\"spinner-border m-5\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
+        "updated_at": "2024-07-02 11:15:44"
+    }
+}

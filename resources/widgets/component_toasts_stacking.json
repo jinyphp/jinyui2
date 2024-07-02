@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Stacking ",
+        "description": "You can stack toasts by wrapping them in a toast container, which will vertically add some spacing.\n\n",
+        "code": "<div class=\"toast-container position-static\">\n  <div class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">\n    <div class=\"toast-header\">\n      <img src=\"...\" class=\"rounded me-2\" alt=\"...\">\n      <strong class=\"me-auto\">Bootstrap<\/strong>\n      <small class=\"text-body-secondary\">just now<\/small>\n      <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"><\/button>\n    <\/div>\n    <div class=\"toast-body\">\n      See? Just like this.\n    <\/div>\n  <\/div>\n\n  <div class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">\n    <div class=\"toast-header\">\n      <img src=\"...\" class=\"rounded me-2\" alt=\"...\">\n      <strong class=\"me-auto\">Bootstrap<\/strong>\n      <small class=\"text-body-secondary\">2 seconds ago<\/small>\n      <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"><\/button>\n    <\/div>\n    <div class=\"toast-body\">\n      Heads up, toasts will stack automatically\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 09:44:06"
+    }
+}

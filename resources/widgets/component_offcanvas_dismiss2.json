@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "or on a button outside the offcanvas using the additional data-bs-target as demonstrated below:",
+        "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" data-bs-target=\"#my-offcanvas\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-02 11:46:06"
+    }
+}

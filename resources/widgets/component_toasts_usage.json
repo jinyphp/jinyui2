@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Usage ",
+        "description": "Initialize toasts via JavaScript:",
+        "code": "const toastElList = document.querySelectorAll('.toast')\nconst toastList = [...toastElList].map(toastEl => new bootstrap.Toast(toastEl, option))",
+        "updated_at": "2024-07-02 09:57:54"
+    }
+}

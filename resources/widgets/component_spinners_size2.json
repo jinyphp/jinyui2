@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Or, use custom CSS or inline styles to change the dimensions as needed.\n\nLoading... Loading...",
+        "code": "<div class=\"spinner-border\" style=\"width: 3rem; height: 3rem;\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow\" style=\"width: 3rem; height: 3rem;\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
+        "updated_at": "2024-07-02 11:17:03"
+    }
+}

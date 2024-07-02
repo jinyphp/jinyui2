@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Width ",
+        "description": "You can change the width through grid column classes, width utilities, or inline styles.",
+        "code": "<span class=\"placeholder col-6\"><\/span>\n<span class=\"placeholder w-75\"><\/span>\n<span class=\"placeholder\" style=\"width: 25%;\"><\/span>",
+        "updated_at": "2024-07-02 11:37:09"
+    }
+}

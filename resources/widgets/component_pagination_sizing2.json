@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<nav aria-label=\"...\">\n  <ul class=\"pagination pagination-sm\">\n    <li class=\"page-item active\" aria-current=\"page\">\n      <span class=\"page-link\">1<\/span>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n  <\/ul>\n<\/nav>",
+        "updated_at": "2024-07-02 11:39:49"
+    }
+}

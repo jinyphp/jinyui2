@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Border spinner ",
+        "description": "Use the border spinners for a lightweight loading indicator.",
+        "code": "<div class=\"spinner-border\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
+        "updated_at": "2024-07-02 11:14:37"
+    }
+}

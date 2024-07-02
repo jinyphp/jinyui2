@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "We use the following JavaScript to trigger our live toast demo:",
+        "code": "const toastTrigger = document.getElementById('liveToastBtn')\nconst toastLiveExample = document.getElementById('liveToast')\n\nif (toastTrigger) {\n  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)\n  toastTrigger.addEventListener('click', () => {\n    toastBootstrap.show()\n  })\n}",
+        "updated_at": "2024-07-02 09:43:11"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Growing spinner variables:",
+        "code": "--#{$prefix}spinner-width: #{$spinner-width};\n--#{$prefix}spinner-height: #{$spinner-height};\n--#{$prefix}spinner-vertical-align: #{$spinner-vertical-align};\n--#{$prefix}spinner-animation-speed: #{$spinner-animation-speed};\n--#{$prefix}spinner-animation-name: spinner-grow;",
+        "updated_at": "2024-07-02 11:17:51"
+    }
+}

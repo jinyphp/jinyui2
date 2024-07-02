@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Static backdrop ",
+        "description": "When backdrop is set to static, the offcanvas will not close when clicking outside of it.",
+        "code": "<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#staticBackdrop\" aria-controls=\"staticBackdrop\">\n  Toggle static offcanvas\n<\/button>\n\n<div class=\"offcanvas offcanvas-start\" data-bs-backdrop=\"static\" tabindex=\"-1\" id=\"staticBackdrop\" aria-labelledby=\"staticBackdropLabel\">\n  <div class=\"offcanvas-header\">\n    <h5 class=\"offcanvas-title\" id=\"staticBackdropLabel\">Offcanvas<\/h5>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"><\/button>\n  <\/div>\n  <div class=\"offcanvas-body\">\n    <div>\n      I will not close if you click outside of me.\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:43:56"
+    }
+}
