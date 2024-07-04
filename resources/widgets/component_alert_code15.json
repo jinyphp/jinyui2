@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Initialize",
+        "description": "Initialize elements as alerts",
+        "code": "const alertList = document.querySelectorAll('.alert')\nconst alerts = [...alertList].map(element => new bootstrap.Alert(element))",
+        "updated_at": "2024-07-04 00:17:29"
+    }
+}

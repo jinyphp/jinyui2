@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Kitchen sink",
+        "description": "Mix and match multiple content types to create the card you need, or throw everything in there. Shown below are image styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.",
+        "code": "<div class=\"card\" style=\"width: 18rem;\">\n  <img src=\"...\" class=\"card-img-top\" alt=\"...\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n  <\/div>\n  <ul class=\"list-group list-group-flush\">\n    <li class=\"list-group-item\">An item<\/li>\n    <li class=\"list-group-item\">A second item<\/li>\n    <li class=\"list-group-item\">A third item<\/li>\n  <\/ul>\n  <div class=\"card-body\">\n    <a href=\"#\" class=\"card-link\">Card link<\/a>\n    <a href=\"#\" class=\"card-link\">Another link<\/a>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:47:09"
+    }
+}

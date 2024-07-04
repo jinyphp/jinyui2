@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "You can adjust the width of your block buttons with grid column width classes. For example, for a half-width “block button”, use .col-6. Center it horizontally with .mx-auto, too.",
+        "code": "<div class=\"d-grid gap-2 col-6 mx-auto\">\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:21:49"
+    }
+}

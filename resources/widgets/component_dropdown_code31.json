@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Text",
+        "description": "Place any freeform text within a dropdown menu with text and use spacing utilities. Note that you’ll likely need additional sizing styles to constrain the menu width.",
+        "code": "<div class=\"dropdown-menu p-4 text-body-secondary\" style=\"max-width: 200px;\">\n  <p>\n    Some example text that's free-flowing within the dropdown menu.\n  <\/p>\n  <p class=\"mb-0\">\n    And this is more example text.\n  <\/p>\n<\/div>",
+        "updated_at": "2024-07-04 03:54:44"
+    }
+}

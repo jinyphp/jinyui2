@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Additional utilities can be used to adjust the alignment of buttons when horizontal. Here we’ve taken our previous responsive example and added some flex utilities and a margin utility on the button to right-align the buttons when they’re no longer stacked.",
+        "code": "<div class=\"d-grid gap-2 d-md-flex justify-content-md-end\">\n  <button class=\"btn btn-primary me-md-2\" type=\"button\">Button<\/button>\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:21:58"
+    }
+}

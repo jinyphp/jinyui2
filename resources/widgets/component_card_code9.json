@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<div class=\"card\" style=\"width: 18rem;\">\n  <div class=\"card-header\">\n    Featured\n  <\/div>\n  <ul class=\"list-group list-group-flush\">\n    <li class=\"list-group-item\">An item<\/li>\n    <li class=\"list-group-item\">A second item<\/li>\n    <li class=\"list-group-item\">A third item<\/li>\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 01:46:31"
+    }
+}

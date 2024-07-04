@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Block buttons",
+        "description": "Create responsive stacks of full-width, “block buttons” like those in Bootstrap 4 with a mix of our display and gap utilities. By using utilities instead of button-specific classes, we have much greater control over spacing, alignment, and responsive behaviors.",
+        "code": "<div class=\"d-grid gap-2\">\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:21:28"
+    }
+}

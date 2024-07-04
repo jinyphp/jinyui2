@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Each .btn-* modifier class updates the appropriate CSS variables to minimize additional CSS rules with our button-variant(), button-outline-variant(), and button-size() mixins.\n\nHere’s an example of building a custom .btn-* modifier class as we do for the buttons unique to our docs by reassigning Bootstrap’s CSS variables with a mixture of our own CSS and Sass variables.\n\n",
+        "code": ".btn-bd-primary {\n  --bs-btn-font-weight: 600;\n  --bs-btn-color: var(--bs-white);\n  --bs-btn-bg: var(--bd-violet-bg);\n  --bs-btn-border-color: var(--bd-violet-bg);\n  --bs-btn-hover-color: var(--bs-white);\n  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};\n  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};\n  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);\n  --bs-btn-active-color: var(--bs-btn-hover-color);\n  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};\n  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};\n}",
+        "updated_at": "2024-07-04 01:32:35"
+    }
+}

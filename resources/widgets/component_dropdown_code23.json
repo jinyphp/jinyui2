@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Menu alignment",
+        "description": "By default, a dropdown menu is automatically positioned 100% from the top and along the left side of its parent. You can change this with the directional .drop* classes, but you can also control them with additional modifier classes.\n\nAdd .dropdown-menu-end to a .dropdown-menu to right align the dropdown menu. Directions are mirrored when using Bootstrap in RTL, meaning .dropdown-menu-end will appear on the left side.",
+        "code": "<div class=\"btn-group\">\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Right-aligned menu example\n  <\/button>\n  <ul class=\"dropdown-menu dropdown-menu-end\">\n    <li><button class=\"dropdown-item\" type=\"button\">Action<\/button><\/li>\n    <li><button class=\"dropdown-item\" type=\"button\">Another action<\/button><\/li>\n    <li><button class=\"dropdown-item\" type=\"button\">Something else here<\/button><\/li>\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:51:53"
+    }
+}

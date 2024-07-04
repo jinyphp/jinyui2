@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Pill badges",
+        "description": "Use the .rounded-pill utility class to make badges more rounded with a larger border-radius",
+        "code": "<span class=\"badge rounded-pill text-bg-primary\">Primary<\/span>\n<span class=\"badge rounded-pill text-bg-secondary\">Secondary<\/span>\n<span class=\"badge rounded-pill text-bg-success\">Success<\/span>\n<span class=\"badge rounded-pill text-bg-danger\">Danger<\/span>\n<span class=\"badge rounded-pill text-bg-warning\">Warning<\/span>\n<span class=\"badge rounded-pill text-bg-info\">Info<\/span>\n<span class=\"badge rounded-pill text-bg-light\">Light<\/span>\n<span class=\"badge rounded-pill text-bg-dark\">Dark<\/span>",
+        "updated_at": "2024-07-04 00:56:30"
+    }
+}

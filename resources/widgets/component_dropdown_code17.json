@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": " Dropend",
+        "description": "Trigger dropdown menus at the right of the elements by adding .dropend to the parent element.",
+        "code": "<!-- Default dropend button -->\n<div class=\"btn-group dropend\">\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Dropend\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <!-- Dropdown menu links -->\n  <\/ul>\n<\/div>\n\n<!-- Split dropend button -->\n<div class=\"btn-group dropend\">\n  <button type=\"button\" class=\"btn btn-secondary\">\n    Split dropend\n  <\/button>\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle dropdown-toggle-split\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    <span class=\"visually-hidden\">Toggle Dropend<\/span>\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <!-- Dropdown menu links -->\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:22:51"
+    }
+}

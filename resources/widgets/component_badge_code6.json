@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "You can also replace the .badge class with a few more utilities without a count for a more generic indicator.",
+        "code": "<button type=\"button\" class=\"btn btn-primary position-relative\">\n  Profile\n  <span class=\"position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle\">\n    <span class=\"visually-hidden\">New alerts<\/span>\n  <\/span>\n<\/button>",
+        "updated_at": "2024-07-04 00:55:38"
+    }
+}

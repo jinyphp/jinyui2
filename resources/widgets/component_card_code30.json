@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Mixins utilities ",
+        "description": "You can also change the borders on the card header and footer as needed, and even remove their background-color with .bg-transparent.",
+        "code": "<div class=\"card border-success mb-3\" style=\"max-width: 18rem;\">\n  <div class=\"card-header bg-transparent border-success\">Header<\/div>\n  <div class=\"card-body text-success\">\n    <h5 class=\"card-title\">Success card title<\/h5>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n  <\/div>\n  <div class=\"card-footer bg-transparent border-success\">Footer<\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:54:50"
+    }
+}

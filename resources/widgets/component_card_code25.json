@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Image overlays",
+        "description": "Turn an image into a card background and overlay your card’s text. Depending on the image, you may or may not need additional styles or utilities.",
+        "code": "<div class=\"card text-bg-dark\">\n  <img src=\"...\" class=\"card-img\" alt=\"...\">\n  <div class=\"card-img-overlay\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<\/p>\n    <p class=\"card-text\"><small>Last updated 3 mins ago<\/small><\/p>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:52:30"
+    }
+}

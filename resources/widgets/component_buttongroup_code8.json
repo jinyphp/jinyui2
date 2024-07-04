@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Button toolbar",
+        "description": "Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.",
+        "code": "<div class=\"btn-toolbar\" role=\"toolbar\" aria-label=\"Toolbar with button groups\">\n  <div class=\"btn-group me-2\" role=\"group\" aria-label=\"First group\">\n    <button type=\"button\" class=\"btn btn-primary\">1<\/button>\n    <button type=\"button\" class=\"btn btn-primary\">2<\/button>\n    <button type=\"button\" class=\"btn btn-primary\">3<\/button>\n    <button type=\"button\" class=\"btn btn-primary\">4<\/button>\n  <\/div>\n  <div class=\"btn-group me-2\" role=\"group\" aria-label=\"Second group\">\n    <button type=\"button\" class=\"btn btn-secondary\">5<\/button>\n    <button type=\"button\" class=\"btn btn-secondary\">6<\/button>\n    <button type=\"button\" class=\"btn btn-secondary\">7<\/button>\n  <\/div>\n  <div class=\"btn-group\" role=\"group\" aria-label=\"Third group\">\n    <button type=\"button\" class=\"btn btn-info\">8<\/button>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:38:01"
+    }
+}

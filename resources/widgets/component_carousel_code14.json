@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Custom transition",
+        "description": "The transition duration of .carousel-item can be changed with the $carousel-transition-duration Sass variable before compiling or custom styles if you’re using the compiled CSS. If multiple transitions are applied, make sure the transform transition is defined first (e.g. transition: transform 2s ease, opacity .5s ease-out).",
+        "updated_at": "2024-07-04 02:56:15"
+    }
+}

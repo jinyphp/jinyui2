@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dropdown options",
+        "description": "Use data-bs-offset or data-bs-reference to change the location of the dropdown.",
+        "code": "<div class=\"d-flex\">\n  <div class=\"dropdown me-1\">\n    <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" data-bs-offset=\"10,20\">\n      Offset\n    <\/button>\n    <ul class=\"dropdown-menu\">\n      <li><a class=\"dropdown-item\" href=\"#\">Action<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Another action<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Something else here<\/a><\/li>\n    <\/ul>\n  <\/div>\n  <div class=\"btn-group\">\n    <button type=\"button\" class=\"btn btn-secondary\">Reference<\/button>\n    <button type=\"button\" class=\"btn btn-secondary dropdown-toggle dropdown-toggle-split\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" data-bs-reference=\"parent\">\n      <span class=\"visually-hidden\">Toggle Dropdown<\/span>\n    <\/button>\n    <ul class=\"dropdown-menu\">\n      <li><a class=\"dropdown-item\" href=\"#\">Action<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Another action<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Something else here<\/a><\/li>\n      <li><hr class=\"dropdown-divider\"><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Separated link<\/a><\/li>\n    <\/ul>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 03:55:15"
+    }
+}

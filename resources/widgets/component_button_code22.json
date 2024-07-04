@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "For example, to toggle all buttons",
+        "code": "document.querySelectorAll('.btn').forEach(buttonElement => {\n  const button = bootstrap.Button.getOrCreateInstance(buttonElement)\n  button.toggle()\n})",
+        "updated_at": "2024-07-04 01:31:20"
+    }
+}

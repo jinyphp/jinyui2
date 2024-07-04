@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, buttons now use local CSS variables on .btn for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}btn-padding-x: #{$btn-padding-x};\n--#{$prefix}btn-padding-y: #{$btn-padding-y};\n--#{$prefix}btn-font-family: #{$btn-font-family};\n@include rfs($btn-font-size, --#{$prefix}btn-font-size);\n--#{$prefix}btn-font-weight: #{$btn-font-weight};\n--#{$prefix}btn-line-height: #{$btn-line-height};\n--#{$prefix}btn-color: #{$btn-color};\n--#{$prefix}btn-bg: transparent;\n--#{$prefix}btn-border-width: #{$btn-border-width};\n--#{$prefix}btn-border-color: transparent;\n--#{$prefix}btn-border-radius: #{$btn-border-radius};\n--#{$prefix}btn-hover-border-color: transparent;\n--#{$prefix}btn-box-shadow: #{$btn-box-shadow};\n--#{$prefix}btn-disabled-opacity: #{$btn-disabled-opacity};\n--#{$prefix}btn-focus-box-shadow: 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), .5);",
+        "updated_at": "2024-07-04 01:31:54"
+    }
+}

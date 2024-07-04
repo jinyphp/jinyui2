@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Split button",
+        "description": "Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of .dropdown-toggle-split for proper spacing around the dropdown caret.\n\nWe use this extra class to reduce the horizontal padding on either side of the caret by 25% and remove the margin-left that’s added for regular button dropdowns. Those extra changes keep the caret centered in the split button and provide a more appropriately sized hit area next to the main button.",
+        "code": "<!-- Example split danger button -->\n<div class=\"btn-group\">\n  <button type=\"button\" class=\"btn btn-danger\">Action<\/button>\n  <button type=\"button\" class=\"btn btn-danger dropdown-toggle dropdown-toggle-split\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    <span class=\"visually-hidden\">Toggle Dropdown<\/span>\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <li><a class=\"dropdown-item\" href=\"#\">Action<\/a><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Another action<\/a><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Something else here<\/a><\/li>\n    <li><hr class=\"dropdown-divider\"><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Separated link<\/a><\/li>\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:19:40"
+    }
+}

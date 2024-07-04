@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Button groups require an appropriate role attribute and explicit label to ensure assistive technologies like screen readers identify buttons as grouped and announce them. Use role=\"group\" for button groups or role=\"toolbar\" for button toolbars. Then use aria-label or aria-labelledby to label them.\nThese classes can also be added to groups of links, as an alternative to the .nav navigation components.",
+        "code": "<div class=\"btn-group\">\n  <a href=\"#\" class=\"btn btn-primary active\" aria-current=\"page\">Active link<\/a>\n  <a href=\"#\" class=\"btn btn-primary\">Link<\/a>\n  <a href=\"#\" class=\"btn btn-primary\">Link<\/a>\n<\/div>",
+        "updated_at": "2024-07-04 01:36:14"
+    }
+}

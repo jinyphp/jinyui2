@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Indicators",
+        "description": "You can add indicators to the carousel, alongside the previous\/next controls. The indicators let users jump directly to a particular slide.",
+        "code": "<div id=\"carouselExampleIndicators\" class=\"carousel slide\">\n  <div class=\"carousel-indicators\">\n    <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"Slide 1\"><\/button>\n    <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\"><\/button>\n    <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\"><\/button>\n  <\/div>\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
+        "updated_at": "2024-07-04 02:52:31"
+    }
+}

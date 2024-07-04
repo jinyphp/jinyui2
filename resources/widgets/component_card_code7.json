@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Images",
+        "description": ".card-img-top and .card-img-bottom respectively set the top and bottom corners rounded to match the card’s borders. With .card-text, text can be added to the card. Text within .card-text can also be styled with the standard HTML tags.",
+        "code": "<div class=\"card\" style=\"width: 18rem;\">\n  <img src=\"...\" class=\"card-img-top\" alt=\"...\">\n  <div class=\"card-body\">\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:46:04"
+    }
+}

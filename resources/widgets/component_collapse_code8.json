@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables",
+        "code": "$transition-collapse:         height .35s ease;\n$transition-collapse-width:   width .35s ease;",
+        "updated_at": "2024-07-04 03:06:45"
+    }
+}

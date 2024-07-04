@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dropup",
+        "description": "Trigger dropdown menus above elements by adding .dropup to the parent element.",
+        "code": "<!-- Default dropup button -->\n<div class=\"btn-group dropup\">\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Dropup\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <!-- Dropdown menu links -->\n  <\/ul>\n<\/div>\n\n<!-- Split dropup button -->\n<div class=\"btn-group dropup\">\n  <button type=\"button\" class=\"btn btn-secondary\">\n    Split dropup\n  <\/button>\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle dropdown-toggle-split\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    <span class=\"visually-hidden\">Toggle Dropdown<\/span>\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <!-- Dropdown menu links -->\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:22:22"
+    }
+}

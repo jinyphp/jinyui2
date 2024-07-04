@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Disabled buttons using the a tag element behave a bit different:\n- <a>s don’t support the disabled attribute, so you must add the .disabled class to make it visually appear disabled.\n- Some future-friendly styles are included to disable all pointer-events on anchor buttons.\n- Disabled buttons using a tag should include the aria-disabled=\"true\" attribute to indicate the state of the element to assistive technologies.\n- Disabled buttons using a tag should not include the href attribute.",
+        "code": "<a class=\"btn btn-primary disabled\" role=\"button\" aria-disabled=\"true\">Primary link<\/a>\n<a class=\"btn btn-secondary disabled\" role=\"button\" aria-disabled=\"true\">Link<\/a>",
+        "updated_at": "2024-07-04 01:19:58"
+    }
+}

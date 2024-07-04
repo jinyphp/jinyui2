@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sizes",
+        "description": "Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.",
+        "code": "<button type=\"button\" class=\"btn btn-primary btn-lg\">Large button<\/button>\n<button type=\"button\" class=\"btn btn-secondary btn-lg\">Large button<\/button>",
+        "updated_at": "2024-07-04 01:18:18"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dismissing",
+        "description": "Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:\n\n - Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.\n - Add a close button and the .alert-dismissible class, which adds extra padding to the right of the alert and positions the close button.\n - On the close button, add the data-bs-dismiss=\"alert\" attribute, which triggers the JavaScript functionality. Be sure to use the button element with it for proper behavior across all devices.\n - To animate alerts when dismissing them, be sure to add the .fade and .show classes.\nYou can see this in action with a live demo:",
+        "code": "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n  <strong>Holy guacamole!<\/strong> You should check in on some of those fields below.\n  <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"><\/button>\n<\/div>",
+        "updated_at": "2024-07-03 05:37:57"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via JavaScript",
+        "description": "Call the dropdowns via JavaScript:",
+        "code": "const dropdownElementList = document.querySelectorAll('.dropdown-toggle')\nconst dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootstrap.Dropdown(dropdownToggleEl))",
+        "updated_at": "2024-07-04 03:58:53"
+    }
+}

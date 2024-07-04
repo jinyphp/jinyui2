@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables",
+        "code": "$card-spacer-y:                     $spacer;\n$card-spacer-x:                     $spacer;\n$card-title-spacer-y:               $spacer * .5;\n$card-title-color:                  null;\n$card-subtitle-color:               null;\n$card-border-width:                 var(--#{$prefix}border-width);\n$card-border-color:                 var(--#{$prefix}border-color-translucent);\n$card-border-radius:                var(--#{$prefix}border-radius);\n$card-box-shadow:                   null;\n$card-inner-border-radius:          subtract($card-border-radius, $card-border-width);\n$card-cap-padding-y:                $card-spacer-y * .5;\n$card-cap-padding-x:                $card-spacer-x;\n$card-cap-bg:                       rgba(var(--#{$prefix}body-color-rgb), .03);\n$card-cap-color:                    null;\n$card-height:                       null;\n$card-color:                        null;\n$card-bg:                           var(--#{$prefix}body-bg);\n$card-img-overlay-padding:          $spacer;\n$card-group-margin:                 $grid-gutter-width * .5;",
+        "updated_at": "2024-07-04 02:46:58"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "code": "$alert-padding-y:               $spacer;\n$alert-padding-x:               $spacer;\n$alert-margin-bottom:           1rem;\n$alert-border-radius:           var(--#{$prefix}border-radius);\n$alert-link-font-weight:        $font-weight-bold;\n$alert-border-width:            var(--#{$prefix}border-width);\n$alert-dismissible-padding-r:   $alert-padding-x * 3; \/\/ 3x covers width of x plus default padding on either side",
+        "title": "Sass variables",
+        "updated_at": "2024-07-04 00:10:57"
+    }
+}
