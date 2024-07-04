@@ -5,7 +5,7 @@
 
 // Prefix for :root CSS variables
 
-$prefix:                        'ct-';
+$prefix:                        ct- !default;
 $prefix:                        $prefix;
 
 // Color system
@@ -1271,6 +1271,11 @@ $accordion-button-active-color:           var(--#{$prefix}accordion-button-activ
 
 $accordion-button-focus-border-color:     var(--#{$prefix}accordion-button-focus-border-color);
 $accordion-button-focus-box-shadow:       var(--#{$prefix}accordion-button-focus-box-shadow);
+$accordion-button-font-size:              $font-size-base !default;
+
+$accordion-button-font-weight:          $headings-font-weight !default;
+$accordion-body-font-size:              $font-size-sm !default;
+
 
 $accordion-icon-width:                    0.75rem;
 $accordion-icon-color:                    $accordion-color;
