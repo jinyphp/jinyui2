@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Input groups work, too. If your navbar is an entire form, or mostly a form, you can use the <form> element as the container and save some HTML.",
+        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <form class=\"container-fluid\">\n    <div class=\"input-group\">\n      <span class=\"input-group-text\" id=\"basic-addon1\">@<\/span>\n      <input type=\"text\" class=\"form-control\" placeholder=\"Username\" aria-label=\"Username\" aria-describedby=\"basic-addon1\">\n    <\/div>\n  <\/form>\n<\/nav>",
+        "updated_at": "2024-07-03 10:34:19"
+    }
+}

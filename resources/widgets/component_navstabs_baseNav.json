@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Base nav",
+        "description": "Navigation available in Bootstrap share general markup and styles, from the base .nav class to the active and disabled states. Swap modifier classes to switch between each style.\n\nThe base .nav component is built with flexbox and provide a strong foundation for building all types of navigation components. It includes some style overrides (for working with lists), some link padding for larger hit areas, and basic disabled styling.\n\nThe base .nav component does not include any .active state. The following examples include the class, mainly to demonstrate that this particular class does not trigger any special styling.\n\nTo convey the active state to assistive technologies, use the aria-current attribute — using the page value for current page, or true for the current item in a set.",
+        "code": "<ul class=\"nav\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 10:22:06"
+    }
+}

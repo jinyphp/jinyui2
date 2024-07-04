@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Some additional CSS variables are also present on .navbar-nav:",
+        "code": "--#{$prefix}nav-link-padding-x: 0;\n--#{$prefix}nav-link-padding-y: #{$nav-link-padding-y};\n@include rfs($nav-link-font-size, --#{$prefix}nav-link-font-size);\n--#{$prefix}nav-link-font-weight: #{$nav-link-font-weight};\n--#{$prefix}nav-link-color: var(--#{$prefix}navbar-color);\n--#{$prefix}nav-link-hover-color: var(--#{$prefix}navbar-hover-color);\n--#{$prefix}nav-link-disabled-color: var(--#{$prefix}navbar-disabled-color);",
+        "updated_at": "2024-07-03 10:39:13"
+    }
+}

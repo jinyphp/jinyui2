@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Vertically centered ",
+        "description": "Add .modal-dialog-centered to .modal-dialog to vertically center the modal.",
+        "code": "<!-- Vertically centered modal -->\n<div class=\"modal-dialog modal-dialog-centered\">\n  ...\n<\/div>\n\n<!-- Vertically centered scrollable modal -->\n<div class=\"modal-dialog modal-dialog-centered modal-dialog-scrollable\">\n  ...\n<\/div>",
+        "updated_at": "2024-07-03 10:52:15"
+    }
+}

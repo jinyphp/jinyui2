@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables ",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, navs now use local CSS variables on .nav, .nav-tabs, and .nav-pills for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.\n\nOn the .nav base class:",
+        "code": "--#{$prefix}nav-link-padding-x: #{$nav-link-padding-x};\n--#{$prefix}nav-link-padding-y: #{$nav-link-padding-y};\n@include rfs($nav-link-font-size, --#{$prefix}nav-link-font-size);\n--#{$prefix}nav-link-font-weight: #{$nav-link-font-weight};\n--#{$prefix}nav-link-color: #{$nav-link-color};\n--#{$prefix}nav-link-hover-color: #{$nav-link-hover-color};\n--#{$prefix}nav-link-disabled-color: #{$nav-link-disabled-color};",
+        "updated_at": "2024-07-03 10:26:38"
+    }
+}

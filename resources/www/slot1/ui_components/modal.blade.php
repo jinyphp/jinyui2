@@ -2,7 +2,7 @@
     @livewire('WidgetTitle', [
     'filename' => "component_modal_title"
 ])
-    @livewire('WidgetCode-Component', [
+    @livewire('WidgetCode-OnlyCode', [
     'filename' => "component_modal_howItWorks"
 ])
 <h2>Exaples</h2>
@@ -13,8 +13,6 @@
     'filename' => "component_modal_liveDemo"
 ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_"
-])    @livewire('WidgetCode-Component', [
     'filename' => "component_modal_staticBackdrop"
 ])
     @livewire('WidgetCode-Component', [
@@ -73,14 +71,9 @@
     'filename' => "component_modal_dismiss"
 ])
     @livewire('WidgetCode-OnlyCode', [
-    'filename' => "component_modal_"
-])
-
-
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_"
+    'filename' => "component_modal_dismiss2"
 ])
     @livewire('WidgetCode-OnlyCode', [
-    'filename' => "component_modal_"
+    'filename' => "component_modal_viaJavaScript"
 ])
 </x-www-layout>

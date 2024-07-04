@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Fullscreen Modal ",
+        "description": "Another override is the option to pop up a modal that covers the user viewport, available via modifier classes that are placed on a .modal-dialog.",
+        "code": "<!-- Full screen modal -->\n<div class=\"modal-dialog modal-fullscreen-sm-down\">\n  ...\n<\/div>",
+        "updated_at": "2024-07-03 10:56:30"
+    }
+}

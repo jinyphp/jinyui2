@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Custom content ",
+        "description": "Add nearly any HTML within, even for linked list groups like the one below, with the help of flexbox utilities.",
+        "code": "<div class=\"list-group\">\n  <a href=\"#\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n    <div class=\"d-flex w-100 justify-content-between\">\n      <h5 class=\"mb-1\">List group item heading<\/h5>\n      <small>3 days ago<\/small>\n    <\/div>\n    <p class=\"mb-1\">Some placeholder content in a paragraph.<\/p>\n    <small>And some small print.<\/small>\n  <\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">\n    <div class=\"d-flex w-100 justify-content-between\">\n      <h5 class=\"mb-1\">List group item heading<\/h5>\n      <small class=\"text-body-secondary\">3 days ago<\/small>\n    <\/div>\n    <p class=\"mb-1\">Some placeholder content in a paragraph.<\/p>\n    <small class=\"text-body-secondary\">And some muted small print.<\/small>\n  <\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">\n    <div class=\"d-flex w-100 justify-content-between\">\n      <h5 class=\"mb-1\">List group item heading<\/h5>\n      <small class=\"text-body-secondary\">3 days ago<\/small>\n    <\/div>\n    <p class=\"mb-1\">Some placeholder content in a paragraph.<\/p>\n    <small class=\"text-body-secondary\">And some muted small print.<\/small>\n  <\/a>\n<\/div>",
+        "updated_at": "2024-07-03 11:03:54"
+    }
+}

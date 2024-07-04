@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables ",
+        "code": "$list-group-color:                  var(--#{$prefix}body-color);\n$list-group-bg:                     var(--#{$prefix}body-bg);\n$list-group-border-color:           var(--#{$prefix}border-color);\n$list-group-border-width:           var(--#{$prefix}border-width);\n$list-group-border-radius:          var(--#{$prefix}border-radius);\n\n$list-group-item-padding-y:         $spacer * .5;\n$list-group-item-padding-x:         $spacer;\n\/\/ fusv-disable\n$list-group-item-bg-scale:          -80%; \/\/ Deprecated in v5.3.0\n$list-group-item-color-scale:       40%; \/\/ Deprecated in v5.3.0\n\/\/ fusv-enable\n\n$list-group-hover-bg:               var(--#{$prefix}tertiary-bg);\n$list-group-active-color:           $component-active-color;\n$list-group-active-bg:              $component-active-bg;\n$list-group-active-border-color:    $list-group-active-bg;\n\n$list-group-disabled-color:         var(--#{$prefix}secondary-color);\n$list-group-disabled-bg:            $list-group-bg;\n\n$list-group-action-color:           var(--#{$prefix}secondary-color);\n$list-group-action-hover-color:     var(--#{$prefix}emphasis-color);\n\n$list-group-action-active-color:    var(--#{$prefix}body-color);\n$list-group-action-active-bg:       var(--#{$prefix}secondary-bg);",
+        "updated_at": "2024-07-03 11:04:56"
+    }
+}

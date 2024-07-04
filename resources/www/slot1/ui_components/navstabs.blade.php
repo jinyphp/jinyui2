@@ -82,7 +82,7 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_navstabs_javaScriptBehavior4"
 ])
-    @livewire('WidgetCode-Component', [
+    @livewire('WidgetCode-OnlyCode', [
     'filename' => "component_navstabs_UsingDataAttributes"
 ])
     @livewire('WidgetCode-OnlyCode', [
@@ -93,13 +93,5 @@
 ])
     @livewire('WidgetCode-OnlyCode', [
     'filename' => "component_navstabs_fadeEffect"
-])
-
-
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_"
-])
-    @livewire('WidgetCode-OnlyCode', [
-    'filename' => "component_navstabs_"
 ])
 </x-www-layout>

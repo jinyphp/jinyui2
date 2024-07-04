@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "",
+        "description": "You can also create a scrollable modal that allows scrolling the modal body by adding .modal-dialog-scrollable to .modal-dialog.",
+        "code": "<!-- Scrollable modal -->\n<div class=\"modal-dialog modal-dialog-scrollable\">\n  ...\n<\/div>",
+        "updated_at": "2024-07-03 10:52:01"
+    }
+}

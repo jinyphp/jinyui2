@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables ",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, list groups now use local CSS variables on .list-group for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}list-group-color: #{$list-group-color};\n--#{$prefix}list-group-bg: #{$list-group-bg};\n--#{$prefix}list-group-border-color: #{$list-group-border-color};\n--#{$prefix}list-group-border-width: #{$list-group-border-width};\n--#{$prefix}list-group-border-radius: #{$list-group-border-radius};\n--#{$prefix}list-group-item-padding-x: #{$list-group-item-padding-x};\n--#{$prefix}list-group-item-padding-y: #{$list-group-item-padding-y};\n--#{$prefix}list-group-action-color: #{$list-group-action-color};\n--#{$prefix}list-group-action-hover-color: #{$list-group-action-hover-color};\n--#{$prefix}list-group-action-hover-bg: #{$list-group-hover-bg};\n--#{$prefix}list-group-action-active-color: #{$list-group-action-active-color};\n--#{$prefix}list-group-action-active-bg: #{$list-group-action-active-bg};\n--#{$prefix}list-group-disabled-color: #{$list-group-disabled-color};\n--#{$prefix}list-group-disabled-bg: #{$list-group-disabled-bg};\n--#{$prefix}list-group-active-color: #{$list-group-active-color};\n--#{$prefix}list-group-active-bg: #{$list-group-active-bg};\n--#{$prefix}list-group-active-border-color: #{$list-group-active-border-color};",
+        "updated_at": "2024-07-03 11:04:45"
+    }
+}

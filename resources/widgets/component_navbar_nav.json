@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Nav ",
+        "description": "Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.\n\nAdd the .active class on .nav-link to indicate the current page.\n\nPlease note that you should also add the aria-current attribute on the active .nav-link.",
+        "code": "<nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar<\/a>\n    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"><\/span>\n    <\/button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Home<\/a>\n        <\/li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Features<\/a>\n        <\/li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Pricing<\/a>\n        <\/li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n        <\/li>\n      <\/ul>\n    <\/div>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:33:17"
+    }
+}

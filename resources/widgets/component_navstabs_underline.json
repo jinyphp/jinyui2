@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Underline ",
+        "description": "Take that same HTML, but use .nav-underline instead:",
+        "code": "<ul class=\"nav nav-underline\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 10:24:21"
+    }
+}

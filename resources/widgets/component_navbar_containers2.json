@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Use any of the responsive containers to change how wide the content in your navbar is presented.",
+        "code": "<nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n  <div class=\"container-md\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar<\/a>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:35:40"
+    }
+}

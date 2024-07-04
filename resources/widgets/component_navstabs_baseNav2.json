@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Classes are used throughout, so your markup can be super flexible. Use <ul>s like above, <ol> if the order of your items is important, or roll your own with a <nav> element. Because the .nav uses display: flex, the nav links behave the same as nav items would, but without the extra markup.",
+        "code": "<nav class=\"nav\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
+        "updated_at": "2024-07-03 10:22:20"
+    }
+}
