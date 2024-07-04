@@ -1,0 +1,118 @@
+// 
+// footer.scss
+//
+
+.footer {
+    border-top: 1px solid rgba($gray-600, 0.2);
+    bottom: 0;
+    padding: 19px 24px 20px;
+    position: absolute;
+    right: 0;
+    color: var(--#{$prefix}gray-600);
+    left: $leftbar-width;
+    transition: $transition-base;
+
+    .footer-links {
+        a {
+            color: var(--#{$prefix}gray-600);
+            margin-left: 1.5rem;
+            transition: all .4s;
+
+            &:hover {
+                color: var(--#{$prefix}gray-600);
+            }
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+// Used for account authentication pages
+.footer-alt {
+    left: 0;
+    border: none;
+    text-align: center;
+}
+
+// Layout - Topnav
+html[data-layout="topnav"] {
+    .footer {
+        left: 0 !important;
+        padding: 19px 0 20px;
+    }
+
+    &[data-layout-mode="boxed"] {
+        .footer {
+            max-width: $boxed-layout-width;
+        }
+    }
+}
+
+html[data-layout-mode="detached"]:not([data-layout="topnav"]) {
+    .footer {
+        left: 0 !important;
+
+        .container-fluid {
+            max-width: 100%;
+            padding: 0;
+        }
+    }
+}
+
+html[data-sidenav-size="full"]:not([data-layout="topnav"]) {
+    .footer {
+        left: 0;
+    }
+}
+
+html[data-sidenav-size="sm-hover"]:not([data-layout="topnav"]) {
+    .footer {
+        left: 0;
+        right: 0;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .footer {
+        left: 0 !important;
+        text-align: center;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    html[data-layout-mode="boxed"] {
+        .footer {
+            border: none;
+            margin: 0 auto;
+            background-color: var(--#{$prefix}body-bg);
+            box-shadow: $box-shadow;
+            max-width: calc(#{$boxed-layout-width} - #{$leftbar-width});
+        }
+
+        &[data-sidenav-size="condensed"] {
+            .footer {
+                max-width: calc(#{$boxed-layout-width} - 70px);
+            }
+        }
+
+        &[data-sidenav-size="compact"] {
+            .footer {
+                max-width: calc(#{$boxed-layout-width} - #{$leftbar-width-md});
+            }
+        }
+
+        &[data-sidenav-size="sm-hover"] {
+            .footer {
+                max-width: calc(#{$boxed-layout-width} - #{$leftbar-width-hover});
+            }
+        }
+
+        &[data-sidenav-size="full"] {
+            .footer {
+                max-width: $boxed-layout-width;
+            }
+        }
+    }
+}
