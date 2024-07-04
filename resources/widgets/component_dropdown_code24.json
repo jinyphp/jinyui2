@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Responsive alignment ",
+        "description": "If you want to use responsive alignment, disable dynamic positioning by adding the data-bs-display=\"static\" attribute and use the responsive variation classes.\n\nTo align right the dropdown menu with the given breakpoint or larger, add .dropdown-menu{-sm|-md|-lg|-xl|-xxl}-end.",
+        "code": "<div class=\"btn-group\">\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" data-bs-display=\"static\" aria-expanded=\"false\">\n    Left-aligned but right aligned when large screen\n  <\/button>\n  <ul class=\"dropdown-menu dropdown-menu-lg-end\">\n    <li><button class=\"dropdown-item\" type=\"button\">Action<\/button><\/li>\n    <li><button class=\"dropdown-item\" type=\"button\">Another action<\/button><\/li>\n    <li><button class=\"dropdown-item\" type=\"button\">Something else here<\/button><\/li>\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:52:04"
+    }
+}

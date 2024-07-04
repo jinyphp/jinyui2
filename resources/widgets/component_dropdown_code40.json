@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Variables for the dark dropdown:",
+        "code": "$dropdown-dark-color:               $gray-300;\n$dropdown-dark-bg:                  $gray-800;\n$dropdown-dark-border-color:        $dropdown-border-color;\n$dropdown-dark-divider-bg:          $dropdown-divider-bg;\n$dropdown-dark-box-shadow:          null;\n$dropdown-dark-link-color:          $dropdown-dark-color;\n$dropdown-dark-link-hover-color:    $white;\n$dropdown-dark-link-hover-bg:       rgba($white, .15);\n$dropdown-dark-link-active-color:   $dropdown-link-active-color;\n$dropdown-dark-link-active-bg:      $dropdown-link-active-bg;\n$dropdown-dark-link-disabled-color: $gray-500;\n$dropdown-dark-header-color:        $gray-500;",
+        "updated_at": "2024-07-04 03:58:00"
+    }
+}

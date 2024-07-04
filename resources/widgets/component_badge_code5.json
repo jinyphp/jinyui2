@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Positioned",
+        "description": "Use utilities to modify a .badge and position it in the corner of a link or button.",
+        "code": "<button type=\"button\" class=\"btn btn-primary position-relative\">\n  Inbox\n  <span class=\"position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger\">\n    99+\n    <span class=\"visually-hidden\">unread messages<\/span>\n  <\/span>\n<\/button>",
+        "updated_at": "2024-07-04 00:55:25"
+    }
+}

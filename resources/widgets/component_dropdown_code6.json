@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "While button tag is the recommended control for a dropdown toggle, there might be situations where you have to use an a tag element. If you do, we recommend adding a role=\"button\" attribute to appropriately convey control’s purpose to assistive technologies such as screen readers.",
+        "code": "<div class=\"dropdown\">\n  <a class=\"btn btn-secondary dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Dropdown link\n  <\/a>\n\n  <ul class=\"dropdown-menu\">\n    <li><a class=\"dropdown-item\" href=\"#\">Action<\/a><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Another action<\/a><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Something else here<\/a><\/li>\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:18:40"
+    }
+}

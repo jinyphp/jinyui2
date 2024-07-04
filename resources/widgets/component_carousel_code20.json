@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via JavaScript ",
+        "description": "Call carousel manually with:",
+        "code": "const carousel = new bootstrap.Carousel('#myCarousel')",
+        "updated_at": "2024-07-04 02:57:33"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Via data attributes",
+        "description": "Just add data-bs-toggle=\"collapse\" and a data-bs-target to the element to automatically assign control of one or more collapsible elements. The data-bs-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element. If you’d like it to default open, add the additional class show.\n\nTo add accordion-like group management to a collapsible area, add the data attribute data-bs-parent=\"#selector\". Refer to the accordion page for more information.",
+        "updated_at": "2024-07-04 03:08:06"
+    }
+}

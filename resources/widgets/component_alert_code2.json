@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Examples",
+        "description": "Alerts are available for any length of text, as well as an optional close button. For proper styling, use one of the eight required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts JavaScript plugin.",
+        "code": "<div class=\"alert alert-primary\" role=\"alert\">\n  A simple primary alert—check it out!\n<\/div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  A simple secondary alert—check it out!\n<\/div>\n<div class=\"alert alert-success\" role=\"alert\">\n  A simple success alert—check it out!\n<\/div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  A simple danger alert—check it out!\n<\/div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  A simple warning alert—check it out!\n<\/div>\n<div class=\"alert alert-info\" role=\"alert\">\n  A simple info alert—check it out!\n<\/div>\n<div class=\"alert alert-light\" role=\"alert\">\n  A simple light alert—check it out!\n<\/div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  A simple dark alert—check it out!\n<\/div>",
+        "updated_at": "2024-07-03 05:30:50"
+    }
+}

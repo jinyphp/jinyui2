@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "You can even roll your own custom sizing with CSS variables:",
+        "code": "<button type=\"button\" class=\"btn btn-primary\"\n        style=\"--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;\">\n  Custom button\n<\/button>",
+        "updated_at": "2024-07-04 01:18:38"
+    }
+}

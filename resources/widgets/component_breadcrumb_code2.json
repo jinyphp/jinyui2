@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Example",
+        "description": "Use an ordered or unordered list with linked list items to create a minimally styled breadcrumb. Use our utilities to add additional styles as desired.",
+        "code": "<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Home<\/li>\n  <\/ol>\n<\/nav>\n\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"#\">Home<\/a><\/li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Library<\/li>\n  <\/ol>\n<\/nav>\n\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"#\">Home<\/a><\/li>\n    <li class=\"breadcrumb-item\"><a href=\"#\">Library<\/a><\/li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Data<\/li>\n  <\/ol>\n<\/nav>",
+        "updated_at": "2024-07-04 01:03:08"
+    }
+}

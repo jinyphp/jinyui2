@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Button tags",
+        "description": "The .btn classes are designed to be used with the button tag element. However, you can also use these classes on a tag or input tag elements (though some browsers may apply a slightly different rendering).\n\nWhen using button classes on a tag elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a role=\"button\" to appropriately convey their purpose to assistive technologies such as screen readers.",
+        "code": "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">Link<\/a>\n<button class=\"btn btn-primary\" type=\"submit\">Button<\/button>\n<input class=\"btn btn-primary\" type=\"button\" value=\"Input\">\n<input class=\"btn btn-primary\" type=\"submit\" value=\"Submit\">\n<input class=\"btn btn-primary\" type=\"reset\" value=\"Reset\">",
+        "updated_at": "2024-07-04 01:16:58"
+    }
+}

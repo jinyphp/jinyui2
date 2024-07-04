@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Image caps",
+        "description": "Similar to headers and footers, cards can include top and bottom “image caps”—images at the top or bottom of a card.",
+        "code": "<div class=\"card mb-3\">\n  <img src=\"...\" class=\"card-img-top\" alt=\"...\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<\/p>\n    <p class=\"card-text\"><small class=\"text-body-secondary\">Last updated 3 mins ago<\/small><\/p>\n  <\/div>\n<\/div>\n<div class=\"card\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<\/p>\n    <p class=\"card-text\"><small class=\"text-body-secondary\">Last updated 3 mins ago<\/small><\/p>\n  <\/div>\n  <img src=\"...\" class=\"card-img-bottom\" alt=\"...\">\n<\/div>",
+        "updated_at": "2024-07-04 01:52:13"
+    }
+}

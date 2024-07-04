@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Classes",
+        "description": "Collapse transition classes can be found in scss\/_transitions.scss as these are shared across multiple components (collapse and accordion).",
+        "code": ".collapse {\n  &:not(.show) {\n    display: none;\n  }\n}\n\n.collapsing {\n  height: 0;\n  overflow: hidden;\n  @include transition($transition-collapse);\n\n  &.collapse-horizontal {\n    width: 0;\n    height: auto;\n    @include transition($transition-collapse-width);\n  }\n}",
+        "updated_at": "2024-07-04 03:07:44"
+    }
+}

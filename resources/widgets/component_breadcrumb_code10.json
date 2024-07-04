@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, breadcrumbs now use local CSS variables on .breadcrumb for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}breadcrumb-padding-x: #{$breadcrumb-padding-x};\n--#{$prefix}breadcrumb-padding-y: #{$breadcrumb-padding-y};\n--#{$prefix}breadcrumb-margin-bottom: #{$breadcrumb-margin-bottom};\n@include rfs($breadcrumb-font-size, --#{$prefix}breadcrumb-font-size);\n--#{$prefix}breadcrumb-bg: #{$breadcrumb-bg};\n--#{$prefix}breadcrumb-border-radius: #{$breadcrumb-border-radius};\n--#{$prefix}breadcrumb-divider-color: #{$breadcrumb-divider-color};\n--#{$prefix}breadcrumb-item-padding-x: #{$breadcrumb-item-padding-x};\n--#{$prefix}breadcrumb-item-active-color: #{$breadcrumb-active-color};",
+        "updated_at": "2024-07-04 01:10:11"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variants",
+        "description": "Bootstrap includes several button variants, each serving its own semantic purpose, with a few extras thrown in for more control.",
+        "code": "<button type=\"button\" class=\"btn btn-primary\">Primary<\/button>\n<button type=\"button\" class=\"btn btn-secondary\">Secondary<\/button>\n<button type=\"button\" class=\"btn btn-success\">Success<\/button>\n<button type=\"button\" class=\"btn btn-danger\">Danger<\/button>\n<button type=\"button\" class=\"btn btn-warning\">Warning<\/button>\n<button type=\"button\" class=\"btn btn-info\">Info<\/button>\n<button type=\"button\" class=\"btn btn-light\">Light<\/button>\n<button type=\"button\" class=\"btn btn-dark\">Dark<\/button>\n\n<button type=\"button\" class=\"btn btn-link\">Link<\/button>",
+        "updated_at": "2024-07-04 01:13:20"
+    }
+}

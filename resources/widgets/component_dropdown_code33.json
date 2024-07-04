@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<div class=\"dropdown\">\n  <button type=\"button\" class=\"btn btn-primary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" data-bs-auto-close=\"outside\">\n    Dropdown form\n  <\/button>\n  <form class=\"dropdown-menu p-4\">\n    <div class=\"mb-3\">\n      <label for=\"exampleDropdownFormEmail2\" class=\"form-label\">Email address<\/label>\n      <input type=\"email\" class=\"form-control\" id=\"exampleDropdownFormEmail2\" placeholder=\"email@example.com\">\n    <\/div>\n    <div class=\"mb-3\">\n      <label for=\"exampleDropdownFormPassword2\" class=\"form-label\">Password<\/label>\n      <input type=\"password\" class=\"form-control\" id=\"exampleDropdownFormPassword2\" placeholder=\"Password\">\n    <\/div>\n    <div class=\"mb-3\">\n      <div class=\"form-check\">\n        <input type=\"checkbox\" class=\"form-check-input\" id=\"dropdownCheck2\">\n        <label class=\"form-check-label\" for=\"dropdownCheck2\">\n          Remember me\n        <\/label>\n      <\/div>\n    <\/div>\n    <button type=\"submit\" class=\"btn btn-primary\">Sign in<\/button>\n  <\/form>\n<\/div>",
+        "updated_at": "2024-07-04 03:55:04"
+    }
+}

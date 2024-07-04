@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Live example",
+        "description": "Click the button below to show an alert (hidden with inline styles to start), then dismiss (and destroy) it with the built-in close button.",
+        "code": "<div id=\"liveAlertPlaceholder\"><\/div>\n<button type=\"button\" class=\"btn btn-primary\" id=\"liveAlertBtn\">Show live alert<\/button>",
+        "updated_at": "2024-07-03 05:31:29"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sass loops",
+        "description": "Loop that generates the modifier classes with an overriding of CSS variables.",
+        "code": "\/\/ Generate contextual modifier classes for colorizing the alert\n@each $state in map-keys($theme-colors) {\n  .alert-#{$state} {\n    --#{$prefix}alert-color: var(--#{$prefix}#{$state}-text-emphasis);\n    --#{$prefix}alert-bg: var(--#{$prefix}#{$state}-bg-subtle);\n    --#{$prefix}alert-border-color: var(--#{$prefix}#{$state}-border-subtle);\n    --#{$prefix}alert-link-color: var(--#{$prefix}#{$state}-text-emphasis);\n  }\n}",
+        "updated_at": "2024-07-04 00:12:09"
+    }
+}

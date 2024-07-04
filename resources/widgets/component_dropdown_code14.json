@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Centered",
+        "description": "Make the dropdown menu centered below the toggle with .dropdown-center on the parent element.",
+        "code": "<div class=\"dropdown-center\">\n  <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Centered dropdown\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <li><a class=\"dropdown-item\" href=\"#\">Action<\/a><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Action two<\/a><\/li>\n    <li><a class=\"dropdown-item\" href=\"#\">Action three<\/a><\/li>\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:21:18"
+    }
+}

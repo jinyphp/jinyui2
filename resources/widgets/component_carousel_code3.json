@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic examples ",
+        "description": "Here is a basic example of a carousel with three slides. Note the previous\/next controls. We recommend using button tag elements, but you can also use a tag elements with role=\"button\".",
+        "code": "<div id=\"carouselExample\" class=\"carousel slide\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExample\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExample\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
+        "updated_at": "2024-07-04 02:51:17"
+    }
+}

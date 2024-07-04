@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Methods",
+        "description": "You can create a button instance with the button constructor, for example:",
+        "code": "const bsButton = new bootstrap.Button('#myButton')",
+        "updated_at": "2024-07-04 01:26:58"
+    }
+}

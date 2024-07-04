@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via data attributes",
+        "description": "Add data-bs-toggle=\"dropdown\" to a link or button to toggle a dropdown.",
+        "code": "<div class=\"dropdown\">\n  <button type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Dropdown trigger\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    ...\n  <\/ul>\n<\/div>",
+        "updated_at": "2024-07-04 03:58:42"
+    }
+}

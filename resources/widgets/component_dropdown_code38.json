@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Customization through CSS variables can be seen on the .dropdown-menu-dark class where we override specific values without adding duplicate CSS selectors.",
+        "code": "--#{$prefix}dropdown-color: #{$dropdown-dark-color};\n--#{$prefix}dropdown-bg: #{$dropdown-dark-bg};\n--#{$prefix}dropdown-border-color: #{$dropdown-dark-border-color};\n--#{$prefix}dropdown-box-shadow: #{$dropdown-dark-box-shadow};\n--#{$prefix}dropdown-link-color: #{$dropdown-dark-link-color};\n--#{$prefix}dropdown-link-hover-color: #{$dropdown-dark-link-hover-color};\n--#{$prefix}dropdown-divider-bg: #{$dropdown-dark-divider-bg};\n--#{$prefix}dropdown-link-hover-bg: #{$dropdown-dark-link-hover-bg};\n--#{$prefix}dropdown-link-active-color: #{$dropdown-dark-link-active-color};\n--#{$prefix}dropdown-link-active-bg: #{$dropdown-dark-link-active-bg};\n--#{$prefix}dropdown-link-disabled-color: #{$dropdown-dark-link-disabled-color};\n--#{$prefix}dropdown-header-color: #{$dropdown-dark-header-color};",
+        "updated_at": "2024-07-04 03:57:39"
+    }
+}

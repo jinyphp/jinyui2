@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Outlined styles",
+        "code": "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic outlined example\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:36:45"
+    }
+}

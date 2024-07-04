@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Autoplaying carousels without controls",
+        "description": "Here’s a carousel with slides only. Note the presence of the .d-block and .w-100 on carousel images to prevent browser default image alignment.",
+        "code": "<div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-bs-ride=\"carousel\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 02:54:59"
+    }
+}

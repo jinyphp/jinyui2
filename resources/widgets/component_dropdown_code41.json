@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Variables for the CSS-based carets that indicate a dropdown’s interactivity:",
+        "code": "$caret-width:                 .3em;\n$caret-vertical-align:        $caret-width * .85;\n$caret-spacing:               $caret-width * .85;",
+        "updated_at": "2024-07-04 03:58:08"
+    }
+}

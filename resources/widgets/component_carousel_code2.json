@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "How it works",
+        "description": "The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous\/next controls and indicators.\n\nFor performance reasons, carousels must be manually initialized using the carousel constructor method. Without initialization, some of the event listeners (specifically, the events needed touch\/swipe support) will not be registered until a user has explicitly activated a control or indicator.\n\nThe only exception are autoplaying carousels with the data-bs-ride=\"carousel\" attribute as these are initialized automatically on page load. If you’re using autoplaying carousels with the data attribute, don’t explicitly initialize the same carousels with the constructor method.\n\nNested carousels are not supported. You should also be aware that carousels in general can often cause usability and accessibility challenges.",
+        "updated_at": "2024-07-04 02:49:57"
+    }
+}

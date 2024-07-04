@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Variables for the dark carousel:",
+        "code": "$carousel-dark-indicator-active-bg:  $black;\n$carousel-dark-caption-color:        $black;\n$carousel-dark-control-icon-filter:  invert(1) grayscale(100);",
+        "updated_at": "2024-07-04 02:56:44"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Crossfade",
+        "description": "Add .carousel-fade to your carousel to animate slides with a fade transition instead of a slide. Depending on your carousel content (e.g., text only slides), you may want to add .bg-body or some custom CSS to the .carousel-items for proper crossfading.",
+        "code": "<div id=\"carouselExampleFade\" class=\"carousel slide carousel-fade\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleFade\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleFade\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
+        "updated_at": "2024-07-04 02:52:54"
+    }
+}

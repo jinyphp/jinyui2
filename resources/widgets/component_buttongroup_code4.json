@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Mixed styles",
+        "code": "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic mixed styles example\">\n  <button type=\"button\" class=\"btn btn-danger\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-warning\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-success\">Right<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:36:36"
+    }
+}

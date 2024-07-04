@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Here we create a responsive variation, starting with vertically stacked buttons until the md breakpoint, where .d-md-block replaces the .d-grid class, thus nullifying the gap-2 utility. Resize your browser to see them change.",
+        "code": "<div class=\"d-grid gap-2 d-md-block\">\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:21:39"
+    }
+}

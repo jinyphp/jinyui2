@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Disabled state",
+        "description": "Disabled close buttons change their opacity. We’ve also applied pointer-events: none and user-select: none to preventing hover and active states from triggering.",
+        "code": "<button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-04 03:01:02"
+    }
+}

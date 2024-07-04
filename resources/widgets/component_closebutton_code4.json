@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dark variant",
+        "description": "Add data-bs-theme=\"dark\" to the .btn-close, or to its parent element, to invert the close button. This uses the filter property to invert the background-image without overriding its value.",
+        "code": "<div data-bs-theme=\"dark\">\n  <button type=\"button\" class=\"btn-close\" aria-label=\"Close\"><\/button>\n  <button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"><\/button>\n<\/div>",
+        "updated_at": "2024-07-04 03:01:13"
+    }
+}

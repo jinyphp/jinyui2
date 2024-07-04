@@ -1,0 +1,7 @@
+{
+    "items": {
+        "updated_at": "2024-07-03 05:33:16",
+        "code": "const alertPlaceholder = document.getElementById('liveAlertPlaceholder')\nconst appendAlert = (message, type) => {\n  const wrapper = document.createElement('div')\n  wrapper.innerHTML = [\n    `<div class=\"alert alert-${type} alert-dismissible\" role=\"alert\">`,\n    `   <div>${message}<\/div>`,\n    '   <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"><\/button>',\n    '<\/div>'\n  ].join('')\n\n  alertPlaceholder.append(wrapper)\n}\n\nconst alertTrigger = document.getElementById('liveAlertBtn')\nif (alertTrigger) {\n  alertTrigger.addEventListener('click', () => {\n    appendAlert('Nice, you triggered this alert message!', 'success')\n  })\n}",
+        "description": "We use the following JavaScript to trigger our live alert demo:"
+    }
+}

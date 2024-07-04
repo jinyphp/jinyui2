@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via JavaScript",
+        "description": "Enable manually with:",
+        "code": "const collapseElementList = document.querySelectorAll('.collapse')\nconst collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))",
+        "updated_at": "2024-07-04 03:08:19"
+    }
+}
