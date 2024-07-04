@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Keyframes ",
+        "description": "Used for creating the CSS animations for .progress-bar-animated. Included in scss\/_progress-bar.scss.",
+        "code": "@if $enable-transitions {\n  @keyframes progress-bar-stripes {\n    0% { background-position-x: $progress-height; }\n  }\n}",
+        "updated_at": "2024-07-02 11:27:52"
+    }
+}

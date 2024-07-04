@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Horizontal alignment ",
+        "description": "Change the horizontal alignment of your nav with flexbox utilities. By default, navs are left-aligned, but you can easily change them to center or right-aligned.\n\nCentered with .justify-content-center:",
+        "code": "<ul class=\"nav justify-content-center\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 10:22:36"
+    }
+}

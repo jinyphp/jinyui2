@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dismiss ",
+        "description": "Dismissal can be achieved with the data-bs-dismiss attribute on a button within the modal as demonstrated below:",
+        "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-03 10:57:52"
+    }
+}

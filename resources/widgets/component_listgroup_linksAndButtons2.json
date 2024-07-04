@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "With <button>s, you can also make use of the disabled attribute instead of the .disabled class. Sadly, <a>s don’t support the disabled attribute.",
+        "code": "<div class=\"list-group\">\n  <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n    The current button\n  <\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">A second button item<\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">A third button item<\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">A fourth button item<\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled>A disabled button item<\/button>\n<\/div>",
+        "updated_at": "2024-07-03 11:01:52"
+    }
+}

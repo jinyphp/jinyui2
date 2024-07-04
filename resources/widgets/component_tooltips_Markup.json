@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Markup ",
+        "description": "The required markup for a tooltip is only a data attribute and title on the HTML element you wish to have a tooltip. The generated markup of a tooltip is rather simple, though it does require a position (by default, set to top by the plugin).",
+        "code": "<!-- HTML to write -->\n<a href=\"#\" data-bs-toggle=\"tooltip\" data-bs-title=\"Some tooltip text!\">Hover over me<\/a>\n\n<!-- Generated markup by the plugin -->\n<div class=\"tooltip bs-tooltip-auto\" role=\"tooltip\">\n  <div class=\"tooltip-arrow\"><\/div>\n  <div class=\"tooltip-inner\">\n    Some tooltip text!\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-01 12:18:57"
+    }
+}

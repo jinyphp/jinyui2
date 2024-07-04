@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "",
+        "description": "You can activate individual tabs in several ways:",
+        "code": "const triggerEl = document.querySelector('#myTab button[data-bs-target=\"#profile\"]')\nbootstrap.Tab.getInstance(triggerEl).show() \/\/ Select tab by name\n\nconst triggerFirstTabEl = document.querySelector('#myTab li:first-child button')\nbootstrap.Tab.getInstance(triggerFirstTabEl).show() \/\/ Select first tab",
+        "updated_at": "2024-07-03 10:31:14"
+    }
+}

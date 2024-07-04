@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Placement ",
+        "description": "There’s no default placement for offcanvas components, so you must add one of the modifier classes below.\n\n.offcanvas-start places offcanvas on the left of the viewport (shown above)\n.offcanvas-end places offcanvas on the right of the viewport\n.offcanvas-top places offcanvas on the top of the viewport\n.offcanvas-bottom places offcanvas on the bottom of the viewport\nTry the top, right, and bottom examples out below.",
+        "code": "<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasTop\" aria-controls=\"offcanvasTop\">Toggle top offcanvas<\/button>\n\n<div class=\"offcanvas offcanvas-top\" tabindex=\"-1\" id=\"offcanvasTop\" aria-labelledby=\"offcanvasTopLabel\">\n  <div class=\"offcanvas-header\">\n    <h5 class=\"offcanvas-title\" id=\"offcanvasTopLabel\">Offcanvas top<\/h5>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"><\/button>\n  <\/div>\n  <div class=\"offcanvas-body\">\n    ...\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:44:56"
+    }
+}

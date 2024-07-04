@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Links and buttons ",
+        "description": "Use <a>s or <button>s to create actionable list group items with hover, disabled, and active states by adding .list-group-item-action. We separate these pseudo-classes to ensure list groups made of non-interactive elements (like <li>s or <div>s) don’t provide a click or tap affordance.\n\nBe sure to not use the standard .btn classes here.",
+        "code": "<div class=\"list-group\">\n  <a href=\"#\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n    The current link item\n  <\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A second link item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A third link item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A fourth link item<\/a>\n  <a class=\"list-group-item list-group-item-action disabled\" aria-disabled=\"true\">A disabled link item<\/a>\n<\/div>",
+        "updated_at": "2024-07-03 11:01:39"
+    }
+}

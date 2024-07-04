@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<button type=\"button\" class=\"btn btn-secondary\"\n        data-bs-toggle=\"tooltip\" data-bs-placement=\"top\"\n        data-bs-custom-class=\"custom-tooltip\"\n        data-bs-title=\"This top tooltip is themed via CSS variables.\">\n  Custom tooltip\n<\/button>",
+        "updated_at": "2024-07-01 12:14:30"
+    }
+}

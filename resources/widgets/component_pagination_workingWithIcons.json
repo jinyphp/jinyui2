@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Working with icons ",
+        "description": "Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with aria attributes.",
+        "code": "<nav aria-label=\"Page navigation example\">\n  <ul class=\"pagination\">\n    <li class=\"page-item\">\n      <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">\n        <span aria-hidden=\"true\">&laquo;<\/span>\n      <\/a>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n    <li class=\"page-item\">\n      <a class=\"page-link\" href=\"#\" aria-label=\"Next\">\n        <span aria-hidden=\"true\">&raquo;<\/span>\n      <\/a>\n    <\/li>\n  <\/ul>\n<\/nav>",
+        "updated_at": "2024-07-02 11:38:50"
+    }
+}

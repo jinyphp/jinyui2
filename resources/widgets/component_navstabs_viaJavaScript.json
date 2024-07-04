@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via JavaScript ",
+        "description": "Enable tabbable tabs via JavaScript (each tab needs to be activated individually):",
+        "code": "const triggerTabList = document.querySelectorAll('#myTab button')\ntriggerTabList.forEach(triggerEl => {\n  const tabTrigger = new bootstrap.Tab(triggerEl)\n\n  triggerEl.addEventListener('click', event => {\n    event.preventDefault()\n    tabTrigger.show()\n  })\n})",
+        "updated_at": "2024-07-03 10:31:00"
+    }
+}

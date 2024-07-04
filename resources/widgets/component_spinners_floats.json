@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Floats ",
+        "code": "<div class=\"clearfix\">\n  <div class=\"spinner-border float-end\" role=\"status\">\n    <span class=\"visually-hidden\">Loading...<\/span>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:16:23"
+    }
+}

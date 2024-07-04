@@ -1,0 +1,101 @@
+"border": (property: border,
+    values: (null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+    )),
+"border-top": (property: border-top,
+    values: (null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+    )),
+"border-end": (property: border-right,
+    class: border-end,
+    values: (null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+    )),
+"border-bottom": (property: border-bottom,
+    values: (null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+    )),
+"border-start": (property: border-left,
+    class: border-start,
+    values: (null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+    )),
+"border-color": (property: border-color,
+    class: border,
+    local-vars: ("border-opacity": 1),
+    values: $utilities-border-colors),
+"subtle-border-color": (property: border-color,
+    class: border,
+    values: $utilities-border-subtle),
+"border-width": (property: border-width,
+    class: border,
+    values: $border-widths),
+"border-opacity": (css-var: true,
+    class: border-opacity,
+    values: (10: .1,
+        25: .25,
+        50: .5,
+        75: .75,
+        100: 1)),
+
+@mixin border-radius($radius: $border-radius, $fallback-border-radius: false) {
+    @if $enable-rounded {
+        border-radius: valid-radius($radius);
+    }
+
+    @else if $fallback-border-radius !=false {
+        border-radius: $fallback-border-radius;
+    }
+}
+
+@mixin border-top-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-top-left-radius: valid-radius($radius);
+        border-top-right-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-end-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-top-right-radius: valid-radius($radius);
+        border-bottom-right-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-bottom-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-bottom-right-radius: valid-radius($radius);
+        border-bottom-left-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-start-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-top-left-radius: valid-radius($radius);
+        border-bottom-left-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-top-start-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-top-left-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-top-end-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-top-right-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-bottom-end-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-bottom-right-radius: valid-radius($radius);
+    }
+}
+
+@mixin border-bottom-start-radius($radius: $border-radius) {
+    @if $enable-rounded {
+        border-bottom-left-radius: valid-radius($radius);
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Alternatively, you can also add additional controls and components to toasts.",
+        "code": "<div class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">\n  <div class=\"toast-body\">\n    Hello, world! This is a toast message.\n    <div class=\"mt-2 pt-2 border-top\">\n      <button type=\"button\" class=\"btn btn-primary btn-sm\">Take action<\/button>\n      <button type=\"button\" class=\"btn btn-secondary btn-sm\" data-bs-dismiss=\"toast\">Close<\/button>\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 09:54:20"
+    }
+}

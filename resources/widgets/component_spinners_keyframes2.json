@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "@keyframes spinner-border {\n  to { transform: rotate(360deg) #{@keyframes spinner-grow {\n  0% {\n    transform: scale(0);\n  }\n  50% {\n    opacity: 1;\n    transform: none;\n  }\n}\"\/* rtl:ignore *\/\"}; }\n}",
+        "description": "",
+        "title": "",
+        "updated_at": "2024-07-02 11:19:17"
+    }
+}

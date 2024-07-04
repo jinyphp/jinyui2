@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Customization through CSS variables can be seen on the .navbar-dark class where we override specific values without adding duplicate CSS selectors.",
+        "code": "--#{$prefix}navbar-color: #{$navbar-dark-color};\n--#{$prefix}navbar-hover-color: #{$navbar-dark-hover-color};\n--#{$prefix}navbar-disabled-color: #{$navbar-dark-disabled-color};\n--#{$prefix}navbar-active-color: #{$navbar-dark-active-color};\n--#{$prefix}navbar-brand-color: #{$navbar-dark-brand-color};\n--#{$prefix}navbar-brand-hover-color: #{$navbar-dark-brand-hover-color};\n--#{$prefix}navbar-toggler-border-color: #{$navbar-dark-toggler-border-color};\n--#{$prefix}navbar-toggler-icon-bg: #{escape-svg($navbar-dark-toggler-icon-bg)};",
+        "updated_at": "2024-07-03 10:39:26"
+    }
+}

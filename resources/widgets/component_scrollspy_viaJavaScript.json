@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Via JavaScript ",
+        "code": "const scrollSpy = new bootstrap.ScrollSpy(document.body, {\n  target: '#navbar-example'\n})",
+        "updated_at": "2024-07-02 11:23:15"
+    }
+}

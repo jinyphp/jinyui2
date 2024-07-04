@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Color schemes ",
+        "description": "Building on the above example, you can create different toast color schemes with our color and background utilities. Here we’ve added .text-bg-primary to the .toast, and then added .btn-close-white to our close button. For a crisp edge, we remove the default border with .border-0.",
+        "code": "<div class=\"toast align-items-center text-bg-primary border-0\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">\n  <div class=\"d-flex\">\n    <div class=\"toast-body\">\n      Hello, world! This is a toast message.\n    <\/div>\n    <button type=\"button\" class=\"btn-close btn-close-white me-2 m-auto\" data-bs-dismiss=\"toast\" aria-label=\"Close\"><\/button>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 09:54:41"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Similar to the .nav-fill example using a <nav>-based navigation.",
+        "code": "<nav class=\"nav nav-pills nav-justified\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
+        "updated_at": "2024-07-03 10:25:40"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Tabs with dropdowns ",
+        "code": "<ul class=\"nav nav-tabs\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item dropdown\">\n    <a class=\"nav-link dropdown-toggle\" data-bs-toggle=\"dropdown\" href=\"#\" role=\"button\" aria-expanded=\"false\">Dropdown<\/a>\n    <ul class=\"dropdown-menu\">\n      <li><a class=\"dropdown-item\" href=\"#\">Action<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Another action<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Something else here<\/a><\/li>\n      <li><hr class=\"dropdown-divider\"><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Separated link<\/a><\/li>\n    <\/ul>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 10:26:11"
+    }
+}

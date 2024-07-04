@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "or on a button outside the toast using the additional data-bs-target as demonstrated below:",
+        "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" data-bs-target=\"#my-toast\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-02 09:58:19"
+    }
+}

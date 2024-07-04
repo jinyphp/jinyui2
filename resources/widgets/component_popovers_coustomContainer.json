@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Custom container ",
+        "description": "When you have some styles on a parent element that interfere with a popover, you’ll want to specify a custom container so that the popover’s HTML appears within that element instead. This is common in responsive tables, input groups, and the like.",
+        "code": "const popover = new bootstrap.Popover('.example-popover', {\n  container: 'body'\n})",
+        "updated_at": "2024-07-02 11:29:41"
+    }
+}

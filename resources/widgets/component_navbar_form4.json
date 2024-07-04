@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Various buttons are supported as part of these navbar forms, too. This is also a great reminder that vertical alignment utilities can be used to align different sized elements.",
+        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <form class=\"container-fluid justify-content-start\">\n    <button class=\"btn btn-outline-success me-2\" type=\"button\">Main button<\/button>\n    <button class=\"btn btn-sm btn-outline-secondary\" type=\"button\">Smaller button<\/button>\n  <\/form>\n<\/nav>",
+        "updated_at": "2024-07-03 10:34:31"
+    }
+}

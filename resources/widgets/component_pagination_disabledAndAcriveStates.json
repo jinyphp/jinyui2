@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Disabled and active states ",
+        "description": "Pagination links are customizable for different circumstances. Use .disabled for links that appear un-clickable and .active to indicate the current page.\n\nWhile the .disabled class uses pointer-events: none to try to disable the link functionality of <a>s, that CSS property is not yet standardized and doesn’t account for keyboard navigation. As such, you should always add tabindex=\"-1\" on disabled links and use custom JavaScript to fully disable their functionality.",
+        "code": "<nav aria-label=\"...\">\n  <ul class=\"pagination\">\n    <li class=\"page-item disabled\">\n      <a class=\"page-link\">Previous<\/a>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1<\/a><\/li>\n    <li class=\"page-item active\" aria-current=\"page\">\n      <a class=\"page-link\" href=\"#\">2<\/a>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n    <li class=\"page-item\">\n      <a class=\"page-link\" href=\"#\">Next<\/a>\n    <\/li>\n  <\/ul>\n<\/nav>",
+        "updated_at": "2024-07-02 11:39:07"
+    }
+}

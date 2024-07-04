@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass mixins ",
+        "code": "@mixin pagination-size($padding-y, $padding-x, $font-size, $border-radius) {\n  --#{$prefix}pagination-padding-x: #{$padding-x};\n  --#{$prefix}pagination-padding-y: #{$padding-y};\n  @include rfs($font-size, --#{$prefix}pagination-font-size);\n  --#{$prefix}pagination-border-radius: #{$border-radius};\n}",
+        "updated_at": "2024-07-02 11:41:13"
+    }
+}

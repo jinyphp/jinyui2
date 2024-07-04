@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sizing ",
+        "description": "The size of .placeholders are based on the typographic style of the parent element. Customize them with sizing modifiers: .placeholder-lg, .placeholder-sm, or .placeholder-xs.",
+        "code": "<span class=\"placeholder col-12 placeholder-lg\"><\/span>\n<span class=\"placeholder col-12\"><\/span>\n<span class=\"placeholder col-12 placeholder-sm\"><\/span>\n<span class=\"placeholder col-12 placeholder-xs\"><\/span>",
+        "updated_at": "2024-07-02 11:37:36"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<button class=\"btn btn-primary\" type=\"button\" disabled>\n  <span class=\"spinner-grow spinner-grow-sm\" aria-hidden=\"true\"><\/span>\n  <span class=\"visually-hidden\" role=\"status\">Loading...<\/span>\n<\/button>\n<button class=\"btn btn-primary\" type=\"button\" disabled>\n  <span class=\"spinner-grow spinner-grow-sm\" aria-hidden=\"true\"><\/span>\n  <span role=\"status\">Loading...<\/span>\n<\/button>",
+        "updated_at": "2024-07-02 11:17:27"
+    }
+}

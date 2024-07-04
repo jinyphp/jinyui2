@@ -1,0 +1,8 @@
+{
+    "items": {
+        "updated_at": "2024-07-03 10:24:55",
+        "title": "Fill and justify ",
+        "description": "Force your .nav’s contents to extend the full available width with one of two modifier classes. To proportionately fill all available space with your .nav-items, use .nav-fill. Notice that all horizontal space is occupied, but not every nav item has the same width.",
+        "code": "<ul class=\"nav nav-pills nav-fill\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>"
+    }
+}

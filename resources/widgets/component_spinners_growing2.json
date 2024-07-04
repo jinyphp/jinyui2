@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Once again, this spinner is built with currentColor, so you can easily change its appearance with text color utilities. Here it is in blue, along with the supported variants.",
+        "code": "<div class=\"spinner-grow text-primary\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-secondary\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-success\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-danger\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-warning\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-info\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-light\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-dark\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
+        "updated_at": "2024-07-02 11:15:27"
+    }
+}
