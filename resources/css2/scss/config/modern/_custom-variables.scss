@@ -1,0 +1,104 @@
+//
+// custom-variables.scss
+//
+
+
+// Left Sidebar
+$leftbar-width:                     260px;
+$leftbar-width-md:                  160px;
+$leftbar-width-sm:                  70px;
+$leftbar-width-hover:               70px;
+
+$bg-leftbar:                        var(--#{$prefix}bg-leftbar);
+
+// Menu
+$menu-item:                         var(--#{$prefix}menu-item);
+$menu-item-hover:                   var(--#{$prefix}menu-item-hover);
+$menu-item-active:                  var(--#{$prefix}menu-item-active);
+
+// Dark sidenav Menu item color
+$sidebar-dark-menu-item:          var(--#{$prefix}dark-menu-item);
+$sidebar-dark-menu-item-hover:    var(--#{$prefix}dark-menu-item-hover);
+$sidebar-dark-menu-item-active:   var(--#{$prefix}dark-menu-item-active);
+
+
+// Topbar
+$topbar-height:                     70px;
+$bg-topbar:                         var(--#{$prefix}bg-topbar);
+$bg-topbar-search:                  var(--#{$prefix}bg-topbar-search);
+$nav-user-bg-topbar:                var(--#{$prefix}nav-user-bg-topbar);
+$nav-user-border-topbar:            var(--#{$prefix}nav-user-border-topbar);
+$notification-bg:                   var(--#{$prefix}notification-bg);
+$notification-border-color:         var(--#{$prefix}notification-border-color);
+
+
+// Dark Topbar
+$bg-dark-topbar:                  var(--#{$prefix}bg-dark-topbar);
+$bg-dark-topbar-search:           var(--#{$prefix}bg-dark-topbar-search);
+$nav-user-bg-dark-topbar:         var(--#{$prefix}nav-user-bg-dark-topbar);
+$nav-user-border-dark-topbar:     var(--#{$prefix}nav-user-border-dark-topbar);
+
+// Deatched left sidenav
+$bg-detached-leftbar:             var(--#{$prefix}bg-detached-leftbar);
+
+// Background left-sidebar
+$bg-leftbar-gradient:             var(--#{$prefix}bg-leftbar-gradient);
+$bg-topnav:                       var(--#{$prefix}bg-topnav);
+
+// Boxed Layout
+$boxed-layout-width:              1300px;
+$boxed-layout-bg:                 var(--#{$prefix}boxed-layout-bg);
+
+// Helpbox
+$help-box-light-bg:               var(--#{$prefix}help-box-light-bg);
+$help-box-dark-bg:                var(--#{$prefix}help-box-dark-bg);
+
+// Font weight
+$font-weight-medium:              500;
+$font-weight-semibold:            600;
+
+// Dropdown Large
+$dropdown-lg-width:               320px;
+
+// Page title color
+$page-title-color:                var(--#{$prefix}page-title-color);
+
+// Nav-pill background
+$nav-pills-bg:                    var(--#{$prefix}nav-pills-bg);
+
+// Custom-accordion
+$custom-accordion-title-color:    var(--#{$prefix}custom-accordion-title-color);
+
+// Dragula demo background
+$dragula-bg:                      var(--#{$prefix}dragula-bg);
+
+// Form wizard header background
+$form-wizard-header-bg:           var(--#{$prefix}form-wizard-header-bg);
+
+// Text title color
+$text-title-color:                var(--#{$prefix}text-title-color);
+
+// card Loader background
+$card-loader-bg:                  var(--#{$prefix}card-loader-bg);
+
+// Chat widget
+$chat-primary-user-bg:            var(--#{$prefix}chat-primary-user-bg);
+$chat-secondary-user-bg:          var(--#{$prefix}chat-secondary-user-bg);
+
+// User authentication Background
+$auth-bg:                         var(--#{$prefix}auth-bg);
+$auth-bg-pattern-img:             url("../images/bg-pattern-light.svg");
+
+// Apex chart
+$apex-grid-color:                 var(--#{$prefix}apex-grid-color);
+
+// Hero
+$hero-bg:                         var(--#{$prefix}hero-bg);
+
+// Logo Display
+$logo-light-display:                block;
+$logo-dark-display:                 none;
+
+// Logo auth display
+$logo-auth-light-display:                none;
+$logo-auth-dark-display:                 block;

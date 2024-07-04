@@ -1,0 +1,13 @@
+// Lighten badge
+@mixin badge-variant-light($bg) {
+    --#{$prefix}badge-color: #{$bg} !important;
+    background-color: rgba($bg, 0.18);
+}
+
+// Outline badge
+
+@mixin badge-variant-outline($bg) {
+    --#{$prefix}badge-color: #{$bg};
+    border: 1px solid $bg;
+    background-color: transparent;
+}

@@ -1,0 +1,17 @@
+// Background lighten
+
+@each $color, $value in $theme-colors-rgb {
+    .bg-#{$color}-lighten {
+        --#{$prefix}bg-opacity: 0.25;
+        background-color: rgba(var(--#{$prefix}#{$color}-rgb), var(--#{$prefix}bg-opacity)) !important;
+    }
+}
+
+html[data-theme="dark"] {
+    .bg-light {
+        background-color: var(--#{$prefix}gray-300)!important;
+    }
+    .bg-secondary {
+        background-color: var(--#{$prefix}gray-700)!important;
+    }
+}

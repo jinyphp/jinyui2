@@ -1,0 +1,113 @@
+//
+// buttons.scss
+//
+
+.btn {
+    .mdi {
+        &:before {
+            line-height: initial;
+        }
+    }
+
+    .spinner-grow, .spinner-border {
+        vertical-align: middle;
+    }
+}
+
+// Button Shadows
+@each $color,
+$value in $theme-colors {
+    .btn-#{$color} {
+        box-shadow: $btn-box-shadow rgba(var(--#{$prefix}#{$color}-rgb), 0.5);
+    }
+}
+
+// Button Soft
+@each $color,
+$value in $theme-colors {
+    .btn-soft-#{$color} {
+        @include button-variant-soft($value);
+    }
+}
+
+// Button Light and Dark
+.btn-light {
+    --#{$prefix}btn-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-border-color: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}light);
+    --#{$prefix}btn-disabled-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-disabled-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-disabled-border-color: var(--#{$prefix}light);
+}
+
+.btn-dark {
+    --#{$prefix}btn-color: var(--#{$prefix}light);
+    --#{$prefix}btn-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-color: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-disabled-color: var(--#{$prefix}light);
+    --#{$prefix}btn-disabled-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-disabled-border-color: var(--#{$prefix}dark);
+}
+
+.btn-outline-dark {
+    --#{$prefix}btn-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-bg: transparent;
+    --#{$prefix}btn-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-color: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-active-color: var(--#{$prefix}light);
+    --#{$prefix}btn-active-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-active-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-disabled-color: var(--#{$prefix}light);
+    --#{$prefix}btn-disabled-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-disabled-border-color: var(--#{$prefix}dark);
+}
+
+.btn-outline-light {
+    --#{$prefix}btn-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-bg: transparent;
+    --#{$prefix}btn-border-color: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}light);
+    --#{$prefix}btn-active-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-active-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-active-border-color: var(--#{$prefix}light);
+    --#{$prefix}btn-disabled-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-disabled-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-disabled-border-color: var(--#{$prefix}light);
+}
+
+.btn-soft-dark {
+    --#{$prefix}btn-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-bg: var(--#{$prefix}light);
+    --#{$prefix}btn-border-color: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-color: var(--#{$prefix}light);
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-active-color: var(--#{$prefix}light);
+    --#{$prefix}btn-active-bg: var(--#{$prefix}dark);
+    --#{$prefix}btn-active-border-color: var(--#{$prefix}dark);
+}
+
+// Dark Mode
+html[data-theme="dark"] {
+    .btn-light {
+        --#{$prefix}btn-active-color: var(--#{$prefix}dark);
+        --#{$prefix}btn-active-bg: var(--#{$prefix}gray-300);
+        --#{$prefix}btn-active-border-color: var(--#{$prefix}gray-300);
+    }
+
+    .btn-dark {
+        --#{$prefix}btn-active-color: var(--#{$prefix}light);
+        --#{$prefix}btn-active-bg: var(--#{$prefix}gray-700);
+        --#{$prefix}btn-active-border-color: var(--#{$prefix}gray-700);
+    }
+}

@@ -1,0 +1,3115 @@
+
+.transition-none{
+    transition-property: none;
+  }
+
+  .transition-all{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition{
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition-colors{
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition-opacity{
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition-shadow{
+    transition-property: box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition-transform{
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .delay-75{
+    transition-delay: 75ms;
+  }
+
+  .delay-100{
+    transition-delay: 100ms;
+  }
+
+  .delay-150{
+    transition-delay: 150ms;
+  }
+
+  .delay-200{
+    transition-delay: 200ms;
+  }
+
+  .delay-300{
+    transition-delay: 300ms;
+  }
+
+  .delay-500{
+    transition-delay: 500ms;
+  }
+
+  .delay-700{
+    transition-delay: 700ms;
+  }
+
+  .delay-1000{
+    transition-delay: 1000ms;
+  }
+
+  .duration-75{
+    transition-duration: 75ms;
+  }
+
+  .duration-100{
+    transition-duration: 100ms;
+  }
+
+  .duration-150{
+    transition-duration: 150ms;
+  }
+
+  .duration-200{
+    transition-duration: 200ms;
+  }
+
+  .duration-300{
+    transition-duration: 300ms;
+  }
+
+  .duration-500{
+    transition-duration: 500ms;
+  }
+
+  .duration-700{
+    transition-duration: 700ms;
+  }
+
+  .duration-1000{
+    transition-duration: 1000ms;
+  }
+
+  .ease-linear{
+    transition-timing-function: linear;
+  }
+
+  .ease-in{
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  .ease-out{
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  .ease-in-out{
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+.transform{
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .transform-gpu{
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .transform-none{
+    transform: none;
+  }
+
+  .translate-x-0{
+    --tw-translate-x: 0px;
+  }
+
+  .translate-x-1{
+    --tw-translate-x: 0.25rem;
+  }
+
+  .translate-x-2{
+    --tw-translate-x: 0.5rem;
+  }
+
+  .translate-x-3{
+    --tw-translate-x: 0.75rem;
+  }
+
+  .translate-x-4{
+    --tw-translate-x: 1rem;
+  }
+
+  .translate-x-5{
+    --tw-translate-x: 1.25rem;
+  }
+
+  .translate-x-6{
+    --tw-translate-x: 1.5rem;
+  }
+
+  .translate-x-7{
+    --tw-translate-x: 1.75rem;
+  }
+
+  .translate-x-8{
+    --tw-translate-x: 2rem;
+  }
+
+  .translate-x-9{
+    --tw-translate-x: 2.25rem;
+  }
+
+  .translate-x-10{
+    --tw-translate-x: 2.5rem;
+  }
+
+  .translate-x-11{
+    --tw-translate-x: 2.75rem;
+  }
+
+  .translate-x-12{
+    --tw-translate-x: 3rem;
+  }
+
+  .translate-x-14{
+    --tw-translate-x: 3.5rem;
+  }
+
+  .translate-x-16{
+    --tw-translate-x: 4rem;
+  }
+
+  .translate-x-20{
+    --tw-translate-x: 5rem;
+  }
+
+  .translate-x-24{
+    --tw-translate-x: 6rem;
+  }
+
+  .translate-x-28{
+    --tw-translate-x: 7rem;
+  }
+
+  .translate-x-32{
+    --tw-translate-x: 8rem;
+  }
+
+  .translate-x-36{
+    --tw-translate-x: 9rem;
+  }
+
+  .translate-x-40{
+    --tw-translate-x: 10rem;
+  }
+
+  .translate-x-44{
+    --tw-translate-x: 11rem;
+  }
+
+  .translate-x-48{
+    --tw-translate-x: 12rem;
+  }
+
+  .translate-x-52{
+    --tw-translate-x: 13rem;
+  }
+
+  .translate-x-56{
+    --tw-translate-x: 14rem;
+  }
+
+  .translate-x-60{
+    --tw-translate-x: 15rem;
+  }
+
+  .translate-x-64{
+    --tw-translate-x: 16rem;
+  }
+
+  .translate-x-72{
+    --tw-translate-x: 18rem;
+  }
+
+  .translate-x-80{
+    --tw-translate-x: 20rem;
+  }
+
+  .translate-x-96{
+    --tw-translate-x: 24rem;
+  }
+
+  .translate-x-px{
+    --tw-translate-x: 1px;
+  }
+
+  .translate-x-0\.5{
+    --tw-translate-x: 0.125rem;
+  }
+
+  .translate-x-1\.5{
+    --tw-translate-x: 0.375rem;
+  }
+
+  .translate-x-2\.5{
+    --tw-translate-x: 0.625rem;
+  }
+
+  .translate-x-3\.5{
+    --tw-translate-x: 0.875rem;
+  }
+
+  .-translate-x-0{
+    --tw-translate-x: 0px;
+  }
+
+  .-translate-x-1{
+    --tw-translate-x: -0.25rem;
+  }
+
+  .-translate-x-2{
+    --tw-translate-x: -0.5rem;
+  }
+
+  .-translate-x-3{
+    --tw-translate-x: -0.75rem;
+  }
+
+  .-translate-x-4{
+    --tw-translate-x: -1rem;
+  }
+
+  .-translate-x-5{
+    --tw-translate-x: -1.25rem;
+  }
+
+  .-translate-x-6{
+    --tw-translate-x: -1.5rem;
+  }
+
+  .-translate-x-7{
+    --tw-translate-x: -1.75rem;
+  }
+
+  .-translate-x-8{
+    --tw-translate-x: -2rem;
+  }
+
+  .-translate-x-9{
+    --tw-translate-x: -2.25rem;
+  }
+
+  .-translate-x-10{
+    --tw-translate-x: -2.5rem;
+  }
+
+  .-translate-x-11{
+    --tw-translate-x: -2.75rem;
+  }
+
+  .-translate-x-12{
+    --tw-translate-x: -3rem;
+  }
+
+  .-translate-x-14{
+    --tw-translate-x: -3.5rem;
+  }
+
+  .-translate-x-16{
+    --tw-translate-x: -4rem;
+  }
+
+  .-translate-x-20{
+    --tw-translate-x: -5rem;
+  }
+
+  .-translate-x-24{
+    --tw-translate-x: -6rem;
+  }
+
+  .-translate-x-28{
+    --tw-translate-x: -7rem;
+  }
+
+  .-translate-x-32{
+    --tw-translate-x: -8rem;
+  }
+
+  .-translate-x-36{
+    --tw-translate-x: -9rem;
+  }
+
+  .-translate-x-40{
+    --tw-translate-x: -10rem;
+  }
+
+  .-translate-x-44{
+    --tw-translate-x: -11rem;
+  }
+
+  .-translate-x-48{
+    --tw-translate-x: -12rem;
+  }
+
+  .-translate-x-52{
+    --tw-translate-x: -13rem;
+  }
+
+  .-translate-x-56{
+    --tw-translate-x: -14rem;
+  }
+
+  .-translate-x-60{
+    --tw-translate-x: -15rem;
+  }
+
+  .-translate-x-64{
+    --tw-translate-x: -16rem;
+  }
+
+  .-translate-x-72{
+    --tw-translate-x: -18rem;
+  }
+
+  .-translate-x-80{
+    --tw-translate-x: -20rem;
+  }
+
+  .-translate-x-96{
+    --tw-translate-x: -24rem;
+  }
+
+  .-translate-x-px{
+    --tw-translate-x: -1px;
+  }
+
+  .-translate-x-0\.5{
+    --tw-translate-x: -0.125rem;
+  }
+
+  .-translate-x-1\.5{
+    --tw-translate-x: -0.375rem;
+  }
+
+  .-translate-x-2\.5{
+    --tw-translate-x: -0.625rem;
+  }
+
+  .-translate-x-3\.5{
+    --tw-translate-x: -0.875rem;
+  }
+
+  .translate-x-1\/2{
+    --tw-translate-x: 50%;
+  }
+
+  .translate-x-1\/3{
+    --tw-translate-x: 33.333333%;
+  }
+
+  .translate-x-2\/3{
+    --tw-translate-x: 66.666667%;
+  }
+
+  .translate-x-1\/4{
+    --tw-translate-x: 25%;
+  }
+
+  .translate-x-2\/4{
+    --tw-translate-x: 50%;
+  }
+
+  .translate-x-3\/4{
+    --tw-translate-x: 75%;
+  }
+
+  .translate-x-full{
+    --tw-translate-x: 100%;
+  }
+
+  .-translate-x-1\/2{
+    --tw-translate-x: -50%;
+  }
+
+  .-translate-x-1\/3{
+    --tw-translate-x: -33.333333%;
+  }
+
+  .-translate-x-2\/3{
+    --tw-translate-x: -66.666667%;
+  }
+
+  .-translate-x-1\/4{
+    --tw-translate-x: -25%;
+  }
+
+  .-translate-x-2\/4{
+    --tw-translate-x: -50%;
+  }
+
+  .-translate-x-3\/4{
+    --tw-translate-x: -75%;
+  }
+
+  .-translate-x-full{
+    --tw-translate-x: -100%;
+  }
+
+  .translate-y-0{
+    --tw-translate-y: 0px;
+  }
+
+  .translate-y-1{
+    --tw-translate-y: 0.25rem;
+  }
+
+  .translate-y-2{
+    --tw-translate-y: 0.5rem;
+  }
+
+  .translate-y-3{
+    --tw-translate-y: 0.75rem;
+  }
+
+  .translate-y-4{
+    --tw-translate-y: 1rem;
+  }
+
+  .translate-y-5{
+    --tw-translate-y: 1.25rem;
+  }
+
+  .translate-y-6{
+    --tw-translate-y: 1.5rem;
+  }
+
+  .translate-y-7{
+    --tw-translate-y: 1.75rem;
+  }
+
+  .translate-y-8{
+    --tw-translate-y: 2rem;
+  }
+
+  .translate-y-9{
+    --tw-translate-y: 2.25rem;
+  }
+
+  .translate-y-10{
+    --tw-translate-y: 2.5rem;
+  }
+
+  .translate-y-11{
+    --tw-translate-y: 2.75rem;
+  }
+
+  .translate-y-12{
+    --tw-translate-y: 3rem;
+  }
+
+  .translate-y-14{
+    --tw-translate-y: 3.5rem;
+  }
+
+  .translate-y-16{
+    --tw-translate-y: 4rem;
+  }
+
+  .translate-y-20{
+    --tw-translate-y: 5rem;
+  }
+
+  .translate-y-24{
+    --tw-translate-y: 6rem;
+  }
+
+  .translate-y-28{
+    --tw-translate-y: 7rem;
+  }
+
+  .translate-y-32{
+    --tw-translate-y: 8rem;
+  }
+
+  .translate-y-36{
+    --tw-translate-y: 9rem;
+  }
+
+  .translate-y-40{
+    --tw-translate-y: 10rem;
+  }
+
+  .translate-y-44{
+    --tw-translate-y: 11rem;
+  }
+
+  .translate-y-48{
+    --tw-translate-y: 12rem;
+  }
+
+  .translate-y-52{
+    --tw-translate-y: 13rem;
+  }
+
+  .translate-y-56{
+    --tw-translate-y: 14rem;
+  }
+
+  .translate-y-60{
+    --tw-translate-y: 15rem;
+  }
+
+  .translate-y-64{
+    --tw-translate-y: 16rem;
+  }
+
+  .translate-y-72{
+    --tw-translate-y: 18rem;
+  }
+
+  .translate-y-80{
+    --tw-translate-y: 20rem;
+  }
+
+  .translate-y-96{
+    --tw-translate-y: 24rem;
+  }
+
+  .translate-y-px{
+    --tw-translate-y: 1px;
+  }
+
+  .translate-y-0\.5{
+    --tw-translate-y: 0.125rem;
+  }
+
+  .translate-y-1\.5{
+    --tw-translate-y: 0.375rem;
+  }
+
+  .translate-y-2\.5{
+    --tw-translate-y: 0.625rem;
+  }
+
+  .translate-y-3\.5{
+    --tw-translate-y: 0.875rem;
+  }
+
+  .-translate-y-0{
+    --tw-translate-y: 0px;
+  }
+
+  .-translate-y-1{
+    --tw-translate-y: -0.25rem;
+  }
+
+  .-translate-y-2{
+    --tw-translate-y: -0.5rem;
+  }
+
+  .-translate-y-3{
+    --tw-translate-y: -0.75rem;
+  }
+
+  .-translate-y-4{
+    --tw-translate-y: -1rem;
+  }
+
+  .-translate-y-5{
+    --tw-translate-y: -1.25rem;
+  }
+
+  .-translate-y-6{
+    --tw-translate-y: -1.5rem;
+  }
+
+  .-translate-y-7{
+    --tw-translate-y: -1.75rem;
+  }
+
+  .-translate-y-8{
+    --tw-translate-y: -2rem;
+  }
+
+  .-translate-y-9{
+    --tw-translate-y: -2.25rem;
+  }
+
+  .-translate-y-10{
+    --tw-translate-y: -2.5rem;
+  }
+
+  .-translate-y-11{
+    --tw-translate-y: -2.75rem;
+  }
+
+  .-translate-y-12{
+    --tw-translate-y: -3rem;
+  }
+
+  .-translate-y-14{
+    --tw-translate-y: -3.5rem;
+  }
+
+  .-translate-y-16{
+    --tw-translate-y: -4rem;
+  }
+
+  .-translate-y-20{
+    --tw-translate-y: -5rem;
+  }
+
+  .-translate-y-24{
+    --tw-translate-y: -6rem;
+  }
+
+  .-translate-y-28{
+    --tw-translate-y: -7rem;
+  }
+
+  .-translate-y-32{
+    --tw-translate-y: -8rem;
+  }
+
+  .-translate-y-36{
+    --tw-translate-y: -9rem;
+  }
+
+  .-translate-y-40{
+    --tw-translate-y: -10rem;
+  }
+
+  .-translate-y-44{
+    --tw-translate-y: -11rem;
+  }
+
+  .-translate-y-48{
+    --tw-translate-y: -12rem;
+  }
+
+  .-translate-y-52{
+    --tw-translate-y: -13rem;
+  }
+
+  .-translate-y-56{
+    --tw-translate-y: -14rem;
+  }
+
+  .-translate-y-60{
+    --tw-translate-y: -15rem;
+  }
+
+  .-translate-y-64{
+    --tw-translate-y: -16rem;
+  }
+
+  .-translate-y-72{
+    --tw-translate-y: -18rem;
+  }
+
+  .-translate-y-80{
+    --tw-translate-y: -20rem;
+  }
+
+  .-translate-y-96{
+    --tw-translate-y: -24rem;
+  }
+
+  .-translate-y-px{
+    --tw-translate-y: -1px;
+  }
+
+  .-translate-y-0\.5{
+    --tw-translate-y: -0.125rem;
+  }
+
+  .-translate-y-1\.5{
+    --tw-translate-y: -0.375rem;
+  }
+
+  .-translate-y-2\.5{
+    --tw-translate-y: -0.625rem;
+  }
+
+  .-translate-y-3\.5{
+    --tw-translate-y: -0.875rem;
+  }
+
+  .translate-y-1\/2{
+    --tw-translate-y: 50%;
+  }
+
+  .translate-y-1\/3{
+    --tw-translate-y: 33.333333%;
+  }
+
+  .translate-y-2\/3{
+    --tw-translate-y: 66.666667%;
+  }
+
+  .translate-y-1\/4{
+    --tw-translate-y: 25%;
+  }
+
+  .translate-y-2\/4{
+    --tw-translate-y: 50%;
+  }
+
+  .translate-y-3\/4{
+    --tw-translate-y: 75%;
+  }
+
+  .translate-y-full{
+    --tw-translate-y: 100%;
+  }
+
+  .-translate-y-1\/2{
+    --tw-translate-y: -50%;
+  }
+
+  .-translate-y-1\/3{
+    --tw-translate-y: -33.333333%;
+  }
+
+  .-translate-y-2\/3{
+    --tw-translate-y: -66.666667%;
+  }
+
+  .-translate-y-1\/4{
+    --tw-translate-y: -25%;
+  }
+
+  .-translate-y-2\/4{
+    --tw-translate-y: -50%;
+  }
+
+  .-translate-y-3\/4{
+    --tw-translate-y: -75%;
+  }
+
+  .-translate-y-full{
+    --tw-translate-y: -100%;
+  }
+
+  .hover\:translate-x-0:hover{
+    --tw-translate-x: 0px;
+  }
+
+  .hover\:translate-x-1:hover{
+    --tw-translate-x: 0.25rem;
+  }
+
+  .hover\:translate-x-2:hover{
+    --tw-translate-x: 0.5rem;
+  }
+
+  .hover\:translate-x-3:hover{
+    --tw-translate-x: 0.75rem;
+  }
+
+  .hover\:translate-x-4:hover{
+    --tw-translate-x: 1rem;
+  }
+
+  .hover\:translate-x-5:hover{
+    --tw-translate-x: 1.25rem;
+  }
+
+  .hover\:translate-x-6:hover{
+    --tw-translate-x: 1.5rem;
+  }
+
+  .hover\:translate-x-7:hover{
+    --tw-translate-x: 1.75rem;
+  }
+
+  .hover\:translate-x-8:hover{
+    --tw-translate-x: 2rem;
+  }
+
+  .hover\:translate-x-9:hover{
+    --tw-translate-x: 2.25rem;
+  }
+
+  .hover\:translate-x-10:hover{
+    --tw-translate-x: 2.5rem;
+  }
+
+  .hover\:translate-x-11:hover{
+    --tw-translate-x: 2.75rem;
+  }
+
+  .hover\:translate-x-12:hover{
+    --tw-translate-x: 3rem;
+  }
+
+  .hover\:translate-x-14:hover{
+    --tw-translate-x: 3.5rem;
+  }
+
+  .hover\:translate-x-16:hover{
+    --tw-translate-x: 4rem;
+  }
+
+  .hover\:translate-x-20:hover{
+    --tw-translate-x: 5rem;
+  }
+
+  .hover\:translate-x-24:hover{
+    --tw-translate-x: 6rem;
+  }
+
+  .hover\:translate-x-28:hover{
+    --tw-translate-x: 7rem;
+  }
+
+  .hover\:translate-x-32:hover{
+    --tw-translate-x: 8rem;
+  }
+
+  .hover\:translate-x-36:hover{
+    --tw-translate-x: 9rem;
+  }
+
+  .hover\:translate-x-40:hover{
+    --tw-translate-x: 10rem;
+  }
+
+  .hover\:translate-x-44:hover{
+    --tw-translate-x: 11rem;
+  }
+
+  .hover\:translate-x-48:hover{
+    --tw-translate-x: 12rem;
+  }
+
+  .hover\:translate-x-52:hover{
+    --tw-translate-x: 13rem;
+  }
+
+  .hover\:translate-x-56:hover{
+    --tw-translate-x: 14rem;
+  }
+
+  .hover\:translate-x-60:hover{
+    --tw-translate-x: 15rem;
+  }
+
+  .hover\:translate-x-64:hover{
+    --tw-translate-x: 16rem;
+  }
+
+  .hover\:translate-x-72:hover{
+    --tw-translate-x: 18rem;
+  }
+
+  .hover\:translate-x-80:hover{
+    --tw-translate-x: 20rem;
+  }
+
+  .hover\:translate-x-96:hover{
+    --tw-translate-x: 24rem;
+  }
+
+  .hover\:translate-x-px:hover{
+    --tw-translate-x: 1px;
+  }
+
+  .hover\:translate-x-0\.5:hover{
+    --tw-translate-x: 0.125rem;
+  }
+
+  .hover\:translate-x-1\.5:hover{
+    --tw-translate-x: 0.375rem;
+  }
+
+  .hover\:translate-x-2\.5:hover{
+    --tw-translate-x: 0.625rem;
+  }
+
+  .hover\:translate-x-3\.5:hover{
+    --tw-translate-x: 0.875rem;
+  }
+
+  .hover\:-translate-x-0:hover{
+    --tw-translate-x: 0px;
+  }
+
+  .hover\:-translate-x-1:hover{
+    --tw-translate-x: -0.25rem;
+  }
+
+  .hover\:-translate-x-2:hover{
+    --tw-translate-x: -0.5rem;
+  }
+
+  .hover\:-translate-x-3:hover{
+    --tw-translate-x: -0.75rem;
+  }
+
+  .hover\:-translate-x-4:hover{
+    --tw-translate-x: -1rem;
+  }
+
+  .hover\:-translate-x-5:hover{
+    --tw-translate-x: -1.25rem;
+  }
+
+  .hover\:-translate-x-6:hover{
+    --tw-translate-x: -1.5rem;
+  }
+
+  .hover\:-translate-x-7:hover{
+    --tw-translate-x: -1.75rem;
+  }
+
+  .hover\:-translate-x-8:hover{
+    --tw-translate-x: -2rem;
+  }
+
+  .hover\:-translate-x-9:hover{
+    --tw-translate-x: -2.25rem;
+  }
+
+  .hover\:-translate-x-10:hover{
+    --tw-translate-x: -2.5rem;
+  }
+
+  .hover\:-translate-x-11:hover{
+    --tw-translate-x: -2.75rem;
+  }
+
+  .hover\:-translate-x-12:hover{
+    --tw-translate-x: -3rem;
+  }
+
+  .hover\:-translate-x-14:hover{
+    --tw-translate-x: -3.5rem;
+  }
+
+  .hover\:-translate-x-16:hover{
+    --tw-translate-x: -4rem;
+  }
+
+  .hover\:-translate-x-20:hover{
+    --tw-translate-x: -5rem;
+  }
+
+  .hover\:-translate-x-24:hover{
+    --tw-translate-x: -6rem;
+  }
+
+  .hover\:-translate-x-28:hover{
+    --tw-translate-x: -7rem;
+  }
+
+  .hover\:-translate-x-32:hover{
+    --tw-translate-x: -8rem;
+  }
+
+  .hover\:-translate-x-36:hover{
+    --tw-translate-x: -9rem;
+  }
+
+  .hover\:-translate-x-40:hover{
+    --tw-translate-x: -10rem;
+  }
+
+  .hover\:-translate-x-44:hover{
+    --tw-translate-x: -11rem;
+  }
+
+  .hover\:-translate-x-48:hover{
+    --tw-translate-x: -12rem;
+  }
+
+  .hover\:-translate-x-52:hover{
+    --tw-translate-x: -13rem;
+  }
+
+  .hover\:-translate-x-56:hover{
+    --tw-translate-x: -14rem;
+  }
+
+  .hover\:-translate-x-60:hover{
+    --tw-translate-x: -15rem;
+  }
+
+  .hover\:-translate-x-64:hover{
+    --tw-translate-x: -16rem;
+  }
+
+  .hover\:-translate-x-72:hover{
+    --tw-translate-x: -18rem;
+  }
+
+  .hover\:-translate-x-80:hover{
+    --tw-translate-x: -20rem;
+  }
+
+  .hover\:-translate-x-96:hover{
+    --tw-translate-x: -24rem;
+  }
+
+  .hover\:-translate-x-px:hover{
+    --tw-translate-x: -1px;
+  }
+
+  .hover\:-translate-x-0\.5:hover{
+    --tw-translate-x: -0.125rem;
+  }
+
+  .hover\:-translate-x-1\.5:hover{
+    --tw-translate-x: -0.375rem;
+  }
+
+  .hover\:-translate-x-2\.5:hover{
+    --tw-translate-x: -0.625rem;
+  }
+
+  .hover\:-translate-x-3\.5:hover{
+    --tw-translate-x: -0.875rem;
+  }
+
+  .hover\:translate-x-1\/2:hover{
+    --tw-translate-x: 50%;
+  }
+
+  .hover\:translate-x-1\/3:hover{
+    --tw-translate-x: 33.333333%;
+  }
+
+  .hover\:translate-x-2\/3:hover{
+    --tw-translate-x: 66.666667%;
+  }
+
+  .hover\:translate-x-1\/4:hover{
+    --tw-translate-x: 25%;
+  }
+
+  .hover\:translate-x-2\/4:hover{
+    --tw-translate-x: 50%;
+  }
+
+  .hover\:translate-x-3\/4:hover{
+    --tw-translate-x: 75%;
+  }
+
+  .hover\:translate-x-full:hover{
+    --tw-translate-x: 100%;
+  }
+
+  .hover\:-translate-x-1\/2:hover{
+    --tw-translate-x: -50%;
+  }
+
+  .hover\:-translate-x-1\/3:hover{
+    --tw-translate-x: -33.333333%;
+  }
+
+  .hover\:-translate-x-2\/3:hover{
+    --tw-translate-x: -66.666667%;
+  }
+
+  .hover\:-translate-x-1\/4:hover{
+    --tw-translate-x: -25%;
+  }
+
+  .hover\:-translate-x-2\/4:hover{
+    --tw-translate-x: -50%;
+  }
+
+  .hover\:-translate-x-3\/4:hover{
+    --tw-translate-x: -75%;
+  }
+
+  .hover\:-translate-x-full:hover{
+    --tw-translate-x: -100%;
+  }
+
+  .hover\:translate-y-0:hover{
+    --tw-translate-y: 0px;
+  }
+
+  .hover\:translate-y-1:hover{
+    --tw-translate-y: 0.25rem;
+  }
+
+  .hover\:translate-y-2:hover{
+    --tw-translate-y: 0.5rem;
+  }
+
+  .hover\:translate-y-3:hover{
+    --tw-translate-y: 0.75rem;
+  }
+
+  .hover\:translate-y-4:hover{
+    --tw-translate-y: 1rem;
+  }
+
+  .hover\:translate-y-5:hover{
+    --tw-translate-y: 1.25rem;
+  }
+
+  .hover\:translate-y-6:hover{
+    --tw-translate-y: 1.5rem;
+  }
+
+  .hover\:translate-y-7:hover{
+    --tw-translate-y: 1.75rem;
+  }
+
+  .hover\:translate-y-8:hover{
+    --tw-translate-y: 2rem;
+  }
+
+  .hover\:translate-y-9:hover{
+    --tw-translate-y: 2.25rem;
+  }
+
+  .hover\:translate-y-10:hover{
+    --tw-translate-y: 2.5rem;
+  }
+
+  .hover\:translate-y-11:hover{
+    --tw-translate-y: 2.75rem;
+  }
+
+  .hover\:translate-y-12:hover{
+    --tw-translate-y: 3rem;
+  }
+
+  .hover\:translate-y-14:hover{
+    --tw-translate-y: 3.5rem;
+  }
+
+  .hover\:translate-y-16:hover{
+    --tw-translate-y: 4rem;
+  }
+
+  .hover\:translate-y-20:hover{
+    --tw-translate-y: 5rem;
+  }
+
+  .hover\:translate-y-24:hover{
+    --tw-translate-y: 6rem;
+  }
+
+  .hover\:translate-y-28:hover{
+    --tw-translate-y: 7rem;
+  }
+
+  .hover\:translate-y-32:hover{
+    --tw-translate-y: 8rem;
+  }
+
+  .hover\:translate-y-36:hover{
+    --tw-translate-y: 9rem;
+  }
+
+  .hover\:translate-y-40:hover{
+    --tw-translate-y: 10rem;
+  }
+
+  .hover\:translate-y-44:hover{
+    --tw-translate-y: 11rem;
+  }
+
+  .hover\:translate-y-48:hover{
+    --tw-translate-y: 12rem;
+  }
+
+  .hover\:translate-y-52:hover{
+    --tw-translate-y: 13rem;
+  }
+
+  .hover\:translate-y-56:hover{
+    --tw-translate-y: 14rem;
+  }
+
+  .hover\:translate-y-60:hover{
+    --tw-translate-y: 15rem;
+  }
+
+  .hover\:translate-y-64:hover{
+    --tw-translate-y: 16rem;
+  }
+
+  .hover\:translate-y-72:hover{
+    --tw-translate-y: 18rem;
+  }
+
+  .hover\:translate-y-80:hover{
+    --tw-translate-y: 20rem;
+  }
+
+  .hover\:translate-y-96:hover{
+    --tw-translate-y: 24rem;
+  }
+
+  .hover\:translate-y-px:hover{
+    --tw-translate-y: 1px;
+  }
+
+  .hover\:translate-y-0\.5:hover{
+    --tw-translate-y: 0.125rem;
+  }
+
+  .hover\:translate-y-1\.5:hover{
+    --tw-translate-y: 0.375rem;
+  }
+
+  .hover\:translate-y-2\.5:hover{
+    --tw-translate-y: 0.625rem;
+  }
+
+  .hover\:translate-y-3\.5:hover{
+    --tw-translate-y: 0.875rem;
+  }
+
+  .hover\:-translate-y-0:hover{
+    --tw-translate-y: 0px;
+  }
+
+  .hover\:-translate-y-1:hover{
+    --tw-translate-y: -0.25rem;
+  }
+
+  .hover\:-translate-y-2:hover{
+    --tw-translate-y: -0.5rem;
+  }
+
+  .hover\:-translate-y-3:hover{
+    --tw-translate-y: -0.75rem;
+  }
+
+  .hover\:-translate-y-4:hover{
+    --tw-translate-y: -1rem;
+  }
+
+  .hover\:-translate-y-5:hover{
+    --tw-translate-y: -1.25rem;
+  }
+
+  .hover\:-translate-y-6:hover{
+    --tw-translate-y: -1.5rem;
+  }
+
+  .hover\:-translate-y-7:hover{
+    --tw-translate-y: -1.75rem;
+  }
+
+  .hover\:-translate-y-8:hover{
+    --tw-translate-y: -2rem;
+  }
+
+  .hover\:-translate-y-9:hover{
+    --tw-translate-y: -2.25rem;
+  }
+
+  .hover\:-translate-y-10:hover{
+    --tw-translate-y: -2.5rem;
+  }
+
+  .hover\:-translate-y-11:hover{
+    --tw-translate-y: -2.75rem;
+  }
+
+  .hover\:-translate-y-12:hover{
+    --tw-translate-y: -3rem;
+  }
+
+  .hover\:-translate-y-14:hover{
+    --tw-translate-y: -3.5rem;
+  }
+
+  .hover\:-translate-y-16:hover{
+    --tw-translate-y: -4rem;
+  }
+
+  .hover\:-translate-y-20:hover{
+    --tw-translate-y: -5rem;
+  }
+
+  .hover\:-translate-y-24:hover{
+    --tw-translate-y: -6rem;
+  }
+
+  .hover\:-translate-y-28:hover{
+    --tw-translate-y: -7rem;
+  }
+
+  .hover\:-translate-y-32:hover{
+    --tw-translate-y: -8rem;
+  }
+
+  .hover\:-translate-y-36:hover{
+    --tw-translate-y: -9rem;
+  }
+
+  .hover\:-translate-y-40:hover{
+    --tw-translate-y: -10rem;
+  }
+
+  .hover\:-translate-y-44:hover{
+    --tw-translate-y: -11rem;
+  }
+
+  .hover\:-translate-y-48:hover{
+    --tw-translate-y: -12rem;
+  }
+
+  .hover\:-translate-y-52:hover{
+    --tw-translate-y: -13rem;
+  }
+
+  .hover\:-translate-y-56:hover{
+    --tw-translate-y: -14rem;
+  }
+
+  .hover\:-translate-y-60:hover{
+    --tw-translate-y: -15rem;
+  }
+
+  .hover\:-translate-y-64:hover{
+    --tw-translate-y: -16rem;
+  }
+
+  .hover\:-translate-y-72:hover{
+    --tw-translate-y: -18rem;
+  }
+
+  .hover\:-translate-y-80:hover{
+    --tw-translate-y: -20rem;
+  }
+
+  .hover\:-translate-y-96:hover{
+    --tw-translate-y: -24rem;
+  }
+
+  .hover\:-translate-y-px:hover{
+    --tw-translate-y: -1px;
+  }
+
+  .hover\:-translate-y-0\.5:hover{
+    --tw-translate-y: -0.125rem;
+  }
+
+  .hover\:-translate-y-1\.5:hover{
+    --tw-translate-y: -0.375rem;
+  }
+
+  .hover\:-translate-y-2\.5:hover{
+    --tw-translate-y: -0.625rem;
+  }
+
+  .hover\:-translate-y-3\.5:hover{
+    --tw-translate-y: -0.875rem;
+  }
+
+  .hover\:translate-y-1\/2:hover{
+    --tw-translate-y: 50%;
+  }
+
+  .hover\:translate-y-1\/3:hover{
+    --tw-translate-y: 33.333333%;
+  }
+
+  .hover\:translate-y-2\/3:hover{
+    --tw-translate-y: 66.666667%;
+  }
+
+  .hover\:translate-y-1\/4:hover{
+    --tw-translate-y: 25%;
+  }
+
+  .hover\:translate-y-2\/4:hover{
+    --tw-translate-y: 50%;
+  }
+
+  .hover\:translate-y-3\/4:hover{
+    --tw-translate-y: 75%;
+  }
+
+  .hover\:translate-y-full:hover{
+    --tw-translate-y: 100%;
+  }
+
+  .hover\:-translate-y-1\/2:hover{
+    --tw-translate-y: -50%;
+  }
+
+  .hover\:-translate-y-1\/3:hover{
+    --tw-translate-y: -33.333333%;
+  }
+
+  .hover\:-translate-y-2\/3:hover{
+    --tw-translate-y: -66.666667%;
+  }
+
+  .hover\:-translate-y-1\/4:hover{
+    --tw-translate-y: -25%;
+  }
+
+  .hover\:-translate-y-2\/4:hover{
+    --tw-translate-y: -50%;
+  }
+
+  .hover\:-translate-y-3\/4:hover{
+    --tw-translate-y: -75%;
+  }
+
+  .hover\:-translate-y-full:hover{
+    --tw-translate-y: -100%;
+  }
+
+  .focus\:translate-x-0:focus{
+    --tw-translate-x: 0px;
+  }
+
+  .focus\:translate-x-1:focus{
+    --tw-translate-x: 0.25rem;
+  }
+
+  .focus\:translate-x-2:focus{
+    --tw-translate-x: 0.5rem;
+  }
+
+  .focus\:translate-x-3:focus{
+    --tw-translate-x: 0.75rem;
+  }
+
+  .focus\:translate-x-4:focus{
+    --tw-translate-x: 1rem;
+  }
+
+  .focus\:translate-x-5:focus{
+    --tw-translate-x: 1.25rem;
+  }
+
+  .focus\:translate-x-6:focus{
+    --tw-translate-x: 1.5rem;
+  }
+
+  .focus\:translate-x-7:focus{
+    --tw-translate-x: 1.75rem;
+  }
+
+  .focus\:translate-x-8:focus{
+    --tw-translate-x: 2rem;
+  }
+
+  .focus\:translate-x-9:focus{
+    --tw-translate-x: 2.25rem;
+  }
+
+  .focus\:translate-x-10:focus{
+    --tw-translate-x: 2.5rem;
+  }
+
+  .focus\:translate-x-11:focus{
+    --tw-translate-x: 2.75rem;
+  }
+
+  .focus\:translate-x-12:focus{
+    --tw-translate-x: 3rem;
+  }
+
+  .focus\:translate-x-14:focus{
+    --tw-translate-x: 3.5rem;
+  }
+
+  .focus\:translate-x-16:focus{
+    --tw-translate-x: 4rem;
+  }
+
+  .focus\:translate-x-20:focus{
+    --tw-translate-x: 5rem;
+  }
+
+  .focus\:translate-x-24:focus{
+    --tw-translate-x: 6rem;
+  }
+
+  .focus\:translate-x-28:focus{
+    --tw-translate-x: 7rem;
+  }
+
+  .focus\:translate-x-32:focus{
+    --tw-translate-x: 8rem;
+  }
+
+  .focus\:translate-x-36:focus{
+    --tw-translate-x: 9rem;
+  }
+
+  .focus\:translate-x-40:focus{
+    --tw-translate-x: 10rem;
+  }
+
+  .focus\:translate-x-44:focus{
+    --tw-translate-x: 11rem;
+  }
+
+  .focus\:translate-x-48:focus{
+    --tw-translate-x: 12rem;
+  }
+
+  .focus\:translate-x-52:focus{
+    --tw-translate-x: 13rem;
+  }
+
+  .focus\:translate-x-56:focus{
+    --tw-translate-x: 14rem;
+  }
+
+  .focus\:translate-x-60:focus{
+    --tw-translate-x: 15rem;
+  }
+
+  .focus\:translate-x-64:focus{
+    --tw-translate-x: 16rem;
+  }
+
+  .focus\:translate-x-72:focus{
+    --tw-translate-x: 18rem;
+  }
+
+  .focus\:translate-x-80:focus{
+    --tw-translate-x: 20rem;
+  }
+
+  .focus\:translate-x-96:focus{
+    --tw-translate-x: 24rem;
+  }
+
+  .focus\:translate-x-px:focus{
+    --tw-translate-x: 1px;
+  }
+
+  .focus\:translate-x-0\.5:focus{
+    --tw-translate-x: 0.125rem;
+  }
+
+  .focus\:translate-x-1\.5:focus{
+    --tw-translate-x: 0.375rem;
+  }
+
+  .focus\:translate-x-2\.5:focus{
+    --tw-translate-x: 0.625rem;
+  }
+
+  .focus\:translate-x-3\.5:focus{
+    --tw-translate-x: 0.875rem;
+  }
+
+  .focus\:-translate-x-0:focus{
+    --tw-translate-x: 0px;
+  }
+
+  .focus\:-translate-x-1:focus{
+    --tw-translate-x: -0.25rem;
+  }
+
+  .focus\:-translate-x-2:focus{
+    --tw-translate-x: -0.5rem;
+  }
+
+  .focus\:-translate-x-3:focus{
+    --tw-translate-x: -0.75rem;
+  }
+
+  .focus\:-translate-x-4:focus{
+    --tw-translate-x: -1rem;
+  }
+
+  .focus\:-translate-x-5:focus{
+    --tw-translate-x: -1.25rem;
+  }
+
+  .focus\:-translate-x-6:focus{
+    --tw-translate-x: -1.5rem;
+  }
+
+  .focus\:-translate-x-7:focus{
+    --tw-translate-x: -1.75rem;
+  }
+
+  .focus\:-translate-x-8:focus{
+    --tw-translate-x: -2rem;
+  }
+
+  .focus\:-translate-x-9:focus{
+    --tw-translate-x: -2.25rem;
+  }
+
+  .focus\:-translate-x-10:focus{
+    --tw-translate-x: -2.5rem;
+  }
+
+  .focus\:-translate-x-11:focus{
+    --tw-translate-x: -2.75rem;
+  }
+
+  .focus\:-translate-x-12:focus{
+    --tw-translate-x: -3rem;
+  }
+
+  .focus\:-translate-x-14:focus{
+    --tw-translate-x: -3.5rem;
+  }
+
+  .focus\:-translate-x-16:focus{
+    --tw-translate-x: -4rem;
+  }
+
+  .focus\:-translate-x-20:focus{
+    --tw-translate-x: -5rem;
+  }
+
+  .focus\:-translate-x-24:focus{
+    --tw-translate-x: -6rem;
+  }
+
+  .focus\:-translate-x-28:focus{
+    --tw-translate-x: -7rem;
+  }
+
+  .focus\:-translate-x-32:focus{
+    --tw-translate-x: -8rem;
+  }
+
+  .focus\:-translate-x-36:focus{
+    --tw-translate-x: -9rem;
+  }
+
+  .focus\:-translate-x-40:focus{
+    --tw-translate-x: -10rem;
+  }
+
+  .focus\:-translate-x-44:focus{
+    --tw-translate-x: -11rem;
+  }
+
+  .focus\:-translate-x-48:focus{
+    --tw-translate-x: -12rem;
+  }
+
+  .focus\:-translate-x-52:focus{
+    --tw-translate-x: -13rem;
+  }
+
+  .focus\:-translate-x-56:focus{
+    --tw-translate-x: -14rem;
+  }
+
+  .focus\:-translate-x-60:focus{
+    --tw-translate-x: -15rem;
+  }
+
+  .focus\:-translate-x-64:focus{
+    --tw-translate-x: -16rem;
+  }
+
+  .focus\:-translate-x-72:focus{
+    --tw-translate-x: -18rem;
+  }
+
+  .focus\:-translate-x-80:focus{
+    --tw-translate-x: -20rem;
+  }
+
+  .focus\:-translate-x-96:focus{
+    --tw-translate-x: -24rem;
+  }
+
+  .focus\:-translate-x-px:focus{
+    --tw-translate-x: -1px;
+  }
+
+  .focus\:-translate-x-0\.5:focus{
+    --tw-translate-x: -0.125rem;
+  }
+
+  .focus\:-translate-x-1\.5:focus{
+    --tw-translate-x: -0.375rem;
+  }
+
+  .focus\:-translate-x-2\.5:focus{
+    --tw-translate-x: -0.625rem;
+  }
+
+  .focus\:-translate-x-3\.5:focus{
+    --tw-translate-x: -0.875rem;
+  }
+
+  .focus\:translate-x-1\/2:focus{
+    --tw-translate-x: 50%;
+  }
+
+  .focus\:translate-x-1\/3:focus{
+    --tw-translate-x: 33.333333%;
+  }
+
+  .focus\:translate-x-2\/3:focus{
+    --tw-translate-x: 66.666667%;
+  }
+
+  .focus\:translate-x-1\/4:focus{
+    --tw-translate-x: 25%;
+  }
+
+  .focus\:translate-x-2\/4:focus{
+    --tw-translate-x: 50%;
+  }
+
+  .focus\:translate-x-3\/4:focus{
+    --tw-translate-x: 75%;
+  }
+
+  .focus\:translate-x-full:focus{
+    --tw-translate-x: 100%;
+  }
+
+  .focus\:-translate-x-1\/2:focus{
+    --tw-translate-x: -50%;
+  }
+
+  .focus\:-translate-x-1\/3:focus{
+    --tw-translate-x: -33.333333%;
+  }
+
+  .focus\:-translate-x-2\/3:focus{
+    --tw-translate-x: -66.666667%;
+  }
+
+  .focus\:-translate-x-1\/4:focus{
+    --tw-translate-x: -25%;
+  }
+
+  .focus\:-translate-x-2\/4:focus{
+    --tw-translate-x: -50%;
+  }
+
+  .focus\:-translate-x-3\/4:focus{
+    --tw-translate-x: -75%;
+  }
+
+  .focus\:-translate-x-full:focus{
+    --tw-translate-x: -100%;
+  }
+
+  .focus\:translate-y-0:focus{
+    --tw-translate-y: 0px;
+  }
+
+  .focus\:translate-y-1:focus{
+    --tw-translate-y: 0.25rem;
+  }
+
+  .focus\:translate-y-2:focus{
+    --tw-translate-y: 0.5rem;
+  }
+
+  .focus\:translate-y-3:focus{
+    --tw-translate-y: 0.75rem;
+  }
+
+  .focus\:translate-y-4:focus{
+    --tw-translate-y: 1rem;
+  }
+
+  .focus\:translate-y-5:focus{
+    --tw-translate-y: 1.25rem;
+  }
+
+  .focus\:translate-y-6:focus{
+    --tw-translate-y: 1.5rem;
+  }
+
+  .focus\:translate-y-7:focus{
+    --tw-translate-y: 1.75rem;
+  }
+
+  .focus\:translate-y-8:focus{
+    --tw-translate-y: 2rem;
+  }
+
+  .focus\:translate-y-9:focus{
+    --tw-translate-y: 2.25rem;
+  }
+
+  .focus\:translate-y-10:focus{
+    --tw-translate-y: 2.5rem;
+  }
+
+  .focus\:translate-y-11:focus{
+    --tw-translate-y: 2.75rem;
+  }
+
+  .focus\:translate-y-12:focus{
+    --tw-translate-y: 3rem;
+  }
+
+  .focus\:translate-y-14:focus{
+    --tw-translate-y: 3.5rem;
+  }
+
+  .focus\:translate-y-16:focus{
+    --tw-translate-y: 4rem;
+  }
+
+  .focus\:translate-y-20:focus{
+    --tw-translate-y: 5rem;
+  }
+
+  .focus\:translate-y-24:focus{
+    --tw-translate-y: 6rem;
+  }
+
+  .focus\:translate-y-28:focus{
+    --tw-translate-y: 7rem;
+  }
+
+  .focus\:translate-y-32:focus{
+    --tw-translate-y: 8rem;
+  }
+
+  .focus\:translate-y-36:focus{
+    --tw-translate-y: 9rem;
+  }
+
+  .focus\:translate-y-40:focus{
+    --tw-translate-y: 10rem;
+  }
+
+  .focus\:translate-y-44:focus{
+    --tw-translate-y: 11rem;
+  }
+
+  .focus\:translate-y-48:focus{
+    --tw-translate-y: 12rem;
+  }
+
+  .focus\:translate-y-52:focus{
+    --tw-translate-y: 13rem;
+  }
+
+  .focus\:translate-y-56:focus{
+    --tw-translate-y: 14rem;
+  }
+
+  .focus\:translate-y-60:focus{
+    --tw-translate-y: 15rem;
+  }
+
+  .focus\:translate-y-64:focus{
+    --tw-translate-y: 16rem;
+  }
+
+  .focus\:translate-y-72:focus{
+    --tw-translate-y: 18rem;
+  }
+
+  .focus\:translate-y-80:focus{
+    --tw-translate-y: 20rem;
+  }
+
+  .focus\:translate-y-96:focus{
+    --tw-translate-y: 24rem;
+  }
+
+  .focus\:translate-y-px:focus{
+    --tw-translate-y: 1px;
+  }
+
+  .focus\:translate-y-0\.5:focus{
+    --tw-translate-y: 0.125rem;
+  }
+
+  .focus\:translate-y-1\.5:focus{
+    --tw-translate-y: 0.375rem;
+  }
+
+  .focus\:translate-y-2\.5:focus{
+    --tw-translate-y: 0.625rem;
+  }
+
+  .focus\:translate-y-3\.5:focus{
+    --tw-translate-y: 0.875rem;
+  }
+
+  .focus\:-translate-y-0:focus{
+    --tw-translate-y: 0px;
+  }
+
+  .focus\:-translate-y-1:focus{
+    --tw-translate-y: -0.25rem;
+  }
+
+  .focus\:-translate-y-2:focus{
+    --tw-translate-y: -0.5rem;
+  }
+
+  .focus\:-translate-y-3:focus{
+    --tw-translate-y: -0.75rem;
+  }
+
+  .focus\:-translate-y-4:focus{
+    --tw-translate-y: -1rem;
+  }
+
+  .focus\:-translate-y-5:focus{
+    --tw-translate-y: -1.25rem;
+  }
+
+  .focus\:-translate-y-6:focus{
+    --tw-translate-y: -1.5rem;
+  }
+
+  .focus\:-translate-y-7:focus{
+    --tw-translate-y: -1.75rem;
+  }
+
+  .focus\:-translate-y-8:focus{
+    --tw-translate-y: -2rem;
+  }
+
+  .focus\:-translate-y-9:focus{
+    --tw-translate-y: -2.25rem;
+  }
+
+  .focus\:-translate-y-10:focus{
+    --tw-translate-y: -2.5rem;
+  }
+
+  .focus\:-translate-y-11:focus{
+    --tw-translate-y: -2.75rem;
+  }
+
+  .focus\:-translate-y-12:focus{
+    --tw-translate-y: -3rem;
+  }
+
+  .focus\:-translate-y-14:focus{
+    --tw-translate-y: -3.5rem;
+  }
+
+  .focus\:-translate-y-16:focus{
+    --tw-translate-y: -4rem;
+  }
+
+  .focus\:-translate-y-20:focus{
+    --tw-translate-y: -5rem;
+  }
+
+  .focus\:-translate-y-24:focus{
+    --tw-translate-y: -6rem;
+  }
+
+  .focus\:-translate-y-28:focus{
+    --tw-translate-y: -7rem;
+  }
+
+  .focus\:-translate-y-32:focus{
+    --tw-translate-y: -8rem;
+  }
+
+  .focus\:-translate-y-36:focus{
+    --tw-translate-y: -9rem;
+  }
+
+  .focus\:-translate-y-40:focus{
+    --tw-translate-y: -10rem;
+  }
+
+  .focus\:-translate-y-44:focus{
+    --tw-translate-y: -11rem;
+  }
+
+  .focus\:-translate-y-48:focus{
+    --tw-translate-y: -12rem;
+  }
+
+  .focus\:-translate-y-52:focus{
+    --tw-translate-y: -13rem;
+  }
+
+  .focus\:-translate-y-56:focus{
+    --tw-translate-y: -14rem;
+  }
+
+  .focus\:-translate-y-60:focus{
+    --tw-translate-y: -15rem;
+  }
+
+  .focus\:-translate-y-64:focus{
+    --tw-translate-y: -16rem;
+  }
+
+  .focus\:-translate-y-72:focus{
+    --tw-translate-y: -18rem;
+  }
+
+  .focus\:-translate-y-80:focus{
+    --tw-translate-y: -20rem;
+  }
+
+  .focus\:-translate-y-96:focus{
+    --tw-translate-y: -24rem;
+  }
+
+  .focus\:-translate-y-px:focus{
+    --tw-translate-y: -1px;
+  }
+
+  .focus\:-translate-y-0\.5:focus{
+    --tw-translate-y: -0.125rem;
+  }
+
+  .focus\:-translate-y-1\.5:focus{
+    --tw-translate-y: -0.375rem;
+  }
+
+  .focus\:-translate-y-2\.5:focus{
+    --tw-translate-y: -0.625rem;
+  }
+
+  .focus\:-translate-y-3\.5:focus{
+    --tw-translate-y: -0.875rem;
+  }
+
+  .focus\:translate-y-1\/2:focus{
+    --tw-translate-y: 50%;
+  }
+
+  .focus\:translate-y-1\/3:focus{
+    --tw-translate-y: 33.333333%;
+  }
+
+  .focus\:translate-y-2\/3:focus{
+    --tw-translate-y: 66.666667%;
+  }
+
+  .focus\:translate-y-1\/4:focus{
+    --tw-translate-y: 25%;
+  }
+
+  .focus\:translate-y-2\/4:focus{
+    --tw-translate-y: 50%;
+  }
+
+  .focus\:translate-y-3\/4:focus{
+    --tw-translate-y: 75%;
+  }
+
+  .focus\:translate-y-full:focus{
+    --tw-translate-y: 100%;
+  }
+
+  .focus\:-translate-y-1\/2:focus{
+    --tw-translate-y: -50%;
+  }
+
+  .focus\:-translate-y-1\/3:focus{
+    --tw-translate-y: -33.333333%;
+  }
+
+  .focus\:-translate-y-2\/3:focus{
+    --tw-translate-y: -66.666667%;
+  }
+
+  .focus\:-translate-y-1\/4:focus{
+    --tw-translate-y: -25%;
+  }
+
+  .focus\:-translate-y-2\/4:focus{
+    --tw-translate-y: -50%;
+  }
+
+  .focus\:-translate-y-3\/4:focus{
+    --tw-translate-y: -75%;
+  }
+
+  .focus\:-translate-y-full:focus{
+    --tw-translate-y: -100%;
+  }
+
+  .rotate-0{
+    --tw-rotate: 0deg;
+  }
+
+  .rotate-1{
+    --tw-rotate: 1deg;
+  }
+
+  .rotate-2{
+    --tw-rotate: 2deg;
+  }
+
+  .rotate-3{
+    --tw-rotate: 3deg;
+  }
+
+  .rotate-6{
+    --tw-rotate: 6deg;
+  }
+
+  .rotate-12{
+    --tw-rotate: 12deg;
+  }
+
+  .rotate-45{
+    --tw-rotate: 45deg;
+  }
+
+  .rotate-90{
+    --tw-rotate: 90deg;
+  }
+
+  .rotate-180{
+    --tw-rotate: 180deg;
+  }
+
+  .-rotate-180{
+    --tw-rotate: -180deg;
+  }
+
+  .-rotate-90{
+    --tw-rotate: -90deg;
+  }
+
+  .-rotate-45{
+    --tw-rotate: -45deg;
+  }
+
+  .-rotate-12{
+    --tw-rotate: -12deg;
+  }
+
+  .-rotate-6{
+    --tw-rotate: -6deg;
+  }
+
+  .-rotate-3{
+    --tw-rotate: -3deg;
+  }
+
+  .-rotate-2{
+    --tw-rotate: -2deg;
+  }
+
+  .-rotate-1{
+    --tw-rotate: -1deg;
+  }
+
+  .hover\:rotate-0:hover{
+    --tw-rotate: 0deg;
+  }
+
+  .hover\:rotate-1:hover{
+    --tw-rotate: 1deg;
+  }
+
+  .hover\:rotate-2:hover{
+    --tw-rotate: 2deg;
+  }
+
+  .hover\:rotate-3:hover{
+    --tw-rotate: 3deg;
+  }
+
+  .hover\:rotate-6:hover{
+    --tw-rotate: 6deg;
+  }
+
+  .hover\:rotate-12:hover{
+    --tw-rotate: 12deg;
+  }
+
+  .hover\:rotate-45:hover{
+    --tw-rotate: 45deg;
+  }
+
+  .hover\:rotate-90:hover{
+    --tw-rotate: 90deg;
+  }
+
+  .hover\:rotate-180:hover{
+    --tw-rotate: 180deg;
+  }
+
+  .hover\:-rotate-180:hover{
+    --tw-rotate: -180deg;
+  }
+
+  .hover\:-rotate-90:hover{
+    --tw-rotate: -90deg;
+  }
+
+  .hover\:-rotate-45:hover{
+    --tw-rotate: -45deg;
+  }
+
+  .hover\:-rotate-12:hover{
+    --tw-rotate: -12deg;
+  }
+
+  .hover\:-rotate-6:hover{
+    --tw-rotate: -6deg;
+  }
+
+  .hover\:-rotate-3:hover{
+    --tw-rotate: -3deg;
+  }
+
+  .hover\:-rotate-2:hover{
+    --tw-rotate: -2deg;
+  }
+
+  .hover\:-rotate-1:hover{
+    --tw-rotate: -1deg;
+  }
+
+  .focus\:rotate-0:focus{
+    --tw-rotate: 0deg;
+  }
+
+  .focus\:rotate-1:focus{
+    --tw-rotate: 1deg;
+  }
+
+  .focus\:rotate-2:focus{
+    --tw-rotate: 2deg;
+  }
+
+  .focus\:rotate-3:focus{
+    --tw-rotate: 3deg;
+  }
+
+  .focus\:rotate-6:focus{
+    --tw-rotate: 6deg;
+  }
+
+  .focus\:rotate-12:focus{
+    --tw-rotate: 12deg;
+  }
+
+  .focus\:rotate-45:focus{
+    --tw-rotate: 45deg;
+  }
+
+  .focus\:rotate-90:focus{
+    --tw-rotate: 90deg;
+  }
+
+  .focus\:rotate-180:focus{
+    --tw-rotate: 180deg;
+  }
+
+  .focus\:-rotate-180:focus{
+    --tw-rotate: -180deg;
+  }
+
+  .focus\:-rotate-90:focus{
+    --tw-rotate: -90deg;
+  }
+
+  .focus\:-rotate-45:focus{
+    --tw-rotate: -45deg;
+  }
+
+  .focus\:-rotate-12:focus{
+    --tw-rotate: -12deg;
+  }
+
+  .focus\:-rotate-6:focus{
+    --tw-rotate: -6deg;
+  }
+
+  .focus\:-rotate-3:focus{
+    --tw-rotate: -3deg;
+  }
+
+  .focus\:-rotate-2:focus{
+    --tw-rotate: -2deg;
+  }
+
+  .focus\:-rotate-1:focus{
+    --tw-rotate: -1deg;
+  }
+
+  .skew-x-0{
+    --tw-skew-x: 0deg;
+  }
+
+  .skew-x-1{
+    --tw-skew-x: 1deg;
+  }
+
+  .skew-x-2{
+    --tw-skew-x: 2deg;
+  }
+
+  .skew-x-3{
+    --tw-skew-x: 3deg;
+  }
+
+  .skew-x-6{
+    --tw-skew-x: 6deg;
+  }
+
+  .skew-x-12{
+    --tw-skew-x: 12deg;
+  }
+
+  .-skew-x-12{
+    --tw-skew-x: -12deg;
+  }
+
+  .-skew-x-6{
+    --tw-skew-x: -6deg;
+  }
+
+  .-skew-x-3{
+    --tw-skew-x: -3deg;
+  }
+
+  .-skew-x-2{
+    --tw-skew-x: -2deg;
+  }
+
+  .-skew-x-1{
+    --tw-skew-x: -1deg;
+  }
+
+  .skew-y-0{
+    --tw-skew-y: 0deg;
+  }
+
+  .skew-y-1{
+    --tw-skew-y: 1deg;
+  }
+
+  .skew-y-2{
+    --tw-skew-y: 2deg;
+  }
+
+  .skew-y-3{
+    --tw-skew-y: 3deg;
+  }
+
+  .skew-y-6{
+    --tw-skew-y: 6deg;
+  }
+
+  .skew-y-12{
+    --tw-skew-y: 12deg;
+  }
+
+  .-skew-y-12{
+    --tw-skew-y: -12deg;
+  }
+
+  .-skew-y-6{
+    --tw-skew-y: -6deg;
+  }
+
+  .-skew-y-3{
+    --tw-skew-y: -3deg;
+  }
+
+  .-skew-y-2{
+    --tw-skew-y: -2deg;
+  }
+
+  .-skew-y-1{
+    --tw-skew-y: -1deg;
+  }
+
+  .hover\:skew-x-0:hover{
+    --tw-skew-x: 0deg;
+  }
+
+  .hover\:skew-x-1:hover{
+    --tw-skew-x: 1deg;
+  }
+
+  .hover\:skew-x-2:hover{
+    --tw-skew-x: 2deg;
+  }
+
+  .hover\:skew-x-3:hover{
+    --tw-skew-x: 3deg;
+  }
+
+  .hover\:skew-x-6:hover{
+    --tw-skew-x: 6deg;
+  }
+
+  .hover\:skew-x-12:hover{
+    --tw-skew-x: 12deg;
+  }
+
+  .hover\:-skew-x-12:hover{
+    --tw-skew-x: -12deg;
+  }
+
+  .hover\:-skew-x-6:hover{
+    --tw-skew-x: -6deg;
+  }
+
+  .hover\:-skew-x-3:hover{
+    --tw-skew-x: -3deg;
+  }
+
+  .hover\:-skew-x-2:hover{
+    --tw-skew-x: -2deg;
+  }
+
+  .hover\:-skew-x-1:hover{
+    --tw-skew-x: -1deg;
+  }
+
+  .hover\:skew-y-0:hover{
+    --tw-skew-y: 0deg;
+  }
+
+  .hover\:skew-y-1:hover{
+    --tw-skew-y: 1deg;
+  }
+
+  .hover\:skew-y-2:hover{
+    --tw-skew-y: 2deg;
+  }
+
+  .hover\:skew-y-3:hover{
+    --tw-skew-y: 3deg;
+  }
+
+  .hover\:skew-y-6:hover{
+    --tw-skew-y: 6deg;
+  }
+
+  .hover\:skew-y-12:hover{
+    --tw-skew-y: 12deg;
+  }
+
+  .hover\:-skew-y-12:hover{
+    --tw-skew-y: -12deg;
+  }
+
+  .hover\:-skew-y-6:hover{
+    --tw-skew-y: -6deg;
+  }
+
+  .hover\:-skew-y-3:hover{
+    --tw-skew-y: -3deg;
+  }
+
+  .hover\:-skew-y-2:hover{
+    --tw-skew-y: -2deg;
+  }
+
+  .hover\:-skew-y-1:hover{
+    --tw-skew-y: -1deg;
+  }
+
+  .focus\:skew-x-0:focus{
+    --tw-skew-x: 0deg;
+  }
+
+  .focus\:skew-x-1:focus{
+    --tw-skew-x: 1deg;
+  }
+
+  .focus\:skew-x-2:focus{
+    --tw-skew-x: 2deg;
+  }
+
+  .focus\:skew-x-3:focus{
+    --tw-skew-x: 3deg;
+  }
+
+  .focus\:skew-x-6:focus{
+    --tw-skew-x: 6deg;
+  }
+
+  .focus\:skew-x-12:focus{
+    --tw-skew-x: 12deg;
+  }
+
+  .focus\:-skew-x-12:focus{
+    --tw-skew-x: -12deg;
+  }
+
+  .focus\:-skew-x-6:focus{
+    --tw-skew-x: -6deg;
+  }
+
+  .focus\:-skew-x-3:focus{
+    --tw-skew-x: -3deg;
+  }
+
+  .focus\:-skew-x-2:focus{
+    --tw-skew-x: -2deg;
+  }
+
+  .focus\:-skew-x-1:focus{
+    --tw-skew-x: -1deg;
+  }
+
+  .focus\:skew-y-0:focus{
+    --tw-skew-y: 0deg;
+  }
+
+  .focus\:skew-y-1:focus{
+    --tw-skew-y: 1deg;
+  }
+
+  .focus\:skew-y-2:focus{
+    --tw-skew-y: 2deg;
+  }
+
+  .focus\:skew-y-3:focus{
+    --tw-skew-y: 3deg;
+  }
+
+  .focus\:skew-y-6:focus{
+    --tw-skew-y: 6deg;
+  }
+
+  .focus\:skew-y-12:focus{
+    --tw-skew-y: 12deg;
+  }
+
+  .focus\:-skew-y-12:focus{
+    --tw-skew-y: -12deg;
+  }
+
+  .focus\:-skew-y-6:focus{
+    --tw-skew-y: -6deg;
+  }
+
+  .focus\:-skew-y-3:focus{
+    --tw-skew-y: -3deg;
+  }
+
+  .focus\:-skew-y-2:focus{
+    --tw-skew-y: -2deg;
+  }
+
+  .focus\:-skew-y-1:focus{
+    --tw-skew-y: -1deg;
+  }
+
+  .scale-0{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .scale-50{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .scale-75{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .scale-90{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .scale-95{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .scale-100{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .scale-105{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .scale-110{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .scale-125{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .scale-150{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
+  .hover\:scale-0:hover{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .hover\:scale-50:hover{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .hover\:scale-75:hover{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .hover\:scale-90:hover{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .hover\:scale-95:hover{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .hover\:scale-100:hover{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .hover\:scale-105:hover{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .hover\:scale-110:hover{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .hover\:scale-125:hover{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .hover\:scale-150:hover{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
+  .focus\:scale-0:focus{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .focus\:scale-50:focus{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .focus\:scale-75:focus{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .focus\:scale-90:focus{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .focus\:scale-95:focus{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .focus\:scale-100:focus{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .focus\:scale-105:focus{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .focus\:scale-110:focus{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .focus\:scale-125:focus{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .focus\:scale-150:focus{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
+  .scale-x-0{
+    --tw-scale-x: 0;
+  }
+
+  .scale-x-50{
+    --tw-scale-x: .5;
+  }
+
+  .scale-x-75{
+    --tw-scale-x: .75;
+  }
+
+  .scale-x-90{
+    --tw-scale-x: .9;
+  }
+
+  .scale-x-95{
+    --tw-scale-x: .95;
+  }
+
+  .scale-x-100{
+    --tw-scale-x: 1;
+  }
+
+  .scale-x-105{
+    --tw-scale-x: 1.05;
+  }
+
+  .scale-x-110{
+    --tw-scale-x: 1.1;
+  }
+
+  .scale-x-125{
+    --tw-scale-x: 1.25;
+  }
+
+  .scale-x-150{
+    --tw-scale-x: 1.5;
+  }
+
+  .scale-y-0{
+    --tw-scale-y: 0;
+  }
+
+  .scale-y-50{
+    --tw-scale-y: .5;
+  }
+
+  .scale-y-75{
+    --tw-scale-y: .75;
+  }
+
+  .scale-y-90{
+    --tw-scale-y: .9;
+  }
+
+  .scale-y-95{
+    --tw-scale-y: .95;
+  }
+
+  .scale-y-100{
+    --tw-scale-y: 1;
+  }
+
+  .scale-y-105{
+    --tw-scale-y: 1.05;
+  }
+
+  .scale-y-110{
+    --tw-scale-y: 1.1;
+  }
+
+  .scale-y-125{
+    --tw-scale-y: 1.25;
+  }
+
+  .scale-y-150{
+    --tw-scale-y: 1.5;
+  }
+
+  .hover\:scale-x-0:hover{
+    --tw-scale-x: 0;
+  }
+
+  .hover\:scale-x-50:hover{
+    --tw-scale-x: .5;
+  }
+
+  .hover\:scale-x-75:hover{
+    --tw-scale-x: .75;
+  }
+
+  .hover\:scale-x-90:hover{
+    --tw-scale-x: .9;
+  }
+
+  .hover\:scale-x-95:hover{
+    --tw-scale-x: .95;
+  }
+
+  .hover\:scale-x-100:hover{
+    --tw-scale-x: 1;
+  }
+
+  .hover\:scale-x-105:hover{
+    --tw-scale-x: 1.05;
+  }
+
+  .hover\:scale-x-110:hover{
+    --tw-scale-x: 1.1;
+  }
+
+  .hover\:scale-x-125:hover{
+    --tw-scale-x: 1.25;
+  }
+
+  .hover\:scale-x-150:hover{
+    --tw-scale-x: 1.5;
+  }
+
+  .hover\:scale-y-0:hover{
+    --tw-scale-y: 0;
+  }
+
+  .hover\:scale-y-50:hover{
+    --tw-scale-y: .5;
+  }
+
+  .hover\:scale-y-75:hover{
+    --tw-scale-y: .75;
+  }
+
+  .hover\:scale-y-90:hover{
+    --tw-scale-y: .9;
+  }
+
+  .hover\:scale-y-95:hover{
+    --tw-scale-y: .95;
+  }
+
+  .hover\:scale-y-100:hover{
+    --tw-scale-y: 1;
+  }
+
+  .hover\:scale-y-105:hover{
+    --tw-scale-y: 1.05;
+  }
+
+  .hover\:scale-y-110:hover{
+    --tw-scale-y: 1.1;
+  }
+
+  .hover\:scale-y-125:hover{
+    --tw-scale-y: 1.25;
+  }
+
+  .hover\:scale-y-150:hover{
+    --tw-scale-y: 1.5;
+  }
+
+  .focus\:scale-x-0:focus{
+    --tw-scale-x: 0;
+  }
+
+  .focus\:scale-x-50:focus{
+    --tw-scale-x: .5;
+  }
+
+  .focus\:scale-x-75:focus{
+    --tw-scale-x: .75;
+  }
+
+  .focus\:scale-x-90:focus{
+    --tw-scale-x: .9;
+  }
+
+  .focus\:scale-x-95:focus{
+    --tw-scale-x: .95;
+  }
+
+  .focus\:scale-x-100:focus{
+    --tw-scale-x: 1;
+  }
+
+  .focus\:scale-x-105:focus{
+    --tw-scale-x: 1.05;
+  }
+
+  .focus\:scale-x-110:focus{
+    --tw-scale-x: 1.1;
+  }
+
+  .focus\:scale-x-125:focus{
+    --tw-scale-x: 1.25;
+  }
+
+  .focus\:scale-x-150:focus{
+    --tw-scale-x: 1.5;
+  }
+
+  .focus\:scale-y-0:focus{
+    --tw-scale-y: 0;
+  }
+
+  .focus\:scale-y-50:focus{
+    --tw-scale-y: .5;
+  }
+
+  .focus\:scale-y-75:focus{
+    --tw-scale-y: .75;
+  }
+
+  .focus\:scale-y-90:focus{
+    --tw-scale-y: .9;
+  }
+
+  .focus\:scale-y-95:focus{
+    --tw-scale-y: .95;
+  }
+
+  .focus\:scale-y-100:focus{
+    --tw-scale-y: 1;
+  }
+
+  .focus\:scale-y-105:focus{
+    --tw-scale-y: 1.05;
+  }
+
+  .focus\:scale-y-110:focus{
+    --tw-scale-y: 1.1;
+  }
+
+  .focus\:scale-y-125:focus{
+    --tw-scale-y: 1.25;
+  }
+
+  .focus\:scale-y-150:focus{
+    --tw-scale-y: 1.5;
+  }
+
+  @-webkit-keyframes spin{
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin{
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes ping{
+    75%, 100%{
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @keyframes ping{
+    75%, 100%{
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes pulse{
+    50%{
+      opacity: .5;
+    }
+  }
+
+  @keyframes pulse{
+    50%{
+      opacity: .5;
+    }
+  }
+
+  @-webkit-keyframes bounce{
+    0%, 100%{
+      transform: translateY(-25%);
+      -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+              animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50%{
+      transform: none;
+      -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+              animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  @keyframes bounce{
+    0%, 100%{
+      transform: translateY(-25%);
+      -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+              animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50%{
+      transform: none;
+      -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+              animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  .animate-none{
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .animate-spin{
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .animate-ping{
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .animate-pulse{
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-bounce{
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
