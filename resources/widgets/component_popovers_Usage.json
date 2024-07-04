@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Usage ",
+        "description": "Enable popovers via JavaScript:",
+        "code": "const exampleEl = document.getElementById('example')\nconst popover = new bootstrap.Popover(exampleEl, options)",
+        "updated_at": "2024-07-02 11:32:19"
+    }
+}

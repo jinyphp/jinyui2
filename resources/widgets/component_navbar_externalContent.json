@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "External content ",
+        "description": "Sometimes you want to use the collapse plugin to trigger a container element for content that structurally sits outside of the .navbar . Because our plugin works on the id and data-bs-target matching, that’s easily done!\n\n",
+        "code": "<div class=\"collapse\" id=\"navbarToggleExternalContent\" data-bs-theme=\"dark\">\n  <div class=\"bg-dark p-4\">\n    <h5 class=\"text-body-emphasis h4\">Collapsed content<\/h5>\n    <span class=\"text-body-secondary\">Toggleable via the navbar brand.<\/span>\n  <\/div>\n<\/div>\n<nav class=\"navbar navbar-dark bg-dark\">\n  <div class=\"container-fluid\">\n    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarToggleExternalContent\" aria-controls=\"navbarToggleExternalContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"><\/span>\n    <\/button>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:37:51"
+    }
+}

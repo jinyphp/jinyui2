@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dismiss ",
+        "description": "Dismissal can be achieved with the data-bs-dismiss attribute on a button within the offcanvas as demonstrated below:",
+        "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-02 11:45:55"
+    }
+}

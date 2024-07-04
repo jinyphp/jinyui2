@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "For both spinners, small spinner modifier classes are used to update the values of these CSS variables as needed. For example, the .spinner-border-sm class does the following:",
+        "code": "--#{$prefix}spinner-width: #{$spinner-width-sm};\n--#{$prefix}spinner-height: #{$spinner-height-sm};\n--#{$prefix}spinner-border-width: #{$spinner-border-width-sm};",
+        "updated_at": "2024-07-02 11:18:08"
+    }
+}

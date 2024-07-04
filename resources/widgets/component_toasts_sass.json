@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables",
+        "code": "$toast-max-width:                   350px;\n$toast-padding-x:                   .75rem;\n$toast-padding-y:                   .5rem;\n$toast-font-size:                   .875rem;\n$toast-color:                       null;\n$toast-background-color:            rgba(var(--#{$prefix}body-bg-rgb), .85);\n$toast-border-width:                var(--#{$prefix}border-width);\n$toast-border-color:                var(--#{$prefix}border-color-translucent);\n$toast-border-radius:               var(--#{$prefix}border-radius);\n$toast-box-shadow:                  var(--#{$prefix}box-shadow);\n$toast-spacing:                     $container-padding-x;\n\n$toast-header-color:                var(--#{$prefix}secondary-color);\n$toast-header-background-color:     rgba(var(--#{$prefix}body-bg-rgb), .85);\n$toast-header-border-color:         $toast-border-color;",
+        "updated_at": "2024-07-02 09:57:35"
+    }
+}

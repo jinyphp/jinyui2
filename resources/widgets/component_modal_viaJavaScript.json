@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via JavaScript ",
+        "description": "Create a modal with a single line of JavaScript:\n\n\n",
+        "code": "const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)\n\/\/ or\nconst myModalAlternative = new bootstrap.Modal('#myModal', options)",
+        "updated_at": "2024-07-03 10:58:46"
+    }
+}

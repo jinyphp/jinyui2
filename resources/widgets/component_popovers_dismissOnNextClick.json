@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dismiss on next click ",
+        "description": "Use the focus trigger to dismiss popovers on the user’s next click of an element other than the toggle element.",
+        "code": "<a tabindex=\"0\" class=\"btn btn-lg btn-danger\" role=\"button\" data-bs-toggle=\"popover\" data-bs-trigger=\"focus\" data-bs-title=\"Dismissible popover\" data-bs-content=\"And here's some amazing content. It's very engaging. Right?\">Dismissible popover<\/a>",
+        "updated_at": "2024-07-02 11:31:11"
+    }
+}

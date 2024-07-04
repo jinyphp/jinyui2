@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Image ",
+        "description": "You can replace the text within the .navbar-brand with an <img>.",
+        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container\">\n    <a class=\"navbar-brand\" href=\"#\">\n      <img src=\"\/docs\/5.3\/assets\/brand\/bootstrap-logo.svg\" alt=\"Bootstrap\" width=\"30\" height=\"24\">\n    <\/a>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:32:47"
+    }
+}

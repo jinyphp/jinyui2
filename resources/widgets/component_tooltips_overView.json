@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Overview ",
+        "description": "Things to know when using the tooltip plugin:\n\nTooltips rely on the third party library Popper for positioning. You must include popper.min.js before bootstrap.js, or use one bootstrap.bundle.min.js which contains Popper.\nTooltips are opt-in for performance reasons, so you must initialize them yourself.\nTooltips with zero-length titles are never displayed.\nSpecify container: 'body' to avoid rendering problems in more complex components (like our input groups, button groups, etc).\nTriggering tooltips on hidden elements will not work.\nTooltips for .disabled or disabled elements must be triggered on a wrapper element.\nWhen triggered from hyperlinks that span multiple lines, tooltips will be centered. Use white-space: nowrap; on your <a>s to avoid this behavior.\nTooltips must be hidden before their corresponding elements have been removed from the DOM.\nTooltips can be triggered thanks to an element inside a shadow DOM.\nGot all that? Great, let’s see how they work with some examples.",
+        "updated_at": "2024-07-03 11:46:04"
+    }
+}

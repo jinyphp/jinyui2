@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "To create an offcanvas navbar that expands into a normal navbar at a specific breakpoint like lg, use .navbar-expand-lg.",
+        "code": "<nav class=\"navbar navbar-expand-lg bg-body-tertiary fixed-top\">\n  <a class=\"navbar-brand\" href=\"#\">Offcanvas navbar<\/a>\n  <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#navbarOffcanvasLg\" aria-controls=\"navbarOffcanvasLg\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"><\/span>\n  <\/button>\n  <div class=\"offcanvas offcanvas-end\" tabindex=\"-1\" id=\"navbarOffcanvasLg\" aria-labelledby=\"navbarOffcanvasLgLabel\">\n    ...\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:38:29"
+    }
+}

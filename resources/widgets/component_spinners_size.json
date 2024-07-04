@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Size ",
+        "description": "Add .spinner-border-sm and .spinner-grow-sm to make a smaller spinner that can quickly be used within other components.",
+        "code": "<div class=\"spinner-border spinner-border-sm\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow spinner-grow-sm\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
+        "updated_at": "2024-07-02 11:16:51"
+    }
+}

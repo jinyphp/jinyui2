@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Placement ",
+        "description": "Use our position utilities to place navbars in non-static positions. Choose from fixed to the top, fixed to the bottom, stickied to the top (scrolls with the page until it reaches the top, then stays there), or stickied to the bottom (scrolls with the page until it reaches the bottom, then stays there).\n\nFixed navbars use position: fixed, meaning they’re pulled from the normal flow of the DOM and may require custom CSS (e.g., padding-top on the <body>) to prevent overlap with other elements.",
+        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\" href=\"#\">Default<\/a>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:35:54"
+    }
+}

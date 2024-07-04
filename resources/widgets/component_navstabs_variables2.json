@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "On the .nav-tabs modifier class:",
+        "code": "--#{$prefix}nav-tabs-border-width: #{$nav-tabs-border-width};\n--#{$prefix}nav-tabs-border-color: #{$nav-tabs-border-color};\n--#{$prefix}nav-tabs-border-radius: #{$nav-tabs-border-radius};\n--#{$prefix}nav-tabs-link-hover-border-color: #{$nav-tabs-link-hover-border-color};\n--#{$prefix}nav-tabs-link-active-color: #{$nav-tabs-link-active-color};\n--#{$prefix}nav-tabs-link-active-bg: #{$nav-tabs-link-active-bg};\n--#{$prefix}nav-tabs-link-active-border-color: #{$nav-tabs-link-active-border-color};",
+        "updated_at": "2024-07-03 10:26:50"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables ",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, pagination now uses local CSS variables on .pagination for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.\n\n",
+        "code": "--#{$prefix}pagination-padding-x: #{$pagination-padding-x};\n--#{$prefix}pagination-padding-y: #{$pagination-padding-y};\n@include rfs($pagination-font-size, --#{$prefix}pagination-font-size);\n--#{$prefix}pagination-color: #{$pagination-color};\n--#{$prefix}pagination-bg: #{$pagination-bg};\n--#{$prefix}pagination-border-width: #{$pagination-border-width};\n--#{$prefix}pagination-border-color: #{$pagination-border-color};\n--#{$prefix}pagination-border-radius: #{$pagination-border-radius};\n--#{$prefix}pagination-hover-color: #{$pagination-hover-color};\n--#{$prefix}pagination-hover-bg: #{$pagination-hover-bg};\n--#{$prefix}pagination-hover-border-color: #{$pagination-hover-border-color};\n--#{$prefix}pagination-focus-color: #{$pagination-focus-color};\n--#{$prefix}pagination-focus-bg: #{$pagination-focus-bg};\n--#{$prefix}pagination-focus-box-shadow: #{$pagination-focus-box-shadow};\n--#{$prefix}pagination-active-color: #{$pagination-active-color};\n--#{$prefix}pagination-active-bg: #{$pagination-active-bg};\n--#{$prefix}pagination-active-border-color: #{$pagination-active-border-color};\n--#{$prefix}pagination-disabled-color: #{$pagination-disabled-color};\n--#{$prefix}pagination-disabled-bg: #{$pagination-disabled-bg};\n--#{$prefix}pagination-disabled-border-color: #{$pagination-disabled-border-color};",
+        "updated_at": "2024-07-02 11:40:45"
+    }
+}

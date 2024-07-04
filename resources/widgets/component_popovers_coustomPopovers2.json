@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<button type=\"button\" class=\"btn btn-secondary\"\n        data-bs-toggle=\"popover\" data-bs-placement=\"right\"\n        data-bs-custom-class=\"custom-popover\"\n        data-bs-title=\"Custom popover\"\n        data-bs-content=\"This popover is themed via CSS variables.\">\n  Custom popover\n<\/button>",
+        "updated_at": "2024-07-02 11:33:01"
+    }
+}

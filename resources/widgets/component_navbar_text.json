@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Text ",
+        "description": "Navbars may contain bits of text with the help of .navbar-text. This class adjusts vertical alignment and horizontal spacing for strings of text.",
+        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <span class=\"navbar-text\">\n      Navbar text with an inline element\n    <\/span>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:34:45"
+    }
+}

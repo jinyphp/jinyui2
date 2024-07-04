@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables ",
+        "code": "$offcanvas-padding-y:               $modal-inner-padding;\n$offcanvas-padding-x:               $modal-inner-padding;\n$offcanvas-horizontal-width:        400px;\n$offcanvas-vertical-height:         30vh;\n$offcanvas-transition-duration:     .3s;\n$offcanvas-border-color:            $modal-content-border-color;\n$offcanvas-border-width:            $modal-content-border-width;\n$offcanvas-title-line-height:       $modal-title-line-height;\n$offcanvas-bg-color:                var(--#{$prefix}body-bg);\n$offcanvas-color:                   var(--#{$prefix}body-color);\n$offcanvas-box-shadow:              $modal-content-box-shadow-xs;\n$offcanvas-backdrop-bg:             $modal-backdrop-bg;\n$offcanvas-backdrop-opacity:        $modal-backdrop-opacity;",
+        "updated_at": "2024-07-02 11:45:38"
+    }
+}

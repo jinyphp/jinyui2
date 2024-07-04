@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasBottom\" aria-controls=\"offcanvasBottom\">Toggle bottom offcanvas<\/button>\n\n<div class=\"offcanvas offcanvas-bottom\" tabindex=\"-1\" id=\"offcanvasBottom\" aria-labelledby=\"offcanvasBottomLabel\">\n  <div class=\"offcanvas-header\">\n    <h5 class=\"offcanvas-title\" id=\"offcanvasBottomLabel\">Offcanvas bottom<\/h5>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"><\/button>\n  <\/div>\n  <div class=\"offcanvas-body small\">\n    ...\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:45:11"
+    }
+}

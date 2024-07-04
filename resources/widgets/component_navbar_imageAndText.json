@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Image and text ",
+        "description": "You can also make use of some additional utilities to add an image and text at the same time. Note the addition of .d-inline-block and .align-text-top on the <img>.",
+        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\" href=\"#\">\n      <img src=\"\/docs\/5.3\/assets\/brand\/bootstrap-logo.svg\" alt=\"Logo\" width=\"30\" height=\"24\" class=\"d-inline-block align-text-top\">\n      Bootstrap\n    <\/a>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-07-03 10:33:01"
+    }
+}

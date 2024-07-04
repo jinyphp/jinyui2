@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Variables for the dark navbar:",
+        "code": "$navbar-dark-color:                 rgba($white, .55);\n$navbar-dark-hover-color:           rgba($white, .75);\n$navbar-dark-active-color:          $white;\n$navbar-dark-disabled-color:        rgba($white, .25);\n$navbar-dark-icon-color:            $navbar-dark-color;\n$navbar-dark-toggler-icon-bg:       url(\"data:image\/svg+xml,<svg xmlns='http:\/\/www.w3.org\/2000\/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'\/><\/svg>\");\n$navbar-dark-toggler-border-color:  rgba($white, .1);\n$navbar-dark-brand-color:           $navbar-dark-active-color;\n$navbar-dark-brand-hover-color:     $navbar-dark-active-color;",
+        "updated_at": "2024-07-03 10:39:54"
+    }
+}

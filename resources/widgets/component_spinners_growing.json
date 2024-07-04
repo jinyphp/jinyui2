@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Growing spinner ",
+        "description": "If you don’t fancy a border spinner, switch to the grow spinner. While it doesn’t technically spin, it does repeatedly grow!",
+        "code": "<div class=\"spinner-grow\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
+        "updated_at": "2024-07-02 11:15:12"
+    }
+}

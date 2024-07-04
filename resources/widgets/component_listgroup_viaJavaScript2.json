@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "You can activate individual list item in several ways:",
+        "code": "const triggerEl = document.querySelector('#myTab a[href=\"#profile\"]')\nbootstrap.Tab.getInstance(triggerEl).show() \/\/ Select tab by name\n\nconst triggerFirstTabEl = document.querySelector('#myTab li:first-child a')\nbootstrap.Tab.getInstance(triggerFirstTabEl).show() \/\/ Select first tab",
+        "updated_at": "2024-07-03 11:06:46"
+    }
+}

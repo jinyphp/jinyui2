@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "You can also get fancy with flexbox utilities to align toasts horizontally and\/or vertically.",
+        "code": "<!-- Flexbox container for aligning the toasts -->\n<div aria-live=\"polite\" aria-atomic=\"true\" class=\"d-flex justify-content-center align-items-center w-100\">\n\n  <!-- Then put toasts within -->\n  <div class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">\n    <div class=\"toast-header\">\n      <img src=\"...\" class=\"rounded me-2\" alt=\"...\">\n      <strong class=\"me-auto\">Bootstrap<\/strong>\n      <small>11 mins ago<\/small>\n      <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"><\/button>\n    <\/div>\n    <div class=\"toast-body\">\n      Hello, world! This is a toast message.\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 09:56:29"
+    }
+}

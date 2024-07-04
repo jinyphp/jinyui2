@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Simple anchors ",
+        "description": "Scrollspy is not limited to nav components and list groups, so it will work on any <a> anchor elements in the current document. Scroll the area and watch the .active class change.",
+        "code": "<div class=\"row\">\n  <div class=\"col-4\">\n    <div id=\"simple-list-example\" class=\"d-flex flex-column gap-2 simple-list-example-scrollspy text-center\">\n      <a class=\"p-1 rounded\" href=\"#simple-list-item-1\">Item 1<\/a>\n      <a class=\"p-1 rounded\" href=\"#simple-list-item-2\">Item 2<\/a>\n      <a class=\"p-1 rounded\" href=\"#simple-list-item-3\">Item 3<\/a>\n      <a class=\"p-1 rounded\" href=\"#simple-list-item-4\">Item 4<\/a>\n      <a class=\"p-1 rounded\" href=\"#simple-list-item-5\">Item 5<\/a>\n    <\/div>\n  <\/div>\n  <div class=\"col-8\">\n    <div data-bs-spy=\"scroll\" data-bs-target=\"#simple-list-example\" data-bs-offset=\"0\" data-bs-smooth-scroll=\"true\" class=\"scrollspy-example\" tabindex=\"0\">\n      <h4 id=\"simple-list-item-1\">Item 1<\/h4>\n      <p>...<\/p>\n      <h4 id=\"simple-list-item-2\">Item 2<\/h4>\n      <p>...<\/p>\n      <h4 id=\"simple-list-item-3\">Item 3<\/h4>\n      <p>...<\/p>\n      <h4 id=\"simple-list-item-4\">Item 4<\/h4>\n      <p>...<\/p>\n      <h4 id=\"simple-list-item-5\">Item 5<\/h4>\n      <p>...<\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:20:51"
+    }
+}

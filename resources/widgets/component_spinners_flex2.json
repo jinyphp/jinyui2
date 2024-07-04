@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<div class=\"d-flex align-items-center\">\n  <strong role=\"status\">Loading...<\/strong>\n  <div class=\"spinner-border ms-auto\" aria-hidden=\"true\"><\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:16:06"
+    }
+}

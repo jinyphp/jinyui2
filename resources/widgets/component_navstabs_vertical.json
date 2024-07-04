@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Vertical ",
+        "description": "Stack your navigation by changing the flex item direction with the .flex-column utility. Need to stack them on some viewports but not others? Use the responsive versions (e.g., .flex-sm-column).",
+        "code": "<ul class=\"nav flex-column\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 10:23:03"
+    }
+}

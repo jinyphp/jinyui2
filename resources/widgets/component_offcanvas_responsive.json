@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Responsive ",
+        "description": "Responsive offcanvas classes hide content outside the viewport from a specified breakpoint and down. Above that breakpoint, the contents within will behave as usual. For example, .offcanvas-lg hides content in an offcanvas below the lg breakpoint, but shows the content above the lg breakpoint.",
+        "code": "<button class=\"btn btn-primary d-lg-none\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasResponsive\" aria-controls=\"offcanvasResponsive\">Toggle offcanvas<\/button>\n\n<div class=\"alert alert-info d-none d-lg-block\">Resize your browser to show the responsive offcanvas toggle.<\/div>\n\n<div class=\"offcanvas-lg offcanvas-end\" tabindex=\"-1\" id=\"offcanvasResponsive\" aria-labelledby=\"offcanvasResponsiveLabel\">\n  <div class=\"offcanvas-header\">\n    <h5 class=\"offcanvas-title\" id=\"offcanvasResponsiveLabel\">Responsive offcanvas<\/h5>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" data-bs-target=\"#offcanvasResponsive\" aria-label=\"Close\"><\/button>\n  <\/div>\n  <div class=\"offcanvas-body\">\n    <p class=\"mb-0\">This is content within an <code>.offcanvas-lg<\/code>.<\/p>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:44:34"
+    }
+}

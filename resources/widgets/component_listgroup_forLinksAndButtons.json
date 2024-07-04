@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "For links and buttons ",
+        "description": "Contextual classes also work with .list-group-item-action for <a> and <button> elements. Note the addition of the hover styles here not present in the previous example. Also supported is the .active state; apply it to indicate an active selection on a contextual list group item.",
+        "code": "<div class=\"list-group\">\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A simple default list group item<\/a>\n\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-primary\">A simple primary list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-secondary\">A simple secondary list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-success\">A simple success list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-danger\">A simple danger list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-warning\">A simple warning list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-info\">A simple info list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-light\">A simple light list group item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action list-group-item-dark\">A simple dark list group item<\/a>\n<\/div>",
+        "updated_at": "2024-07-03 11:03:24"
+    }
+}
