@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Fade effect ",
+        "description": "To make tabs panel fade in, add .fade to each .tab-pane. The first tab pane must also have .show to make the initial content visible.",
+        "code": "<div class=\"tab-content\">\n  <div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"messages\" role=\"tabpanel\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"settings\" role=\"tabpanel\">...<\/div>\n<\/div>",
+        "updated_at": "2024-07-03 11:06:58"
+    }
+}

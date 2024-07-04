@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables ",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, tooltips now use local CSS variables on .tooltip for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}tooltip-zindex: #{$zindex-tooltip};\n--#{$prefix}tooltip-max-width: #{$tooltip-max-width};\n--#{$prefix}tooltip-padding-x: #{$tooltip-padding-x};\n--#{$prefix}tooltip-padding-y: #{$tooltip-padding-y};\n--#{$prefix}tooltip-margin: #{$tooltip-margin};\n@include rfs($tooltip-font-size, --#{$prefix}tooltip-font-size);\n--#{$prefix}tooltip-color: #{$tooltip-color};\n--#{$prefix}tooltip-bg: #{$tooltip-bg};\n--#{$prefix}tooltip-border-radius: #{$tooltip-border-radius};\n--#{$prefix}tooltip-opacity: #{$tooltip-opacity};\n--#{$prefix}tooltip-arrow-width: #{$tooltip-arrow-width};\n--#{$prefix}tooltip-arrow-height: #{$tooltip-arrow-height};",
+        "updated_at": "2024-07-01 12:18:01"
+    }
+}

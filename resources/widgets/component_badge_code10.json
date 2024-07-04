@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables",
+        "code": "$badge-font-size:                   .75em;\n$badge-font-weight:                 $font-weight-bold;\n$badge-color:                       $white;\n$badge-padding-y:                   .35em;\n$badge-padding-x:                   .65em;\n$badge-border-radius:               var(--#{$prefix}border-radius);",
+        "updated_at": "2024-07-04 00:58:16"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Active ",
+        "description": "Add .active to items in the dropdown to style them as active. To convey the active state to assistive technologies, use the aria-current attribute — using the page value for the current page, or true for the current item in a set.",
+        "code": "<ul class=\"dropdown-menu\">\n  <li><a class=\"dropdown-item\" href=\"#\">Regular link<\/a><\/li>\n  <li><a class=\"dropdown-item active\" href=\"#\" aria-current=\"true\">Active link<\/a><\/li>\n  <li><a class=\"dropdown-item\" href=\"#\">Another link<\/a><\/li>\n<\/ul>",
+        "updated_at": "2024-07-04 03:50:27"
+    }
+}

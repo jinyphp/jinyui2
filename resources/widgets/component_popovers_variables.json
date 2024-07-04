@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, popovers now use local CSS variables on .popover for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}popover-zindex: #{$zindex-popover};\n--#{$prefix}popover-max-width: #{$popover-max-width};\n@include rfs($popover-font-size, --#{$prefix}popover-font-size);\n--#{$prefix}popover-bg: #{$popover-bg};\n--#{$prefix}popover-border-width: #{$popover-border-width};\n--#{$prefix}popover-border-color: #{$popover-border-color};\n--#{$prefix}popover-border-radius: #{$popover-border-radius};\n--#{$prefix}popover-inner-border-radius: #{$popover-inner-border-radius};\n--#{$prefix}popover-box-shadow: #{$popover-box-shadow};\n--#{$prefix}popover-header-padding-x: #{$popover-header-padding-x};\n--#{$prefix}popover-header-padding-y: #{$popover-header-padding-y};\n@include rfs($popover-header-font-size, --#{$prefix}popover-header-font-size);\n--#{$prefix}popover-header-color: #{$popover-header-color};\n--#{$prefix}popover-header-bg: #{$popover-header-bg};\n--#{$prefix}popover-body-padding-x: #{$popover-body-padding-x};\n--#{$prefix}popover-body-padding-y: #{$popover-body-padding-y};\n--#{$prefix}popover-body-color: #{$popover-body-color};\n--#{$prefix}popover-arrow-width: #{$popover-arrow-width};\n--#{$prefix}popover-arrow-height: #{$popover-arrow-height};\n--#{$prefix}popover-arrow-border: var(--#{$prefix}popover-border-color);",
+        "updated_at": "2024-07-02 11:31:54"
+    }
+}

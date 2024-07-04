@@ -1,0 +1,7 @@
+{
+    "items": {
+        "code": "$breadcrumb-font-size:              null;\n$breadcrumb-padding-y:              0;\n$breadcrumb-padding-x:              0;\n$breadcrumb-item-padding-x:         .5rem;\n$breadcrumb-margin-bottom:          1rem;\n$breadcrumb-bg:                     null;\n$breadcrumb-divider-color:          var(--#{$prefix}secondary-color);\n$breadcrumb-active-color:           var(--#{$prefix}secondary-color);\n$breadcrumb-divider:                quote(\"\/\");\n$breadcrumb-divider-flipped:        $breadcrumb-divider;\n$breadcrumb-border-radius:          null;",
+        "title": "Sass variables",
+        "updated_at": "2024-07-04 01:10:22"
+    }
+}

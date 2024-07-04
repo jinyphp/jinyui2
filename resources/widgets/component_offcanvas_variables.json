@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables ",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, offcanvas now uses local CSS variables on .offcanvas for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}offcanvas-zindex: #{$zindex-offcanvas};\n--#{$prefix}offcanvas-width: #{$offcanvas-horizontal-width};\n--#{$prefix}offcanvas-height: #{$offcanvas-vertical-height};\n--#{$prefix}offcanvas-padding-x: #{$offcanvas-padding-x};\n--#{$prefix}offcanvas-padding-y: #{$offcanvas-padding-y};\n--#{$prefix}offcanvas-color: #{$offcanvas-color};\n--#{$prefix}offcanvas-bg: #{$offcanvas-bg-color};\n--#{$prefix}offcanvas-border-width: #{$offcanvas-border-width};\n--#{$prefix}offcanvas-border-color: #{$offcanvas-border-color};\n--#{$prefix}offcanvas-box-shadow: #{$offcanvas-box-shadow};\n--#{$prefix}offcanvas-transition: #{transform $offcanvas-transition-duration ease-in-out};\n--#{$prefix}offcanvas-title-line-height: #{$offcanvas-title-line-height};",
+        "updated_at": "2024-07-02 11:45:27"
+    }
+}

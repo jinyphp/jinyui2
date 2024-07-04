@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Remove animation ",
+        "description": "For modals that simply appear rather than fade in to view, remove the .fade class from your modal markup.",
+        "code": "<div class=\"modal\" tabindex=\"-1\" aria-labelledby=\"...\" aria-hidden=\"true\">\n  ...\n<\/div>",
+        "updated_at": "2024-07-03 10:55:55"
+    }
+}

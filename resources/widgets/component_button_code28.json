@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "@mixin button-size($padding-y, $padding-x, $font-size, $border-radius) {\n  --#{$prefix}btn-padding-y: #{$padding-y};\n  --#{$prefix}btn-padding-x: #{$padding-x};\n  @include rfs($font-size, --#{$prefix}btn-font-size);\n  --#{$prefix}btn-border-radius: #{$border-radius};\n}",
+        "updated_at": "2024-07-04 01:33:53"
+    }
+}

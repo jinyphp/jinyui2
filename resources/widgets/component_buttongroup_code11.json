@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sizing",
+        "description": "Instead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including each one when nesting multiple groups.",
+        "code": "<div class=\"btn-group btn-group-lg\" role=\"group\" aria-label=\"Large button group\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>\n<br>\n<div class=\"btn-group\" role=\"group\" aria-label=\"Default button group\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>\n<br>\n<div class=\"btn-group btn-group-sm\" role=\"group\" aria-label=\"Small button group\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>",
+        "updated_at": "2024-07-04 01:38:28"
+    }
+}

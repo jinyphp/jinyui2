@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Card headers can be styled by adding .card-header to <h*> elements.",
+        "code": "<div class=\"card\">\n  <h5 class=\"card-header\">Featured<\/h5>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Special title treatment<\/h5>\n    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Go somewhere<\/a>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:48:08"
+    }
+}

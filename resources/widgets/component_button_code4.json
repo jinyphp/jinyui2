@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Disable text wrapping",
+        "description": "f you don’t want the button text to wrap, you can add the .text-nowrap class to the button. In Sass, you can set $btn-white-space: nowrap to disable text wrapping for each button.",
+        "updated_at": "2024-07-04 01:15:47"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<div class=\"card\">\n  <div class=\"card-header\">\n    Quote\n  <\/div>\n  <div class=\"card-body\">\n    <blockquote class=\"blockquote mb-0\">\n      <p>A well-known quote, contained in a blockquote element.<\/p>\n      <footer class=\"blockquote-footer\">Someone famous in <cite title=\"Source Title\">Source Title<\/cite><\/footer>\n    <\/blockquote>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:48:15"
+    }
+}

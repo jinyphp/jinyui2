@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Body",
+        "description": "The building block of a card is the .card-body. Use it whenever you need a padded section within a card.",
+        "code": "<div class=\"card\">\n  <div class=\"card-body\">\n    This is some text within a card body.\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-04 01:44:23"
+    }
+}

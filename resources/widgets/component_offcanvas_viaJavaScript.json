@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via JavaScript ",
+        "description": "Enable manually with:",
+        "code": "const offcanvasElementList = document.querySelectorAll('.offcanvas')\nconst offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))",
+        "updated_at": "2024-07-02 11:46:22"
+    }
+}

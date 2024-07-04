@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sass mixins",
+        "description": "",
+        "updated_at": "2024-07-04 00:11:08",
+        "code": "@mixin alert-variant($background, $border, $color) {\n  --#{$prefix}alert-color: #{$color};\n  --#{$prefix}alert-bg: #{$background};\n  --#{$prefix}alert-border-color: #{$border};\n  --#{$prefix}alert-link-color: #{shade-color($color, 20%)};\n\n  @if $enable-gradients {\n    background-image: var(--#{$prefix}gradient);\n  }\n\n  .alert-link {\n    color: var(--#{$prefix}alert-link-color);\n  }\n}"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Outline buttons",
+        "description": "In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the .btn-outline-* ones to remove all background images and colors on any button.",
+        "code": "<button type=\"button\" class=\"btn btn-outline-primary\">Primary<\/button>\n<button type=\"button\" class=\"btn btn-outline-secondary\">Secondary<\/button>\n<button type=\"button\" class=\"btn btn-outline-success\">Success<\/button>\n<button type=\"button\" class=\"btn btn-outline-danger\">Danger<\/button>\n<button type=\"button\" class=\"btn btn-outline-warning\">Warning<\/button>\n<button type=\"button\" class=\"btn btn-outline-info\">Info<\/button>\n<button type=\"button\" class=\"btn btn-outline-light\">Light<\/button>\n<button type=\"button\" class=\"btn btn-outline-dark\">Dark<\/button>",
+        "updated_at": "2024-07-04 01:17:58"
+    }
+}

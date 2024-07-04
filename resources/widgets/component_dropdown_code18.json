@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dropstart",
+        "description": "Trigger dropdown menus at the left of the elements by adding .dropstart to the parent element.",
+        "code": "<!-- Default dropstart button -->\n<div class=\"btn-group dropstart\">\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    Dropstart\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <!-- Dropdown menu links -->\n  <\/ul>\n<\/div>\n\n<!-- Split dropstart button -->\n<div class=\"btn-group dropstart\">\n  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle dropdown-toggle-split\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n    <span class=\"visually-hidden\">Toggle Dropstart<\/span>\n  <\/button>\n  <ul class=\"dropdown-menu\">\n    <!-- Dropdown menu links -->\n  <\/ul>\n  <button type=\"button\" class=\"btn btn-secondary\">\n    Split dropstart\n  <\/button>\n<\/div>",
+        "updated_at": "2024-07-04 03:23:03"
+    }
+}

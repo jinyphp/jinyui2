@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Examples",
+        "description": "Wrap the dropdown’s toggle (your button or link) and the dropdown menu within .dropdown, or another element that declares position: relative;. Ideally, you should use a button tag element as the dropdown trigger, but the plugin will work with <a> elements as well. The examples shown here use semantic ul tag elements where appropriate, but custom markup is supported.",
+        "updated_at": "2024-07-04 03:17:38"
+    }
+}

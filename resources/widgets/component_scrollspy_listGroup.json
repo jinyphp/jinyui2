@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "List group ",
+        "description": "Scrollspy also works with .list-groups. Scroll the area next to the list group and watch the active class change.",
+        "code": "<div class=\"row\">\n  <div class=\"col-4\">\n    <div id=\"list-example\" class=\"list-group\">\n      <a class=\"list-group-item list-group-item-action\" href=\"#list-item-1\">Item 1<\/a>\n      <a class=\"list-group-item list-group-item-action\" href=\"#list-item-2\">Item 2<\/a>\n      <a class=\"list-group-item list-group-item-action\" href=\"#list-item-3\">Item 3<\/a>\n      <a class=\"list-group-item list-group-item-action\" href=\"#list-item-4\">Item 4<\/a>\n    <\/div>\n  <\/div>\n  <div class=\"col-8\">\n    <div data-bs-spy=\"scroll\" data-bs-target=\"#list-example\" data-bs-smooth-scroll=\"true\" class=\"scrollspy-example\" tabindex=\"0\">\n      <h4 id=\"list-item-1\">Item 1<\/h4>\n      <p>...<\/p>\n      <h4 id=\"list-item-2\">Item 2<\/h4>\n      <p>...<\/p>\n      <h4 id=\"list-item-3\">Item 3<\/h4>\n      <p>...<\/p>\n      <h4 id=\"list-item-4\">Item 4<\/h4>\n      <p>...<\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:20:37"
+    }
+}

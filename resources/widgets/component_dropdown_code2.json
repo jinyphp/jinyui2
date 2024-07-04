@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Overview",
+        "description": "Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin. They’re toggled by clicking, not by hovering; this is an intentional design decision.\n\nDropdowns are built on a third party library, Popper, which provides dynamic positioning and viewport detection. Be sure to include popper.min.js before Bootstrap’s JavaScript or use bootstrap.bundle.min.js \/ bootstrap.bundle.js which contains Popper. Popper isn’t used to position dropdowns in navbars though as dynamic positioning isn’t required.",
+        "updated_at": "2024-07-04 03:15:21"
+    }
+}

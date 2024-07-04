@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Flush ",
+        "description": "Add .list-group-flush to remove some borders and rounded corners to render list group items edge-to-edge in a parent container (e.g., cards).",
+        "code": "<ul class=\"list-group list-group-flush\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n  <li class=\"list-group-item\">A fourth item<\/li>\n  <li class=\"list-group-item\">And a fifth one<\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 11:02:05"
+    }
+}

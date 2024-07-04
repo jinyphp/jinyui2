@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Checkboxes and radios ",
+        "description": "Place Bootstrap’s checkboxes and radios within list group items and customize as needed. You can use them without <label>s, but please remember to include an aria-label attribute and value for accessibility.",
+        "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" id=\"firstCheckbox\">\n    <label class=\"form-check-label\" for=\"firstCheckbox\">First checkbox<\/label>\n  <\/li>\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" id=\"secondCheckbox\">\n    <label class=\"form-check-label\" for=\"secondCheckbox\">Second checkbox<\/label>\n  <\/li>\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" id=\"thirdCheckbox\">\n    <label class=\"form-check-label\" for=\"thirdCheckbox\">Third checkbox<\/label>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 11:04:10"
+    }
+}

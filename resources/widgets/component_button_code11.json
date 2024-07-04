@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Disabled state",
+        "description": "Make buttons look inactive by adding the disabled boolean attribute to any button tag element. Disabled buttons have pointer-events: none applied to, preventing hover and active states from triggering.",
+        "code": "<button type=\"button\" class=\"btn btn-primary\" disabled>Primary button<\/button>\n<button type=\"button\" class=\"btn btn-secondary\" disabled>Button<\/button>\n<button type=\"button\" class=\"btn btn-outline-primary\" disabled>Primary button<\/button>\n<button type=\"button\" class=\"btn btn-outline-secondary\" disabled>Button<\/button>",
+        "updated_at": "2024-07-04 01:19:03"
+    }
+}

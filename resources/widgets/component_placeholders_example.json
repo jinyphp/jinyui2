@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Example",
+        "description": "In the example below, we take a typical card component and recreate it with placeholders applied to create a “loading card”. Size and proportions are the same between the two.",
+        "code": "<div class=\"card\">\n  <img src=\"...\" class=\"card-img-top\" alt=\"...\">\n\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Go somewhere<\/a>\n  <\/div>\n<\/div>\n\n<div class=\"card\" aria-hidden=\"true\">\n  <img src=\"...\" class=\"card-img-top\" alt=\"...\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title placeholder-glow\">\n      <span class=\"placeholder col-6\"><\/span>\n    <\/h5>\n    <p class=\"card-text placeholder-glow\">\n      <span class=\"placeholder col-7\"><\/span>\n      <span class=\"placeholder col-4\"><\/span>\n      <span class=\"placeholder col-4\"><\/span>\n      <span class=\"placeholder col-6\"><\/span>\n      <span class=\"placeholder col-8\"><\/span>\n    <\/p>\n    <a class=\"btn btn-primary disabled placeholder col-6\" aria-disabled=\"true\"><\/a>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:36:26"
+    }
+}

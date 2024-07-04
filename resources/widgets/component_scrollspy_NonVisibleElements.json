@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Non-visible elements",
+        "description": "Target elements that aren’t visible will be ignored and their corresponding nav items won’t receive an .active class. Scrollspy instances initialized in a non-visible wrapper will ignore all target elements. Use the refresh method to check for observable elements once the wrapper becomes visible.",
+        "code": "document.querySelectorAll('#nav-tab>[data-bs-toggle=\"tab\"]').forEach(el => {\n  el.addEventListener('shown.bs.tab', () => {\n    const target = el.getAttribute('data-bs-target')\n    const scrollElem = document.querySelector(`${target} [data-bs-spy=\"scroll\"]`)\n    bootstrap.ScrollSpy.getOrCreateInstance(scrollElem).refresh()\n  })\n})",
+        "updated_at": "2024-07-02 11:21:48"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Usage",
+        "description": "The collapse plugin utilizes a few classes to handle the heavy lifting:\n\n.collapse hides the content\n.collapse.show shows the content\n.collapsing is added when the transition starts, and removed when it finishes\nThese classes can be found in _transitions.scss.",
+        "updated_at": "2024-07-04 03:07:55"
+    }
+}

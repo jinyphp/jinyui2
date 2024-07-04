@@ -1,0 +1,6 @@
+{
+    "items": {
+        "description": "Note that you don’t need to add a data-bs-display=\"static\" attribute to dropdown buttons in navbars, since Popper isn’t used in navbars.",
+        "updated_at": "2024-07-04 03:52:50"
+    }
+}

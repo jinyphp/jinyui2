@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Forms",
+        "description": "Put a form within a dropdown menu, or make it into a dropdown menu, and use margin or padding utilities to give it the negative space you require.",
+        "code": "<div class=\"dropdown-menu\">\n  <form class=\"px-4 py-3\">\n    <div class=\"mb-3\">\n      <label for=\"exampleDropdownFormEmail1\" class=\"form-label\">Email address<\/label>\n      <input type=\"email\" class=\"form-control\" id=\"exampleDropdownFormEmail1\" placeholder=\"email@example.com\">\n    <\/div>\n    <div class=\"mb-3\">\n      <label for=\"exampleDropdownFormPassword1\" class=\"form-label\">Password<\/label>\n      <input type=\"password\" class=\"form-control\" id=\"exampleDropdownFormPassword1\" placeholder=\"Password\">\n    <\/div>\n    <div class=\"mb-3\">\n      <div class=\"form-check\">\n        <input type=\"checkbox\" class=\"form-check-input\" id=\"dropdownCheck\">\n        <label class=\"form-check-label\" for=\"dropdownCheck\">\n          Remember me\n        <\/label>\n      <\/div>\n    <\/div>\n    <button type=\"submit\" class=\"btn btn-primary\">Sign in<\/button>\n  <\/form>\n  <div class=\"dropdown-divider\"><\/div>\n  <a class=\"dropdown-item\" href=\"#\">New around here? Sign up<\/a>\n  <a class=\"dropdown-item\" href=\"#\">Forgot password?<\/a>\n<\/div>",
+        "updated_at": "2024-07-04 03:54:57"
+    }
+}

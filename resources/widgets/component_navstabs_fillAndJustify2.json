@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "When using a <nav>-based navigation, you can safely omit .nav-item as only .nav-link is required for styling <a> elements.",
+        "code": "<nav class=\"nav nav-pills nav-fill\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
+        "updated_at": "2024-07-03 10:25:06"
+    }
+}

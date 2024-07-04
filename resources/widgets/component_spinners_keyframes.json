@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Keyframes ",
+        "description": "Used for creating the CSS animations for our spinners. Included in scss\/_spinners.scss.",
+        "code": "@keyframes spinner-border {\n  to { transform: rotate(360deg) #{\"\/* rtl:ignore *\/\"}; }\n}",
+        "updated_at": "2024-07-02 11:19:23"
+    }
+}

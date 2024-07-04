@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Buttons",
+        "description": "Badges can be used as part of links or buttons to provide a counter.",
+        "code": "<button type=\"button\" class=\"btn btn-primary\">\n  Notifications <span class=\"badge text-bg-secondary\">4<\/span>\n<\/button>",
+        "updated_at": "2024-07-04 00:54:57"
+    }
+}

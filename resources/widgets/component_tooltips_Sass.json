@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sass variables ",
+        "description": "",
+        "code": "$tooltip-font-size:                 $font-size-sm;\n$tooltip-max-width:                 200px;\n$tooltip-color:                     var(--#{$prefix}body-bg);\n$tooltip-bg:                        var(--#{$prefix}emphasis-color);\n$tooltip-border-radius:             var(--#{$prefix}border-radius);\n$tooltip-opacity:                   .9;\n$tooltip-padding-y:                 $spacer * .25;\n$tooltip-padding-x:                 $spacer * .5;\n$tooltip-margin:                    null; \/\/ TODO: remove this in v6\n\n$tooltip-arrow-width:               .8rem;\n$tooltip-arrow-height:              .4rem;\n\/\/ fusv-disable\n$tooltip-arrow-color:               null; \/\/ Deprecated in Bootstrap 5.2.0 for CSS variables\n\/\/ fusv-enable",
+        "updated_at": "2024-07-01 12:18:21"
+    }
+}

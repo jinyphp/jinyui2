@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Sass variables ",
+        "code": "$placeholder-opacity-max:           .5;\n$placeholder-opacity-min:           .2;",
+        "updated_at": "2024-07-02 11:38:08"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "You can also remove the divider setting --bs-breadcrumb-divider: ''; (empty strings in CSS custom properties counts as a value), or setting the Sass variable to $breadcrumb-divider: none;.",
+        "code": "<nav style=\"--bs-breadcrumb-divider: '';\" aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"#\">Home<\/a><\/li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Library<\/li>\n  <\/ol>\n<\/nav>",
+        "updated_at": "2024-07-04 01:09:21"
+    }
+}

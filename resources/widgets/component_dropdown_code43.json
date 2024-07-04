@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Usage",
+        "description": "Via data attributes or JavaScript, the dropdown plugin toggles hidden content (dropdown menus) by toggling the .show class on the parent .dropdown-menu. The data-bs-toggle=\"dropdown\" attribute is relied on for closing dropdown menus at an application level, so it’s a good idea to always use it.",
+        "updated_at": "2024-07-04 03:58:30"
+    }
+}

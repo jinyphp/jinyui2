@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "And with custom HTML added:",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"<em>Tooltip<\/em> <u>with<\/u> <b>HTML<\/b>\">\n  Tooltip with HTML\n<\/button>",
+        "updated_at": "2024-07-01 12:15:53"
+    }
+}

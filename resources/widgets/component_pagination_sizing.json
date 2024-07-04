@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sizing ",
+        "description": "Fancy larger or smaller pagination? Add .pagination-lg or .pagination-sm for additional sizes.",
+        "code": "<nav aria-label=\"...\">\n  <ul class=\"pagination pagination-lg\">\n    <li class=\"page-item active\" aria-current=\"page\">\n      <span class=\"page-link\">1<\/span>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n  <\/ul>\n<\/nav>",
+        "updated_at": "2024-07-02 11:39:40"
+    }
+}

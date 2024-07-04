@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Custom popovers ",
+        "description": "Added in v5.2.0\nYou can customize the appearance of popovers using CSS variables. We set a custom class with data-bs-custom-class=\"custom-popover\" to scope our custom appearance and use it to override some of the local CSS variables.",
+        "code": ".custom-popover {\n  --bs-popover-max-width: 200px;\n  --bs-popover-border-color: var(--bd-violet-bg);\n  --bs-popover-header-bg: var(--bd-violet-bg);\n  --bs-popover-header-color: var(--bs-white);\n  --bs-popover-body-padding-x: 1rem;\n  --bs-popover-body-padding-y: .5rem;\n}",
+        "updated_at": "2024-07-02 11:30:06"
+    }
+}

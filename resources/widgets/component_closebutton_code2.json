@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Example",
+        "description": "Provide an option to dismiss or close a component with .btn-close. Default styling is limited, but highly customizable. Modify the Sass variables to replace the default background-image. Be sure to include text for screen readers, as we’ve done with aria-label.",
+        "code": "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-04 03:00:52"
+    }
+}

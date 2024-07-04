@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"radio\" name=\"listGroupRadio\" value=\"\" id=\"firstRadio\" checked>\n    <label class=\"form-check-label\" for=\"firstRadio\">First radio<\/label>\n  <\/li>\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"radio\" name=\"listGroupRadio\" value=\"\" id=\"secondRadio\">\n    <label class=\"form-check-label\" for=\"secondRadio\">Second radio<\/label>\n  <\/li>\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"radio\" name=\"listGroupRadio\" value=\"\" id=\"thirdRadio\">\n    <label class=\"form-check-label\" for=\"thirdRadio\">Third radio<\/label>\n  <\/li>\n<\/ul>",
+        "updated_at": "2024-07-03 11:04:19"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "On the .nav-underline modifier class:",
+        "code": "--#{$prefix}nav-underline-gap: #{$nav-underline-gap};\n--#{$prefix}nav-underline-border-width: #{$nav-underline-border-width};\n--#{$prefix}nav-underline-link-active-color: #{$nav-underline-link-active-color};",
+        "updated_at": "2024-07-03 10:27:12"
+    }
+}

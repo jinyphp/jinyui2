@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Variables",
+        "description": "As part of Bootstrap’s evolving CSS variables approach, cards now use local CSS variables on .card for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "code": "--#{$prefix}card-spacer-y: #{$card-spacer-y};\n--#{$prefix}card-spacer-x: #{$card-spacer-x};\n--#{$prefix}card-title-spacer-y: #{$card-title-spacer-y};\n--#{$prefix}card-title-color: #{$card-title-color};\n--#{$prefix}card-subtitle-color: #{$card-subtitle-color};\n--#{$prefix}card-border-width: #{$card-border-width};\n--#{$prefix}card-border-color: #{$card-border-color};\n--#{$prefix}card-border-radius: #{$card-border-radius};\n--#{$prefix}card-box-shadow: #{$card-box-shadow};\n--#{$prefix}card-inner-border-radius: #{$card-inner-border-radius};\n--#{$prefix}card-cap-padding-y: #{$card-cap-padding-y};\n--#{$prefix}card-cap-padding-x: #{$card-cap-padding-x};\n--#{$prefix}card-cap-bg: #{$card-cap-bg};\n--#{$prefix}card-cap-color: #{$card-cap-color};\n--#{$prefix}card-height: #{$card-height};\n--#{$prefix}card-color: #{$card-color};\n--#{$prefix}card-bg: #{$card-bg};\n--#{$prefix}card-img-overlay-padding: #{$card-img-overlay-padding};\n--#{$prefix}card-group-margin: #{$card-group-margin};",
+        "updated_at": "2024-07-04 02:46:35"
+    }
+}

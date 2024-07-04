@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "--#{$prefix}backdrop-zindex: #{$zindex-modal-backdrop};\n--#{$prefix}backdrop-bg: #{$modal-backdrop-bg};\n--#{$prefix}backdrop-opacity: #{$modal-backdrop-opacity};",
+        "updated_at": "2024-07-03 10:56:55"
+    }
+}

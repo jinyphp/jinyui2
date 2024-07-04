@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Via data attributes ",
+        "description": "To easily add scrollspy behavior to your topbar navigation, add data-bs-spy=\"scroll\" to the element you want to spy on (most typically this would be the <body>). Then add the data-bs-target attribute with the id or class name of the parent element of any Bootstrap .nav component.",
+        "code": "<body data-bs-spy=\"scroll\" data-bs-target=\"#navbar-example\">\n  ...\n  <div id=\"navbar-example\">\n    <ul class=\"nav nav-tabs\" role=\"tablist\">\n      ...\n    <\/ul>\n  <\/div>\n  ...\n<\/body>",
+        "updated_at": "2024-07-02 11:23:04"
+    }
+}

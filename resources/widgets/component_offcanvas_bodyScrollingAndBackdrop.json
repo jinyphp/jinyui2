@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Body scrolling and backdrop ",
+        "description": "You can also enable <body> scrolling with a visible backdrop.",
+        "code": "<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasWithBothOptions\" aria-controls=\"offcanvasWithBothOptions\">Enable both scrolling & backdrop<\/button>\n\n<div class=\"offcanvas offcanvas-start\" data-bs-scroll=\"true\" tabindex=\"-1\" id=\"offcanvasWithBothOptions\" aria-labelledby=\"offcanvasWithBothOptionsLabel\">\n  <div class=\"offcanvas-header\">\n    <h5 class=\"offcanvas-title\" id=\"offcanvasWithBothOptionsLabel\">Backdrop with scrolling<\/h5>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"><\/button>\n  <\/div>\n  <div class=\"offcanvas-body\">\n    <p>Try scrolling the rest of the page to see this option in action.<\/p>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-07-02 11:43:43"
+    }
+}

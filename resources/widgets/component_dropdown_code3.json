@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Accessibility",
+        "description": "The WAI ARIA standard defines an actual role=\"menu\" widget, but this is specific to application-like menus which trigger actions or functions. ARIA menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus.\n\nBootstrap’s dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures. For instance, it is possible to create dropdowns that contain additional inputs and form controls, such as search fields or login forms. For this reason, Bootstrap does not expect (nor automatically add) any of the role and aria- attributes required for true ARIA menus. Authors will have to include these more specific attributes themselves.\n\nHowever, Bootstrap does add built-in support for most standard keyboard menu interactions, such as the ability to move through individual .dropdown-item elements using the cursor keys and close the menu with the Esc key.",
+        "updated_at": "2024-07-04 03:15:29"
+    }
+}

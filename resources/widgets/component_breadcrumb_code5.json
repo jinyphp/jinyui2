@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "When modifying via Sass, the quote function is required to generate the quotes around a string. For example, using > as the divider, you can use this:",
+        "code": "$breadcrumb-divider: quote(\">\");",
+        "updated_at": "2024-07-04 01:03:50"
+    }
+}

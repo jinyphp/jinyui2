@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "How it works ",
+        "description": "Create placeholders with the .placeholder class and a grid column class (e.g., .col-6) to set the width. They can replace the text inside an element or be added as a modifier class to an existing component.\n\nWe apply additional styling to .btns via ::before to ensure the height is respected. You may extend this pattern for other situations as needed, or add a &nbsp; within the element to reflect the height when actual text is rendered in its place.",
+        "code": "<p aria-hidden=\"true\">\n  <span class=\"placeholder col-6\"><\/span>\n<\/p>\n\n<a class=\"btn btn-primary disabled placeholder col-4\" aria-disabled=\"true\"><\/a>",
+        "updated_at": "2024-07-02 11:36:54"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Background colors",
+        "description": "Set a background-color with contrasting foreground color with our .text-bg-{color} helpers. Previously it was required to manually pair your choice of .text-{color} and .bg-{color} utilities for styling, which you still may use if you prefer.",
+        "code": "<span class=\"badge text-bg-primary\">Primary<\/span>\n<span class=\"badge text-bg-secondary\">Secondary<\/span>\n<span class=\"badge text-bg-success\">Success<\/span>\n<span class=\"badge text-bg-danger\">Danger<\/span>\n<span class=\"badge text-bg-warning\">Warning<\/span>\n<span class=\"badge text-bg-info\">Info<\/span>\n<span class=\"badge text-bg-light\">Light<\/span>\n<span class=\"badge text-bg-dark\">Dark<\/span>",
+        "updated_at": "2024-07-04 00:55:52"
+    }
+}

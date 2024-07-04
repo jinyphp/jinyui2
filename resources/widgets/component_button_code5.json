@@ -1,0 +1,6 @@
+{
+    "items": {
+        "description": "The .btn class is intended to be used in conjunction with our button variants, or to serve as a basis for your own custom styles.\nIf you are using the .btn class on its own, remember to at least define some explicit :focus and\/or :focus-visible styles.",
+        "updated_at": "2024-07-04 01:12:47"
+    }
+}
