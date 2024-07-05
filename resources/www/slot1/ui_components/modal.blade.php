@@ -2,7 +2,7 @@
     @livewire('WidgetTitle', [
     'filename' => "component_modal_title"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_howItWorks"
 ])
 <h2>Exaples</h2>
@@ -33,14 +33,14 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_modal_varyingModalContent"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_varyingModalContent2"
 ])
     @livewire('WidgetCode-Component', [
     'filename' => "component_modal_toggleBetweenModals"
 ])
 <div>Change animation</div>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_RemoveAnimation"
 ])
     @livewire('WidgetCode-Component', [
@@ -50,30 +50,30 @@
     'filename' => "component_modal_fullscreenModal"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_variables"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_variables2"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_sass"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_sassLoops"
 ])
 
 <div>Via data attributes</div>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_toggle"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_dismiss"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_dismiss2"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_modal_viaJavaScript"
 ])
 </x-www-layout>

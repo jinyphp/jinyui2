@@ -15,14 +15,14 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_scrollspy_simpleAnchors"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_scrollspy_NonVisibleElements"
 ])
 <h2>Usage</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_scrollspy_viaDataAttributes"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_scrollspy_viaJavaScript"
 ])
 </x-www-layout>

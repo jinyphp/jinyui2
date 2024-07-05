@@ -9,7 +9,7 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_live_example"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_live_example2"
 ])
     @livewire('WidgetCode-Component', [
@@ -21,7 +21,7 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_custom_content"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_custom_content2"
 ])
     @livewire('WidgetCode-Component', [
@@ -36,26 +36,26 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_placement3"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_accessibility"
 ])
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_accessibility2"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_variables"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_sass"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_usage"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_triggers"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_triggers2"
 ])
 </x-www-layout>
