@@ -56,10 +56,15 @@
     'filename' => "component_tooltips_table2"
 ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_tooltips_mehods2"
+    'filename' => "component_tooltips_methods2"
 ])  
 <h2>Event</h2>
-
+@livewire('WidgetTableStyle3', [
+    'filename' => "component_tooltips_table3"
+])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_tooltips_event"
+])  
 
 
 

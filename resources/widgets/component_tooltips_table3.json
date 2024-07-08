@@ -1,0 +1,46 @@
+{
+    "items": {
+        "1": {
+            "name": "Event",
+            "description": "Description",
+            "created_at": "2024-07-08 11:41:14",
+            "updated_at": "2024-07-08 11:41:14"
+        },
+        "2": {
+            "name": "hide.bs.tooltip",
+            "description": "This event is fired immediately when the hide instance method has been called.",
+            "created_at": "2024-07-08 11:41:34",
+            "updated_at": "2024-07-08 11:41:34"
+        },
+        "3": {
+            "name": "hidden.bs.tooltip",
+            "description": "This event is fired when the tooltip has finished being hidden from the user (will wait for CSS transitions to complete).",
+            "created_at": "2024-07-08 11:41:52",
+            "updated_at": "2024-07-08 11:41:52"
+        },
+        "4": {
+            "name": "inserted.bs.tooltip\t",
+            "description": "This event is fired after the show.bs.tooltip event when the tooltip template has been added to the DOM.",
+            "created_at": "2024-07-08 11:42:15",
+            "updated_at": "2024-07-08 11:42:15"
+        },
+        "5": {
+            "name": "inserted.bs.tooltip\t",
+            "description": "This event is fired after the show.bs.tooltip event when the tooltip template has been added to the DOM.",
+            "created_at": "2024-07-08 11:42:16",
+            "updated_at": "2024-07-08 11:42:16"
+        },
+        "6": {
+            "name": "show.bs.tooltip",
+            "description": "This event fires immediately when the show instance method is called.",
+            "created_at": "2024-07-08 11:42:27",
+            "updated_at": "2024-07-08 11:42:27"
+        },
+        "7": {
+            "name": "shown.bs.tooltip",
+            "description": "This event is fired when the tooltip has been made visible to the user (will wait for CSS transitions to complete).",
+            "created_at": "2024-07-08 11:42:42",
+            "updated_at": "2024-07-08 11:42:42"
+        }
+    }
+}

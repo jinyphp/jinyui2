@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Using function with popperConfig ",
+        "code": "const popover = new bootstrap.Popover(element, {\n  popperConfig(defaultBsPopperConfig) {\n    \/\/ const newPopperConfig = {...}\n    \/\/ use defaultBsPopperConfig if needed...\n    \/\/ return newPopperConfig\n  }\n})",
+        "updated_at": "2024-07-08 12:41:29"
+    }
+}

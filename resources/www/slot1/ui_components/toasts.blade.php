@@ -2,6 +2,12 @@
     @livewire('WidgetTitle', [
     'filename' => "component_toasts_title"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_toast"
+])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_overview"
+])
 <h2>Examples</h2>
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_basic"
@@ -58,4 +64,24 @@
     @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_triggers2"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_option"
+])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_toasts_optionTable"
+])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_method"
+])
+    @livewire('WidgetTableStyle2', [
+    'filename' => "component_toasts_methodTable"
+]) 
+<h2>Events</h2>
+    @livewire('WidgetTableStyle3', [
+    'filename' => "component_toasts_event"
+]) 
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_toasts_event2"
+])
+
 </x-www-layout>

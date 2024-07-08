@@ -2,6 +2,9 @@
     @livewire('WidgetTitle', [
     'filename' => "component_spinners_title"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_spinners_about"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_border"
 ])
