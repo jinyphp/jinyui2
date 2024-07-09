@@ -2,10 +2,22 @@
 // popover.scss
 //
 
+.popover {
+    --#{$prefix}popover-arrow-border: var(--#{$prefix}border-color);
+}
+
 .popover-header {
     margin-top: 0;
 }
 
+// Adding custom popover size that is applied via data-bs-custom-class="popover-sm"
+
+.popover-sm {
+    --#{$prefix}popover-max-width: #{$popover-max-width * .75};
+    --#{$prefix}popover-body-padding-x: #{$popover-body-padding-x * .75};
+    --#{$prefix}popover-body-padding-y: #{$popover-body-padding-y * .75};
+    @include rfs($font-size-xs, --#{$prefix}popover-font-size);
+}
 
 @each $color,
 $value in $theme-colors {
@@ -16,5 +28,15 @@ $value in $theme-colors {
         --#{$prefix}popover-header-color: var(--#{$prefix}white) !important;
         --#{$prefix}popover-body-padding-x: 1rem !important;
         --#{$prefix}popover-body-padding-y: .5rem !important;
+    }
+}
+
+// Dark mode
+
+@if $enable-dark-mode {
+    @include color-mode(dark) {
+      .popover:not([data-bs-theme="light"]) {
+        --#{$prefix}popover-box-shadow: #{$popover-box-shadow-dark};
+      }
     }
 }

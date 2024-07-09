@@ -1,0 +1,22 @@
+{
+    "items": {
+        "1": {
+            "name": "Event",
+            "type": "Description",
+            "created_at": "2024-07-09 03:14:09",
+            "updated_at": "2024-07-09 03:14:09"
+        },
+        "2": {
+            "name": "close.bs.alert",
+            "type": "Fires immediately when the close instance method is called.",
+            "created_at": "2024-07-09 03:14:23",
+            "updated_at": "2024-07-09 03:14:23"
+        },
+        "3": {
+            "name": "closed.bs.alert",
+            "type": "Fired when the alert has been closed and CSS transitions have completed.",
+            "created_at": "2024-07-09 03:14:39",
+            "updated_at": "2024-07-09 03:14:39"
+        }
+    }
+}

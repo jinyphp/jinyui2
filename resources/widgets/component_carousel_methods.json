@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const myCarouselElement = document.querySelector('#myCarousel')\n\nconst carousel = new bootstrap.Carousel(myCarouselElement, {\n  interval: 2000,\n  touch: false\n})",
+        "updated_at": "2024-07-09 03:28:33"
+    }
+}

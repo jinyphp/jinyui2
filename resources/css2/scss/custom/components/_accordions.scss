@@ -34,6 +34,33 @@
     @include font-size(var(--#{$prefix}accordion-body-font-size));
 }
 
+.accordion-alt-icon {
+    --#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon-alt)};
+    --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon-alt)};
+}
+
+[data-label-collapsed] {
+    &::before {
+      content: attr(data-label-expanded);
+    }
+  
+    &.collapsed::before,
+    .collapsed > &::before {
+      content: attr(data-label-collapsed);
+    }
+}
+
+.collapse-toggle-icon {
+    :not(.collapsed) > & {
+      transform: rotate(180deg);
+    }
+}
+
+.hiding-collapse-toggle:not(.collapsed) {
+    display: none;
+}
+
+
 .custom-accordion {
     .card {
         box-shadow: none;

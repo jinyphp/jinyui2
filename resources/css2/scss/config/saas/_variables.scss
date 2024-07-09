@@ -7,11 +7,16 @@
 
 $prefix:                        ct- !default;
 $prefix:                        $prefix;
+$icon-prefix:                 ci- !default;
+
 
 // Color system
+$component-color-dark:              $gray-200 !default;
+
 
 // scss-docs-start gray-color-variables
 $white:    #fff;
+$gray-50:  #f5f7fa !default;
 $gray-100: #f6f7fb;
 $gray-200: #eef2f7;
 $gray-300: #dee2e6;
@@ -505,6 +510,7 @@ $box-shadow:                  var(--#{$prefix}box-shadow);
 $box-shadow-sm:               var(--#{$prefix}box-shadow-sm);
 $box-shadow-lg:               var(--#{$prefix}box-shadow-lg);
 $box-shadow-inset:            var(--#{$prefix}box-shadow-inset);
+$box-shadow-dark:                   0 .5rem 1.875rem -.25rem rgba(#080b12, .25) !default;
 // scss-docs-end box-shadow-variables
 
 $component-active-color:      var(--#{$prefix}component-active-color);
@@ -550,8 +556,10 @@ $font-family-code:            var(--#{$prefix}font-monospace);
 // $font-size-base affects the font size of the body text
 $font-size-root:              null;
 $font-size-base:              0.9rem; // Assumes the browser default, typically `16px`
+$font-size-xl:                $font-size-base * 1.25 !default;
 $font-size-sm:                $font-size-base - .025;
 $font-size-lg:                $font-size-base * 1.390;
+$font-size-xs:                $font-size-base * .75 !default;
 
 $font-weight-lighter:         lighter;
 $font-weight-light:           300;
@@ -761,6 +769,10 @@ $btn-padding-y-lg:            $input-btn-padding-y-lg;
 $btn-padding-x-lg:            $input-btn-padding-x-lg;
 $btn-font-size-lg:            $input-btn-font-size-lg;
 
+$btn-padding-y-sm:            $input-btn-padding-y-sm;
+$btn-padding-x-sm:            $input-btn-padding-x-sm;
+$btn-font-size-sm:            $input-btn-font-size-sm;
+
 $btn-border-width:            $input-btn-border-width;
 
 $btn-font-weight:             $font-weight-normal;
@@ -789,6 +801,19 @@ $btn-active-bg-shade-amount:      20%;
 $btn-active-bg-tint-amount:       20%;
 $btn-active-border-shade-amount:  25%;
 $btn-active-border-tint-amount:   10%;
+
+// Buttons
+
+$btn-color-dark:                    $gray-200 !default;
+$btn-hover-color-dark:              $white !default;
+$btn-link-disabled-color-dark:      $gray-400 !default;
+
+// Icon buttons
+
+$btn-icon-size:               $font-size-base * 2.5 !default;
+$btn-icon-size-sm:            $font-size-base * 2 !default;
+$btn-icon-size-lg:            $font-size-base * 3 !default;
+
 // scss-docs-end btn-variables
 
 //
@@ -1066,6 +1091,8 @@ $nav-link-color:                    null;
 $nav-link-hover-color:              null;
 $nav-link-transition:               color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
 $nav-link-disabled-color:           var(--#{$prefix}nav-link-disabled-color);
+$nav-link-line-height:                  1.375rem !default;
+$nav-link-active-color:                 var(--#{$prefix}component-active-color) !default;
 
 $nav-tabs-border-color:             var(--#{$prefix}nav-tabs-border-color);
 $nav-tabs-border-width:             $border-width;
@@ -1187,7 +1214,6 @@ $pagination-padding-x-sm:           .5rem;
 $pagination-padding-y-lg:           .75rem;
 $pagination-padding-x-lg:           1.5rem;
 
-$pagination-font-size:              $font-size-base;
 $pagination-color:                  var(--#{$prefix}pagination-color);
 $pagination-bg:                     var(--#{$prefix}pagination-bg);
 $pagination-border-width:           $border-width;
@@ -1216,6 +1242,14 @@ $pagination-transition:              color .15s ease-in-out, background-color .1
 
 $pagination-border-radius-sm:       $border-radius-sm;
 $pagination-border-radius-lg:       $border-radius-lg;
+
+$pagination-spacer:                     .25rem !default;
+
+$pagination-font-weight:                $font-weight-medium !default;
+$pagination-font-size:              $font-size-base;
+$pagination-font-size-sm:               $font-size-xs !default;
+$pagination-font-size-lg:               $font-size-base !default;
+
 // scss-docs-end pagination-variables
 
 
@@ -1276,6 +1310,10 @@ $accordion-button-focus-border-color:     var(--#{$prefix}accordion-button-focus
 $accordion-button-focus-box-shadow:       var(--#{$prefix}accordion-button-focus-box-shadow);
 $accordion-button-font-size:              $font-size-base !default;
 
+
+$accordion-button-icon-alt:             url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#{$accordion-icon-color}'><path d='M12 4.125c.483 0 .875.392.875.875v14c0 .483-.392.875-.875.875s-.875-.392-.875-.875V5c0-.483.392-.875.875-.875z'/><path d='M4.125 12c0-.483.392-.875.875-.875h14c.483 0 .875.392.875.875s-.392.875-.875.875H5c-.483 0-.875-.392-.875-.875z'/></svg>") !default;
+$accordion-button-active-icon-alt:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#{$accordion-icon-active-color}'><path d='M4.125 12c0-.483.392-.875.875-.875h14c.483 0 .875.392.875.875s-.392.875-.875.875H5c-.483 0-.875-.392-.875-.875z'/></svg>") !default;
+
 $accordion-button-font-weight:          $headings-font-weight !default;
 $accordion-body-font-size:              $font-size-sm !default;
 
@@ -1332,6 +1370,7 @@ $popover-border-color:              var(--#{$prefix}popover-border-color);
 $popover-border-radius:             $border-radius-lg;
 $popover-inner-border-radius:       subtract($popover-border-radius, $popover-border-width);
 $popover-box-shadow:                $box-shadow;
+$popover-box-shadow-dark:               $box-shadow-dark !default;
 
 $popover-header-font-size:          $font-size-base;
 $popover-header-bg:                 var(--#{$prefix}popover-header-bg);
@@ -1514,6 +1553,9 @@ $figure-caption-color:              $gray-600;
 
 // scss-docs-start breadcrumb-variables
 $breadcrumb-font-size:              null;
+$breadcrumb-font-weight:                $font-weight-medium !default;
+$breadcrumb-color:                      var(--#{$prefix}component-color) !default;
+$breadcrumb-hover-color:                var(--#{$prefix}component-hover-color) !default;
 $breadcrumb-padding-y:              $spacer * 1;
 $breadcrumb-padding-x:              0;
 $breadcrumb-item-padding-x:         .5rem;
@@ -1521,8 +1563,11 @@ $breadcrumb-margin-bottom:          1rem;
 $breadcrumb-bg:                     null;
 $breadcrumb-divider-color:          $gray-400;
 $breadcrumb-active-color:           $gray-500;
+$breadcrumb-divider-color-dark:         $component-color-dark !default;
 $breadcrumb-divider:                quote("\F0142");
+$breadcrumb-divider-dark:               url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#{$breadcrumb-divider-color-dark}'><path d='M8.381 5.381c.342-.342.896-.342 1.237 0l6 6c.342.342.342.896 0 1.237l-6 6c-.342.342-.896.342-1.237 0s-.342-.896 0-1.237L13.763 12 8.381 6.619c-.342-.342-.342-.896 0-1.237z'/></svg>") !default;
 $breadcrumb-divider-flipped:        $breadcrumb-divider;
+$breadcrumb-divider-flipped-dark:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#{$breadcrumb-divider-color-dark}'><path d='M15.3,5.4c0.3,0.3,0.3,0.9,0,1.2L9.9,12l5.4,5.4c0.3,0.3,0.3,0.9,0,1.2s-0.9,0.3-1.2,0l-6-6c-0.3-0.3-0.3-0.9,0-1.2l6-6C14.4,5,14.9,5,15.3,5.4L15.3,5.4z'/></svg>") !default;
 $breadcrumb-border-radius:          null;
 // scss-docs-end breadcrumb-variables
 

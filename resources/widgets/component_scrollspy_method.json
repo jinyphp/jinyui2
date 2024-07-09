@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "",
+        "description": "Here’s an example using the refresh method:",
+        "updated_at": "2024-07-08 12:23:21",
+        "code": "const dataSpyList = document.querySelectorAll('[data-bs-spy=\"scroll\"]')\ndataSpyList.forEach(dataSpyEl => {\n  bootstrap.ScrollSpy.getInstance(dataSpyEl).refresh()\n})"
+    }
+}

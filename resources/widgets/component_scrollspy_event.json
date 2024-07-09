@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const firstScrollSpyEl = document.querySelector('[data-bs-spy=\"scroll\"]')\nfirstScrollSpyEl.addEventListener('activate.bs.scrollspy', () => {\n  \/\/ do something...\n})",
+        "updated_at": "2024-07-08 12:22:08"
+    }
+}

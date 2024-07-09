@@ -4,6 +4,26 @@
 
 // Form-control light
 
+.form-control,
+.form-select {
+  --#{$prefix}form-control-bg: #{$input-bg};
+  --#{$prefix}form-control-border-color: #{$input-border-color};
+  --#{$prefix}form-control-focus-bg: #{$input-focus-bg};
+  --#{$prefix}form-control-focus-border-color: #{$input-focus-border-color};
+
+  background-color: var(--#{$prefix}form-control-bg);
+  border-color: var(--#{$prefix}form-control-border-color);
+
+  &:focus {
+    background-color: var(--#{$prefix}form-control-focus-bg);
+    border-color: var(--#{$prefix}form-control-focus-border-color);
+  }
+
+  &:disabled {
+    border-style: dashed;
+  }
+}
+
 .form-control-light {
     background-color: var(--#{$prefix}gray-200) !important;
     border-color: var(--#{$prefix}gray-200) !important;
@@ -43,6 +63,12 @@ select.form-control-sm {
     }
 }
 
+// Fix small select idicator position
+
+.form-select.form-select-sm {
+    background-position: right $form-select-padding-x-sm * .875 center;
+}
+
 // Show/Hide Password
 .password-eye {
     cursor: pointer;
@@ -64,5 +90,44 @@ select.form-control-sm {
         &:before {
             content: "\F06D1";
         }
+    }
+}
+
+.form-floating > label::after {
+    background-color: transparent !important;
+}
+
+.form-select-flush {
+    background-position: right center;
+    border: 0;
+    border-bottom: var(--#{$prefix}border-width) solid var(--#{$prefix}border-color) !important;
+    border-radius: 0;
+  
+    &.form-select-lg {
+      background-size: 17px 13px;
+    }
+}
+
+.form-icon-start {
+    padding-left: calc($input-padding-x + $input-border-width + $font-size-base + .375rem);
+  
+    &.form-control-lg {
+      padding-left: calc($input-padding-x-lg + $input-border-width + $font-size-lg + .25rem);
+    }
+  
+    &.form-control-sm {
+      padding-left: calc($input-padding-x-sm + $input-border-width + $font-size-sm);
+    }
+  }
+  
+  .form-icon-end {
+    padding-right: calc($input-padding-x + $input-border-width + $font-size-base + .375rem);
+  
+    &.form-control-lg {
+      padding-right: calc($input-padding-x-lg + $input-border-width + $font-size-lg + .25rem);
+    }
+  
+    &.form-control-sm {
+      padding-right: calc($input-padding-x-sm + $input-border-width + $font-size-sm);
     }
 }

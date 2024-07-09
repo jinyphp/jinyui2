@@ -41,8 +41,11 @@
     'filename' => "component_button_code20"])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_button_code21"])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_button_table_method"])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_button_code22"])
+    <h2>css</h2>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_button_code23"])
     @livewire('WidgetOnlyCode', [

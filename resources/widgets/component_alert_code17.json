@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "or on a button outside the alert using the additional data-bs-target as demonstrated below:",
+        "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" data-bs-target=\"#my-alert\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-09 03:09:45"
+    }
+}
