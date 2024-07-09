@@ -2,6 +2,49 @@
 // tabs.scss
 //
 
+.nav {
+    --#{$prefix}nav-link-line-height: #{$nav-link-line-height};
+    --#{$prefix}nav-link-active-color: #{$nav-link-active-color};
+  
+    flex-direction: row;
+    gap: 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+  
+    &.show {
+      color: var(--#{$prefix}nav-link-hover-color);
+    }
+  
+    &.active {
+      color: var(--#{$prefix}nav-link-active-color);
+    }
+  
+    &.disabled,
+    &:disabled {
+      color: var(--#{$prefix}nav-link-disabled-color);
+    }
+  
+    &.text-body,
+    &.text-body-secondary,
+    &.text-body-tertiary {
+      &:hover,
+      &:focus-visible,
+      &.show {
+        color: var(--#{$prefix}nav-link-hover-color) !important;
+      }
+      &.active {
+        color: var(--#{$prefix}nav-link-active-color) !important;
+      }
+      &.disabled,
+      &:disabled {
+        color: var(--#{$prefix}nav-link-disabled-color) !important;
+      }
+    }
+}
+
 .nav-tabs,
 .nav-pills {
     > li {

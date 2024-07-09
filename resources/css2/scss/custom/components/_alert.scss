@@ -2,6 +2,14 @@
 // alert.scss
 //
 
+.alert .btn-close {
+    --#{$prefix}btn-close-size: .6875em;
+    --#{$prefix}btn-close-opacity: .75;
+    --#{$prefix}btn-close-hover-opacity: 1;
+  
+    padding: $alert-padding-y * 1.375 $alert-padding-x;
+}
+
 @each $color,
 $value in $theme-colors {
     .alert-#{$color} {
