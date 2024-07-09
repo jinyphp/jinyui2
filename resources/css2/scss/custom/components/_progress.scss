@@ -23,3 +23,7 @@
 .progress-xl {
     height: 15px;
 }
+
+.progress-bar-striped.bg-light {
+    @include gradient-striped(rgba($gray-900, .15), 45deg);
+}
