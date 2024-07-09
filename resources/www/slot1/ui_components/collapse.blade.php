@@ -33,6 +33,14 @@
     'filename' => "component_collapse_code11"
 ])
     @livewire('WidgetOnlyCode', [
+<<<<<<< HEAD
+    'filename' => "component_collapse_code12"])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_collapse_option"])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_collapse_option_table"])
+=======
     'filename' => "component_collapse_code12"
 ])
+>>>>>>> 4a607b9c43ad0dcd2c464284bd0e6d6048c17791
 </x-www-layout>

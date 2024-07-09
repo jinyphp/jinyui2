@@ -39,4 +39,25 @@
     'filename' => "component_carousel_code19"])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_carousel_code20"])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_carousel_option"])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_carousel_table_option"
+    ])
+    <h2>Methods</h2>
+    <p>All API methods are asynchronous and start a transition. They return to the caller as soon as the transition is
+        started, but before it ends. In addition, a method call on a transitioning component will be ignored. Learn more
+        in our JavaScript docs.</p>
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_carousel_methods"])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_carousel_table_method"
+    ])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_carousel_events"])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_carousel_table_events"
+    ])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_carousel_events_code"])
 </x-www-layout>
