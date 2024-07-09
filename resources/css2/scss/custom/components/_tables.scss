@@ -13,6 +13,18 @@
 
 // Custom table components (Custom)
 .table {
+    --#{$prefix}table-th-color: #{$table-th-color};
+
+    thead th,
+    tbody th {
+      color: var(--#{$prefix}table-th-color) !important;
+    }
+  
+    &.table-dark th,
+    .table-dark th {
+      color: $white !important;
+    }
+
     .table-user {
         img {
             height: 30px;
@@ -41,6 +53,9 @@
             border-top-color: inherit;
         }
     }
+
+    
+    
 }
 
 // Tables fluid

@@ -624,6 +624,8 @@ $blockquote-margin-y:         $spacer;
 $blockquote-font-size:        $font-size-base * 1.25;
 $blockquote-footer-color:     var(--#{$prefix}blockquote-footer-color);
 $blockquote-footer-font-size: $small-font-size;
+$blockquote-font-weight:      $font-weight-semibold !default;
+$blockquote-color:            var(--#{$prefix}heading-color) !default;
 
 $hr-margin-y:                 $spacer - 0.5rem;
 $hr-color:                    inherit;
@@ -668,6 +670,7 @@ $table-bg:                    transparent;
 $table-accent-bg:             transparent;
 
 $table-th-font-weight:        null;
+$table-th-color:              var(--#{$prefix}heading-color) !default;
 
 $table-striped-color:         var(--#{$prefix}table-striped-color);
 $table-striped-bg-factor:     0.05;
@@ -1624,3 +1627,19 @@ $kbd-bg:                            var(--#{$prefix}kbd-bg);
 $nested-kbd-font-weight:            null;
 
 $pre-color:                         var(--#{$prefix}pre-color);
+
+$toast-padding-x:                       .75rem !default;
+$toast-padding-y:                       .75rem !default;
+$toast-border-color:                    var(--#{$prefix}light-border-subtle) !default;
+$toast-background-color:                var(--#{$prefix}body-bg) !default;
+$toast-spacing:                         $spacer * 1.5 !default;
+$toast-header-color:                    var(--#{$prefix}heading-color) !default;
+$toast-header-background-color:         transparent !default;
+
+$scrollbar-width:                       .1875rem !default;
+$scrollbar-track-width:                 .1875rem !default;
+$scrollbar-border-radius:               var(--#{$prefix}border-radius) !default;
+$scrollbar-bg:                          $gray-300 !default;
+$scrollbar-track-bg:                    $gray-100 !default;
+
+$blockquote-font-weight:      $font-weight-semibold !default;
