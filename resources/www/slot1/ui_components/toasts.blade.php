@@ -2,6 +2,12 @@
     @livewire('WidgetTitle', [
     'filename' => "component_toasts_title"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_toast"
+])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_overview"
+])
 <h2>Examples</h2>
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_basic"
@@ -9,7 +15,7 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_live_example"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_live_example2"
 ])
     @livewire('WidgetCode-Component', [
@@ -21,7 +27,7 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_custom_content"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_custom_content2"
 ])
     @livewire('WidgetCode-Component', [
@@ -36,26 +42,46 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_placement3"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_accessibility"
 ])
     @livewire('WidgetCode-Component', [
     'filename' => "component_toasts_accessibility2"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_variables"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_sass"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_usage"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_triggers"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_toasts_triggers2"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_option"
+])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_toasts_optionTable"
+])
+    @livewire('WidgetText', [
+    'filename' => "component_toasts_method"
+])
+    @livewire('WidgetTableStyle2', [
+    'filename' => "component_toasts_methodTable"
+]) 
+<h2>Events</h2>
+    @livewire('WidgetTableStyle3', [
+    'filename' => "component_toasts_event"
+]) 
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_toasts_event2"
+])
+
 </x-www-layout>

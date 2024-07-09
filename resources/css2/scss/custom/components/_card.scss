@@ -1,0 +1,293 @@
+//
+// card.scss
+//
+
+.card {
+    border: none;
+    box-shadow: $card-box-shadow;
+    margin-bottom: $grid-gutter-width;
+
+    .header-title {
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        font-size: $font-size-base;
+        margin-top: 0;
+    }
+    .card-drop {
+        font-size: 20px;
+        color: inherit;
+    }
+    .card-widgets {
+        float: right;
+        height: 16px;
+        > a {
+            color: inherit;
+            font-size: 18px;
+            display: inline-block;
+            line-height: 1;
+
+            &.collapsed {
+                i {
+                    &:before {
+                        content: "\F0415";
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Card title / Card Header
+.card-title,
+.card-header {
+    margin-top: 0;
+
+    .header-title {
+        margin-bottom: 0;
+    }
+}
+
+.card-header-nav-underline {
+    --#{$prefix}nav-link-padding-y: calc(1.25 * var(--#{$prefix}card-cap-padding-y));
+  
+    margin: calc(-1 * var(--#{$prefix}card-cap-padding-y)) calc(-.125 * var(--#{$prefix}card-cap-padding-x));
+}
+  
+.card-header-tabs {
+    --#{$prefix}nav-tabs-padding: var(--#{$prefix}card-cap-padding-y);
+  
+    margin: calc(-1 * var(--#{$prefix}card-cap-padding-y)) calc(-1 * var(--#{$prefix}card-cap-padding-x));
+    @include border-bottom-radius(0);
+}
+
+//Card disable loading (Custom Cards)
+.card-disabled {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: $card-border-radius;
+    background: var(--#{$prefix}gray-100);
+    opacity: 0.8;
+    cursor: progress;
+
+    .card-portlets-loader {
+        background-color: var(--#{$prefix}gray-900);
+        animation: rotatebox 1.2s infinite ease-in-out;
+        height: 30px;
+        width: 30px;
+        border-radius: 3px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -($grid-gutter-width * 0.5);
+        margin-top: -($grid-gutter-width * 0.5);
+    }
+}
+
+@keyframes rotatebox {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+
+// Pricing card
+
+.card-pricing {
+    position: relative;
+
+    .card-pricing-plan-name {
+        padding-bottom: 20px;
+    }
+
+    .card-pricing-icon {
+        font-size: 22px;
+        box-shadow: $box-shadow;
+        height: 60px;
+        display: inline-block;
+        width: 60px;
+        line-height: 56px;
+        border-radius: 50%;
+    }
+
+    .card-pricing-price {
+        padding: 30px 0 0;
+
+        span {
+            font-size: 40%;
+            color: var(--#{$prefix}gray-600);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    }
+    .card-pricing-features {
+        color: var(--#{$prefix}gray-600);
+        list-style: none;
+        margin: 0;
+        padding: 20px 0 0 0;
+
+        li {
+            padding: 15px;
+        }
+    }
+}
+
+.card-pricing-recommended {
+    @include media-breakpoint-up(lg) {
+        margin-top: -1.9375rem;
+    }
+
+    .card-pricing-plan-tag {
+        background-color: rgba($danger, 0.2);
+        color: $danger;
+        padding: 5px 0;
+        font-weight: 700;
+        border-radius: 0.25rem 0.25rem 0 0;
+        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+    }
+}
+
+// Custom card height
+
+.card-h-100 {
+    height: calc(100% - #{$grid-gutter-width});
+}
+
+// Shop product card
+
+.product-card {
+    position: relative;
+  
+    .product-card-details {
+      display: none;
+    }
+  
+    &.hover-effect-opacity .hover-effect-target {
+      transition: none;
+    }
+  
+    &:hover,
+    &:has(.select-card-check:checked) {
+      @include media-breakpoint-up(lg) {
+        z-index: 2;
+        box-shadow: var(--#{$prefix}box-shadow);
+      }
+    }
+  
+    &:hover .product-card-button,
+    .count-input:not(.collapsed) .product-card-button {
+      @extend .btn-primary;
+  
+      &:hover {
+        color: $white;
+      }
+    }
+  
+    &:hover {
+      @include media-breakpoint-up(lg) {
+        .product-card-details {
+          display: block;
+        }
+      }
+  
+      .hover-effect-underline {
+        text-decoration: underline !important;
+        text-decoration-thickness: var(--#{$prefix}underline-thickness) !important;
+      }
+  
+      .count-input .form-control,
+      [data-decrement] {
+        transition: visibility .2s ease-in-out, opacity .2s ease-in-out;
+      }
+  
+      .count-input:not(.collapsed) {
+        [data-count-input-value] {
+          display: none;
+        }
+  
+        [data-increment] > i {
+          display: inline-flex;
+        }
+      }
+  
+      .count-input.collapsed {
+        [data-increment] {
+          border-radius: var(--#{$prefix}border-radius-sm) !important;
+        }
+      }
+    }
+  
+    &:not(:hover) {
+      .count-input .form-control,
+      [data-decrement] {
+        visibility: hidden;
+        opacity: 0;
+      }
+  
+      .count-input:not(.collapsed) {
+        [data-count-input-value] {
+          display: inline;
+        }
+        [data-increment] > i {
+          display: none;
+        }
+      }
+  
+      [data-increment] {
+        border-radius: var(--#{$prefix}border-radius-sm) !important;
+      }
+    }
+}
+  
+  
+// Animated category card
+  
+.category-card-body,
+.category-card-title {
+    transition: transform .35s ease-in-out;
+    transform-origin: top center;
+    will-change: transform;
+}
+  
+.category-card-list {
+    position: absolute;
+    opacity: 0;
+    transition: transform .35s ease-in-out, opacity .35s ease-in-out;
+    will-change: transform, opacity;
+}
+  
+.category-card {
+    position: relative;
+    overflow: hidden;
+  
+    &:hover {
+      .category-card-body {
+        transform: scale(.67);
+      }
+      .category-card-title,
+      .category-card-list {
+        transform: scale(1.45);
+      }
+      .category-card-list {
+        opacity: 1;
+      }
+    }
+}
+
+// Dark mode
+
+@if $enable-dark-mode {
+    @include color-mode(dark) {
+      .product-card:hover .product-card-button {
+        @extend .btn-primary;
+      }
+    }
+}

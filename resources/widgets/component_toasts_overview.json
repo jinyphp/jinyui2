@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Overview",
+        "description": "Things to know when using the toast plugin:\n\nToasts are opt-in for performance reasons, so you must initialize them yourself.\nToasts will automatically hide if you do not specify autohide: false.",
+        "updated_at": "2024-07-08 11:48:55"
+    }
+}

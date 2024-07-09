@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const myPopoverTrigger = document.getElementById('myPopover')\nmyPopoverTrigger.addEventListener('hidden.bs.popover', () => {\n  \/\/ do something...\n})",
+        "updated_at": "2024-07-08 12:39:30"
+    }
+}

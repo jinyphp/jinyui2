@@ -1,0 +1,76 @@
+{
+    "items": {
+        "1": {
+            "method": "Method",
+            "description": "Description",
+            "created_at": "2024-07-08 12:36:05",
+            "updated_at": "2024-07-08 12:36:05"
+        },
+        "2": {
+            "method": "disable",
+            "description": "Removes the ability for an element’s popover to be shown. The popover will only be able to be shown if it is re-enabled.\n",
+            "created_at": "2024-07-08 12:36:44",
+            "updated_at": "2024-07-08 12:36:44"
+        },
+        "3": {
+            "method": "dispose",
+            "description": "Hides and destroys an element’s popover (Removes stored data on the DOM element). Popovers that use delegation (which are created using the selector option) cannot be individually destroyed on descendant trigger elements.\n",
+            "created_at": "2024-07-08 12:36:59",
+            "updated_at": "2024-07-08 12:36:59"
+        },
+        "4": {
+            "method": "enable",
+            "description": "Gives an element’s popover the ability to be shown. Popovers are enabled by default.\n",
+            "created_at": "2024-07-08 12:37:12",
+            "updated_at": "2024-07-08 12:37:12"
+        },
+        "5": {
+            "method": "getInstance",
+            "description": "Static method which allows you to get the popover instance associated with a DOM element.\n",
+            "created_at": "2024-07-08 12:37:24",
+            "updated_at": "2024-07-08 12:37:24"
+        },
+        "6": {
+            "method": "getOrCreateInstance",
+            "description": "Static method which allows you to get the popover instance associated with a DOM element, or create a new one in case it wasn’t initialized.\n",
+            "created_at": "2024-07-08 12:37:44",
+            "updated_at": "2024-07-08 12:37:44"
+        },
+        "7": {
+            "method": "hide",
+            "description": "Hides an element’s popover. Returns to the caller before the popover has actually been hidden (i.e. before the hidden.bs.popover event occurs). This is considered a “manual” triggering of the popover.\n",
+            "created_at": "2024-07-08 12:37:54",
+            "updated_at": "2024-07-08 12:37:54"
+        },
+        "8": {
+            "method": "setContent",
+            "description": "Gives a way to change the popover’s content after its initialization.\n",
+            "created_at": "2024-07-08 12:38:08",
+            "updated_at": "2024-07-08 12:38:08"
+        },
+        "9": {
+            "method": "show",
+            "description": "Reveals an element’s popover. Returns to the caller before the popover has actually been shown (i.e. before the shown.bs.popover event occurs). This is considered a “manual” triggering of the popover. Popovers whose title and content are both zero-length are never displayed.\n",
+            "created_at": "2024-07-08 12:38:18",
+            "updated_at": "2024-07-08 12:38:18"
+        },
+        "10": {
+            "method": "toggle",
+            "description": "Toggles an element’s popover. Returns to the caller before the popover has actually been shown or hidden (i.e. before the shown.bs.popover or hidden.bs.popover event occurs). This is considered a “manual” triggering of the popover.\n",
+            "created_at": "2024-07-08 12:38:38",
+            "updated_at": "2024-07-08 12:38:38"
+        },
+        "11": {
+            "method": "toggleEnabled",
+            "description": "Toggles the ability for an element’s popover to be shown or hidden.\n",
+            "created_at": "2024-07-08 12:38:50",
+            "updated_at": "2024-07-08 12:38:50"
+        },
+        "12": {
+            "method": "update",
+            "description": "Updates the position of an element’s popover。",
+            "created_at": "2024-07-08 12:39:17",
+            "updated_at": "2024-07-08 12:39:17"
+        }
+    }
+}

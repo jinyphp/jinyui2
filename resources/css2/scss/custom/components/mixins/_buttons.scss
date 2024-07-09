@@ -1,0 +1,17 @@
+// Button Soft
+
+@mixin button-variant-soft($bg) {
+    --#{$prefix}btn-color: #{$bg};
+    --#{$prefix}btn-bg: #{rgba($bg, 0.1)};
+    --#{$prefix}btn-border-color: #{transparent};
+    --#{$prefix}btn-hover-color: #{$white};
+    --#{$prefix}btn-hover-bg: #{$bg};
+    --#{$prefix}btn-hover-border-color: #{$bg};
+    --#{$prefix}btn-active-color: #{$white};
+    --#{$prefix}btn-active-bg: #{$bg};
+    --#{$prefix}btn-active-border-color: #{$bg};
+    --#{$prefix}btn-disabled-color: #{$bg};
+    --#{$prefix}btn-disabled-bg: #{$bg};
+    --#{$prefix}btn-disabled-border-color: #{$bg};
+    --#{$prefix}btn-focus-shadow-rgb: 0 0 0 $btn-focus-width rgba($bg, 0.5);
+}

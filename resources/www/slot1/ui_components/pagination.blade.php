@@ -27,13 +27,13 @@
     'filename' => "component_pagination_alignment2"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_pagination_variables"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_pagination_sass"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_pagination_sassMixins"
 ])
 

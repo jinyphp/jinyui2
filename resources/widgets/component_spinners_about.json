@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "About ",
+        "description": "Bootstrap “spinners” can be used to show the loading state in your projects. They’re built only with HTML and CSS, meaning you don’t need any JavaScript to create them. You will, however, need some custom JavaScript to toggle their visibility. Their appearance, alignment, and sizing can be easily customized with our amazing utility classes.\n\nFor accessibility purposes, each loader here includes role=\"status\" and a nested <span class=\"visually-hidden\">Loading...<\/span>.\n\nThe animation effect of this component is dependent on the prefers-reduced-motion media query. See the reduced motion section of our accessibility documentation.",
+        "updated_at": "2024-07-08 12:15:12"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "items": {
+        "1": {
+            "name": "Event",
+            "description": "Description",
+            "created_at": "2024-07-08 12:21:09",
+            "updated_at": "2024-07-08 12:21:09"
+        },
+        "2": {
+            "name": "activate.bs.scrollspy",
+            "description": "This event fires on the scroll element whenever an anchor is activated by the scrollspy.",
+            "created_at": "2024-07-08 12:21:59",
+            "updated_at": "2024-07-08 12:21:59"
+        }
+    }
+}

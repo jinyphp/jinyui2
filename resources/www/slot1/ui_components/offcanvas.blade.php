@@ -34,20 +34,20 @@
     'filename' => "component_offcanvas_placment3"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_offcanvas_variables"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_offcanvas_sass"
 ])
 <h2>Via data attributes</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_offcanvas_dismiss"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_offcanvas_dismiss2"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_offcanvas_viaJavaScript"
 ])
 </x-www-layout>

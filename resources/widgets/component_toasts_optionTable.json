@@ -1,0 +1,36 @@
+{
+    "items": {
+        "1": {
+            "name": "Name",
+            "type": "Type",
+            "default": "Default",
+            "description": "Description",
+            "created_at": "2024-07-08 12:00:00",
+            "updated_at": "2024-07-08 12:00:00"
+        },
+        "2": {
+            "name": "animation",
+            "type": "boolean",
+            "default": "true",
+            "description": "Apply a CSS fade transition to the toast.",
+            "created_at": "2024-07-08 12:00:20",
+            "updated_at": "2024-07-08 12:00:20"
+        },
+        "3": {
+            "name": "autohide",
+            "type": "boolean",
+            "default": "true",
+            "description": "Automatically hide the toast after the delay.",
+            "created_at": "2024-07-08 12:00:36",
+            "updated_at": "2024-07-08 12:00:36"
+        },
+        "4": {
+            "name": "delay",
+            "type": "number",
+            "default": "5000",
+            "description": "Delay in milliseconds before hiding the toast.",
+            "created_at": "2024-07-08 12:00:55",
+            "updated_at": "2024-07-08 12:00:55"
+        }
+    }
+}

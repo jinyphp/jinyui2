@@ -1,0 +1,366 @@
+// 
+// light-mode.scss
+// 
+
+
+:root {
+
+    // <=============================================>
+    // Bootstrap variable
+    // <=============================================>
+    
+    // scss-docs-start box-shadow-variables
+    --#{$prefix}box-shadow:                                    0px 0px 35px 0px #{rgba(154, 161, 171, 0.15)};
+    --#{$prefix}box-shadow-sm:                                 0 .125rem .25rem #{rgba($black, .075)};
+    --#{$prefix}box-shadow-lg:                                 0 0 45px 0 #{rgba(0, 0, 0, 0.12)};
+    --#{$prefix}box-shadow-inset:                              inset 0 1px 2px #{rgba($black, .075)};
+
+    // scss-docs-end box-shadow-variables
+    --#{$prefix}component-active-color:                        #{$white};
+    --#{$prefix}component-active-bg:                           #{$primary};
+
+    // scss-docs-start type-variables
+    --#{$prefix}text-muted:                                    #{$gray-600};
+    --#{$prefix}blockquote-footer-color:                       #{$gray-600};
+
+    --#{$prefix}mark-bg:                                       #fcf8e3;
+
+    // Border variable
+    --#{$prefix}border-color:                                  var(--#{$prefix}gray-300);
+
+
+    // scss-docs-start table-variables
+    .table, .table-bordered, .gantt {
+        --#{$prefix}table-striped-color:                            #{$gray-700};
+        --#{$prefix}table-striped-bg-custom:                        #{$gray-100};
+        --#{$prefix}table-active-color:                             #{$table-color};
+        --#{$prefix}table-active-bg-custom:                         #{rgba($gray-100, $table-active-bg-factor)};
+        --#{$prefix}table-hover-color:                              #{$table-color};
+        --#{$prefix}table-hover-bg-custom:                          #{rgba($gray-100, $table-hover-bg-factor)};
+        --#{$prefix}table-group-separator-color:                    #{lighten($gray-300, 5%)};
+        --#{$prefix}table-caption-color:                            #{$text-muted};
+    }
+    
+    // scss-docs-start dropdown-variables
+    .dropdown-menu, .select2-dropdown, .daterangepicker, .ql-toolbar, .tt-menu {
+        --#{$prefix}dropdown-color:                                 #{$body-color};
+        --#{$prefix}dropdown-bg:                                    #{$white};
+        --#{$prefix}dropdown-border-color:                          #{shade-color($light, 3%)};
+        --#{$prefix}dropdown-divider-bg:                            #{shade-color($light, 3%)};
+        --#{$prefix}dropdown-box-shadow:                            #{$box-shadow};
+        --#{$prefix}dropdown-link-color:                            #{$body-color};
+        --#{$prefix}dropdown-link-hover-color:                      #{shade-color($gray-900, 10%)};
+        --#{$prefix}dropdown-link-hover-bg:                         #{tint-color($gray-100, 1%)};
+        --#{$prefix}dropdown-link-active-color:                     #{$dark};
+        --#{$prefix}dropdown-link-active-bg:                        #{tint-color($light, 24%)};
+        --#{$prefix}dropdown-link-disabled-color:                   #{$gray-600};
+    }
+    
+    // scss-docs-s art dropdown-dark-variables
+    .dropdown-menu-dark, .select2-dropdown, .daterangepicker, .ql-toolbar {
+        --#{$prefix}dropdown-dark-color:                            #{$gray-300};
+        --#{$prefix}dropdown-dark-bg:                               #{$gray-800};
+        --#{$prefix}dropdown-dark-border-color:                     #{$dropdown-border-color};
+        --#{$prefix}dropdown-dark-divider-bg:                       #{$dropdown-divider-bg};
+        --#{$prefix}dropdown-dark-link-color:                       #{$dropdown-dark-color};
+        --#{$prefix}dropdown-dark-link-hover-color:                 #{$white};
+        --#{$prefix}dropdown-dark-link-hover-bg:                    #{rgba($white, .15)};
+        --#{$prefix}dropdown-dark-link-active-color:                #{$dropdown-link-active-color};
+        --#{$prefix}dropdown-dark-link-active-bg:                   #{$dropdown-link-active-bg};
+        --#{$prefix}dropdown-dark-link-disabled-color:              #{$gray-500};
+        --#{$prefix}dropdown-dark-header-color:                     #{$gray-500};
+    }
+
+    // scss-docs-start nav-variables
+    .nav {
+        --#{$prefix}nav-link-disabled-color:                        #{$gray-600};
+        --#{$prefix}nav-tabs-border-color:                          #{$gray-300};
+        --#{$prefix}nav-tabs-link-hover-border-color:               #{$gray-200} #{$gray-200} #{$nav-tabs-border-color};
+        --#{$prefix}nav-tabs-link-active-color:                     #{shade-color($gray-700, 20%)};
+        --#{$prefix}nav-tabs-link-active-bg:                        #{$white};
+        --#{$prefix}nav-tabs-link-active-border-color:              #{$gray-300 $gray-300 $nav-tabs-link-active-bg};
+    }
+
+    // scss-docs-start navbar-theme-variables
+    .navbar {
+        --#{$prefix}navbar-light-color:                             #{shade-color($gray-700,5%)};
+        --#{$prefix}navbar-light-hover-color:                       #{$gray-800};
+        --#{$prefix}navbar-light-active-color:                      #{rgba($black, .9)};
+        --#{$prefix}navbar-light-disabled-color:                    #{$gray-500};
+    }
+
+    // scss-docs-start navbar-dark-variables
+    .navbar-dark {
+        --#{$prefix}navbar-dark-color:                              #{rgba($white, .55)};
+        --#{$prefix}navbar-dark-hover-color:                        #{rgba($white, .75)};
+        --#{$prefix}navbar-dark-active-color:                       #{$white};
+        --#{$prefix}navbar-dark-disabled-color:                     #{rgba($white, .25)};
+        --#{$prefix}navbar-dark-toggler-border-color:               #{rgba($white, .1)};
+    }
+
+    // scss-docs-start card-variables
+    .card, .card-header {
+        --#{$prefix}card-border-color:                              #{$gray-300};
+        --#{$prefix}card-box-shadow:                                #{$box-shadow};
+        --#{$prefix}card-cap-bg:                                    #{$white};
+        --#{$prefix}card-bg:                                        #{$white};
+    }
+
+    // scss-docs-start accordion-variables
+    .accordion {
+        --#{$prefix}accordion-color:                                #{var(--#{$prefix}body-color)};
+        --#{$prefix}accordion-border-color:                         #{rgba($black, .125)};
+        --#{$prefix}accordion-button-active-bg:                     #{tint-color($primary, 90%)};
+        --#{$prefix}accordion-button-active-color:                  #{shade-color($primary, 10%)};
+        --#{$prefix}accordion-button-focus-border-color:            #{$input-focus-border-color};
+        --#{$prefix}accordion-button-focus-box-shadow:              #{inset 0 ($accordion-border-width * -1) 0 $accordion-border-color$btn-focus-box-shadow};
+    }
+
+    // scss-docs-start pagination-variables
+    .pagination {
+        --#{$prefix}pagination-color:                               #{$dark};
+        --#{$prefix}pagination-bg:                                  #{$white};
+        --#{$prefix}pagination-border-color:                        #{$gray-300};
+        --#{$prefix}pagination-focus-color:                         #{$link-hover-color};
+        --#{$prefix}pagination-focus-bg:                            #{$gray-200};
+        --#{$prefix}pagination-focus-box-shadow:                    #{$input-btn-focus-box-shadow};
+        --#{$prefix}pagination-hover-color:                         #{$dark};
+        --#{$prefix}pagination-hover-bg:                            #{$gray-200};
+        --#{$prefix}pagination-hover-border-color:                  #{$gray-300};
+        --#{$prefix}pagination-disabled-color:                      #{$gray-600};
+        --#{$prefix}pagination-disabled-bg:                         #{$white};
+        --#{$prefix}pagination-disabled-border-color:               #{$gray-300};
+    }
+
+
+    // scss-docs-start progress-variables
+    .progress, .irs, .gantt {
+        --#{$prefix}progress-bg:                                    #{$gray-200};
+        --#{$prefix}progress-box-shadow:                            #{$box-shadow-inset};
+        --#{$prefix}progress-bar-color:                             #{$white};
+        --#{$prefix}progress-bar-bg:                                #{$primary};
+    }
+
+
+    // scss-docs-start list-group-variables
+    .list-group {
+        --#{$prefix}list-group-color:                               #{$gray-900};
+        --#{$prefix}list-group-bg:                                  #{$white};
+        --#{$prefix}list-group-border-color:                        #{tint-color($gray-300,20%)};
+        --#{$prefix}list-group-hover-bg:                            #{$gray-100};
+        --#{$prefix}list-group-disabled-color:                      #{$gray-700};
+        --#{$prefix}list-group-disabled-bg:                         #{tint-color($gray-100,30%)};
+        --#{$prefix}list-group-action-color:                        #{$gray-700};
+        --#{$prefix}list-group-action-active-color:                 #{$body-color};
+        --#{$prefix}list-group-action-active-bg:                    #{$gray-200};
+    }
+
+
+    // scss-docs-start toast-variables
+    .toast {
+        --#{$prefix}toast-background-color:                         #{rgba($white, .85)};
+        --#{$prefix}toast-border-color:                             #{rgba($gray-900, .1)};
+        --#{$prefix}toast-header-background-color:                  #{rgba($white, .85)};
+        --#{$prefix}toast-header-border-color:                      #{rgba($gray-900, .05)};
+    }
+
+    
+    // scss-docs-start modal-variables.
+    .modal, .modal-backdrop, .offcanvas, .offcanvas-backdrop {
+        --#{$prefix}modal-content-bg:                               #{$white};
+        --#{$prefix}modal-content-box-shadow-xs:                    #{$box-shadow-sm};
+        --#{$prefix}modal-content-box-shadow-sm-up:                 #{$box-shadow};
+        --#{$prefix}modal-backdrop-bg:                              #{$gray-900};
+        --#{$prefix}modal-header-border-color:                      #{$border-color};
+        --#{$prefix}modal-footer-border-color:                      #{$border-color};
+    }
+
+
+    // scss-docs-start offcanvas-variables
+    .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
+        --#{$prefix}offcanvas-bg:                           #{$white};
+        --#{$prefix}offcanvas-border-color:                  #{transparent};
+    }
+
+
+    // scss-docs-start tooltip-variables
+    .tooltip {
+        --#{$prefix}tooltip-color: #fff;
+        --#{$prefix}tooltip-bg: #000;
+    }
+
+
+    // scss-docs-start popover-variables
+    .popover {
+        --#{$prefix}popover-bg:                                     #{$white};
+        --#{$prefix}popover-border-color:                           #{$gray-300};
+        --#{$prefix}popover-header-bg:                              #{$gray-100};
+        --#{$prefix}popover-header-color:                           #{$headings-color};
+        --#{$prefix}popover-body-color:                             #{$body-color};
+        --#{$prefix}popover-arrow-color:                            #{$white};
+        --#{$prefix}popover-arrow-outer-color:                      #{$gray-400};
+    }
+    
+    
+    // scss-docs-start form-text-variables
+    --#{$prefix}form-text-color:                                #{$text-muted};
+
+    // scss-docs-start form-input-variables
+    --#{$prefix}input-bg:                                       #{$white};
+    --#{$prefix}input-disabled-bg:                              #{$gray-200};
+    --#{$prefix}input-color:                                    #{$body-color};
+    --#{$prefix}input-border-color:                             #{$gray-300};
+    --#{$prefix}input-box-shadow:                               #{$box-shadow-inset};
+    --#{$prefix}input-focus-bg:                                 #{$input-bg};
+    --#{$prefix}input-focus-border-color:                       #{shade-color($gray-300,10%)};
+    --#{$prefix}input-focus-color:                              #{$input-color};
+    --#{$prefix}input-placeholder-color:                        #{$gray-500};
+    --#{$prefix}input-plaintext-color:                          #{$body-color};
+
+    // scss-docs-start form-check-variables
+    --#{$prefix}form-check-input-bg:                            #{$white};
+    --#{$prefix}form-check-input-border:                        #{$border-width solid ($gray-400)};
+    --#{$prefix}form-check-input-checked-color:                 #{$component-active-color};
+    --#{$prefix}form-check-input-checked-bg-color:              #{$component-active-bg};
+    --#{$prefix}form-check-input-checked-border-color:          #{$form-check-input-checked-bg-color};
+    --#{$prefix}form-check-input-indeterminate-color:           #{$component-active-color};
+    --#{$prefix}form-check-input-indeterminate-bg-color:        #{$component-active-bg};
+    --#{$prefix}form-check-input-indeterminate-border-color:    #{$form-check-input-indeterminate-bg-color};
+
+    // scss-docs-start form-switch-variables
+    --#{$prefix}form-switch-color:                              #{$gray-300};
+
+    // scss-docs-start input-group-variables
+    --#{$prefix}input-group-addon-color:                        #{$input-color};
+    --#{$prefix}input-group-addon-bg:                           #{$gray-200};
+    --#{$prefix}input-group-addon-border-color:                 #{$gray-300};
+
+    // scss-docs-start form-select-variables
+    --#{$prefix}form-select-color:                              #{$input-color};
+    --#{$prefix}form-select-bg:                                 #{$input-bg};
+    --#{$prefix}form-select-disabled-color:                     #{$gray-600};
+    --#{$prefix}form-select-disabled-bg:                        #{$gray-200};
+    --#{$prefix}form-select-disabled-border-color:              #{$input-disabled-border-color};
+    --#{$prefix}form-select-indicator-color:                    #{$gray-800};
+
+    // scss-docs-start form-range-variables
+    --#{$prefix}form-range-track-bg:                            #{$gray-300};
+    --#{$prefix}form-range-track-box-shadow:                    #{$box-shadow-inset};
+    --#{$prefix}form-range-thumb-box-shadow:                    0 .1rem .25rem #{rgba($black, .1)};
+    --#{$prefix}form-range-thumb-active-bg:                     #{tint-color($primary, 70%)};
+    --#{$prefix}form-range-thumb-disabled-bg:                   #{$gray-500};
+
+    // scss-docs-start form-file-variables
+    --#{$prefix}form-file-button-color:                         #{$input-color};
+    --#{$prefix}form-file-button-bg:                            #{$gray-200};
+    --#{$prefix}form-file-button-hover-bg:                      #{shade-color($gray-200, 5%)};
+
+    // scss-docs-start thumbnail-variables
+    --#{$prefix}thumbnail-bg:                                   #{$white};
+    --#{$prefix}thumbnail-border-color:                         #{$gray-300};
+    --#{$prefix}thumbnail-box-shadow:                           #{$box-shadow-sm};
+
+    // scss-docs-start close-variables
+    --#{$prefix}btn-close-color:                                #{$gray-900};
+
+    --#{$prefix}kbd-color:                                      #{$white};
+    --#{$prefix}kbd-bg:                                         #{$gray-900};
+    --#{$prefix}pre-color:                                      #{null};
+
+    
+    // <=============================================>
+    // Custome variable
+    // <=============================================>
+
+    // Left Sidebar
+    --#{$prefix}bg-leftbar:                      #{$white};
+
+    // Menu
+    --#{$prefix}menu-item:                        #cedce4;
+    --#{$prefix}menu-item-hover:                  #{$white};
+    --#{$prefix}menu-item-active:                 #{$white};
+
+    // Topbar
+    --#{$prefix}bg-topbar:                       #{$white};
+    --#{$prefix}bg-topbar-search:                #{tint-color($gray-200,10%)};
+    --#{$prefix}nav-user-bg-topbar:              #{lighten($gray-100, 1%)};
+    --#{$prefix}nav-user-border-topbar:          #414d5d;
+    --#{$prefix}notification-border-color:       #{$gray-200};
+    --#{$prefix}notification-bg:                 #{$gray-100};
+
+    // Dark Topbar
+    --#{$prefix}bg-dark-topbar:                  #313a46;
+    --#{$prefix}bg-dark-topbar-search:           #3c4655;
+    --#{$prefix}nav-user-bg-dark-topbar:         #3c4655;
+    --#{$prefix}nav-user-border-dark-topbar:     #414d5d;
+
+    // Background left-sidebar
+    --#{$prefix}bg-leftbar-gradient:             #{linear-gradient(135deg, #8f75da 0%, #727cf5 60%)};
+    --#{$prefix}bg-topnav:                       #313a46;
+
+    // Boxed Layout
+    --#{$prefix}boxed-layout-bg:                 #{$white};
+
+    // Helpbox
+    --#{$prefix}help-box-light-bg:               #{rgba($white, 0.07)};
+    --#{$prefix}help-box-dark-bg:                #{$primary};
+
+    // Nav-pill background
+    --#{$prefix}nav-pills-bg:                    #eef2f7;
+
+    // Custom-accordion
+    --#{$prefix}custom-accordion-title-color:    #{$gray-900};
+
+    // Dragula demo background
+    --#{$prefix}dragula-bg:                      #f7f9fb;
+
+    // Form wizard header background
+    --#{$prefix}form-wizard-header-bg:           #eef2f7;
+
+    // Text title color
+    --#{$prefix}text-title-color:                #6c757d;
+
+    // Page title color
+    --#{$prefix}page-title-color:                #{$gray-700};
+
+    // card Loader background
+    --#{$prefix}card-loader-bg:                  #{$gray-900};
+
+    // Chat widget
+    --#{$prefix}chat-primary-user-bg:            #fef5e4;
+    --#{$prefix}chat-secondary-user-bg:          #f1f3fa;
+
+    // User authentication Background
+    --#{$prefix}auth-bg:                         #{$white};
+
+    // Apex chart
+    --#{$prefix}apex-grid-color:                 #f9f9fd;
+
+    // Hero
+    --#{$prefix}hero-bg:                         #{linear-gradient(to bottom,#8669ed,#727cf5)};
+
+    --#{$prefix}display-dark:    block;
+    --#{$prefix}display-light:    none;
+}
+
+
+
+html[data-sidenav-color="dark"] {
+    // Left Sidebar
+   --#{$prefix}bg-leftbar:                       #{$gray-900};
+
+   // Menu
+   --#{$prefix}dark-menu-item:                   #8391a2;
+   --#{$prefix}dark-menu-item-hover:             #bccee4;
+   --#{$prefix}dark-menu-item-active:            #{$white};
+}
+
+
+
+html[data-sidenav-color="default"] {
+    // Menu
+    --#{$prefix}menu-item:                           #cedce4;
+    --#{$prefix}menu-item-hover:                     #{$white};
+    --#{$prefix}menu-item-active:                    #{$white};
+}
+

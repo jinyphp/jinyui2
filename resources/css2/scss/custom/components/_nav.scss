@@ -1,0 +1,89 @@
+//
+// tabs.scss
+//
+
+.nav {
+    --#{$prefix}nav-link-line-height: #{$nav-link-line-height};
+    --#{$prefix}nav-link-active-color: #{$nav-link-active-color};
+  
+    flex-direction: row;
+    gap: 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+  
+    &.show {
+      color: var(--#{$prefix}nav-link-hover-color);
+    }
+  
+    &.active {
+      color: var(--#{$prefix}nav-link-active-color);
+    }
+  
+    &.disabled,
+    &:disabled {
+      color: var(--#{$prefix}nav-link-disabled-color);
+    }
+  
+    &.text-body,
+    &.text-body-secondary,
+    &.text-body-tertiary {
+      &:hover,
+      &:focus-visible,
+      &.show {
+        color: var(--#{$prefix}nav-link-hover-color) !important;
+      }
+      &.active {
+        color: var(--#{$prefix}nav-link-active-color) !important;
+      }
+      &.disabled,
+      &:disabled {
+        color: var(--#{$prefix}nav-link-disabled-color) !important;
+      }
+    }
+}
+
+.nav-tabs,
+.nav-pills {
+    > li {
+        > a {
+            color: var(--#{$prefix}gray-700);
+            font-weight: $font-weight-semibold;
+        }
+    }
+}
+
+.nav-pills {
+    > a {
+        color: var(--#{$prefix}gray-700);
+        font-weight: $font-weight-semibold;
+    }
+}
+
+.bg-nav-pills {
+    background-color: $nav-pills-bg;
+}
+
+//
+// nav-bordered
+//
+
+.nav-tabs.nav-bordered {
+    border-bottom: 2px solid var(--#{$prefix}gray-300);
+
+    .nav-item {
+        margin-bottom: -1px;
+    }
+
+    li {
+        a {
+            border: 0;
+            padding: 0.625rem 1.25rem;
+        }
+        a.active {
+            border-bottom: 2px solid $primary;
+        }
+    }
+}
