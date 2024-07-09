@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const myToastEl = document.getElementById('myToast')\nmyToastEl.addEventListener('hidden.bs.toast', () => {\n  \/\/ do something...\n})",
+        "updated_at": "2024-07-08 12:08:19"
+    }
+}

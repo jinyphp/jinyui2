@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const tooltip = bootstrap.Tooltip.getInstance('#example') \/\/ Returns a Bootstrap tooltip instance\n\n\/\/ setContent example\ntooltip.setContent({ '.tooltip-inner': 'another title' })",
+        "updated_at": "2024-07-05 11:26:02"
+    }
+}

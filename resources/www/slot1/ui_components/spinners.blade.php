@@ -2,6 +2,9 @@
     @livewire('WidgetTitle', [
     'filename' => "component_spinners_title"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_spinners_about"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_border"
 ])
@@ -44,22 +47,22 @@
     'filename' => "component_spinners_button2"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_variables"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_variables2"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_variables3"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_sass"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_keyframes"
 ])
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_keyframes2"
 ])
 </x-www-layout>

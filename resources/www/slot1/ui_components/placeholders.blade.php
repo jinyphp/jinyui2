@@ -22,7 +22,7 @@
     'filename' => "component_placeholders_animation"
 ])
 <h2>CSS</h2>
-    @livewire('WidgetCode-OnlyCode', [
+    @livewire('WidgetOnlyCode', [
     'filename' => "component_placeholders_Sass"
 ])
 
