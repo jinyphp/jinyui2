@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Events",
+        "description": "Bootstrap’s carousel class exposes two events for hooking into carousel functionality. Both events have the following additional properties:\n\n- direction: The direction in which the carousel is sliding (either \"left\" or \"right\").\n- relatedTarget: The DOM element that is being slid into place as the active item.\n- from: The index of the current item\n- to: The index of the next item\nAll carousel events are fired at the carousel itself (i.e. at the <div class=\"carousel\">).",
+        "updated_at": "2024-07-09 03:34:52"
+    }
+}

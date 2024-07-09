@@ -23,4 +23,8 @@
     'filename' => "component_collapse_code11"])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_collapse_code12"])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_collapse_option"])
+    @livewire('WidgetTableStyle1', [
+    'filename' => "component_collapse_option_table"])
 </x-www-layout>

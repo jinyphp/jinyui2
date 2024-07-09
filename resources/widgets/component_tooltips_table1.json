@@ -1,0 +1,12 @@
+{
+    "items": {
+        "1": {
+            "name": "asd",
+            "type": "asdasd",
+            "default": "asdad",
+            "description": "asdad",
+            "created_at": "2024-07-04 08:33:07",
+            "updated_at": "2024-07-04 08:33:07"
+        }
+    }
+}

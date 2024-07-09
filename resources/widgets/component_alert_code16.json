@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Triggers",
+        "description": "Dismissal can be achieved with the data-bs-dismiss attribute on a button within the alert as demonstrated below:",
+        "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"><\/button>",
+        "updated_at": "2024-07-09 03:09:35"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "items": {
+        "1": {
+            "name": "Method",
+            "type": "Description",
+            "created_at": "2024-07-09 03:10:49",
+            "updated_at": "2024-07-09 03:10:49"
+        },
+        "2": {
+            "name": "close",
+            "type": "Closes an alert by removing it from the DOM. If the .fade and .show classes are present on the element, the alert will fade out before it is removed.",
+            "created_at": "2024-07-09 03:11:06",
+            "updated_at": "2024-07-09 03:11:06"
+        },
+        "3": {
+            "name": "dispose",
+            "type": "Destroys an element’s alert. (Removes stored data on the DOM element)",
+            "created_at": "2024-07-09 03:11:20",
+            "updated_at": "2024-07-09 03:11:20"
+        },
+        "4": {
+            "name": "getInstance",
+            "type": "Static method which allows you to get the alert instance associated to a DOM element. For example: bootstrap.Alert.getInstance(alert).",
+            "created_at": "2024-07-09 03:11:33",
+            "updated_at": "2024-07-09 03:11:33"
+        },
+        "5": {
+            "name": "getOrCreateInstance",
+            "type": "\tStatic method which returns an alert instance associated to a DOM element or create a new one in case it wasn’t initialized. You can use it like this: bootstrap.Alert.getOrCreateInstance(element).",
+            "created_at": "2024-07-09 03:11:45",
+            "updated_at": "2024-07-09 03:11:45"
+        }
+    }
+}
