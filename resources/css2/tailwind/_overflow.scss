@@ -1,0 +1,134 @@
+
+.overflow-auto{
+    overflow: auto;
+  }
+
+  .overflow-hidden{
+    overflow: hidden;
+  }
+
+  .overflow-visible{
+    overflow: visible;
+  }
+
+  .overflow-scroll{
+    overflow: scroll;
+  }
+
+  .overflow-x-auto{
+    overflow-x: auto;
+  }
+
+  .overflow-y-auto{
+    overflow-y: auto;
+  }
+
+  .overflow-x-hidden{
+    overflow-x: hidden;
+  }
+
+  .overflow-y-hidden{
+    overflow-y: hidden;
+  }
+
+  .overflow-x-visible{
+    overflow-x: visible;
+  }
+
+  .overflow-y-visible{
+    overflow-y: visible;
+  }
+
+  .overflow-x-scroll{
+    overflow-x: scroll;
+  }
+
+  .overflow-y-scroll{
+    overflow-y: scroll;
+  }
+
+  .overscroll-auto{
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .overscroll-contain{
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .overscroll-none{
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .overscroll-y-auto{
+    overscroll-behavior-y: auto;
+  }
+
+  .overscroll-y-contain{
+    overscroll-behavior-y: contain;
+  }
+
+  .overscroll-y-none{
+    overscroll-behavior-y: none;
+  }
+
+  .overscroll-x-auto{
+    overscroll-behavior-x: auto;
+  }
+
+  .overscroll-x-contain{
+    overscroll-behavior-x: contain;
+  }
+
+  .overscroll-x-none{
+    overscroll-behavior-x: none;
+  }
+
+  .truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .overflow-ellipsis{
+    text-overflow: ellipsis;
+  }
+
+  .overflow-clip{
+    text-overflow: clip;
+  }
+
+  .whitespace-normal{
+    white-space: normal;
+  }
+
+  .whitespace-nowrap{
+    white-space: nowrap;
+  }
+
+  .whitespace-pre{
+    white-space: pre;
+  }
+
+  .whitespace-pre-line{
+    white-space: pre-line;
+  }
+
+  .whitespace-pre-wrap{
+    white-space: pre-wrap;
+  }
+
+  .break-normal{
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .break-words{
+    overflow-wrap: break-word;
+  }
+
+  .break-all{
+    word-break: break-all;
+  }

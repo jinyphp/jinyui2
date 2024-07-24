@@ -1,0 +1,19 @@
+//
+// text.scss
+//
+
+// Dark Mode
+
+html[data-theme="dark"] {
+    .text-body {
+        color: var(--#{$prefix}gray-500) !important;
+    }
+
+    .text-light {
+        color: var(--#{$prefix}gray-300) !important;
+    }
+
+    .text-secondary {
+        color: var(--#{$prefix}gray-700) !important;
+    }
+}

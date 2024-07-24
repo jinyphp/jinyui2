@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "You can create an alert instance with the alert constructor, for example:",
+        "updated_at": "2024-07-09 03:13:12",
+        "title": "Methods",
+        "code": "const bsAlert = new bootstrap.Alert('#myAlert')"
+    }
+}

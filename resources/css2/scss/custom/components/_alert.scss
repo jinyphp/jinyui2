@@ -1,0 +1,24 @@
+//
+// alert.scss
+//
+
+.alert .btn-close {
+    --#{$prefix}btn-close-size: .6875em;
+    --#{$prefix}btn-close-opacity: .75;
+    --#{$prefix}btn-close-hover-opacity: 1;
+  
+    padding: $alert-padding-y * 1.375 $alert-padding-x;
+}
+
+@each $color,
+$value in $theme-colors {
+    .alert-#{$color} {
+        --#{$prefix}alert-color: #{shade-color($value, 5%)};
+        --#{$prefix}alert-bg: #{rgba($value, 0.18)};
+        --#{$prefix}alert-border-color: #{rgba($value, 0.25)};
+
+        .alert-link {
+            --#{$prefix}alert-color: shade-color($value, 30%);
+        }
+    }
+}

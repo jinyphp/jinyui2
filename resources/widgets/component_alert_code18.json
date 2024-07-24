@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "",
+        "description": "Basic usage:",
+        "code": "const alert = bootstrap.Alert.getOrCreateInstance('#myAlert')\nalert.close()",
+        "updated_at": "2024-07-09 03:13:29"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "items": {
+        "1": {
+            "name": "Name",
+            "type": "Type",
+            "default": "Default",
+            "description": "Description",
+            "created_at": "2024-07-09 03:25:37",
+            "updated_at": "2024-07-09 03:25:37"
+        },
+        "2": {
+            "name": "interval",
+            "type": "number",
+            "default": "5000",
+            "description": "The amount of time to delay between automatically cycling an item.",
+            "created_at": "2024-07-09 03:25:56",
+            "updated_at": "2024-07-09 03:25:56"
+        },
+        "3": {
+            "name": "keyboard",
+            "type": "boolean",
+            "default": "true",
+            "description": "Whether the carousel should react to keyboard events.",
+            "created_at": "2024-07-09 03:26:19",
+            "updated_at": "2024-07-09 03:26:19"
+        },
+        "4": {
+            "name": "pause",
+            "type": "string, boolean",
+            "default": "\"hover\"",
+            "description": "If set to \"hover\", pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on mouseleave. If set to false, hovering over the carousel won’t pause it. On touch-enabled devices, when set to \"hover\", cycling will pause on touchend (once the user finished interacting with the carousel) for two intervals, before automatically resuming. This is in addition to the mouse behavior.",
+            "created_at": "2024-07-09 03:27:15",
+            "updated_at": "2024-07-09 03:27:15"
+        },
+        "5": {
+            "name": "ride",
+            "type": "string, boolean",
+            "default": "false",
+            "description": "If set to true, autoplays the carousel after the user manually cycles the first item. If set to \"carousel\", autoplays the carousel on load.",
+            "created_at": "2024-07-09 03:27:33",
+            "updated_at": "2024-07-09 03:27:33"
+        },
+        "6": {
+            "name": "touch",
+            "type": "boolean",
+            "default": "true",
+            "description": "Whether the carousel should support left\/right swipe interactions on touchscreen devices.",
+            "created_at": "2024-07-09 03:27:51",
+            "updated_at": "2024-07-09 03:27:51"
+        },
+        "7": {
+            "name": "wrap",
+            "type": "boolean",
+            "default": "true",
+            "description": "Whether the carousel should cycle continuously or have hard stops.",
+            "created_at": "2024-07-09 03:28:09",
+            "updated_at": "2024-07-09 03:28:09"
+        }
+    }
+}

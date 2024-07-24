@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const myAlert = document.getElementById('myAlert')\nmyAlert.addEventListener('closed.bs.alert', event => {\n  \/\/ do something, for instance, explicitly move focus to the most appropriate element,\n  \/\/ so it doesn't get lost\/reset to the start of the page\n  \/\/ document.getElementById('...').focus()\n})",
+        "updated_at": "2024-07-09 03:14:44"
+    }
+}

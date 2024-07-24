@@ -1,6 +1,14 @@
 {
     "items": {
         "1": {
+<<<<<<< HEAD
+            "name": "asd",
+            "type": "asdasd",
+            "default": "asdad",
+            "description": "asdad",
+            "created_at": "2024-07-04 08:33:07",
+            "updated_at": "2024-07-04 08:33:07"
+=======
             "name": "Name",
             "type": "Type",
             "default": "Default",
@@ -135,6 +143,7 @@
             "description": "How tooltip is triggered: click, hover, focus, manual. You may pass multiple triggers; separate them with a space. 'manual' indicates that the tooltip will be triggered programmatically via the .tooltip('show'), .tooltip('hide') and .tooltip('toggle') methods; this value cannot be combined with any other trigger. 'hover' on its own will result in tooltips that cannot be triggered via the keyboard, and should only be used if alternative methods for conveying the same information for keyboard users is present.",
             "created_at": "2024-07-05 10:48:25",
             "updated_at": "2024-07-05 10:48:25"
+>>>>>>> 4a607b9c43ad0dcd2c464284bd0e6d6048c17791
         }
     }
 }
