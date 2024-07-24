@@ -1,0 +1,20 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    isolate : isolate,
+    isolation-auto : auto,
+);
+
+@each $key, $value in $obj {
+    .#{$key} {
+        isolation: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:#{$key} {
+                isolation: $value;
+            }
+        }
+    }
+}
