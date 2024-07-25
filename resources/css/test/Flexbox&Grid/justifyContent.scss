@@ -1,0 +1,26 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    normal : normal,
+    start : flex-start,
+    end : flex-end,
+    center : center,
+    between : space-between,
+    around : space-around,
+    evenly : space-evenly,
+    stretch : stretch,
+);
+
+@each $key, $value in $obj {
+    .justify-#{$key} {
+        justify-content: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:justify-#{$key} {
+                justify-content: $value;
+            }
+        }
+    }
+}
