@@ -1,0 +1,33 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+ 1: 1,
+ 2: 2,
+ 3: 3,
+ 4: 4,
+ 5: 5,
+ 6: 6,
+ 7: 7,
+ 8: 8,
+ 9: 9,
+ 10: 10,
+ 11: 11,
+ 12: 12,
+ first: -9999,
+ last: 9999,
+ none: 0
+);
+
+@each $key, $value in $obj {
+    .order-#{$key} {
+        order: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:order-#{$key} {
+                order: $value;
+            }
+        }
+    }
+}

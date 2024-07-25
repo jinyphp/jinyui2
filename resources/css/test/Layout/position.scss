@@ -1,0 +1,23 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    static : static,
+    fixed : fixed,
+    absolute : absolute,
+    relative : relative,
+    sticky : sticky,
+);
+
+@each $key, $value in $obj {
+    .#{$key} {
+        position: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:#{$key} {
+                position: $value;
+            }
+        }
+    }
+}
