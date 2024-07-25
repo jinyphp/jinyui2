@@ -97,6 +97,13 @@ $obj: (
                 right: $value;
             }
         }
+        
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:inset-y-#{$key} {
+                top: $value;
+                bottom: $value;
+            }
+        }
 
         @include breakpoint($breakpoint) {
             .#{$breakpoint}\:start-#{$key} {
@@ -133,35 +140,6 @@ $obj: (
                 left: $value;
             }
         }
-
-        @include breakpoint($breakpoint) {
-            .#{$breakpoint}\:inset-y-#{$key} {
-                top: $value;
-                bottom: $value;
-            }
-        }
-
-        @include breakpoint($breakpoint) {
-            .#{$breakpoint}\:inset-y-#{$key} {
-                top: $value;
-                bottom: $value;
-            }
-        }
-
-        @include breakpoint($breakpoint) {
-            .#{$breakpoint}\:inset-y-#{$key} {
-                top: $value;
-                bottom: $value;
-            }
-        }
-
-        @include breakpoint($breakpoint) {
-            .#{$breakpoint}\:inset-y-#{$key} {
-                top: $value;
-                bottom: $value;
-            }
-        }
-
 
     }
 }
