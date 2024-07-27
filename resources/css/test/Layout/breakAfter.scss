@@ -1,0 +1,26 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    auto: auto,
+    avoid: avoid,
+    all: all,
+    avoid-page: avoid-page,
+    page: page,
+    left: left,
+    right: right,
+    column: column,
+);
+
+@each $key, $value in $obj {
+    .break-after-#{$key} {
+        break-after: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:break-after-#{$key} {
+                break-after: $value;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    visible : visible,
+    invisible : hidden,
+    collapse : collapse,
+);
+
+@each $key, $value in $obj {
+    .#{$key} {
+        visibility: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:#{$key} {
+                visibility: $value;
+            }
+        }
+    }
+}

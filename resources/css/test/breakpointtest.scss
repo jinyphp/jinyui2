@@ -1,0 +1,21 @@
+// _breakpoints.scss
+
+// 브레이크포인트 변수 정의
+$breakpoints: (
+    "sm": 640px,
+    "md": 768px,
+    "lg": 1024px,
+    "xl": 1280px,
+);
+
+// 미디어 쿼리 믹스인
+@mixin breakpoint($size) {
+    @if map-has-key($breakpoints, $size) {
+        @media (max-width: map-get($breakpoints, $size)) {
+            @content;
+        }
+    } @else {
+        @warn "Unfortunately, no value could be retrieved from `#{$size}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+}

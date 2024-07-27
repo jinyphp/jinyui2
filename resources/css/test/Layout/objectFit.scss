@@ -1,0 +1,23 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    contain : contain,
+    cover : cover,
+    fill : fill,
+    none : none,
+    scale-down : scale-down,
+);
+
+@each $key, $value in $obj {
+    .object-#{$key} {
+        object-fit: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:object-#{$key} {
+                object-fit: $value;
+            }
+        }
+    }
+}

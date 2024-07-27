@@ -1,0 +1,27 @@
+@import "../breakpointtest.scss";
+
+$obj: (
+    normal : normal,
+    center : center,
+    start : flex-start,
+    end : flex-end,
+    between : space-between,
+    around : space-around,
+    evenly : space-evenly,
+    baseline : baseline,
+    stretch : stretch
+);
+
+@each $key, $value in $obj {
+    .content-#{$key} {
+        align-content: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:content-#{$key} {
+                align-content: $value;
+            }
+        }
+    }
+}
