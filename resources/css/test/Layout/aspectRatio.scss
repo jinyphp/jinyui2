@@ -2,8 +2,8 @@
 
 $ratio: (
     auto: auto,
-    square: 1/1,
-    video: 16/9,
+    square: 1\/1,
+    video: 16\/9,
 );
 
 @each $key, $value in $ratio {

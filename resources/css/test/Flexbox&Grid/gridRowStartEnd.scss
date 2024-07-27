@@ -1,3 +1,4 @@
+@use 'sass:math';
 @import "../breakpointtest.scss";
 
 $obj1: (
@@ -31,7 +32,7 @@ $obj2: (
     span-10 : span 10 / span 10,
     span-11 : span 11 / span 11,
     span-12 : span 12 / span 12,
-    span-full : 1 / -1
+    span-full: math.div(1, -1)
 );
 
 
