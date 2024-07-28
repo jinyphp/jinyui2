@@ -79,42 +79,100 @@ $obj: (
         scroll-margin-left: $value;
     }
 
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-m-#{$key}") {
+            scroll-margin: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-mx-#{$key}") {
+            scroll-margin-left: $value;
+            scroll-margin-right: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-my-#{$key}") {
+            scroll-margin-top: $value;
+            scroll-margin-bottom: $value;
+        }
+    }
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-ms-#{$key}") {
+            scroll-margin-inline-start: $value;
+        }
+    }
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-me-#{$key}") {
+            scroll-margin-inline-end: $value;
+        }
+    }
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-mt-#{$key}") {
+            scroll-margin-top: $value;
+        }
+    }
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-mr-#{$key}") {
+            scroll-margin-right: $value;
+        }
+    }
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-mb-#{$key}") {
+            scroll-margin-bottom: $value;
+        }
+    }
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-ml-#{$key}") {
+            scroll-margin-left: $value;
+        }
+    }
+
     @each $breakpoint in map-keys($breakpoints) {
         @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-m-#{$key} {
                 scroll-margin: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-mx-#{$key} {
                 scroll-margin-left: $value;
                 scroll-margin-right: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-my-#{$key} {
                 scroll-margin-top: $value;
                 scroll-margin-bottom: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-ms-#{$key} {
                 scroll-margin-inline-start: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-me-#{$key} {
                 scroll-margin-inline-end: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-mt-#{$key} {
                 scroll-margin-top: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-mr-#{$key} {
                 scroll-margin-right: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-mb-#{$key} {
                 scroll-margin-bottom: $value;
             }
-
+        }
+        @include breakpoint($breakpoint) {
             .#{$breakpoint}\:scroll-ml-#{$key} {
                 scroll-margin-left: $value;
             }
