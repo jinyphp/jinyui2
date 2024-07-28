@@ -1,0 +1,27 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
+
+$obj: (
+    normal:normal,
+    always:always,
+);
+
+@each $key, $value in $obj {
+    .sanp-#{$key} {
+        scroll-snap-stop: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "sanp-#{$key}") {
+            scroll-snap-stop: $value;
+        }
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:sanp-#{$key} {
+                scroll-snap-stop: $value;
+            }
+        }
+    }
+}
