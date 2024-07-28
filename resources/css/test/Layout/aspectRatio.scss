@@ -1,14 +1,21 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $ratio: (
     auto: auto,
-    square: 1/1,
-    video: 16/9,
+    square: 1\/1,
+    video: 16\/9,
 );
 
 @each $key, $value in $ratio {
     .aspect-#{$key} {
         aspect-ratio: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "aspect-#{$key}") {
+            aspect-ratio: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

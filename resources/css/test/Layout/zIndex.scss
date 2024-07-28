@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     0:0,
@@ -13,6 +14,12 @@ $obj: (
 @each $key, $value in $obj {
     .z-#{$key} {
         z-index: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "z-#{$key}") {
+            z-index: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

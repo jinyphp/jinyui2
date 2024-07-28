@@ -1,0 +1,16 @@
+// pseudo
+$pseudos: (
+    hover : hover,
+    focus : focus,
+    active : active
+);
+
+// 미디어 쿼리 믹스인
+@mixin pseudo($pseudoClass, $class) {
+    @if map-has-key($pseudos, $pseudoClass) {
+        $pseudo: map-get($pseudos, $pseudoClass);
+        .#{$pseudo}\:#{$class}:#{$pseudo} {
+            @content;
+        }
+    }
+}

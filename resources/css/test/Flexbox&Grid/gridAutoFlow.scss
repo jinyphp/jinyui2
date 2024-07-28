@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     row : row,
@@ -12,6 +13,12 @@ $obj: (
     .grid-flow-#{$key} {
         grid-auto-flow: $value;
     }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "grid-flow-#{$key}") {
+            grid-auto-flow: $value;
+        }
+    }    
 
     @each $breakpoint in map-keys($breakpoints) {
         @include breakpoint($breakpoint) {

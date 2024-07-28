@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     1 : repeat(1, minmax(0, 1fr)),
@@ -20,6 +21,12 @@ $obj: (
 @each $key, $value in $obj {
     .grid-rows-#{$key} {
         grid-template-rows: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "grid-rows-#{$key}") {
+            grid-template-rows: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

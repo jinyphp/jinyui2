@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     start : flex-start,
@@ -11,6 +12,12 @@ $obj: (
 @each $key, $value in $obj {
     .items-#{$key} {
         align-items: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "items-#{$key}") {
+            align-items: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

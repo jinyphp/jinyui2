@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     shrink : 1,
@@ -8,6 +9,12 @@ $obj: (
 @each $key, $value in $obj {
     .#{$key} {
         flex-shrink: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "#{$key}") {
+            flex-shrink: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     center : center,
@@ -14,6 +15,12 @@ $obj: (
 @each $key, $value in $obj {
     .place-content-#{$key} {
         place-content: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "place-content-#{$key}") {
+            place-content: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {
