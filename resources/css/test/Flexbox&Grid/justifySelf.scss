@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     auto: auto,
@@ -11,6 +12,12 @@ $obj: (
 @each $key, $value in $obj {
     .justify-self-#{$key} {
         justify-self: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "justify-self-#{$key}") {
+            justify-self: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

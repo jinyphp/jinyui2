@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     wrap : wrap,
@@ -9,6 +10,12 @@ $obj: (
 @each $key, $value in $obj {
     .flex-#{$key} {
         flex-wrap: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "flex-#{$key}") {
+            flex-wrap: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {
