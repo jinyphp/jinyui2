@@ -1,0 +1,27 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
+
+$obj: (
+    auto:auto,
+    none:none
+);
+
+@each $key, $value in $obj {
+    .forced-color-adjust-#{$key} {
+        forced-color-adjust: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "forced-color-adjust-#{$key}") {
+            forced-color-adjust: $value;
+        }
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:forced-color-adjust-#{$key} {
+                forced-color-adjust: $value;
+            }
+        }
+    }
+}
