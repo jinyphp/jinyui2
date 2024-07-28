@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     normal : normal,
@@ -15,6 +16,12 @@ $obj: (
 @each $key, $value in $obj {
     .content-#{$key} {
         align-content: $value;
+    }
+    
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "content-#{$key}") {
+            align-content: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

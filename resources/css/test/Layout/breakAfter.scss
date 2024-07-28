@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     auto: auto,
@@ -14,6 +15,12 @@ $obj: (
 @each $key, $value in $obj {
     .break-after-#{$key} {
         break-after: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "break-after-#{$key}") {
+            break-after: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

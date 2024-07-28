@@ -1,4 +1,6 @@
+@use 'sass:math';
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj1: (
     1:1,
@@ -31,7 +33,7 @@ $obj2: (
     span-10 : span 10 / span 10,
     span-11 : span 11 / span 11,
     span-12 : span 12 / span 12,
-    span-full : 1 / -1
+    span-full: math.div(1, -1)
 );
 
 
@@ -42,6 +44,18 @@ $obj2: (
 
     .col-end-#{$key} {
         grid-column-end: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "col-start-#{$key}") {
+            grid-column-start: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "col-end-#{$key}") {
+            grid-column-end: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {
@@ -62,6 +76,12 @@ $obj2: (
 @each $key, $value in $obj2 {
     .col-#{$key} {
         grid-column: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "col-#{$key}") {
+            grid-column: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

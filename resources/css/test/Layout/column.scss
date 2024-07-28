@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $column: (
 1:1,
@@ -32,6 +33,12 @@ xl:36rem,
 @each $key, $value in $column {
     .columns-#{$key} {
         columns: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "columns-#{$key}") {
+            columns: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

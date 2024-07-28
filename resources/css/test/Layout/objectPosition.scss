@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     bottom : bottom,
@@ -15,6 +16,12 @@ $obj: (
 @each $key, $value in $obj {
     .object-#{$key} {
         object-position: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "object-#{$key}") {
+            object-position: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {
