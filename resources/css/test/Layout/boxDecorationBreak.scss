@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     clone:clone,
@@ -8,6 +9,12 @@ $obj: (
 @each $key, $value in $obj {
     .box-decoration-#{$key} {
         box-decoration-break: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "box-decoration-#{$key}") {
+            box-decoration-break: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

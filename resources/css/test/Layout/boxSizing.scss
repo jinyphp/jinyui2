@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
     border:border-box,
@@ -8,6 +9,12 @@ $obj: (
 @each $key, $value in $obj {
     .box-#{$key} {
         box-sizing: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "box-#{$key}") {
+            box-sizing: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {

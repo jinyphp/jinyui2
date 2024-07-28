@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $obj: (
   0: 0rem,
@@ -83,6 +84,62 @@ $obj: (
 
     .left-#{$key} {
         left: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "inset-#{$key}") {
+            inset: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "inset-x-#{$key}") {
+            right: $value;
+            left: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "inset-y-#{$key}") {
+            top: $value;
+            bottom: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "start-#{$key}") {
+            inset-inline-start: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "end-#{$key}") {
+            inset-inline-end: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "top-#{$key}") {
+            top: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "right-#{$key}") {
+            right: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "bottom-#{$key}") {
+            bottom: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos){
+        @include pseudo($pseudo, "left-#{$key}") {
+            left: $value;
+        }
     }
 
     @each $breakpoint in map-keys($breakpoints) {
