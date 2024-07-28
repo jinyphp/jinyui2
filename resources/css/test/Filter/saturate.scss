@@ -1,0 +1,30 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$saturates: (
+    0: saturate(0),
+    50: saturate(0.5),
+    100: saturate(1),
+    150: saturate(1.5),
+    200: saturate(2),
+);
+
+@each $key, $value in $saturates {
+    .saturate-#{$key} {
+        filter: #{$value};
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:saturate-#{$key} {
+                filter: #{$value};
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, saturate-#{$key}) {
+            filter: #{$value};
+        }
+    }
+}

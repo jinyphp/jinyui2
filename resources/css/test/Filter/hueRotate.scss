@@ -1,0 +1,31 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$hue_rotates: (
+    0: hue-rotate(0deg),
+    15: hue-rotate(15deg),
+    30: hue-rotate(30deg),
+    60: hue-rotate(60deg),
+    90: hue-rotate(90deg),
+    180: hue-rotate(180deg),
+);
+
+@each $key, $value in $hue_rotates {
+    .hue-rotate-#{$key} {
+        filter: #{$value};
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:hue-rotate-#{$key} {
+                filter: #{$value};
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, hue-rotate-#{$key}) {
+            filter: #{$value};
+        }
+    }
+}

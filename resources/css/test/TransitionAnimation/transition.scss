@@ -1,0 +1,133 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$transitions: (
+    none: none,
+    all: all,
+    colors: color,
+    background-color,
+    border-color,
+    text-decoration-color,
+    fill,
+    stroke,
+    opacity: opacity,
+    shadow: box-shadow,
+    transform: transform,
+);
+
+$durations: (
+    0: 0s,
+    75: 75ms,
+    100: 100ms,
+    150: 150ms,
+    200: 200ms,
+    300: 300ms,
+    500: 500ms,
+    700: 700ms,
+    1000: 1000ms,
+);
+
+$eases: (
+    linear: linear,
+    in: cubic-bezier(0.4, 0, 1, 1),
+    out: cubic-bezier(0, 0, 0.2, 1),
+    in-out: cubic-bezier(0.4, 0, 0.2, 1),
+);
+
+$delays: (
+    0: 0s,
+    75: 75ms,
+    100: 100ms,
+    150: 150ms,
+    200: 200ms,
+    300: 300ms,
+    500: 500ms,
+    700: 700ms,
+    1000: 1000ms,
+);
+
+@each $key, $value in $transitions {
+    .transition-#{$key} {
+        transition-property: $value;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:transition-#{$key} {
+                transition-property: $value;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 150ms;
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, transition-#{$key}) {
+            transition-property: $value;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+    }
+}
+
+@each $key, $value in $durations {
+    .duration-#{$key} {
+        transition-duration: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:duration-#{$key} {
+                transition-duration: $value;
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, duration-#{$key}) {
+            transition-duration: $value;
+        }
+    }
+}
+
+@each $key, $value in $eases {
+    .ease-#{$key} {
+        transition-timing-function: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:ease-#{$key} {
+                transition-timing-function: $value;
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, ease-#{$key}) {
+            transition-timing-function: $value;
+        }
+    }
+}
+
+@each $key, $value in $delays {
+    .delay-#{$key} {
+        transition-delay: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:delay-#{$key} {
+                transition-delay: $value;
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, delay-#{$key}) {
+            transition-delay: $value;
+        }
+    }
+}
