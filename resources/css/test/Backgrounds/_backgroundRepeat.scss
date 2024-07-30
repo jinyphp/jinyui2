@@ -1,5 +1,7 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
+// 배경 반복 값 정의
 $repeats: (
   repeat: repeat,
   no-repeat: no-repeat,
@@ -9,50 +11,32 @@ $repeats: (
   space: space
 );
 
+// 기본 배경 반복 클래스 생성
 @each $key, $value in $repeats {
   .bg-#{$key} {
     background-repeat: $value;
   }
-}
 
-.group:hover {
-  @each $key, $value in $repeats {
-    .group-hover\:bg-#{$key} {
-      background-repeat: $value !important;
+  // pseudo 상태 클래스 추가
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-#{$key}") {
+      background-repeat: $value;
     }
   }
-}
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $repeats {
+  // 반응형 브레이크포인트 추가
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:bg-#{$key} {
         background-repeat: $value;
       }
+
+      // pseudo 상태와 반응형 브레이크포인트 조합
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:bg-#{$key}") {
+          background-repeat: $value;
+        }
+      }
     }
-  }
-}
-
-@each $key, $value in $repeats {
-  .focus-within\:bg-#{$key}:focus-within {
-    background-repeat: $value;
-  }
-}
-
-@each $key, $value in $repeats {
-  .hover\:bg-#{$key}:hover {
-    background-repeat: $value;
-  }
-}
-
-@each $key, $value in $repeats {
-  .focus\:bg-#{$key}:focus {
-    background-repeat: $value;
-  }
-}
-
-@each $key, $value in $repeats {
-  .active\:bg-#{$key}:active {
-    background-repeat: $value;
   }
 }
