@@ -1,0 +1,36 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
+
+$brightness: (
+    0: brightness(0),
+    50: brightness(0.5),
+    75: brightness(0.75),
+    90: brightness(0.9),
+    95: brightness(0.95),
+    100: brightness(1),
+    105: brightness(1.05),
+    110: brightness(1.1),
+    125: brightness(1.25),
+    150: brightness(1.5),
+    200: brightness(2),
+);
+
+@each $key, $value in $brightness {
+    .brightness-#{$key} {
+        filter: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:brightness-#{$key} {
+                filter: $value;
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, brightness-#{$key}) {
+            filter: $value;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$blurs: (
+    none: "none",
+    sm: "blur(4px)",
+    default: "blur(8px)",
+    md: "blur(12px)",
+    lg: "blur(16px)",
+    xl: "blur(24px)",
+    "2xl": "blur(40px)",
+    "3xl": "blur(64px)",
+);
+
+@each $key, $value in $blurs {
+    .blur-#{$key} {
+        @if $value == "none" {
+            filter: none;
+        } @else {
+            filter: $value;
+        }
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:blur-#{$key} {
+                @if $value == "none" {
+                    filter: none;
+                } @else {
+                    filter: $value;
+                }
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, blur-#{$key}) {
+            @if $value == "none" {
+                filter: none;
+            } @else {
+                filter: $value;
+            }
+        }
+    }
+}

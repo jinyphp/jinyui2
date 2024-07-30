@@ -1,0 +1,32 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$contrasts: (
+    0: contrast(0),
+    50: contrast(0.5),
+    75: contrast(0.75),
+    100: contrast(1),
+    125: contrast(1.25),
+    150: contrast(1.5),
+    200: contrast(2),
+);
+
+@each $key, $value in $contrasts {
+    .contrast-#{$key} {
+        filter: $value;
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:contrast-#{$key} {
+                filter: $value;
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, contrast-#{$key}) {
+            filter: $value;
+        }
+    }
+}
