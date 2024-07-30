@@ -1,0 +1,52 @@
+@import "../breakpointtest.scss";
+
+// Define outline-offset values
+$outline-offsets: (
+  0: 0px,
+  1: 1px,
+  2: 2px,
+  4: 4px,
+  8: 8px
+);
+
+// Generate base outline-offset classes
+@each $key, $value in $outline-offsets {
+  .outline-offset-#{$key} {
+    outline-offset: $value;
+  }
+}
+
+// Generate state-based outline-offset classes
+@each $key, $value in $outline-offsets {
+  .hover\:outline-offset-#{$key}:hover {
+    outline-offset: $value;
+  }
+  .focus\:outline-offset-#{$key}:focus {
+    outline-offset: $value;
+  }
+  .active\:outline-offset-#{$key}:active {
+    outline-offset: $value;
+  }
+}
+
+// Generate responsive outline-offset classes
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $outline-offsets {
+      .#{$breakpoint}\:outline-offset-#{$key} {
+        outline-offset: $value;
+      }
+
+      // Responsive state-based classes
+      .#{$breakpoint}\:hover\:outline-offset-#{$key}:hover {
+        outline-offset: $value;
+      }
+      .#{$breakpoint}\:focus\:outline-offset-#{$key}:focus {
+        outline-offset: $value;
+      }
+      .#{$breakpoint}\:active\:outline-offset-#{$key}:active {
+        outline-offset: $value;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import "../breakpointtest.scss";
+
+$positions: (
+  bottom: bottom,
+  center: center,
+  left: left,
+  left-bottom: left bottom,
+  left-top: left top,
+  right: right,
+  right-bottom: right bottom,
+  right-top: right top,
+  top: top
+);
+
+@each $key, $value in $positions {
+  .bg-#{$key} {
+    background-position: $value;
+  }
+}
+
+.group:hover {
+  @each $key, $value in $positions {
+    .group-hover\:bg-#{$key} {
+      background-position: $value !important;
+    }
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $positions {
+      .#{$breakpoint}\:bg-#{$key} {
+        background-position: $value;
+      }
+    }
+  }
+}
+
+@each $key, $value in $positions {
+  .focus-within\:bg-#{$key}:focus-within {
+    background-position: $value;
+  }
+}
+
+@each $key, $value in $positions {
+  .hover\:bg-#{$key}:hover {
+    background-position: $value;
+  }
+}
+
+@each $key, $value in $positions {
+  .focus\:bg-#{$key}:focus {
+    background-position: $value;
+  }
+}
+
+@each $key, $value in $positions {
+  .active\:bg-#{$key}:active {
+    background-position: $value;
+  }
+}

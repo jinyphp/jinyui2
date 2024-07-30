@@ -1,0 +1,106 @@
+// Border width values
+$border-widths: (
+  0: 0px,
+  2: 2px,
+  4: 4px,
+  8: 8px,
+  default: 1px
+);
+
+// Directions for border width
+$directions: (
+  x: (border-left-width, border-right-width),
+  y: (border-top-width, border-bottom-width),
+  s: border-inline-start-width,
+  e: border-inline-end-width,
+  t: border-top-width,
+  r: border-right-width,
+  b: border-bottom-width,
+  l: border-left-width
+);
+
+$states: (
+  '': '',
+  'hover': ':hover',
+  'focus': ':focus',
+  'active': ':active'
+);
+
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+// Generate border width classes for each direction and state
+@each $key, $value in $border-widths {
+  .border-#{$key} {
+    border-width: $value;
+  }
+
+  @each $direction, $properties in $directions {
+    @if type-of($properties) == list {
+      .border-#{$direction}-#{$key} {
+        @each $property in $properties {
+          #{$property}: $value;
+        }
+      }
+    } @else {
+      .border-#{$direction}-#{$key} {
+        #{$properties}: $value;
+      }
+    }
+  }
+
+  @each $state, $pseudo in $states {
+    @if $state != '' {
+      .border-#{$key}#{$pseudo} {
+        border-width: $value;
+      }
+
+      @each $direction, $properties in $directions {
+        @if type-of($properties) == list {
+          .border-#{$direction}-#{$key}#{$pseudo} {
+            @each $property in $properties {
+              #{$property}: $value;
+            }
+          }
+        } @else {
+          .border-#{$direction}-#{$key}#{$pseudo} {
+            #{$properties}: $value;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Generate default border classes
+.border {
+  border-width: 1px;
+}
+.border-x {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+.border-s {
+  border-inline-start-width: 1px;
+}
+.border-e {
+  border-inline-end-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-l {
+  border-left-width: 1px;
+}

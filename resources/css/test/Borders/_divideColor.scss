@@ -1,0 +1,41 @@
+@import "../colors";
+
+// Generate border color classes using the colors map
+@each $key, $value in $colors-map {
+  .divide-#{$key} {
+    border-color: $value;
+  }
+
+  // State-based border color classes
+  .hover\:divide-#{$key}:hover {
+    border-color: $value;
+  }
+  .focus\:divide-#{$key}:focus {
+    border-color: $value;
+  }
+  .active\:divide-#{$key}:active {
+    border-color: $value;
+  }
+}
+
+// Generate responsive border color classes
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $colors-map {
+      .#{$breakpoint}\:divide-#{$key} {
+        border-color: $value;
+      }
+
+      // Responsive state-based classes
+      .#{$breakpoint}\:hover\:divide-#{$key}:hover {
+        border-color: $value;
+      }
+      .#{$breakpoint}\:focus\:divide-#{$key}:focus {
+        border-color: $value;
+      }
+      .#{$breakpoint}\:active\:divide-#{$key}:active {
+        border-color: $value;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import "../breakpointtest.scss";
+
+$backgroundImages: (
+  none: none,
+  gradient-to-t: linear-gradient(to top, var(--tw-gradient-stops)),
+  gradient-to-tr: linear-gradient(to top right, var(--tw-gradient-stops)),
+  gradient-to-r: linear-gradient(to right, var(--tw-gradient-stops)),
+  gradient-to-br: linear-gradient(to bottom right, var(--tw-gradient-stops)),
+  gradient-to-b: linear-gradient(to bottom, var(--tw-gradient-stops)),
+  gradient-to-bl: linear-gradient(to bottom left, var(--tw-gradient-stops)),
+  gradient-to-l: linear-gradient(to left, var(--tw-gradient-stops)),
+  gradient-to-tl: linear-gradient(to top left, var(--tw-gradient-stops))
+);
+
+
+@each $key, $value in $backgroundImages {
+  .bg-#{$key} {
+    background-image: $value;
+  }
+}
+
+.group:hover {
+  @each $key, $value in $backgroundImages {
+    .group-hover\:bg-#{$key} {
+      background-image: $value !important;
+    }
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $backgroundImages {
+      .#{$breakpoint}\:bg-#{$key} {
+        background-image: $value;
+      }
+    }
+  }
+}
+
+@each $key, $value in $backgroundImages {
+  .focus-within\:bg-#{$key}:focus-within {
+    background-image: $value;
+  }
+}
+
+@each $key, $value in $backgroundImages {
+  .hover\:bg-#{$key}:hover {
+    background-image: $value;
+  }
+}
+
+@each $key, $value in $backgroundImages {
+  .focus\:bg-#{$key}:focus {
+    background-image: $value;
+  }
+}
+
+@each $key, $value in $backgroundImages {
+  .active\:bg-#{$key}:active {
+    background-image: $value;
+  }
+}
