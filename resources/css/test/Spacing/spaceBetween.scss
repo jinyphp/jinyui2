@@ -44,18 +44,22 @@ $obj: (
     // Space classes
     .space-x-#{$key} > * + * {
         margin-left: $value;
+        margin-right: $value;
     }
     .space-y-#{$key} > * + * {
         margin-top: $value;
+        margin-bottom: $value;
     }
 
     @each $breakpoint in map-keys($breakpoints) {
         @include breakpoint($breakpoint) {
             .#{$breakpoint}\:space-x-#{$key} > * + * {
                 margin-left: $value;
+                margin-right: $value;
             }
             .#{$breakpoint}\:space-y-#{$key} > * + * {
                 margin-top: $value;
+                margin-bottom: $value;
             }
         }
     }
@@ -63,9 +67,11 @@ $obj: (
     @each $pseudoClass in map-keys($pseudos) {
         @include pseudo($pseudoClass, space-x-#{$key}) {
             margin-left: $value;
+            margin-right: $value;
         }
         @include pseudo($pseudoClass, space-y-#{$key}) {
             margin-top: $value;
+            margin-bottom: $value;
         }
     }
 }
