@@ -1,0 +1,27 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$inverts: (
+    0: invert(0),
+    default: invert(100%),
+);
+
+@each $key, $value in $inverts {
+    .invert-#{$key} {
+        filter: #{$value};
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:invert-#{$key} {
+                filter: #{$value};
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, invert-#{$key}) {
+            filter: #{$value};
+        }
+    }
+}

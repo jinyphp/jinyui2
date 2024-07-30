@@ -1,7 +1,13 @@
 // main.scss
 @import "breakpointtest";
-@import "paddings";
 @import "Layout/_index";
 @import "Flexbox&Grid/_index";
-
-// 여기에 다른 스타일을 추가하세요
+@import "TransitionAnimation/_index";
+@import "Transform/_index";
+@import "Table/_index";
+@import "Spacing/_index";
+@import "Sizing/_index";
+@import "Spacing/_index";
+@import "interactivity/_index";
+@import "SVG/_index";
+@import "Accessibility/_index"; // 여기에 다른 스타일을 추가하세요;
