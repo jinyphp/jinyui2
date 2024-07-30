@@ -1,4 +1,6 @@
-// Define ring offset widths
+@import "../breakpointtest.scss"; // 반응형 믹스인 가져오기
+
+// 링 오프셋 너비 정의
 $ring-offset-widths: (
   0: 0px,
   1: 1px,
@@ -7,49 +9,57 @@ $ring-offset-widths: (
   8: 8px
 );
 
-// Generate ring offset width classes
+// 링 오프셋 너비 클래스 생성
 @each $key, $value in $ring-offset-widths {
   .ring-offset-#{$key} {
     --tw-ring-offset-width: $value;
-    box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+    --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
 
-  // State-based ring offset width classes
+  // 상태별 링 오프셋 너비 클래스
   .hover\:ring-offset-#{$key}:hover {
     --tw-ring-offset-width: $value;
-    box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+    --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
   .focus\:ring-offset-#{$key}:focus {
     --tw-ring-offset-width: $value;
-    box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+    --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
   .active\:ring-offset-#{$key}:active {
     --tw-ring-offset-width: $value;
-    box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+    --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
 }
 
-// Generate responsive ring offset width classes
+// 반응형 링 오프셋 너비 클래스 생성
 @each $breakpoint in map-keys($breakpoints) {
   @include breakpoint($breakpoint) {
     @each $key, $value in $ring-offset-widths {
       .#{$breakpoint}\:ring-offset-#{$key} {
         --tw-ring-offset-width: $value;
-        box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+        --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
 
-      // Responsive state-based classes
+      // 반응형 상태별 클래스
       .#{$breakpoint}\:hover\:ring-offset-#{$key}:hover {
         --tw-ring-offset-width: $value;
-        box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+        --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
       .#{$breakpoint}\:focus\:ring-offset-#{$key}:focus {
         --tw-ring-offset-width: $value;
-        box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+        --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
       .#{$breakpoint}\:active\:ring-offset-#{$key}:active {
         --tw-ring-offset-width: $value;
-        box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+        --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
     }
   }
