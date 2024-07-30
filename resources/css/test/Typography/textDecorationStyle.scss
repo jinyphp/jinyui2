@@ -1,6 +1,6 @@
 // text-decoration-style.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $text-decoration-styles: (
   'solid': solid,

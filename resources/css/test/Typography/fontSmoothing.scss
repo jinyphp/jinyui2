@@ -1,6 +1,6 @@
 // font-smoothing.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $font-smoothing: (
   'antialiased': (

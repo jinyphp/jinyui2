@@ -1,6 +1,6 @@
 // font-size.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $font-sizes: (
   'xs': (0.75rem, 1rem),

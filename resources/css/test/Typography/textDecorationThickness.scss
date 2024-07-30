@@ -1,6 +1,6 @@
 // text-decoration-thickness.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $text-decoration-thicknesses: (
   '0': 0px,

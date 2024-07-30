@@ -1,6 +1,6 @@
 // text-overflow.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $text-overflows: (
   'truncate': (

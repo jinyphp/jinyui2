@@ -1,6 +1,6 @@
 // list-style-position.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $list-style-positions: (
   'inside': inside,

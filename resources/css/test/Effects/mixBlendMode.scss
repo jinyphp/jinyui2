@@ -1,6 +1,6 @@
 // mix-blend-mode.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $mix-blend-modes: (
   'normal': normal,

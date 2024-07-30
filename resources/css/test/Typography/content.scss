@@ -1,6 +1,6 @@
 // content.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 .content-none {
   --tw-content: none;

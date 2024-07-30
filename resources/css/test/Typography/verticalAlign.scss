@@ -1,6 +1,6 @@
 // vertical-align.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $vertical-aligns: (
   'baseline': baseline,

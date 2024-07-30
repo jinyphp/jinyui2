@@ -1,6 +1,6 @@
 // line-clamp.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $line-clamps: (
   1: 1,

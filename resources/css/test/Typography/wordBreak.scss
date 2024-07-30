@@ -1,6 +1,6 @@
 // word-break.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $word-break-values: (
   'normal': (

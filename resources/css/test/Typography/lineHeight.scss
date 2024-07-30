@@ -1,6 +1,6 @@
 // line-height.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $line-heights: (
   '3': .75rem,

@@ -1,6 +1,6 @@
 // hyphens.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $hyphens-values: (
   'none': none,

@@ -1,6 +1,6 @@
 // box-shadow-color.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $shadow-colors: (
   'inherit': inherit,
