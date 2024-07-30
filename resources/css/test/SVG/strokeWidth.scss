@@ -9,19 +9,19 @@ $obj: (
 
 @each $key, $value in $obj {
     .stroke-#{$key} {
-        stroke: $value;
+        stroke-width: $value;
     }
 
     @each $pseudo in map-keys($pseudos) {
         @include pseudo($pseudo, "stroke-#{$key}") {
-            stroke: $value;
+            stroke-width: $value;
         }
     }
 
     @each $breakpoint in map-keys($breakpoints) {
         @include breakpoint($breakpoint) {
             .#{$breakpoint}\:stroke-#{$key} {
-                stroke: $value;
+                stroke-width: $value;
             }
         }
     }

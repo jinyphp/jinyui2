@@ -2,12 +2,12 @@
 @import "../pseudo.scss";
 
 $obj: (
-    none	: none,
-    inherit	: inherit,
+    "none"	: none,
+    "inherit"	: inherit,
     current	: currentColor,
-    transparent	: transparent,
-    black	: #000,
-    white	: #fff,
+    "transparent"	: transparent,
+    "black"	: #000,
+    "white"	: #fff,
     slate-50	: #f8fafc,
     slate-100	: #f1f5f9,
     slate-200	: #e2e8f0,
