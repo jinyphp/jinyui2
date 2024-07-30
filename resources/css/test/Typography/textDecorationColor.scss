@@ -1,0 +1,96 @@
+@import "../breakpointtest.scss";
+@import "../colors";
+
+// Define opacity values
+$opacity-values: (
+  100: 1,
+  75: 0.75,
+  50: 0.5,
+  25: 0.25,
+  0: 0,
+  6: 0.06 // For arbitrary opacity values
+);
+
+// Generate text color classes with opacity using the colors map
+@each $color-key, $color-value in $colors-map {
+  @each $opacity-key, $opacity-value in $opacity-values {
+    .text-#{$color-key}/#{$opacity-key} {
+      --tw-text-opacity: #{$opacity-value};
+      color: rgba(#{$color-value}, var(--tw-text-opacity));
+    }
+    .hover\:text-#{$color-key}/#{$opacity-key}:hover {
+      --tw-text-opacity: #{$opacity-value};
+      color: rgba(#{$color-value}, var(--tw-text-opacity));
+    }
+    .focus\:text-#{$color-key}/#{$opacity-key}:focus {
+      --tw-text-opacity: #{$opacity-value};
+      color: rgba(#{$color-value}, var(--tw-text-opacity));
+    }
+    .active\:text-#{$color-key}/#{$opacity-key}:active {
+      --tw-text-opacity: #{$opacity-value};
+      color: rgba(#{$color-value}, var(--tw-text-opacity));
+    }
+  }
+
+  // For arbitrary opacity values in brackets
+  .text-#{$color-key}/\[\.06\] {
+    --tw-text-opacity: 0.06;
+    color: rgba(#{$color-value}, var(--tw-text-opacity));
+  }
+  .hover\:text-#{$color-key}/\[\.06\]:hover {
+    --tw-text-opacity: 0.06;
+    color: rgba(#{$color-value}, var(--tw-text-opacity));
+  }
+  .focus\:text-#{$color-key}/\[\.06\]:focus {
+    --tw-text-opacity: 0.06;
+    color: rgba(#{$color-value}, var(--tw-text-opacity));
+  }
+  .active\:text-#{$color-key}/\[\.06\]:active {
+    --tw-text-opacity: 0.06;
+    color: rgba(#{$color-value}, var(--tw-text-opacity));
+  }
+}
+
+// Responsive classes for text colors with opacity
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $color-key, $color-value in $colors-map {
+      @each $opacity-key, $opacity-value in $opacity-values {
+        .#{$breakpoint}\:text-#{$color-key}/#{$opacity-key} {
+          --tw-text-opacity: #{$opacity-value};
+          color: rgba(#{$color-value}, var(--tw-text-opacity));
+        }
+        .#{$breakpoint}\:hover\:text-#{$color-key}/#{$opacity-key}:hover {
+          --tw-text-opacity: #{$opacity-value};
+          color: rgba(#{$color-value}, var(--tw-text-opacity));
+        }
+        .#{$breakpoint}\:focus\:text-#{$color-key}/#{$opacity-key}:focus {
+          --tw-text-opacity: #{$opacity-value};
+          color: rgba(#{$color-value}, var(--tw-text-opacity));
+        }
+        .#{$breakpoint}\:active\:text-#{$color-key}/#{$opacity-key}:active {
+          --tw-text-opacity: #{$opacity-value};
+          color: rgba(#{$color-value}, var(--tw-text-opacity));
+        }
+      }
+
+      // For arbitrary opacity values in brackets
+      .#{$breakpoint}\:text-#{$color-key}/\[\.06\] {
+        --tw-text-opacity: 0.06;
+        color: rgba(#{$color-value}, var(--tw-text-opacity));
+      }
+      .#{$breakpoint}\:hover\:text-#{$color-key}/\[\.06\]:hover {
+        --tw-text-opacity: 0.06;
+        color: rgba(#{$color-value}, var(--tw-text-opacity));
+      }
+      .#{$breakpoint}\:focus\:text-#{$color-key}/\[\.06\]:focus {
+        --tw-text-opacity: 0.06;
+        color: rgba(#{$color-value}, var(--tw-text-opacity));
+      }
+      .#{$breakpoint}\:active\:text-#{$color-key}/\[\.06\]:active {
+        --tw-text-opacity: 0.06;
+        color: rgba(#{$color-value}, var(--tw-text-opacity));
+      }
+    }
+  }
+}

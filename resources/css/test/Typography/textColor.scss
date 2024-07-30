@@ -1,0 +1,51 @@
+@import "../breakpointtest .scss";
+@import "../colors";
+
+
+// Generate text color classes using the colors map
+@each $key, $value in $colors-map {
+  .text-#{$key} {
+    --tw-text-opacity: 1;
+    color: #{$value};
+  }
+
+  // State-based text color classes
+  .hover\:text-#{$key}:hover {
+    --tw-text-opacity: 1;
+    color: #{$value};
+  }
+  .focus\:text-#{$key}:focus {
+    --tw-text-opacity: 1;
+    color: #{$value};
+  }
+  .active\:text-#{$key}:active {
+    --tw-text-opacity: 1;
+    color: #{$value};
+  }
+}
+
+// Responsive classes for text colors
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $colors-map {
+      .#{$breakpoint}\:text-#{$key} {
+        --tw-text-opacity: 1;
+        color: #{$value};
+      }
+
+      // Responsive state-based text color classes
+      .#{$breakpoint}\:hover\:text-#{$key}:hover {
+        --tw-text-opacity: 1;
+        color: #{$value};
+      }
+      .#{$breakpoint}\:focus\:text-#{$key}:focus {
+        --tw-text-opacity: 1;
+        color: #{$value};
+      }
+      .#{$breakpoint}\:active\:text-#{$key}:active {
+        --tw-text-opacity: 1;
+        color: #{$value};
+      }
+    }
+  }
+}
