@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss"; // Import your pseudo mixin
 
 // Define outline-offset values
 $outline-offsets: (
@@ -14,38 +15,26 @@ $outline-offsets: (
   .outline-offset-#{$key} {
     outline-offset: $value;
   }
-}
 
-// Generate state-based outline-offset classes
-@each $key, $value in $outline-offsets {
-  .hover\:outline-offset-#{$key}:hover {
-    outline-offset: $value;
+  // Generate state-based outline-offset classes
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "outline-offset-#{$key}") {
+      outline-offset: $value;
+    }
   }
-  .focus\:outline-offset-#{$key}:focus {
-    outline-offset: $value;
-  }
-  .active\:outline-offset-#{$key}:active {
-    outline-offset: $value;
-  }
-}
 
-// Generate responsive outline-offset classes
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $outline-offsets {
+  // Generate responsive outline-offset classes
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:outline-offset-#{$key} {
         outline-offset: $value;
       }
 
       // Responsive state-based classes
-      .#{$breakpoint}\:hover\:outline-offset-#{$key}:hover {
-        outline-offset: $value;
-      }
-      .#{$breakpoint}\:focus\:outline-offset-#{$key}:focus {
-        outline-offset: $value;
-      }
-      .#{$breakpoint}\:active\:outline-offset-#{$key}:active {
-        outline-offset: $value;
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:outline-offset-#{$key}") {
+          outline-offset: $value;
+        }
       }
     }
   }

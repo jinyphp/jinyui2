@@ -1,263 +1,133 @@
+@import "../pseudo.scss"; // Make sure to import your pseudo class mixin
 @import "../breakpointtest.scss";
 
-// Define border widths for x and y directions
-$divide-x-widths: (
-    0: 0px,
-    2: 2px,
-    4: 4px,
-    8: 8px,
-    "": 1px,
-);
-
+// Define border widths for y direction
 $divide-y-widths: (
-    0: 0px,
-    2: 2px,
-    4: 4px,
-    8: 8px,
-    "": 1px,
+  0: 0px,
+  2: 2px,
+  4: 4px,
+  8: 8px,
+  default: 1px
 );
-
-// Generate divide-x classes
-@each $key, $value in $divide-x-widths {
-    .divide-x-#{$key} {
-        border-right-width: 0px;
-        border-left-width: $value;
-
-        // Apply to child elements
-        > * + * {
-            border-right-width: 0px;
-            border-left-width: $value;
-        }
-    }
-
-    // State-based classes for divide-x
-    .hover\:divide-x-#{$key}:hover {
-        border-right-width: 0px;
-        border-left-width: $value;
-
-        > * + * {
-            border-right-width: 0px;
-            border-left-width: $value;
-        }
-    }
-    .focus\:divide-x-#{$key}:focus {
-        border-right-width: 0px;
-        border-left-width: $value;
-
-        > * + * {
-            border-right-width: 0px;
-            border-left-width: $value;
-        }
-    }
-    .active\:divide-x-#{$key}:active {
-        border-right-width: 0px;
-        border-left-width: $value;
-
-        > * + * {
-            border-right-width: 0px;
-            border-left-width: $value;
-        }
-    }
-}
 
 // Generate divide-y classes
 @each $key, $value in $divide-y-widths {
+  @if $key == default {
+    .divide-y {
+      border-top-width: $value;
+      border-bottom-width: 0;
+
+      > * + * {
+        border-top-width: $value;
+        border-bottom-width: 0;
+      }
+    }
+  } @else {
     .divide-y-#{$key} {
+      border-top-width: $value;
+      border-bottom-width: 0;
+
+      > * + * {
         border-top-width: $value;
-        border-bottom-width: 0px;
-
-        // Apply to child elements
-        > * + * {
-            border-top-width: $value;
-            border-bottom-width: 0px;
-        }
+        border-bottom-width: 0;
+      }
     }
+  }
 
-    // State-based classes for divide-y
-    .hover\:divide-y-#{$key}:hover {
+  // Pseudo classes for divide-y
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "divide-y-#{$key}") {
+      border-top-width: $value;
+      border-bottom-width: 0;
+
+      > * + * {
         border-top-width: $value;
-        border-bottom-width: 0px;
-
-        > * + * {
-            border-top-width: $value;
-            border-bottom-width: 0px;
-        }
+        border-bottom-width: 0;
+      }
     }
-    .focus\:divide-y-#{$key}:focus {
-        border-top-width: $value;
-        border-bottom-width: 0px;
-
-        > * + * {
-            border-top-width: $value;
-            border-bottom-width: 0px;
-        }
-    }
-    .active\:divide-y-#{$key}:active {
-        border-top-width: $value;
-        border-bottom-width: 0px;
-
-        > * + * {
-            border-top-width: $value;
-            border-bottom-width: 0px;
-        }
-    }
+  }
 }
 
-// Responsive classes for divide-x
-@each $breakpoint in map-keys($breakpoints) {
-    @include breakpoint($breakpoint) {
-        @each $key, $value in $divide-x-widths {
-            .#{$breakpoint}\:divide-x-#{$key} {
-                border-right-width: 0px;
-                border-left-width: $value;
+// Generate reverse classes for divide-y
+.divide-y-reverse {
+  --tw-divide-y-reverse: 1;
+  
+  > * + * {
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  }
+}
 
-                // Apply to child elements
-                > * + * {
-                    border-right-width: 0px;
-                    border-left-width: $value;
-                }
-            }
+// State-based classes for reverse
+@each $pseudo in map-keys($pseudos) {
+  @include pseudo($pseudo, "divide-y-reverse") {
+    --tw-divide-y-reverse: 1;
 
-            // Responsive state-based classes for divide-x
-            .#{$breakpoint}\:hover\:divide-x-#{$key}:hover {
-                border-right-width: 0px;
-                border-left-width: $value;
-
-                > * + * {
-                    border-right-width: 0px;
-                    border-left-width: $value;
-                }
-            }
-            .#{$breakpoint}\:focus\:divide-x-#{$key}:focus {
-                border-right-width: 0px;
-                border-left-width: $value;
-
-                > * + * {
-                    border-right-width: 0px;
-                    border-left-width: $value;
-                }
-            }
-            .#{$breakpoint}\:active\:divide-x-#{$key}:active {
-                border-right-width: 0px;
-                border-left-width: $value;
-
-                > * + * {
-                    border-right-width: 0px;
-                    border-left-width: $value;
-                }
-            }
-        }
+    > * + * {
+      border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+      border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
     }
+  }
 }
 
 // Responsive classes for divide-y
 @each $breakpoint in map-keys($breakpoints) {
-    @include breakpoint($breakpoint) {
-        @each $key, $value in $divide-y-widths {
-            .#{$breakpoint}\:divide-y-#{$key} {
-                border-top-width: $value;
-                border-bottom-width: 0px;
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $divide-y-widths {
+      @if $key == default {
+        .#{$breakpoint}\:divide-y {
+          border-top-width: $value;
+          border-bottom-width: 0;
 
-                // Apply to child elements
-                > * + * {
-                    border-top-width: $value;
-                    border-bottom-width: 0px;
-                }
-            }
-
-            // Responsive state-based classes for divide-y
-            .#{$breakpoint}\:hover\:divide-y-#{$key}:hover {
-                border-top-width: $value;
-                border-bottom-width: 0px;
-
-                > * + * {
-                    border-top-width: $value;
-                    border-bottom-width: 0px;
-                }
-            }
-            .#{$breakpoint}\:focus\:divide-y-#{$key}:focus {
-                border-top-width: $value;
-                border-bottom-width: 0px;
-
-                > * + * {
-                    border-top-width: $value;
-                    border-bottom-width: 0px;
-                }
-            }
-            .#{$breakpoint}\:active\:divide-y-#{$key}:active {
-                border-top-width: $value;
-                border-bottom-width: 0px;
-
-                > * + * {
-                    border-top-width: $value;
-                    border-bottom-width: 0px;
-                }
-            }
+          > * + * {
+            border-top-width: $value;
+            border-bottom-width: 0;
+          }
         }
+      } @else {
+        .#{$breakpoint}\:divide-y-#{$key} {
+          border-top-width: $value;
+          border-bottom-width: 0;
+
+          > * + * {
+            border-top-width: $value;
+            border-bottom-width: 0;
+          }
+        }
+      }
+      @each $breakpoint in map-keys($breakpoints) {
+        @each $pseudo in map-keys($pseudos) {
+
+      @include pseudo($pseudo, "#{$breakpoint}\:divide-y-#{$key}") {
+        border-top-width: $value;
+        border-bottom-width: 0;
+
+        > * + * {
+          border-top-width: $value;
+          border-bottom-width: 0;
+        }
+      }}
     }
-}
-
-// Define reverse variables
-.divide-x-reverse {
-    --tw-divide-x-reverse: 1;
-}
-
-.divide-y-reverse {
-    --tw-divide-y-reverse: 1;
-}
-
-// State-based classes for reverse
-.hover\:divide-x-reverse:hover {
-    --tw-divide-x-reverse: 1;
-}
-
-.focus\:divide-x-reverse:focus {
-    --tw-divide-x-reverse: 1;
-}
-
-.active\:divide-x-reverse:active {
-    --tw-divide-x-reverse: 1;
-}
-
-.hover\:divide-y-reverse:hover {
-    --tw-divide-y-reverse: 1;
-}
-
-.focus\:divide-y-reverse:focus {
-    --tw-divide-y-reverse: 1;
-}
-
-.active\:divide-y-reverse:active {
-    --tw-divide-y-reverse: 1;
-}
-
-// Responsive classes for reverse
-@each $breakpoint in map-keys($breakpoints) {
-    @include breakpoint($breakpoint) {
-        .#{$breakpoint}\:divide-x-reverse {
-            --tw-divide-x-reverse: 1;
-        }
-        .#{$breakpoint}\:hover\:divide-x-reverse:hover {
-            --tw-divide-x-reverse: 1;
-        }
-        .#{$breakpoint}\:focus\:divide-x-reverse:focus {
-            --tw-divide-x-reverse: 1;
-        }
-        .#{$breakpoint}\:active\:divide-x-reverse:active {
-            --tw-divide-x-reverse: 1;
-        }
-
-        .#{$breakpoint}\:divide-y-reverse {
-            --tw-divide-y-reverse: 1;
-        }
-        .#{$breakpoint}\:hover\:divide-y-reverse:hover {
-            --tw-divide-y-reverse: 1;
-        }
-        .#{$breakpoint}\:focus\:divide-y-reverse:focus {
-            --tw-divide-y-reverse: 1;
-        }
-        .#{$breakpoint}\:active\:divide-y-reverse:active {
-            --tw-divide-y-reverse: 1;
-        }
     }
+
+    .#{$breakpoint}\:divide-y-reverse {
+      --tw-divide-y-reverse: 1;
+
+      > * + * {
+        border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+        border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+      }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+      @include pseudo($pseudo, "#{$breakpoint}\:divide-y-reverse") {
+        --tw-divide-y-reverse: 1;
+
+        > * + * {
+          border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+          border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+        }
+      }
+    }
+  }
 }

@@ -1,3 +1,11 @@
+@import "../pseudo.scss";
+@import "../breakpointtest.scss";
+
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
 // Border width values
 $border-widths: (
   0: 0px,
@@ -19,20 +27,14 @@ $directions: (
   l: border-left-width
 );
 
-$states: (
-  '': '',
-  'hover': ':hover',
-  'focus': ':focus',
-  'active': ':active'
-);
-
-*, :after, :before {
-  box-sizing: border-box;
-  border: 0 solid #e5e7eb;
+// Default border width class
+.border {
+  border-width: map-get($border-widths, default);
 }
 
 // Generate border width classes for each direction and state
 @each $key, $value in $border-widths {
+  // Base border width classes
   .border-#{$key} {
     border-width: $value;
   }
@@ -51,56 +53,75 @@ $states: (
     }
   }
 
-  @each $state, $pseudo in $states {
-    @if $state != '' {
-      .border-#{$key}#{$pseudo} {
-        border-width: $value;
-      }
+  // Pseudo classes for border width
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "border-#{$key}") {
+      border-width: $value;
+    }
 
-      @each $direction, $properties in $directions {
-        @if type-of($properties) == list {
-          .border-#{$direction}-#{$key}#{$pseudo} {
-            @each $property in $properties {
-              #{$property}: $value;
-            }
+    @each $direction, $properties in $directions {
+      @if type-of($properties) == list {
+        @include pseudo($pseudo, "border-#{$direction}-#{$key}") {
+          @each $property in $properties {
+            #{$property}: $value;
           }
-        } @else {
-          .border-#{$direction}-#{$key}#{$pseudo} {
-            #{$properties}: $value;
-          }
+        }
+      } @else {
+        @include pseudo($pseudo, "border-#{$direction}-#{$key}") {
+          #{$properties}: $value;
         }
       }
     }
   }
 }
 
-// Generate default border classes
-.border {
-  border-width: 1px;
-}
-.border-x {
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-.border-s {
-  border-inline-start-width: 1px;
-}
-.border-e {
-  border-inline-end-width: 1px;
-}
-.border-t {
-  border-top-width: 1px;
-}
-.border-r {
-  border-right-width: 1px;
-}
-.border-b {
-  border-bottom-width: 1px;
-}
-.border-l {
-  border-left-width: 1px;
+// Generate border width classes for each breakpoint
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    // Default border width class for each breakpoint
+    .#{$breakpoint}\:border {
+      border-width: map-get($border-widths, default);
+    }
+
+    @each $key, $value in $border-widths {
+      .#{$breakpoint}\:border-#{$key} {
+        border-width: $value;
+      }
+
+      @each $direction, $properties in $directions {
+        @if type-of($properties) == list {
+          .#{$breakpoint}\:border-#{$direction}-#{$key} {
+            @each $property in $properties {
+              #{$property}: $value;
+            }
+          }
+        } @else {
+          .#{$breakpoint}\:border-#{$direction}-#{$key} {
+            #{$properties}: $value;
+          }
+        }
+      }
+
+      // Pseudo classes for each breakpoint
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:border-#{$key}") {
+          border-width: $value;
+        }
+
+        @each $direction, $properties in $directions {
+          @if type-of($properties) == list {
+            @include pseudo($pseudo, "#{$breakpoint}\:border-#{$direction}-#{$key}") {
+              @each $property in $properties {
+                #{$property}: $value;
+              }
+            }
+          } @else {
+            @include pseudo($pseudo, "#{$breakpoint}\:border-#{$direction}-#{$key}") {
+              #{$properties}: $value;
+            }
+          }
+        }
+      }
+    }
+  }
 }
