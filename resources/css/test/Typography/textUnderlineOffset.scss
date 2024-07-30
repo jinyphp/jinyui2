@@ -1,6 +1,6 @@
 // text-underline-offset.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $text-underline-offsets: (
   '0': 0px,

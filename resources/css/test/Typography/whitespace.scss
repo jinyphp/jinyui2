@@ -1,6 +1,6 @@
 // whitespace.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $whitespace-values: (
   'normal': normal,

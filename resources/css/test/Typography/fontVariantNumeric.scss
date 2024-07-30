@@ -1,6 +1,6 @@
 // font-variant-numeric.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $font-variant-numeric: (
   'normal-nums': normal,

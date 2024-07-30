@@ -1,6 +1,6 @@
 // background-blend-mode.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $background-blend-modes: (
   'normal': normal,

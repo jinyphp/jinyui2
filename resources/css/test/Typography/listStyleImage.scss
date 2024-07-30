@@ -1,6 +1,6 @@
 // list-style-image.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 .list-image-none {
   list-style-image: none;

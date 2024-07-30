@@ -1,6 +1,6 @@
 // letter-spacing.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $letter-spacings: (
   'tighter': -0.05em,

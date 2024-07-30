@@ -1,6 +1,6 @@
 // text-decoration.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $text-decorations: (
   'underline': underline,

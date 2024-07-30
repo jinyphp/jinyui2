@@ -1,6 +1,6 @@
 // text-transform.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $text-transforms: (
   'uppercase': uppercase,

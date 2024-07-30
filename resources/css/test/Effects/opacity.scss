@@ -1,6 +1,6 @@
 // opacity.scss
-@import "breakpointtest";
-@import "pseudo";
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $opacities: (
   '0': 0,
