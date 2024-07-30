@@ -1,6 +1,55 @@
-@import "../breakpointtest.scss";
+// 기본 스타일 정의
+:root {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
 
-// Define ring sizes
+// 링 크기 정의
 $ring-sizes: (
   0: 0px,
   1: 1px,
@@ -10,59 +59,69 @@ $ring-sizes: (
   8: 8px
 );
 
-// Generate base ring classes
+// 기본 링 클래스 생성
 @each $key, $value in $ring-sizes {
   .ring-#{$key} {
-    box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
 }
 
-// Default ring class
+// 기본 링 클래스
 .ring {
-  box-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
 }
 
-// Generate state-based ring classes
+// 상태별 링 클래스 생성
 @each $key, $value in $ring-sizes {
   .hover\:ring-#{$key}:hover {
-    box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
   .focus\:ring-#{$key}:focus {
-    box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
   .active\:ring-#{$key}:active {
-    box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
   }
 }
 
-// Generate responsive ring classes
+// 반응형 링 클래스 생성
 @each $breakpoint in map-keys($breakpoints) {
   @include breakpoint($breakpoint) {
     @each $key, $value in $ring-sizes {
       .#{$breakpoint}\:ring-#{$key} {
-        box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
 
-      // Responsive state-based classes
+      // 반응형 상태별 클래스
       .#{$breakpoint}\:hover\:ring-#{$key}:hover {
-        box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
       .#{$breakpoint}\:focus\:ring-#{$key}:focus {
-        box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
       .#{$breakpoint}\:active\:ring-#{$key}:active {
-        box-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(#{$value} + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0, 0, 0, 0));
       }
     }
   }
 }
 
-// Generate ring-inset class
+// 링 인셋 클래스 생성
 .ring-inset {
   --tw-ring-inset: inset;
 }
 
-// State-based ring-inset classes
+// 상태별 링 인셋 클래스
 .group:hover .ring-inset {
   --tw-ring-inset: inset;
 }
@@ -73,7 +132,7 @@ $ring-sizes: (
   --tw-ring-inset: inset;
 }
 
-// Responsive ring-inset classes
+// 반응형 링 인셋 클래스
 @each $breakpoint in map-keys($breakpoints) {
   @include breakpoint($breakpoint) {
     .#{$breakpoint}\:ring-inset {
