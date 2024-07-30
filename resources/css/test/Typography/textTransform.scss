@@ -1,0 +1,36 @@
+// text-transform.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$text-transforms: (
+  'uppercase': uppercase,
+  'lowercase': lowercase,
+  'capitalize': capitalize,
+  'normal-case': none
+);
+
+@each $key, $value in $text-transforms {
+  .#{$key} {
+    text-transform: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, $key) {
+      text-transform: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:#{$key} {
+        text-transform: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:#{$key}") {
+          text-transform: $value;
+        }
+      }
+    }
+  }
+}

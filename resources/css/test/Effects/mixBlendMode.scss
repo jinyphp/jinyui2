@@ -1,0 +1,49 @@
+// mix-blend-mode.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$mix-blend-modes: (
+  'normal': normal,
+  'multiply': multiply,
+  'screen': screen,
+  'overlay': overlay,
+  'darken': darken,
+  'lighten': lighten,
+  'color-dodge': color-dodge,
+  'color-burn': color-burn,
+  'hard-light': hard-light,
+  'soft-light': soft-light,
+  'difference': difference,
+  'exclusion': exclusion,
+  'hue': hue,
+  'saturation': saturation,
+  'color': color,
+  'luminosity': luminosity,
+  'plus-lighter': plus-lighter
+);
+
+@each $key, $value in $mix-blend-modes {
+  .mix-blend-#{$key} {
+    mix-blend-mode: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "mix-blend-#{$key}") {
+      mix-blend-mode: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:mix-blend-#{$key} {
+        mix-blend-mode: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:mix-blend-#{$key}") {
+          mix-blend-mode: $value;
+        }
+      }
+    }
+  }
+}

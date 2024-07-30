@@ -1,0 +1,34 @@
+// list-style-position.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$list-style-positions: (
+  'inside': inside,
+  'outside': outside
+);
+
+@each $key, $value in $list-style-positions {
+  .list-#{$key} {
+    list-style-position: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "list-#{$key}") {
+      list-style-position: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:list-#{$key} {
+        list-style-position: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:list-#{$key}") {
+          list-style-position: $value;
+        }
+      }
+    }
+  }
+}

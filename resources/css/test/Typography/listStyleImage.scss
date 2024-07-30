@@ -1,0 +1,27 @@
+// list-style-image.scss
+@import "breakpointtest";
+@import "pseudo";
+
+.list-image-none {
+  list-style-image: none;
+}
+
+@each $pseudo in map-keys($pseudos) {
+  @include pseudo($pseudo, "list-image-none") {
+    list-style-image: none;
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    .#{$breakpoint}\:list-image-none {
+      list-style-image: none;
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+      @include pseudo($pseudo, "#{$breakpoint}:list-image-none") {
+        list-style-image: none;
+      }
+    }
+  }
+}

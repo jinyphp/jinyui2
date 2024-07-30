@@ -1,0 +1,51 @@
+// text-overflow.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$text-overflows: (
+  'truncate': (
+    overflow: hidden,
+    text-overflow: ellipsis,
+    white-space: nowrap
+  ),
+  'text-ellipsis': (
+    text-overflow: ellipsis
+  ),
+  'text-clip': (
+    text-overflow: clip
+  )
+);
+
+@each $key, $value in $text-overflows {
+  .#{$key} {
+    @each $property, $setting in $value {
+      #{$property}: $setting;
+    }
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, $key) {
+      @each $property, $setting in $value {
+        #{$property}: $setting;
+      }
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:#{$key} {
+        @each $property, $setting in $value {
+          #{$property}: $setting;
+        }
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:#{$key}") {
+          @each $property, $setting in $value {
+            #{$property}: $setting;
+          }
+        }
+      }
+    }
+  }
+}

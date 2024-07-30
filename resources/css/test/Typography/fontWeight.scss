@@ -1,0 +1,41 @@
+// font-weight.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$font-weights: (
+  'thin': 100,
+  'extralight': 200,
+  'light': 300,
+  'normal': 400,
+  'medium': 500,
+  'semibold': 600,
+  'bold': 700,
+  'extrabold': 800,
+  'black': 900
+);
+
+@each $key, $value in $font-weights {
+  .font-#{$key} {
+    font-weight: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "font-#{$key}") {
+      font-weight: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:font-#{$key} {
+        font-weight: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:font-#{$key}") {
+          font-weight: $value;
+        }
+      }
+    }
+  }
+}

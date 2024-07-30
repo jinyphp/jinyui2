@@ -1,0 +1,38 @@
+// text-align.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$text-aligns: (
+  'left': left,
+  'center': center,
+  'right': right,
+  'justify': justify,
+  'start': start,
+  'end': end
+);
+
+@each $key, $value in $text-aligns {
+  .text-#{$key} {
+    text-align: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "text-#{$key}") {
+      text-align: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:text-#{$key} {
+        text-align: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:text-#{$key}") {
+          text-align: $value;
+        }
+      }
+    }
+  }
+}

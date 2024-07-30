@@ -1,0 +1,52 @@
+// line-clamp.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$line-clamps: (
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4,
+  5: 5,
+  6: 6,
+  'none': none
+);
+
+@mixin line-clamp($lines) {
+  @if $lines == none {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    display: block;
+  } @else {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $lines;
+  }
+}
+
+@each $key, $value in $line-clamps {
+  .line-clamp-#{$key} {
+    @include line-clamp($value);
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "line-clamp-#{$key}") {
+      @include line-clamp($value);
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:line-clamp-#{$key} {
+        @include line-clamp($value);
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:line-clamp-#{$key}") {
+          @include line-clamp($value);
+        }
+      }
+    }
+  }
+}
