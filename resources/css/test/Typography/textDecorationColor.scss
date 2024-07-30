@@ -8,15 +8,16 @@ $opacity-values: (
     50: 0.5,
     25: 0.25,
     0: 0,
-    6: 0.06 // For arbitrary opacity values,,,
+    6: 0.06 // For arbitrary opacity values,,,,,,,,
 );
 
 // Generate text color classes with opacity using the colors map
 @each $color-key, $color-value in $colors-map {
+    $rgb-values: remove-rgb($color-value);
     @each $opacity-key, $opacity-value in $opacity-values {
         .text-#{$color-key}\/#{$opacity-key} {
             --tw-text-opacity: #{$opacity-value};
-            color: rgba(#{$color-value}, var(--tw-text-opacity));
+            color: rgba(#{$rgb-values}, var(--tw-text-opacity));
         }
         .hover\:text-#{$color-key}\/#{$opacity-key}:hover {
             --tw-text-opacity: #{$opacity-value};

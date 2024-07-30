@@ -1,29 +1,36 @@
 @import "../colors";
 
-
 // Define opacity values
 $opacity-values: (
     100: 1,
     75: 0.75,
     50: 0.5,
     25: 0.25,
+    20: 0.2,
+    10: 0.1,
     0: 0,
-    6: 0.06, // For arbitrary opacity values
+    6: 0.06,
+    // For arbitrary opacity values
 );
 
+@function remove-rgb($color) {
+    @if type-of($color) == "color" {
+        $r: red($color);
+        $g: green($color);
+        $b: blue($color);
+        @return #{$r}, #{$g}, #{$b};
+    } @else {
+        @warn "Expected a color, but got: #{$color}";
+        @return null;
+    }
+}
+
 // Generate ring color classes with opacity
-@each $color-key, $color-value in $colors-map {
+@each $color-key, $color-values in $colors-map {
+    $color-value: remove-rgb($color-values);
     @each $opacity-key, $opacity-value in $opacity-values {
         .ring-#{$color-key}\/#{$opacity-key} {
-            --tw-ring-color: rgba(#{$color-value}, var(--tw-ring-opacity));
-            --tw-ring-opacity: #{$opacity-value};
-            box-shadow: 0 0 0 3px rgba(#{$color-value}, var(--tw-ring-opacity));
+            --tw-ring-color: rgba(#{$color-value}, #{$opacity-value});
         }
-    }
-
-    // For arbitrary opacity values in brackets
-    .ring-#{$color-key}\/\[\.06\] {
-        --tw-ring-color: rgba(#{$color-value}, 0.06);
-        box-shadow: 0 0 0 3px rgba(#{$color-value}, 0.06);
     }
 }
