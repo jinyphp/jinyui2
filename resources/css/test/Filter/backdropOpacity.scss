@@ -1,0 +1,46 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss"; // pseudo.scss 파일의 실제 경로를 입력하세요.
+
+$backdrop_opacity: (
+    0: opacity(0),
+    5: opacity(0.05),
+    10: opacity(0.1),
+    15: opacity(0.15),
+    20: opacity(0.2),
+    25: opacity(0.25),
+    30: opacity(0.3),
+    35: opacity(0.35),
+    40: opacity(0.4),
+    45: opacity(0.45),
+    50: opacity(0.5),
+    55: opacity(0.55),
+    60: opacity(0.6),
+    65: opacity(0.65),
+    70: opacity(0.7),
+    75: opacity(0.75),
+    80: opacity(0.8),
+    85: opacity(0.85),
+    90: opacity(0.9),
+    95: opacity(0.95),
+    100: opacity(1),
+);
+
+@each $key, $value in $backdrop_opacity {
+    .backdrop-opacity-#{$key} {
+        backdrop-filter: #{$value};
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:backdrop-opacity-#{$key} {
+                backdrop-filter: #{$value};
+            }
+        }
+    }
+
+    @each $pseudoClass in map-keys($pseudos) {
+        @include pseudo($pseudoClass, backdrop-opacity-#{$key}) {
+            backdrop-filter: #{$value};
+        }
+    }
+}
