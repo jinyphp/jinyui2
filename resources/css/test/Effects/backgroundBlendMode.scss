@@ -1,0 +1,48 @@
+// background-blend-mode.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$background-blend-modes: (
+  'normal': normal,
+  'multiply': multiply,
+  'screen': screen,
+  'overlay': overlay,
+  'darken': darken,
+  'lighten': lighten,
+  'color-dodge': color-dodge,
+  'color-burn': color-burn,
+  'hard-light': hard-light,
+  'soft-light': soft-light,
+  'difference': difference,
+  'exclusion': exclusion,
+  'hue': hue,
+  'saturation': saturation,
+  'color': color,
+  'luminosity': luminosity
+);
+
+@each $key, $value in $background-blend-modes {
+  .bg-blend-#{$key} {
+    background-blend-mode: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-blend-#{$key}") {
+      background-blend-mode: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:bg-blend-#{$key} {
+        background-blend-mode: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:bg-blend-#{$key}") {
+          background-blend-mode: $value;
+        }
+      }
+    }
+  }
+}

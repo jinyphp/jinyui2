@@ -1,0 +1,53 @@
+// word-break.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$word-break-values: (
+  'normal': (
+    overflow-wrap: normal,
+    word-break: normal,
+  ),
+  'words': (
+    overflow-wrap: break-word,
+  ),
+  'all': (
+    word-break: break-all,
+  ),
+  'keep': (
+    word-break: keep-all,
+  )
+);
+
+@each $key, $value in $word-break-values {
+  .break-#{$key} {
+    @each $property, $setting in $value {
+      #{$property}: $setting;
+    }
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "break-#{$key}") {
+      @each $property, $setting in $value {
+        #{$property}: $setting;
+      }
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:break-#{$key} {
+        @each $property, $setting in $value {
+          #{$property}: $setting;
+        }
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:break-#{$key}") {
+          @each $property, $setting in $value {
+            #{$property}: $setting;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+// font-smoothing.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$font-smoothing: (
+  'antialiased': (
+    -webkit-font-smoothing: antialiased,
+    -moz-osx-font-smoothing: grayscale
+  ),
+  'subpixel-antialiased': (
+    -webkit-font-smoothing: auto,
+    -moz-osx-font-smoothing: auto
+  )
+);
+
+@each $key, $value in $font-smoothing {
+  .#{$key} {
+    @each $property, $setting in $value {
+      #{$property}: $setting;
+    }
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, $key) {
+      @each $property, $setting in $value {
+        #{$property}: $setting;
+      }
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:#{$key} {
+        @each $property, $setting in $value {
+          #{$property}: $setting;
+        }
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:#{$key}") {
+          @each $property, $setting in $value {
+            #{$property}: $setting;
+          }
+        }
+      }
+    }
+  }
+}

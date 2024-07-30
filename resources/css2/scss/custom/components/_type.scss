@@ -26,3 +26,34 @@ $font-size-mixing: 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 3
         font-size: #{$font-size-mixing}px !important;
     }
 }
+
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
+  a {
+    color: var(--#{$prefix}heading-color);
+    text-decoration: none;
+  }
+}
+/* stylelint-enable @stylistic/selector-list-comma-newline-after */
+
+
+// Blockquote
+
+.blockquote {
+  font-weight: $blockquote-font-weight;
+  color: $blockquote-color;
+}
+
+.blockquote-footer {
+  margin-top: -$blockquote-margin-y * .5;
+}
+
+
+// Inline list
+
+.list-inline {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: $spacer * .625 $list-inline-padding;
+  margin-bottom: $spacer * .75;
+}

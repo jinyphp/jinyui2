@@ -1,0 +1,38 @@
+// text-underline-offset.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$text-underline-offsets: (
+  '0': 0px,
+  '1': 1px,
+  '2': 2px,
+  '4': 4px,
+  '8': 8px,
+  'auto': auto
+);
+
+@each $key, $value in $text-underline-offsets {
+  .underline-offset-#{$key} {
+    text-underline-offset: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "underline-offset-#{$key}") {
+      text-underline-offset: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:underline-offset-#{$key} {
+        text-underline-offset: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:underline-offset-#{$key}") {
+          text-underline-offset: $value;
+        }
+      }
+    }
+  }
+}

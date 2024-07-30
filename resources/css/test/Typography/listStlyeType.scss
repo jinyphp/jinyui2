@@ -1,0 +1,35 @@
+// list-style-type.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$list-style-types: (
+  'none': none,
+  'disc': disc,
+  'decimal': decimal
+);
+
+@each $key, $value in $list-style-types {
+  .list-#{$key} {
+    list-style-type: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "list-#{$key}") {
+      list-style-type: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:list-#{$key} {
+        list-style-type: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:list-#{$key}") {
+          list-style-type: $value;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+// text-decoration.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$text-decorations: (
+  'underline': underline,
+  'overline': overline,
+  'line-through': line-through,
+  'no-underline': none
+);
+
+@each $key, $value in $text-decorations {
+  .#{$key} {
+    text-decoration-line: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, $key) {
+      text-decoration-line: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:#{$key} {
+        text-decoration-line: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:#{$key}") {
+          text-decoration-line: $value;
+        }
+      }
+    }
+  }
+}

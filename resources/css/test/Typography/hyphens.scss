@@ -1,0 +1,43 @@
+// hyphens.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$hyphens-values: (
+  'none': none,
+  'manual': manual,
+  'auto': auto
+);
+
+@each $key, $value in $hyphens-values {
+  .hyphens-#{$key} {
+    -webkit-hyphens: $value;
+    -ms-hyphens: $value;
+    hyphens: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "hyphens-#{$key}") {
+      -webkit-hyphens: $value;
+      -ms-hyphens: $value;
+      hyphens: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:hyphens-#{$key} {
+        -webkit-hyphens: $value;
+        -ms-hyphens: $value;
+        hyphens: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:hyphens-#{$key}") {
+          -webkit-hyphens: $value;
+          -ms-hyphens: $value;
+          hyphens: $value;
+        }
+      }
+    }
+  }
+}

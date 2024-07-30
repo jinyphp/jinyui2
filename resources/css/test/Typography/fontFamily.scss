@@ -1,0 +1,35 @@
+// font-family.scss
+@import "breakpointtest";
+@import "pseudo";
+
+$font-families: (
+  'sans': ('ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'),
+  'serif': ('ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'),
+  'mono': ('ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace')
+);
+
+@each $key, $value in $font-families {
+  .font-#{$key} {
+    font-family: $value;
+  }
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "font-#{$key}") {
+      font-family: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:font-#{$key} {
+        font-family: $value;
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:font-#{$key}") {
+          font-family: $value;
+        }
+      }
+    }
+  }
+}
