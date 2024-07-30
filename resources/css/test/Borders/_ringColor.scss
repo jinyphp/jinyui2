@@ -1,5 +1,4 @@
 @import "../colors";
-@import "../breakpointtest";
 
 // Generate ring color classes using the colors map
 @each $key, $value in $colors-map {
