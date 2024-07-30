@@ -1,0 +1,195 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
+
+$obj: (
+    0: 0px,
+    px: 1px,
+    0\.5: 0.125rem,
+    1: 0.25rem,
+    1\.5: 0.375rem,
+    2: 0.5rem,
+    2\.5: 0.625rem,
+    3: 0.75rem,
+    3\.5: 0.875rem,
+    4: 1rem,
+    5: 1.25rem,
+    6: 1.5rem,
+    7: 1.75rem,
+    8: 2rem,
+    9: 2.25rem,
+    10: 2.5rem,
+    11: 2.75rem,
+    12: 3rem,
+    14: 3.5rem,
+    16: 4rem,
+    20: 5rem,
+    24: 6rem,
+    28: 7rem,
+    32: 8rem,
+    36: 9rem,
+    40: 10rem,
+    44: 11rem,
+    48: 12rem,
+    52: 13rem,
+    56: 14rem,
+    60: 15rem,
+    64: 16rem,
+    72: 18rem,
+    80: 20rem,
+    96: 24rem,
+    auto: auto,
+);
+
+@each $key, $value in $obj {
+    .scroll-p-#{$key} {
+        scroll-padding: $value;
+    }
+
+    .scroll-px-#{$key} {
+        scroll-padding-left: $value;
+        scroll-padding-right: $value;
+    }
+
+    .scroll-py-#{$key} {
+        scroll-padding-top: $value;
+        scroll-padding-bottom: $value;
+    }
+
+    .scroll-ps-#{$key} {
+        scroll-padding-inline-start: $value;
+    }
+
+    .scroll-pe-#{$key} {
+        scroll-padding-inline-end: $value;
+    }
+
+    .scroll-pt-#{$key} {
+        scroll-padding-top: $value;
+    }
+
+    .scroll-pr-#{$key} {
+        scroll-padding-right: $value;
+    }
+
+    .scroll-pb-#{$key} {
+        scroll-padding-bottom: $value;
+    }
+
+    .scroll-pl-#{$key} {
+        scroll-padding-left: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-p-#{$key}") {
+            scroll-padding: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-px-#{$key}") {
+            scroll-padding-left: $value;
+            scroll-padding-right: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-py-#{$key}") {
+            scroll-padding-top: $value;
+            scroll-padding-bottom: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-ps-#{$key}") {
+            scroll-padding-inline-start: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-pe-#{$key}") {
+            scroll-padding-inline-end: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-pt-#{$key}") {
+            scroll-padding-top: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-pr-#{$key}") {
+            scroll-padding-right: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-pb-#{$key}") {
+            scroll-padding-bottom: $value;
+        }
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-pl-#{$key}") {
+            scroll-padding-left: $value;
+        }
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-p-#{$key} {
+                scroll-padding: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-px-#{$key} {
+                scroll-padding-left: $value;
+                scroll-padding-right: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-py-#{$key} {
+                scroll-padding-top: $value;
+                scroll-padding-bottom: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-ps-#{$key} {
+                scroll-padding-inline-start: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-pe-#{$key} {
+                scroll-padding-inline-end: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-pt-#{$key} {
+                scroll-padding-top: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-pr-#{$key} {
+                scroll-padding-right: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-pb-#{$key} {
+                scroll-padding-bottom: $value;
+            }
+        }
+
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-pl-#{$key} {
+                scroll-padding-left: $value;
+            }
+        }
+    }
+}

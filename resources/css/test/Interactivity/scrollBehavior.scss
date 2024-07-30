@@ -1,0 +1,27 @@
+@import "../breakpointtest.scss";
+@import "../pseudo.scss";
+
+$obj: (
+    auto:auto,
+    smooth:smooth,
+);
+
+@each $key, $value in $obj {
+    .scroll-#{$key} {
+        scroll-behavior: $value;
+    }
+
+    @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "scroll-#{$key}") {
+            scroll-behavior: $value;
+        }
+    }
+
+    @each $breakpoint in map-keys($breakpoints) {
+        @include breakpoint($breakpoint) {
+            .#{$breakpoint}\:scroll-#{$key} {
+                scroll-behavior: $value;
+            }
+        }
+    }
+}
