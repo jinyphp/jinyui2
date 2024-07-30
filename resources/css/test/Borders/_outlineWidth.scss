@@ -1,0 +1,50 @@
+@import "../breakpointtest.scss";
+
+$outline-width: (
+    0: 0px,
+    1: 1px,
+    2: 2px,
+    4: 4px,
+    8: 8px
+);
+
+@each $key, $value in $outline-width{
+    .outline-#{$key}{
+        outline-width: #{$value};
+    }
+}
+
+// Generate state-based outline-width classes
+@each $key, $value in $outline-width {
+    .hover\:outline-#{$key}:hover {
+      outline-width: $value;
+    }
+    .focus\:outline-#{$key}:focus {
+      outline-width: $value;
+    }
+    .active\:outline-#{$key}:active {
+      outline-width: $value;
+    }
+  }
+  
+  // Generate responsive outline-width classes
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      @each $key, $value in $outline-width {
+        .#{$breakpoint}\:outline-#{$key} {
+          outline-width: $value;
+        }
+  
+        // Responsive state-based classes
+        .#{$breakpoint}\:hover\:outline-#{$key}:hover {
+          outline-width: $value;
+        }
+        .#{$breakpoint}\:focus\:outline-#{$key}:focus {
+          outline-width: $value;
+        }
+        .#{$breakpoint}\:active\:outline-#{$key}:active {
+          outline-width: $value;
+        }
+      }
+    }
+  }

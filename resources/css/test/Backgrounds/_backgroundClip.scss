@@ -1,0 +1,32 @@
+@import "../breakpointtest.scss";
+
+$clips: (
+  border: border-box,
+  padding: padding-box,
+  content: content-box,
+  text: text
+);
+
+@each $key, $value in $clips {
+  .bg-clip-#{$key} {
+    background-clip: $value;
+  }
+}
+
+.group:hover {
+  @each $key, $value in $clips {
+    .group-hover\:bg-clip-#{$key} {
+      background-clip: $value !important;
+    }
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $clips {
+      .#{$breakpoint}\:bg-clip-#{$key} {
+        background-clip: $value;
+      }
+    }
+  }
+}

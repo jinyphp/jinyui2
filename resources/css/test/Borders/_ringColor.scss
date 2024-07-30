@@ -1,0 +1,41 @@
+@import "../colors";
+
+// Generate ring color classes using the colors map
+@each $key, $value in $colors-map {
+  .ring-#{$key} {
+    --tw-ring-color: $value;
+  }
+
+  // State-based ring color classes
+  .hover\:ring-#{$key}:hover {
+    --tw-ring-color: $value;
+  }
+  .focus\:ring-#{$key}:focus {
+    --tw-ring-color: $value;
+  }
+  .active\:ring-#{$key}:active {
+    --tw-ring-color: $value;
+  }
+}
+
+// Generate responsive ring color classes
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $colors-map {
+      .#{$breakpoint}\:ring-#{$key} {
+        --tw-ring-color: $value;
+      }
+
+      // Responsive state-based classes
+      .#{$breakpoint}\:hover\:ring-#{$key}:hover {
+        --tw-ring-color: $value;
+      }
+      .#{$breakpoint}\:focus\:ring-#{$key}:focus {
+        --tw-ring-color: $value;
+      }
+      .#{$breakpoint}\:active\:ring-#{$key}:active {
+        --tw-ring-color: $value;
+      }
+    }
+  }
+}

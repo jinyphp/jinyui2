@@ -1,0 +1,41 @@
+@import "../colors";
+
+// Generate outline color classes using the colors map
+@each $key, $value in $colors-map {
+  .outline-#{$key} {
+    outline-color: $value;
+  }
+
+  // State-based outline color classes
+  .hover\:outline-#{$key}:hover {
+    outline-color: $value;
+  }
+  .focus\:outline-#{$key}:focus {
+    outline-color: $value;
+  }
+  .active\:outline-#{$key}:active {
+    outline-color: $value;
+  }
+}
+
+// Generate responsive outline color classes
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    @each $key, $value in $colors-map {
+      .#{$breakpoint}\:outline-#{$key} {
+        outline-color: $value;
+      }
+
+      // Responsive state-based classes
+      .#{$breakpoint}\:hover\:outline-#{$key}:hover {
+        outline-color: $value;
+      }
+      .#{$breakpoint}\:focus\:outline-#{$key}:focus {
+        outline-color: $value;
+      }
+      .#{$breakpoint}\:active\:outline-#{$key}:active {
+        outline-color: $value;
+      }
+    }
+  }
+}
