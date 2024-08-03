@@ -1,12 +1,20 @@
 @import "breakpointtest";
 
+$excluded-colors: (
+    inherit,
+    transparent,
+    current,
+    black,
+    white
+);
+
 // Define the color map
 $colors-map: (
-    // "inherit": inherit,
-    // "transparent": transparent,
-    // current: currentColor,
-    // "black": rgb(0, 0, 0),
-    // "white": rgb(255, 255, 255),
+    inherit: inherit,
+    transparent: transparent,
+    current: currentColor,
+    black: rgb(0, 0, 0),
+    white: rgb(255, 255, 255),
     gray-50: rgb(249, 250, 251),
     gray-100: rgb(243, 244, 246),
     gray-200: rgb(229, 231, 235),
@@ -270,60 +278,61 @@ $colors-map: (
     }
 }
 
-@each $color, $value in $colors-map {
-    .bg-#{$color} {
-        --tw-bg-opacity: 1;
-        background-color: $value;
-    }
-}
+// background color
+// @each $color, $value in $colors-map {
+//     .bg-#{$color} {
+//         --tw-bg-opacity: 1;
+//         background-color: $value;
+//     }
+// }
 
-.group:hover {
-    @each $color, $value in $colors-map {
-        .group-hover\:bg-#{$color} {
-            --tw-bg-opacity: 1;
-            background-color: $value !important;
-        }
-    }
-}
+// .group:hover {
+//     @each $color, $value in $colors-map {
+//         .group-hover\:bg-#{$color} {
+//             --tw-bg-opacity: 1;
+//             background-color: $value !important;
+//         }
+//     }
+// }
 
-@each $breakpoint in map-keys($breakpoints) {
-    @include breakpoint($breakpoint) {
-        @each $color, $value in $colors-map {
-            .#{$breakpoint}\:bg-#{$color} {
-                --tw-bg-opacity: 1;
-                background-color: $value;
-            }
-        }
-    }
-}
+// @each $breakpoint in map-keys($breakpoints) {
+//     @include breakpoint($breakpoint) {
+//         @each $color, $value in $colors-map {
+//             .#{$breakpoint}\:bg-#{$color} {
+//                 --tw-bg-opacity: 1;
+//                 background-color: $value;
+//             }
+//         }
+//     }
+// }
 
-@each $color, $value in $colors-map {
-    .focus-within\:bg-#{$color}:focus-within {
-        --tw-bg-opacity: 1;
-        background-color: $value;
-    }
-}
+// @each $color, $value in $colors-map {
+//     .focus-within\:bg-#{$color}:focus-within {
+//         --tw-bg-opacity: 1;
+//         background-color: $value;
+//     }
+// }
 
-@each $color, $value in $colors-map {
-    .hover\:bg-#{$color}:hover {
-        --tw-bg-opacity: 1;
-        background-color: $value;
-    }
-}
+// @each $color, $value in $colors-map {
+//     .hover\:bg-#{$color}:hover {
+//         --tw-bg-opacity: 1;
+//         background-color: $value;
+//     }
+// }
 
-@each $color, $value in $colors-map {
-    .focus\:bg-#{$color}:focus {
-        --tw-bg-opacity: 1;
-        background-color: $value;
-    }
-}
+// @each $color, $value in $colors-map {
+//     .focus\:bg-#{$color}:focus {
+//         --tw-bg-opacity: 1;
+//         background-color: $value;
+//     }
+// }
 
-@each $color, $value in $colors-map {
-    .active\:bg-#{$color}:active {
-        --tw-bg-opacity: 1;
-        background-color: $value;
-    }
-}
+// @each $color, $value in $colors-map {
+//     .active\:bg-#{$color}:active {
+//         --tw-bg-opacity: 1;
+//         background-color: $value;
+//     }
+// }
 
 /* gradient */
 

@@ -1,55 +1,39 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
+// 배경 크기 값 정의
 $sizes: (
   auto: auto,
   cover: cover,
   contain: contain
 );
 
+// 기본 배경 크기 클래스 생성
 @each $key, $value in $sizes {
   .bg-#{$key} {
     background-size: $value;
   }
-}
 
-.group:hover {
-  @each $key, $value in $sizes {
-    .group-hover\:bg-#{$key} {
-      background-size: $value !important;
+  // 상태 기반 클래스 생성 (pseudo 클래스를 사용)
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-#{$key}") {
+      background-size: $value;
     }
   }
-}
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $sizes {
+  // 반응형 브레이크포인트 추가
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:bg-#{$key} {
         background-size: $value;
       }
+
+      // 반응형 상태 기반 클래스 생성 (pseudo 클래스를 사용)
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}:bg-#{$key}") {
+          background-size: $value;
+        }
+      }
     }
-  }
-}
-
-@each $key, $value in $sizes {
-  .focus-within\:bg-#{$key}:focus-within {
-    background-size: $value;
-  }
-}
-
-@each $key, $value in $sizes {
-  .hover\:bg-#{$key}:hover {
-    background-size: $value;
-  }
-}
-
-@each $key, $value in $sizes {
-  .focus\:bg-#{$key}:focus {
-    background-size: $value;
-  }
-}
-
-@each $key, $value in $sizes {
-  .active\:bg-#{$key}:active {
-    background-size: $value;
   }
 }

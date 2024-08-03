@@ -1,3 +1,4 @@
+@import "../pseudo.scss";
 @import "../breakpointtest.scss";
 
 // Define border styles
@@ -15,18 +16,12 @@ $border-styles: (
   .border-#{$style} {
     border-style: $value;
   }
-}
 
-// Generate state-based border-style classes
-@each $style, $value in $border-styles {
-  .hover\:border-#{$style}:hover {
-    border-style: $value;
-  }
-  .focus\:border-#{$style}:focus {
-    border-style: $value;
-  }
-  .active\:border-#{$style}:active {
-    border-style: $value;
+  // Generate pseudo-classes for border styles
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "border-#{$style}") {
+      border-style: $value;
+    }
   }
 }
 
@@ -38,14 +33,11 @@ $border-styles: (
         border-style: $value;
       }
 
-      .#{$breakpoint}\:hover\:border-#{$style}:hover {
-        border-style: $value;
-      }
-      .#{$breakpoint}\:focus\:border-#{$style}:focus {
-        border-style: $value;
-      }
-      .#{$breakpoint}\:active\:border-#{$style}:active {
-        border-style: $value;
+      // Generate pseudo-classes for each breakpoint
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:border-#{$style}") {
+          border-style: $value;
+        }
       }
     }
   }

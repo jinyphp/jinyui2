@@ -1,3 +1,4 @@
+@import "../pseudo.scss";
 @import "../breakpointtest.scss";
 
 // Border radius values
@@ -35,208 +36,105 @@ $corners: (
   bl: border-bottom-left-radius
 );
 
-// border-radius
-// Generate classes for each breakpoint
+// Generate border-radius classes
 @each $key, $value in $border-radii {
-    .rounded-#{$key}{
-        border-radius: $value;
-    }
-}
+  .rounded-#{$key} {
+    border-radius: $value;
+  }
 
-.group:hover {
-  @each $key, $value in $border-radii {
-    .group-hover\:rounded-#{$key} {
-      border-radius: $value !important;
+  // Pseudo classes for border-radius
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "rounded-#{$key}") {
+      border-radius: $value;
     }
   }
-}
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $border-radii {
+  // Breakpoints and pseudo classes
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:rounded-#{$key} {
         border-radius: $value;
       }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:rounded-#{$key}") {
+          border-radius: $value;
+        }
+      }
     }
   }
 }
 
-@each $key, $value in $border-radii {
-  .focus-within\:rounded-#{$key}:focus-within {
-    border-radius: $value;
-  }
-}
-
-@each $key, $value in $border-radii {
-  .hover\:rounded-#{$key}:hover {
-    border-radius: $value;
-  }
-}
-
-@each $key, $value in $border-radii {
-  .focus\:rounded-#{$key}:focus {
-    border-radius: $value;
-  }
-}
-
-@each $key, $value in $border-radii {
-  .active\:rounded-#{$key}:active {
-    border-radius: $value;
-  }
-}
-
-// 복잡ㄱ좁ㄱㄷㅈ
 // Mixin to generate border radius classes for each direction
 @mixin generate-border-radius-classes($prefix, $radius) {
-    @each $direction, $properties in $directions {
-      .rounded-#{$direction}-#{$prefix} {
-        @each $property in $properties {
-          #{$property}: $radius;
-        }
-      }
-    }
-  }
-  
-  // Generate classes for each border radius value
-  @each $key, $value in $border-radii {
-    @include generate-border-radius-classes($key, $value);
-  }
-  
-  // Additional hover, focus, and active states if needed
-  .group:hover {
-    @each $key, $value in $border-radii {
-      @each $direction, $properties in $directions {
-        .group-hover\:rounded-#{$direction}-#{$key} {
-          @each $property in $properties {
-            #{$property}: $value !important;
-          }
-        }
-      }
-    }
-  }
-  
-  @each $breakpoint in map-keys($breakpoints) {
-    @include breakpoint($breakpoint) {
-      @each $key, $value in $border-radii {
-        @each $direction, $properties in $directions {
-          .#{$breakpoint}\:rounded-#{$direction}-#{$key} {
-            @each $property in $properties {
-              #{$property}: $value;
-            }
-          }
-        }
-      }
-    }
-  }
-  
-  @each $key, $value in $border-radii {
-    @each $direction, $properties in $directions {
-      .focus-within\:rounded-#{$direction}-#{$key}:focus-within {
-        @each $property in $properties {
-          #{$property}: $value;
-        }
-      }
-    }
-  }
-  
-  @each $key, $value in $border-radii {
-    @each $direction, $properties in $directions {
-      .hover\:rounded-#{$direction}-#{$key}:hover {
-        @each $property in $properties {
-          #{$property}: $value;
-        }
-      }
-    }
-  }
-  
-  @each $key, $value in $border-radii {
-    @each $direction, $properties in $directions {
-      .focus\:rounded-#{$direction}-#{$key}:focus {
-        @each $property in $properties {
-          #{$property}: $value;
-        }
-      }
-    }
-  }
-  
-  @each $key, $value in $border-radii {
-    @each $direction, $properties in $directions {
-      .active\:rounded-#{$direction}-#{$key}:active {
-        @each $property in $properties {
-          #{$property}: $value;
-        }
-      }
-    }
-  }
-
-
-// border-start-
-// border-end-
-// Mixin to generate border radius classes for each corner
-@mixin generate-border-radius-corner-classes($prefix, $radius) {
-    @each $corner, $property in $corners {
-      .rounded-#{$corner}-#{$prefix} {
+  @each $direction, $properties in $directions {
+    .rounded-#{$direction}-#{$prefix} {
+      @each $property in $properties {
         #{$property}: $radius;
       }
     }
   }
-  
-  // Generate classes for each border radius value
-  @each $key, $value in $border-radii {
-    @include generate-border-radius-corner-classes($key, $value);
-  }
-  
-  // Additional hover, focus, and active states if needed
-  .group:hover {
-    @each $key, $value in $border-radii {
-      @each $corner, $property in $corners {
-        .group-hover\:rounded-#{$corner}-#{$key} {
-          #{$property}: $value !important;
-        }
-      }
+}
+
+// Generate classes for each border radius value and each direction
+@each $key, $value in $border-radii {
+  @include generate-border-radius-classes($key, $value);
+
+  // Pseudo classes for directions
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "rounded-#{$key}-s") {
+      @include generate-border-radius-classes($key, $value);
     }
   }
-  
+
+  // Breakpoints and pseudo classes for directions
   @each $breakpoint in map-keys($breakpoints) {
     @include breakpoint($breakpoint) {
-      @each $key, $value in $border-radii {
-        @each $corner, $property in $corners {
-          .#{$breakpoint}\:rounded-#{$corner}-#{$key} {
-            #{$property}: $value;
-          }
+      .#{$breakpoint}\:rounded-#{$key}-s {
+        @include generate-border-radius-classes($key, $value);
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:rounded-#{$key}-s") {
+          @include generate-border-radius-classes($key, $value);
         }
       }
     }
   }
-  
-  @each $key, $value in $border-radii {
-    @each $corner, $property in $corners {
-      .focus-within\:rounded-#{$corner}-#{$key}:focus-within {
-        #{$property}: $value;
+}
+
+// Mixin to generate border radius classes for each corner
+@mixin generate-border-radius-corner-classes($prefix, $radius) {
+  @each $corner, $property in $corners {
+    .rounded-#{$corner}-#{$prefix} {
+      #{$property}: $radius;
+    }
+  }
+}
+
+// Generate classes for each border radius value and each corner
+@each $key, $value in $border-radii {
+  @include generate-border-radius-corner-classes($key, $value);
+
+  // Pseudo classes for corners
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "rounded-#{$key}-ss") {
+      @include generate-border-radius-corner-classes($key, $value);
+    }
+  }
+
+  // Breakpoints and pseudo classes for corners
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:rounded-#{$key}-ss {
+        @include generate-border-radius-corner-classes($key, $value);
+      }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:rounded-#{$key}-ss") {
+          @include generate-border-radius-corner-classes($key, $value);
+        }
       }
     }
   }
-  
-  @each $key, $value in $border-radii {
-    @each $corner, $property in $corners {
-      .hover\:rounded-#{$corner}-#{$key}:hover {
-        #{$property}: $value;
-      }
-    }
-  }
-  
-  @each $key, $value in $border-radii {
-    @each $corner, $property in $corners {
-      .focus\:rounded-#{$corner}-#{$key}:focus {
-        #{$property}: $value;
-      }
-    }
-  }
-  
-  @each $key, $value in $border-radii {
-    @each $corner, $property in $corners {
-      .active\:rounded-#{$corner}-#{$key}:active {
-        #{$property}: $value;
-      }
-    }
-  }
+}

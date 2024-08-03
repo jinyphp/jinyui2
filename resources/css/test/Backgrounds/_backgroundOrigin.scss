@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $origins: (
   border: border-box,
@@ -6,50 +7,29 @@ $origins: (
   content: content-box
 );
 
+// 기본 클래스 설정
 @each $key, $value in $origins {
   .bg-origin-#{$key} {
     background-origin: $value;
   }
-}
 
-.group:hover {
-  @each $key, $value in $origins {
-    .group-hover\:bg-origin-#{$key} {
-      background-origin: $value !important;
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-origin-#{$key}") {
+      background-origin: $value;
     }
   }
-}
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $origins {
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:bg-origin-#{$key} {
         background-origin: $value;
       }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:bg-origin-#{$key}") {
+          background-origin: $value;
+        }
+      }
     }
-  }
-}
-
-@each $key, $value in $origins {
-  .focus-within\:bg-origin-#{$key}:focus-within {
-    background-origin: $value;
-  }
-}
-
-@each $key, $value in $origins {
-  .hover\:bg-origin-#{$key}:hover {
-    background-origin: $value;
-  }
-}
-
-@each $key, $value in $origins {
-  .focus\:bg-origin-#{$key}:focus {
-    background-origin: $value;
-  }
-}
-
-@each $key, $value in $origins {
-  .active\:bg-origin-#{$key}:active {
-    background-origin: $value;
   }
 }
