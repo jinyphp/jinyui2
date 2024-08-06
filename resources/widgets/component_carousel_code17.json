@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Variables for the dark carousel:",
+        "description": "어두운 캐러셀에 대한 변수입니다",
         "code": "$carousel-dark-indicator-active-bg:  $black;\n$carousel-dark-caption-color:        $black;\n$carousel-dark-control-icon-filter:  invert(1) grayscale(100);",
-        "updated_at": "2024-07-04 02:56:44"
+        "updated_at": "2024-08-06 05:41:58"
     }
 }

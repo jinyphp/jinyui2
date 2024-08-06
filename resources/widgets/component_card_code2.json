@@ -1,7 +1,7 @@
 {
     "items": {
         "title": "About",
-        "description": "A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards.",
-        "updated_at": "2024-07-04 01:42:41"
+        "description": "카드는 유연하고 확장이 가능한 컨테이너입니다. 헤더\/푸터 옵션, 다양한 콘텐츠, 문맥에 따른 배경색, 강력한 표시 옵션이 포함되어 있습니다. Bootstrap 3의 panels, wells, thumbnails는 카드로 변경되었습니다. 이러한 컴포넌트의 기능은 카드의 클래스로 이용할 수 있습니다.",
+        "updated_at": "2024-08-06 04:48:00"
     }
 }

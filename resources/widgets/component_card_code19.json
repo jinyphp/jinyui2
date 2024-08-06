@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Using custom CSS ",
-        "description": "Use custom CSS in your stylesheets or as inline styles to set a width.",
+        "title": "사용자 지정 CSS 사용하기",
+        "description": "스타일 시트나 인라인 스타일로 가로 폭을 적용할 수 있습니다.",
         "code": "<div class=\"card\" style=\"width: 18rem;\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Special title treatment<\/h5>\n    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Go somewhere<\/a>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:50:24"
+        "updated_at": "2024-08-06 05:04:05"
     }
 }

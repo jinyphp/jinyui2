@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Custom transition",
-        "description": "The transition duration of .carousel-item can be changed with the $carousel-transition-duration Sass variable before compiling or custom styles if you’re using the compiled CSS. If multiple transitions are applied, make sure the transform transition is defined first (e.g. transition: transform 2s ease, opacity .5s ease-out).",
-        "updated_at": "2024-07-04 02:56:15"
+        "title": "사용자 지정 트랜지션",
+        "description": ".carousel-item의 트랜지션의 지속시간은 컴파일 전의 Sass 변수인 $carousel-transition-duration이나, 컴파일된 CSS를 사용하는 경우의 사용자 정의 스타일로 변경할 수 있습니다. 여러 개의 트랜지션이 적용되는 경우 트랜스폼 트랜지션이 맨 앞에 정의되어 있는지 확인해 주세요(예를 들어, transition: transform 2s ease, opacity .5s ease-out).",
+        "updated_at": "2024-08-06 05:41:44"
     }
 }

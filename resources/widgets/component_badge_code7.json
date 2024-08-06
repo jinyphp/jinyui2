@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Background colors",
-        "description": "Set a background-color with contrasting foreground color with our .text-bg-{color} helpers. Previously it was required to manually pair your choice of .text-{color} and .bg-{color} utilities for styling, which you still may use if you prefer.",
+        "description": ".text-bg-{color} 도우미로 전경 color와 대비되는 background-color을 설정합니다. 이전에는 스타일링을 위해 .text-{color} 및 .bg-{color} 유틸리티를 수동으로 조합해야 했지만, 원하는 경우 계속 사용할 수 있습니다.",
         "code": "<span class=\"badge text-bg-primary\">Primary<\/span>\n<span class=\"badge text-bg-secondary\">Secondary<\/span>\n<span class=\"badge text-bg-success\">Success<\/span>\n<span class=\"badge text-bg-danger\">Danger<\/span>\n<span class=\"badge text-bg-warning\">Warning<\/span>\n<span class=\"badge text-bg-info\">Info<\/span>\n<span class=\"badge text-bg-light\">Light<\/span>\n<span class=\"badge text-bg-dark\">Dark<\/span>",
-        "updated_at": "2024-07-04 00:55:52"
+        "updated_at": "2024-08-06 03:54:23"
     }
 }

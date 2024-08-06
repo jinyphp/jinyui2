@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Each .btn-* modifier class updates the appropriate CSS variables to minimize additional CSS rules with our button-variant(), button-outline-variant(), and button-size() mixins.\n\nHere’s an example of building a custom .btn-* modifier class as we do for the buttons unique to our docs by reassigning Bootstrap’s CSS variables with a mixture of our own CSS and Sass variables.\n\n",
+        "description": "각 .btn-* 수정자 클래스는 button-variant(), button-variant(), button-outline-variant(), button-size() 믹스인을 사용하여 추가 CSS 규칙을 최소화하기 위해 적절한 CSS 변수를 업데이트합니다.\n\n다음은 문서에 고유한 버튼에서와 같이 자체 CSS 및 Sass 변수를 혼합하여 Bootstrap의 CSS 변수를 재할당하여 사용자 정의 .btn-* 수정자 클래스를 구축하는 예제입니다.",
         "code": ".btn-bd-primary {\n  --bs-btn-font-weight: 600;\n  --bs-btn-color: var(--bs-white);\n  --bs-btn-bg: var(--bd-violet-bg);\n  --bs-btn-border-color: var(--bd-violet-bg);\n  --bs-btn-hover-color: var(--bs-white);\n  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};\n  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};\n  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);\n  --bs-btn-active-color: var(--bs-btn-hover-color);\n  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};\n  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};\n}",
-        "updated_at": "2024-07-04 01:32:35"
+        "updated_at": "2024-08-06 04:16:32"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Autoplaying carousels",
-        "description": "You can make your carousels autoplay on page load by setting the ride option to carousel. Autoplaying carousels automatically pause while hovered with the mouse. This behavior can be controlled with the pause option. In browsers that support the Page Visibility API, the carousel will stop cycling when the webpage is not visible to the user (such as when the browser tab is inactive, or when the browser window is minimized).",
+        "title": "자동 재생 캐러셀",
+        "description": "페이지 로드 시 캐러셀이 자동 재생되도록 설정하려면 ride 옵션을 carousel로 설정하면 됩니다. 자동 재생 캐러셀은 마우스로 마우스를 가리키는 동안 자동으로 일시 중지됩니다. 이 동작은 pause 옵션으로 제어할 수 있습니다. 페이지 가시성 API를 지원하는 브라우저에서는 브라우저 탭이 비활성 상태이거나 브라우저 창이 최소화되는 등 웹페이지가 사용자에게 보이지 않을 경우 캐러셀의 순환이 중지됩니다.",
         "code": "<div id=\"carouselExampleAutoplaying\" class=\"carousel slide\" data-bs-ride=\"carousel\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"\/slide1.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide2.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide3.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleAutoplaying\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleAutoplaying\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
-        "updated_at": "2024-07-09 04:52:41"
+        "updated_at": "2024-08-06 05:39:09"
     }
 }

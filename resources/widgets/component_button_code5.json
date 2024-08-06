@@ -1,6 +1,6 @@
 {
     "items": {
-        "description": "The .btn class is intended to be used in conjunction with our button variants, or to serve as a basis for your own custom styles.\nIf you are using the .btn class on its own, remember to at least define some explicit :focus and\/or :focus-visible styles.",
-        "updated_at": "2024-07-04 01:12:47"
+        "description": ".btn 클래스는 버튼 변형과 함께 사용하거나 사용자 정의 스타일의 기초로 사용하기 위한 것입니다.",
+        "updated_at": "2024-08-06 04:07:55"
     }
 }

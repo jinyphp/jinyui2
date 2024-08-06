@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Positioned",
-        "description": "Use utilities to modify a .badge and position it in the corner of a link or button.",
+        "title": "위치",
+        "description": "유틸리티를 사용하여 .badge를 수정하고 링크나 버튼의 모서리에 배치하세요.",
         "code": "<button type=\"button\" class=\"btn btn-primary position-relative\">\n  Inbox\n  <span class=\"position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger\">\n    99+\n    <span class=\"visually-hidden\">unread messages<\/span>\n  <\/span>\n<\/button>",
-        "updated_at": "2024-07-04 00:55:25"
+        "updated_at": "2024-08-06 03:54:07"
     }
 }

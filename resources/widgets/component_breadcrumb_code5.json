@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "When modifying via Sass, the quote function is required to generate the quotes around a string. For example, using > as the divider, you can use this:",
+        "description": "Sass 를 통해 수정할 때, 문자열의 주변에 따옴표를 만들기 위해 quote 함수가 필요합니다. 예를 들어, >을 구분자로 사용하려면 이렇게 사용합니다.",
         "code": "$breadcrumb-divider: quote(\">\");",
-        "updated_at": "2024-07-04 01:03:50"
+        "updated_at": "2024-08-06 03:59:26"
     }
 }

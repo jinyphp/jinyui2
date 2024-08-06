@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Nesting",
-        "description": "Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons.",
+        "title": "중첩",
+        "description": "드롭다운과 버튼 그룹을 조합하는 경우는 다른 .btn-group 안에 .btn-group을 배치합니다.",
         "code": "<div class=\"btn-group\" role=\"group\" aria-label=\"Button group with nested dropdown\">\n  <button type=\"button\" class=\"btn btn-primary\">1<\/button>\n  <button type=\"button\" class=\"btn btn-primary\">2<\/button>\n\n  <div class=\"btn-group\" role=\"group\">\n    <button type=\"button\" class=\"btn btn-primary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\n      Dropdown\n    <\/button>\n    <ul class=\"dropdown-menu\">\n      <li><a class=\"dropdown-item\" href=\"#\">Dropdown link<\/a><\/li>\n      <li><a class=\"dropdown-item\" href=\"#\">Dropdown link<\/a><\/li>\n    <\/ul>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:39:13"
+        "updated_at": "2024-08-06 04:44:11"
     }
 }

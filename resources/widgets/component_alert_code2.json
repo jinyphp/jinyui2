@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Examples",
-        "description": "Alerts are available for any length of text, as well as an optional close button. For proper styling, use one of the eight required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts JavaScript plugin.",
+        "description": "텍스트 길이에 상관없이 메세지를 표시할 수 있으며 옵션으로 닫기 버튼을 제공합니다. 올바른 스타일링을 위해, 8가지의 테마 컬러(예를 들면, .alert-success) 로 사용 가능합니다. 인라인으로 경고창을 닫기 위해서는, 경고창 JavaScript 플러그인을 사용합니다.",
         "code": "<div class=\"alert alert-primary\" role=\"alert\">\n  A simple primary alert—check it out!\n<\/div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  A simple secondary alert—check it out!\n<\/div>\n<div class=\"alert alert-success\" role=\"alert\">\n  A simple success alert—check it out!\n<\/div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  A simple danger alert—check it out!\n<\/div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  A simple warning alert—check it out!\n<\/div>\n<div class=\"alert alert-info\" role=\"alert\">\n  A simple info alert—check it out!\n<\/div>\n<div class=\"alert alert-light\" role=\"alert\">\n  A simple light alert—check it out!\n<\/div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  A simple dark alert—check it out!\n<\/div>",
-        "updated_at": "2024-07-03 05:30:50"
+        "updated_at": "2024-08-06 03:34:25"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "You can create an alert instance with the alert constructor, for example:",
-        "updated_at": "2024-07-09 03:13:12",
+        "description": "예를 들어 경고창 생성자를 사용하여 알림 인스턴스를 만들 수 있습니다:",
+        "updated_at": "2024-08-06 03:48:55",
         "title": "Methods",
         "code": "const bsAlert = new bootstrap.Alert('#myAlert')"
     }

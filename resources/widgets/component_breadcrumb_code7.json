@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "You can also remove the divider setting --bs-breadcrumb-divider: ''; (empty strings in CSS custom properties counts as a value), or setting the Sass variable to $breadcrumb-divider: none;.",
+        "description": "또한 divider 설정인 --bs-breadcrumb-divider: '';을 빈 값으로 넣거나 (CSS 사용자 지정 속성의 빈 문자열은 값으로 카운터 됨), Sass 변수를 $breadcrumb-divider: none;으로 설정할 수도 있습니다.",
         "code": "<nav style=\"--bs-breadcrumb-divider: '';\" aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"#\">Home<\/a><\/li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Library<\/li>\n  <\/ol>\n<\/nav>",
-        "updated_at": "2024-07-04 01:09:21"
+        "updated_at": "2024-08-06 04:00:38"
     }
 }

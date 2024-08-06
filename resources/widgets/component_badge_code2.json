@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Examples",
-        "description": "Badges scale to match the size of the immediate parent element by using relative font sizing and em units. As of v5, badges no longer have focus or hover styles for links.",
-        "updated_at": "2024-07-04 00:54:37",
+        "description": "부모 요소의 크기에 일치하도록 상대적인 글꼴 크기 em을 사용하고 있습니다. v5 이후, 배지에는 더 이상 링크에 대한 포커스나 호버 스타일은 없습니다.",
+        "updated_at": "2024-08-06 03:52:50",
         "code": "<h1>Example heading <span class=\"badge text-bg-secondary\">New<\/span><\/h1>\n<h2>Example heading <span class=\"badge text-bg-secondary\">New<\/span><\/h2>\n<h3>Example heading <span class=\"badge text-bg-secondary\">New<\/span><\/h3>\n<h4>Example heading <span class=\"badge text-bg-secondary\">New<\/span><\/h4>\n<h5>Example heading <span class=\"badge text-bg-secondary\">New<\/span><\/h5>\n<h6>Example heading <span class=\"badge text-bg-secondary\">New<\/span><\/h6>"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "It’s also possible to use an embedded SVG icon. Apply it via our CSS custom property, or use the Sass variable.",
+        "description": "또한 내장된 SVG 아이콘을 사용할 수도 있습니다. CSS 사용자 지정 속성을 통해 적용하거나 Sass 변수를 사용하세요.",
         "code": "<nav style=\"--bs-breadcrumb-divider: url(&#34;data:image\/svg+xml,%3Csvg xmlns='http:\/\/www.w3.org\/2000\/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'\/%3E%3C\/svg%3E&#34;);\" aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"#\">Home<\/a><\/li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Library<\/li>\n  <\/ol>\n<\/nav>",
-        "updated_at": "2024-07-04 01:05:15"
+        "updated_at": "2024-08-06 03:59:33"
     }
 }
