@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Markup ",
-        "description": "The required markup for a tooltip is only a data attribute and title on the HTML element you wish to have a tooltip. The generated markup of a tooltip is rather simple, though it does require a position (by default, set to top by the plugin).",
+        "title": "마크업 ",
+        "description": "툴팁에 필요한 마크업은 툴팁을 작성하고자 하는 HTML 요소의 data 속성과 title 뿐입니다. 툴팁 마크업은 단순하지만 위치를 지정해야 합니다 (플러그인에 의해 기본 top이설정되어 있습니다).",
         "code": "<!-- HTML to write -->\n<a href=\"#\" data-bs-toggle=\"tooltip\" data-bs-title=\"Some tooltip text!\">Hover over me<\/a>\n\n<!-- Generated markup by the plugin -->\n<div class=\"tooltip bs-tooltip-auto\" role=\"tooltip\">\n  <div class=\"tooltip-arrow\"><\/div>\n  <div class=\"tooltip-inner\">\n    Some tooltip text!\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-01 12:18:57"
+        "updated_at": "2024-08-06 05:51:29"
     }
 }

@@ -15,7 +15,7 @@
     @vite('resources/css/app.scss')
     @vite('resources/css/test/main.scss')
 
-    <!-- @vite('resources/css2/scss/app-saas.scss') -->
+    @vite('resources/css2/scss/app-saas.scss')
     <link href="/assets/css/docs.css?1" rel="stylesheet" />
     <link href="/assets/css/highlight.css?a1" rel="stylesheet" />
 
