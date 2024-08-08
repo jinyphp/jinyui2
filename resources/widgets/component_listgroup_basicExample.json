@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Basic example ",
-        "description": "The most basic list group is an unordered list with list items and the proper classes. Build upon it with the options that follow, or with your own CSS as needed.",
+        "title": "기본 예시 ",
+        "description": "가장 기본적인 목록 그룹은 목록 아이템과 적절한 클래스를 가진 순서 없는 목록입니다. 이하의 옵션을 사용해, 혹은 필요에 따라서 독자적인 CSS를 사용해 만듭니다.",
         "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n  <li class=\"list-group-item\">A fourth item<\/li>\n  <li class=\"list-group-item\">And a fifth one<\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:00:53"
+        "updated_at": "2024-08-08 13:23:45"
     }
 }

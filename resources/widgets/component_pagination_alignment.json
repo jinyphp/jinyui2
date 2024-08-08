@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Alignment ",
-        "description": "Change the alignment of pagination components with flexbox utilities. For example, with .justify-content-center:",
+        "title": "정렬 ",
+        "description": "Flexbox utilities를 사용해 페이지네이션의 위치를 변경합니다. 예를 들어 .justify-content-center:",
         "code": "<nav aria-label=\"Page navigation example\">\n  <ul class=\"pagination justify-content-center\">\n    <li class=\"page-item disabled\">\n      <a class=\"page-link\">Previous<\/a>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n    <li class=\"page-item\">\n      <a class=\"page-link\" href=\"#\">Next<\/a>\n    <\/li>\n  <\/ul>\n<\/nav>",
-        "updated_at": "2024-07-02 11:40:04"
+        "updated_at": "2024-08-08 12:55:25"
     }
 }

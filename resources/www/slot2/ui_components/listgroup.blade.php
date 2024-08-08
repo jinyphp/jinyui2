@@ -50,7 +50,9 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_listgroup_checkboxesAndRadios3"
 ])
-<h2>CSS</h2>
+<x-www-preview>
+<h2 class="text-4xl font-bold">CSS</h2>
+</x-www-preview>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_listgroup_variables"
 ])
@@ -77,6 +79,21 @@
 ])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_listgroup_fadeEffect"
+])
+    @livewire('WidgetOnlyCode', [
+    'filename' => "component_listgroup_method"
+])
+    @livewire('WidgetNote', [
+    'filename' => "component_listgroup_method_note"
+])
+    @livewire('WidgetTableStyle2', [
+    'filename' => "component_listgroup_method_table"
+])
+    @livewire('WidgetCode-Component', [
+    'filename' => "component_listgroup_event"
+])
+    @livewire('WidgetTableStyle3', [
+    'filename' => "component_listgroup_event_table"
 ])
 
 </x-www-layout>

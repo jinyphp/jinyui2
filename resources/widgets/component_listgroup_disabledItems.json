@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Disabled items",
-        "description": "Add .disabled to a .list-group-item to make it appear disabled. Note that some elements with .disabled will also require custom JavaScript to fully disable their click events (e.g., links).\n\n",
+        "title": "비활성화된 항목 ",
+        "description": ".list-group-item에 .disabled를 추가하면, 비활성화되어 있는 것처럼 보입니다. .disabled를 가진 요소 중에는 클릭 이벤트(링크 등)를 완전히 비활성화하기 위해 사용자 정의 JavaScript를 사용해야 합니다.",
         "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item disabled\" aria-disabled=\"true\">A disabled item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n  <li class=\"list-group-item\">A fourth item<\/li>\n  <li class=\"list-group-item\">And a fifth one<\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:01:24"
+        "updated_at": "2024-08-08 13:24:12"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Text align ",
+        "title": "텍스트 정렬 ",
         "code": "<div class=\"text-center\">\n  <div class=\"spinner-border\" role=\"status\">\n    <span class=\"visually-hidden\">Loading...<\/span>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-02 11:16:35"
+        "updated_at": "2024-08-08 12:08:52"
     }
 }

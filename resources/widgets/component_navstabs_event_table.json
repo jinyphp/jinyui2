@@ -1,0 +1,34 @@
+{
+    "items": {
+        "1": {
+            "name": "이벤트 유형",
+            "description": "설명",
+            "created_at": "2024-08-08 13:19:22",
+            "updated_at": "2024-08-08 13:19:22"
+        },
+        "2": {
+            "name": "hide.bs.tab\t",
+            "description": "이 이벤트는 새로운 탭이 표시될 (즉, 이전에 활성화 된 탭이 감춰질) 때 발생합니다. event.target과 event.relatedTarget을 사용하여 각각 현재의 활성화된 탭과 다음에 활성화 될 새로운 탭을 타깃으로 합니다.",
+            "created_at": "2024-08-08 13:19:35",
+            "updated_at": "2024-08-08 13:19:35"
+        },
+        "3": {
+            "name": "hidden.bs.tab\t",
+            "description": "이 이벤트는 새로운 탭이 표시된 후에 발생합니다.(따라서 앞의 활성화한 탭은 숨김이 됩니다.) event.target과 event.relatedTarget을 사용하여 각각 이전 활성화된 탭과 새로운 활성화된 탭을 타깃으로 합니다.\n",
+            "created_at": "2024-08-08 13:19:48",
+            "updated_at": "2024-08-08 13:19:48"
+        },
+        "4": {
+            "name": "show.bs.tab\t",
+            "description": "이 이벤트는 탭 표시 시 발생하는데, 새로운 탭이 표시되기 전에 발생합니다. event.target과 event.relatedTarget을 사용하여 각각 활성화된 탭과 이전 활성화된 탭을 타깃으로 합니다.\n",
+            "created_at": "2024-08-08 13:20:02",
+            "updated_at": "2024-08-08 13:20:02"
+        },
+        "5": {
+            "name": "shown.bs.tab\t",
+            "description": "이 이벤트는 탭이 표시된 이후 탭 표시 시 발생합니다. event.target과 event.relatedTarget을 사용하여 각각 활성화된 탭과 이전 활성화된 탭을 타깃으로 합니다.\n\n",
+            "created_at": "2024-08-08 13:20:16",
+            "updated_at": "2024-08-08 13:20:16"
+        }
+    }
+}

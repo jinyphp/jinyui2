@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Flush ",
-        "description": "Add .list-group-flush to remove some borders and rounded corners to render list group items edge-to-edge in a parent container (e.g., cards).",
+        "description": ".list-group-flush를 추가하고, 부모 컨테이너(카드 등) 내의 목록 그룹의 아이템을 끝에서 끝까지 표시하기 위해 몇개의 라인과 둥근 모서리를 제거하도록 합니다.",
         "code": "<ul class=\"list-group list-group-flush\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n  <li class=\"list-group-item\">A fourth item<\/li>\n  <li class=\"list-group-item\">And a fifth one<\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:02:05"
+        "updated_at": "2024-08-08 13:24:49"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Horizontal alignment ",
-        "description": "Change the horizontal alignment of your nav with flexbox utilities. By default, navs are left-aligned, but you can easily change them to center or right-aligned.\n\nCentered with .justify-content-center:",
+        "title": "수직 정렬 ",
+        "description": "flexbox 유틸리티를 사용해, 내비게이션의 수평 방향의 배치를 변경합니다. 내비게이션의 기본은 왼쪽 정렬이지만, 쉽게 가운데 혹은 오른쪽 정렬로 변경 가능합니다.\n\n.justify-content-center를 사용해 가운데 정렬이 가능합니다.",
         "code": "<ul class=\"nav justify-content-center\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 10:22:36"
+        "updated_at": "2024-08-08 13:02:20"
     }
 }

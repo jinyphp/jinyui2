@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Underline ",
-        "description": "Take that same HTML, but use .nav-underline instead:",
+        "title": "밑줄",
+        "description": "동일한 HTML을 사용하되, 대신 ‘.nav-underline’을 사용합니다:",
         "code": "<ul class=\"nav nav-underline\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 10:24:21"
+        "updated_at": "2024-08-08 13:03:52"
     }
 }

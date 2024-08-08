@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Note that by default, the content inside the .progress-bar is controlled with overflow: hidden, so it doesn’t bleed out of the bar. If your progress bar is shorter than its label, the content will be capped and may become unreadable. To change this behavior, you can use .overflow-visible from the overflow utilities, but make sure to also define an explicit text color so the text remains readable. Be aware though that currently this approach does not take into account color modes.",
+        "description": "기본적으로 .progress-bar 내부의 콘텐츠는 .overflow: hidden으로 제어되므로 표시줄 밖으로 흘러나오지 않습니다. 진행률 표시줄이 레이블보다 짧으면 콘텐츠가 막혀서 읽을 수 없게 될 수 있습니다. 이 동작을 변경하려면 오버플로 유틸리티에서 .overflow-visible을 사용할 수 있지만, 텍스트가 계속 읽을 수 있도록 명시적인 텍스트 색상도 정의해야 합니다. 현재 이 접근 방식은 색상 모드를 고려하지 않는다는 점에 유의하세요.",
         "code": "<div class=\"progress\" role=\"progressbar\" aria-label=\"Example with label\" aria-valuenow=\"10\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n  <div class=\"progress-bar overflow-visible text-dark\" style=\"width: 10%\">Long label text for the progress bar, set to a dark color<\/div>\n<\/div>",
-        "updated_at": "2024-07-02 11:25:09"
+        "updated_at": "2024-08-08 12:21:24"
     }
 }

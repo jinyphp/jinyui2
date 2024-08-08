@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Overview ",
-        "description": "We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <nav> element to identify it as a navigation section to screen readers and other assistive technologies.\n\nIn addition, as pages likely have more than one such navigation section, it’s advisable to provide a descriptive aria-label for the <nav> to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be aria-label=\"Search results pages\".\n\n",
+        "title": "개요 ",
+        "description": "페이지네이션은 큰 블록의 링크를 사용하고 있어서, 넓은 클릭 영역을 제공하면서 쉽게 확장할 수 있습니다. 목록의 HTML 요소로 구성되며 스크린 리더는 이용 가능한 링크의 수를 알려줄 수 있습니다. <nav> 요소를 사용해, 그것을 스크린 리더나 기타 지원 기술에서 내비게이션 영역으로서 식별합니다.\n\n게다가 페이지에는 여러 개의 내비게이션 영역이 있을 가능성이 높기 때문에, 그 목적을 반영하기 위해서 <nav>에 aria-label을 붙히는 것을 권장합니다. 예를 들어 페이지네이션 컴포넌트를 사용해 일련의 검색 결과 사이를 이동하는 경우 적절한 라벨은 aria-label=\"Search results pages\"가 됩니다.",
         "code": "<nav aria-label=\"Page navigation example\">\n  <ul class=\"pagination\">\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">Previous<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">Next<\/a><\/li>\n  <\/ul>\n<\/nav>",
-        "updated_at": "2024-07-02 11:38:38"
+        "updated_at": "2024-08-08 12:52:53"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Growing spinner ",
-        "description": "If you don’t fancy a border spinner, switch to the grow spinner. While it doesn’t technically spin, it does repeatedly grow!",
+        "title": "Grow 스피너",
+        "description": "Border 스피너를 싫어하는 분은, grow 스피너를 사용하세요. 기술적으로는 회전하지 않지만 grow를 반복시키고 있습니다.",
         "code": "<div class=\"spinner-grow\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
-        "updated_at": "2024-07-02 11:15:12"
+        "updated_at": "2024-08-08 12:06:37"
     }
 }

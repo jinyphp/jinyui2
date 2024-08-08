@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "These work great with custom content as well.",
+        "description": "이들은 사용자 정의 콘텐츠와도 잘 어울립니다.",
         "code": "<ol class=\"list-group list-group-numbered\">\n  <li class=\"list-group-item d-flex justify-content-between align-items-start\">\n    <div class=\"ms-2 me-auto\">\n      <div class=\"fw-bold\">Subheading<\/div>\n      Content for list item\n    <\/div>\n    <span class=\"badge text-bg-primary rounded-pill\">14<\/span>\n  <\/li>\n  <li class=\"list-group-item d-flex justify-content-between align-items-start\">\n    <div class=\"ms-2 me-auto\">\n      <div class=\"fw-bold\">Subheading<\/div>\n      Content for list item\n    <\/div>\n    <span class=\"badge text-bg-primary rounded-pill\">14<\/span>\n  <\/li>\n  <li class=\"list-group-item d-flex justify-content-between align-items-start\">\n    <div class=\"ms-2 me-auto\">\n      <div class=\"fw-bold\">Subheading<\/div>\n      Content for list item\n    <\/div>\n    <span class=\"badge text-bg-primary rounded-pill\">14<\/span>\n  <\/li>\n<\/ol>",
-        "updated_at": "2024-07-03 11:02:34"
+        "updated_at": "2024-08-08 13:25:25"
     }
 }

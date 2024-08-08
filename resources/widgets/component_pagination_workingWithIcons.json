@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Working with icons ",
-        "description": "Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with aria attributes.",
+        "title": "아이콘 사용하기 ",
+        "description": "페이지네이션 링크에 텍스트 대신 아이콘이나 심벌을 사용하고 싶다면, aria 속성을 사용하여 스크린 리더를 적절히 지원하도록 하세요.",
         "code": "<nav aria-label=\"Page navigation example\">\n  <ul class=\"pagination\">\n    <li class=\"page-item\">\n      <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">\n        <span aria-hidden=\"true\">&laquo;<\/span>\n      <\/a>\n    <\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2<\/a><\/li>\n    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3<\/a><\/li>\n    <li class=\"page-item\">\n      <a class=\"page-link\" href=\"#\" aria-label=\"Next\">\n        <span aria-hidden=\"true\">&raquo;<\/span>\n      <\/a>\n    <\/li>\n  <\/ul>\n<\/nav>",
-        "updated_at": "2024-07-02 11:38:50"
+        "updated_at": "2024-08-08 12:53:11"
     }
 }

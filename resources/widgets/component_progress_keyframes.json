@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Keyframes ",
-        "description": "Used for creating the CSS animations for .progress-bar-animated. Included in scss\/_progress-bar.scss.",
+        "title": "키프레임",
+        "description": "CSS 애니메이션화를 위해 scss\/_progress-bar.scss에 포함되어 있는 .progress-bar-animated를 사용합니다.",
         "code": "@if $enable-transitions {\n  @keyframes progress-bar-stripes {\n    0% { background-position-x: $progress-height; }\n  }\n}",
-        "updated_at": "2024-07-02 11:27:52"
+        "updated_at": "2024-08-08 12:25:12"
     }
 }

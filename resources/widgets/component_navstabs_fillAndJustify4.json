@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Similar to the .nav-fill example using a <nav>-based navigation.",
+        "description": "<nav>에 .nav-fill을 적용한 경우:\n\n",
         "code": "<nav class=\"nav nav-pills nav-justified\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
-        "updated_at": "2024-07-03 10:25:40"
+        "updated_at": "2024-08-08 13:04:52"
     }
 }

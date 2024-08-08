@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "With <button>s, you can also make use of the disabled attribute instead of the .disabled class. Sadly, <a>s don’t support the disabled attribute.",
+        "description": "<button>에서는 .disabled 클래스 대신에 disabled 속성을 사용할 수도 있습니다. 유감스럽게도, <a>는 disabled 속성을 지원하지 않습니다.",
         "code": "<div class=\"list-group\">\n  <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n    The current button\n  <\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">A second button item<\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">A third button item<\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">A fourth button item<\/button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled>A disabled button item<\/button>\n<\/div>",
-        "updated_at": "2024-07-03 11:01:52"
+        "updated_at": "2024-08-08 13:24:33"
     }
 }

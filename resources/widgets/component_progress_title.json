@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Progress",
-        "description": "Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.",
-        "updated_at": "2024-07-01 11:34:27"
+        "title": "프로그레스",
+        "description": "스택형 막대, 애니메이션 배경 및 텍스트 레이블을 지원하는 Bootstrap 사용자 정의의 프로그레스 바를 위한 문서 및 예시입니다.",
+        "updated_at": "2024-08-08 12:15:33"
     }
 }

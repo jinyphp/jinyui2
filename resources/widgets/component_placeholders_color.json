@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Color ",
-        "description": "By default, the placeholder uses currentColor. This can be overridden with a custom color or utility class.",
+        "title": "색상",
+        "description": "기본적으로 placeholder는 currentColor를 사용합니다. 사용자 정의 색상 또는 유틸리티 클래스로 재정의할 수 있습니다.",
         "code": "<span class=\"placeholder col-12\"><\/span>\n\n<span class=\"placeholder col-12 bg-primary\"><\/span>\n<span class=\"placeholder col-12 bg-secondary\"><\/span>\n<span class=\"placeholder col-12 bg-success\"><\/span>\n<span class=\"placeholder col-12 bg-danger\"><\/span>\n<span class=\"placeholder col-12 bg-warning\"><\/span>\n<span class=\"placeholder col-12 bg-info\"><\/span>\n<span class=\"placeholder col-12 bg-light\"><\/span>\n<span class=\"placeholder col-12 bg-dark\"><\/span>",
-        "updated_at": "2024-07-02 11:37:23"
+        "updated_at": "2024-08-08 12:45:11"
     }
 }

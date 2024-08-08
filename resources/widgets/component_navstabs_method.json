@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "메소드 ",
+        "description": "콘텐츠를 탭 요소로 활성화합니다.\n\n예를 들어 생성자를 사용하여 탭 인스턴스를 만들 수 있습니다:",
+        "updated_at": "2024-08-08 13:16:04",
+        "code": "const bsTab = new bootstrap.Tab('#myTab')"
+    }
+}

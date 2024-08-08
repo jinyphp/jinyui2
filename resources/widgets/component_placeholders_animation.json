@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Animation ",
-        "description": "Animate placeholders with .placeholder-glow or .placeholder-wave to better convey the perception of something being actively loaded.\n\n",
+        "title": "애니메이션 ",
+        "description": ".placeholder-glow 또는 .placeholder-wave를 사용하여 플레이스홀더에 애니메이션을 적용하여 무언가가 활성적으로 로드되고 있다는 인식을 더 잘 전달할 수 있습니다.",
         "code": "<p class=\"placeholder-glow\">\n  <span class=\"placeholder col-12\"><\/span>\n<\/p>\n\n<p class=\"placeholder-wave\">\n  <span class=\"placeholder col-12\"><\/span>\n<\/p>",
-        "updated_at": "2024-07-02 11:37:57"
+        "updated_at": "2024-08-08 12:45:44"
     }
 }

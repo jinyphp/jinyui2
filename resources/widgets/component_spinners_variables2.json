@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Growing spinner variables:",
+        "description": "증가하는 스피너 변수:",
         "code": "--#{$prefix}spinner-width: #{$spinner-width};\n--#{$prefix}spinner-height: #{$spinner-height};\n--#{$prefix}spinner-vertical-align: #{$spinner-vertical-align};\n--#{$prefix}spinner-animation-speed: #{$spinner-animation-speed};\n--#{$prefix}spinner-animation-name: spinner-grow;",
-        "updated_at": "2024-07-02 11:17:51"
+        "updated_at": "2024-08-08 12:11:04"
     }
 }
