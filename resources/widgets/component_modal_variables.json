@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Variables ",
-        "description": "As part of Bootstrap’s evolving CSS variables approach, modals now use local CSS variables on .modal and .modal-backdrop for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "title": "변수",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일환으로, 이제 경고창에서 .modal 및 .modal-backdrop의 로컬 CSS 변수를 사용하여 실시간 사용자 정의 기능을 강화합니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.",
         "code": "--#{$prefix}modal-zindex: #{$zindex-modal};\n--#{$prefix}modal-width: #{$modal-md};\n--#{$prefix}modal-padding: #{$modal-inner-padding};\n--#{$prefix}modal-margin: #{$modal-dialog-margin};\n--#{$prefix}modal-color: #{$modal-content-color};\n--#{$prefix}modal-bg: #{$modal-content-bg};\n--#{$prefix}modal-border-color: #{$modal-content-border-color};\n--#{$prefix}modal-border-width: #{$modal-content-border-width};\n--#{$prefix}modal-border-radius: #{$modal-content-border-radius};\n--#{$prefix}modal-box-shadow: #{$modal-content-box-shadow-xs};\n--#{$prefix}modal-inner-border-radius: #{$modal-content-inner-border-radius};\n--#{$prefix}modal-header-padding-x: #{$modal-header-padding-x};\n--#{$prefix}modal-header-padding-y: #{$modal-header-padding-y};\n--#{$prefix}modal-header-padding: #{$modal-header-padding}; \/\/ Todo in v6: Split this padding into x and y\n--#{$prefix}modal-header-border-color: #{$modal-header-border-color};\n--#{$prefix}modal-header-border-width: #{$modal-header-border-width};\n--#{$prefix}modal-title-line-height: #{$modal-title-line-height};\n--#{$prefix}modal-footer-gap: #{$modal-footer-margin-between};\n--#{$prefix}modal-footer-bg: #{$modal-footer-bg};\n--#{$prefix}modal-footer-border-color: #{$modal-footer-border-color};\n--#{$prefix}modal-footer-border-width: #{$modal-footer-border-width};",
-        "updated_at": "2024-07-03 10:56:46"
+        "updated_at": "2024-08-09 12:52:07"
     }
 }

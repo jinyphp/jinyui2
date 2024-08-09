@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Sass variables ",
+        "title": "Sass 변수",
         "code": "$popover-font-size:                 $font-size-sm;\n$popover-bg:                        var(--#{$prefix}body-bg);\n$popover-max-width:                 276px;\n$popover-border-width:              var(--#{$prefix}border-width);\n$popover-border-color:              var(--#{$prefix}border-color-translucent);\n$popover-border-radius:             var(--#{$prefix}border-radius-lg);\n$popover-inner-border-radius:       calc(#{$popover-border-radius} - #{$popover-border-width}); \/\/ stylelint-disable-line function-disallowed-list\n$popover-box-shadow:                var(--#{$prefix}box-shadow);\n\n$popover-header-font-size:          $font-size-base;\n$popover-header-bg:                 var(--#{$prefix}secondary-bg);\n$popover-header-color:              $headings-color;\n$popover-header-padding-y:          .5rem;\n$popover-header-padding-x:          $spacer;\n\n$popover-body-color:                var(--#{$prefix}body-color);\n$popover-body-padding-y:            $spacer;\n$popover-body-padding-x:            $spacer;\n\n$popover-arrow-width:               1rem;\n$popover-arrow-height:              .5rem;",
-        "updated_at": "2024-07-02 11:32:05"
+        "updated_at": "2024-08-09 13:50:18"
     }
 }

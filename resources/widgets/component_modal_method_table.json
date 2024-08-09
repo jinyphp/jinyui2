@@ -1,0 +1,46 @@
+{
+    "items": {
+        "1": {
+            "method": "메소드",
+            "description": "설명",
+            "created_at": "2024-08-09 13:05:25",
+            "updated_at": "2024-08-09 13:05:25"
+        },
+        "2": {
+            "method": "dispose",
+            "description": "모달의 요소를 없앱니다. (DOM 요소에 저장되어 있는 데이터를 삭제합니다)",
+            "created_at": "2024-08-09 13:05:40",
+            "updated_at": "2024-08-09 13:05:40"
+        },
+        "3": {
+            "method": "getInstance",
+            "description": "DOM 요소와 연관된 모달 인스턴스를 취득하는 Static 메소드 입니다.",
+            "created_at": "2024-08-09 13:05:53",
+            "updated_at": "2024-08-09 13:05:53"
+        },
+        "4": {
+            "method": "getOrCreateInstance",
+            "description": "Static 메서드를 사용하여 DOM 요소와 연결된 모달 인스턴스를 가져오거나 초기화되지 않은 경우 새 인스턴스를 생성할 수 있습니다.",
+            "created_at": "2024-08-09 13:06:04",
+            "updated_at": "2024-08-09 13:06:04"
+        },
+        "5": {
+            "method": "handleUpdate",
+            "description": "열려 있는 동안에 모달의 높이가 바뀌었을 경우, 모달의 위치를 수동으로 재조정합니다 (즉, 스크롤 바가 표시되어 있는 경우 등).",
+            "created_at": "2024-08-09 13:06:18",
+            "updated_at": "2024-08-09 13:06:18"
+        },
+        "6": {
+            "method": "show",
+            "description": "모달을 수동으로 엽니다. 모달이 실제로 표시되기 전에 호출한 곳으로 돌아갑니다 (즉, shown.bs.modal 이벤트가 발생하기 전). 또한, 모달 이벤트로 받을 수 있는 DOM 요소를 (relatedTarget 속성으로서) 인수로 건네줄 수도 있습니다. (예: const modalToggle = document.getElementById('toggleMyModal'); myModal.show(modalToggle))",
+            "created_at": "2024-08-09 13:06:43",
+            "updated_at": "2024-08-09 13:06:43"
+        },
+        "7": {
+            "method": "toggle",
+            "description": "모달을 수동으로 바꿉니다. 모달이 실제로 표시 또는 숨기기 전에 호출한 곳으로 돌아갑니다 (즉, shown.bs.modal 또는 hidden.bs.modal 이벤트가 발생하기 전).\n",
+            "created_at": "2024-08-09 13:06:58",
+            "updated_at": "2024-08-09 13:06:58"
+        }
+    }
+}

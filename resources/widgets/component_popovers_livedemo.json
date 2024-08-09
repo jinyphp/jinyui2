@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Live demo ",
-        "description": "We use JavaScript similar to the snippet above to render the following live popover. Titles are set via data-bs-title and body content is set via data-bs-content.",
+        "title": "라이브 데모",
+        "description": "위의 스니펫과 유사한 JavaScript를 사용하여 다음과 같은 라이브 팝오버를 렌더링합니다. 제목은 data-bs-title을 통해 설정하고 본문 콘텐츠는 data-bs-content를 통해 설정합니다.",
         "code": "<button type=\"button\" class=\"btn btn-lg btn-danger\" data-bs-toggle=\"popover\" data-bs-title=\"Popover title\" data-bs-content=\"And here's some amazing content. It's very engaging. Right?\">Click to toggle popover<\/button>",
-        "updated_at": "2024-07-02 11:28:59"
+        "updated_at": "2024-08-09 13:47:00"
     }
 }

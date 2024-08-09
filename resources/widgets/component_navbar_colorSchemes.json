@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Color schemes ",
-        "description": "Navbar themes are easier than ever thanks to Bootstrap’s combination of Sass and CSS variables. The default is our “light navbar” for use with light background colors, but you can also apply data-bs-theme=\"dark\" to the .navbar parent for dark background colors. Then, customize with .bg-* and additional utilities.",
+        "title": "색상 스키마 ",
+        "description": "Bootstrap의 Sass와 CSS 변수의 조합 덕분에 내비게이션 바 테마가 그 어느 때보다 쉬워졌습니다. 기본값은 밝은 배경색에 사용할 수 있는 “밝은 내비게이션 바\"지만, 어두운 배경색을 사용하려면 data-bs-theme=\"dark\"를 .navbar 부모에 적용할 수도 있습니다. 그런 다음 .bg-* 및 추가 유틸리티를 사용하여 사용자 정의합니다.",
         "code": "<nav class=\"navbar bg-dark border-bottom border-body\" data-bs-theme=\"dark\">\n  <!-- Navbar content -->\n<\/nav>\n\n<nav class=\"navbar bg-primary\" data-bs-theme=\"dark\">\n  <!-- Navbar content -->\n<\/nav>\n\n<nav class=\"navbar\" style=\"background-color: #e3f2fd;\">\n  <!-- Navbar content -->\n<\/nav>",
-        "updated_at": "2024-07-03 10:35:14"
+        "updated_at": "2024-08-09 13:31:18"
     }
 }

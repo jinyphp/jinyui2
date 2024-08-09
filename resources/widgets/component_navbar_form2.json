@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Immediate child elements of .navbar use flex layout and will default to justify-content: space-between. Use additional flex utilities as needed to adjust this behavior.",
+        "description": ".navbar의 바로 다음 자식 요소는 flex 레이아웃을 사용하며 기본값은 justify-content: space-between 입니다. 이 동작을 조정하려면 필요에 따라 추가적인 flex utilities를 사용하세요.",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\">Navbar<\/a>\n    <form class=\"d-flex\" role=\"search\">\n      <input class=\"form-control me-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success\" type=\"submit\">Search<\/button>\n    <\/form>\n  <\/div>\n<\/nav>",
-        "updated_at": "2024-07-03 10:34:08"
+        "updated_at": "2024-08-09 13:30:21"
     }
 }

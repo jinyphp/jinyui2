@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Another situation where you’ll want to set an explicit custom container are popovers inside a modal dialog, to make sure that the popover itself is appended to the modal. This is particularly important for popovers that contain interactive elements – modal dialogs will trap focus, so unless the popover is a child element of the modal, users won’t be able to focus or activate these interactive elements.",
+        "description": "명시적인 사용자 정의 container를 설정해야 하는 또 다른 상황은 모달 대화 상자 내부의 팝업으로, 팝업 자체가 모달에 추가되도록 하는 것입니다. 이는 대화형 요소가 포함된 팝업의 경우 특히 중요합니다. 모달 대화 상자는 포커스를 가두기 때문에 팝업이 모달의 하위 요소가 아니면 사용자가 이러한 대화형 요소에 초점을 맞추거나 활성화할 수 없습니다.",
         "code": "const popover = new bootstrap.Popover('.example-popover', {\n  container: '.modal-body'\n})",
-        "updated_at": "2024-07-02 11:29:52"
+        "updated_at": "2024-08-09 13:47:43"
     }
 }

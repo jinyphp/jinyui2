@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "",
-        "description": "You can also create a scrollable modal that allows scrolling the modal body by adding .modal-dialog-scrollable to .modal-dialog.",
+        "description": "또한 .modal-dialog에 .modal-dialog-scrollable를 추가하는 것으로, 모달 본체를 스크롤할 수 있는 스크롤 가능한 모달로 만들 수 있습니다.\n\n\n",
         "code": "<!-- Scrollable modal -->\n<div class=\"modal-dialog modal-dialog-scrollable\">\n  ...\n<\/div>",
-        "updated_at": "2024-07-03 10:52:01"
+        "updated_at": "2024-08-09 12:48:23"
     }
 }

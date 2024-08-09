@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Image and text ",
-        "description": "You can also make use of some additional utilities to add an image and text at the same time. Note the addition of .d-inline-block and .align-text-top on the <img>.",
+        "title": "이미지와 텍스트 ",
+        "description": "또한 몇 가지 추가 유틸리티를 이용하여 이미지와 텍스트를 동시에 추가할 수 있습니다. <img>에 .d-inline-block과 .align-text-top을 추가하고 있다는 사실에 주목해 주세요.",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\" href=\"#\">\n      <img src=\"\/docs\/5.3\/assets\/brand\/bootstrap-logo.svg\" alt=\"Logo\" width=\"30\" height=\"24\" class=\"d-inline-block align-text-top\">\n      Bootstrap\n    <\/a>\n  <\/div>\n<\/nav>",
-        "updated_at": "2024-07-03 10:33:01"
+        "updated_at": "2024-08-09 13:29:16"
     }
 }

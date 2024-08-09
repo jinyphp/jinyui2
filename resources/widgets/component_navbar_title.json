@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Navbar",
-        "description": "Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.",
-        "updated_at": "2024-07-01 11:39:20"
+        "title": "내비게이션 바",
+        "description": "Bootstrap의 강력하고 반응형적인 내비게이션 헤더, 내비게이션 바의 문서와 예. 콜랩스(collapse) 플러그인 지원을 포함한 브랜딩, 내비게이션 등의 지원이 포함되어 있습니다.",
+        "updated_at": "2024-08-09 13:26:19"
     }
 }
