@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss"; // Import your pseudo mixin
 
 $outline-width: (
     0: 0px,
@@ -8,43 +9,34 @@ $outline-width: (
     8: 8px
 );
 
-@each $key, $value in $outline-width{
-    .outline-#{$key}{
-        outline-width: #{$value};
+// Generate base and state-based outline-width classes
+@each $key, $value in $outline-width {
+    .outline-#{$key} {
+        outline-width: $value;
+
+        // Apply pseudo states
+        @each $pseudo in map-keys($pseudos) {
+            @include pseudo($pseudo, "outline-#{$key}") {
+                outline-width: $value;
+            }
+        }
     }
 }
 
-// Generate state-based outline-width classes
-@each $key, $value in $outline-width {
-    .hover\:outline-#{$key}:hover {
-      outline-width: $value;
-    }
-    .focus\:outline-#{$key}:focus {
-      outline-width: $value;
-    }
-    .active\:outline-#{$key}:active {
-      outline-width: $value;
-    }
-  }
-  
-  // Generate responsive outline-width classes
-  @each $breakpoint in map-keys($breakpoints) {
+// Generate responsive outline-width classes
+@each $breakpoint in map-keys($breakpoints) {
     @include breakpoint($breakpoint) {
-      @each $key, $value in $outline-width {
-        .#{$breakpoint}\:outline-#{$key} {
-          outline-width: $value;
+        @each $key, $value in $outline-width {
+            .#{$breakpoint}\:outline-#{$key} {
+                outline-width: $value;
+
+                // Apply pseudo states
+                @each $pseudo in map-keys($pseudos) {
+                    @include pseudo($pseudo, "#{$breakpoint}\:outline-#{$key}") {
+                        outline-width: $value;
+                    }
+                }
+            }
         }
-  
-        // Responsive state-based classes
-        .#{$breakpoint}\:hover\:outline-#{$key}:hover {
-          outline-width: $value;
-        }
-        .#{$breakpoint}\:focus\:outline-#{$key}:focus {
-          outline-width: $value;
-        }
-        .#{$breakpoint}\:active\:outline-#{$key}:active {
-          outline-width: $value;
-        }
-      }
     }
-  }
+}

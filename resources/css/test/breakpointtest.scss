@@ -11,7 +11,7 @@ $breakpoints: (
 // 미디어 쿼리 믹스인
 @mixin breakpoint($size) {
     @if map-has-key($breakpoints, $size) {
-        @media (max-width: map-get($breakpoints, $size)) {
+        @media (min-width: map-get($breakpoints, $size)) {
             @content;
         }
     } @else {

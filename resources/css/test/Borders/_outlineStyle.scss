@@ -1,4 +1,14 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss"; // Import your pseudo mixin
+
+// Define outline widths
+$outline-widths: (
+  0: 0px,
+  1: 1px,
+  2: 2px,
+  4: 4px,
+  8: 8px
+);
 
 // Define outline styles
 $outline-styles: (
@@ -9,70 +19,65 @@ $outline-styles: (
   double: double
 );
 
-// Define outline properties
-$outline-properties: (
-  none: (
-    outline: 2px solid transparent,
-    outline-offset: 2px
-  ),
-  solid: (outline-style: solid),
-  dashed: (outline-style: dashed),
-  dotted: (outline-style: dotted),
-  double: (outline-style: double)
-);
+// Base outline class for setting the default style
+.outline {
+  outline-style: solid; // default outline style
+}
 
-// Generate base outline classes
-@each $style, $properties in $outline-properties {
+// Generate outline width classes
+@each $key, $value in $outline-widths {
+  .outline-#{$key} {
+    outline-width: $value;
+  }
+
+  // Generate state-based outline width classes
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "outline-#{$key}") {
+      outline-width: $value;
+    }
+  }
+
+  // Generate responsive outline width classes
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:outline-#{$key} {
+        outline-width: $value;
+      }
+
+      // Responsive state-based outline width classes
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:outline-#{$key}") {
+          outline-width: $value;
+        }
+      }
+    }
+  }
+}
+
+// Generate outline style classes
+@each $style, $value in $outline-styles {
   .outline-#{$style} {
-    @each $property, $value in $properties {
-      #{property}: #{value};
-    }
+    outline-style: $value;
   }
-}
 
-// Generate state-based outline classes
-@each $style, $properties in $outline-properties {
-  .hover\:outline-#{$style}:hover {
-    @each $property, $value in $properties {
-      #{property}: #{value};
+  // Generate state-based outline style classes
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "outline-#{$style}") {
+      outline-style: $value;
     }
   }
-  .focus\:outline-#{$style}:focus {
-    @each $property, $value in $properties {
-      #{property}: #{value};
-    }
-  }
-  .active\:outline-#{$style}:active {
-    @each $property, $value in $properties {
-      #{property}: #{value};
-    }
-  }
-}
 
-// Generate responsive outline classes
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $style, $properties in $outline-properties {
+  // Generate responsive outline style classes
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:outline-#{$style} {
-        @each $property, $value in $properties {
-          #{property}: #{value};
-        }
+        outline-style: $value;
       }
 
-      // Responsive state-based classes
-      .#{$breakpoint}\:hover\:outline-#{$style}:hover {
-        @each $property, $value in $properties {
-          #{property}: #{value};
-        }
-      }
-      .#{$breakpoint}\:focus\:outline-#{$style}:focus {
-        @each $property, $value in $properties {
-          #{property}: #{value};
-        }
-      }
-      .#{$breakpoint}\:active\:outline-#{$style}:active {
-        @each $property, $value in $properties {
-          #{property}: #{value};
+      // Responsive state-based outline style classes
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:outline-#{$style}") {
+          outline-style: $value;
         }
       }
     }

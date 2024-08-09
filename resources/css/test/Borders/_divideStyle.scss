@@ -1,4 +1,5 @@
-@import "../breakpointtest.scss";
+@import "../breakpointtest.scss"; // Import your breakpoint mixin
+@import "../pseudo.scss"; // Import your pseudo mixin
 
 // Define border styles
 $border-styles: (
@@ -13,19 +14,13 @@ $border-styles: (
 @each $style, $value in $border-styles {
   .divide-#{$style} {
     border-style: $value;
-  }
-}
 
-// Generate state-based border-style classes
-@each $style, $value in $border-styles {
-  .hover\:divide-#{$style}:hover {
-    border-style: $value;
-  }
-  .focus\:divide-#{$style}:focus {
-    border-style: $value;
-  }
-  .active\:divide-#{$style}:active {
-    border-style: $value;
+    // Apply pseudo states
+    @each $pseudo in map-keys($pseudos) {
+      @include pseudo($pseudo, "divide-#{$style}") {
+        border-style: $value;
+      }
+    }
   }
 }
 
@@ -35,17 +30,13 @@ $border-styles: (
     @each $style, $value in $border-styles {
       .#{$breakpoint}\:divide-#{$style} {
         border-style: $value;
-      }
 
-      // Responsive state-based classes
-      .#{$breakpoint}\:hover\:divide-#{$style}:hover {
-        border-style: $value;
-      }
-      .#{$breakpoint}\:focus\:divide-#{$style}:focus {
-        border-style: $value;
-      }
-      .#{$breakpoint}\:active\:divide-#{$style}:active {
-        border-style: $value;
+        // Apply pseudo states
+        @each $pseudo in map-keys($pseudos) {
+          @include pseudo($pseudo, "#{$breakpoint}\:divide-#{$style}") {
+            border-style: $value;
+          }
+        }
       }
     }
   }
