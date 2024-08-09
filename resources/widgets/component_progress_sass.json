@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Sass variables ",
+        "title": "Sass 변수",
         "code": "$progress-height:                   1rem;\n$progress-font-size:                $font-size-base * .75;\n$progress-bg:                       var(--#{$prefix}secondary-bg);\n$progress-border-radius:            var(--#{$prefix}border-radius);\n$progress-box-shadow:               var(--#{$prefix}box-shadow-inset);\n$progress-bar-color:                $white;\n$progress-bar-bg:                   $primary;\n$progress-bar-animation-timing:     1s linear infinite;\n$progress-bar-transition:           width .6s ease;",
-        "updated_at": "2024-07-02 11:27:38"
+        "updated_at": "2024-08-08 12:25:00"
     }
 }

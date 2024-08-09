@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Disabled elements ",
-        "description": "Elements with the disabled attribute aren’t interactive, meaning users cannot hover or click them to trigger a popover (or tooltip). As a workaround, you’ll want to trigger the popover from a wrapper <div> or <span>, ideally made keyboard-focusable using tabindex=\"0\".\n\nFor disabled popover triggers, you may also prefer data-bs-trigger=\"hover focus\" so that the popover appears as immediate visual feedback to your users as they may not expect to click on a disabled element.",
+        "title": "비활성화 요소 ",
+        "description": "disabled 속성을 갖는 요소는 인터랙티브하지 않습니다. 즉, 사용자가 팝오버(또는 툴팁)를 일으키기 위해서 호버하거나 클릭할 수 없습니다. 차선책으로 감싼 <div> 및 <span>에서 팝오버를 트리거 되길 원하지만, tabindex=\"0\"을 사용해 키보드 포커스가 가능하도록 이상적으로 만듭니다.\n\n무효화된 팝오버를 트리거 하기 위해서는 data-bs-trigger=\"hover focus\"라고 하면 사용자는 무효가 된 요소를 click 할 것을 기대하지 않기 때문에 팝오버가 바로 시각적으로 표시되게 됩니다.\n\n",
         "code": "<span class=\"d-inline-block\" tabindex=\"0\" data-bs-toggle=\"popover\" data-bs-trigger=\"hover focus\" data-bs-content=\"Disabled popover\">\n  <button class=\"btn btn-primary\" type=\"button\" disabled>Disabled button<\/button>\n<\/span>",
-        "updated_at": "2024-07-02 11:31:34"
+        "updated_at": "2024-08-09 13:49:23"
     }
 }

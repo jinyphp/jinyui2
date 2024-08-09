@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Forms ",
-        "description": "Place various form controls and components within a navbar:",
+        "title": "폼",
+        "description": "내비게이션 바 내에 다양한 폼 컨트롤 및 컴포넌트를 배치합니다:",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <form class=\"d-flex\" role=\"search\">\n      <input class=\"form-control me-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success\" type=\"submit\">Search<\/button>\n    <\/form>\n  <\/div>\n<\/nav>",
-        "updated_at": "2024-07-03 10:33:56"
+        "updated_at": "2024-08-09 13:30:04"
     }
 }

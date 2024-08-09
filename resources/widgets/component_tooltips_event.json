@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": "const myTooltipEl = document.getElementById('myTooltip')\nconst tooltip = bootstrap.Tooltip.getOrCreateInstance(myTooltipEl)\n\nmyTooltipEl.addEventListener('hidden.bs.tooltip', () => {\n  \/\/ do something...\n})\n\ntooltip.hide()",
+        "updated_at": "2024-08-06 05:56:26"
+    }
+}

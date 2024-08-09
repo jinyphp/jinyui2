@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Once again, this spinner is built with currentColor, so you can easily change its appearance with text color utilities. Here it is in blue, along with the supported variants.",
+        "description": "다시 한번 말씀드리지만, 이 스피너는 currentColor로 만들어졌기 때문에 text color utilities로 외형을 쉽게 바꿀 수 있습니다.",
         "code": "<div class=\"spinner-grow text-primary\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-secondary\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-success\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-danger\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-warning\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-info\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-light\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-grow text-dark\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
-        "updated_at": "2024-07-02 11:15:27"
+        "updated_at": "2024-08-08 12:06:54"
     }
 }

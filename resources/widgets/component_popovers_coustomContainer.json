@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Custom container ",
-        "description": "When you have some styles on a parent element that interfere with a popover, you’ll want to specify a custom container so that the popover’s HTML appears within that element instead. This is common in responsive tables, input groups, and the like.",
+        "title": "사용자 지정 container",
+        "description": "부모 요소에 팝오버를 방해하는 일부 스타일이 있는 경우 사용자 정의 container를 지정하여 해당 요소 내에 팝오버의 HTML이 대신 표시되도록 할 수 있습니다. 이는 반응형 표, 입력 그룹 등에서 흔히 사용됩니다.",
         "code": "const popover = new bootstrap.Popover('.example-popover', {\n  container: 'body'\n})",
-        "updated_at": "2024-07-02 11:29:41"
+        "updated_at": "2024-08-09 13:48:19"
     }
 }

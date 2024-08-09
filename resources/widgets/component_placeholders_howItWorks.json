@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "How it works ",
-        "description": "Create placeholders with the .placeholder class and a grid column class (e.g., .col-6) to set the width. They can replace the text inside an element or be added as a modifier class to an existing component.\n\nWe apply additional styling to .btns via ::before to ensure the height is respected. You may extend this pattern for other situations as needed, or add a &nbsp; within the element to reflect the height when actual text is rendered in its place.",
-        "code": "<p aria-hidden=\"true\">\n  <span class=\"placeholder col-6\"><\/span>\n<\/p>\n\n<a class=\"btn btn-primary disabled placeholder col-4\" aria-disabled=\"true\"><\/a>",
-        "updated_at": "2024-07-02 11:36:54"
+        "title": "작동 방법 ",
+        "description": ".placeholder 클래스와 그리드 열 클래스 (예: .col-6)로 자리 표시자를 만들어 width를 설정합니다. 요소 내부의 텍스트를 바꾸거나 기존 컴포넌트에 수정자 클래스로 추가할 수 있습니다.\n\n::before를 통해 .btn에 추가 스타일을 적용하여 height가 존중되도록 합니다. 필요에 따라 이 패턴을 다른 상황에 맞게 확장하거나 요소 내에 &nbsp;를 추가하여 실제 텍스트가 해당 위치에 렌더링될 때 높이를 반영할 수 있습니다.",
+        "code": "<p aria-hidden=\"true\" class=\"mb-1\">\n  <span class=\"placeholder col-6\"><\/span>\n<\/p>\n\n<a class=\"btn btn-primary disabled placeholder col-4\" aria-disabled=\"true\"><\/a>",
+        "updated_at": "2024-08-08 12:44:00"
     }
 }

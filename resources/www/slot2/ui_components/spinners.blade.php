@@ -5,11 +5,17 @@
     @livewire('WidgetText', [
     'filename' => "component_spinners_about"
 ])
+    @livewire('WidgetNote', [
+    'filename' => "component_spinners_about_note"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_border"
 ])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_colors"
+])
+    @livewire('WidgetNote', [
+    'filename' => "component_spinners_colors_note"
 ])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_growing"
@@ -17,11 +23,15 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_growing2"
 ])
-<h2>Alignment</h2>
+    @livewire('WidgetText', [
+    'filename' => "component_spinners_align"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_margin"
 ])
-<h2>Placement</h2>
+    @livewire('WidgetText', [
+    'filename' => "component_spinners_placement"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_flex"
 ])
@@ -46,7 +56,9 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_spinners_button2"
 ])
-<h2>CSS</h2>
+<x-www-preview>
+    <h2 class="text-4xl font-bold">CSS</h2>
+</x-www-preview>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_spinners_variables"
 ])

@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Variables ",
-        "description": "As part of Bootstrap’s evolving CSS variables approach, spinners now use local CSS variables on .spinner-border and .spinner-grow for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.\n\nBorder spinner variables:",
+        "title": "변수",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일환으로, 이제 스피너는 .spinner-border와 .spinner-grow의 로컬 CSS 변수를 사용하여 실시간 사용자 정의 기능을 강화합니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.\n\n테두리 스피너 변수:",
         "code": "--#{$prefix}spinner-width: #{$spinner-width};\n--#{$prefix}spinner-height: #{$spinner-height};\n--#{$prefix}spinner-vertical-align: #{$spinner-vertical-align};\n--#{$prefix}spinner-border-width: #{$spinner-border-width};\n--#{$prefix}spinner-animation-speed: #{$spinner-animation-speed};\n--#{$prefix}spinner-animation-name: spinner-border;",
-        "updated_at": "2024-07-02 11:17:40"
+        "updated_at": "2024-08-08 12:10:52"
     }
 }

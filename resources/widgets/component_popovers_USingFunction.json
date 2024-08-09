@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Using function with popperConfig ",
+        "title": "popperConfig으로 기능 사용하기 ",
         "code": "const popover = new bootstrap.Popover(element, {\n  popperConfig(defaultBsPopperConfig) {\n    \/\/ const newPopperConfig = {...}\n    \/\/ use defaultBsPopperConfig if needed...\n    \/\/ return newPopperConfig\n  }\n})",
-        "updated_at": "2024-07-08 12:41:29"
+        "updated_at": "2024-08-09 14:00:02"
     }
 }

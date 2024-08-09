@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Customization through CSS variables can be seen on the .navbar-dark class where we override specific values without adding duplicate CSS selectors.",
+        "description": "CSS 변수를 통한 커스터마이징은 .navbar-dark 클래스에서 중복된 CSS 선택기를 추가하지 않고 특정 값을 재정의하는 것을 볼 수 있습니다.",
         "code": "--#{$prefix}navbar-color: #{$navbar-dark-color};\n--#{$prefix}navbar-hover-color: #{$navbar-dark-hover-color};\n--#{$prefix}navbar-disabled-color: #{$navbar-dark-disabled-color};\n--#{$prefix}navbar-active-color: #{$navbar-dark-active-color};\n--#{$prefix}navbar-brand-color: #{$navbar-dark-brand-color};\n--#{$prefix}navbar-brand-hover-color: #{$navbar-dark-brand-hover-color};\n--#{$prefix}navbar-toggler-border-color: #{$navbar-dark-toggler-border-color};\n--#{$prefix}navbar-toggler-icon-bg: #{escape-svg($navbar-dark-toggler-icon-bg)};",
-        "updated_at": "2024-07-03 10:39:26"
+        "updated_at": "2024-08-09 13:37:39"
     }
 }

@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "어두운 배경에 기본",
+        "code": "<div class=\"bg-gray-900 py-24 sm:py-32\">\n  <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n    <dl class=\"grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3\">\n      <div class=\"mx-auto flex max-w-xs flex-col gap-y-4\">\n        <dt class=\"text-base leading-7 text-gray-400\">Transactions every 24 hours<\/dt>\n        <dd class=\"order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl\">44 million<\/dd>\n      <\/div>\n      <div class=\"mx-auto flex max-w-xs flex-col gap-y-4\">\n        <dt class=\"text-base leading-7 text-gray-400\">Assets under holding<\/dt>\n        <dd class=\"order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl\">$119 trillion<\/dd>\n      <\/div>\n      <div class=\"mx-auto flex max-w-xs flex-col gap-y-4\">\n        <dt class=\"text-base leading-7 text-gray-400\">New users annually<\/dt>\n        <dd class=\"order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl\">46,000<\/dd>\n      <\/div>\n    <\/dl>\n  <\/div>\n<\/div>\n",
+        "updated_at": "2024-08-05 12:42:26"
+    }
+}

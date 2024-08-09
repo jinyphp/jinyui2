@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Placement ",
-        "description": "Use our position utilities to place navbars in non-static positions. Choose from fixed to the top, fixed to the bottom, stickied to the top (scrolls with the page until it reaches the top, then stays there), or stickied to the bottom (scrolls with the page until it reaches the bottom, then stays there).\n\nFixed navbars use position: fixed, meaning they’re pulled from the normal flow of the DOM and may require custom CSS (e.g., padding-top on the <body>) to prevent overlap with other elements.",
+        "title": "배치",
+        "description": "위치 유틸리티를 사용하여 내비게이션 바를 정적이지 않은 위치에 배치할 수 있습니다. 상단 고정, 하단 고정, 스티커식(페이지가 상단까지 스크롤한 뒤에도 그 위치에 남는) 상단 고정, 스티커식 하단 고정 (페이지가 하단까지 스크롤한 뒤에도 그 위치에 남는)을 사용할 수있습니다\n\n고정 내비게이션 바는 position: fixed를 사용합니다. 이는 DOM 의 통상적인 흐름에서 취득되어 다른 요소와의 중복을 막기 위해 사용자 정의 CSS(예를 들어, <body>의 padding-top 등)가 필요할 수 있습니다.",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\" href=\"#\">Default<\/a>\n  <\/div>\n<\/nav>",
-        "updated_at": "2024-07-03 10:35:54"
+        "updated_at": "2024-08-09 13:32:14"
     }
 }

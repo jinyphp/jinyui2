@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Fade effect ",
-        "description": "To make tabs panel fade in, add .fade to each .tab-pane. The first tab pane must also have .show to make the initial content visible.",
+        "title": "페이드 효과 ",
+        "description": "탭 판넬을 페이드인 시키려면 .tab-pane에 .fade를 추가합니다. 첫번째 탭 판넬에는 첫번째 콘텐츠를 표시하기 위해서 .show를 추가할 필요가 있습니다.",
         "code": "<div class=\"tab-content\">\n  <div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"messages\" role=\"tabpanel\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"settings\" role=\"tabpanel\">...<\/div>\n<\/div>",
-        "updated_at": "2024-07-03 11:06:58"
+        "updated_at": "2024-08-08 13:30:20"
     }
 }

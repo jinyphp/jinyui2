@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "On the .nav-pills modifier class:",
+        "description": ".nav-pills 수정자 클래스를 적용한 경우:",
         "code": "--#{$prefix}nav-pills-border-radius: #{$nav-pills-border-radius};\n--#{$prefix}nav-pills-link-active-color: #{$nav-pills-link-active-color};\n--#{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg};",
-        "updated_at": "2024-07-03 10:27:03"
+        "updated_at": "2024-08-08 13:07:11"
     }
 }

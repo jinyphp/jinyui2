@@ -1,0 +1,46 @@
+{
+    "items": {
+        "1": {
+            "method": "클래스",
+            "description": "가용성",
+            "created_at": "2024-08-09 13:21:57",
+            "updated_at": "2024-08-09 13:21:57"
+        },
+        "2": {
+            "method": ".modal-fullscreen",
+            "description": "항상",
+            "created_at": "2024-08-09 13:22:11",
+            "updated_at": "2024-08-09 13:22:11"
+        },
+        "3": {
+            "method": ".modal-fullscreen-sm-down",
+            "description": "576px",
+            "created_at": "2024-08-09 13:22:25",
+            "updated_at": "2024-08-09 13:22:25"
+        },
+        "4": {
+            "method": ".modal-fullscreen-md-down",
+            "description": "768px",
+            "created_at": "2024-08-09 13:22:44",
+            "updated_at": "2024-08-09 13:22:44"
+        },
+        "5": {
+            "method": ".modal-fullscreen-lg-down",
+            "description": "992px",
+            "created_at": "2024-08-09 13:22:56",
+            "updated_at": "2024-08-09 13:22:56"
+        },
+        "6": {
+            "method": ".modal-fullscreen-xl-down\t",
+            "description": "1200px",
+            "created_at": "2024-08-09 13:23:10",
+            "updated_at": "2024-08-09 13:23:10"
+        },
+        "7": {
+            "method": ".modal-fullscreen-xxl-down\t",
+            "description": "1400px",
+            "created_at": "2024-08-09 13:23:24",
+            "updated_at": "2024-08-09 13:23:24"
+        }
+    }
+}

@@ -5,7 +5,12 @@
     @livewire('WidgetText', [
     'filename' => "component_popovers_overview"
 ])
-<h2>Examples</h2>
+    @livewire('WidgetNote', [
+    'filename' => "component_popovers_overview_note"
+])
+<x-www-preview>
+<h2 class="text-4xl font-bold">예시</h2>
+</x-www-preview>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_enablePopovers"
 ])
@@ -17,7 +22,6 @@
 ])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_coustomContainer",
-    'viewList' => "www::slot1.temp.table1"
 ])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_coustomContainer2"
@@ -37,7 +41,9 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_popovers_disabledElement"
 ])
-<h2>CSS</h2>
+<x-www-preview>
+<h2 class="text-4xl font-bold">CSS</h2>
+</x-www-preview>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_variables"
 ])
@@ -47,23 +53,33 @@
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_Usage"
 ])
+    @livewire('WidgetNote', [
+    'filename' => "component_popovers_Useage_note"
+])
     @livewire('WidgetText', [
     'filename' => "component_popovers_option"
 ])
     @livewire('WidgetTableStyle1', [
     'filename' => "component_popovers_optionTable"
 ])
+    @livewire('WidgetNote', [
+    'filename' => "component_popovers_optionTable_note"
+])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_USingFunction"
 ])
-<h2>Method</h2>
+<x-www-preview>
+<h2 class="text-4xl font-bold">메소드</h2>
+</x-www-preview>
     @livewire('WidgetTableStyle2', [
     'filename' => "component_popovers_methodTable"
 ])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_popovers_method"
 ])
-<h2>Event</h2>
+<x-www-preview>
+<h2 class="text-4xl font-bold">이벤트</h2>
+</x-www-preview>
     @livewire('WidgetTableStyle3', [
     'filename' => "component_popovers_eventTable"
 ])

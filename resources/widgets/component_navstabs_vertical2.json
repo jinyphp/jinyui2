@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "As always, vertical navigation is possible without <ul>s, too.",
+        "description": "언제나 그렇듯, 세로 내비게이션도 <ul> 없이 가능합니다.",
         "code": "<nav class=\"nav flex-column\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
-        "updated_at": "2024-07-03 10:23:13"
+        "updated_at": "2024-08-08 13:03:14"
     }
 }

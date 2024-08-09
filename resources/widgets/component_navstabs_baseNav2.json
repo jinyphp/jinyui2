@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Classes are used throughout, so your markup can be super flexible. Use <ul>s like above, <ol> if the order of your items is important, or roll your own with a <nav> element. Because the .nav uses display: flex, the nav links behave the same as nav items would, but without the extra markup.",
+        "description": "클래스는 전체적으로 사용되어 있어서, 우리의 마크업은 매우 유연성이 있습니다. 위의 예시처럼 <ul>을 사용하거나, 아이템의 순서가 중요한 경우에는 <ol>를 사용하거나, <nav> 요소를 사용해서 독자적인 롤을 만들거나 할 수 있습니다. .nav는 display: flex를 사용하고 있기 때문에, nav-link는 따로 추가적인 마크업 없이, nav-item과 동일하게 동작합니다.",
         "code": "<nav class=\"nav\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
-        "updated_at": "2024-07-03 10:22:20"
+        "updated_at": "2024-08-08 13:02:06"
     }
 }

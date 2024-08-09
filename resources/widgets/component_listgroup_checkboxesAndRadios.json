@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Checkboxes and radios ",
-        "description": "Place Bootstrap’s checkboxes and radios within list group items and customize as needed. You can use them without <label>s, but please remember to include an aria-label attribute and value for accessibility.",
+        "title": "체크박스와 라디오버튼 ",
+        "description": "목록 그룹 아이템 내에 Bootstrap 체크 박스와 라디오 버튼을 배치하고 필요에 따라 재정의합니다. <label> 없이도 사용이 가능하지만 접근성을 위해 aria-label 속성과 값을 포함해 주세요.",
         "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" id=\"firstCheckbox\">\n    <label class=\"form-check-label\" for=\"firstCheckbox\">First checkbox<\/label>\n  <\/li>\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" id=\"secondCheckbox\">\n    <label class=\"form-check-label\" for=\"secondCheckbox\">Second checkbox<\/label>\n  <\/li>\n  <li class=\"list-group-item\">\n    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" id=\"thirdCheckbox\">\n    <label class=\"form-check-label\" for=\"thirdCheckbox\">Third checkbox<\/label>\n  <\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:04:10"
+        "updated_at": "2024-08-08 13:27:01"
     }
 }
