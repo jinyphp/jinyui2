@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Via JavaScript ",
-        "description": "Enable tabbable list item via JavaScript (each list item needs to be activated individually):",
+        "title": "JavaScript 사용하기 ",
+        "description": "JavaScript로 탭 가능한 목록 아이템을 유효하게 합니다.(각 목록 아이템을 개별적으로 유효하게 할 필요가 있습니다):",
         "code": "const triggerTabList = document.querySelectorAll('#myTab a')\ntriggerTabList.forEach(triggerEl => {\n  const tabTrigger = new bootstrap.Tab(triggerEl)\n\n  triggerEl.addEventListener('click', event => {\n    event.preventDefault()\n    tabTrigger.show()\n  })\n})",
-        "updated_at": "2024-07-03 11:06:34"
+        "updated_at": "2024-08-08 13:29:54"
     }
 }

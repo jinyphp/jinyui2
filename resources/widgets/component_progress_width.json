@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Width ",
-        "description": "Bootstrap provides a handful of utilities for setting width. Depending on your needs, these may help with quickly configuring the width of the .progress-bar.",
+        "title": "너비 ",
+        "description": "Bootstrap은 몇 가지 너비 설정을 위한 유틸리티를 제공합니다. 필요에 따라 .progress-bar의 너비를 빠르게 구성하는 데 도움이 될 수 있습니다.",
         "code": "<div class=\"progress\" role=\"progressbar\" aria-label=\"Basic example\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n  <div class=\"progress-bar w-75\"><\/div>\n<\/div>",
-        "updated_at": "2024-07-02 11:24:26"
+        "updated_at": "2024-08-08 12:20:02"
     }
 }

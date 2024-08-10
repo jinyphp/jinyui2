@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "About ",
-        "description": "Bootstrap “spinners” can be used to show the loading state in your projects. They’re built only with HTML and CSS, meaning you don’t need any JavaScript to create them. You will, however, need some custom JavaScript to toggle their visibility. Their appearance, alignment, and sizing can be easily customized with our amazing utility classes.\n\nFor accessibility purposes, each loader here includes role=\"status\" and a nested <span class=\"visually-hidden\">Loading...<\/span>.\n\nThe animation effect of this component is dependent on the prefers-reduced-motion media query. See the reduced motion section of our accessibility documentation.",
-        "updated_at": "2024-07-08 12:15:12"
+        "title": "소개 ",
+        "description": "Bootstrap “스피너\"는 프로젝트의 로딩 상태를 표시하기 위해 사용할 수 있습니다. 이것은 HTML과 CSS로 만들어져 있기 때문에 JavaScript를 필요로 하지 않습니다. 그러나 가시성을 바꾸기 위해 몇 가지의 사용자 정의 JavaScript가 필요합니다. 이러한 외형, 배치, 크기는 유틸리티 클래스를 통해 간단하게 재정의할 수 있습니다.\n\n접근성을 위해, 여기에서의 각 loader 는 role=\"status\"과 <span class=\"visually-hidden\">Loading...<\/span>을 포함하고 있습니다.",
+        "updated_at": "2024-08-08 11:56:43"
     }
 }

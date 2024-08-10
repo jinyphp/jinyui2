@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Toggle ",
-        "description": "Activate a modal without writing JavaScript. Set data-bs-toggle=\"modal\" on a controller element, like a button, along with a data-bs-target=\"#foo\" or href=\"#foo\" to target a specific modal to toggle.",
+        "title": "토글",
+        "description": "JavaScript를 쓰지 않고 모달을 활성화 시킵니다. 버튼과 같은 컨트롤러 요소에 data-bs-toggle=\"modal\"을 설정하고, 추가로 data-bs-target=\"#foo\" 또는 href=\"#foo\"를 지정하고, 토글하는 특정 모달을 타깃으로 합니다.",
         "code": "<button type=\"button\" data-bs-toggle=\"modal\" data-bs-target=\"#myModal\">Launch modal<\/button>",
-        "updated_at": "2024-07-03 10:57:39"
+        "updated_at": "2024-08-09 12:54:14"
     }
 }

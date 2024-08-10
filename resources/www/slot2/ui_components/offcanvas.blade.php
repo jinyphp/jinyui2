@@ -2,6 +2,10 @@
     @livewire('WidgetTitle', [
     'filename' => "component_offcanvas_title"
 ])
+    @livewire('WidgetCode-Component', [
+    'filename' => "component_offcanvas_howworks"
+])
+
 <h2>Examples</h2>
     @livewire('WidgetCode-Component', [
     'filename' => "component_offcanvas_OffcanvasComponents"

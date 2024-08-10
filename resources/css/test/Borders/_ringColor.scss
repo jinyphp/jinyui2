@@ -1,3 +1,5 @@
+
+
 @import "../colors";
 
 // Define opacity values
@@ -25,9 +27,16 @@ $opacity-values: (
     }
 }
 
-// Generate ring color classes with opacity
+// Generate ring color classes
 @each $color-key, $color-values in $colors-map {
     $color-value: remove-rgb($color-values);
+    
+    // Class for basic ring color without opacity
+    .ring-#{$color-key} {
+        --tw-ring-color: rgb(#{$color-value});
+    }
+    
+    // Class for ring color with opacity
     @each $opacity-key, $opacity-value in $opacity-values {
         .ring-#{$color-key}\/#{$opacity-key} {
             --tw-ring-color: rgba(#{$color-value}, #{$opacity-value});

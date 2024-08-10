@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Image ",
-        "description": "You can replace the text within the .navbar-brand with an <img>.",
+        "title": "이미지 ",
+        "description": ".navbar-brand 안에 텍스트 대신 <img>를 사용할 수 있습니다.",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container\">\n    <a class=\"navbar-brand\" href=\"#\">\n      <img src=\"\/docs\/5.3\/assets\/brand\/bootstrap-logo.svg\" alt=\"Bootstrap\" width=\"30\" height=\"24\">\n    <\/a>\n  <\/div>\n<\/nav>",
-        "updated_at": "2024-07-03 10:32:47"
+        "updated_at": "2024-08-09 13:29:04"
     }
 }

@@ -3,7 +3,10 @@
         {{-- <x-www-brand>JinyPHP</x-www-brand> --}}
     </x-www-header>
     <main>
-        {{$slot}}
+        <x-www-sidebar>
+            {{$slot}}
+        </x-www-sidebar>
+
     </main>
 
 

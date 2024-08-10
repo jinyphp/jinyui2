@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Sass variables ",
+        "title": "Sass 변수 ",
         "code": "$spinner-width:           2rem;\n$spinner-height:          $spinner-width;\n$spinner-vertical-align:  -.125em;\n$spinner-border-width:    .25em;\n$spinner-animation-speed: .75s;\n\n$spinner-width-sm:        1rem;\n$spinner-height-sm:       $spinner-width-sm;\n$spinner-border-width-sm: .2em;",
-        "updated_at": "2024-07-02 11:18:16"
+        "updated_at": "2024-08-08 12:11:22"
     }
 }

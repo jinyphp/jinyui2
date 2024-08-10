@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Active items ",
-        "description": "Add .active to a .list-group-item to indicate the current active selection.",
+        "title": "활성화된 항목",
+        "description": "현재 활성화 된 선택 범위를 나타내기 위해 .list-group-item에 .active를 추가합니다.",
         "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item active\" aria-current=\"true\">An active item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n  <li class=\"list-group-item\">A fourth item<\/li>\n  <li class=\"list-group-item\">And a fifth one<\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:01:08"
+        "updated_at": "2024-08-08 13:24:00"
     }
 }

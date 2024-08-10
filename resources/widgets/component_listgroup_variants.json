@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Variants ",
-        "description": "Use contextual classes to style list items with a stateful background and color.",
+        "title": "변수 ",
+        "description": "상황별 클래스를 사용하여, 스테이트풀(stateful)한 배경색과 텍스트색으로 목록 아이템을 꾸밉니다.",
         "code": "<ul class=\"list-group\">\n  <li class=\"list-group-item\">A simple default list group item<\/li>\n\n  <li class=\"list-group-item list-group-item-primary\">A simple primary list group item<\/li>\n  <li class=\"list-group-item list-group-item-secondary\">A simple secondary list group item<\/li>\n  <li class=\"list-group-item list-group-item-success\">A simple success list group item<\/li>\n  <li class=\"list-group-item list-group-item-danger\">A simple danger list group item<\/li>\n  <li class=\"list-group-item list-group-item-warning\">A simple warning list group item<\/li>\n  <li class=\"list-group-item list-group-item-info\">A simple info list group item<\/li>\n  <li class=\"list-group-item list-group-item-light\">A simple light list group item<\/li>\n  <li class=\"list-group-item list-group-item-dark\">A simple dark list group item<\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:03:09"
+        "updated_at": "2024-08-08 13:26:01"
     }
 }

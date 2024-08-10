@@ -1,0 +1,34 @@
+{
+    "items": {
+        "1": {
+            "method": "메소드",
+            "description": "설명",
+            "created_at": "2024-08-08 13:16:18",
+            "updated_at": "2024-08-08 13:16:18"
+        },
+        "2": {
+            "method": "dispose",
+            "description": "탭 요소를 없앱니다.",
+            "created_at": "2024-08-08 13:16:35",
+            "updated_at": "2024-08-08 13:16:35"
+        },
+        "3": {
+            "method": "getInstance",
+            "description": "DOM 요소에 연관된 탭의 인스턴스를 가져오는 Static 메소드입니다. bootstrap.Tab.getInstance(element)처럼 사용할 수 있습니다.",
+            "created_at": "2024-08-08 13:16:46",
+            "updated_at": "2024-08-08 13:16:46"
+        },
+        "4": {
+            "method": "getOrCreateInstance",
+            "description": "DOM 요소에 연결된 탭 인스턴스를 반환하거나 초기화되지 않은 경우 새 탭 인스턴스를 생성하는 정적 메서드입니다. 다음과 같이 사용할 수 있습니다: bootstrap.Tab.getOrCreateInstance(element).",
+            "created_at": "2024-08-08 13:16:59",
+            "updated_at": "2024-08-08 13:16:59"
+        },
+        "5": {
+            "method": "show\t",
+            "description": "지정된 탭을 선택해 관련 창을 표시합니다. 이전에 선택되어 있던 다른 탭은 선택되지 않은 상태가 되고 관련된 창도 비표시 됩니다. 탭 창이 실제로 표시되기 전에 (shown.bs.tab 이벤트가 발생하기 전) 호출된 곳으로 돌아옵니다.",
+            "created_at": "2024-08-08 13:17:13",
+            "updated_at": "2024-08-08 13:17:13"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "items": {
         "code": "\/\/ getOrCreateInstance example\nconst popover = bootstrap.Popover.getOrCreateInstance('#example') \/\/ Returns a Bootstrap popover instance\n\n\/\/ setContent example\npopover.setContent({\n  '.popover-header': 'another title',\n  '.popover-body': 'another content'\n})",
-        "description": "All API methods are asynchronous and start a transition. They return to the caller as soon as the transition is started, but before it ends. In addition, a method call on a transitioning component will be ignored. Learn more in our JavaScript docs.",
-        "updated_at": "2024-07-08 12:35:55"
+        "description": "모든 API 메서드는 비동기식이며 전환을 시작합니다. 전환이 시작되는 즉시 호출자에게 반환되지만 전환이 끝나기 전에 호출자에게 반환됩니다. 또한 전환 중인 컴포넌트에 대한 메서드 호출은 무시됩니다. JavaScript 문서에서 자세히 알아보세요.",
+        "updated_at": "2024-08-09 14:03:40"
     }
 }

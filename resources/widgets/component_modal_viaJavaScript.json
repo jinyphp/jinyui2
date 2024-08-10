@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Via JavaScript ",
-        "description": "Create a modal with a single line of JavaScript:\n\n\n",
+        "title": "JavaScript 사용하기 ",
+        "description": "JavaScript 한 줄로 모달을 생성합니다:",
         "code": "const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)\n\/\/ or\nconst myModalAlternative = new bootstrap.Modal('#myModal', options)",
-        "updated_at": "2024-07-03 10:58:46"
+        "updated_at": "2024-08-09 12:54:53"
     }
 }

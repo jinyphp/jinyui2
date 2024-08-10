@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Static backdrop ",
-        "description": "When backdrop is set to static, the modal will not close when clicking outside of it. Click the button below to try it.\n\n\n",
-        "updated_at": "2024-07-03 10:51:14",
+        "title": "정적 백드롭",
+        "description": "백드롭을 static으로 설정하면, 배경을 클릭해도 모달은 닫히지 않습니다. 아래 버튼을 클릭해 시도해 보세요.\n\n\n",
+        "updated_at": "2024-08-09 12:48:03",
         "code": "<!-- Button trigger modal -->\n<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"modal\" data-bs-target=\"#staticBackdrop\">\n  Launch static backdrop modal\n<\/button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"staticBackdrop\" data-bs-backdrop=\"static\" data-bs-keyboard=\"false\" tabindex=\"-1\" aria-labelledby=\"staticBackdropLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h1 class=\"modal-title fs-5\" id=\"staticBackdropLabel\">Modal title<\/h1>\n        <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"><\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        ...\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\">Understood<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
     }
 }

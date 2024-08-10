@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Spinners",
-        "description": "Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.",
-        "updated_at": "2024-07-01 11:33:02"
+        "title": "스피너 ",
+        "description": "HTML, CSS, JavaScript를 사용하지 않고 완전히 빌드된 Bootstrap 스피너를 사용하여 컴포넌트나 페이지의 로딩 상태를 표시합니다.",
+        "updated_at": "2024-08-08 11:56:27"
     }
 }

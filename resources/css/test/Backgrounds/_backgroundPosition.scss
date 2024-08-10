@@ -1,14 +1,17 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
+// 배경 위치 맵 정의
+// 배경 위치 정의
 $positions: (
   bottom: bottom,
-  center: center,
-  left: left,
-  left-bottom: left bottom,
-  left-top: left top,
-  right: right,
-  right-bottom: right bottom,
-  right-top: right top,
+  center: 50%,
+  left: 0,
+  left-bottom: 0 100%,
+  left-top: 0 0,
+  right: 100%,
+  right-bottom: 100% 100%,
+  right-top: 100% 0,
   top: top
 );
 
@@ -16,46 +19,26 @@ $positions: (
   .bg-#{$key} {
     background-position: $value;
   }
-}
 
-.group:hover {
-  @each $key, $value in $positions {
-    .group-hover\:bg-#{$key} {
-      background-position: $value !important;
+
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-#{$key}") {
+      background-position: $value;
     }
   }
-}
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $positions {
+  // 반응형 클래스 설정
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:bg-#{$key} {
         background-position: $value;
       }
+
+      @each $pseudo in map-keys($pseudos) {
+        @include pseudo($pseudo, "#{$breakpoint}\:bg-#{$key}") {
+          background-position: $value;
+        }
+      }
     }
-  }
-}
-
-@each $key, $value in $positions {
-  .focus-within\:bg-#{$key}:focus-within {
-    background-position: $value;
-  }
-}
-
-@each $key, $value in $positions {
-  .hover\:bg-#{$key}:hover {
-    background-position: $value;
-  }
-}
-
-@each $key, $value in $positions {
-  .focus\:bg-#{$key}:focus {
-    background-position: $value;
-  }
-}
-
-@each $key, $value in $positions {
-  .active\:bg-#{$key}:active {
-    background-position: $value;
   }
 }

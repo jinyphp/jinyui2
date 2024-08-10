@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Base nav",
-        "description": "Navigation available in Bootstrap share general markup and styles, from the base .nav class to the active and disabled states. Swap modifier classes to switch between each style.\n\nThe base .nav component is built with flexbox and provide a strong foundation for building all types of navigation components. It includes some style overrides (for working with lists), some link padding for larger hit areas, and basic disabled styling.\n\nThe base .nav component does not include any .active state. The following examples include the class, mainly to demonstrate that this particular class does not trigger any special styling.\n\nTo convey the active state to assistive technologies, use the aria-current attribute — using the page value for current page, or true for the current item in a set.",
+        "title": "기본 내비게이션 ",
+        "description": "Bootstrap에서 이용할 수 있는 내비게이션은 기본 .nav 클래스부터 활성화 상태와 비활성화 상태까지 일반적인 마크업과 스타일을 공유합니다. 각각의 스타일을 바꾸기 위해서 제어자 클래스를 교체합니다.\n\n기본 .nav 컴포넌트는 flexbox로 빌드되어 있으며, 모든 타입의 내비게이션 컴포넌트를 빌드하기 위한 강력한 구조를 제공하고 있습니다. 여기에는 몇몇 스타일 오버라이드(목록을 다루기 위한), 보다 넓은 클릭 영역을 위한 여백, 기본적인 비활성화된 스타일이 포함되어 있습니다.",
         "code": "<ul class=\"nav\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 10:22:06"
+        "updated_at": "2024-08-08 13:00:11"
     }
 }

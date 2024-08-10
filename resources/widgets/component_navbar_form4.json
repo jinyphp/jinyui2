@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Various buttons are supported as part of these navbar forms, too. This is also a great reminder that vertical alignment utilities can be used to align different sized elements.",
+        "description": "다양한 버튼도 이러한 내비게이션 폼의 일부로서 지원되고 있습니다. 이것은 또한 세로 정렬 유틸리티를 사용하여 서로 다른 크기의 요소들을 정렬시킬 수 있습니다.",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <form class=\"container-fluid justify-content-start\">\n    <button class=\"btn btn-outline-success me-2\" type=\"button\">Main button<\/button>\n    <button class=\"btn btn-sm btn-outline-secondary\" type=\"button\">Smaller button<\/button>\n  <\/form>\n<\/nav>",
-        "updated_at": "2024-07-03 10:34:31"
+        "updated_at": "2024-08-09 13:30:40"
     }
 }

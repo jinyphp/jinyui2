@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Modal",
-        "description": "Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.",
-        "updated_at": "2024-07-01 11:40:01"
+        "title": "모달",
+        "description": "Bootstrap JavaScript 모달 플러그인을 사용하여 라이트박스, 사용자 알림 또는 사용자 정의 콘텐츠를 만들 수 있습니다.",
+        "updated_at": "2024-08-09 12:45:10"
     }
 }

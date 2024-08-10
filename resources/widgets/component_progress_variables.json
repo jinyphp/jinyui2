@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Variables ",
-        "description": "As part of Bootstrap’s evolving CSS variables approach, progress bars now use local CSS variables on .progress for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "title": "변수 ",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일환으로 진행률 표시줄은 이제 .progress에서 로컬 CSS 변수를 사용하여 실시간 사용자 정의 기능을 향상시킵니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.",
         "code": "--#{$prefix}progress-height: #{$progress-height};\n@include rfs($progress-font-size, --#{$prefix}progress-font-size);\n--#{$prefix}progress-bg: #{$progress-bg};\n--#{$prefix}progress-border-radius: #{$progress-border-radius};\n--#{$prefix}progress-box-shadow: #{$progress-box-shadow};\n--#{$prefix}progress-bar-color: #{$progress-bar-color};\n--#{$prefix}progress-bar-bg: #{$progress-bar-bg};\n--#{$prefix}progress-bar-transition: #{$progress-bar-transition};",
-        "updated_at": "2024-07-02 11:27:27"
+        "updated_at": "2024-08-08 12:24:47"
     }
 }

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "옵션 전달",
+        "description": "모달로서 콘텐츠를 활성화합니다. 옵션의 object를 받습니다.",
+        "code": "const myModal = new bootstrap.Modal('#myModal', {\n  keyboard: false\n})",
+        "updated_at": "2024-08-09 13:04:13"
+    }
+}

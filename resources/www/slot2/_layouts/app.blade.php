@@ -9,21 +9,15 @@
     <title>Modern Business - Start Bootstrap Template</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Popper.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     @vite('resources/css/app.scss')
     @vite('resources/css/test/main.scss')
-    <!-- @vite('resources/css2/scss/app-saas.scss') -->
-    <!-- <link href="/assets/css/docs.css?1" rel="stylesheet" />
-    <link href="/assets/css/highlight.css?a1" rel="stylesheet" /> -->
+
+    @vite('resources/css2/scss/app-saas.scss')
+    <link href="/assets/css/docs.css?1" rel="stylesheet" />
+    <link href="/assets/css/highlight.css?a1" rel="stylesheet" />
 
     <style>
     .feature {
@@ -37,20 +31,34 @@
     </style>
 
     @stack('css')
-
-</head>
+    <<<<<<< HEAD=======</head>
 
 <body>
-    <div>
+    <div class="flex-grow d-flex flex-column h-100">
         {{$slot}}
     </div>
+    >>>>>>> 7d9fd50c4c2258c18ca78766119f571a76e6c5d8
 
-    {{-- HotKey 단축키 이벤트 --}}
-    @livewire('HotKeyEvent')
+    </head>
 
-    <!-- Core theme JS-->
-    {{-- <script src="js/scripts.js"></script> --}}
-    @stack('script')
+    <<<<<<< HEAD <body>
+        <div>
+            {{$slot}}
+        </div>
+
+        {{-- HotKey 단축키 이벤트 --}}
+        @livewire('HotKeyEvent')
+        =======
+        {{-- HotKey 단축키 이벤트 --}}
+        @livewire('HotKeyEvent')
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        >>>>>>> 7d9fd50c4c2258c18ca78766119f571a76e6c5d8
+
+        <!-- Core theme JS-->
+        {{-- <script src="js/scripts.js"></script> --}}
+        @stack('script')
 
 </body>
 

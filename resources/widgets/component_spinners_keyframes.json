@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Keyframes ",
-        "description": "Used for creating the CSS animations for our spinners. Included in scss\/_spinners.scss.",
+        "title": "키프레임 ",
+        "description": "스피너의 CSS 애니메이션 작성에 사용합니다. scss\/_spinners.scss에 포함되어 있습니다.",
         "code": "@keyframes spinner-border {\n  to { transform: rotate(360deg) #{\"\/* rtl:ignore *\/\"}; }\n}",
-        "updated_at": "2024-07-02 11:19:23"
+        "updated_at": "2024-08-08 12:13:08"
     }
 }

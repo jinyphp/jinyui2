@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Using data attributes ",
-        "description": "You can activate a list group navigation without writing any JavaScript by simply specifying data-bs-toggle=\"list\" or on an element. Use these data attributes on .list-group-item.",
+        "title": "데이터 속성 사용하기 ",
+        "description": "JavaScript를 쓰지 않아도, data-bs-toggle=\"list\"를 지정하거나 요소로 지정만 해도 목록 그룹 내비게이션을 활성화할 수 있습니다. 이들의 data 속성을 .list-group-item에 이용합니다.",
         "code": "<div role=\"tabpanel\">\n  <!-- List group -->\n  <div class=\"list-group\" id=\"myList\" role=\"tablist\">\n    <a class=\"list-group-item list-group-item-action active\" data-bs-toggle=\"list\" href=\"#home\" role=\"tab\">Home<\/a>\n    <a class=\"list-group-item list-group-item-action\" data-bs-toggle=\"list\" href=\"#profile\" role=\"tab\">Profile<\/a>\n    <a class=\"list-group-item list-group-item-action\" data-bs-toggle=\"list\" href=\"#messages\" role=\"tab\">Messages<\/a>\n    <a class=\"list-group-item list-group-item-action\" data-bs-toggle=\"list\" href=\"#settings\" role=\"tab\">Settings<\/a>\n  <\/div>\n\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div class=\"tab-pane active\" id=\"home\" role=\"tabpanel\">...<\/div>\n    <div class=\"tab-pane\" id=\"profile\" role=\"tabpanel\">...<\/div>\n    <div class=\"tab-pane\" id=\"messages\" role=\"tabpanel\">...<\/div>\n    <div class=\"tab-pane\" id=\"settings\" role=\"tabpanel\">...<\/div>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-03 11:06:22"
+        "updated_at": "2024-08-08 13:29:41"
     }
 }

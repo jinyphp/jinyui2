@@ -1,8 +1,8 @@
 {
     "items": {
-        "updated_at": "2024-07-03 10:24:55",
-        "title": "Fill and justify ",
-        "description": "Force your .nav’s contents to extend the full available width with one of two modifier classes. To proportionately fill all available space with your .nav-items, use .nav-fill. Notice that all horizontal space is occupied, but not every nav item has the same width.",
+        "updated_at": "2024-08-08 13:04:17",
+        "title": "필과 채우기",
+        "description": ".nav의 콘텐츠가 두 가지 수정자 클래스 중 하나를 사용하여 사용 가능한 전체 너비를 확장하도록 강제합니다. .nav-item에서 사용 가능한 모든 여백을 비교하고 채우기 위해 .nav-fill을 사용합니다. 내비게이션 아이템의 가로 폭이 모두 동일한 것이 아니므로 주의해 주세요.\n\n",
         "code": "<ul class=\"nav nav-pills nav-fill\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>"
     }
 }

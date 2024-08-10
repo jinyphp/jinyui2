@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Overview ",
-        "description": "Things to know when using the tooltip plugin:\n\nTooltips rely on the third party library Popper for positioning. You must include popper.min.js before bootstrap.js, or use one bootstrap.bundle.min.js which contains Popper.\nTooltips are opt-in for performance reasons, so you must initialize them yourself.\nTooltips with zero-length titles are never displayed.\nSpecify container: 'body' to avoid rendering problems in more complex components (like our input groups, button groups, etc).\nTriggering tooltips on hidden elements will not work.\nTooltips for .disabled or disabled elements must be triggered on a wrapper element.\nWhen triggered from hyperlinks that span multiple lines, tooltips will be centered. Use white-space: nowrap; on your <a>s to avoid this behavior.\nTooltips must be hidden before their corresponding elements have been removed from the DOM.\nTooltips can be triggered thanks to an element inside a shadow DOM.\nGot all that? Great, let’s see how they work with some examples.",
-        "updated_at": "2024-07-03 11:46:04"
+        "title": "개요",
+        "description": "툴팁 플러그인을 사용할 때 알아두어야 할 점: \n\n- 툴팁의 배치는 서드파티 라이브러리인 Popper에 의존하고 있습니다. bootstrap.js 앞에 popper.min.js를 사용하거나, 팝오버가 포함되어 있는 bootstrap.bundle.min.js를 사용해야 합니다.\n- 툴팁은 퍼포먼스를 위해 opt-in 되어 있기 때문에 스스로 초기화를 해야 합니다.\n- 길이가 0의 타이틀을 가진 툴팁은 표시되지 않습니다.\n- 더 복잡한 컴포넌트(입력 그룹, 버튼 그룹 등)의 렌더링 문제를 피하기 위해 container: 'body'를 지정해 주십시오.\n- 숨겨진 요소에서 툴팁을 트리거 해도 제 기능을 하지 않습니다.\n- .disabled나 disabled 요소의 툴팁은 그 위(바깥) 요소에서 트리거 해야 합니다.\n- 여러 라인에 걸쳐 있는 하이퍼링크에서 트리거된 툴팁은 중앙에 배치됩니다. 이 동작을 피하기 위해서는 <a>에 white-space: nowrap;을 사용해 주십시오.\n- 툴팁은 대응 요소가 DOM에서 삭제되기 전에 숨겨야 합니다.\n- 툴팁은 shadow DOM 내의 요소 덕분에 트리거할 수 있습니다.\n몇 가지 예를 들어보겠습니다.",
+        "updated_at": "2024-08-06 12:00:53"
     }
 }

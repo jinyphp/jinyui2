@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $clips: (
   border: border-box,
@@ -7,26 +8,32 @@ $clips: (
   text: text
 );
 
+// 기본 클래스, pseudo 클래스, 반응형 클래스 설정
 @each $key, $value in $clips {
   .bg-clip-#{$key} {
     background-clip: $value;
   }
-}
 
-.group:hover {
-  @each $key, $value in $clips {
-    .group-hover\:bg-clip-#{$key} {
-      background-clip: $value !important;
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-clip-#{$key}") {
+      background-clip: $value;
+    }
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:bg-clip-#{$key} {
+        background-clip: $value;
+      }
     }
   }
 }
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $clips {
-      .#{$breakpoint}\:bg-clip-#{$key} {
-        background-clip: $value;
-      }
+// 그룹 호버 클래스 설정
+.group:hover {
+  @each $key, $value in $clips {
+    .group-hover\:bg-clip-#{$key} {
+      background-clip: $value !important;
     }
   }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Tooltips and popovers ",
-        "description": "Tooltips and popovers can be placed within modals as needed. When modals are closed, any tooltips and popovers within are also automatically dismissed.",
+        "title": "툴팁과 팝오버",
+        "description": "툴팁과 팝오버는 필요에 따라 모달 안에 배치시킬 수 있습니다. 모달이 닫히면 그 안에 있는 툴팁이나 팝오버도 자동으로 삭제됩니다.",
         "code": "<div class=\"modal-body\">\n  <h2 class=\"fs-5\">Popover in a modal<\/h2>\n  <p>This <button class=\"btn btn-secondary\" data-bs-toggle=\"popover\" title=\"Popover title\" data-bs-content=\"Popover body content is set in this attribute.\">button<\/button> triggers a popover on click.<\/p>\n  <hr>\n  <h2 class=\"fs-5\">Tooltips in a modal<\/h2>\n  <p><a href=\"#\" data-bs-toggle=\"tooltip\" title=\"Tooltip\">This link<\/a> and <a href=\"#\" data-bs-toggle=\"tooltip\" title=\"Tooltip\">that link<\/a> have tooltips on hover.<\/p>\n<\/div>",
-        "updated_at": "2024-07-03 10:52:29"
+        "updated_at": "2024-08-09 12:48:46"
     }
 }

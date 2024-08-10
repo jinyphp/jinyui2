@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Using the grid ",
-        "description": "Utilize the Bootstrap grid system within a modal by nesting .container-fluid within the .modal-body. Then, use the normal grid system classes as you would anywhere else.",
+        "title": "그리드 사용하기",
+        "description": ".modal-body 안에 .container-fluid를 중첩시켜 모달 안에 Bootstrap 그리드 시스템을 이용할 수 있습니다. 다른 곳에서 사용하듯이 일반적인 그리드 시스템 클래스를 사용합니다.",
         "code": "<div class=\"modal-body\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">.col-md-4<\/div>\n      <div class=\"col-md-4 ms-auto\">.col-md-4 .ms-auto<\/div>\n    <\/div>\n    <div class=\"row\">\n      <div class=\"col-md-3 ms-auto\">.col-md-3 .ms-auto<\/div>\n      <div class=\"col-md-2 ms-auto\">.col-md-2 .ms-auto<\/div>\n    <\/div>\n    <div class=\"row\">\n      <div class=\"col-md-6 ms-auto\">.col-md-6 .ms-auto<\/div>\n    <\/div>\n    <div class=\"row\">\n      <div class=\"col-sm-9\">\n        Level 1: .col-sm-9\n        <div class=\"row\">\n          <div class=\"col-8 col-sm-6\">\n            Level 2: .col-8 .col-sm-6\n          <\/div>\n          <div class=\"col-4 col-sm-6\">\n            Level 2: .col-4 .col-sm-6\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-03 10:52:46"
+        "updated_at": "2024-08-09 12:49:12"
     }
 }

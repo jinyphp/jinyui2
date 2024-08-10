@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Placeholders",
-        "description": "Use loading placeholders for your components or pages to indicate something may still be loading.",
-        "updated_at": "2024-07-01 11:36:08"
+        "title": "플레이스홀더",
+        "description": "컴포넌트나 페이지에 로딩 플레이스홀더를 사용하여 아직 로딩 중임을 나타냅니다.",
+        "updated_at": "2024-08-08 12:28:35"
     }
 }
