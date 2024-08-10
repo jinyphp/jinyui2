@@ -1,4 +1,4 @@
-<header {{ $attributes->merge(['class' => 'navbar navbar-expand-lg navbar-dark bg-dark bd-navbar ']) }} >
+<header {{ $attributes->merge(['class' => 'navbar navbar-expand-lg navbar-dark bg-dark bd-navbar mb-4 ']) }} >
     <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
 
         <div class="bd-navbar-toggle">
