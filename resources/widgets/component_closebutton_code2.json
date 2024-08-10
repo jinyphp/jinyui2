@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Example",
-        "description": "Provide an option to dismiss or close a component with .btn-close. Default styling is limited, but highly customizable. Modify the Sass variables to replace the default background-image. Be sure to include text for screen readers, as we’ve done with aria-label.",
+        "description": ".btn-close를 사용해 컴포넌트를 닫는 옵션을 제공합니다. 기본 스타일은 제한되어 있지만, 재정의가 가능합니다. Sass 변수를 변경해, 기본 background-image를 바꿉니다. aria-label과 같은 스크린 리더용의 텍스트를 꼭 넣어 주십시오.",
         "code": "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"><\/button>",
-        "updated_at": "2024-07-04 03:00:52"
+        "updated_at": "2024-08-06 09:58:59"
     }
 }

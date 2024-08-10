@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Autoplaying carousels without controls",
-        "description": "Here’s a carousel with slides only. Note the presence of the .d-block and .w-100 on carousel images to prevent browser default image alignment.",
+        "title": "컨트롤 없는 자동 재생 캐러셀",
+        "description": "다음은 슬라이드만 있는 캐러셀입니다. 브라우저 기본 이미지 정렬을 방지하기 위해 캐러셀 이미지에 .d-block과 .w-100이 있는지 확인하세요.",
         "code": "<div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-bs-ride=\"carousel\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"\/slide1.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide2.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide3.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-09 04:55:55"
+        "updated_at": "2024-08-06 05:40:03"
     }
 }

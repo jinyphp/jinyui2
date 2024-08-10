@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Disable text wrapping",
-        "description": "f you don’t want the button text to wrap, you can add the .text-nowrap class to the button. In Sass, you can set $btn-white-space: nowrap to disable text wrapping for each button.",
-        "updated_at": "2024-07-04 01:15:47"
+        "title": "텍스트 줄바꿈 비활성화",
+        "description": "버튼의 텍스트를 감싸고 싶지 않다면 .text-nowrap 클래스를 버튼에 추가할 수 있습니다. Sass로 $btn-white-space: nowrap를 설정하여 버튼별로 텍스트를 감싸지 않도록 할 수 있습니다.",
+        "updated_at": "2024-08-06 04:09:07"
     }
 }

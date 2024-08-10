@@ -14,14 +14,8 @@
         </main>
 
     </div>
-
     <x-www-footer>
-
     </x-www-footer>
-
-
-
-
     <!-- Footer-->
 
 </x-www-app>

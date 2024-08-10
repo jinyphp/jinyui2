@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "In v4 we used a CSS-only technique to mimic the behavior of Masonry-like columns, but this technique came with lots of unpleasant side effects. If you want to have this type of layout in v5, you can just make use of Masonry plugin. Masonry is not included in Bootstrap, but we’ve made a demo example to help you get started.",
+        "description": "v4에서는 CSS 전용 기술을 사용하여 Masonry식 컬럼의 동작을 따라 했지만 이러한 기술에는 영 좋지 않은 많은 부작용을 발생시킵니다. v5에서 이러한 유형의 레이아웃을 사용하려면 Masonry 플러그인을 사용하면 됩니다. Masonry는 Bootstrap에 포함되어 있지 않지만 시작하는 데 도움이 되는 데모 예시를 만들었습니다.",
         "title": "Masonry ",
-        "updated_at": "2024-07-04 02:46:17"
+        "updated_at": "2024-08-06 05:15:53"
     }
 }

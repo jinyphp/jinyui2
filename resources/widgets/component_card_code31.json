@@ -1,7 +1,7 @@
 {
     "items": {
         "title": "Card layout",
-        "description": "In addition to styling the content within cards, Bootstrap includes a few options for laying out series of cards. For the time being, these layout options are not yet responsive.",
-        "updated_at": "2024-07-04 02:42:13"
+        "description": "카드 안의 콘텐츠의 스타일링에 가세해, 일련의 카드를 배치하기 위한 옵션이 포함되어 있습니다. 현재, 레이아웃 옵션은 아직 반응형에는 지원하고 있지 않습니다.",
+        "updated_at": "2024-08-06 05:12:17"
     }
 }

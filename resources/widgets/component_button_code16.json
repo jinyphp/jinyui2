@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "You can adjust the width of your block buttons with grid column width classes. For example, for a half-width “block button”, use .col-6. Center it horizontally with .mx-auto, too.",
+        "description": "블록 버튼의 가로 폭은, 그리드의 컬럼 가로 폭 클래스로 조정할 수 있습니다. 예를 들어, 50%의 가로 폭의 “블록 버튼\"에는 .col-6을 사용합니다. 수평으로 중앙에 배치하고 싶을 때는 .mx-auto를 사용합니다.",
         "code": "<div class=\"d-grid gap-2 col-6 mx-auto\">\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n<\/div>",
-        "updated_at": "2024-07-04 01:21:49"
+        "updated_at": "2024-08-06 04:13:41"
     }
 }

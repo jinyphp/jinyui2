@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Navigation",
-        "description": "Add some navigation to a card’s header (or block) with Bootstrap’s nav components.",
+        "title": "내비게이션",
+        "description": "Nav components을 사용해 카드의 헤더 (혹은 block)에 내비게이션을 적용할 수 있습니다.",
         "code": "<div class=\"card text-center\">\n  <div class=\"card-header\">\n    <ul class=\"nav nav-tabs card-header-tabs\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" aria-current=\"true\" href=\"#\">Active<\/a>\n      <\/li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Link<\/a>\n      <\/li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n      <\/li>\n    <\/ul>\n  <\/div>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Special title treatment<\/h5>\n    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Go somewhere<\/a>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:50:53"
+        "updated_at": "2024-08-06 05:04:28"
     }
 }

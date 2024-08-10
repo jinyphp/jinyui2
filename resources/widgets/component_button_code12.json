@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Disabled buttons using the a tag element behave a bit different:\n- <a>s don’t support the disabled attribute, so you must add the .disabled class to make it visually appear disabled.\n- Some future-friendly styles are included to disable all pointer-events on anchor buttons.\n- Disabled buttons using a tag should include the aria-disabled=\"true\" attribute to indicate the state of the element to assistive technologies.\n- Disabled buttons using a tag should not include the href attribute.",
+        "description": "a 요소에 대해서 버튼을 비활성화하는 경우는 조금 다릅니다.\n\na 요소는 disabled 속성을 지원하지 않음으로 시각적으로 비활성화처럼 보이게 하기 위해 .disabled 클래스를 추가해야 합니다.\n앵커 버튼의 모든 pointer-events를 비활성화시키기 위해 장래적으로 사용하기 쉬운 스타일이 포함되어 있습니다.\na 요소를 사용하는 비활성화 버튼은 보조 기술에 대한 요소의 상태를 나타내는 aria-disabled=\"true\" 속성이 포함되어야 합니다.\na 요소를 사용하는 비활성화 버튼은 href 속성을 포함하면 안됩니다.",
         "code": "<a class=\"btn btn-primary disabled\" role=\"button\" aria-disabled=\"true\">Primary link<\/a>\n<a class=\"btn btn-secondary disabled\" role=\"button\" aria-disabled=\"true\">Link<\/a>",
-        "updated_at": "2024-07-04 01:19:58"
+        "updated_at": "2024-08-06 04:12:47"
     }
 }

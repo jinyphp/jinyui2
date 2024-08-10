@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "For example, to toggle all buttons",
+        "description": "예를 들어, 모든 버튼을 토글하려면:",
         "code": "document.querySelectorAll('.btn').forEach(buttonElement => {\n  const button = bootstrap.Button.getOrCreateInstance(buttonElement)\n  button.toggle()\n})",
-        "updated_at": "2024-07-04 01:31:20"
+        "updated_at": "2024-08-06 04:15:20"
     }
 }

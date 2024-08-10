@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Titles, text, and links",
-        "description": "Card titles are used by adding .card-title to a <h*> tag. In the same way, links are added and placed next to each other by adding .card-link to an <a> tag.\n\nSubtitles are used by adding a .card-subtitle to a <h*> tag. If the .card-title and the .card-subtitle items are placed in a .card-body item, the card title and subtitle are aligned nicely.",
+        "description": "카드 타이틀은 <h*> 태그에 .card-title을 적용합니다. <a> 태그에 .card-link를 적용하면 링크가 추가됩니다. 서브 타이틀은, <h*> 태그에 .card-subtitle을 적용합니다.\n\n.card-title과 .card-subtitle을 .card-body 안에 배치하면 카드 제목과 서브 타이틀이 깔끔하게 적용됩니다.",
         "code": "<div class=\"card\" style=\"width: 18rem;\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <h6 class=\"card-subtitle mb-2 text-body-secondary\">Card subtitle<\/h6>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n    <a href=\"#\" class=\"card-link\">Card link<\/a>\n    <a href=\"#\" class=\"card-link\">Another link<\/a>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:44:39"
+        "updated_at": "2024-08-06 04:52:11"
     }
 }

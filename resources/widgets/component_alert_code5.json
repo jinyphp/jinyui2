@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Link color",
-        "description": "Use the .alert-link utility class to quickly provide matching colored links within any alert.",
+        "description": ".alert-link 클래스를 사용하면, 경고창에 어울리는 색의 링크를 사용할 수 있습니다.",
         "code": "<div class=\"alert alert-primary\" role=\"alert\">\n  A simple primary alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-primary\" role=\"alert\">\n  A simple primary alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  A simple secondary alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-success\" role=\"alert\">\n  A simple success alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  A simple danger alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  A simple warning alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-info\" role=\"alert\">\n  A simple info alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-light\" role=\"alert\">\n  A simple light alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  A simple dark alert with <a href=\"#\" class=\"alert-link\">an example link<\/a>. Give it a click if you like.\n<\/div>",
-        "updated_at": "2024-07-09 06:21:57"
+        "updated_at": "2024-08-06 03:38:03"
     }
 }

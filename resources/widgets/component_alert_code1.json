@@ -1,8 +1,8 @@
 {
     "items": {
         "code": "",
-        "updated_at": "2024-07-03 05:30:04",
+        "updated_at": "2024-08-06 03:34:15",
         "title": "Alert",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages."
+        "description": "유연한 경고창으로, 일반적인 사용자 액션에 대해 상황에 맞는 피드백 메세지를 제공합니다."
     }
 }

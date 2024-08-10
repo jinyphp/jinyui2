@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Sizing",
-        "description": "Instead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including each one when nesting multiple groups.",
+        "description": "그룹 내의 모든 버튼에 버튼 크기 클래스를 적용하는 대신에, 각각의 버튼을 포함한 .btn-group에 .btn-group-*을 추가하면 됩니다.",
         "code": "<div class=\"btn-group btn-group-lg\" role=\"group\" aria-label=\"Large button group\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>\n<br>\n<div class=\"btn-group\" role=\"group\" aria-label=\"Default button group\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>\n<br>\n<div class=\"btn-group btn-group-sm\" role=\"group\" aria-label=\"Small button group\">\n  <button type=\"button\" class=\"btn btn-outline-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-outline-primary\">Right<\/button>\n<\/div>",
-        "updated_at": "2024-07-04 01:38:28"
+        "updated_at": "2024-08-06 04:43:56"
     }
 }

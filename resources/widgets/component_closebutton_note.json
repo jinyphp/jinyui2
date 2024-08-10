@@ -1,0 +1,6 @@
+{
+    "items": {
+        "description": "주의! v5.3.0부터 .btn-close-white 클래스는 더 이상 사용되지 않습니다. 대신 data-bs-theme=\"dark\"를 사용하여 닫기 버튼의 색상 모드를 변경하세요",
+        "updated_at": "2024-08-06 10:10:18"
+    }
+}

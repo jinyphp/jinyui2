@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Accordion",
-        "description": "Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.",
+        "description": "Collapse(콜랩스) JavaScript 플러그인과 조합하여, 수직으로 접는 아코디언을 만듭니다.",
         "code": "",
-        "updated_at": "2024-07-01 10:10:54"
+        "updated_at": "2024-08-06 03:08:59"
     }
 }

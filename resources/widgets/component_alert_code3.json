@@ -2,7 +2,7 @@
     "items": {
         "title": "Live example",
         "description": "Click the button below to show an alert (hidden with inline styles to start), then dismiss (and destroy) it with the built-in close button.",
-        "code": "<div id=\"liveAlertPlaceholder\"><\/div>\n<button type=\"button\" class=\"btn btn-primary\" id=\"liveAlertBtn\">Show live alert<\/button>",
-        "updated_at": "2024-07-03 05:31:29"
+        "code": "<div id=\"liveAlertPlaceholder\"><\/div>\n<button type=\"button\" class=\"btn btn-primary\" id=\"liveAlertBtn\">Show live alert<\/button>\n   <script>\n    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')\n    const appendAlert = (message, type) => {\n        const wrapper = document.createElement('div')\n        wrapper.innerHTML = [\n            `<div class=\"alert alert-${type} alert-dismissible\" role=\"alert\">`,\n            `   <div>${message}<\/div>`,\n            '   <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"><\/button>',\n            '<\/div>'\n        ].join('')\n\n        alertPlaceholder.append(wrapper)\n    }\n\n    const alertTrigger = document.getElementById('liveAlertBtn')\n    if (alertTrigger) {\n        alertTrigger.addEventListener('click', () => {\n            appendAlert('Nice, you triggered this alert message!', 'success')\n        })\n    }\n    <\/script>",
+        "updated_at": "2024-08-06 08:28:26"
     }
 }

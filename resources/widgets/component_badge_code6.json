@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "You can also replace the .badge class with a few more utilities without a count for a more generic indicator.",
+        "description": "더 일반적인 지표에 대한 카운트 없이 .badge 클래스를 몇 가지 더 많은 유틸리티로 대체할 수도 있습니다.",
         "code": "<button type=\"button\" class=\"btn btn-primary position-relative\">\n  Profile\n  <span class=\"position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle\">\n    <span class=\"visually-hidden\">New alerts<\/span>\n  <\/span>\n<\/button>",
-        "updated_at": "2024-07-04 00:55:38"
+        "updated_at": "2024-08-06 03:54:14"
     }
 }

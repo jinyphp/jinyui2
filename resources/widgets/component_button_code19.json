@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Toggle states",
-        "description": "Add data-bs-toggle=\"button\" to toggle a button’s active state. If you’re pre-toggling a button, you must manually add the .active class and aria-pressed=\"true\" to ensure that it is conveyed appropriately to assistive technologies.",
+        "title": "상태 토글",
+        "description": "버튼의 active 상태를 토글하기 위해, data-bs-toggle=\"button\"을 추가합니다. 버튼을 미리 토글하고 있는 경우, 지원 기술에 적절하게 전달될 수 있도록 .active 클래스와 aria-pressed=\"true\"를 수동으로 버튼에 추가해야 합니다.",
         "code": "<p class=\"d-inline-flex gap-1\">\n  <button type=\"button\" class=\"btn\" data-bs-toggle=\"button\">Toggle button<\/button>\n  <button type=\"button\" class=\"btn active\" data-bs-toggle=\"button\" aria-pressed=\"true\">Active toggle button<\/button>\n  <button type=\"button\" class=\"btn\" disabled data-bs-toggle=\"button\">Disabled toggle button<\/button>\n<\/p>\n<p class=\"d-inline-flex gap-1\">\n  <button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"button\">Toggle button<\/button>\n  <button type=\"button\" class=\"btn btn-primary active\" data-bs-toggle=\"button\" aria-pressed=\"true\">Active toggle button<\/button>\n  <button type=\"button\" class=\"btn btn-primary\" disabled data-bs-toggle=\"button\">Disabled toggle button<\/button>\n<\/p>",
-        "updated_at": "2024-07-04 01:23:29"
+        "updated_at": "2024-08-06 04:14:47"
     }
 }
