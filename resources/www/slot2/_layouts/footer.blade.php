@@ -1,4 +1,4 @@
-<footer class="bg-dark py-4 mt-auto">
+<footer class="bg-dark py-4 mt-4">
     <div class="container px-5">
         {{ $slot }}
 
