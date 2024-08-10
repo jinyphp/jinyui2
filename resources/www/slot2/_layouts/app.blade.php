@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <div class="flex-grow d-flex flex-column h-100">
+    <div class="flex-grow d-flex flex-column ">
         {{$slot}}
     </div>
 
