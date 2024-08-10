@@ -31,34 +31,24 @@
     </style>
 
     @stack('css')
-    <<<<<<< HEAD=======</head>
+
+</head>
 
 <body>
     <div class="flex-grow d-flex flex-column h-100">
         {{$slot}}
     </div>
-    >>>>>>> 7d9fd50c4c2258c18ca78766119f571a76e6c5d8
 
-    </head>
 
-    <<<<<<< HEAD <body>
-        <div>
-            {{$slot}}
-        </div>
+    {{-- HotKey 단축키 이벤트 --}}
+    @livewire('HotKeyEvent')
 
-        {{-- HotKey 단축키 이벤트 --}}
-        @livewire('HotKeyEvent')
-        =======
-        {{-- HotKey 단축키 이벤트 --}}
-        @livewire('HotKeyEvent')
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        >>>>>>> 7d9fd50c4c2258c18ca78766119f571a76e6c5d8
-
-        <!-- Core theme JS-->
-        {{-- <script src="js/scripts.js"></script> --}}
-        @stack('script')
+    <!-- Core theme JS-->
+    {{-- <script src="js/scripts.js"></script> --}}
+    @stack('script')
 
 </body>
 
