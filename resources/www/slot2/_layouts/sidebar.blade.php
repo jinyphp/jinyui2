@@ -23,7 +23,7 @@
 <div>
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
     <!-- Static sidebar for desktop -->
-    <div class="sticky z-10 top-20 flex w-72 flex-col" style="height:85vh;">
+    <div class="sticky z-10  flex w-72 flex-col" style="height:90vh; top:76px;">
         <!-- Sidebar component, swap this element with another sidebar if you like -->
         <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-3 pb-4">
             <div class="flex h-16 shrink-0 items-center">
