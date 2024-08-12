@@ -39,4 +39,13 @@
     'filename' => "component_pagination_sassMixins"
 ])
 
+<x-www-preview>
+    <h2 class="text-4xl font-bold">Tailwind class를 이용한 pagination</h2>
+</x-www-preview>
+
+@livewire('WidgetCode-Component', [
+    'filename' => "component_pagination_t_pageButton"
+])
+
+
 </x-www-layout>

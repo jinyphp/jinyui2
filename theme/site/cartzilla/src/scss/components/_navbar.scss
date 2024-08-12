@@ -313,7 +313,7 @@
           .navbar-stuck-hide:not(.collapse):not(.collapsing) {
             display: none !important;
           }
-          .navbar-stuck-hide.collapse:not(.show) {
+          .navbar-stuck-hide {
             display: none;
           }
         }

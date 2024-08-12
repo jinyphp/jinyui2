@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "텍스트 ",
-        "description": "문자열의 수직 방향과 수평 간격을 조정하는 .navbar-text를 포함할 수 있습니다.",
-        "code": "<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <span class=\"navbar-text\">\n      Navbar text with an inline element\n    <\/span>\n  <\/div>\n<\/nav>",
-        "updated_at": "2024-08-09 13:30:52"
+        "description": ".navbar-brand 클래스를 요소 내의 텍스트에 추가합니다",
+        "code": "<!-- As a link -->\n<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar<\/a>\n  <\/div>\n<\/nav>\n\n<!-- As a heading -->\n<nav class=\"navbar bg-body-tertiary\">\n  <div class=\"container-fluid\">\n    <span class=\"navbar-brand mb-0 h1\">Navbar<\/span>\n  <\/div>\n<\/nav>",
+        "updated_at": "2024-08-12 12:01:40"
     }
 }

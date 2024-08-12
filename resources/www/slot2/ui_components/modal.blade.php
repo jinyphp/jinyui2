@@ -1,5 +1,5 @@
 <x-www-layout>
-    @livewire('WidgetTitle', [
+@livewire('WidgetTitle', [
     'filename' => "component_modal_title"
 ])
     @livewire('WidgetOnlyCode', [
