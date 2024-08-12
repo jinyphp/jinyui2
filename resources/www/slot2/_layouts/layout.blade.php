@@ -6,14 +6,12 @@
     <x-www-header> {{-- fixed-top--}}
         {{-- <x-www-brand>JinyPHP</x-www-brand> --}}
     </x-www-header>
-    <div class="flex">
-        <x-www-sidebar>
-        </x-www-sidebar>
-        <main>
+    <main class="flex w-100">
+        <x-www-sidebar/>
+        <section style="width:calc(100% - 18rem);">
             {{$slot}}
-        </main>
-
-    </div>
+        </section>
+    </main>
     <x-www-footer>
     </x-www-footer>
     <!-- Footer-->
