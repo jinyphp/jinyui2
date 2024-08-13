@@ -5,9 +5,9 @@
 
             <!-- Sidebar navigation -->
             <aside class="col-lg-3 pe-xl-4">
-                <x-www-sidebar>
+                <x-www_sidebar2>
 
-                </x-www-sidebar>
+                </x-www_sidebar2>
             </aside>
 
             <!-- Page content -->
