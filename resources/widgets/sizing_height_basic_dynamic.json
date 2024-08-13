@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Dynamic viewport height",
+        "description": "h-dvh를 사용하여 요소가 뷰포트의 전체 높이에 걸쳐 있도록 만들 수 있으며, 이는 브라우저 UI가 확장되거나 축소됨에 따라 변경됩니다.\n",
+        "code": "<div class=\"h-dvh bg-red-300\">\n h-dvh\n<\/div>",
+        "updated_at": "2024-08-12 08:54:51"
+    }
+}

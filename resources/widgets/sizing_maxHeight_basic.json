@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the maximum height",
+        "description": "max-h-* 유틸리티를 사용하여 요소의 최대 높이를 설정합니다.\n",
+        "code": "<div class=\"h-96 flex\">\n  <div class=\"h-full max-h-80 ...\">max-h-80<\/div>\n  <div class=\"h-full max-h-64 ...\">max-h-64<\/div>\n  <div class=\"h-full max-h-48 ...\">max-h-48<\/div>\n  <div class=\"h-full max-h-40 ...\">max-h-40<\/div>\n  <div class=\"h-full max-h-32 ...\">max-h-32<\/div>\n  <div class=\"h-full max-h-24 ...\">max-h-24<\/div>\n  <div class=\"h-full max-h-full ...\">max-h-full<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 10:00:11"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the outline color",
+        "description": "요소 외곽선의 색상을 변경하려면 개요-* 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"outline outline-offset-2 outline-blue-500 w-10\">Button A<\/div>\n<div class=\"outline outline-offset-2 outline-cyan-500 w-10\">Button B<\/div>\n<div class=\"outline outline-offset-2 outline-pink-500 w-10\">Button C<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 06:14:36"
+    }
+}

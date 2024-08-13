@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Auto",
+        "description": "flex-auto를 사용하면 초기 크기를 고려하여 플렉스 항목을 늘리거나 줄일 수 있습니다.\n",
+        "code": "<div class=\"flex ...\">\n  <div class=\"flex-none w-14 bg-blue-300 ...\">\n    01\n  <\/div>\n  <div class=\"flex-auto w-64 bg-red-300 ...\">\n    02\n  <\/div>\n  <div class=\"flex-auto w-32 bg-green-300 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:02:51"
+    }
+}

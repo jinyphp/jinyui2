@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "콘텐츠 항목이 컨테이너의 교차축을 따라 사용 가능한 공간을 채울 수 있도록 하려면 콘텐츠 스트레치를 사용하세요.\n",
+        "title": "Stretch",
+        "code": "<div class=\"h-56 grid grid-cols-3 gap-4 content-stretch ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:29:53"
+    }
+}

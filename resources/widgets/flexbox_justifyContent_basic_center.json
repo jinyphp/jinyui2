@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Center",
+        "description": "컨테이너의 주축 중심을 따라 항목을 정렬하려면 justify-center를 사용하십시오.\n",
+        "code": "<div class=\"flex justify-center ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:05:06"
+    }
+}

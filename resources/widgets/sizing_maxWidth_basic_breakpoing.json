@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Constraining to your breakpoints",
+        "description": "max-w-screen-* 클래스는 요소에 특정 중단점과 일치하는 최대 너비를 제공하는 데 사용될 수 있습니다. 이러한 값은 tailwind.config.js 파일의 theme.screens 섹션에서 자동으로 파생됩니다.\n",
+        "code": "<div class=\"max-w-screen-2xl\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-12 08:50:33"
+    }
+}

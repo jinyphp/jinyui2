@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sizing implicitly-created grid rows",
+        "description": "암시적으로 생성된 그리드 행의 크기를 제어하려면 auto-rows-* 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"grid grid-flow-row auto-rows-max\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 15:58:48"
+    }
+}

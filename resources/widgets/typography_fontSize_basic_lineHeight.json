@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the line-height",
+        "description": "글꼴 크기 유틸리티에 줄 높이 수정자를 추가하여 글꼴 크기를 설정하는 동시에 요소의 줄 높이를 설정합니다. 예를 들어 text-xl\/8을 사용하여 글꼴 크기를 1.25rem, 줄 높이를 2rem으로 설정합니다.\n\n",
+        "code": "<h2>text-base\/6<\/h2>\n<p class=\"text-base\/6 ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>text-base\/7<\/h2>\n<p class=\"text-base\/7 ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>text-base\/loose<\/h2>\n<p class=\"text-base\/loose ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>",
+        "updated_at": "2024-08-12 10:27:56"
+    }
+}

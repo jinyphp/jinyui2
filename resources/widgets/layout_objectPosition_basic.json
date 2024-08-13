@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Positioning a replaced element",
+        "description": "object-* 유틸리티를 사용하여 대체된 요소의 콘텐츠가 해당 컨테이너 내에 배치되는 방법을 지정합니다.\n",
+        "code": "\n<img class=\"object-none object-left-top bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<img class=\"object-none object-top bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<img class=\"object-none object-right-top bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n\n\n<img class=\"object-none object-left bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<img class=\"object-none object-center bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<img class=\"object-none object-right bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n\n\n<img class=\"object-none object-left-bottom bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<img class=\"object-none object-bottom bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<img class=\"object-none object-right-bottom bg-yellow-300 w-24 h-24 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n",
+        "updated_at": "2024-08-07 10:54:33"
+    }
+}

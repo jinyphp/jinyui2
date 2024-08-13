@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Content",
+        "description": "컨텐츠 유틸리티를 사용하여 하위 항목이 상위 항목의 직계 하위 항목처럼 작동하는 \"가상\" 컨테이너를 만듭니다.\n",
+        "code": "<div class=\"flex ...\">\n  <div class=\"flex-1 bg-green-300\">01<\/div>\n  <div class=\"contents\">\n    <div class=\"flex-1 bg-yellow-300 ...\">02<\/div>\n    <div class=\"flex-1 bg-pink-300 ...\">03<\/div>\n  <\/div>\n  <div class=\"flex-1 bg-red-300 ...\">04<\/div>\n<\/div>",
+        "updated_at": "2024-08-06 11:05:45"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Space evenly",
+        "description": "블록 축에서 균일한 간격으로 그리드 항목을 배포하려면 place-content-evenly를 사용하세요.\n",
+        "code": "<div class=\"grid grid-cols-2 gap-4 place-content-evenly h-48 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:12:16"
+    }
+}

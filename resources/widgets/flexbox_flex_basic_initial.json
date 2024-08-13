@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Initial",
+        "description": "flex-initial을 사용하면 초기 크기를 고려하여 플렉스 항목이 줄어들지만 커지지는 않습니다.\n",
+        "code": "<div class=\"flex\">\n  <div class=\"flex-none w-14 bg-red-300 ...\">\n    01\n  <\/div>\n  <div class=\"flex-initial w-64 bg-blue-300 ...\">\n    02\n  <\/div>\n  <div class=\"flex-initial w-32 bg-green-300 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:01:16"
+    }
+}

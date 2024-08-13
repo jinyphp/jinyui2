@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Scrolling if needed",
+        "description": "내용이 해당 요소의 경계를 초과하는 경우 Overflow-auto 유틸리티를 사용하여 요소에 스크롤 막대를 추가합니다. 항상 스크롤 막대를 표시하는 Overflow-scroll과 달리 이 유틸리티는 스크롤이 필요한 경우에만 스크롤 막대를 표시합니다.\n",
+        "code": "<div class=\"overflow-auto ...\"><\/div>",
+        "updated_at": "2024-08-07 10:59:18"
+    }
+}

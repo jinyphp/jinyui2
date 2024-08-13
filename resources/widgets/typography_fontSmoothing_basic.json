@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying font smoothing",
+        "description": "하위 픽셀 앤티앨리어싱을 사용하여 텍스트를 렌더링하려면 subpixel-antialiased 유틸리티를 사용하고 회색조 앤티앨리어싱을 사용하여 텍스트를 렌더링하려면 앤티앨리어싱 유틸리티를 사용합니다.\n",
+        "code": "<h2>subpixel-antialiased<\/h2>\n<p class=\"subpixel-antialiased ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>antialiased<\/h2>\n<p class=\"antialiased ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 10:30:25"
+    }
+}

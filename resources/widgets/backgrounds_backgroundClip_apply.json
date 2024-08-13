@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:bg-clip-padding을 사용하면 마우스 오버 시 bg-clip-padding 유틸리티만 적용할 수 있습니다.\n",
+        "code": "<div class=\"bg-clip-border hover:bg-clip-padding border-4 bg-violet-300 border-red-300\">\nhover\n<\/div>",
+        "updated_at": "2024-08-13 05:02:36"
+    }
+}

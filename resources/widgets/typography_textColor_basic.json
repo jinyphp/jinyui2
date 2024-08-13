@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the text color",
+        "description": "text-* 유틸리티를 사용하여 요소의 텍스트 색상을 제어합니다.\n",
+        "code": "<p class=\"text-blue-600\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"text-blue-600\/100\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"text-blue-600\/75\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"text-blue-600\/50\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"text-blue-600\/25\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"text-blue-600\/0\">The quick brown fox jumps over the lazy dog.<\/p>\n",
+        "updated_at": "2024-08-12 17:33:36"
+    }
+}

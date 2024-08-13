@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the maximum width",
+        "description": "max-w-* 유틸리티를 사용하여 요소의 최대 너비를 설정합니다.\n",
+        "code": "<div>\n  <div class=\"w-full max-w-96 bg-red-300\">max-w-96<\/div>\n  <div class=\"w-full max-w-80 bg-red-300\">max-w-80<\/div>\n  <div class=\"w-full max-w-64 bg-red-300\">max-w-64<\/div>\n  <div class=\"w-full max-w-48 bg-red-300\">max-w-48<\/div>\n  <div class=\"w-full max-w-40 bg-red-300\">max-w-40<\/div>\n  <div class=\"w-full max-w-32 bg-red-300\">max-w-32<\/div>\n  <div class=\"w-full max-w-24 bg-red-300\">max-w-24<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:49:42"
+    }
+}

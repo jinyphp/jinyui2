@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Center",
+        "description": "place-items-center를 사용하여 두 축의 그리드 영역 중앙에 그리드 항목을 배치합니다.\n",
+        "code": "<div class=\"grid grid-cols-3 gap-4 place-items-center h-56 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div>06<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:15:12"
+    }
+}

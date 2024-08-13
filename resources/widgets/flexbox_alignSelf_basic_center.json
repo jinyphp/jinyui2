@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Center",
+        "description": "컨테이너의 align-items 값에도 불구하고 컨테이너의 교차축 중심을 따라 항목을 정렬하려면 자체 중심을 사용하십시오.\n",
+        "code": "<div class=\"flex items-stretch ...\">\n  <div>01<\/div>\n  <div class=\"self-center ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:38:24"
+    }
+}

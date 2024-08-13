@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Using the default overscroll behavior",
+        "description": "사용자가 기본 스크롤 영역의 경계에 도달하면 상위 스크롤 영역을 계속 스크롤할 수 있도록 하려면 overscroll-auto 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"overscroll-auto\">Well, let me tell you something, funny boy. Y'know that little stamp, the one that says \"New York Public Library\"? Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.\n\nSure, go ahead, laugh if you want to. I've seen your type before: Flashy, making the scene, flaunting convention. Yeah, I know what you're thinking. What's this guy making such a big stink about old library books? Well, let me give you a hint, junior.\n\nMaybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?<\/div>",
+        "updated_at": "2024-08-07 11:16:14"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Subgrid",
+        "description": "항목의 상위 항목에 의해 정의된 행 트랙을 채택하려면 Grid-rows-subgrid 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"grid grid-rows-4 grid-flow-col gap-4\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div class=\"grid grid-rows-subgrid gap-4 row-span-3\">\n      <div class=\"row-start-2\">06<\/div>\n  <\/div>\n  <div>07<\/div>\n  <div>08<\/div>\n  <div>09<\/div>\n  <div>10<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:40:02"
+    }
+}

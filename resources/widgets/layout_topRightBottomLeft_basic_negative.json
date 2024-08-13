@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Using negative values",
+        "description": "음수 top\/right\/bottom\/left 값을 사용하려면 클래스 이름 앞에 대시를 붙여 음수 값으로 변환하세요.",
+        "code": "<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute h-14 w-14 -left-4 -top-4 ...\"><\/div>\n<\/div>",
+        "updated_at": "2024-08-07 11:40:23"
+    }
+}

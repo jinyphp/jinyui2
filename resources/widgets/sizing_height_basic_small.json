@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Small viewport height",
+        "description": "요소의 높이를 뷰포트의 가능한 가장 작은 높이로 설정하려면 h-svh를 사용하세요.\n",
+        "code": "<div class=\"h-svh bg-red-300\">\nh-svh\n<\/div>",
+        "updated_at": "2024-08-12 08:55:33"
+    }
+}

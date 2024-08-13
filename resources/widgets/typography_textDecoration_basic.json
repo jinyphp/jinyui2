@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the text decoration",
+        "description": "밑줄, 밑줄 없음, 줄바꿈 유틸리티를 사용하여 텍스트가 장식되는 방식을 제어합니다.\n",
+        "code": "<p class=\"underline ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"overline ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"line-through ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"no-underline ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 17:35:58"
+    }
+}

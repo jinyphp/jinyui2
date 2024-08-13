@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Adding a ring",
+        "description": "ring-* 유틸리티를 사용하여 특정 두께의 단색 상자 그림자를 요소에 적용합니다. 링은 기본적으로 많은 시스템의 기본 초점 링 스타일과 유사한 반투명 파란색입니다.\n",
+        "code": "<div class=\"flex gap-4\">\n<button class=\"... ring-offset-2 ring-2 p-2\">Button A<\/button>\n<button class=\"... ring-offset-2 ring p-2\">Button B<\/button>\n<button class=\"... ring-offset-2 ring-4 p-2\">Button C<\/button>\n<\/div>",
+        "updated_at": "2024-08-13 06:30:58"
+    }
+}

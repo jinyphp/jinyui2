@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Start",
+        "description": "항목 시작을 사용하여 항목을 컨테이너 교차축의 시작 부분에 정렬합니다.\n",
+        "code": "<div class=\"flex items-start ...\">\n  <div class=\"py-4 w-10\">01<\/div>\n  <div class=\"py-12 w-10\">02<\/div>\n  <div class=\"py-8 w-10\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:34:05"
+    }
+}

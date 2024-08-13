@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Column",
+        "description": "flex-col을 사용하여 플렉스 항목을 수직으로 배치합니다.",
+        "code": "<div class=\"flex flex-col ...\">\n  <div class='w-10 h-10 bg-red-300'>01<\/div>\n  <div class='w-10 h-10 bg-yellow-300'>02<\/div>\n  <div class='w-10 h-10 bg-green-300'>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 13:51:31"
+    }
+}

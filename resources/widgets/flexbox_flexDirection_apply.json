@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:flex-row를 사용하면 마우스 오버 시에만 flex-row 유틸리티를 적용할 수 있습니다.\n",
+        "code": "<div class=\"flex flex-col hover:flex-row ...\">\n  <div class='w-10 h-10 bg-red-300'>01<\/div>\n  <div class='w-10 h-10 bg-yellow-300'>02<\/div>\n  <div class='w-10 h-10 bg-green-300'>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 13:52:30"
+    }
+}

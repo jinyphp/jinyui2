@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Large viewport height",
+        "description": "요소의 높이를 뷰포트의 가능한 최대 높이로 설정하려면 h-lvh를 사용하세요. 이는 100vh와 동일하게 동작합니다.\n",
+        "code": "<div class=\"h-lvh bg-red-300\">\nh-lvh\n<\/div>",
+        "updated_at": "2024-08-12 08:55:14"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add borders between stacked children",
+        "description": "Divide-y-* 유틸리티를 사용하여 쌓인 요소 사이에 테두리를 추가합니다.\n",
+        "code": "<div class=\"grid grid-cols-1 divide-y\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:55:08"
+    }
+}

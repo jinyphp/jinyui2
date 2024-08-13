@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Don't grow",
+        "description": "플렉스 아이템이 커지는 것을 방지하려면 성장-0을 사용하세요:\n",
+        "code": "<div class=\"flex ...\">\n  <div class=\"grow h-14 ...\">\n    01\n  <\/div>\n  <div class=\"grow-0 h-14 ...\">\n    02\n  <\/div>\n  <div class=\"grow h-14 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:08:42"
+    }
+}

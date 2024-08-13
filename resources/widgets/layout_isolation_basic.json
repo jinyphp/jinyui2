@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage",
+        "description": "요소가 명시적으로 새 스택 컨텍스트를 생성해야 하는지 여부를 제어하려면 isolate 및isolation-auto 유틸리티를 사용하세요.",
+        "code": "<div class=\"isolate\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-07 10:37:58"
+    }
+}

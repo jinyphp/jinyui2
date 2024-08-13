@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Center",
+        "description": "컨텐츠 센터를 사용하여 교차 축 중앙에 있는 컨테이너의 행을 묶습니다.\n",
+        "code": "<div class=\"h-56 grid grid-cols-3 gap-4 content-center ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:28:23"
+    }
+}

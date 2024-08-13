@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Cover",
+        "description": "배경 레이어를 채울 때까지 배경 이미지의 크기를 조정하려면 bg-cover를 사용하세요.\n",
+        "code": "<div class=\"bg-cover bg-center ...\" style=\"background-image: url(...)\"><\/div>\n",
+        "updated_at": "2024-08-13 05:18:24"
+    }
+}

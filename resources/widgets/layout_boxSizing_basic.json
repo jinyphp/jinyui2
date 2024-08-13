@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Including borders and padding",
+        "description": "box-border 유틸리티를 사용하여 요소의 상자 크기를 border-box로 설정하고 높이나 너비를 지정할 때 요소의 테두리와 패딩을 포함하도록 브라우저에 지시합니다.\n즉, 테두리가 2px이고 모든 면에 패딩이 4px인 100px × 100px 요소가 내부 콘텐츠 영역이 88px × 88px인 100px × 100px로 렌더링됩니다.",
+        "code": "<div class=\"box-border h-32 w-32 p-4 border-4 bg-red-300\">\n<\/div>",
+        "updated_at": "2024-08-06 10:39:08"
+    }
+}

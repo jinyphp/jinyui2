@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Wrap reversed",
+        "description": "플렉스 항목을 반대 방향으로 감싸려면 flex-wrap-reverse를 사용하세요.",
+        "code": "<div class=\"flex flex-wrap-reverse w-16 bg-gray-300\">\n  <div class=\"w-6 bg-green-300\">01<\/div>\n  <div class=\"w-6 bg-blue-300\">02<\/div>\n  <div class=\"w-6 bg-red-300\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 13:57:52"
+    }
+}

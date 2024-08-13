@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the minimum width",
+        "description": "min-w-* 유틸리티를 사용하여 요소의 최소 너비를 설정합니다.\n",
+        "code": "<div class=\"w-96 flex flex-col gap-4\">\n  <div class=\"min-w-80 bg-red-300\">min-w-80<\/div>\n  <div class=\"min-w-64 bg-red-300\">min-w-64<\/div>\n  <div class=\"min-w-48 bg-red-300\">min-w-48<\/div>\n  <div class=\"min-w-40 bg-red-300\">min-w-40<\/div>\n  <div class=\"min-w-32 bg-red-300\">min-w-32<\/div>\n  <div class=\"min-w-24 bg-red-300\">min-w-24<\/div>\n  <div class=\"min-w-full bg-red-300\">min-w-full<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:47:11"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Starting color",
+        "description": "from-* 유틸리티를 사용하여 그라디언트의 시작 색상을 설정합니다.\n",
+        "code": "<div class=\"bg-gradient-to-r from-indigo-500 w-full text-black ...\">hello, jinyPHP<\/div>\n",
+        "updated_at": "2024-08-13 05:25:07"
+    }
+}

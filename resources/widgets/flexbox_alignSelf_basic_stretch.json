@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Stretch",
+        "description": "컨테이너의 align-items 값에도 불구하고 자체 확장을 사용하여 컨테이너의 교차축을 채우기 위해 항목을 늘립니다.\n",
+        "code": "<div class=\"flex items-stretch ...\">\n  <div>01<\/div>\n  <div class=\"self-stretch ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:38:53"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the font weight",
+        "description": "요소의 글꼴 두께를 제어하려면 글꼴-* 유틸리티를 사용하십시오.\n",
+        "code": "<h2>font-light<\/h2>\n<p class=\"font-light ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>font-normal<\/h2>\n<p class=\"font-normal ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>font-medium<\/h2>\n<p class=\"font-medium ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>font-semibold<\/h2>\n<p class=\"font-semibold ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>font-bold<\/h2>\n<p class=\"font-bold ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 10:37:00"
+    }
+}

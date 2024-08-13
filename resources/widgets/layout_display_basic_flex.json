@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Flex",
+        "description": "flex 유틸리티를 사용하여 블록 수준 flex 컨테이너를 만듭니다.\n",
+        "code": "<div class=\"flex items-center\">\n  <img src=\"path\/to\/image.jpg\">\n  <div>\n    <strong>Andrew Alfred<\/strong>\n    <span>Technical advisor<\/span>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-06 10:56:14"
+    }
+}

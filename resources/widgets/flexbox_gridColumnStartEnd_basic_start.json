@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Starting and ending lines",
+        "description": "요소가 n번째 그리드 라인에서 시작하거나 끝나도록 하려면 col-start-* 및 col-end-* 유틸리티를 사용하십시오. 또한 col-span-* 유틸리티와 결합하여 특정 수의 열을 확장할 수도 있습니다. CSS 그리드 라인은 0이 아닌 1에서 시작하므로 6열 그리드의 전체 너비 요소는 라인 1에서 시작하여 라인 7에서 끝납니다.\n\n",
+        "code": "<div class=\"grid grid-cols-6 gap-4\">\n  <div class=\"col-start-2 col-span-4 ...\">01<\/div>\n  <div class=\"col-start-1 col-end-3 ...\">02<\/div>\n  <div class=\"col-end-7 col-span-2 ...\">03<\/div>\n  <div class=\"col-start-1 col-end-7 ...\">04<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:35:42"
+    }
+}

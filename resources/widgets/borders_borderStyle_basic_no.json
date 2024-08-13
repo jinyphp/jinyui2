@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "No style",
+        "description": "요소에서 기존 테두리 스타일을 제거하려면 border-none을 사용하세요. 이는 더 작은 중단점에 적용된 테두리 스타일을 제거하는 데 가장 일반적으로 사용됩니다.",
+        "code": "<button class=\"border-none p-1\">Save Changes<\/button>\n",
+        "updated_at": "2024-08-13 05:51:44"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Sticky positioning elements",
+        "description": "sticky 유틸리티를 사용하여 요소가 지정된 임계값을 넘을 때까지 요소를 상대적으로 배치한 다음 상위 항목이 화면에서 벗어날 때까지 고정된 것으로 처리합니다.\n모든 오프셋은 요소의 일반 위치를 기준으로 계산되며 요소는 절대 위치에 있는 하위 요소에 대한 위치 참조 역할을 합니다.\n",
+        "code": "\n<div>\n  <div>\n    <div class=\"sticky top-0 ...\">A<\/div>\n    <div>\n      <div>\n<img src=\".\/..\/..\/assets\/jinyerp.svg\" class='w-10'\/>\n        <strong>Andrew Alfred<\/strong>\n      <\/div>\n      <div>\n<img src=\".\/..\/..\/assets\/jinyerp.svg\" class='w-10'\/>\n        <strong>Aisha Houston<\/strong>\n      <\/div>\n      <!-- ... -->\n    <\/div>\n  <\/div>\n  <div>\n    <div class=\"sticky top-0\">B<\/div>\n    <div>\n      <div>\n<img src=\".\/..\/..\/assets\/jinyerp.svg\" class='w-10'\/>\n        <strong>Bob Alfred<\/strong>\n      <\/div>\n      <!-- ... -->\n    <\/div>\n  <\/div>\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-07 11:26:48"
+    }
+}

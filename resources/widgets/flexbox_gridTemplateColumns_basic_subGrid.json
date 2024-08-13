@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Subgrid",
+        "description": "항목의 상위 항목에 의해 정의된 열 트랙을 채택하려면 Grid-cols-subgrid 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"grid grid-cols-4 gap-4\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div class=\"grid grid-cols-subgrid gap-4 col-span-3\">\n    <div class=\"col-start-2\">06<\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:33:20"
+    }
+}

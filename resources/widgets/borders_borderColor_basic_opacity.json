@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Changing the opacity",
+        "description": "색상 불투명도 수정자를 사용하여 요소 테두리 색상의 불투명도를 제어합니다.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"border-4 border-indigo-500\/100 size-10\"><\/div>\n<div class=\"border-4 border-indigo-500\/75 size-10\"><\/div>\n<div class=\"border-4 border-indigo-500\/50 size-10\"><\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:46:24"
+    }
+}

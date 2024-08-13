@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Fixed",
+        "description": "뷰포트를 기준으로 배경 이미지를 수정하려면 bg-fixed를 사용하세요.\n",
+        "code": "<div class=\"bg-fixed ...\" style=\"background-image: url(.\/..\/..\/assets\/jinyerp.svg)\"><\/div>\n",
+        "updated_at": "2024-08-12 18:30:13"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Making elements visible",
+        "description": "요소를 표시하려면 visible 유틸리티를 사용하십시오. 이는 다양한 화면 크기에서 보이지 않는 유틸리티를 실행 취소하는 데 주로 유용합니다.",
+        "code": "<div class=\"grid grid-cols-3 gap-4\">\n  <div>01<\/div>\n  <div class=\"visible ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 13:35:01"
+    }
+}

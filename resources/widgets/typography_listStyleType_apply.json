@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:list-disc를 사용하면 마우스 오버 시에만 list-disc 유틸리티를 적용할 수 있습니다.\n",
+        "code": "<ul class=\"list-none hover:list-disc\">\n  <li>Now this is a story all about how, my life got flipped-turned upside down<\/li>\n  <li>And I'd like to take a minute just sit right there<\/li>\n  <li>I'll tell you how I became the prince of a town called Bel-Air<\/li>\n<\/ul>",
+        "updated_at": "2024-08-12 17:28:49"
+    }
+}

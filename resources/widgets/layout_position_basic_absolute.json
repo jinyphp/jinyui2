@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Absolutely positioning elements",
+        "description": "문서의 일반적인 흐름 외부에 요소를 배치하려면 absolute 유틸리티를 사용하여 인접 요소가 해당 요소가 존재하지 않는 것처럼 작동하도록 합니다. 모든 오프셋은 정적 위치가 아닌 가장 가까운 상위 항목을 기준으로 계산되며 요소는 절대 위치에 있는 다른 하위 항목에 대한 위치 참조 역할을 합니다.\n\n",
+        "code": "<div class=\"static bg-green-300 h-20\">\n  <!-- Static parent -->\n  <div class=\"static bg-green-400\"><p>Static child<\/p><\/div>\n  <div class=\"inline-block bg-green-500\"><p>Static sibling<\/p><\/div>\n  <!-- Static parent -->\n  <div class=\"absolute bg-blue-400\"><p>Absolute child<\/p><\/div>\n  <div class=\"inline-block bg-blue-500\"><p>Static sibling<\/p><\/div>\n<\/div>",
+        "updated_at": "2024-08-07 11:24:25"
+    }
+}

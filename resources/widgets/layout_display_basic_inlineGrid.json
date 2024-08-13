@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Inline Grid",
+        "description": "inline-grid 유틸리티를 사용하여 인라인 그리드 컨테이너를 생성합니다.\n",
+        "code": "<span class=\"inline-grid grid-cols-3 gap-4\">\n  <span class='bg-blue-400 text-center'>01<\/span>\n  <span class='bg-blue-400 text-center>02<\/span>\n  <span class='bg-blue-400 text-center>03<\/span>\n  <span class='bg-blue-400 text-center>04<\/span>\n  <span class='bg-blue-400 text-center>05<\/span>\n  <span class='bg-blue-400 text-center>06<\/span>\n<\/span>\n<span class=\"inline-grid grid-cols-3 gap-4\">\n  <span class='bg-blue-400 text-center'>01<\/span>\n  <span class='bg-blue-400 text-center>02<\/span>\n  <span class='bg-blue-400 text-center>03<\/span>\n  <span class='bg-blue-400 text-center>04<\/span>\n  <span class='bg-blue-400 text-center>05<\/span>\n  <span class='bg-blue-400 text-center>06<\/span>\n<\/span>",
+        "updated_at": "2024-08-06 11:03:39"
+    }
+}

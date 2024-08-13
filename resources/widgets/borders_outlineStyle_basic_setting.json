@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the outline style",
+        "description": "개요-* 유틸리티를 사용하여 요소 개요 스타일을 변경합니다.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"outline outline-2 outline-offset-2 w-10\">Button A<\/div>\n<div class=\"outline-dashed outline-2 outline-offset-2 w-10\">Button B<\/div>\n<div class=\"outline-dotted outline-2 outline-offset-2 w-10\">Button C<\/div>\n<div class=\"outline-double outline-3 outline-offset-2 w-10\">Button D<\/div>\n<\/div>\n",
+        "updated_at": "2024-08-13 06:25:07"
+    }
+}

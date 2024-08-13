@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Reversing children order",
+        "description": "요소가 역순으로 되어 있는 경우(flex-row-reverse 또는 flex-col-reverse 사용), Divide-x-reverse 또는 Divide-y-reverse 유틸리티를 사용하여 테두리가 각 요소의 올바른 면에 추가되었는지 확인하세요. .\n",
+        "code": "<div class=\"flex flex-col-reverse divide-y divide-y-reverse\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:55:23"
+    }
+}

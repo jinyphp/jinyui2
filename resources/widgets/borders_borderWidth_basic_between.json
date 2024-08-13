@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Between elements",
+        "description": "Divide-* 색상 유틸리티와 함께 ​​Divide-x-* 및 Divide-y-* 너비 유틸리티를 사용하여 하위 요소 사이에 테두리를 추가할 수도 있습니다.\n",
+        "code": "<div class=\"divide-y divide-slate-200 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:41:58"
+    }
+}

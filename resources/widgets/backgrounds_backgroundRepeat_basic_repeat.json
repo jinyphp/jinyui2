@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Repeat",
+        "description": "배경 이미지를 수직 및 수평으로 반복하려면 bg-repeat를 사용하십시오.\n",
+        "code": "<div class=\"bg-repeat ...\" style=\"background-image: url(...)\"><\/div>\n",
+        "updated_at": "2024-08-13 05:15:44"
+    }
+}
