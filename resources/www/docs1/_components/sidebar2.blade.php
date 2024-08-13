@@ -3,8 +3,8 @@ $jsonData = '{
 "items": {
 "1": {
 "code": "navlink",
-"name": "아코디언",
-"navlink": "/ui_components/accordion",
+"name": "background",
+"navlink": "/tailwind/backgrounds/backgroundAttachment",
 "ref": 0,
 "level": 1,
 "id": 1

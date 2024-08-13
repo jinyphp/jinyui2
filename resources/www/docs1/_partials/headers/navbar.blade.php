@@ -1,6 +1,6 @@
 <ul class="navbar-nav position-relative me-xl-n5">
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">
-        <a class="nav-link" href="installation">Docs</a>
+        <a class="nav-link" href="/tailwind/backgrounds/backgroundAttachment">Docs</a>
     </li>
 
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">
