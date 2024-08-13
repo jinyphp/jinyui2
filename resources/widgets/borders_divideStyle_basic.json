@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Set the divide style",
+        "description": "Set the divide style",
+        "code": "<div class=\"divide-y divide-dashed\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 06:07:28"
+    }
+}

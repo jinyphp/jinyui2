@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Reversing children order",
+        "description": "요소가 역순으로 되어 있는 경우(flex-row-reverse 또는 flex-col-reverse 사용) space-x-reverse 또는 space-y-reverse 유틸리티를 사용하여 각 요소의 올바른 면에 공백이 추가되었는지 확인하세요. .\n",
+        "code": "<div class=\"flex flex-row-reverse space-x-4 space-x-reverse ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:38:06"
+    }
+}

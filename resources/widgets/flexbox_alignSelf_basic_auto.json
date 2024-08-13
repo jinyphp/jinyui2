@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Auto",
+        "description": "컨테이너의 align-items 속성 값에 따라 항목을 정렬하려면 자동 자동을 사용하세요.\n",
+        "code": "<div class=\"flex items-stretch ...\">\n  <div>01<\/div>\n  <div class=\"self-auto ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:37:53"
+    }
+}

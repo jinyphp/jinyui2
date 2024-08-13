@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the list style position",
+        "description": "목록 내부 및 목록 외부 유틸리티를 사용하여 목록의 마커 위치와 텍스트 들여쓰기를 제어합니다.\n",
+        "code": "<ul class=\"list-inside ...\">\n  <li>5 cups chopped Porcini mushrooms<\/li>\n<li>1\/2 cup of olive oil<\/li>\n<li>3lb of celery<\/li>\n<\/ul>\n\n<ul class=\"list-outside ...\">\n  <li>5 cups chopped Porcini mushrooms<\/li>\n<li>1\/2 cup of olive oil<\/li>\n<li>3lb of celery<\/li>\n<\/ul>",
+        "updated_at": "2024-08-12 17:26:02"
+    }
+}

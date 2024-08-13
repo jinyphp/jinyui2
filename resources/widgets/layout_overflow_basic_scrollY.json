@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Scrolling vertically if needed",
+        "description": "필요한 경우 수직 스크롤을 허용하려면 Overflow-y-auto 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"overflow-y-auto h-32 ...\"><\/div>\n",
+        "updated_at": "2024-08-07 11:00:00"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Auto",
+        "description": "컨테이너의 place-items 속성 값에 따라 항목을 정렬하려면 place-self-auto를 사용하세요.\n",
+        "code": "<div class=\"grid grid-cols-3 gap-4 ...\">\n  <div>01<\/div>\n  <div class=\"place-self-auto ...\">02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div>06<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:17:38"
+    }
+}

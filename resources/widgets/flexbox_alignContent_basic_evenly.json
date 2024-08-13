@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Space evenly",
+        "description": "각 항목 주위에 동일한 양의 공간이 있도록 컨테이너의 행을 배포하려면 내용 균등을 사용하고 내용 주위를 사용할 때 일반적으로 각 항목 사이에 표시되는 공간이 두 배로 늘어나는 것을 고려합니다.\n",
+        "code": "<div class=\"h-56 grid grid-cols-3 gap-4 content-evenly ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:29:36"
+    }
+}

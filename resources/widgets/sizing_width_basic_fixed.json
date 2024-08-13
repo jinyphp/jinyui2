@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Fixed widths",
+        "description": "w-px, w-1 및 w-64와 같은 유틸리티를 사용하여 요소를 고정 너비로 ​​설정합니다.\n",
+        "code": "<div class=\"w-96 bg-red-300\">w-96<\/div>\n<div class=\"w-80 bg-green-300\">w-80<\/div>\n<div class=\"w-64 bg-yellow-300\">w-64<\/div>\n<div class=\"w-48 bg-blue-300\">w-48<\/div>\n<div class=\"w-40 bg-gray-300\">w-40<\/div>\n<div class=\"w-32 bg-pink-300\">w-32<\/div>\n<div class=\"w-24 bg-purple-300\">w-24<\/div>",
+        "updated_at": "2024-08-12 08:42:25"
+    }
+}

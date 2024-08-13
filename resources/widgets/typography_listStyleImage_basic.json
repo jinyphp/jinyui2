@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the list style image",
+        "description": "목록 항목에 대한 마커 이미지를 제어하려면 list-image-* 유틸리티를 사용하십시오. 기본적으로 목록 이미지 없음은 사전 구성된 목록 스타일 이미지 유틸리티 중 유일하게 사용할 수 있습니다. 테마를 사용자 정의하여 추가 유틸리티를 추가할 수도 있지만 대괄호 표기를 사용하여 임의의 값을 즉석에서 생성할 수도 있습니다.\n",
+        "code": "<ul class=\"list-image-[url(checkmark.png)] ...\">\n  <li>5 cups chopped Porcini mushrooms<\/li>\n  <!-- ... -->\n<\/ul>",
+        "updated_at": "2024-08-12 11:10:49"
+    }
+}

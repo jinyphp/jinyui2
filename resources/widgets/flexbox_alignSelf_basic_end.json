@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "End",
+        "description": "컨테이너의 align-items 값에도 불구하고 self-end를 사용하여 컨테이너의 교차축 끝에 항목을 정렬합니다.\n",
+        "code": "<div class=\"flex items-stretch ...\">\n  <div>01<\/div>\n  <div class=\"self-end ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:38:38"
+    }
+}

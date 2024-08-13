@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "색상 불투명도 수정자를 사용하여 요소 배경색의 불투명도를 제어합니다.\n",
+        "title": "Changing the opacity",
+        "code": "<button class=\"bg-sky-500\/100 p-4\">button A<\/button>\n<button class=\"bg-sky-500\/75 p-4 ...\">button B<\/button>\n<button class=\"bg-sky-500\/50 p-4 ...\">button C<\/button>",
+        "updated_at": "2024-08-13 05:05:00"
+    }
+}

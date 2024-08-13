@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Viewport width",
+        "description": "요소가 뷰포트의 전체 너비에 걸쳐 있도록 하려면 w-screen을 사용하세요.\n",
+        "code": "<div class=\"w-screen\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-12 08:44:25"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Repeat Vertically",
+        "description": "배경 이미지를 수직으로만 반복하려면 bg-repeat-y를 사용하세요.\n",
+        "code": "<div class=\"bg-repeat-y bg-center ...\" style=\"background-image: url(...)\"><\/div>\n",
+        "updated_at": "2024-08-13 05:16:39"
+    }
+}

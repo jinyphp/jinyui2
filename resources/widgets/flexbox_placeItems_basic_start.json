@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Start",
+        "description": "두 축의 그리드 영역 시작 부분에 그리드 항목을 배치하려면 place-items-start를 사용하십시오.\n",
+        "code": "<div class=\"grid grid-cols-3 gap-4 place-items-start ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div>06<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:14:32"
+    }
+}

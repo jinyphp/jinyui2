@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "이전에 적용된 라인 클램프 유틸리티를 실행 취소하려면 line-clamp-none을 사용하십시오.\n",
+        "code": "<p class=\"line-clamp-3 lg:line-clamp-none\">\n  <!-- ... -->\n<\/p>",
+        "title": "Undoing line clamping",
+        "updated_at": "2024-08-12 11:00:45"
+    }
+}

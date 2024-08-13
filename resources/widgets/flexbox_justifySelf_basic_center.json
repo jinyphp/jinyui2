@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Center",
+        "description": "인라인 축의 중심을 따라 그리드 항목을 정렬하려면 justify-self-center를 사용하십시오.\n",
+        "code": "<div class=\"grid justify-items-stretch ...\">\n<div>01<\/div>\n  <div class=\"justify-self-center ...\">02<\/div>\n<div>03<\/div>\n<div>04<\/div>\n<div>05<\/div>\n<div>06<\/div>\n<\/div>\n",
+        "updated_at": "2024-08-07 16:24:47"
+    }
+}

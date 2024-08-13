@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Using negative values",
+        "description": "음수 여백 값을 사용하려면 클래스 이름 앞에 대시를 붙여 음수 값으로 변환합니다.\n",
+        "code": "<div class=\"w-36 h-16 bg-sky-400 opacity-20 ...\"><\/div>\n<div class=\"-mt-8 bg-sky-300 ...\">-mt-8<\/div>",
+        "updated_at": "2024-08-12 08:33:20"
+    }
+}

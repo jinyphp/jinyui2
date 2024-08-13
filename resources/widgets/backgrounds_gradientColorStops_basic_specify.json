@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Specifying stop positions",
+        "description": "그라데이션 색상 중지 위치를 더 효과적으로 제어하려면 그라데이션 색상 유틸리티를 from-10%, via-30% 및 to-90%와 같은 그라데이션 위치 유틸리티와 결합하세요.\n",
+        "code": "<div class=\"bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w-full text-black\">hello, jinyPHP<\/div>\n",
+        "updated_at": "2024-08-13 05:26:35"
+    }
+}

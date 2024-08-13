@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<p class=\"hyphens-none hover:hyphens-auto\">\n  <!-- ... -->\n<\/p>",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:hyphens-auto를 사용하면 호버 시에만 하이픈-자동 유틸리티를 적용할 수 있습니다.\n",
+        "title": "Applying conditionally",
+        "updated_at": "2024-08-12 18:12:58"
+    }
+}

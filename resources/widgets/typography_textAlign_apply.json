@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:text-center를 사용하면 마우스 오버 시에만 text-center 유틸리티를 적용할 수 있습니다.\n",
+        "code": "<p class=\"text-left hover:text-center\">\nSo I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.\n<\/p>",
+        "updated_at": "2024-08-12 17:31:51"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Controlling grid element placement",
+        "description": "Grid-flow-* 유틸리티를 사용하여 그리드 레이아웃에 대해 자동 배치 알고리즘이 작동하는 방식을 제어합니다.\n",
+        "code": "<div class=\"grid grid-flow-row-dense grid-cols-3 grid-rows-3 ...\">\n  <div class=\"col-span-2\">01<\/div>\n  <div class=\"col-span-2\">02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 15:55:07"
+    }
+}

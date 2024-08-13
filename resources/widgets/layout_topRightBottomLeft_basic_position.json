@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Placing a positioned element",
+        "description": "top-*, right-*, Bottom-*, left-* 및 inset-* 유틸리티를 사용하여 위치가 지정된 요소의 가로 또는 세로 위치를 설정합니다.",
+        "code": "<div class=\"flex\"> \n<!-- Pin to top left corner -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute left-0 top-0 h-16 w-16 ...\">01<\/div>\n<\/div>\n\n<!-- Span top edge -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute inset-x-0 top-0 h-16 ...\">02<\/div>\n<\/div>\n\n<!-- Pin to top right corner -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute top-0 right-0 h-16 w-16 ...\">03<\/div>\n<\/div>\n\n<!-- Span left edge -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute inset-y-0 left-0 w-16 ...\">04<\/div>\n<\/div>\n\n<!-- Fill entire parent -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute inset-0 ...\">05<\/div>\n<\/div>\n\n<!-- Span right edge -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute inset-y-0 right-0 w-16 ...\">06<\/div>\n<\/div>\n\n<!-- Pin to bottom left corner -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute bottom-0 left-0 h-16 w-16 ...\">07<\/div>\n<\/div>\n\n<!-- Span bottom edge -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute inset-x-0 bottom-0 h-16 ...\">08<\/div>\n<\/div>\n\n<!-- Pin to bottom right corner -->\n<div class=\"relative h-32 w-32 ...\">\n  <div class=\"absolute bottom-0 right-0 h-16 w-16 ...\">09<\/div>\n<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 11:39:37"
+    }
+}

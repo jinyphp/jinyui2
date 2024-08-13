@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<div class=\"hover:break-after-column\">\n  <p>Well, let me tell you something, ...<\/p>\n  <p class=\"break-after-column\">Sure, go ahead, laugh...<\/p>\n  <p>Maybe we can live without...<\/p>\n  <p>Look. If you think this is...<\/p>\n<\/div>",
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:break-after-column을 사용하면 hover 시 break-after-column 유틸리티만 적용할 수 있습니다.\n",
+        "updated_at": "2024-08-06 10:23:13"
+    }
+}

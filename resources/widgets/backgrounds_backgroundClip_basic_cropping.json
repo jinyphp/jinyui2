@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Cropping to text",
+        "description": "텍스트 모양에 맞게 요소의 배경을 자르려면 bg-clip-text를 사용하세요. 텍스트를 통해 배경 이미지를 표시하려는 효과에 유용합니다.\n",
+        "code": "<div class=\"text-5xl font-extrabold ...\">\n  <span class=\"bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500\">\n    Hello world\n  <\/span>\n<\/div>",
+        "updated_at": "2024-08-13 05:01:38"
+    }
+}

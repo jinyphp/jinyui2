@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Resizing to cover a container",
+        "description": "컨테이너를 덮도록 요소 콘텐츠의 크기를 조정하려면 object-cover 유틸리티를 사용하세요.\n",
+        "code": "<div class=\"bg-indigo-300 ...\">\n  <img class=\"object-cover h-48\" w-96 src=\".\/..\/..\/assets\/jinyerp.svg\">\n<\/div>",
+        "updated_at": "2024-08-07 10:44:46"
+    }
+}

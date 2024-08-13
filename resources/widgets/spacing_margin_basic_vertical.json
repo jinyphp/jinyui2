@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add vertical margin",
+        "description": "my-* 유틸리티를 사용하여 요소의 수직 여백을 제어합니다.\n",
+        "code": "<div class=\"my-8 w-32 bg-red-300\">my-8<\/div>\n",
+        "updated_at": "2024-08-12 08:32:12"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Using negative values",
+        "description": "음수 텍스트 들여쓰기 값을 사용하려면 클래스 이름 앞에 대시를 붙여 음수 값으로 변환하세요.\n",
+        "code": "<div class=\"-indent-8\">\n  So I started to walk into the water. I won't lie to you boys, I was\n  terrified. But I pressed on, and as I made my way past the breakers\n  a strange calm came over me. I don't know if it was divine intervention\n  or the kinship of all living things but I tell you Jerry at that moment,\n  I <em>was<\/em> a marine biologist.\n<\/div>",
+        "updated_at": "2024-08-12 17:58:42"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the list style type",
+        "description": "글머리 기호 또는 숫자 목록을 생성하려면 list-disc 및 list-decimal 유틸리티를 사용하십시오.\n",
+        "code": "<ul class=\"list-disc\">\n  <li>Now this is a story all about how, my life got flipped-turned upside down<\/li>\n  <li>And I'd like to take a minute just sit right there<\/li>\n  <li>I'll tell you how I became the prince of a town called Bel-Air<\/li>\n<\/ul>\n\n<ol class=\"list-decimal\">\n  <li>Now this is a story all about how, my life got flipped-turned upside down<\/li>\n  <li>And I'd like to take a minute just sit right there<\/li>\n  <li>I'll tell you how I became the prince of a town called Bel-Air<\/li>\n<\/ol>\n\n<ul class=\"list-none\">\n  <li>Now this is a story all about how, my life got flipped-turned upside down<\/li>\n  <li>And I'd like to take a minute just sit right there<\/li>\n  <li>I'll tell you how I became the prince of a town called Bel-Air<\/li>\n<\/ul>",
+        "updated_at": "2024-08-12 17:28:23"
+    }
+}

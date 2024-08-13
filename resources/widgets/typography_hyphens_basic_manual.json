@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Manual",
+        "description": "줄 바꿈 제안 &shy;가 있는 하이픈 지점만 설정하려면 하이픈 수동을 사용하세요. 사용됩니다:\n",
+        "code": "<p class=\"hyphens-manual ...\">\nOfficially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeug&shy;­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.\n<\/p>",
+        "updated_at": "2024-08-12 18:12:22"
+    }
+}

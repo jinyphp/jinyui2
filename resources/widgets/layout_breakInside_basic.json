@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage",
+        "description": "요소 내에서 열 또는 페이지 나누기가 작동하는 방식을 제어하려면 break-inside-* 유틸리티를 사용하십시오. 예를 들어, 요소 내에서 열 나누기를 방지하려면 break-inside-avoid-column 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"columns-2\">\n  <p>Well, let me tell you something, ...<\/p>\n  <p class=\"break-inside-avoid-column\">Sure, go ahead, laugh...<\/p>\n  <p>Maybe we can live without...<\/p>\n  <p>Look. If you think this is...<\/p>\n<\/div>",
+        "updated_at": "2024-08-06 10:28:05"
+    }
+}

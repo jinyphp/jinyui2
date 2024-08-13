@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Normal",
+        "description": "공백 일반을 사용하면 요소 내에서 텍스트가 정상적으로 줄 바꿈됩니다. 줄바꿈과 공백은 축소됩니다.\n",
+        "code": "<div class=\"w-3\/4 ...\">\n  <div class=\"whitespace-normal ...\">Hey everyone!\n\nIt's almost 2022       and we still don't know if there       is aliens living among us, or do we? Maybe the person writing this is an alien.\n\nYou will never know.<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 18:05:07"
+    }
+}

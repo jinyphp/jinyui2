@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add padding to a single side",
+        "description": "pt-*, pr-*, pb-* 및 pl-* 유틸리티를 사용하여 요소 한쪽의 패딩을 제어합니다. 예를 들어, pt-6은 요소 상단에 1.5rem의 패딩을 추가하고, pr-4는 요소 오른쪽에 1rem의 패딩을 추가합니다. pb-8은 요소 하단에 2rem의 패딩을 추가하고, pl-2는 요소 왼쪽에 0.5rem의 패딩을 추가합니다.\n",
+        "code": "<div class=\"pt-6 bg-red-300 w-32\">pt-6<\/div>\n<div class=\"pr-4 bg-blue-300 w-32\" >pr-4<\/div>\n<div class=\"pb-8 bg-green-300 w-32\">pb-8<\/div>\n<div class=\"pl-2 bg-yellow-300 w-32\">pl-2<\/div>",
+        "updated_at": "2024-08-12 08:24:52"
+    }
+}

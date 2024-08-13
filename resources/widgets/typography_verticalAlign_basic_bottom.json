@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Bottom",
+        "description": "요소의 아래쪽과 해당 하위 항목을 전체 줄의 아래쪽에 정렬하려면 align-bottom을 사용하세요.\n",
+        "code": "<span class=\"inline-block align-bottom ...\">The quick brown fox jumps over the lazy dog.\n<\/span>",
+        "updated_at": "2024-08-12 18:02:17"
+    }
+}

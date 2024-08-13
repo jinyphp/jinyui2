@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Baseline",
+        "description": "요소의 기준선을 상위 요소의 기준선과 정렬하려면 align-baseline을 사용하세요.\n",
+        "code": "<span class=\"inline-block align-baseline ...\">The quick brown fox jumps over the lazy dog.<\/span>\n",
+        "updated_at": "2024-08-12 18:01:04"
+    }
+}

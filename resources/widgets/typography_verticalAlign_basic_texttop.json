@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Text Top",
+        "description": "요소의 상단을 상위 요소의 글꼴 상단과 정렬하려면 align-text-top을 사용하세요.\n",
+        "code": "<span class=\"inline-block align-text-top ...\">The quick brown fox jumps over the lazy dog.<\/span>\n",
+        "updated_at": "2024-08-12 18:02:37"
+    }
+}

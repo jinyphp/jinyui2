@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Flow Root",
+        "description": "자체 블록 형식화 컨텍스트를 사용하여 블록 수준 요소를 생성하려면 flow-root 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"p-4\">\n  <div class=\"flow-root bg-red-300\">\n    <div class=\"my-4 bg-blue-300\">Well, let me tell you something, ...<\/div>\n  <\/div>\n  <div class=\"flow-root bg-red-300\">\n    <div class=\"my-4 bg-blue-300\">Sure, go ahead, laugh if you want...<\/div>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-06 10:54:35"
+    }
+}

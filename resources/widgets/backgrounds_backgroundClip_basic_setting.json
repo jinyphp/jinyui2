@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the background clip",
+        "description": "bg-clip-* 유틸리티를 사용하여 요소 배경의 경계 상자를 제어합니다.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"bg-clip-border p-6 bg-violet-600 border-4 border-violet-300 border-dashed w-32 text-center text-white\">border<\/div>\n<div class=\"bg-clip-padding p-6 bg-violet-600 border-4 border-violet-300 border-dashed w-32 text-center text-white\" >padding<\/div>\n<div class=\"bg-clip-content p-6 bg-violet-600 border-4 border-violet-300 border-dashed  w-32 text-center text-black\">content<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:01:10"
+    }
+}

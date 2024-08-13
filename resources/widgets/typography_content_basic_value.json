@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Referencing an attribute value",
+        "description": "이러한 콘텐츠 유틸리티는 속성에 저장된 값을 참조하는 데 사용할 수 있는 attr() 함수와 같은 CSS 기능도 지원합니다.\n",
+        "code": "<div before=\"Hello World\" class=\"before:content-[attr(before)]\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-12 18:15:08"
+    }
+}

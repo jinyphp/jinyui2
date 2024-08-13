@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Pretty",
+        "description": "텍스트 블록 끝에 고아(한 줄에 한 단어)가 표시되는 것을 방지하려면 text-pretty를 사용하세요.\n",
+        "code": "<article class=\"text-pretty ...\">\n  <h3>Beloved Manhattan soup stand closes<\/h3>\n  <p>New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.<\/p>\n<\/article>",
+        "updated_at": "2024-08-12 17:56:30"
+    }
+}

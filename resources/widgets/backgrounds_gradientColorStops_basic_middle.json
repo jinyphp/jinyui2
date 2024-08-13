@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Middle color",
+        "description": "via-* 유틸리티를 사용하여 그라데이션에 중간 색상을 추가합니다.\n",
+        "code": "<div class=\"bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full text-black\">hello, jinyPHP<\/div>\n",
+        "updated_at": "2024-08-13 05:26:10"
+    }
+}

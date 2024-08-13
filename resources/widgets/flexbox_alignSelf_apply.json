@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:self-end를 사용하면 호버 시에만 자체 종료 유틸리티를 적용할 수 있습니다.\n",
+        "code": "<div class=\"self-auto hover:self-end\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-07 16:39:09"
+    }
+}

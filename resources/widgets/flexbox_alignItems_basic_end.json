@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "End",
+        "description": "항목 끝을 사용하여 항목을 컨테이너 교차축 끝에 정렬합니다.\n",
+        "code": "<div class=\"flex items-end ...\">\n  <div class=\"py-4\">01<\/div>\n  <div class=\"py-12\">02<\/div>\n  <div class=\"py-8\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:34:47"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Space evenly",
+        "description": "각 항목 주위에 동일한 양의 공간이 있도록 컨테이너의 기본 축을 따라 항목을 정렬하려면 justify-evenly를 사용하고 justify-around를 사용할 때 일반적으로 각 항목 사이에 표시되는 공간이 두 배로 늘어나는 것을 고려합니다.\n",
+        "code": "<div class=\"flex justify-evenly ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:06:19"
+    }
+}

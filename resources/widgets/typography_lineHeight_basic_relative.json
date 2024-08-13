@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Relative line-heights",
+        "description": "Leading-None, Leading-Tight, Leading-Snug, Leading-Normal, Lead-Relaxed 및 Leading-Loose 유틸리티를 사용하여 현재 글꼴 크기를 기준으로 요소에 상대적인 줄 높이를 지정합니다.\n",
+        "code": "<h2>leading-normal<\/h2>\n<p class=\"leading-normal ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>leading-relaxed<\/h2>\n<p class=\"leading-relaxed ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>leading-loose<\/h2>\n<p class=\"leading-loose ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>",
+        "updated_at": "2024-08-12 11:06:16"
+    }
+}

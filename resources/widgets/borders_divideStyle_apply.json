@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:divide-solid를 사용하면 호버 시에만 Divide-solid 유틸리티를 적용할 수 있습니다.\n",
+        "code": "<div class=\"divide-y divide-dashed hover:divide-solid\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 06:07:55"
+    }
+}

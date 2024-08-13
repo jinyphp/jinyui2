@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Stretching to fit a container",
+        "description": "컨테이너에 맞게 요소의 콘텐츠를 늘리려면 object-fill 유틸리티를 사용하세요.\n",
+        "code": "<div class=\"bg-sky-300 ...\">\n  <img class=\"object-fill h-48 w-96 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<\/div>",
+        "updated_at": "2024-08-07 10:43:52"
+    }
+}

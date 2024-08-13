@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Sizing implicitly-created grid columns",
+        "code": "<div class=\"grid grid-flow-col auto-cols-max\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "description": "암시적으로 생성된 그리드 열의 크기를 제어하려면 auto-cols-* 유틸리티를 사용하십시오.\n",
+        "updated_at": "2024-08-07 15:56:59"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Pre",
+        "description": "요소 내의 줄 바꿈과 공백을 유지하려면 공백 사전을 사용하십시오. 텍스트는 줄 바꿈되지 않습니다.\n",
+        "code": "\n<div class=\"w-3\/4 overflow-x-auto ...\">\n  <div class=\"whitespace-pre ...\">Hey everyone!\n\nIt's almost 2022       and we still don't know if there       is aliens living among us, or do we? Maybe the person writing this is an alien.\n\nYou will never know.<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 18:05:38"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Pre Wrap",
+        "description": "요소 내의 줄바꿈과 공백을 유지하려면 공백 사전 포장을 사용하세요. 텍스트는 정상적으로 래핑됩니다.\n",
+        "code": "<div class=\"w-3\/4 ...\">\n  <div class=\"whitespace-pre-wrap ...\">Hey everyone!\n\nIt's almost 2022       and we still don't know if there       is aliens living among us, or do we? Maybe the person writing this is an alien.\n\nYou will never know.<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 18:06:07"
+    }
+}

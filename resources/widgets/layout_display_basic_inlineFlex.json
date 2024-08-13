@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Inline Flex",
+        "description": "inline-flex 유틸리티를 사용하여 텍스트와 함께 흐르는 인라인 flex 컨테이너를 만듭니다.\n",
+        "code": "<p>\n  Today I spent most of the day researching ways to ...\n  <span class=\"inline-flex items-baseline\">\n    <img src=\"path\/to\/image.jpg\" alt=\"\" class=\"self-center w-5 h-5 rounded-full mx-1\" \/>\n    <span>Kramer<\/span>\n  <\/span>\n  keeps telling me there is no way to make it work, that ...\n<\/p>",
+        "updated_at": "2024-08-06 10:58:15"
+    }
+}

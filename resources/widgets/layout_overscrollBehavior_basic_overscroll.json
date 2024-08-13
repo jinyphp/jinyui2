@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "overscroll-none 유틸리티를 사용하면 대상 영역의 스크롤이 상위 요소의 스크롤을 트리거하는 것을 방지하고 컨테이너 끝을 지나 스크롤할 때 \"바운스\" 효과도 방지할 수 있습니다.\n",
+        "title": "Basic usage - Preventing overscroll bouncing",
+        "code": "<div class=\"overscroll-none\">Well, let me tell you something, funny boy. Y'know that little stamp, the one that says \"New York Public Library\"? Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.\n\nSure, go ahead, laugh if you want to. I've seen your type before: Flashy, making the scene, flaunting convention. Yeah, I know what you're thinking. What's this guy making such a big stink about old library books? Well, let me give you a hint, junior.\n\nMaybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?<\/div>",
+        "updated_at": "2024-08-07 11:16:05"
+    }
+}

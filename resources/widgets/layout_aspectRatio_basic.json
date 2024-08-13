@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage",
+        "description": "Aspect-* 유틸리티를 사용하여 요소의 원하는 종횡비를 설정합니다.",
+        "code": "<iframe class=\"w-full aspect-video\" src=\"https:\/\/www.youtube.com\/...\"><\/iframe>\n",
+        "updated_at": "2024-08-06 09:42:42"
+    }
+}

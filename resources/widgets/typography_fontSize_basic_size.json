@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the font size",
+        "description": "text-* 유틸리티를 사용하여 요소의 글꼴 크기를 제어합니다.\n",
+        "code": "<h2>text-sm<\/h2>\n<p class=\"text-sm ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>text-base<\/h2>\n<p class=\"text-base ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>text-lg<\/h2>\n<p class=\"text-lg ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>text-xl<\/h2>\n<p class=\"text-xl ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>text-2xl<\/h2>\n<p class=\"text-2xl ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 10:26:48"
+    }
+}

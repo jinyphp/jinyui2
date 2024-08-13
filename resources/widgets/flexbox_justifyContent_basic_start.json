@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Start",
+        "description": "컨테이너의 주축 시작을 기준으로 항목을 정렬하려면 justify-start를 사용하세요.\n",
+        "code": "<div class=\"flex justify-start ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:04:48"
+    }
+}

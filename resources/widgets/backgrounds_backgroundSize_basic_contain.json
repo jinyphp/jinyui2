@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Contain",
+        "description": "자르거나 늘리지 않고 배경 이미지의 크기를 바깥쪽 가장자리로 조정하려면 bg-contain을 사용하세요.\n",
+        "code": "<div class=\"bg-contain bg-center ...\" style=\"background-image: url(...)\"><\/div>\n",
+        "updated_at": "2024-08-13 05:18:40"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "요소와 해당 하위 요소의 상단을 전체 줄의 상단에 정렬하려면 align-top을 사용하세요.\n",
+        "title": "Top",
+        "code": "<span class=\"inline-block align-top ...\">The quick brown fox jumps over the lazy dog.<\/span>\n",
+        "updated_at": "2024-08-12 18:01:26"
+    }
+}
