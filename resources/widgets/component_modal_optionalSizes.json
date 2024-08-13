@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Optional sizes ",
-        "description": "Modals have three optional sizes, available via modifier classes to be placed on a .modal-dialog. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.",
-        "code": "<div class=\"modal-dialog modal-xl\">...<\/div>\n<div class=\"modal-dialog modal-lg\">...<\/div>\n<div class=\"modal-dialog modal-sm\">...<\/div>",
-        "updated_at": "2024-07-03 10:56:16"
+        "title": "선택적 크기",
+        "description": "모달에는 3개의 옵션 크기가 있어, 제어자 클래스를 통해 .modal-dialog로 배치할 수 있습니다. 이들 크기는 좁은 뷰포트에서의 가로 스크롤 바를 피하기 위해 특정 중단점에서 유효하게 됩니다.\n제어자 클래스를 가지고 있지 않은 기본 모달은, “medium” 크기의 모달로 보여집니다.",
+        "code": "",
+        "updated_at": "2024-08-09 13:16:25"
     }
 }

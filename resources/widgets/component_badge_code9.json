@@ -1,8 +1,8 @@
 {
     "items": {
-        "description": "As part of Bootstrap’s evolving CSS variables approach, badges now use local CSS variables on .badge for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일환으로, 이제 배지 .badge의 로컬 CSS 변수를 사용하여 실시간 사용자 정의 기능을 강화합니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.",
         "title": "Variables",
         "code": "--#{$prefix}badge-padding-x: #{$badge-padding-x};\n--#{$prefix}badge-padding-y: #{$badge-padding-y};\n@include rfs($badge-font-size, --#{$prefix}badge-font-size);\n--#{$prefix}badge-font-weight: #{$badge-font-weight};\n--#{$prefix}badge-color: #{$badge-color};\n--#{$prefix}badge-border-radius: #{$badge-border-radius};",
-        "updated_at": "2024-07-04 00:58:02"
+        "updated_at": "2024-08-06 03:57:45"
     }
 }

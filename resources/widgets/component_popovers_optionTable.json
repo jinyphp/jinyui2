@@ -1,18 +1,18 @@
 {
     "items": {
         "1": {
-            "name": "Name",
-            "type": "Type",
-            "default": "Default",
-            "description": "Description\n",
+            "name": "이름",
+            "type": "유형",
+            "default": "기본값",
+            "description": "설명\n",
             "created_at": "2024-07-08 12:41:56",
             "updated_at": "2024-07-08 12:41:56"
         },
         "2": {
             "name": "allowList",
             "type": "object",
-            "default": "Default value\t",
-            "description": "Object which contains allowed attributes and tags.\n",
+            "default": "기본값\t",
+            "description": "허용된 속성 및 태그가 포함된 개체입니다.\n",
             "created_at": "2024-07-08 12:42:17",
             "updated_at": "2024-07-08 12:42:17"
         },
@@ -20,7 +20,7 @@
             "name": "animation",
             "type": "boolean",
             "default": "true",
-            "description": "Apply a CSS fade transition to the popover.\n",
+            "description": "팝오버에 CSS 페이드 전환을 적용합니다.\n",
             "created_at": "2024-07-08 12:42:51",
             "updated_at": "2024-07-08 12:42:51"
         },
@@ -28,7 +28,7 @@
             "name": "boundary",
             "type": "string, element\t",
             "default": "'clippingParents'\t",
-            "description": "Overflow constraint boundary of the popover (applies only to Popper’s preventOverflow modifier). By default, it’s 'clippingParents' and can accept an HTMLElement reference (via JavaScript only). For more information refer to Popper’s detectOverflow docs.\n",
+            "description": "팝오버의 오버플로 제약 조건 경계(Popper의 preventOverflow 수정자에만 적용). 기본값은 'clippingParents'이며 (JavaScript를 통해서만) HTMLElement 참조를 받을 수 있습니다. 자세한 내용은 Popper의 detectOverflow 문서를 참조하세요.\n",
             "created_at": "2024-07-08 12:43:13",
             "updated_at": "2024-07-08 12:43:13"
         },
@@ -36,7 +36,7 @@
             "name": "container",
             "type": "string, element, false\t",
             "default": "false",
-            "description": "Appends the popover to a specific element. Example: container: 'body'. This option is particularly useful in that it allows you to position the popover in the flow of the document near the triggering element - which will prevent the popover from floating away from the triggering element during a window resize.\n",
+            "description": "특정 요소에 팝오버를 추가합니다. 예: container: 'body'. 이 옵션은 문서 흐름에서 트리거 요소 근처에 팝오버를 배치할 수 있다는 점에서 특히 유용하며, 창 크기를 조정하는 동안 팝오버가 트리거 요소에서 떠다니는 것을 방지할 수 있습니다.\n",
             "created_at": "2024-07-08 12:43:30",
             "updated_at": "2024-07-08 12:43:30"
         },
@@ -44,15 +44,15 @@
             "name": "content",
             "type": "content",
             "default": "''\t",
-            "description": "The popover’s text content. If a function is given, it will be called with its this reference set to the element that the popover is attached to.\n",
+            "description": "팝오버의 텍스트 콘텐츠입니다. 함수가 지정되면 팝오버가 첨부된 요소에 대한 this 참조를 설정하여 호출됩니다.\n",
             "created_at": "2024-07-08 12:43:54",
             "updated_at": "2024-07-08 12:43:54"
         },
         "7": {
             "name": "customClass",
             "type": "string, function\t",
-            "description": "Add classes to the popover when it is shown. Note that these classes will be added in addition to any classes specified in the template. To add multiple classes, separate them with spaces: 'class-1 class-2'. You can also pass a function that should return a single string containing additional class names.\n",
             "default": "‘ ’",
+            "description": "팝오버가 표시되면 클래스를 추가합니다. 이러한 클래스는 템플릿에 지정된 모든 클래스에 추가됩니다. 여러 클래스를 추가하려면 class-1 class-2와 같이 공백으로 구분합니다. 추가 클래스 이름이 포함된 단일 문자열을 반환하는 함수를 전달할 수도 있습니다.\n",
             "created_at": "2024-07-08 12:44:20",
             "updated_at": "2024-07-08 12:44:20"
         },
@@ -60,7 +60,7 @@
             "name": "delay",
             "type": "number, object\t",
             "default": "0\t",
-            "description": "Delay showing and hiding the popover (ms)—doesn’t apply to manual trigger type. If a number is supplied, delay is applied to both hide\/show. Object structure is: delay: { \"show\": 500, \"hide\": 100 }.\n",
+            "description": "팝오버 표시 및 숨기기 지연(ms) - 수동 트리거 유형에는 적용되지 않습니다. 숫자를 지정하면 숨기기/표시 모두에 지연이 적용됩니다. 객체 구조: delay: { 'show': 500, 'hide': 100 }.\n",
             "created_at": "2024-07-08 12:44:38",
             "updated_at": "2024-07-08 12:44:38"
         },
@@ -68,7 +68,7 @@
             "name": "fallbackPlacements\t",
             "type": "string, array\t",
             "default": "['top', 'right', 'bottom', 'left']\t",
-            "description": "Define fallback placements by providing a list of placements in array (in order of preference). For more information refer to Popper’s behavior docs.\n",
+            "description": "배열에 배치 목록을 제공함으로써 대체 배치를 정의합니다(선호도 순서대로). 자세한 내용은 Popper의 동작 문서를 참조하세요.\n",
             "created_at": "2024-07-08 12:45:01",
             "updated_at": "2024-07-08 12:45:01"
         },
@@ -76,15 +76,15 @@
             "name": "html",
             "type": "boolean",
             "default": "false",
-            "description": "Allow HTML in the popover. If true, HTML tags in the popover’s title will be rendered in the popover. If false, innerText property will be used to insert content into the DOM. Use text if you’re worried about XSS attacks.\n",
+            "description": "팝오버에 HTML 허용. true이면 팝오버의 title에 있는 HTML 태그가 팝오버에 렌더링됩니다. false인 경우 innerText 속성을 사용하여 DOM에 콘텐츠를 삽입합니다. XSS 공격이 걱정된다면 텍스트를 사용하세요.\n",
             "created_at": "2024-07-08 12:45:18",
             "updated_at": "2024-07-08 12:45:18"
         },
         "11": {
-            "description": "Offset of the popover relative to its target. You can pass a string in data attributes with comma separated values like: data-bs-offset=\"10,20\". When a function is used to determine the offset, it is called with an object containing the popper placement, the reference, and popper rects as its first argument. The triggering element DOM node is passed as the second argument. The function must return an array with two numbers: skidding, distance. For more information refer to Popper’s offset docs.\n",
-            "default": "[0, 0]\t",
-            "type": "number, string, function\t",
             "name": "offset",
+            "type": "number, string, function\t",
+            "default": "[0, 0]\t",
+            "description": "대상에 대한 팝오버의 오프셋입니다. data-bs-offset='10,20'와 같이 쉼표로 구분된 값으로 데이터 속성에 문자열을 전달할 수 있습니다. 함수가 오프셋을 결정하는 데 사용되는 경우 Popper 배치, 참조 및 Popper 레코드가 포함된 객체를 첫 번째 인수로 사용하여 호출됩니다. 트리거링 요소 DOM 노드는 두 번째 인수로 전달됩니다. 이 함수는 두 개의 숫자가 포함된 배열을 반환해야 합니다: 스키딩, 거리. 자세한 내용은 Popper의 오프셋 문서를 참조하세요.\n",
             "created_at": "2024-07-08 12:46:08",
             "updated_at": "2024-07-08 12:46:08"
         },
@@ -92,7 +92,7 @@
             "name": "placement",
             "type": "string, function\t",
             "default": "'top'\t",
-            "description": "How to position the popover: auto, top, bottom, left, right. When auto is specified, it will dynamically reorient the popover. When a function is used to determine the placement, it is called with the popover DOM node as its first argument and the triggering element DOM node as its second. The this context is set to the popover instance.\n",
+            "description": "auto, top, bottom, left, right로 팝오버 위치를 지정할 수 있습니다. auto를 지정하면 팝오버의 방향이 동적으로 변경됩니다. 함수가 위치를 결정하는 데 사용되는 경우, 함수는 팝오버 DOM 노드를 첫 번째 인수로, 트리거링 요소 DOM 노드를 두 번째 인수로 사용하여 호출됩니다. this 컨텍스트는 팝오버 인스턴스로 설정됩니다.\n",
             "created_at": "2024-07-08 12:46:36",
             "updated_at": "2024-07-08 12:46:36"
         },
@@ -100,7 +100,7 @@
             "name": "popperConfig",
             "type": "null, object, function\t",
             "default": "null\t",
-            "description": "To change Bootstrap’s default Popper config, see Popper’s configuration. When a function is used to create the Popper configuration, it’s called with an object that contains the Bootstrap’s default Popper configuration. It helps you use and merge the default with your own configuration. The function must return a configuration object for Popper.\n",
+            "description": "Bootstrap의 기본 Popper 구성을 변경하려면 Popper 구성을 참조하세요. 함수를 사용하여 Popper 구성을 생성하는 경우 Bootstrap의 기본 Popper 구성이 포함된 객체와 함께 호출됩니다. 이 함수를 사용하면 기본 구성을 사용하고 자신만의 구성과 병합할 수 있습니다. 함수는 Popper에 대한 구성 객체를 반환해야 합니다.\n",
             "created_at": "2024-07-08 12:46:56",
             "updated_at": "2024-07-08 12:46:56"
         },
@@ -108,7 +108,7 @@
             "name": "sanitize",
             "type": "boolean",
             "default": "true\t",
-            "description": "Enable or disable the sanitization. If activated 'template', 'content' and 'title' options will be sanitized.\n",
+            "description": "새니타이징(sanitizing)을 활성화 또는 비활성화합니다. 'template'을 활성화하면 'content', 'title' 옵션이 새니타이징 처리됩니다.\n",
             "created_at": "2024-07-08 12:47:16",
             "updated_at": "2024-07-08 12:47:16"
         },
@@ -116,7 +116,7 @@
             "name": "sanitizeFn",
             "type": "null, function\t",
             "default": "null",
-            "description": "Here you can supply your own sanitize function. This can be useful if you prefer to use a dedicated library to perform sanitization.\n",
+            "description": "여기에서 자체 새니타이징 기능을 제공할 수 있습니다. 전용 라이브러리를 사용하여 새니타이징을 수행하려는 경우 유용할 수 있습니다.\n",
             "created_at": "2024-07-08 12:47:34",
             "updated_at": "2024-07-08 12:47:34"
         },
@@ -124,7 +124,7 @@
             "name": "selector",
             "type": "string, false\t",
             "default": "false\t",
-            "description": "If a selector is provided, popover objects will be delegated to the specified targets. In practice, this is used to also apply popovers to dynamically added DOM elements (jQuery.on support). See this issue and an informative example. Note: title attribute must not be used as a selector.\n",
+            "description": "선택기가 제공되면 팝오버 객체가 지정된 대상에 위임됩니다. 실제로는 동적으로 추가된 DOM 요소에 팝오버를 적용하는 데에도 사용됩니다(jQuery.on 지원). 이번 이슈 및 유익한 예제를 참조하세요. 참고:title 속성을 선택자로 사용해서는 안 됩니다.\n",
             "created_at": "2024-07-08 12:47:54",
             "updated_at": "2024-07-08 12:47:54"
         },
@@ -132,7 +132,7 @@
             "name": "template",
             "type": "string\t",
             "default": "'<div class=\"popover\" role=\"tooltip\"><div class=\"popover-arrow\"><\/div><div class=\"popover-inner\"><\/div><\/div>'\t",
-            "description": "Base HTML to use when creating the popover. The popover’s title will be injected into the .popover-inner. .popover-arrow will become the popover’s arrow. The outermost wrapper element should have the .popover class and role=\"tooltip\".\n",
+            "description": "팝오버를 만들 때 사용할 기본 HTML입니다. 팝오버의 title은 .popover-inner에 삽입됩니다. .popover-arrow는 팝오버의 화살표가 됩니다. 가장 바깥쪽 래퍼 요소에는 .popover 클래스와 role='tooltip'이 있어야 합니다.\n",
             "created_at": "2024-07-08 12:48:15",
             "updated_at": "2024-07-08 12:48:15"
         },
@@ -140,7 +140,7 @@
             "name": "title",
             "type": "string, element, function\t",
             "default": "''\t",
-            "description": "The popover title. If a function is given, it will be called with its this reference set to the element that the popover is attached to.\n",
+            "description": "팝오버 제목입니다. 함수가 지정되면 팝오버가 첨부된 요소에 대한 this 참조를 설정하여 호출됩니다.\n",
             "created_at": "2024-07-08 12:48:45",
             "updated_at": "2024-07-08 12:48:45"
         },
@@ -148,7 +148,7 @@
             "name": "trigger",
             "type": "string",
             "default": "'hover focus'\t",
-            "description": "How popover is triggered: click, hover, focus, manual. You may pass multiple triggers; separate them with a space. 'manual' indicates that the popover will be triggered programmatically via the .popover('show'), .popover('hide') and .popover('toggle') methods; this value cannot be combined with any other trigger. 'hover' on its own will result in popovers that cannot be triggered via the keyboard, and should only be used if alternative methods for conveying the same information for keyboard users is present.\n",
+            "description": "팝업이 트리거되는 방법: 클릭, 마우스오버, 포커스, 수동. 여러 트리거를 전달할 수 있으며, 공백으로 구분하세요. 'manual'은 .popover('show'), .popover('hide') 및 .popover('toggle') 메서드를 통해 프로그래밍 방식으로 팝업이 트리거됨을 나타내며, 이 값은 다른 트리거와 결합할 수 없습니다. 'hover'를 단독으로 사용하면 키보드를 통해 트리거할 수 없는 팝오버가 발생하므로 키보드 사용자에게 동일한 정보를 전달할 수 있는 대체 메서드가 있는 경우에만 사용해야 합니다.\n",
             "created_at": "2024-07-08 12:49:03",
             "updated_at": "2024-07-08 12:49:03"
         }

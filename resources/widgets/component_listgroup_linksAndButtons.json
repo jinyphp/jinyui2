@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Links and buttons ",
-        "description": "Use <a>s or <button>s to create actionable list group items with hover, disabled, and active states by adding .list-group-item-action. We separate these pseudo-classes to ensure list groups made of non-interactive elements (like <li>s or <div>s) don’t provide a click or tap affordance.\n\nBe sure to not use the standard .btn classes here.",
+        "title": "링크와 버튼 ",
+        "description": "actionable 한 목록 그룹 아이템을 작성하려면 <a> 나 <button>을 사용하고, .list-group-item-action을 추가합니다. 비 인터랙티브한 요소(<li> 혹은 <div>와 같은)로 만들어진 목록 그룹이 클릭이나 탭 어포던스를 제공하지 않도록, 이러한 가상 클래스를 분리하고 있습니다.\n\n여기에서는 표준의 .btn 클래스를 사용하지 않도록 주의해 주세요.",
         "code": "<div class=\"list-group\">\n  <a href=\"#\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n    The current link item\n  <\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A second link item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A third link item<\/a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">A fourth link item<\/a>\n  <a class=\"list-group-item list-group-item-action disabled\" aria-disabled=\"true\">A disabled link item<\/a>\n<\/div>",
-        "updated_at": "2024-07-03 11:01:39"
+        "updated_at": "2024-08-08 13:24:23"
     }
 }

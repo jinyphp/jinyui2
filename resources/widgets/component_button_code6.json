@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Button tags",
-        "description": "The .btn classes are designed to be used with the button tag element. However, you can also use these classes on a tag or input tag elements (though some browsers may apply a slightly different rendering).\n\nWhen using button classes on a tag elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a role=\"button\" to appropriately convey their purpose to assistive technologies such as screen readers.",
+        "description": ".btn 클래스는 button 요소로 사용되도록 설계되어 있습니다. 그러나 이런 클래스를 a 혹은 input 요소로 사용할 수도 있습니다.(브라우저에 따라 약간 다른 렌더링이 적용되는 때도 있습니다)\n\n현재 페이지 내의 새로운 페이지나 섹션에 대한 링크가 아닌, 페이지 내 기능(콘텐츠 접기 등)의 트리거로 사용하는 a> 소에 버튼 클래스를 사용할 경우, 이런 링크에는 role=\"button\" 이라는 역할을 주어, 스크린 리더 등의 지원 기술로 적합하게 전달해야 합니다.",
         "code": "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">Link<\/a>\n<button class=\"btn btn-primary\" type=\"submit\">Button<\/button>\n<input class=\"btn btn-primary\" type=\"button\" value=\"Input\">\n<input class=\"btn btn-primary\" type=\"submit\" value=\"Submit\">\n<input class=\"btn btn-primary\" type=\"reset\" value=\"Reset\">",
-        "updated_at": "2024-07-04 01:16:58"
+        "updated_at": "2024-08-06 04:09:34"
     }
 }

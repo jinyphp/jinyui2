@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Via JavaScript ",
-        "description": "Call carousel manually with:",
+        "description": "캐러셀을 수동으로 부르는 경우:",
         "code": "const carousel = new bootstrap.Carousel('#myCarousel')",
-        "updated_at": "2024-07-04 02:57:33"
+        "updated_at": "2024-08-06 05:42:13"
     }
 }

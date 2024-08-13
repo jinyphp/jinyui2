@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Variants",
-        "description": "Bootstrap includes several button variants, each serving its own semantic purpose, with a few extras thrown in for more control.",
+        "description": "Bootstrap에는 각각 고유한 의미적 목적을 가진 여러 가지 버튼 변형이 포함되어 있으며, 더 많은 제어를 위해 몇 가지 추가 기능이 추가되었습니다.",
         "code": "<button type=\"button\" class=\"btn btn-primary\">Primary<\/button>\n<button type=\"button\" class=\"btn btn-secondary\">Secondary<\/button>\n<button type=\"button\" class=\"btn btn-success\">Success<\/button>\n<button type=\"button\" class=\"btn btn-danger\">Danger<\/button>\n<button type=\"button\" class=\"btn btn-warning\">Warning<\/button>\n<button type=\"button\" class=\"btn btn-info\">Info<\/button>\n<button type=\"button\" class=\"btn btn-light\">Light<\/button>\n<button type=\"button\" class=\"btn btn-dark\">Dark<\/button>\n\n<button type=\"button\" class=\"btn btn-link\">Link<\/button>",
-        "updated_at": "2024-07-04 01:13:20"
+        "updated_at": "2024-08-06 04:08:34"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Button toolbar",
-        "description": "Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.",
+        "description": "버튼 그룹의 세트를 버튼 툴바와 결합해, 더욱 복잡한 컴포넌트를 만들 수 있습니다. 필요에 따라서 유틸리티 클래스를 사용해 그룹과 버튼 등에 여백을 줄 수 있습니다.",
         "code": "<div class=\"btn-toolbar\" role=\"toolbar\" aria-label=\"Toolbar with button groups\">\n  <div class=\"btn-group me-2\" role=\"group\" aria-label=\"First group\">\n    <button type=\"button\" class=\"btn btn-primary\">1<\/button>\n    <button type=\"button\" class=\"btn btn-primary\">2<\/button>\n    <button type=\"button\" class=\"btn btn-primary\">3<\/button>\n    <button type=\"button\" class=\"btn btn-primary\">4<\/button>\n  <\/div>\n  <div class=\"btn-group me-2\" role=\"group\" aria-label=\"Second group\">\n    <button type=\"button\" class=\"btn btn-secondary\">5<\/button>\n    <button type=\"button\" class=\"btn btn-secondary\">6<\/button>\n    <button type=\"button\" class=\"btn btn-secondary\">7<\/button>\n  <\/div>\n  <div class=\"btn-group\" role=\"group\" aria-label=\"Third group\">\n    <button type=\"button\" class=\"btn btn-info\">8<\/button>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:38:01"
+        "updated_at": "2024-08-06 04:43:41"
     }
 }

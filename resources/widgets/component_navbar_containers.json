@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Containers ",
-        "description": "Although it’s not required, you can wrap a navbar in a .container to center it on a page–though note that an inner container is still required. Or you can add a container inside the .navbar to only center the contents of a fixed or static top navbar.",
+        "title": "컨테이너 ",
+        "description": "필수는 아니지만, 내비게이션 바를 .container로 감싸 페이지 중앙에 배치할 수도 있지만 내부의 컨테이너가 필요하게 된다는 점을 주의해 주세요. 혹은, .navbar의 내부에 컨테이너를 추가하고 fixed나 static 상태의 상단 내비게이션 바의 내용만을 중앙에 배치할 수도 있습니다.",
         "code": "<div class=\"container\">\n  <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n    <div class=\"container-fluid\">\n      <a class=\"navbar-brand\" href=\"#\">Navbar<\/a>\n    <\/div>\n  <\/nav>\n<\/div>",
-        "updated_at": "2024-07-03 10:35:27"
+        "updated_at": "2024-08-09 13:31:49"
     }
 }

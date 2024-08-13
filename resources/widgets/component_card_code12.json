@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Header and footer",
-        "description": "Add an optional header and\/or footer within a card.",
+        "description": "헤더 및\/또는 푸터를 넣는 카드 옵션이 있습니다.",
         "code": "<div class=\"card\">\n  <div class=\"card-header\">\n    Featured\n  <\/div>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Special title treatment<\/h5>\n    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Go somewhere<\/a>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:47:24"
+        "updated_at": "2024-08-06 04:58:23"
     }
 }

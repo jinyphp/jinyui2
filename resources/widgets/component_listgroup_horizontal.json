@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Horizontal ",
-        "description": "Add .list-group-horizontal to change the layout of list group items from vertical to horizontal across all breakpoints. Alternatively, choose a responsive variant .list-group-horizontal-{sm|md|lg|xl|xxl} to make a list group horizontal starting at that breakpoint’s min-width. Currently horizontal list groups cannot be combined with flush list groups.\n\nProTip: Want equal-width list group items when horizontal? Add .flex-fill to each list group item.",
+        "title": "수평",
+        "description": "목록 그룹의 아이템 레이아웃을 모든 중단점에서 수직에서 수평으로 변경하려면 .list-group-horizontal를 추가합니다. 혹은 반응형 변수 .list-group-horizontal-{sm|md|lg|xl|xxl}를 선택하고 중단점의 min-width로 시작하는 목록 그룹을 수평으로 합니다. 현재 수평 목록 그룹을 flush 목록 그룹과 조합할 수 없습니다.\n\n꿀팁: 목록 그룹의 아이템을 수평 방향의 동일한 너비로 하고 싶을 경우, 목록 그룹의 각 아이템에 .flex-fill을 추가합니다.",
         "code": "<ul class=\"list-group list-group-horizontal\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n<\/ul>\n<ul class=\"list-group list-group-horizontal-sm\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n<\/ul>\n<ul class=\"list-group list-group-horizontal-md\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n<\/ul>\n<ul class=\"list-group list-group-horizontal-lg\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n<\/ul>\n<ul class=\"list-group list-group-horizontal-xl\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n<\/ul>\n<ul class=\"list-group list-group-horizontal-xxl\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 11:02:54"
+        "updated_at": "2024-08-08 13:25:39"
     }
 }

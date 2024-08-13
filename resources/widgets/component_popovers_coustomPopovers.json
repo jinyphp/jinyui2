@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Custom popovers ",
-        "description": "Added in v5.2.0\nYou can customize the appearance of popovers using CSS variables. We set a custom class with data-bs-custom-class=\"custom-popover\" to scope our custom appearance and use it to override some of the local CSS variables.",
+        "title": "사용자 지정 팝오버",
+        "description": "CSS 변수를 사용하여 팝오버의 모양을 사용자 정의할 수 있습니다. data-bs-custom-class=\"custom-popover\"로 사용자 정의 클래스를 설정하여 사용자 정의 모양의 범위를 지정하고 이를 사용하여 일부 로컬 CSS 변수를 재정의합니다.",
         "code": ".custom-popover {\n  --bs-popover-max-width: 200px;\n  --bs-popover-border-color: var(--bd-violet-bg);\n  --bs-popover-header-bg: var(--bd-violet-bg);\n  --bs-popover-header-color: var(--bs-white);\n  --bs-popover-body-padding-x: 1rem;\n  --bs-popover-body-padding-y: .5rem;\n}",
-        "updated_at": "2024-07-02 11:30:06"
+        "updated_at": "2024-08-09 13:48:34"
     }
 }

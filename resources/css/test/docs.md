@@ -1,25 +1,29 @@
 # SCSS 유틸리티
+
 breakpoint와 pseuo-class를 지원하는 css를 작성할 수 있는 class 세트를 제공
 
-
 ## 소개
+
 이 SCSS 유틸리티는 여러 요소에 적용되는 css를 breakpoint와 다양한 pseuo-class 상태를 통해 디자인의 유연성을 추가로 제공한다.
 
 ## 설명
+
 ### Import
+
 <pre>
 <code>
 @import "breakpointtest";
 @import "pseudo";
 </code>
 </pre>
-- breakpointtest : 반응형 breakpoint를 처리하는 데 관련된 믹스인을 포함
-- pseudo : 스타일링에 사용되는 pseudo class를 처리하는 데 관련된 믹스인을 포함
 
+-   breakpointtest : 반응형 breakpoint를 처리하는 데 관련된 믹스인을 포함
+-   pseudo : 스타일링에 사용되는 pseudo class를 처리하는 데 관련된 믹스인을 포함
 
 ### resources/css/test/breakpointtest.scss
+
 <pre>
-<coe>
+<code>
 // 브레이크포인트 변수 정의
 $breakpoints: (
     "sm": 640px,
@@ -37,13 +41,13 @@ $breakpoints: (
     }
 }
 
-</coe>
+</code>
 </pre>
 
-
 ### resources/css/test/pseudo.scss
+
 <pre>
-<coe>
+<code>
 // 스타일링에 사용 가능한 pseudo-class를 정의
 $pseudos: (
     hover : hover,
@@ -60,12 +64,13 @@ $pseudos: (
         }
     }
 }
-</coe>
+</code>
 </pre>
 
 ## 사용예시
 
 ### padding 관련 class명 추가 코드예시
+
 <pre>
   <code>
     // padding.scss
@@ -109,7 +114,8 @@ $paddings: (
   </code>
 </pre>
 
-### 코드 실행 후 결과물 
+### 코드 실행 후 결과물
+
 <pre>
 <code>
   .p-0 {

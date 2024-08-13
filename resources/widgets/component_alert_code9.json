@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Dismissing",
-        "description": "Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:\n\n - Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.\n - Add a close button and the .alert-dismissible class, which adds extra padding to the right of the alert and positions the close button.\n - On the close button, add the data-bs-dismiss=\"alert\" attribute, which triggers the JavaScript functionality. Be sure to use the button element with it for proper behavior across all devices.\n - To animate alerts when dismissing them, be sure to add the .fade and .show classes.\nYou can see this in action with a live demo:",
+        "description": "경고창의 JavaScript 플러그인을 사용하면, 경고창을 인라인으로 닫을 수 있습니다.\n\nJavaScript 플러그인 또는 Bootstrap JavaScript를 가지고 옵니다.\nclose button 에 .alert-dismissible의 클래스를 추가하면 경고창의 오른쪽에 여백이 추가되고, 닫기 버튼의 위치가 결정됩니다.\n닫기 버튼에 data-bs-dismiss=\"alert\" 속성을 추가합니다. 그러면 JavaScript 기능이 트리거 됩니다. 모든 기기에서 올바르게 동작시키려면 반드시 button 요소를 사용해 주세요.\n경고창을 닫을 때 애니메이션을 적용하려면, 반드시 .fade와 .show의 클래스를 추가해 주세요.\n실시간 데모로 확인할 수 있습니다:",
         "code": "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n  <strong>Holy guacamole!<\/strong> You should check in on some of those fields below.\n  <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"><\/button>\n<\/div>",
-        "updated_at": "2024-07-03 05:37:57"
+        "updated_at": "2024-08-06 12:09:39"
     }
 }

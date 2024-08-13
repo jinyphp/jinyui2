@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "List group",
-        "description": "List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.",
-        "updated_at": "2024-07-01 11:43:06"
+        "title": "목록 그룹",
+        "description": "목록 그룹은 일련의 콘텐츠를 보여주기 위한 유연하고 강력한 컴포넌트입니다. 그룹을 변경하거나 확장하여 모든 콘텐츠를 지원합니다.",
+        "updated_at": "2024-08-08 13:23:28"
     }
 }

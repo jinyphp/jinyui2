@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Icons",
-        "description": "Similarly, you can use flexbox utilities and Bootstrap Icons to create alerts with icons. Depending on your icons and content, you may want to add more utilities or custom styles.",
-        "code": "<div class=\"alert alert-primary d-flex align-items-center\" role=\"alert\">\n  <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"bi bi-exclamation-triangle-fill flex-shrink-0 me-2\" viewBox=\"0 0 16 16\" role=\"img\" aria-label=\"Warning:\">\n    <path d=\"M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z\"\/>\n  <\/svg>\n  <div>\n    An example alert with an icon\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-03 05:35:35"
+        "description": "마찬가지로 flexbox 유틸리티와 Bootstrap Icons을 이용하여 경고창을 만들 수 있습니다. 아이콘이나 콘텐츠에 따라서는 유틸리티나 사용자 정의 스타일을 더 추가할 수도 있습니다.",
+        "code": "<div class=\"alert alert-primary d-flex align-items-center\" role=\"alert\">\n  <svg width=\"20px\" height=\"20px\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"bi bi-exclamation-triangle-fill flex-shrink-0 me-2\" viewBox=\"0 0 16 16\" role=\"img\" aria-label=\"Warning:\">\n    <path d=\"M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z\"\/>\n  <\/svg>\n  <div>\n    An example alert with an icon\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-06 03:39:46"
     }
 }

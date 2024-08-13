@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Block buttons",
-        "description": "Create responsive stacks of full-width, “block buttons” like those in Bootstrap 4 with a mix of our display and gap utilities. By using utilities instead of button-specific classes, we have much greater control over spacing, alignment, and responsive behaviors.",
+        "title": "버튼 블록 ",
+        "description": "Display와 gap 유틸리티를 조합해, Bootstrap 4와 같은 전체 너비에 걸친 반응형 “블록 버튼\"을 만듭니다. 버튼 고유의 클래스 대신 유틸리티를 사용하여, 간격, 정렬, 또는 반응형 동작을 훨씬 크게 제어할 수 있습니다.",
         "code": "<div class=\"d-grid gap-2\">\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n  <button class=\"btn btn-primary\" type=\"button\">Button<\/button>\n<\/div>",
-        "updated_at": "2024-07-04 01:21:28"
+        "updated_at": "2024-08-06 04:13:25"
     }
 }

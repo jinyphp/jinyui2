@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "다음 예제에서는 JavaScript를 사용하여 라이브 알림 데모를 트리거합니다:",
+        "code": "const alertPlaceholder = document.getElementById('liveAlertPlaceholder')\nconst appendAlert = (message, type) => {\n  const wrapper = document.createElement('div')\n  wrapper.innerHTML = [\n    `<div class=\"alert alert-${type} alert-dismissible\" role=\"alert\">`,\n    `   <div>${message}<\/div>`,\n    '   <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"><\/button>',\n    '<\/div>'\n  ].join('')\n\n  alertPlaceholder.append(wrapper)\n}\n\nconst alertTrigger = document.getElementById('liveAlertBtn')\nif (alertTrigger) {\n  alertTrigger.addEventListener('click', () => {\n    appendAlert('Nice, you triggered this alert message!', 'success')\n  })\n}",
+        "updated_at": "2024-08-06 03:37:19"
+    }
+}

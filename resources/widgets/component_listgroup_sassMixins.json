@@ -2,6 +2,7 @@
     "items": {
         "title": "Sass mixins ",
         "code": "@mixin list-group-item-variant($state, $background, $color) {\n  .list-group-item-#{$state} {\n    color: $color;\n    background-color: $background;\n\n    &.list-group-item-action {\n      &:hover,\n      &:focus {\n        color: $color;\n        background-color: shade-color($background, 10%);\n      }\n\n      &.active {\n        color: $white;\n        background-color: $color;\n        border-color: $color;\n      }\n    }\n  }\n}",
-        "updated_at": "2024-07-03 11:05:06"
+        "updated_at": "2024-08-08 13:29:00",
+        "description": "v5.3.0부터 지원 중단\n"
     }
 }

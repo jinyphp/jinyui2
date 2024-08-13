@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Sizes",
-        "description": "Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.",
+        "description": "버튼의 크기를 .btn-lg 나 .btn-sm을 적용해 변경할 수 있습니다.",
         "code": "<button type=\"button\" class=\"btn btn-primary btn-lg\">Large button<\/button>\n<button type=\"button\" class=\"btn btn-secondary btn-lg\">Large button<\/button>",
-        "updated_at": "2024-07-04 01:18:18"
+        "updated_at": "2024-08-06 04:10:30"
     }
 }

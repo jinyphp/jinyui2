@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "이벤트",
+        "description": "새로운 탭을 표시하면, 아래의 순서대로 이벤트가 발생합니다:\n\n1. hide.bs.tab (현재 활성 탭)\n2. show.bs.tab (표시되는 탭)\n3. hidden.bs.tab (이전 활성화 탭에서 hide.bs.tab 이벤트 동일)\n4. shown.bs.tab (새로 활성화된 지 얼마 안 된 탭으로 show.bs.tab 이벤트와 동일)\n이미 활성화 된 탭이 없는 경우, hide.bs.tab과 hidden.bs.tab 이벤트는 발생하지 않습니다.",
+        "code": "const tabElms = document.querySelectorAll('a[data-bs-toggle=\"list\"]')\ntabElms.forEach(tabElm => {\n  tabElm.addEventListener('shown.bs.tab', event => {\n    event.target \/\/ newly activated tab\n    event.relatedTarget \/\/ previous active tab\n  })\n})",
+        "updated_at": "2024-08-08 13:37:16"
+    }
+}

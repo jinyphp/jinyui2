@@ -1,7 +1,7 @@
 {
     "items": {
         "title": "Events",
-        "description": "Bootstrap’s alert plugin exposes a few events for hooking into alert functionality.",
-        "updated_at": "2024-07-09 03:13:39"
+        "description": "Bootstrap 경고창 플러그인은, 경고창 기능에 연결하기 위한 몇 가지의 이벤트를 제공합니다.",
+        "updated_at": "2024-08-06 03:51:16"
     }
 }

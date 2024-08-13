@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "When the ride option is set to true, rather than carousel, the carousel won’t automatically start to cycle on page load. Instead, it will only start after the first user interaction.",
+        "description": "carousel러셀’ 대신 ride 옵션을 true로 설정하면 페이지 로드 시 캐러셀이 자동으로 순환하기 시작하지 않습니다. 대신 첫 번째 사용자 상호 작용 후에만 시작됩니다.",
         "code": "<div id=\"carouselExampleRide\" class=\"carousel slide\" data-bs-ride=\"true\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"\/slide1.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide2.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide3.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleRide\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleRide\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
-        "updated_at": "2024-07-09 04:54:07"
+        "updated_at": "2024-08-06 05:39:42"
     }
 }

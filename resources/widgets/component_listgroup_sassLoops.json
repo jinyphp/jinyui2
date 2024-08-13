@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Sass loops ",
-        "description": "Loop that generates the modifier classes with an overriding of CSS variables.",
+        "description": "CSS 변수를 재정의하여 수정자 클래스를 생성하는 루프입니다.",
         "code": "\/\/ List group contextual variants\n\/\/\n\/\/ Add modifier classes to change text and background color on individual items.\n\/\/ Organizationally, this must come after the `:hover` states.\n\n@each $state in map-keys($theme-colors) {\n  .list-group-item-#{$state} {\n    --#{$prefix}list-group-color: var(--#{$prefix}#{$state}-text-emphasis);\n    --#{$prefix}list-group-bg: var(--#{$prefix}#{$state}-bg-subtle);\n    --#{$prefix}list-group-border-color: var(--#{$prefix}#{$state}-border-subtle);\n    --#{$prefix}list-group-action-hover-color: var(--#{$prefix}emphasis-color);\n    --#{$prefix}list-group-action-hover-bg: var(--#{$prefix}#{$state}-border-subtle);\n    --#{$prefix}list-group-action-active-color: var(--#{$prefix}emphasis-color);\n    --#{$prefix}list-group-action-active-bg: var(--#{$prefix}#{$state}-border-subtle);\n    --#{$prefix}list-group-active-color: var(--#{$prefix}#{$state}-bg-subtle);\n    --#{$prefix}list-group-active-bg: var(--#{$prefix}#{$state}-text-emphasis);\n    --#{$prefix}list-group-active-border-color: var(--#{$prefix}#{$state}-text-emphasis);\n  }\n}",
-        "updated_at": "2024-07-03 11:05:27"
+        "updated_at": "2024-08-08 13:29:12"
     }
 }

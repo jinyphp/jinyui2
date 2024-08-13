@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "How it works ",
-        "description": "Before getting started with Bootstrap’s modal component, be sure to read the following as our menu options have recently changed.\n\nModals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead.\nClicking on the modal “backdrop” will automatically close the modal.\nBootstrap only supports one modal window at a time. Nested modals aren’t supported as we believe them to be poor user experiences.\nModals use position: fixed, which can sometimes be a bit particular about its rendering. Whenever possible, place your modal HTML in a top-level position to avoid potential interference from other elements. You’ll likely run into issues when nesting a .modal within another fixed element.\nOnce again, due to position: fixed, there are some caveats with using modals on mobile devices. See our browser support docs for details.\nDue to how HTML5 defines its semantics, the autofocus HTML attribute has no effect in Bootstrap modals. To achieve the same effect, use some custom JavaScript:",
+        "title": "작동 원리",
+        "description": "모달 컴포넌트의 메뉴 옵션이 최근 변경되었으니 사용하기 전에 아래 내용을 꼭 읽어보시기 바랍니다.\n\n- 모달은 HTML, CSS, 그리고 JavaScript로 빌드됩니다. 모달은 문서 내의 다른 모든 것 위에 배치되어 <body>의 스크롤을 제거하고 모달의 콘텐츠가 스크롤 되도록 합니다.\n- 모달의 “배경” 을 클릭하면 자동으로 모달이 닫힙니다.\n- Bootstrap은 한번에 하나의 모달을 지원합니다. 중첩된 모달은 지원되지 않습니다.\n- 모달은 position: fixed를 사용합니다. 가능한 다른 요소와의 간섭을 피하기 위해, 모달 HTML을 최상단의 위치에 넣어 주세요. 다른 고정 요소안에 .modal을 중첩해 넣으면 문제가 발생할 가능성이 높습니다.\n- 다시 한번 말씀드리지만, position: fixed 때문에 모바일 기기에서 모달을 사용할 때 주의할 사항이 몇가지 있습니다. 자세한 내용은 browser support docs를 참조해 주십시오.\n- HTML5가 시멘틱하게 정의하는 방법 때문에, autofocus HTML 속성은 Bootstrap 모달에 영향을 줄 수 없습니다. 같은 효과를 얻으려면 몇개의 사용자 정의 JavaScript를 사용해 주십시오:",
         "code": "const myModal = document.getElementById('myModal')\nconst myInput = document.getElementById('myInput')\n\nmyModal.addEventListener('shown.bs.modal', () => {\n  myInput.focus()\n})",
-        "updated_at": "2024-07-03 10:46:05"
+        "updated_at": "2024-08-09 12:45:42"
     }
 }

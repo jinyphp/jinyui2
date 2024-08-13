@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Vertical variation",
-        "description": "Make a set of buttons appear vertically stacked rather than horizontally. Split button dropdowns are not supported here.",
+        "title": "수직 변수",
+        "description": "버튼 세트를 수평 방향이 아닌 수직 방향으로 표시합니다. 분할 버튼 드롭다운은 여기에서는 지원되지 않습니다.",
         "code": "<div class=\"btn-group-vertical\" role=\"group\" aria-label=\"Vertical button group\">\n  <button type=\"button\" class=\"btn btn-primary\">Button<\/button>\n  <button type=\"button\" class=\"btn btn-primary\">Button<\/button>\n  <button type=\"button\" class=\"btn btn-primary\">Button<\/button>\n  <button type=\"button\" class=\"btn btn-primary\">Button<\/button>\n<\/div>",
-        "updated_at": "2024-07-04 01:39:24"
+        "updated_at": "2024-08-06 04:44:27"
     }
 }

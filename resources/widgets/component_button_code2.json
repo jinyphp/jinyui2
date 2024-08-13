@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Base class",
-        "description": "Bootstrap has a base .btn class that sets up basic styles such as padding and content alignment. By default, .btn controls have a transparent border and background color, and lack any explicit focus and hover styles.",
+        "title": "기본 클래스",
+        "description": "Bootstrap에는 패딩 및 콘텐츠 정렬과 같은 기본 스타일을 설정하는 기본 .btn 클래스가 있습니다. 기본적으로 .btn 컨트롤에는 투명한 테두리와 배경색이 있으며, 명시적인 포커스 및 호버 스타일이 없습니다.",
         "code": "<button type=\"button\" class=\"btn\">Base class<\/button>",
-        "updated_at": "2024-07-04 01:12:02"
+        "updated_at": "2024-08-06 04:07:45"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Initialize",
-        "description": "Initialize elements as alerts",
+        "description": "요소를 경고로 초기화합니다.",
         "code": "const alertList = document.querySelectorAll('.alert')\nconst alerts = [...alertList].map(element => new bootstrap.Alert(element))",
-        "updated_at": "2024-07-04 00:17:29"
+        "updated_at": "2024-08-06 03:48:23"
     }
 }

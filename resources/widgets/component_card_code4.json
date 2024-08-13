@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Body",
-        "description": "The building block of a card is the .card-body. Use it whenever you need a padded section within a card.",
+        "description": "카드를 빌드하는 클래스는 .card-body입니다. 카드 내에 여백에 필요할 때 사용합니다.",
         "code": "<div class=\"card\">\n  <div class=\"card-body\">\n    This is some text within a card body.\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:44:23"
+        "updated_at": "2024-08-06 04:52:00"
     }
 }

@@ -3,6 +3,6 @@
         "title": "Variables ",
         "description": "As part of Bootstrap’s evolving CSS variables approach, toasts now use local CSS variables on .toast for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
         "code": "--#{$prefix}toast-zindex: #{$zindex-toast};\n--#{$prefix}toast-padding-x: #{$toast-padding-x};\n--#{$prefix}toast-padding-y: #{$toast-padding-y};\n--#{$prefix}toast-spacing: #{$toast-spacing};\n--#{$prefix}toast-max-width: #{$toast-max-width};\n@include rfs($toast-font-size, --#{$prefix}toast-font-size);\n--#{$prefix}toast-color: #{$toast-color};\n--#{$prefix}toast-bg: #{$toast-background-color};\n--#{$prefix}toast-border-width: #{$toast-border-width};\n--#{$prefix}toast-border-color: #{$toast-border-color};\n--#{$prefix}toast-border-radius: #{$toast-border-radius};\n--#{$prefix}toast-box-shadow: #{$toast-box-shadow};\n--#{$prefix}toast-header-color: #{$toast-header-color};\n--#{$prefix}toast-header-bg: #{$toast-header-background-color};\n--#{$prefix}toast-header-border-color: #{$toast-header-border-color};",
-        "updated_at": "2024-07-02 09:57:18"
+        "updated_at": "2024-08-01 10:25:15"
     }
 }

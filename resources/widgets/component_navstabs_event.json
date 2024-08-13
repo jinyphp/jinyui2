@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "이벤트 ",
+        "description": "새로운 탭을 표시할 때, 아래의 순서대로 이벤트가 발생합니다.\n\n1. hide.bs.tab (현재의 활성탭)\n2. show.bs.tab (표시되는 탭)\n3. hidden.bs.tab (hide.bs.tab 이벤트와 동일)\n4. shown.bs.tab (show.bs.tab 이벤트와 동일)\n이미 활성화된 탭이 없는 경우, hide.bs.tab 및 hidden.bs.tab 이벤트는 발생하지 않습니다.",
+        "updated_at": "2024-08-08 13:19:05"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Sass variables ",
+        "title": "Sass 변수 ",
         "code": "$placeholder-opacity-max:           .5;\n$placeholder-opacity-min:           .2;",
-        "updated_at": "2024-07-02 11:38:08"
+        "updated_at": "2024-08-08 12:46:32"
     }
 }

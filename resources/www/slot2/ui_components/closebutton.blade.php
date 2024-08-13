@@ -13,4 +13,6 @@
     'filename' => "component_closebutton_code6"])
     @livewire('WidgetOnlyCode', [
     'filename' => "component_closebutton_code7"])
+    @livewire('WidgetNote',[
+    'filename' => "component_closebutton_note"])
 </x-www-layout>

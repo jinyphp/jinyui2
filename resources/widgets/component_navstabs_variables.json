@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Variables ",
-        "description": "As part of Bootstrap’s evolving CSS variables approach, navs now use local CSS variables on .nav, .nav-tabs, and .nav-pills for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.\n\nOn the .nav base class:",
+        "title": "변수",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일환으로 이제 탐색은 .nav, .nav-tabs 및 .nav-pills에서 로컬 CSS 변수를 사용하여 향상된 실시간 사용자 정의 기능을 제공합니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.\n\n.nav` 기본 클래스:",
         "code": "--#{$prefix}nav-link-padding-x: #{$nav-link-padding-x};\n--#{$prefix}nav-link-padding-y: #{$nav-link-padding-y};\n@include rfs($nav-link-font-size, --#{$prefix}nav-link-font-size);\n--#{$prefix}nav-link-font-weight: #{$nav-link-font-weight};\n--#{$prefix}nav-link-color: #{$nav-link-color};\n--#{$prefix}nav-link-hover-color: #{$nav-link-hover-color};\n--#{$prefix}nav-link-disabled-color: #{$nav-link-disabled-color};",
-        "updated_at": "2024-07-03 10:26:38"
+        "updated_at": "2024-08-08 13:06:56"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "or on a button outside the alert using the additional data-bs-target as demonstrated below:",
+        "description": "또는 아래와 같이 data-bs-target을 사용하여 alert 외부의 버튼에서도 수행할 수 있습니다:",
         "code": "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" data-bs-target=\"#my-alert\" aria-label=\"Close\"><\/button>",
-        "updated_at": "2024-07-09 03:09:45"
+        "updated_at": "2024-08-06 03:48:42"
     }
 }

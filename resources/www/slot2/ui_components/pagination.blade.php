@@ -26,7 +26,9 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_pagination_alignment2"
 ])
-<h2>CSS</h2>
+<x-www-preview>
+    <h2 class="text-4xl font-bold">CSS</h2>
+</x-www-preview>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_pagination_variables"
 ])

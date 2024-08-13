@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Dismiss on next click ",
-        "description": "Use the focus trigger to dismiss popovers on the user’s next click of an element other than the toggle element.",
+        "title": "다음 클릭으로 닫기",
+        "description": "사용자가 다음 토글 요소 이외의 요소를 클릭했을 때 팝오버를 닫으려면 focus 트리거를 사용합니다.",
         "code": "<a tabindex=\"0\" class=\"btn btn-lg btn-danger\" role=\"button\" data-bs-toggle=\"popover\" data-bs-trigger=\"focus\" data-bs-title=\"Dismissible popover\" data-bs-content=\"And here's some amazing content. It's very engaging. Right?\">Dismissible popover<\/a>",
-        "updated_at": "2024-07-02 11:31:11"
+        "updated_at": "2024-08-09 13:48:54"
     }
 }

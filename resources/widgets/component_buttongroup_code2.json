@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Basic example",
-        "description": "Wrap a series of buttons with .btn in .btn-group.",
+        "description": ".btn-group으로 .btn 요소를 포장합니다.",
         "code": "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\n  <button type=\"button\" class=\"btn btn-primary\">Left<\/button>\n  <button type=\"button\" class=\"btn btn-primary\">Middle<\/button>\n  <button type=\"button\" class=\"btn btn-primary\">Right<\/button>\n<\/div>",
-        "updated_at": "2024-07-04 01:35:56"
+        "updated_at": "2024-08-06 04:17:53"
     }
 }

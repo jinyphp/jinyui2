@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Individual .carousel-item interval ",
-        "description": "Add data-bs-interval=\"\" to a .carousel-item to change the amount of time to delay between automatically cycling to the next item.",
+        "title": "독립 .carousel-item 지연 시간",
+        "description": "다음 아이템으로 자동으로 바뀔 때까지의 지연 시간을 변경하려면 .carousel-item에 data-bs-interval=\"\"을 추가합니다",
         "code": "<div id=\"carouselExampleInterval\" class=\"carousel slide\" data-bs-ride=\"carousel\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\" data-bs-interval=\"10000\">\n      <img src=\"\/slide1.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\" data-bs-interval=\"2000\">\n      <img src=\"\/slide2.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide3.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleInterval\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleInterval\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
-        "updated_at": "2024-07-09 04:55:13"
+        "updated_at": "2024-08-06 05:39:53"
     }
 }

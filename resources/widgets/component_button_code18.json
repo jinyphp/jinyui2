@@ -1,7 +1,7 @@
 {
     "items": {
         "title": "Button plugin",
-        "description": "The button plugin allows you to create simple on\/off toggle buttons.\nVisually, these toggle buttons are identical to the checkbox toggle buttons. However, they are conveyed differently by assistive technologies: the checkbox toggles will be announced by screen readers as “checked”\/“not checked” (since, despite their appearance, they are fundamentally still checkboxes), whereas these toggle buttons will be announced as “button”\/“button pressed”. The choice between these two approaches will depend on the type of toggle you are creating, and whether or not the toggle will make sense to users when announced as a checkbox or as an actual button.",
-        "updated_at": "2024-07-04 01:23:14"
+        "description": "버튼 플러그인에서는, 간단한 on\/off 토글 버튼을 생성할 수 있습니다.",
+        "updated_at": "2024-08-06 04:14:12"
     }
 }

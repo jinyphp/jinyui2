@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Custom tooltips",
-        "description": "You can customize the appearance of tooltips using CSS variables. We set a custom class with data-bs-custom-class=\"custom-tooltip\" to scope our custom appearance and use it to override a local CSS variable.\n\n",
+        "title": "사용자 지정 도구 설명 ",
+        "description": "CSS 변수를 사용하여 툴팁의 모양을 사용자 지정할 수 있습니다. data-bs-custom-class=\"custom-tooltip\"로 사용자 정의 클래스를 설정하여 사용자 정의 모양의 범위를 지정하고 이를 사용하여 로컬 CSS 변수를 재정의합니다.",
         "code": ".custom-tooltip {\n  --bs-tooltip-bg: var(--bd-violet-bg);\n  --bs-tooltip-color: var(--bs-white);\n}",
-        "updated_at": "2024-07-01 12:13:34"
+        "updated_at": "2024-08-06 05:48:11"
     }
 }

@@ -2,10 +2,18 @@
     @livewire('WidgetTitle', [
     'filename' => "component_navbar_title"
 ])
+    @livewire('WidgetText', [
+    'filename' => "component_navbar_how"
+])
+    @livewire('WidgetNote', [
+    'filename' => "component_navbar_how_note"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_supportedContent"
 ])
-<div>brand</div>
+    @livewire('WidgetText', [
+    'filename' => "component_navbar_brand"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_text"
 ])
@@ -69,7 +77,9 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_scrolling"
 ])
-<div>Responsive behaviors</div>
+    @livewire('WidgetText', [
+    'filename' => "component_navbar_response_beha"
+])
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_toggler"
 ])
@@ -79,9 +89,11 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_toggler3"
 ])
-
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_externalContent"
+])
+    @livewire('WidgetText', [
+    'filename' => "component_navbar_externalContent_text"
 ])
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_offcanvas"
@@ -92,7 +104,9 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_navbar_offcanvas3"
 ])
-<h2>CSS</h2>
+<x-www-preview>
+<h2 class="text-4xl font-bold">CSS</h2>
+</x-www-preview>
     @livewire('WidgetOnlyCode', [
     'filename' => "component_navbar_variables"
 ])
