@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Using logical properties",
+        "description": "논리적 속성을 사용하여 텍스트 방향에 따라 왼쪽이나 오른쪽에 매핑하는 float-start 또는 float-end 유틸리티를 사용합니다.",
+        "code": "<div class=\"w-64\">\n<img class=\"float-start w-32\" src=\".\/..\/..\/assets\/jinyPHP.jpeg\">\n<p>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again. This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on, Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.<\/p>\n<\/div>",
+        "updated_at": "2024-08-06 11:23:44"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Auto",
+        "description": "배경 이미지를 기본 크기로 표시하려면 bg-auto를 사용하십시오.\n",
+        "code": "<div class=\"bg-auto bg-no-repeat bg-center ...\" style=\"background-image: url(...)\"><\/div>\n",
+        "updated_at": "2024-08-13 05:18:11"
+    }
+}

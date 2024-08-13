@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the outline offset",
+        "description": "요소 외곽선의 오프셋을 변경하려면 개요-* 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"outline outline-offset-0 w-10\">Button A<\/div>\n<div class=\"outline outline-offset-2 w-10\">Button B<\/div>\n<div class=\"outline outline-offset-4 w-10\">Button C<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 06:28:08"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<div class=\"md:container md:mx-auto bg-red-300\">\nHello, JinyPHP\n<\/div>",
+        "title": "Applying conditionally",
+        "description": "컨테이너 클래스에는 기본적으로 md:container와 같은 반응형 변형이 포함되어 있어 특정 중단점 이상에서만 무언가가 컨테이너처럼 동작하도록 할 수 있습니다.",
+        "updated_at": "2024-08-06 09:54:10"
+    }
+}

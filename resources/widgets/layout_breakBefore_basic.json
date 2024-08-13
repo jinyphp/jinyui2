@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage",
+        "description": "break-before-* 유틸리티를 사용하여 요소 이전에 열 또는 페이지 나누기가 작동하는 방식을 제어합니다. 예를 들어, 요소 앞에서 열을 강제로 나누려면 break-before-column 유틸리티를 사용하십시오.",
+        "code": "<div class=\"columns-2\">\n  <p>Well, let me tell you something, ...<\/p>\n  <p class=\"break-before-column\">Sure, go ahead, laugh...<\/p>\n  <p>Maybe we can live without...<\/p>\n  <p>Look. If you think this is...<\/p>\n<\/div>",
+        "updated_at": "2024-08-06 10:25:27"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add padding to all sides",
+        "description": "요소의 모든 측면에서 패딩을 제어하려면 p-* 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"p-8 w-32 bg-red-300\">p-8<\/div>",
+        "updated_at": "2024-08-12 08:25:38"
+    }
+}

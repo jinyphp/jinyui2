@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Using logical properties",
+        "description": "rounded-s-*, rounded-e-*, rounded-ss-*, rounded-se-*, rounded-es-* 및 rounded-ee-* 유틸리티를 사용하여 매핑하는 논리적 속성을 사용하여 테두리 반경을 설정합니다. 텍스트 방향에 따라 적절한 모서리로 이동합니다.\n",
+        "code": "<div dir=\"ltr\">\n  <div class=\"rounded-s-lg size-10 bg-red-300\"><\/div>\n<div>\n\n<div dir=\"rtl\">\n  <div class=\"rounded-s-lg size-10 bg-red-300\"><\/div>\n<div>",
+        "updated_at": "2024-08-13 05:36:40"
+    }
+}

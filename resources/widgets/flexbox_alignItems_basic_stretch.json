@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Stretch",
+        "description": "컨테이너의 교차축을 채우기 위해 항목을 늘이려면 items-stretch를 사용하십시오.\n",
+        "code": "<div class=\"flex items-stretch ...\">\n  <div class=\"py-4 w-10\">01<\/div>\n  <div class=\"py-12 w-10\">02<\/div>\n  <div class=\"py-8 w-10\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:33:23"
+    }
+}

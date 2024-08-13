@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Rounding corners separately",
+        "description": "rounded-tl-*, rounded-tr-*, rounded-br-* 및 rounded-bl-* 유틸리티를 사용하여 요소의 한쪽 모서리만 둥글게 만듭니다.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"rounded-tl-lg bg-red-300 size-10\"><\/div>\n<div class=\"rounded-tr-lg bg-red-300 size-10\"><\/div>\n<div class=\"rounded-br-lg bg-red-300 size-10\"><\/div>\n<div class=\"rounded-bl-lg bg-red-300 size-10\"><\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:36:09"
+    }
+}

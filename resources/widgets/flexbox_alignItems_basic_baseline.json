@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "items-baseline을 사용하여 모든 기준선이 정렬되도록 컨테이너의 교차축을 따라 항목을 정렬합니다.\n",
+        "title": "Baseline",
+        "code": "<div class=\"flex items-baseline ...\">\n  <div class=\"pt-2 pb-6\">01<\/div>\n  <div class=\"pt-8 pb-12\">02<\/div>\n  <div class=\"pt-12 pb-4\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:35:01"
+    }
+}

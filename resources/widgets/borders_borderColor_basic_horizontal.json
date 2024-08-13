@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Horizontal and vertical sides",
+        "description": "border-x-* 및 border-y-* 유틸리티를 사용하여 요소 양면의 테두리 색상을 동시에 설정하세요.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"border-4 border-indigo-200 border-x-indigo-500 size-10\"><\/div>\n<div class=\"border-4 border-indigo-200 border-y-indigo-500 size-10\"><\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:47:52"
+    }
+}

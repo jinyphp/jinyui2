@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Wrap",
+        "description": "텍스트 줄바꿈을 사용하여 넘친 텍스트를 텍스트의 논리적 지점에서 여러 줄로 줄 바꿈합니다.\n",
+        "code": "<article class=\"text-wrap w-40\">\n  <h3>Beloved Manhattan soup stand closes<\/h3>\n  <p>New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.<\/p>\n<\/article>",
+        "updated_at": "2024-08-12 17:54:50"
+    }
+}

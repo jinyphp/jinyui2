@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "End",
+        "description": "블록 축 끝에 항목을 묶으려면 place-content-end를 사용하십시오.\n",
+        "code": "<div class=\"grid grid-cols-2 gap-4 place-content-end h-48 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:11:02"
+    }
+}

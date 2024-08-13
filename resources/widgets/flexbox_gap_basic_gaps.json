@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Setting the gap between elements",
+        "description": "gap-* 유틸리티를 사용하여 그리드 및 Flexbox 레이아웃에서 행과 열 사이의 간격을 변경합니다.",
+        "code": "<div class=\"grid gap-4 grid-cols-2\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:00:53"
+    }
+}

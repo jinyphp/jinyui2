@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add borders between horizontal children",
+        "description": "Divide-x-* 유틸리티를 사용하여 수평 요소 사이에 테두리를 추가합니다.",
+        "code": "<div class=\"grid grid-cols-3 divide-x w-32\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:54:51"
+    }
+}

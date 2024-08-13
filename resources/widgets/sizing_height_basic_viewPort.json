@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Viewport height",
+        "description": "요소가 뷰포트의 전체 높이에 걸쳐 있도록 하려면 h-스크린을 사용하세요.\n",
+        "code": "<div class=\"h-screen bg-blue-300\">\n h-screen\n<\/div>",
+        "updated_at": "2024-08-12 08:54:25"
+    }
+}

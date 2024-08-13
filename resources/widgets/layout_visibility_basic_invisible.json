@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Making elements invisible",
+        "description": "invisible 유틸리티를 사용하여 요소를 숨기지만 DOM에서의 위치는 계속 유지하여 다른 요소의 레이아웃에 영향을 줍니다(표시 문서에서 숨김과 비교).\n",
+        "code": "<div class=\"grid grid-cols-3 gap-4\">\n  <div>01<\/div>\n  <div class=\"invisible ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 13:33:26"
+    }
+}

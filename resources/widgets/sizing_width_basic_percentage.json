@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Percentage widths",
+        "code": "<div class=\"flex ...\">\n  <div class=\"w-1\/2 bg-red-300\">w-1\/2<\/div>\n  <div class=\"w-1\/2 bg-blue-300 \">w-1\/2<\/div>\n<\/div>\n<div class=\"flex ...\">\n  <div class=\"w-2\/5 bg-red-300\">w-2\/5<\/div>\n  <div class=\"w-3\/5 bg-blue-300\">w-3\/5<\/div>\n<\/div>\n<div class=\"flex ...\">\n  <div class=\"w-1\/3 bg-red-300\">w-1\/3<\/div>\n  <div class=\"w-2\/3 bg-blue-300\">w-2\/3<\/div>\n<\/div>\n<div class=\"flex ...\">\n  <div class=\"w-1\/4 bg-red-300\">w-1\/4<\/div>\n  <div class=\"w-3\/4 bg-blue-300\">w-3\/4<\/div>\n<\/div>\n<div class=\"flex ...\">\n  <div class=\"w-1\/5 bg-red-300\">w-1\/5<\/div>\n  <div class=\"w-4\/5 bg-blue-300\">w-4\/5<\/div>\n<\/div>\n<div class=\"flex ...\">\n  <div class=\"w-1\/6 bg-red-300\">w-1\/6<\/div>\n  <div class=\"w-5\/6 bg-blue-300\">w-5\/6<\/div>\n<\/div>\n<div class=\"w-full bg-red-300\">w-full<\/div>",
+        "description": "w-full, w-1\/2 및 w-2\/5와 같은 유틸리티를 사용하여 요소를 백분율 기반 너비로 설정합니다.\n",
+        "updated_at": "2024-08-12 08:44:00"
+    }
+}

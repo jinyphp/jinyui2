@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Rounded corners",
+        "description": "rounded-sm, rounded 또는 rounded-lg와 같은 유틸리티를 사용하여 요소에 다양한 테두리 반경 크기를 적용합니다.\n",
+        "code": "<div class='flex gap-4'>\n<div class=\"rounded bg-violet-300 size-10\">A<\/div>\n<div class=\"rounded-md bg-violet-300 w-10\">B<\/div>\n<div class=\"rounded-lg bg-violet-300 w-10\">C<\/div>\n<div class=\"rounded-full bg-violet-300 w-10\">D<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:32:44"
+    }
+}

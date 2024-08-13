@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "\n<h2>font-sans<\/h2>\n<p class=\"font-sans mb-6\">The quick brown fox jumps over the lazy dog.<\/p>\n\n<h2>font-serif<\/h2>\n<p class=\"font-serif mb-6\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>font-mono<\/h2>\n<p class=\"font-mono mb-6\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "title": "Setting the font family",
+        "description": "글꼴 모음 유틸리티를 사용하여 텍스트의 서체를 제어할 수 있습니다.\n",
+        "updated_at": "2024-08-12 10:23:41"
+    }
+}

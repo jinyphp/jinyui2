@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Sizing large elements",
+        "description": "24rem 이상에서는 max-w-* 유틸리티는 숫자 척도 대신 명명된 척도를 사용하여 값을 더 쉽게 추측할 수 있도록 합니다.\n",
+        "code": "<div class=\"max-w-md ...\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-12 08:50:02"
+    }
+}

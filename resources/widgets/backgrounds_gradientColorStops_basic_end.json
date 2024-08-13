@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Ending color",
+        "code": "<div class=\"bg-gradient-to-r from-cyan-500 to-blue-500 w-full text-black\">hello, jinyPHP<\/div>\n",
+        "description": "to-* 유틸리티를 사용하여 그라디언트의 끝 색상을 설정합니다.\n",
+        "updated_at": "2024-08-13 05:25:35"
+    }
+}

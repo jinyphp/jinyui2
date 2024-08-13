@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage ​- Block & Inline",
+        "description": "inline, inline-block 및 block 유틸리티를 사용하여 텍스트와 요소의 흐름을 제어합니다.\n",
+        "code": "<div class='w-60 bg-gray-300'>\n  When controlling the flow of text, using the CSS property\n  <span class=\"inline bg-blue-300\">display: inline<\/span>\n  will cause the text inside the element to wrap normally.\n\n  While using the property <span class=\"inline-block bg-blue-300\">display: inline-block<\/span>\n  will wrap the element to prevent the text inside from extending beyond its parent.\n\n  Lastly, using the property <span class=\"block bg-blue-300\">display: block<\/span>\n  will put the element on its own line and fill its parent.\n<\/div>",
+        "updated_at": "2024-08-06 10:51:16"
+    }
+}

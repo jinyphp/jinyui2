@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the divide color",
+        "description": "Divide-* 유틸리티를 사용하여 요소 사이의 테두리 색상을 제어합니다.\n",
+        "code": "<div class=\"divide-y divide-blue-200\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:57:56"
+    }
+}

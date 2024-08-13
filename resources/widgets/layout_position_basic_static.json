@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Statically positioning elements",
+        "description": "문서의 일반적인 흐름에 따라 요소를 배치하려면 static 유틸리티를 사용하세요. 모든 오프셋은 무시되며 요소는 절대 위치에 있는 하위 요소에 대한 위치 참조 역할을 하지 않습니다.",
+        "code": "<div class=\"static bg-purple-300 h-20\">\n  <p>Static parent<\/p>\n  <div class=\"absolute bottom-0 left-0 bg-purple-600\">\n    <p>Absolute child<\/p>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 11:21:43"
+    }
+}

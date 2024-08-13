@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Starting and ending lines",
+        "description": "요소가 n번째 그리드 선에서 시작하거나 끝나도록 하려면 row-start-* 및 row-end-* 유틸리티를 사용합니다. 특정 수의 행을 확장하기 위해 row-span-* 유틸리티와 결합할 수도 있습니다.\nCSS 그리드 라인은 0이 아닌 1에서 시작하므로 3행 그리드의 전체 높이 요소는 라인 1에서 시작하여 라인 4에서 끝납니다.\n",
+        "code": "<div class=\"grid grid-rows-3 grid-flow-col gap-4\">\n  <div class=\"row-start-2 row-span-2 ...\">01<\/div>\n  <div class=\"row-end-3 row-span-2 ...\">02<\/div>\n  <div class=\"row-start-1 row-end-4 ...\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:43:49"
+    }
+}

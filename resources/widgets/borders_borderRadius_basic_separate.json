@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Rounding sides separately",
+        "description": "rounded-t-*, rounded-r-*, rounded-b-* 및 rounded-l-* 유틸리티를 사용하여 요소의 한쪽 면만 둥글게 만듭니다.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"rounded-t-lg bg-violet-300 size-10\">A<\/div>\n<div class=\"rounded-r-lg bg-violet-300 size-10\">B<\/div>\n<div class=\"rounded-b-lg bg-violet-300 size-10\">C<\/div>\n<div class=\"rounded-l-lg bg-violet-300 size-10\">D<\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:34:59"
+    }
+}

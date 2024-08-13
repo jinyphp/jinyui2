@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Normal",
+        "description": "일반 단어 분리 지점에만 줄바꿈을 추가하려면 break-normal을 사용하세요.\n",
+        "code": "<p class=\"break-normal ...\">The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.<\/p>\n",
+        "updated_at": "2024-08-12 18:08:08"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "줄 바꿈은 유지하지만 요소 내의 공백은 유지하지 않으려면 공백 이전 줄을 사용하세요. 텍스트는 정상적으로 래핑됩니다.\n",
+        "title": "Pre Line",
+        "code": "<div class=\"w-3\/4 ...\">\n  <div class=\"whitespace-pre-line ...\">Hey everyone!\n\nIt's almost 2022       and we still don't know if there       is aliens living among us, or do we? Maybe the person writing this is an alien.\n\nYou will never know.<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 18:05:53"
+    }
+}

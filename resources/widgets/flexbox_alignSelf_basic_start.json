@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "컨테이너의 align-items 값에도 불구하고 자체 시작을 사용하여 컨테이너 교차축의 시작 부분에 항목을 정렬합니다.\n",
+        "title": "Start ",
+        "code": "<div class=\"flex items-stretch ...\">\n  <div>01<\/div>\n  <div class=\"self-start ...\">02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:38:10"
+    }
+}

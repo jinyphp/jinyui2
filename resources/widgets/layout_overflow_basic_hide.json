@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Hiding content that overflows",
+        "description": "해당 요소의 경계를 벗어나는 요소 내 콘텐츠를 자르려면 overflow-hidden 유틸리티를 사용하세요.\n",
+        "code": "<div class=\"overflow-hidden ...\"><\/div>",
+        "updated_at": "2024-08-07 10:58:55"
+    }
+}

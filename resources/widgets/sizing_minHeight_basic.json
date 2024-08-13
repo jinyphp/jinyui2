@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the minimum height",
+        "description": "min-h-* 유틸리티를 사용하여 요소의 최소 높이를 설정합니다.\n",
+        "code": "<div class=\"h-96 flex ...\">\n  <div class=\"min-h-80 ...\">min-h-80<\/div>\n  <div class=\"min-h-64 ...\">min-h-64<\/div>\n  <div class=\"min-h-48 ...\">min-h-48<\/div>\n  <div class=\"min-h-40 ...\">min-h-40<\/div>\n  <div class=\"min-h-32 ...\">min-h-32<\/div>\n  <div class=\"min-h-24 ...\">min-h-24<\/div>\n  <div class=\"min-h-full ...\">min-h-full<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 09:57:21"
+    }
+}

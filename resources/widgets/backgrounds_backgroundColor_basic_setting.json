@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the background color",
+        "description": "bg-white, bg-indigo-500 및 bg-transparent와 같은 유틸리티를 사용하여 요소의 배경색을 제어합니다.\n",
+        "code": "<button class=\"bg-indigo-500 p-4 text-white\">\n  Save changes\n<\/button>",
+        "updated_at": "2024-08-13 05:04:20"
+    }
+}

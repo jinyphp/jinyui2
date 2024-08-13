@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "색상 불투명도 수정자를 사용하여 요소 외곽선 색상의 불투명도를 제어합니다.\n",
+        "title": "Changing the opacity",
+        "code": "<div class=\"outline-2 outline-blue-500\/50 ...\">Save Changes<\/div>",
+        "updated_at": "2024-08-13 06:15:24"
+    }
+}

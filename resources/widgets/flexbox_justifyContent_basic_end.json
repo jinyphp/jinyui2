@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - End",
+        "description": "컨테이너의 주축 끝에 항목을 정렬하려면 justify-end를 사용하세요.\n",
+        "code": "<div class=\"flex justify-end ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:05:26"
+    }
+}

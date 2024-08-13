@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "justify-content 값이 설정되지 않은 것처럼 justify-normal을 사용하여 기본 위치에 콘텐츠 항목을 압축합니다.\n",
+        "title": "Basic usage - Normal",
+        "code": "<div class=\"flex justify-normal ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:06:56"
+    }
+}

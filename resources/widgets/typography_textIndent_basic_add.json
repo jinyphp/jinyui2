@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Adding a text indent",
+        "description": "indent-* 유틸리티를 사용하여 블록의 텍스트 앞에 표시되는 빈 공간(들여쓰기)의 양을 설정합니다.\n",
+        "code": "<p class=\"indent-8\">\n  So I started to walk into the water. I won't lie to you boys, I was\n  terrified. But I pressed on, and as I made my way past the breakers\n  a strange calm came over me. I don't know if it was divine intervention\n  or the kinship of all living things but I tell you Jerry at that moment,\n  I <em>was<\/em> a marine biologist.\n<\/p>",
+        "updated_at": "2024-08-12 17:58:20"
+    }
+}

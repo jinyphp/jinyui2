@@ -11,14 +11,14 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <!-- Bootstrap icons-->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" /> -->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <!-- @vite('resources/css/app.scss') -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    @vite('resources/css/app.scss')
     @vite('resources/css/test/main.scss')
 
-    <!-- @vite('resources/css2/scss/app-saas.scss') -->
-    <!-- <link href="/assets/css/docs.css?1" rel="stylesheet" />
-    <link href="/assets/css/highlight.css?a1" rel="stylesheet" /> -->
+    @vite('resources/css2/scss/app-saas.scss')
+    <link href="/assets/css/docs.css?1" rel="stylesheet" />
+    <link href="/assets/css/highlight.css?a1" rel="stylesheet" />
 
     <style>
     .feature {

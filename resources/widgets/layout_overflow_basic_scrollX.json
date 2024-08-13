@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Scrolling horizontally if needed",
+        "description": "필요한 경우 수평 스크롤을 허용하려면 Overflow-x-auto 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"overflow-x-auto ...\"><\/div>\n",
+        "updated_at": "2024-08-07 10:59:39"
+    }
+}

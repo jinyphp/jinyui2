@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<div class=\"flex flex-wrap w-16 bg-gray-300 hover:flex-wrap-reverse\">\n  <div class=\"w-6 bg-green-300\">01<\/div>\n  <div class=\"w-6 bg-blue-300\">02<\/div>\n  <div class=\"w-6 bg-red-300\">03<\/div>\n<\/div>",
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:flex-wrap-reverse를 사용하면 마우스 오버 시에만 flex-wrap-reverse 유틸리티를 적용할 수 있습니다.\n",
+        "updated_at": "2024-08-07 13:58:43"
+    }
+}

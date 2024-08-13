@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the text decoration style",
+        "description": "장식-* 유틸리티를 사용하여 요소의 텍스트 장식 스타일을 변경합니다.\n",
+        "code": "<p class=\"underline decoration-solid ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline decoration-double ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline decoration-dotted ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline decoration-dashed ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline decoration-wavy ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 17:40:44"
+    }
+}

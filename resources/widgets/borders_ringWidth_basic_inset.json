@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Inset rings",
+        "description": "링 삽입 유틸리티를 사용하여 링을 요소 외부가 아닌 내부에 렌더링하도록 합니다. 이는 링의 일부가 보이지 않는 화면 가장자리의 요소에 유용할 수 있습니다.\n",
+        "code": "<button class=\"... ring-2 ring-pink-300 ring-inset\">\n  Save Changes\n<\/button>",
+        "updated_at": "2024-08-13 06:36:22"
+    }
+}

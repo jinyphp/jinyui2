@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Grid",
+        "description": "그리드 유틸리티를 사용하여 그리드 컨테이너를 만듭니다.",
+        "code": "<div class=\"grid gap-4 grid-cols-3 grid-rows-3\">\n  <div class='bg-red-200 text-center'>1<\/div>\n  <div class='bg-blue-200 text-center'>2<\/div>\n  <div class='bg-green-200 text-center'>3<\/div>\n  <div class='bg-yellow-200 text-center'>4<\/div>\n  <div class='bg-pink-200 text-center'>5<\/div> \n  <div class='bg-orange-200 text-center'>6<\/div>\n  <div class='bg-gray-200 text-center'>7<\/div>\n  <div class='bg-lime-200 text-center'>8<\/div>\n  <div class='bg-teal-200 text-center'>9<\/div>\n<\/div>",
+        "updated_at": "2024-08-06 11:02:16"
+    }
+}

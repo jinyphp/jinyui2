@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the flex basis",
+        "description": "플렉스 항목의 초기 크기를 설정하려면 Basis-* 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"flex flex-row\">\n  <div class=\"basis-1\/4 bg-yellow-300\">01<\/div>\n  <div class=\"basis-1\/4 bg-green-300\">02<\/div>\n  <div class=\"basis-1\/2 bg-blue-300\">03<\/div>\n<\/div>\n",
+        "updated_at": "2024-08-07 13:42:34"
+    }
+}

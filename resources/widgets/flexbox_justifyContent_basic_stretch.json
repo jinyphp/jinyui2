@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Stretch",
+        "description": "콘텐츠 항목이 컨테이너의 기본 축을 따라 사용 가능한 공간을 채울 수 있도록 하려면 justify-stretch를 사용하세요.\n",
+        "code": "<div class=\"grid grid-flow-col justify-stretch ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:06:40"
+    }
+}

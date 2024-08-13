@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "underline-offset-* 유틸리티를 사용하여 텍스트 밑줄의 오프셋을 변경합니다.\n",
+        "title": "Setting the underline offset",
+        "code": "<p class=\"underline underline-offset-1 ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline underline-offset-2 ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline underline-offset-4 ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"underline underline-offset-8 ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 17:45:17"
+    }
+}

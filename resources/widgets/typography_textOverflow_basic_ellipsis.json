@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Ellipsis",
+        "description": "필요한 경우 텍스트 줄임표를 사용하여 넘친 텍스트를 줄임표(...)로 자릅니다.\n",
+        "code": "<p class=\"text-ellipsis overflow-hidden w-32 ...\">The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.<\/p>\n",
+        "updated_at": "2024-08-12 17:52:01"
+    }
+}

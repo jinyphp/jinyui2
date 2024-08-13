@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어, focus:overscroll-contain을 사용하면 포커스에만 overscroll-contain 유틸리티를 적용할 수 있습니다.\n",
+        "code": "<html class=\"overscroll-auto focus:overscroll-contain\">\n  <!-- ... -->\n<\/html>",
+        "updated_at": "2024-08-07 11:16:30"
+    }
+}

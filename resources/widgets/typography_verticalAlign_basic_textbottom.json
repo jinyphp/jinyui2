@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Text Bottom",
+        "description": "align-text-bottom을 사용하여 요소의 하단을 상위 요소 글꼴의 하단과 정렬합니다.\n",
+        "code": "<span class=\"inline-block align-text-bottom ...\">The quick brown fox jumps over the lazy dog.<\/span>\n",
+        "updated_at": "2024-08-12 18:02:55"
+    }
+}

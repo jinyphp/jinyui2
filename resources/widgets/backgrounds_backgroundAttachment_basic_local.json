@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Local",
+        "description": "컨테이너 및 뷰포트로 배경 이미지를 스크롤하려면 bg-local을 사용하십시오.\n",
+        "code": "<div class=\"bg-local ...\" style=\"background-image: url(.\/..\/..\/assets\/jinyerp.svg)\"><\/div>\n",
+        "updated_at": "2024-08-12 18:30:36"
+    }
+}

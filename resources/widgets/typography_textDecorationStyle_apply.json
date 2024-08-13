@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어, 마우스를 올리면 장식 대시 유틸리티만 적용하려면 hover:장식-대시를 사용하세요.\n",
+        "code": "<p class=\"underline hover:decoration-dashed\">\nThe quick brown fox jumps over the lazy dog.\n<\/p>",
+        "updated_at": "2024-08-12 17:41:08"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the border color",
+        "description": "border-* 유틸리티를 사용하여 요소의 테두리 색상을 제어하세요.\n",
+        "code": "<input class=\"border-2 border-rose-600 ...\">\n",
+        "updated_at": "2024-08-13 05:45:39"
+    }
+}

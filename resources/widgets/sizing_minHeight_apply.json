@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:min-h-full to only apply the min-h-full utility on hover.",
+        "code": "<div class=\"h-24 min-h-0 hover:min-h-full\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-12 09:57:36"
+    }
+}
