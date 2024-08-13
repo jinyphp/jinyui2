@@ -1,0 +1,6 @@
+{
+    "items": {
+        "description": ".btn 클래스를 단독으로 사용하는 경우 최소한 명시적인 :focus 및\/또는 :focus-visible 스타일을 정의하는 것을 잊지 마세요.",
+        "updated_at": "2024-08-13 05:24:13"
+    }
+}

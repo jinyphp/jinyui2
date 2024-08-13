@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Multiple toggles and targets",
-        "description": "A button tag or <a> element can show and hide multiple elements by referencing them with a selector in its data-bs-target or href attribute. Conversely, multiple button tag or <a> elements can show and hide the same element if they each reference it with their data-bs-target or href attribute.",
+        "title": "다중 항목 및 목표",
+        "description": "button 이나 a는 그 href 나 data-bs-target 속성의 셀렉터로 여러 요소를 참조하는 것으로 여러 개의 요소를 표시하거나 숨길 수 있습니다. 여러 개의 button 이나 a는 각각의 href 나 data-bs-target 속성으로 요소를 참조하고 있는 경우, 어느 요소를 표시하거나 숨길 수 있습니다.",
         "code": "<p class=\"d-inline-flex gap-1\">\n  <a class=\"btn btn-primary\" data-bs-toggle=\"collapse\" href=\"#multiCollapseExample1\" role=\"button\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample1\">Toggle first element<\/a>\n  <button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#multiCollapseExample2\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample2\">Toggle second element<\/button>\n  <button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\".multi-collapse\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample1 multiCollapseExample2\">Toggle both elements<\/button>\n<\/p>\n<div class=\"row\">\n  <div class=\"col\">\n    <div class=\"collapse multi-collapse\" id=\"multiCollapseExample1\">\n      <div class=\"card card-body\">\n        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.\n      <\/div>\n    <\/div>\n  <\/div>\n  <div class=\"col\">\n    <div class=\"collapse multi-collapse\" id=\"multiCollapseExample2\">\n      <div class=\"card card-body\">\n        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 03:05:43"
+        "updated_at": "2024-08-13 05:41:29"
     }
 }

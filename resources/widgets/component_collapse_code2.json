@@ -1,7 +1,7 @@
 {
     "items": {
         "title": "How it works",
-        "description": "The collapse JavaScript plugin is used to show and hide content. Buttons or anchors are used as triggers that are mapped to specific elements you toggle. Collapsing an element will animate the height from its current value to 0. Given how CSS handles animations, you cannot use padding on a .collapse element. Instead, use the class as an independent wrapping element.",
-        "updated_at": "2024-07-04 03:03:52"
+        "description": "Collapse(콜랩스) JavaScript 플러그인은, 콘텐츠의 표시와 숨김에 사용됩니다. 버튼과 앵커는, 토글 하는 특정 요소에 매핑된 트리거로 사용됩니다. 요소를 접으면 height가 기존 값에서 0으로 애니메이션화 됩니다. CSS 가 애니메이션화를 어떻게 다룰지 고려하면, .collapse 요소에 padding을 사용할 수 없습니다. 대신, 이 클래스를 독립된 줄바꿈 요소로 사용합니다.",
+        "updated_at": "2024-08-13 05:36:26"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Variables",
-        "description": "As part of Bootstrap’s evolving CSS variables approach, close button now uses local CSS variables on .btn-close for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일환으로, 이제 닫기 버튼은 .btn-close의 로컬 CSS 변수를 사용하여 실시간 사용자 정의 기능을 강화합니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.",
         "code": "--#{$prefix}btn-close-color: #{$btn-close-color};\n--#{$prefix}btn-close-bg: #{ escape-svg($btn-close-bg) };\n--#{$prefix}btn-close-opacity: #{$btn-close-opacity};\n--#{$prefix}btn-close-hover-opacity: #{$btn-close-hover-opacity};\n--#{$prefix}btn-close-focus-shadow: #{$btn-close-focus-shadow};\n--#{$prefix}btn-close-focus-opacity: #{$btn-close-focus-opacity};\n--#{$prefix}btn-close-disabled-opacity: #{$btn-close-disabled-opacity};\n--#{$prefix}btn-close-white-filter: #{$btn-close-white-filter};",
-        "updated_at": "2024-07-04 03:02:25"
+        "updated_at": "2024-08-13 05:34:17"
     }
 }
