@@ -4,7 +4,7 @@
     </li>
 
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">
-        <a class="nav-link" href="utility">Utility</a>
+        <a class="nav-link" href="/ui_components/accordion">Utility</a>
     </li>
 
 
