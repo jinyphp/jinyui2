@@ -1,0 +1,6 @@
+{
+    "items": {
+        "description": "For the sole purpose of dismissing an alert, it isn’t necessary to initialize the component manually via the JS API. By making use of data-bs-dismiss=\"alert\", the component will be initialized automatically and properly dismissed. See the triggers section for more details.",
+        "updated_at": "2024-08-13 05:05:10"
+    }
+}

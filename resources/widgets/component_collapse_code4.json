@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Horizontal",
-        "description": "The collapse plugin supports horizontal collapsing. Add the .collapse-horizontal modifier class to transition the width instead of height and set a width on the immediate child element. Feel free to write your own custom Sass, use inline styles, or use our width utilities.",
+        "title": "콜랩스",
+        "description": "콜랩스 플러그인은 수평 콜랩스도 지원합니다. .collapse-horizontal 수정자 클래스를 추가하여 height 대신 width를 트랜지션하고 직계 자식 요소에 width를 설정하세요. 자유롭게 사용자 정의 Sass를 작성하거나 인라인 스타일을 사용하거나 너비 유틸리티를 사용할 수 있습니다.",
         "code": "<p>\n  <button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseWidthExample\" aria-expanded=\"false\" aria-controls=\"collapseWidthExample\">\n    Toggle width collapse\n  <\/button>\n<\/p>\n<div style=\"min-height: 120px;\">\n  <div class=\"collapse collapse-horizontal\" id=\"collapseWidthExample\">\n    <div class=\"card card-body\" style=\"width: 300px;\">\n      This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.\n    <\/div>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 03:05:17"
+        "updated_at": "2024-08-13 05:39:58"
     }
 }
