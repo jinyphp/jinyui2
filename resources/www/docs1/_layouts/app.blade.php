@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light" data-pwa="true">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
     <title>Cartzilla Docs | Installation</title>
 
     <!-- Theme switcher (color modes) -->
     <script src="/assets/js/theme-switcher.js"></script>
 
     <!-- Webmanifest + Favicon / App icons -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="manifest" href="/manifest.json">
@@ -32,25 +35,28 @@
 
     <!-- Docs specific styles -->
     <style>
-      .cd-section {
+    .cd-section {
         scroll-margin-top: 100px;
-      }
-      @media (min-width: 992px) {
+    }
+
+    @media (min-width: 992px) {
         .cd-sidebar {
-          position: sticky;
-          top: 7rem;
-          height: calc(100vh - 8.5rem);
+            position: sticky;
+            top: 7rem;
+            height: calc(100vh - 8.5rem);
         }
+
         .cd-section {
-          scroll-margin-top: 118px;
+            scroll-margin-top: 118px;
         }
-      }
+    }
     </style>
-  </head>
+</head>
 
 
-  <!-- Body -->
-  <body data-bs-spy="scroll" data-bs-target="#anchorNav">
+<!-- Body -->
+
+<body data-bs-spy="scroll" data-bs-target="#anchorNav">
 
     <x-www-header>
 
@@ -79,22 +85,23 @@
 
     <!-- Docs specific scripts -->
     <script>
-      const sidebar = new bootstrap.Offcanvas('#sidebarNav')
-      const closeSidebar = () => {
-        setTimeout(() => {
-          sidebar.hide()
-        }, 500)
-      }
-      (() => {
-        const scrollable = document.getElementById('scrollable')
-        const simplebar = new SimpleBar(scrollable)
-        const anchor = scrollable.querySelector('.list-group-item.active')
-        if (anchor === null) return
-        simplebar.getScrollElement().scrollTo({
-          top: anchor.parentNode.offsetTop,
-          behavior: 'instant'
-        })
-      })()
+    const sidebar = new bootstrap.Offcanvas('#sidebarNav')
+    const closeSidebar = () => {
+            setTimeout(() => {
+                sidebar.hide()
+            }, 500)
+        }
+        (() => {
+            const scrollable = document.getElementById('scrollable')
+            const simplebar = new SimpleBar(scrollable)
+            const anchor = scrollable.querySelector('.list-group-item.active')
+            if (anchor === null) return
+            simplebar.getScrollElement().scrollTo({
+                top: anchor.parentNode.offsetTop,
+                behavior: 'instant'
+            })
+        })()
     </script>
-  </body>
+</body>
+
 </html>
