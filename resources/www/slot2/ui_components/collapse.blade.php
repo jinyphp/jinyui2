@@ -5,12 +5,17 @@
     @livewire('WidgetOnlyCode', [
     'filename' => "component_collapse_code2"
     ])
+    @livewire('WidgetNote',[
+    'filename' => "component_collapse_note"])
     @livewire('WidgetCode-Component', [
     'filename' => "component_collapse_code3"
     ])
+    @livewire('WidgetNote',[
+    'filename' => "component_collapse_caution"])
     @livewire('WidgetCode-Component', [
     'filename' => "component_collapse_code4"
     ])
+
     @livewire('WidgetCode-Component', [
     'filename' => "component_collapse_code5"
     ])

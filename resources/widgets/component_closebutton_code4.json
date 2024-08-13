@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Dark variant",
-        "description": "Add data-bs-theme=\"dark\" to the .btn-close, or to its parent element, to invert the close button. This uses the filter property to invert the background-image without overriding its value.",
-        "code": "<div data-bs-theme=\"dark\">\n  <button type=\"button\" class=\"btn-close\" aria-label=\"Close\"><\/button>\n  <button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"><\/button>\n<\/div>",
-        "updated_at": "2024-07-04 03:01:13"
+        "description": ".btn-close 또는 그 상위 요소에 data-bs-theme=\"dark\"를 추가하여 닫기 버튼을 반전시킬 수 있습니다. 이렇게 하면 filter 속성을 사용하여 값을 재정의하지 않고 background-image를 반전시킵니다.",
+        "code": "<div data-bs-theme=\"dark\" class=\"bg-black\">\n  <button type=\"button\" class=\"btn-close\" aria-label=\"Close\"><\/button>\n  <button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"><\/button>\n<\/div>",
+        "updated_at": "2024-08-13 05:35:51"
     }
 }
