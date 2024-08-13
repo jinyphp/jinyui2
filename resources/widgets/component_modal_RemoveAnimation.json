@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Remove animation ",
-        "description": "For modals that simply appear rather than fade in to view, remove the .fade class from your modal markup.",
+        "title": "애니메이션 제거 ",
+        "description": "화면에 페이드인 하는 것이 아니라 단순히 표시만 하는 경우에는, 마크업에서 .fade 클래스를 삭제합니다.",
         "code": "<div class=\"modal\" tabindex=\"-1\" aria-labelledby=\"...\" aria-hidden=\"true\">\n  ...\n<\/div>",
-        "updated_at": "2024-07-03 10:55:55"
+        "updated_at": "2024-08-09 12:51:07"
     }
 }

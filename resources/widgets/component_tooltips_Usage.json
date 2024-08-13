@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Usage ",
-        "description": "The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element. Trigger the tooltip via JavaScript:",
+        "title": "사용 방법",
+        "description": "툴팁 플러그인은 필요에 따라 콘텐츠와 마크업을 생성하고 기본 값으로는 트리거 요소 뒤에 툴팁을 배치합니다. JavaScript를 사용해 툴팁을 트리거 합니다:",
         "code": "The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element. Trigger the tooltip via JavaScript:",
-        "updated_at": "2024-07-01 12:18:40"
+        "updated_at": "2024-08-06 05:51:09"
     }
 }

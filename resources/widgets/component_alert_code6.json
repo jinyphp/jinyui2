@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Additional content",
-        "description": "Alerts can also contain additional HTML elements like headings, paragraphs and dividers.",
+        "description": "경고창에는 제목, 단락 및 구분선 등과 같은 HTML 요소를 포함할 수도 있습니다.",
         "code": "<div class=\"alert alert-success\" role=\"alert\">\n  <h4 class=\"alert-heading\">Well done!<\/h4>\n  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.<\/p>\n  <hr>\n  <p class=\"mb-0\">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.<\/p>\n<\/div>",
-        "updated_at": "2024-07-03 05:35:18"
+        "updated_at": "2024-08-06 03:38:14"
     }
 }

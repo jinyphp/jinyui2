@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "접근성",
+        "description": "반드시 .modal에 모달 타이틀을 참조하는 aria-labelledby=\"...\"를 추가해 주세요. 게다가 .modal에 aria-describedby를 추가하는 것으로, 모달 다이얼로그의 설명을 줄 수 있습니다. JavaScript로 이미 추가하고 있음으로 role=\"dialog\"를 추가할 필요가 없다는 점에 주의해 주세요.",
+        "updated_at": "2024-08-09 13:14:07"
+    }
+}

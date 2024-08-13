@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Popovers",
-        "description": "Documentation and examples for adding Bootstrap popovers, like those found in iOS, to any element on your site.",
-        "updated_at": "2024-07-01 11:35:17"
+        "title": "팝오버",
+        "description": "iOS에서 볼수 있는 Bootstrap 팝오버를 사이트 임의의 요소에 추가하기 위한 문서와 예시입니다.\n\n",
+        "updated_at": "2024-08-09 13:44:21"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Via data attributes",
-        "description": "Use data attributes to easily control the position of the carousel. data-bs-slide accepts the keywords prev or next, which alters the slide position relative to its current position. Alternatively, use data-bs-slide-to to pass a raw slide index to the carousel data-bs-slide-to=\"2\", which shifts the slide position to a particular index beginning with 0.",
-        "updated_at": "2024-07-04 02:57:22"
+        "title": "데이터 속성 사용하기",
+        "description": "캐러셀의 위치를 간단히 제어하려면, data 속성을 사용합니다. data-bs-slide는 키워드 prev나 next를 받아, 현재의 위치에 대한 슬라이드의 위치를 변경합니다. 혹은 data-bs-slide-to를 사용해 가공되지 않은 슬라이드 인덱스를 캐러셀에게 건네주면 data-bs-slide-to=\"2\"가 되어, 슬라이드의 위치를 0에서 시작하는 특정의 인덱스로 이동시킵니다.",
+        "updated_at": "2024-08-06 05:42:08"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Pagination",
-        "description": "Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.",
-        "updated_at": "2024-07-01 11:37:00"
+        "title": "페이지네이션",
+        "description": "여러 페이지에 일련의 관련 내용이 있음을 나타내는 페이지네이션을 사용한 문서와 예시입니다.",
+        "updated_at": "2024-08-08 12:52:35"
     }
 }

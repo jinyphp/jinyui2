@@ -5,8 +5,10 @@
     @livewire('WidgetText', [
     'filename' => "component_tooltips_overView"
 ])
-        <div>zz</div>
-        @livewire('WidgetOnlyCode', [
+<x-www-preview> 
+    <h2 class="text-4xl font-bold">예시</h2>  
+</x-www-preview>      
+@livewire('WidgetOnlyCode', [
     'filename' => "component_tooltips_Enable"
 ])
         @livewire('WidgetOnlyCode', [
@@ -16,7 +18,7 @@
     'filename' => "component_tooltips_Custom2"
 ])
         @livewire('WidgetCode-Component', [
-    'filename' => "component_tooltips_TooltipsOnLinks"
+    'filename' => "component_tooltips_Link"
 ])
         @livewire('WidgetCode-Component', [
     'filename' => "component_tooltips_Directions"
@@ -27,7 +29,9 @@
         @livewire('WidgetCode-Component', [
     'filename' => "component_tooltips_Usage"
 ])
-        <h2>CSS</h2>
+<x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+</x-www-preview>
         @livewire('WidgetOnlyCode', [
     'filename' => "component_tooltips_Variables"
 ])
@@ -65,13 +69,10 @@
         @livewire('WidgetOnlyCode', [
     'filename' => "component_tooltips_event"
 ])
-
-
-
-        ])
-        @livewire('WidgetTableStyle1', [
+       @livewire('WidgetTableStyle1', [
     'filename' => "component_tooltips_table1"
 ])
-
-
+    @livewire('WidgetNote', [
+    'filename' => "component_tooltips_note"
+])
 </x-www-layout>

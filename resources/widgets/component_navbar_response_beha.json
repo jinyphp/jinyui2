@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "반응형 비헤이비어 ",
+        "description": ".navbar-toggler, .navbar-collapse, 및 .navbar-expand{-sm|-md|-lg|-xl|-xxl} 클래스를 사용하여 콘텐츠가 버튼 뒤쪽에서 접히는 시점을 결정합니다. 다른 유틸리티와 결합하여 특정 요소를 언제 표시하고 감출지 손쉽게 선택할 수 있습니다.\n\n접히지 않는 내비게이션 바의 경우, .navbar-expand 클래스를 내비게이션 바에 추가합니다. 항상 접히는 내비게이션 바의 경우 .navbar-expand 클래스를 추가하지 마십시오.",
+        "updated_at": "2024-08-09 13:34:10"
+    }
+}

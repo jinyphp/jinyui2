@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Disabled state",
-        "description": "Disabled close buttons change their opacity. We’ve also applied pointer-events: none and user-select: none to preventing hover and active states from triggering.",
+        "description": "비활성화된 닫기 버튼은 opacity를 변경합니다. 그리고 pointer-events: none과 user-select: none을 적용해, hover 상태와 active 상태가 트리거 되지 않도록 하였습니다.",
         "code": "<button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"><\/button>",
-        "updated_at": "2024-07-04 03:01:02"
+        "updated_at": "2024-08-06 09:59:11"
     }
 }

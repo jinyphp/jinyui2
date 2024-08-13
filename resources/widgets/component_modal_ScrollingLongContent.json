@@ -1,8 +1,8 @@
 {
     "items": {
-        "description": "When modals become too long for the user’s viewport or device, they scroll independent of the page itself. Try the demo below to see what we mean.",
+        "description": "사용자의 뷰포트나 기기가 너무 길면 모달 페이지가 자체적으로 스크롤을 생성합니다. 아래 버튼을 클릭해 시도해 보십시오.",
         "code": "",
-        "updated_at": "2024-07-03 10:51:30",
-        "title": "Scrolling long content "
+        "updated_at": "2024-08-09 12:48:15",
+        "title": "기다란 콘텐츠 스크롤 "
     }
 }

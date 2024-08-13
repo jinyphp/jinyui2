@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Variables",
-        "description": "As part of Bootstrap’s evolving CSS variables approach, cards now use local CSS variables on .card for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.",
+        "description": "Bootstrap의 진화하는 CSS 변수 접근 방식의 일부로, 이제 카드는 향상된 실시간 사용자 지정을 위해 .card에서 로컬 CSS 변수를 사용합니다. CSS 변수의 값은 Sass를 통해 설정되므로 Sass 사용자 정의도 계속 지원됩니다.",
         "code": "--#{$prefix}card-spacer-y: #{$card-spacer-y};\n--#{$prefix}card-spacer-x: #{$card-spacer-x};\n--#{$prefix}card-title-spacer-y: #{$card-title-spacer-y};\n--#{$prefix}card-title-color: #{$card-title-color};\n--#{$prefix}card-subtitle-color: #{$card-subtitle-color};\n--#{$prefix}card-border-width: #{$card-border-width};\n--#{$prefix}card-border-color: #{$card-border-color};\n--#{$prefix}card-border-radius: #{$card-border-radius};\n--#{$prefix}card-box-shadow: #{$card-box-shadow};\n--#{$prefix}card-inner-border-radius: #{$card-inner-border-radius};\n--#{$prefix}card-cap-padding-y: #{$card-cap-padding-y};\n--#{$prefix}card-cap-padding-x: #{$card-cap-padding-x};\n--#{$prefix}card-cap-bg: #{$card-cap-bg};\n--#{$prefix}card-cap-color: #{$card-cap-color};\n--#{$prefix}card-height: #{$card-height};\n--#{$prefix}card-color: #{$card-color};\n--#{$prefix}card-bg: #{$card-bg};\n--#{$prefix}card-img-overlay-padding: #{$card-img-overlay-padding};\n--#{$prefix}card-group-margin: #{$card-group-margin};",
-        "updated_at": "2024-07-04 02:46:35"
+        "updated_at": "2024-08-06 05:16:02"
     }
 }

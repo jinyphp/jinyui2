@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Buttons",
-        "description": "Badges can be used as part of links or buttons to provide a counter.",
+        "description": "배지는 카운터를 제공하기 위해 링크나 버튼의 일부로 사용될 수 있습니다.",
         "code": "<button type=\"button\" class=\"btn btn-primary\">\n  Notifications <span class=\"badge text-bg-secondary\">4<\/span>\n<\/button>",
-        "updated_at": "2024-07-04 00:54:57"
+        "updated_at": "2024-08-06 03:52:57"
     }
 }

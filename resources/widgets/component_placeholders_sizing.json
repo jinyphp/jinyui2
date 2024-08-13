@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Sizing ",
-        "description": "The size of .placeholders are based on the typographic style of the parent element. Customize them with sizing modifiers: .placeholder-lg, .placeholder-sm, or .placeholder-xs.",
+        "title": "크기 ",
+        "description": ".placeholder의 크기는 상위 요소의 글꼴 스타일을 기반으로 합니다. .placeholder-lg, .placeholder-sm 또는 .placeholder-xs와 같은 크기 조정자를 사용하여 맞춤설정하세요.",
         "code": "<span class=\"placeholder col-12 placeholder-lg\"><\/span>\n<span class=\"placeholder col-12\"><\/span>\n<span class=\"placeholder col-12 placeholder-sm\"><\/span>\n<span class=\"placeholder col-12 placeholder-xs\"><\/span>",
-        "updated_at": "2024-07-02 11:37:36"
+        "updated_at": "2024-08-08 12:45:30"
     }
 }

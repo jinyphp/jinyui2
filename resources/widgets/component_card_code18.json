@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Using utilities",
-        "description": "Use our handful of available sizing utilities to quickly set a card’s width.",
+        "title": "유틸리티 사용하기",
+        "description": "크기 조절 유틸리티을 사용해 카드의 가로 폭을 빠르게 설정합니다.",
         "code": "<div class=\"card w-75 mb-3\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Button<\/a>\n  <\/div>\n<\/div>\n\n<div class=\"card w-50\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.<\/p>\n    <a href=\"#\" class=\"btn btn-primary\">Button<\/a>\n  <\/div>\n<\/div>",
-        "updated_at": "2024-07-04 01:50:09"
+        "updated_at": "2024-08-06 05:03:55"
     }
 }

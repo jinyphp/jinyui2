@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "Input groups work, too. If your navbar is an entire form, or mostly a form, you can use the <form> element as the container and save some HTML.",
+        "description": "Input group도 사용 가능합니다. 내비게이션 바가 폼 전체 혹은 대부분이 폼인 경우라면, <form> 요소를 컨테이너로 사용하여 HTML을 저장할 수 있습니다.",
         "code": "<nav class=\"navbar bg-body-tertiary\">\n  <form class=\"container-fluid\">\n    <div class=\"input-group\">\n      <span class=\"input-group-text\" id=\"basic-addon1\">@<\/span>\n      <input type=\"text\" class=\"form-control\" placeholder=\"Username\" aria-label=\"Username\" aria-describedby=\"basic-addon1\">\n    <\/div>\n  <\/form>\n<\/nav>",
-        "updated_at": "2024-07-03 10:34:19"
+        "updated_at": "2024-08-09 13:30:30"
     }
 }

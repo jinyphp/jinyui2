@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Working with flex utilities ",
-        "description": "If you need responsive nav variations, consider using a series of flexbox utilities. While more verbose, these utilities offer greater customization across responsive breakpoints. In the example below, our nav will be stacked on the lowest breakpoint, then adapt to a horizontal layout that fills the available width starting from the small breakpoint.",
+        "title": "플렉스 유틸리티 ",
+        "description": "반응형 내비게이션의 변화가 필요한 경우에는 flexbox 유틸리티를 사용합니다. 이 유틸리티들은 좀 장황스럽지만, 반응형 중단점 간에 더 많은 사용자 지정이 가능합니다. 아래의 예시에서 내비게이션은 가장 좁은 화면의 경우 세로로, 폭을 넓힘으로써 수평 레이아웃이 됩니다.",
         "code": "<nav class=\"nav nav-pills flex-column flex-sm-row\">\n  <a class=\"flex-sm-fill text-sm-center nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"flex-sm-fill text-sm-center nav-link\" href=\"#\">Longer nav link<\/a>\n  <a class=\"flex-sm-fill text-sm-center nav-link\" href=\"#\">Link<\/a>\n  <a class=\"flex-sm-fill text-sm-center nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
-        "updated_at": "2024-07-03 10:25:56"
+        "updated_at": "2024-08-08 13:05:03"
     }
 }

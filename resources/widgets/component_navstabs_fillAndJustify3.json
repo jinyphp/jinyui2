@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "For equal-width elements, use .nav-justified. All horizontal space will be occupied by nav links, but unlike the .nav-fill above, every nav item will be the same width.",
+        "description": "동일한 가로 폭의 아이템을 사용하고 싶은 경우에는, .nav-justified를 사용합니다. 모든 수평 방향의 여백은 nav-links 가 갖고 있지만, 위의 .nav-fill과는 다르게, 모든 내비게이션 아이템은 동일한 가로 폭을 가지게 됩니다.\n",
         "code": "<ul class=\"nav nav-pills nav-justified\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <\/li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n  <\/li>\n<\/ul>",
-        "updated_at": "2024-07-03 10:25:22"
+        "updated_at": "2024-08-08 13:04:38"
     }
 }

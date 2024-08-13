@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Fade effect ",
-        "description": "To make tabs fade in, add .fade to each .tab-pane. The first tab pane must also have .show to make the initial content visible.",
+        "title": "페이드 효과 ",
+        "description": "탭을 페이드인 시키려면, .tab-pane에 .fade를 추가합니다. 첫 번째 탭에는 콘텐츠를 표시하기 위해 .show를 추가할 필요가 있습니다.",
         "code": "<div class=\"tab-content\">\n  <div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\" aria-labelledby=\"home-tab\" tabindex=\"0\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\" aria-labelledby=\"profile-tab\" tabindex=\"0\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"messages\" role=\"tabpanel\" aria-labelledby=\"messages-tab\" tabindex=\"0\">...<\/div>\n  <div class=\"tab-pane fade\" id=\"settings\" role=\"tabpanel\" aria-labelledby=\"settings-tab\" tabindex=\"0\">...<\/div>\n<\/div>",
-        "updated_at": "2024-07-03 10:31:27"
+        "updated_at": "2024-08-08 13:09:17"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
         "title": "Breadcrumb",
-        "description": "Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.",
-        "updated_at": "2024-07-04 01:02:37"
+        "description": "CSS로 구분자를 자동으로 추가해 내비게이션 계층 내에서 현재 페이지의 위치를 표시합니다.",
+        "updated_at": "2024-08-06 03:59:04"
     }
 }

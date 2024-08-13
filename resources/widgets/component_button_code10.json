@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "You can even roll your own custom sizing with CSS variables:",
+        "description": "CSS 변수를 사용하여 사용자 정의 크기를 직접 설정할 수도 있습니다:",
         "code": "<button type=\"button\" class=\"btn btn-primary\"\n        style=\"--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;\">\n  Custom button\n<\/button>",
-        "updated_at": "2024-07-04 01:18:38"
+        "updated_at": "2024-08-06 04:11:07"
     }
 }

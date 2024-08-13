@@ -1,7 +1,7 @@
 {
     "items": {
-        "title": "Tooltips",
-        "description": "Documentation and examples for adding custom Bootstrap tooltips with CSS and JavaScript using CSS3 for animations and data-bs-attributes for local title storage.",
-        "updated_at": "2024-07-01 11:20:57"
+        "title": "툴팁",
+        "description": "CSS3를 사용한 애니메이션이나 data-bs-attributes를 사용한 CSS와 JavaScript로 사용자 정의 Bootstrap의 툴팁을 추가하기 위한 문서와 예시입니다.",
+        "updated_at": "2024-08-06 05:37:04"
     }
 }

@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "When using a <nav>-based navigation, you can safely omit .nav-item as only .nav-link is required for styling <a> elements.",
+        "description": "<nav> 베이스의 내비게이션을 사용할 경우, <a> 요소의 스타일 설정에 필요한 것은 .nav-link 뿐이므로, .nav-item을 생략할 수 있습니다.",
         "code": "<nav class=\"nav nav-pills nav-fill\">\n  <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active<\/a>\n  <a class=\"nav-link\" href=\"#\">Much longer nav link<\/a>\n  <a class=\"nav-link\" href=\"#\">Link<\/a>\n  <a class=\"nav-link disabled\" aria-disabled=\"true\">Disabled<\/a>\n<\/nav>",
-        "updated_at": "2024-07-03 10:25:06"
+        "updated_at": "2024-08-08 13:04:27"
     }
 }

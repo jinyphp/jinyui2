@@ -1,0 +1,6 @@
+{
+    "items": {
+        "description": "border-color 유틸리티를 사용하면 안되나요? 각 border스피너는 적어도 한 쪽의 보더를 transparent로 지정해야 하는데, .border-{color} 유틸리티는 그것을 덮어쓰기 때문입니다.",
+        "updated_at": "2024-08-08 12:12:08"
+    }
+}

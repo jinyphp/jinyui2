@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Disable touch swiping",
-        "description": "Carousels support swiping left\/right on touchscreen devices to move between slides. This can be disabled by setting the touch option to false.",
+        "title": "터치 스와이프 비활성화",
+        "description": "캐러셀은 터치 스크린 단말기에서의 좌우 스와이프에 의한 슬라이드 간 이동을 지원합니다. 이것은 touch 옵션을 false로 설정해서 비활성화시킬 수 있습니다.",
         "code": "<div id=\"carouselExampleControlsNoTouching\" class=\"carousel slide\" data-bs-touch=\"false\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img src=\"\/slide1.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide2.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n    <div class=\"carousel-item\">\n      <img src=\"\/slide3.jpg\" class=\"d-block w-100\" alt=\"...\">\n    <\/div>\n  <\/div>\n  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleControlsNoTouching\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleControlsNoTouching\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>",
-        "updated_at": "2024-07-09 04:56:20"
+        "updated_at": "2024-08-06 05:40:30"
     }
 }

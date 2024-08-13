@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Border spinner ",
-        "description": "Use the border spinners for a lightweight loading indicator.",
+        "title": "Border 스피너",
+        "description": "Border 스피너를 사용해 가벼운 로딩 인디게이터를 실현합니다.",
         "code": "<div class=\"spinner-border\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
-        "updated_at": "2024-07-02 11:14:37"
+        "updated_at": "2024-08-08 11:57:54"
     }
 }

@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Colors ",
-        "description": "The border spinner uses currentColor for its border-color, meaning you can customize the color with text color utilities. You can use any of our text color utilities on the standard spinner.",
+        "title": "색상",
+        "description": "Border 스피너는 border-color에 currentColor을 사용합니다. 표준 스피너에서는 text color utilities 를 사용할 수 있습니다.",
         "code": "<div class=\"spinner-border text-primary\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-secondary\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-success\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-danger\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-warning\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-info\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-light\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>\n<div class=\"spinner-border text-dark\" role=\"status\">\n  <span class=\"visually-hidden\">Loading...<\/span>\n<\/div>",
-        "updated_at": "2024-07-02 11:14:53"
+        "updated_at": "2024-08-08 12:01:25"
     }
 }

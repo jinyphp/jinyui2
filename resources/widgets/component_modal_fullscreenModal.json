@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Fullscreen Modal ",
-        "description": "Another override is the option to pop up a modal that covers the user viewport, available via modifier classes that are placed on a .modal-dialog.",
+        "title": "전체화면 모달",
+        "description": ".modal-dialog에는 아래와 같은 클래스를 추가하는 것으로 화면을 꽉채운 모달을 이용할 수 있습니다.",
         "code": "<!-- Full screen modal -->\n<div class=\"modal-dialog modal-fullscreen-sm-down\">\n  ...\n<\/div>",
-        "updated_at": "2024-07-03 10:56:30"
+        "updated_at": "2024-08-09 13:16:45"
     }
 }

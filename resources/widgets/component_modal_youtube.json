@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "YouTube 동영상 포함시키키",
+        "description": "YouTube 동영상을 모달에 포함시키려면, Bootstrap에는 없는 JavaScript를 추가해 자동으로 재생을 정지하는 등의 처리가 필요합니다. 자세한 내용은 도움이 되는 Stack Overflow 글을 참조해 주세요.",
+        "updated_at": "2024-08-09 13:14:19"
+    }
+}

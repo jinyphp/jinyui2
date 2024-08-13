@@ -1,10 +1,10 @@
 // Custom components :: Cards
-$card-border-radius: .25rem !default;
+$card-border-radius: 0.25rem !default;
 $card-inner-border-radius: $card-border-radius !default;
 $card-border-width: 0 !default;
 $card-border-color: transparent !default;
-$card-cap-bg: $white !default;
-$card-shadow: 0 0 .875rem 0 rgba($dark, 0.05) !default;
+$card-cap-bg: rgba(33, 37, 41, 0.03) !default;
+$card-shadow: 0 0 0.875rem 0 rgba($dark, 0.05) !default;
 $card-title-font-size: $font-size-lg !default;
 $card-title-font-weight: $font-weight-bold !default;
 $card-title-color: lighten($gray-600, 15%) !default;

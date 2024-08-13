@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Enable popovers ",
-        "description": "As mentioned above, you must initialize popovers before they can be used. One way to initialize all popovers on a page would be to select them by their data-bs-toggle attribute, like so:",
+        "title": "팝오버 활성화",
+        "description": "위에서 설명했듯이 팝오버를 사용하려면 사용하기 전에 팝오버를 초기화해주어야 합니다. 페이지 상의 모든 팝오버를 초기화하는 방법 중 하나는 아래처럼 data-bs-toggle 속성으로 선택하는 것입니다:",
         "code": "const popoverTriggerList = document.querySelectorAll('[data-bs-toggle=\"popover\"]')\nconst popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))",
-        "updated_at": "2024-07-02 11:28:23"
+        "updated_at": "2024-08-09 13:46:48"
     }
 }

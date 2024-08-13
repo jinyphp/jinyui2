@@ -1,7 +1,7 @@
 {
     "items": {
-        "description": "And with custom HTML added:",
+        "description": "그리고 사용자 정의 HTML을 추가할 수 있습니다:",
         "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"<em>Tooltip<\/em> <u>with<\/u> <b>HTML<\/b>\">\n  Tooltip with HTML\n<\/button>",
-        "updated_at": "2024-07-01 12:15:53"
+        "updated_at": "2024-08-06 05:50:19"
     }
 }

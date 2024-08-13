@@ -2,9 +2,8 @@
 @import "../pseudo.scss";
 
 $obj: (
-    visible : visible,
-    invisible : hidden,
-    collapse : collapse,
+    visible: visible,
+    invisible: hidden,
 );
 
 @each $key, $value in $obj {
@@ -12,7 +11,7 @@ $obj: (
         visibility: $value;
     }
 
-    @each $pseudo in map-keys($pseudos){
+    @each $pseudo in map-keys($pseudos) {
         @include pseudo($pseudo, "#{$key}") {
             visibility: $value;
         }

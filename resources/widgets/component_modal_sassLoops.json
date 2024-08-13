@@ -1,8 +1,8 @@
 {
     "items": {
-        "title": "Sass loops ",
-        "description": "Responsive fullscreen modals are generated via the $breakpoints map and a loop in scss\/_modal.scss.",
+        "title": "Sass 루프 ",
+        "description": "반응형 전체화면 모달은 $breakpoints 맵과 scss\/_modal.scss내의 반복에 의해 생성됩니다.",
         "code": "@each $breakpoint in map-keys($grid-breakpoints) {\n  $infix: breakpoint-infix($breakpoint, $grid-breakpoints);\n  $postfix: if($infix != \"\", $infix + \"-down\", \"\");\n\n  @include media-breakpoint-down($breakpoint) {\n    .modal-fullscreen#{$postfix} {\n      width: 100vw;\n      max-width: none;\n      height: 100%;\n      margin: 0;\n\n      .modal-content {\n        height: 100%;\n        border: 0;\n        @include border-radius(0);\n      }\n\n      .modal-header,\n      .modal-footer {\n        @include border-radius(0);\n      }\n\n      .modal-body {\n        overflow-y: auto;\n      }\n    }\n  }\n}",
-        "updated_at": "2024-07-03 10:57:22"
+        "updated_at": "2024-08-09 12:52:42"
     }
 }
