@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Removing outlines",
+        "description": "초점이 맞춰진 요소에서 기본 브라우저 개요를 숨기려면 개요 없음을 사용하세요. 이 유틸리티를 사용할 때 접근성을 위해 자신만의 포커스 스타일을 적용하는 것이 좋습니다.\n",
+        "code": "<input type=\"text\"\n  placeholder=\"Default focus style\"\n  class=\"...\" \/>\n\n<input type=\"text\"\n  placeholder=\"Custom focus style\"\n  class=\"focus:outline-none focus:ring focus:border-blue-500 ...\" \/>",
+        "updated_at": "2024-08-13 06:25:32"
+    }
+}

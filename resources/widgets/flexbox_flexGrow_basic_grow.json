@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<div class=\"flex ...\">\n  <div class=\"flex-none w-14 h-14 ...\">\n    01\n  <\/div>\n  <div class=\"grow h-14 ...\">\n    02\n  <\/div>\n  <div class=\"flex-none w-14 h-14 ...\">\n    03\n  <\/div>\n<\/div>",
+        "description": "플렉스 아이템이 사용 가능한 공간을 채울 수 있도록 성장하려면 gorw를 사용하세요.",
+        "title": "Basic usage - Grow",
+        "updated_at": "2024-08-07 14:08:16"
+    }
+}

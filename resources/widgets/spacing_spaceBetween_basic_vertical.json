@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add vertical space between children",
+        "description": "space-y-* 유틸리티를 사용하여 요소 사이의 수직 공간을 제어합니다.\n",
+        "code": "<div class=\"flex flex-col space-y-4 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:37:44"
+    }
+}

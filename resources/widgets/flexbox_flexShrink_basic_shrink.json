@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Shrink",
+        "description": "필요한 경우 플렉스 아이템을 축소하려면 shrink를 사용하세요.\n",
+        "code": "<div class=\"flex ...\">\n  <div class=\"flex-none w-14 h-14 ...\">\n    01\n  <\/div>\n  <div class=\"shrink w-64 h-14 ...\">\n    02\n  <\/div>\n  <div class=\"flex-none w-14 h-14 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:23:49"
+    }
+}

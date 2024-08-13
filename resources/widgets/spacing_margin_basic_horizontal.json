@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add horizontal margin",
+        "description": "mx-* 유틸리티를 사용하여 요소의 가로 여백을 제어합니다.\n",
+        "code": "<div class=\"mx-8 w-32 bg-red-300\">mx-8<\/div>\n",
+        "updated_at": "2024-08-12 08:31:52"
+    }
+}

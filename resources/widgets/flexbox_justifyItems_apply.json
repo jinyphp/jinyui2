@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:justify-items-center를 사용하면 마우스 오버 시 justify-items-center 유틸리티만 적용할 수 있습니다.\n",
+        "code": "<div class=\"grid justify-items-start hover:justify-items-center\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-07 16:11:43"
+    }
+}

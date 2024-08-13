@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Center",
+        "description": "블록 축 중앙에 항목을 패킹하려면 place-content-center를 사용하세요.\n",
+        "code": "<div class=\"grid grid-cols-2 gap-4 place-content-center h-48\">\n  <div class=\"w-5 h-5 bg-red-300\">01<\/div>\n  <div class=\"w-5 h-5 bg-blue-300\">02<\/div>\n  <div class=\"w-5 h-5 bg-pink-300\">03<\/div>\n  <div class=\"w-5 h-5 bg-yellow-300\">04<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:10:02"
+    }
+}

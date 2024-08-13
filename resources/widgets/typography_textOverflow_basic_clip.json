@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Clip",
+        "description": "콘텐츠 영역의 한계에서 텍스트를 자르려면 텍스트 클립을 사용하십시오.\n",
+        "code": "<p class=\"text-clip overflow-hidden w-32 ...\">The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.<\/p>",
+        "updated_at": "2024-08-12 17:52:25"
+    }
+}

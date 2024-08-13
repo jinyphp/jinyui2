@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Percentage sizes",
+        "description": "요소의 너비와 높이를 상위 컨테이너의 너비와 높이의 100%로 설정하려면 size-full을 사용하세요.\n",
+        "code": "<div class=\"h-56 p-2 ...\">\n  <div class=\"size-full bg-red-300\">size-full<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 10:08:41"
+    }
+}

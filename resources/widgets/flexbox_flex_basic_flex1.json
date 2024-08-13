@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Flex 1",
+        "description": "flex-1을 사용하면 초기 크기를 무시하고 필요에 따라 플렉스 항목을 늘리거나 줄일 수 있습니다.\n",
+        "code": "<div class=\"flex\">\n  <div class=\"flex-none w-14 bg-green-300 ...\">\n    01\n  <\/div>\n  <div class=\"flex-1 w-64 bg-blue-300 ...\">\n    02\n  <\/div>\n  <div class=\"flex-1 w-32 bg-red-300 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:02:05"
+    }
+}

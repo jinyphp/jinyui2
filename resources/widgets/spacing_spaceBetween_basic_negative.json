@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Using negative values",
+        "description": "음수 공백 값을 사용하려면 클래스 이름 앞에 대시를 붙여 음수 값으로 변환하세요.\n",
+        "code": "<div class=\"flex -space-x-4 ...\">\n  <!-- ... -->\n<\/div>",
+        "updated_at": "2024-08-12 08:38:29"
+    }
+}

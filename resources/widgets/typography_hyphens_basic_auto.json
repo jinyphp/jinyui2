@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Auto",
+        "description": "브라우저가 언어에 따라 하이픈 넣기 지점을 자동으로 선택하도록 하려면 하이픈-자동을 사용하십시오. 줄 바꿈 제안 &shy; 자동 하이픈 넣기 지점보다 선호됩니다.\n",
+        "code": "<p class=\"hyphens-auto ...\" lang=\"de\">\nOfficially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeug­­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.\n\n\n<\/p>",
+        "updated_at": "2024-08-12 18:12:43"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Focus rings",
+        "description": "링 너비 유틸리티를 사용하면 ring-* 유틸리티의 시작 부분에 focus:를 추가하여 사용자 정의 포커스 링을 쉽게 사용할 수 있습니다.\n",
+        "code": "<button class=\"... focus:ring-2 p-2 ring-offset-2\">Save Changes<\/button>",
+        "updated_at": "2024-08-13 06:35:54"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "italic 유틸리티를 사용하여 텍스트를 기울임꼴로 만들 수 있습니다. 마찬가지로, not-italic 유틸리티를 사용하면 텍스트를 정상적으로 표시할 수 있습니다. 일반적으로 다른 중단점에서 기울임꼴 텍스트를 재설정합니다.\n",
+        "title": "Italicizing text",
+        "code": "<h2>italic<\/h2>\n<p class=\"italic ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>non-italic<\/h2>\n<p class=\"not-italic ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 10:33:40"
+    }
+}

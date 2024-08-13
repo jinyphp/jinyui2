@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Changing the opacity",
+        "description": "색상 불투명도 수정자를 사용하여 분할 색상의 불투명도를 제어합니다.\n",
+        "code": "<div class=\"divide-y-4 divide-slate-400\/25 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n<\/div>\n",
+        "updated_at": "2024-08-13 05:58:22"
+    }
+}

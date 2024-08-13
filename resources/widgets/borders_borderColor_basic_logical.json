@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Using logical properties",
+        "description": "border-s-* 및 border-e-* 유틸리티를 사용하여 텍스트 방향에 따라 왼쪽 또는 오른쪽 테두리에 매핑되는 border-inline-start-color 및 border-inline-end-color 논리 속성을 설정하세요.\n",
+        "code": "<div dir=\"ltr\">\n  <div class=\"border-s-indigo-500 size-10\"><\/div>\n<div>\n\n<div dir=\"rtl\">\n  <div class=\"border-s-indigo-500 size-10\"><\/div>\n<div>",
+        "updated_at": "2024-08-13 05:48:22"
+    }
+}

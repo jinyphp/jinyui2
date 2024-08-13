@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Fading to transparent",
+        "description": "그라디언트는 명시적으로 to-transparent를 추가할 필요 없이 기본적으로 투명하게 페이드 아웃됩니다. Tailwind는 단순히 투명 키워드가 회색으로 희미해 보이는, 끔찍해 보이는 Safari < 15.4의 버그를 방지하기 위해 시작 색상을 기반으로 사용할 올바른 \"투명\" 값을 지능적으로 계산합니다.\n\n",
+        "code": "<div class=\"bg-gradient-to-r from-blue-500 w-full text-black\">\nhello, jinyPHP\n<\/div>",
+        "updated_at": "2024-08-13 05:27:20"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Truncating multi-line text",
+        "description": "특정 행 수 이후의 텍스트 블록을 자르려면 line-clamp-* 유틸리티를 사용하십시오.\n",
+        "code": "<article>\n  <time>Mar 10, 2020<\/time>\n  <h2>Boost your conversion rate<\/h2>\n  <p class=\"line-clamp-3\">Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat mollit incididunt deserunt sunt. Ut ut sunt laborum ex occaecat eu tempor labore enim adipisicing minim ad. Est in quis eu dolore occaecat excepteur fugiat dolore nisi aliqua fugiat enim ut cillum. Labore enim duis nostrud eu. Est ut eiusmod consequat irure quis deserunt ex. Enim laboris dolor magna pariatur. Dolor et ad sint voluptate sunt elit mollit officia ad enim sit consectetur enim.<\/p>\n  <div>\n    <img src=\"...\" \/>\n    Lindsay Walton\n  <\/div>\n<\/article>",
+        "updated_at": "2024-08-12 11:00:25"
+    }
+}

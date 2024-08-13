@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Specifying the columns in a grid",
+        "description": "Grid-cols-* 유틸리티를 사용하여 동일한 크기의 열 n개로 구성된 그리드를 만듭니다.\n",
+        "code": "<div class=\"grid grid-cols-4 gap-4\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div>06<\/div>\n  <div>07<\/div>\n  <div>08<\/div>\n  <div>09<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:32:44"
+    }
+}

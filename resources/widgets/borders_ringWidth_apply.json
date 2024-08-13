@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<div class=\"ring-2 hover:ring-4\">\nbutton A\n<\/div>",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:ring-4를 사용하면 마우스 오버 시에만 ring-4 유틸리티를 적용할 수 있습니다.\n",
+        "title": "Applying conditionally",
+        "updated_at": "2024-08-13 06:37:15"
+    }
+}

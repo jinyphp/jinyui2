@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "bg-scroll을 사용하면 뷰포트에서 배경 이미지를 스크롤할 수 있지만 컨테이너에서는 스크롤할 수 없습니다.\n",
+        "title": "Scroll",
+        "code": "<div class=\"bg-scroll ...\" style=\"background-image: url(\".\/..\/..\/assets\/jinyerp.svg\")\"><\/div>",
+        "updated_at": "2024-08-12 18:31:09"
+    }
+}

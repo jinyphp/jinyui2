@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - None ",
+        "description": "플렉스 항목이 늘어나거나 줄어들지 않도록 하려면 flex-none을 사용하세요.\n",
+        "code": "<div class=\"flex ...\">\n  <div class=\"flex-none w-14 bg-blue-300 ...\">\n    01\n  <\/div>\n  <div class=\"flex-none w-32 bg-green-300 ...\">\n    02\n  <\/div>\n  <div class=\"flex-1 bg-red-300 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:03:42"
+    }
+}

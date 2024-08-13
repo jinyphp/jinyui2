@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Using an element’s original size",
+        "description": "컨테이너 크기를 무시하고 요소의 내용을 원래 크기로 표시하려면 object-none 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"bg-yellow-300\">\n  <img class=\"object-none h-48 w-96 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<\/div>",
+        "updated_at": "2024-08-07 10:45:56"
+    }
+}

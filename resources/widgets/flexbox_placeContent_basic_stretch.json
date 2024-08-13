@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Stretch",
+        "description": "블록 축의 그리드 영역을 따라 그리드 항목을 늘리려면 place-content-stretch를 사용하세요.\n",
+        "code": "<div class=\"grid grid-cols-2 gap-4 place-content-stretch h-48 ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:12:33"
+    }
+}

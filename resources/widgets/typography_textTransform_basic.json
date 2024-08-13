@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Transforming text",
+        "description": "대문자 및 소문자 유틸리티는 각각 텍스트를 대문자 및 소문자로 변환하는 반면, 대문자 유틸리티는 텍스트를 제목 대문자로 변환합니다. 일반 대문자 유틸리티는 원래의 대소문자를 유지하는 데 사용할 수 있으며, 일반적으로 다른 중단점에서 대문자를 재설정하는 데 사용할 수 있습니다.",
+        "code": "<p class=\"normal-case ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"uppercase ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"lowercase ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<p class=\"capitalize ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 17:48:10"
+    }
+}

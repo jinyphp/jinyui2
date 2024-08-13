@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting a pseudo-element’s content",
+        "description": "::before 및 ::after 의사 요소의 콘텐츠를 설정하려면 before 및 after 변형 수정자와 함께 content-* 유틸리티를 사용하세요. 기본적으로 content-none은 사전 구성된 유일한 콘텐츠 유틸리티입니다. 테마를 사용자 정의하여 추가 유틸리티를 추가할 수 있지만 일반적으로 임의의 값을 사용하는 것이 더 합리적입니다. 임의의 콘텐츠 값을 즉시 정의하려면 대괄호 표기법을 사용하세요.\n\n\n",
+        "code": "Higher resolution means more than just a better-quality image. With a Retina\n6K display, <a class=\"text-blue-600 after:content-['_↗'] ...\" href=\"https:\/\/www.\napple.com\/pro-display-xdr\/\" target=\"_blank\">Pro Display XDR<\/a> gives you\nnearly 40 percent more screen real estate than a 5K display.",
+        "updated_at": "2024-08-12 18:14:48"
+    }
+}

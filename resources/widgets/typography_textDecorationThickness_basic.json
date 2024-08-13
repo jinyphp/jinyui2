@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the text decoration thickness",
+        "description": "장식-* 유틸리티를 사용하여 요소의 텍스트 장식 두께를 변경합니다.\n",
+        "code": "<p class=\"underline decoration-1 ...\">The quick brown fox jumps over the lazy dog.\n\n<\/p>\n<p class=\"underline decoration-2 ...\">The quick brown fox jumps over the lazy dog.\n\n<\/p>\n<p class=\"underline decoration-4 ...\">The quick brown fox jumps over the lazy dog.\n\n<\/p>",
+        "updated_at": "2024-08-12 17:42:55"
+    }
+}

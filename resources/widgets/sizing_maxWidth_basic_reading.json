@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Reading width",
+        "description": "max-w-prose 유틸리티는 가독성을 위해 최적화된 최대 너비를 요소에 제공하고 글꼴 크기에 따라 조정됩니다.\n",
+        "code": "<div class=\"text-sm max-w-prose ...\">\n  <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.<\/p>\n<\/div>\n\n<div class=\"text-base max-w-prose ...\">\n  <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.<\/p>\n<\/div>\n\n<div class=\"text-xl max-w-prose ...\">\n  <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.<\/p>\n<\/div>",
+        "updated_at": "2024-08-12 08:50:20"
+    }
+}

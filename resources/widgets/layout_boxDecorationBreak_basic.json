@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage",
+        "description": "box-decoration-slice 및 box-decoration-clone 유틸리티를 사용하여 배경, 테두리, 테두리 이미지, 상자 그림자, 클립 경로, 여백 및 패딩과 같은 속성을 요소가 하나의 연속된 조각인 것처럼 렌더링할지 또는 별개의 블록인 것처럼 렌더링할지 여부를 제어합니다.",
+        "code": "<div class='flex'>\n<span class=\"box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...\">\n  Hello<br \/>\n  World\n<\/span>\n<span class=\"box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...\">\n  Hello<br \/>\n  World\n<\/span>\n<\/div>",
+        "updated_at": "2024-08-06 10:32:16"
+    }
+}

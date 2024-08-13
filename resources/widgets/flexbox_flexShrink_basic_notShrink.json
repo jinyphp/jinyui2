@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Don't shrink",
+        "description": "Flex 항목이 축소되는 것을 방지하려면 Shrink-0을 사용하십시오.\n",
+        "code": "<div class=\"flex ...\">\n  <div class=\"flex-1 h-16 ...\">\n    01\n  <\/div>\n  <div class=\"shrink-0 h-16 w-32 ...\">\n    02\n  <\/div>\n  <div class=\"flex-1 h-16 ...\">\n    03\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:24:08"
+    }
+}

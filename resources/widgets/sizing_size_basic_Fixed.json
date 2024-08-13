@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Fixed sizes",
+        "description": "size-px, size-1, size-64와 같은 유틸리티를 사용하여 요소를 고정된 너비와 높이로 동시에 설정하세요.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"size-16 bg-red-300 text-center\">size-16<\/div>\n<div class=\"size-20 bg-yellow-300 text-center\">size-20<\/div>\n<div class=\"size-24 bg-green-300 text-center\">size-24<\/div>\n<div class=\"size-32 bg-blue-300 text-center\">size-32<\/div>\n<div class=\"size-40 bg-purple-300 text-center\">size-40<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 10:04:18"
+    }
+}

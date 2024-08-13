@@ -1,0 +1,8 @@
+{
+    "items": {
+        "updated_at": "2024-08-13 05:33:40",
+        "code": "<button class=\"rounded-full bg-violet-300 p-1\">Save Changes<\/button>\n",
+        "description": "둥근 전체 유틸리티를 사용하여 알약 버튼을 만듭니다.\n",
+        "title": "Pill buttons"
+    }
+}

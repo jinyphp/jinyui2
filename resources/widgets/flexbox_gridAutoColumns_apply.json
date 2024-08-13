@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "code": "<div class=\"grid grid-flow-col auto-cols-max hover:auto-cols-min\">\n  <!-- ... -->\n<\/div>",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:auto-cols-min을 사용하면 마우스 오버 시에만 auto-cols-min 유틸리티를 적용할 수 있습니다.",
+        "updated_at": "2024-08-07 15:57:17"
+    }
+}

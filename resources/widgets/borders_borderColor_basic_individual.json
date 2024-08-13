@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Individual sides",
+        "description": "border-t-*, border-r-*, border-b-* 및 border-l-* 유틸리티를 사용하여 요소 한쪽의 테두리 색상을 설정하세요.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"border-4 border-indigo-200 border-t-indigo-500 size-10\"><\/div>\n<div class=\"border-4 border-indigo-200 border-r-indigo-500 size-10\"><\/div>\n<div class=\"border-4 border-indigo-200 border-b-indigo-500 size-10\"><\/div>\n<div class=\"border-4 border-indigo-200 border-l-indigo-500 size-10\"><\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:47:12"
+    }
+}

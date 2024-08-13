@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Applying conditionally",
+        "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:outline-offset-2를 사용하면 마우스 오버 시에 개요-오프셋-2 유틸리티만 적용됩니다.\n",
+        "code": "<div class=\"outline hover:outline-offset-2\">\nhover\n<\/div>",
+        "updated_at": "2024-08-13 06:28:37"
+    }
+}

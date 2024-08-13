@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "요소 내의 콘텐츠가 잘리는 것을 방지하려면 Overflow-visible 유틸리티를 사용하세요. 그러면 요소의 경계를 벗어나는 모든 콘텐츠가 표시됩니다.\n",
+        "title": "Basic usage - Showing content that overflows",
+        "code": "<div class=\"overflow-visible ...\">\n<\/div>",
+        "updated_at": "2024-08-07 10:58:21"
+    }
+}

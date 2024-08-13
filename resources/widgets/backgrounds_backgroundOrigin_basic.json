@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the background origin",
+        "description": "요소의 배경이 렌더링되는 위치를 제어하려면 bg-origin-border, bg-origin-padding 및 bg-origin-content를 사용하십시오.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"bg-origin-border p-4 border-4 border-dashed w-32\" style=\"background-image: url(\".\/..\/..\/assets\/jinyerp.svg\")\"><\/div>\n<div class=\"bg-origin-padding p-4 border-4 border-dashed w-32 ...\" style=\"background-image: url(...)\"><\/div>\n<div class=\"bg-origin-content p-4 border-4 border-dashed w-32 ...\" style=\"background-image: url(...)\"><\/div>\n<\/div>\n",
+        "updated_at": "2024-08-13 05:10:13"
+    }
+}

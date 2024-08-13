@@ -1,0 +1,8 @@
+{
+    "items": {
+        "code": "<div class=\"flex flex-wrap w-16 bg-gray-300\">\n  <div class=\"w-6 bg-green-300\">01<\/div>\n  <div class=\"w-6 bg-blue-300\">02<\/div>\n  <div class=\"w-6 bg-red-300\">03<\/div>\n<\/div>",
+        "title": "Basic usage - Wrap normally",
+        "description": "플렉스 항목을 래핑하려면 flex-wrap을 사용하세요.\n",
+        "updated_at": "2024-08-07 13:56:41"
+    }
+}

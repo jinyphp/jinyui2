@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "상위 요소의 높이가 정의되어 있는 한, 요소의 높이를 상위 요소의 100%로 설정하려면 h-full을 사용하세요.\n",
+        "title": "Full height",
+        "code": "<div class=\"h-48\">\n  <div class=\"h-full bg-red-300\">\nh-full\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-12 08:53:57"
+    }
+}

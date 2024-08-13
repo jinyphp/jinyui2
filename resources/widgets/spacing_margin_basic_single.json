@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Add margin to a single side",
+        "description": "mt-*, mr-*, mb-* 및 ml-* 유틸리티를 사용하여 요소 한쪽의 여백을 제어합니다. 예를 들어, mt-6은 요소 상단에 1.5rem의 여백을 추가하고, mr-4는 요소 오른쪽에 1rem의 여백을 추가합니다. mb-8은 요소 하단에 2rem의 여백을 추가하고, ml-2는 요소 왼쪽에 0.5rem의 여백을 추가합니다.\n\n\n",
+        "code": "<div class=\"mt-6 w-32 bg-red-300\">mt-6<\/div>\n<div class=\"mr-4 w-32 bg-blue-300\">mr-4<\/div>\n<div class=\"mb-8 w-32 bg-yellow-300\">mb-8<\/div>\n<div class=\"ml-2  w-32 bg-green-300\">ml-2<\/div>",
+        "updated_at": "2024-08-12 08:33:56"
+    }
+}

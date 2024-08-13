@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Spanning rows",
+        "description": "row-span-* 유틸리티를 사용하여 요소를 n개 행으로 확장합니다.\n",
+        "code": "<div class=\"grid grid-rows-3 grid-flow-col gap-4\">\n  <div class=\"row-span-3 ...\">01<\/div>\n  <div class=\"col-span-2 ...\">02<\/div>\n  <div class=\"row-span-2 col-span-2 ...\">03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:42:44"
+    }
+}

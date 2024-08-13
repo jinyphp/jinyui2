@@ -1,0 +1,8 @@
+{
+    "items": {
+        "description": "text-left, text-center, text-right 및 text-justify 유틸리티를 사용하여 요소의 텍스트 정렬을 제어합니다.\n",
+        "title": "Setting the text alignment",
+        "code": "<h2>text-left<\/h2>\n<p class=\"text-left ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>text-center<\/h2>\n<p class=\"text-center ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>text-right<\/h2>\n<p class=\"text-right ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n<h2>text-justify<\/h2>\n<p class=\"text-justify ...\">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.<\/p>\n",
+        "updated_at": "2024-08-12 17:31:25"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "None",
+        "description": "줄 바꿈 제안 &shy;이 있어도 단어에 하이픈이 추가되지 않도록 하려면 하이픈 없음을 사용하세요. 사용됩니다:\n",
+        "code": "<p class=\"hyphens-none ...\">\nOfficially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeug­&shy;haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.<\/p>",
+        "updated_at": "2024-08-12 18:11:46"
+    }
+}

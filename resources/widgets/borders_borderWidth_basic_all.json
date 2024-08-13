@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "All sides",
+        "description": "border, border-0, border-2, border-4 또는 border-8 유틸리티를 사용하여 요소의 모든 측면에 대한 테두리 너비를 설정하세요.\n",
+        "code": "<div class=\"flex gap-4\">\n<div class=\"border border-indigo-600 size-10\"><\/div>\n<div class=\"border-2 border-indigo-600 size-10\"><\/div>\n<div class=\"border-4 border-indigo-600 size-10\"><\/div>\n<div class=\"border-8 border-indigo-600 size-10\"><\/div>\n<\/div>",
+        "updated_at": "2024-08-13 05:40:07"
+    }
+}

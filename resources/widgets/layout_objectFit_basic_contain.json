@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Containing an element",
+        "description": "컨테이너 내에 포함되도록 요소의 콘텐츠 크기를 조정하려면 object-contain 유틸리티를 사용하세요.",
+        "code": "<div class=\"bg-purple-300 w-20\">\n  <img class=\"object-contain h-48 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<\/div>\n",
+        "updated_at": "2024-08-07 10:44:33"
+    }
+}

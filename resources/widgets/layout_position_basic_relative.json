@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Relatively positioning elements",
+        "description": "문서의 일반적인 흐름에 따라 요소를 배치하려면 relative 유틸리티를 사용하십시오. 모든 오프셋은 요소의 일반 위치를 기준으로 계산되며 요소는 절대 위치에 있는 하위 요소에 대한 위치 참조 역할을 합니다.\n",
+        "code": "<div class=\"relative bg-blue-300 h-20\">\n  <p>Relative parent<\/p>\n  <div class=\"absolute bottom-0 left-0 bg-blue-600\">\n    <p>Absolute child<\/p>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-07 11:21:37"
+    }
+}

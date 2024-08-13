@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Repeat Horizontally",
+        "description": "배경 이미지를 수평으로만 반복하려면 bg-repeat-x를 사용하세요.\n",
+        "code": "<div class=\"bg-repeat-x bg-center ...\" style=\"background-image: url(...)\"><\/div>\n",
+        "updated_at": "2024-08-13 05:16:23"
+    }
+}

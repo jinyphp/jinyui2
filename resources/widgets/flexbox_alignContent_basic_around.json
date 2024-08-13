@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Space around",
+        "description": "각 줄 주위에 동일한 양의 공간이 있도록 컨테이너의 행을 배포하려면 content-around를 사용하십시오.\n",
+        "code": "<div class=\"h-56 grid grid-cols-3 gap-4 content-around ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:29:17"
+    }
+}

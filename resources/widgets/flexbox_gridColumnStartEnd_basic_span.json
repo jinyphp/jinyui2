@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Spanning columns",
+        "description": "col-span-* 유틸리티를 사용하여 요소를 n개 열로 확장합니다.\n",
+        "code": "<div class=\"grid grid-cols-3 gap-4\">\n  <div class=\"...\">01<\/div>\n  <div class=\"...\">02<\/div>\n  <div class=\"...\">03<\/div>\n  <div class=\"col-span-2 ...\">04<\/div>\n  <div class=\"...\">05<\/div>\n  <div class=\"...\">06<\/div>\n  <div class=\"col-span-2 ...\">07<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 14:35:17"
+    }
+}

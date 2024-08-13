@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Break Spaces",
+        "description": "요소 내의 개행 문자와 공백을 유지하려면 공백-중단 공백을 사용하세요. 줄 끝의 공백은 멈추지 않고 다음 줄로 넘어갑니다.\n",
+        "code": "<div class=\"w-3\/4 ...\">\n  <div class=\"whitespace-break-spaces ...\">Hey everyone!\n\nIt's almost 2022       and we still don't know if there       is aliens living among us, or do we? Maybe the person writing this is an alien.\n\nYou will never know.<\/div>\n<\/div>",
+        "updated_at": "2024-08-12 18:06:21"
+    }
+}

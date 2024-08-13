@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Clearing right-floated elements",
+        "description": "오른쪽에 떠 있는 이전 요소 아래에 요소를 배치하려면 Clear-right 유틸리티를 사용하세요.\n",
+        "code": "<article class='w-64'>\n  <img class=\"float-left w-12\" src=\".\/..\/..\/assets\/jinyPHP.jpeg\">\n  <img class=\"float-right w-10\" src=\".\/..\/..\/assets\/jinyPHP.jpeg\">\n  <p class=\"clear-right ...\">Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better? Look. If you think this is about overdue fines and missing books, you'd better think again. This is about that kid's right to read a book without getting his mind warped! Or: maybe that turns you on, Seinfeld; maybe that's how y'get your kicks. You and your good-time buddies.<\/p>\n<\/article>",
+        "updated_at": "2024-08-06 11:31:17"
+    }
+}

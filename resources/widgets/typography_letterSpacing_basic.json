@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the letter spacing",
+        "description": "요소의 문자 간격을 제어하려면 추적-* 유틸리티를 사용하십시오.\n",
+        "code": "<h2>tracking-tight<\/h2>\n<p class=\"tracking-tight ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>tracking-normal<\/h2>\n<p class=\"tracking-normal ...\">The quick brown fox jumps over the lazy dog.<\/p>\n<h2>tracking-wide<\/h2>\n<p class=\"tracking-wide ...\">The quick brown fox jumps over the lazy dog.<\/p>",
+        "updated_at": "2024-08-12 10:57:36"
+    }
+}

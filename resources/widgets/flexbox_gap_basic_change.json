@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Changing row and column gaps independently",
+        "description": "열과 행 사이의 간격을 독립적으로 변경하려면 gap-x-* 및 gap-y-* 유틸리티를 사용하십시오.",
+        "code": "<div class=\"grid gap-x-8 gap-y-4 grid-cols-3\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div>06<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 16:01:15"
+    }
+}

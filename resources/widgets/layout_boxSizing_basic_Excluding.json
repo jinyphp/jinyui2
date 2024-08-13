@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Excluding borders and padding",
+        "description": "box-content 유틸리티를 사용하여 요소의 상자 크기를 content-box로 설정하고 브라우저에 요소의 지정된 너비 또는 높이 위에 테두리와 패딩을 추가하도록 지시합니다.\n이는 2px 테두리와 4px의 패딩이 있는 100px × 100px 요소가 실제로 112px × 112px로 렌더링되고 내부 콘텐츠 영역이 100px × 100px임을 의미합니다.\n\n",
+        "code": "<div class=\"box-content h-32 w-32 p-4 border-4 bg-blue-300\">\n<\/div>",
+        "updated_at": "2024-08-06 10:39:24"
+    }
+}

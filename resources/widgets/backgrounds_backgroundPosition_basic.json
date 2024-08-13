@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Setting the background position",
+        "description": "요소의 배경 이미지 위치에 bg-center, bg-right 및 bg-left-top과 같은 유틸리티를 사용하십시오.\n",
+        "code": "<div class=\"bg-no-repeat bg-left-top ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-top ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-right-top ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-left ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-center ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-right ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-left-bottom ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-bottom ...\" style=\"background-image: url(...);\"><\/div>\n<div class=\"bg-no-repeat bg-right-bottom ...\" style=\"background-image: url(...);\"><\/div>",
+        "updated_at": "2024-08-13 05:13:10"
+    }
+}

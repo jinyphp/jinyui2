@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Scaling down if too large",
+        "description": "요소의 콘텐츠를 원래 크기로 표시하지만 필요한 경우 컨테이너에 맞게 크기를 축소하려면 object-scale-down 유틸리티를 사용하세요.\n",
+        "code": "<div class=\"bg-cyan-300\">\n  <img class=\"object-scale-down h-48 w-96 ...\" src=\".\/..\/..\/assets\/jinyerp.svg\">\n<\/div>",
+        "updated_at": "2024-08-07 10:45:22"
+    }
+}

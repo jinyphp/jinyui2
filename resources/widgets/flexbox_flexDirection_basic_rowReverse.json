@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Basic usage - Row reversed",
+        "description": "flex-row-reverse를 사용하여 플렉스 항목을 반대 방향으로 수평으로 배치합니다.\n",
+        "code": "<div class=\"flex flex-row-reverse ...\">\n  <div class='w-10 h-10 bg-red-300'>01<\/div>\n  <div class='w-10 h-10 bg-yellow-300'>02<\/div>\n  <div class='w-10 h-10 bg-green-300'>03<\/div>\n<\/div>",
+        "updated_at": "2024-08-07 13:46:20"
+    }
+}
