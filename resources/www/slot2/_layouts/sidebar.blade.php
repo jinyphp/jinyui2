@@ -22,7 +22,6 @@
 -->
 <div>
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
-    <!-- Static sidebar for desktop -->
     <div class="sticky z-10  flex w-72 flex-col" style="height:90vh; top:76px;">
         <!-- Sidebar component, swap this element with another sidebar if you like -->
         <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-3 pb-4">
@@ -32,11 +31,15 @@
             </div>
             <nav class="flex flex-1 flex-col">
                 <ul role="list" class="flex flex-1 flex-col gap-y-7">
-
-                    <x-www-sidebarlink></x-www-sidebarlink>
                     <li>
-                        <div class="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
-                        <ul role="list" class="-mx-2 mt-2 space-y-1">
+                        <div class="text-xs font-semibold leading-6 text-gray-400">Component</div>
+                        <x-www-sidebarlink></x-www-sidebarlink>
+                    </li>
+                    
+                    
+                    <li>
+                        <div class="text-xl font-semibold leading-6 text-gray-400">Your teams</div>
+                        <ul role="list" class="mx-4 mt-2 space-y-1">
                             <li>
                                 <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
                                 <a href="#"
