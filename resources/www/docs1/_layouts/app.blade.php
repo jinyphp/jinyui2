@@ -33,6 +33,8 @@
     <link rel="preload" href="/assets/css/theme.min.css" as="style">
     <link rel="stylesheet" href="/assets/css/theme.min.css" id="theme-styles">
 
+    @vite('resources/css/test/main.scss')
+
     <!-- Docs specific styles -->
     <style>
     .cd-section {
