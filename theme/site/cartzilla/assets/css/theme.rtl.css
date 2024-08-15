@@ -3391,9 +3391,6 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
 
 .collapsing {
   height: 0;
@@ -14687,7 +14684,7 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 .navbar-expand.navbar-stuck .navbar-stuck-hide:not(.collapse):not(.collapsing) {
   display: none !important;
 }
-.navbar-expand.navbar-stuck .navbar-stuck-hide.collapse:not(.show) {
+.navbar-expand.navbar-stuck .navbar-stuck-hide {
   display: none;
 }
 

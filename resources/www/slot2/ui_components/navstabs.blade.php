@@ -11,7 +11,7 @@
     @livewire('WidgetCode-Component', [
     'filename' => "component_navstabs_baseNav2"
 ])
-    @livewire('WidgetCode-Component', [
+    @livewire('WidgetText', [
     'filename' => "component_navstabs_able"
 ])
     @livewire('WidgetCode-Component', [

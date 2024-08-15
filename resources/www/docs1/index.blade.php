@@ -1,5 +1,9 @@
 <x-www-app>
     <main>
+
+        <x-www_link-box></x-www_link-box>
+        
+        
         <div class="container">
 
             <section class="container py-lg-8 py-5" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
@@ -23,6 +27,7 @@
                     </div>
                 </div>
             </section>
+            
 
             <!-- Page title -->
             <section class="py-2 pb-3 pb-lg-4">

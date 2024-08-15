@@ -277,14 +277,12 @@ $colors-map: (
         @return $color;
     }
 }
-
-// background color
-// @each $color, $value in $colors-map {
-//     .bg-#{$color} {
-//         --tw-bg-opacity: 1;
-//         background-color: $value;
-//     }
-// }
+@each $color, $value in $colors-map {
+    .bg-#{$color} {
+        --tw-bg-opacity: 1;
+        background-color: $value;
+    }
+}
 
 // .group:hover {
 //     @each $color, $value in $colors-map {
