@@ -2,7 +2,7 @@
     "items": {
         "title": "Applying conditionally",
         "description": "Tailwind를 사용하면 변형 수정자를 사용하여 다양한 상태에서 유틸리티 클래스를 조건부로 적용할 수 있습니다. 예를 들어 hover:absolute를 사용하면 마우스 오버 시 absolute 유틸리티만 적용할 수 있습니다.",
-        "code": "<div class=\"relative hover:absolute\">\n  <!-- ... -->\n<\/div>",
-        "updated_at": "2024-08-07 11:27:12"
+        "code": " <div class=\"mx-auto bg-white p-6 rounded-lg shadow-lg\">\n        <h1 class=\"text-2xl font-bold mb-6\">조건부 포지셔닝 간단 예제<\/h1>\n        \n        <div class=\"relative bg-gray-200 p-4 h-40 mb-8\">\n            <!-- Hover example -->\n            <div class=\"relative p-2 bg-blue-500 text-white hover:absolute hover:top-0 hover:right-0 transition-all duration-300 cursor-pointer\">\n                호버 시 우측 상단으로\n            <\/div>\n        <\/div>\n\n        <div class=\"relative bg-gray-200 p-4 h-40\">\n            <!-- Responsive example -->\n            <div class=\"absolute bottom-0 left-0 p-2 bg-green-500 text-white md:relative md:bottom-auto md:left-auto transition-all duration-300\">\n                중간 화면에서 relative로 변경\n            <\/div>\n        <\/div>\n\n        <div class=\"mt-8\">\n            <h2 class=\"text-xl font-bold mb-4\">설명:<\/h2>\n            <ul class=\"list-disc pl-5\">\n                <li><code class=\"bg-gray-200 px-1 rounded\">hover:<\/code> 접두사를 사용하여 마우스 오버 시 스타일을 변경합니다.<\/li>\n                <li><code class=\"bg-gray-200 px-1 rounded\">md:<\/code> 접두사를 사용하여 중간 크기 화면에서 스타일을 변경합니다.<\/li>\n                <li>이러한 조건부 클래스들을 사용하여 다양한 상황에 따라 요소의 위치와 스타일을 동적으로 변경할 수 있습니다.<\/li>\n            <\/ul>\n        <\/div>\n    <\/div>",
+        "updated_at": "2024-08-16 05:56:08"
     }
 }

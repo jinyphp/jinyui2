@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_gradientColorStops_title"])
         @livewire('WidgetCode-Component', [
@@ -14,4 +14,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "backgrounds_gradientColorStops_apply"])
         
-</x-www-layout>
+</x-www_layout2>

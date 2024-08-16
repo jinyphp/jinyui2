@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "sizing_maxWidth_title"])
         @livewire('WidgetCode-Component', [
@@ -12,4 +12,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "sizing_maxWidth_apply"])
         
-</x-www-layout>
+</x-www_layout2>

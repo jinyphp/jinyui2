@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_margin_title"])
 
@@ -12,4 +12,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "spacing_margin_apply"])
         
-</x-www-layout>
+</x-www_layout2>

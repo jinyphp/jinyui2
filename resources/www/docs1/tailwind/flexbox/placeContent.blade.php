@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_placeContent_title"])
         @livewire('WidgetCode-Component', [
@@ -19,4 +19,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "flexbox_placeContent_apply"])
         
-</x-www-layout>
+</x-www_layout2>

@@ -98,6 +98,7 @@
 
     <!-- Back to top button -->
     @partials("back_to_top")
+    @livewire('HotKeyEvent')
 
     <x-set-actions></x-set-actions>
     <x-site-setting></x-site-setting>

@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "borders_borderRadius_title"])
         @livewire('WidgetCode-Component', [
@@ -15,4 +15,4 @@
                     'filename' => "borders_borderRadius_basic_logical"])    
           @livewire('WidgetCode-Component', [
             'filename' => "borders_borderRadius_apply"])
-</x-www-layout>
+</x-www_layout2>

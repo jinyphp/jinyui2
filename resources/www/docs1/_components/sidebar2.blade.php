@@ -1,200 +1,153 @@
 @php
 $jsonData = '{
-"items": {
-"1": {
-"code": "navlink",
-"name": "background",
-"navlink": "/tailwind/backgrounds/backgroundAttachment",
-"ref": 0,
-"level": 1,
-"id": 1
-},
-"2": {
-"code": "navlink",
-"name": "경고창",
-"navlink": "/ui_components/alert",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"3": {
-"code": "navlink",
-"name": "배지",
-"navlink": "/ui_components/badge",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"4": {
-"code": "navlink",
-"name": "브레드크럼",
-"navlink": "/ui_components/breadcrumb",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"5": {
-"code": "navlink",
-"name": "버튼",
-"navlink": "/ui_components/button",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"6": {
-"code": "navlink",
-"name": "버튼 그룹",
-"navlink": "/ui_components/buttongroup",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"7": {
-"code": "navlink",
-"name": "카드",
-"navlink": "/ui_components/card",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"8": {
-"code": "navlink",
-"name": "캐러셀",
-"navlink": "/ui_components/carousel",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"9": {
-"code": "navlink",
-"name": "닫기 버튼",
-"navlink": "/ui_components/closebutton",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"10": {
-"code": "navlink",
-"name": "콜랩스",
-"navlink": "/ui_components/collapse",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"11": {
-"code": "navlink",
-"name": "드롭다운",
-"navlink": "/ui_components/dropdown",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"12": {
-"code": "navlink",
-"name": "목록 그룹",
-"navlink": "/ui_components/listgroup",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"13": {
-"code": "navlink",
-"name": "모달",
-"navlink": "/ui_components/modal",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"14": {
-"code": "navlink",
-"name": "내비게이션 바",
-"navlink": "/ui_components/navbar",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"15": {
-"code": "navlink",
-"name": "내비게이션 & 탭",
-"navlink": "/ui_components/navstabs",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"16": {
-"code": "navlink",
-"name": "오프캔버스",
-"navlink": "/ui_components/offcanvas",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"17": {
-"code": "navlink",
-"name": "페이지네이션",
-"navlink": "/ui_components/pagination",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"18": {
-"code": "navlink",
-"name": "플레이스홀더",
-"navlink": "/ui_components/placeholers",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"19": {
-"code": "navlink",
-"name": "팝오버",
-"navlink": "/ui_components/popovers",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"20": {
-"code": "navlink",
-"name": "프로그레스",
-"navlink": "/ui_components/progress",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"21": {
-"code": "navlink",
-"name": "스크롤스파이",
-"navlink": "/ui_components/scrollspy",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"22": {
-"code": "navlink",
-"name": "스피너",
-"navlink": "/ui_components/spinners",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"23": {
-"code": "navlink",
-"name": "토스트",
-"navlink": "/ui_components/toasts",
-"ref": 0,
-"level": 1,
-"id": 2
-},
-"24": {
-"code": "navlink",
-"name": "툴팁",
-"navlink": "/ui_components/tooltips",
-"ref": 0,
-"level": 1,
-"id": 2
-}
-}
-
+  "items": [
+    {
+      "name": "backgrounds",
+      "navlink": "/tailwind/backgrounds",
+      "children": [
+        {"name": "Background Attachment", "navlink": "/tailwind/backgrounds/backgroundAttachment"},
+        {"name": "Background Clip", "navlink": "/tailwind/backgrounds/backgroundClip"},
+        {"name": "Background Color", "navlink": "/tailwind/backgrounds/backgroundColor"},
+        {"name": "Background Image", "navlink": "/tailwind/backgrounds/backgroundImage"},
+        {"name": "Background Origin", "navlink": "/tailwind/backgrounds/backgroundOrigin"},
+        {"name": "Background Position", "navlink": "/tailwind/backgrounds/backgroundPosition"},
+        {"name": "Background Repeat", "navlink": "/tailwind/backgrounds/backgroundRepeat"},
+        {"name": "Background Size", "navlink": "/tailwind/backgrounds/backgroundSize"},
+        {"name": "Gradient Color Stops", "navlink": "/tailwind/backgrounds/gradientColorStops"}
+      ]
+    },
+    {
+      "name": "borders",
+      "navlink": "/tailwind/borders",
+      "children": [
+        {"name": "Border Color", "navlink": "/tailwind/borders/borderColor"},
+        {"name": "Border Radius", "navlink": "/tailwind/borders/borderRadius"},
+        {"name": "Border Style", "navlink": "/tailwind/borders/borderStyle"},
+        {"name": "Border Width", "navlink": "/tailwind/borders/borderWidth"},
+        {"name": "Divide Color", "navlink": "/tailwind/borders/divideColor"},
+        {"name": "Divide Style", "navlink": "/tailwind/borders/divideStyle"},
+        {"name": "Divide Width", "navlink": "/tailwind/borders/divideWidth"},
+        {"name": "Outline Color", "navlink": "/tailwind/borders/outlineColor"},
+        {"name": "Outline Offset", "navlink": "/tailwind/borders/outlineOffset"},
+        {"name": "Outline Style", "navlink": "/tailwind/borders/outlineStyle"},
+        {"name": "Outline Width", "navlink": "/tailwind/borders/outlineWidth"},
+        {"name": "Ring Color", "navlink": "/tailwind/borders/ringColor"},
+        {"name": "Ring Width", "navlink": "/tailwind/borders/ringWidth"}
+      ]
+    },
+    {
+      "name": "flexbox",
+      "navlink": "/tailwind/flexbox",
+      "children": [
+        {"name": "Align Content", "navlink": "/tailwind/flexbox/alignContent"},
+        {"name": "Align Items", "navlink": "/tailwind/flexbox/alignItems"},
+        {"name": "Align Self", "navlink": "/tailwind/flexbox/alignSelf"},
+        {"name": "Flex", "navlink": "/tailwind/flexbox/flex"},
+        {"name": "Flex Basis", "navlink": "/tailwind/flexbox/flexBasis"},
+        {"name": "Flex Direction", "navlink": "/tailwind/flexbox/flexDirection"},
+        {"name": "Flex Grow", "navlink": "/tailwind/flexbox/flexGrow"},
+        {"name": "Flex Shrink", "navlink": "/tailwind/flexbox/flexShrink"},
+        {"name": "Flex Wrap", "navlink": "/tailwind/flexbox/flexWrap"},
+        {"name": "Gap", "navlink": "/tailwind/flexbox/gap"},
+        {"name": "Grid Auto Columns", "navlink": "/tailwind/flexbox/gridAutoColumns"},
+        {"name": "Grid Auto Flow", "navlink": "/tailwind/flexbox/gridAutoFlow"},
+        {"name": "Grid Auto Rows", "navlink": "/tailwind/flexbox/gridAutoRows"},
+        {"name": "Grid Column Start/End", "navlink": "/tailwind/flexbox/gridColumnStartEnd"},
+        {"name": "Grid Row Start/End", "navlink": "/tailwind/flexbox/gridRowStartEnd"},
+        {"name": "Grid Template Columns", "navlink": "/tailwind/flexbox/gridTemplateColumns"},
+        {"name": "Grid Template Rows", "navlink": "/tailwind/flexbox/gridTemplateRows"},
+        {"name": "Justify Content", "navlink": "/tailwind/flexbox/justifyContent"},
+        {"name": "Justify Items", "navlink": "/tailwind/flexbox/justifyItems"},
+        {"name": "Justify Self", "navlink": "/tailwind/flexbox/justifySelf"},
+        {"name": "Order", "navlink": "/tailwind/flexbox/order"},
+        {"name": "Place Content", "navlink": "/tailwind/flexbox/placeContent"},
+        {"name": "Place Items", "navlink": "/tailwind/flexbox/placeItems"},
+        {"name": "Place Self", "navlink": "/tailwind/flexbox/placeSelf"}
+      ]
+    },
+    {
+      "name": "layout",
+      "navlink": "/tailwind/layout",
+      "children": [
+        {"name": "Aspect Ratio", "navlink": "/tailwind/layout/aspectRatio"},
+        {"name": "Box Decoration Break", "navlink": "/tailwind/layout/boxDecorationBreak"},
+        {"name": "Box Sizing", "navlink": "/tailwind/layout/boxSizing"},
+        {"name": "Break After", "navlink": "/tailwind/layout/breakAfter"},
+        {"name": "Break Before", "navlink": "/tailwind/layout/breakBefore"},
+        {"name": "Break Inside", "navlink": "/tailwind/layout/breakInside"},
+        {"name": "Clear", "navlink": "/tailwind/layout/clear"},
+        {"name": "Columns", "navlink": "/tailwind/layout/columns"},
+        {"name": "Container", "navlink": "/tailwind/layout/container"},
+        {"name": "Display", "navlink": "/tailwind/layout/display"},
+        {"name": "Floats", "navlink": "/tailwind/layout/floats"},
+        {"name": "Isolation", "navlink": "/tailwind/layout/isolation"},
+        {"name": "Object Fit", "navlink": "/tailwind/layout/objectFit"},
+        {"name": "Object Position", "navlink": "/tailwind/layout/objectPosition"},
+        {"name": "Overflow", "navlink": "/tailwind/layout/overflow"},
+        {"name": "Overscroll Behavior", "navlink": "/tailwind/layout/overscrollBehavior"},
+        {"name": "Position", "navlink": "/tailwind/layout/position"},
+        {"name": "Top/Right/Bottom/Left", "navlink": "/tailwind/layout/topRightBottomLeft"},
+        {"name": "Visibility", "navlink": "/tailwind/layout/visibility"},
+        {"name": "Z-Index", "navlink": "/tailwind/layout/zindex"}
+      ]
+    },
+    {
+      "name": "sizing",
+      "navlink": "/tailwind/sizing",
+      "children": [
+        {"name": "Height", "navlink": "/tailwind/sizing/height"},
+        {"name": "Max Height", "navlink": "/tailwind/sizing/maxHeight"},
+        {"name": "Max Width", "navlink": "/tailwind/sizing/maxWidth"},
+        {"name": "Min Height", "navlink": "/tailwind/sizing/minHeight"},
+        {"name": "Min Width", "navlink": "/tailwind/sizing/minWidth"},
+        {"name": "Size", "navlink": "/tailwind/sizing/size"},
+        {"name": "Width", "navlink": "/tailwind/sizing/width"}
+      ]
+    },
+    {
+      "name": "spacing",
+      "navlink": "/tailwind/spacing",
+      "children": [
+        {"name": "Margin", "navlink": "/tailwind/spacing/margin"},
+        {"name": "Padding", "navlink": "/tailwind/spacing/padding"},
+        {"name": "Space Between", "navlink": "/tailwind/spacing/spaceBetween"}
+      ]
+    },
+    {
+      "name": "typography",
+      "navlink": "/tailwind/typography",
+      "children": [
+        {"name": "Content", "navlink": "/tailwind/typography/content"},
+        {"name": "Font Family", "navlink": "/tailwind/typography/fontFamily"},
+        {"name": "Font Size", "navlink": "/tailwind/typography/fontSize"},
+        {"name": "Font Smoothing", "navlink": "/tailwind/typography/fontSmoothing"},
+        {"name": "Font Style", "navlink": "/tailwind/typography/fontStyle"},
+        {"name": "Font Variant Numeric", "navlink": "/tailwind/typography/fontVariantNumeric"},
+        {"name": "Font Weight", "navlink": "/tailwind/typography/fontWeight"},
+        {"name": "Hyphens", "navlink": "/tailwind/typography/hyphens"},
+        {"name": "Letter Spacing", "navlink": "/tailwind/typography/letterSpacing"},
+        {"name": "Line Clamp", "navlink": "/tailwind/typography/lineClamp"},
+        {"name": "Line Height", "navlink": "/tailwind/typography/lineHeight"},
+        {"name": "List Style Image", "navlink": "/tailwind/typography/listStyleImage"},
+        {"name": "List Style Position", "navlink": "/tailwind/typography/listStylePosition"},
+        {"name": "List Style Type", "navlink": "/tailwind/typography/listStyleType"},
+        {"name": "Text Align", "navlink": "/tailwind/typography/textAlign"},
+        {"name": "Text Color", "navlink": "/tailwind/typography/textColor"},
+        {"name": "Text Decoration", "navlink": "/tailwind/typography/textDecoration"},
+        {"name": "Text Decoration Color", "navlink": "/tailwind/typography/textDecorationColor"},
+        {"name": "Text Decoration Style", "navlink": "/tailwind/typography/textDecorationStyle"},
+        {"name": "Text Decoration Thickness", "navlink": "/tailwind/typography/textDecorationThickness"},
+        {"name": "Text Indent", "navlink": "/tailwind/typography/textIndent"},
+        {"name": "Text Overflow", "navlink": "/tailwind/typography/textOverflow"},
+        {"name": "Text Transform", "navlink": "/tailwind/typography/textTransform"},
+        {"name": "Text Underline Offset", "navlink": "/tailwind/typography/textUnderlineOffset"},
+        {"name": "Text Wrap", "navlink": "/tailwind/typography/textWrap"},
+        {"name": "Vertical Align", "navlink": "/tailwind/typography/verticalAlign"},
+        {"name": "Whitespace", "navlink": "/tailwind/typography/whitespace"},
+        {"name": "Word Break", "navlink": "/tailwind/typography/wordBreak"}
+      ]
+    }
+  ]
 }';
 
 $items = json_decode($jsonData, true)['items'];
@@ -218,56 +171,91 @@ $items = json_decode($jsonData, true)['items'];
 
         <div class="offcanvas-body d-block flex-grow-1 overflow-hidden pt-0 pe-0 pb-lg-2">
             <div id="scrollable" class="h-100 overflow-y-auto pe-4">
-                <nav class="docs-list list-group list-group-borderless" onclick="closeSidebar()">
+                <nav class="docs-list list-group list-group-borderless">
                     <h3 class="h6 d-flex align-items-center pb-1 mb-2">
                         <i class="ci-book fs-lg text-success me-2"></i>
                         Getting started
                     </h3>
 
-
-                    <div class="dropdown">
-                        <span
-                            class="list-group-item list-group-item-action justify-content-between dropdown-toggle pe-3 pe-none active">
-                            Installation
-                            <span class="visually-hidden">setup npm prerequisites</span>
-                        </span>
-                        <ul id="anchorNav" class="nav nav-underline flex-column border-start ms-2 my-2"
-                            style="gap: .25rem;">
-                            <li class="nav-item"><a class="nav-link fw-normal" href="#prerequisites">Prerequisites</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link fw-normal" href="#dev-environment">Dev
-                                    environment</a></li>
-                            <li class="nav-item"><a class="nav-link fw-normal" href="#editor-cli">Text editor or CLI</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link fw-normal" href="#install-node">Installing Node.js,
-                                    npm and dependencies</a></li>
-                        </ul>
-                    </div>
                     @foreach($items as $item)
-                    <div class="dropend">
+                    <div class="dropdown">
                         <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle text-wrap pe-3"
-                            href="{{ $item['navlink'] }}">
-
+                           href="#" onclick="toggleDropdown(event, this)">
                             {{ $item['name'] }}
-                            <span class="visually-hidden">dev build styles:compile styles:minify scripts:compile
-                                scripts:minify icon-font vendor validate watch dist</span>
                         </a>
+                        @if(isset($item['children']) && count($item['children']) > 0)
+                            <ul class="dropdown-menu">
+                                @foreach($item['children'] as $child)
+                                    <li><a class="dropdown-item" href="{{ $child['navlink'] }}">{{ $child['name'] }}</a></li>
+                                @endforeach
+                            </ul>
+                        @endif
                     </div>
-
                     @endforeach
-                    <!-- <li>
-    @foreach($items as $item) -->
-                    <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
-                    <!-- <a href="{{ $item['navlink'] }}"
-            class="group flex gap-x-6 rounded-md p-2 text-sm font-semibold leading-6 text-black {{ request()->is(ltrim($item['navlink'], '/')) ? 'bg-gray-300' : '' }}">
-
-            {{ $item['name'] }}
-        </a>
-    @endforeach
-</li> -->
-
+                    
                 </nav>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+function toggleDropdown(event, element) {
+    event.preventDefault();
+    const dropdownMenu = element.nextElementSibling;
+    if (dropdownMenu && dropdownMenu.classList.contains('dropdown-menu')) {
+        dropdownMenu.classList.toggle('show');
+        
+        // Close other open dropdowns
+        const allDropdowns = document.querySelectorAll('.dropdown-menu');
+        allDropdowns.forEach(dropdown => {
+            if (dropdown !== dropdownMenu && dropdown.classList.contains('show')) {
+                dropdown.classList.remove('show');
+            }
+        });
+    }
+}
+
+// Close dropdowns when clicking outside
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('.dropdown')) {
+        const openDropdowns = document.querySelectorAll('.dropdown-menu.show');
+        openDropdowns.forEach(dropdown => {
+            dropdown.classList.remove('show');
+        });
+    }
+});
+
+function closeSidebar() {
+    const sidebarNav = document.getElementById('sidebarNav');
+    if (sidebarNav.classList.contains('show')) {
+        const bsOffcanvas = new bootstrap.Offcanvas(sidebarNav);
+        bsOffcanvas.hide();
+    }
+}
+</script>
+
+<style>
+.dropdown-menu {
+    display: none;
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.dropdown-menu.show {
+    display: block;
+}
+.dropdown-item {
+    padding: 0.25rem 1rem;
+    color: inherit;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+</style>

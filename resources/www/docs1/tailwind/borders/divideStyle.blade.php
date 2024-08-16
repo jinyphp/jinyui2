@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_divideStyle_title"])
         @livewire('WidgetCode-Component', [
@@ -6,4 +6,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "borders_divideStyle_apply"])
         
-</x-www-layout>
+</x-www_layout2>

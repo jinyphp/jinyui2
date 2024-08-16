@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "borders_borderWidth_title"])
         @livewire('WidgetCode-Component', [
@@ -14,4 +14,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "borders_borderWidth_apply"])
 
-</x-www-layout>
+</x-www_layout2>

@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_flexDirection_title"])
         @livewire('WidgetCode-Component', [
@@ -13,4 +13,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "flexbox_flexDirection_apply"])
       
-</x-www-layout>
+</x-www_layout2>

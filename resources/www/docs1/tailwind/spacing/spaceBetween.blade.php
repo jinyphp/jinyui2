@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "spacing_spaceBetween_title"])
         @livewire('WidgetCode-Component', [
@@ -14,4 +14,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "spacing_spaceBetween_apply"])
         
-</x-www-layout>
+</x-www_layout2>
