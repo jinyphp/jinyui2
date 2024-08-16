@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "typography_letterSpacing_title"])
     @livewire('WidgetCode-Component', [
@@ -8,4 +8,4 @@
     @livewire('WidgetCode-Component', [
         'filename' => "typography_letterSpacing_apply"])
     
-</x-www-layout>
+</x-www_layout2>

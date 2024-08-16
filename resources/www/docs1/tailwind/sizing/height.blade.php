@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "sizing_height_title"])
         @livewire('WidgetCode-Component', [
@@ -16,4 +16,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "sizing_height_apply"])
         
-</x-www-layout>
+</x-www_layout2>

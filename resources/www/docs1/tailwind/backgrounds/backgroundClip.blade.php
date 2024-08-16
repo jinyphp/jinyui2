@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
     'filename' => "layout_backgroundClip_title"])
     @livewire('WidgetCode-Component', [
@@ -8,4 +8,4 @@
     @livewire('WidgetCode-Component', [
     'filename' => "backgrounds_backgroundClip_apply"])
 
-</x-www-layout>
+    </x-www_layout2>

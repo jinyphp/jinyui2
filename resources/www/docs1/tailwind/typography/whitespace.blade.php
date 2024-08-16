@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "typography_whitespace_title"])
     @livewire('WidgetCode-Component', [
@@ -15,4 +15,4 @@
                   'filename' => "typography_whitespace_basic_breakspace"])
     @livewire('WidgetCode-Component', [
         'filename' => "typography_whitespace_apply"])
-</x-www-layout>
+</x-www_layout2>

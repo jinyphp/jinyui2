@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "typography_textDecorationThickness_title"])
     @livewire('WidgetCode-Component', [
@@ -6,4 +6,4 @@
     @livewire('WidgetCode-Component', [
         'filename' => "typography_textDecorationThickness_apply"])
     
-</x-www-layout>
+</x-www_layout2>

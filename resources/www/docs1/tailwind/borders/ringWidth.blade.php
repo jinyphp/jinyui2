@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_ringWidth_title"])
         @livewire('WidgetCode-Component', [
@@ -10,4 +10,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "borders_ringWidth_apply"])
         
-</x-www-layout>
+</x-www_layout2>

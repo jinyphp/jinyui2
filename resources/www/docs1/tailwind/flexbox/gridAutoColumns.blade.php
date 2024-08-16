@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_gridAutoColumns_title"])
         @livewire('WidgetCode-Component', [
@@ -6,4 +6,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "flexbox_gridAutoColumns_apply"])
         
-</x-www-layout>
+</x-www_layout2>

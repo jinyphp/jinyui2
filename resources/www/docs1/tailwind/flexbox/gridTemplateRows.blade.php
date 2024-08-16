@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_gridTemplateRows_title"])
         @livewire('WidgetCode-Component', [
@@ -8,4 +8,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "flexbox_gridTemplateRows_apply"])
         
-</x-www-layout>
+</x-www_layout2>

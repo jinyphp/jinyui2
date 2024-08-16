@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "typography_wordBreak_title"])
     @livewire('WidgetCode-Component', [
@@ -12,4 +12,4 @@
     @livewire('WidgetCode-Component', [
         'filename' => "typography_wordBreak_apply"])
     
-</x-www-layout>
+</x-www_layout2>

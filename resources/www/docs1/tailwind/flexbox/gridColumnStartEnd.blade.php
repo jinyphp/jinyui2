@@ -1,4 +1,4 @@
-<x-www-layout>
+<x-www_layout2>
     @livewire('WidgetTitle', [
         'filename' => "layout_gridColumnStartEnd_title"])
         @livewire('WidgetCode-Component', [
@@ -8,4 +8,4 @@
           @livewire('WidgetCode-Component', [
             'filename' => "flexbox_gridColumnStartEnd_apply"])
         
-</x-www-layout>
+</x-www_layout2>
