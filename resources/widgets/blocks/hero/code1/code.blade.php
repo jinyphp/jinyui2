@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="text-center mb-xl-7 mb-5">
-                    <h2 class="h1 mb-3">Our articles on agency!!!??안녕하세요</h2>
+                    <h2 class="h1 mb-3">Our articles on agency.</h2>
                     <p class="mb-0">At least, not exclusively. Reduced
                         recruiting costs, more efficient and effective
                         communication.</p>
@@ -17,7 +17,7 @@
                 <article class="col-lg-4 col-md-6 col-12">
                     <figure class="mb-4 zoom-img">
                         <a href="../blog-single.html">
-                            <img src="https://block.codescandy.com/blocks/assets/images/blog/blog-img-3.jpg"
+                            <img src="https://block.codescandy.com/assets/images/blog/blog-img-3.jpg"
                                 alt="blog" class="img-fluid rounded-3" />
                         </a>
                     </figure>
@@ -32,7 +32,7 @@
                     <div
                         class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
                         <div class="d-flex align-items-center">
-                            <img src="https://block.codescandy.com/blocks/assets/images/avatar/avatar-8.jpg"
+                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
                                 alt="Avatar"
                                 class="avatar avatar-xs rounded-circle" />
                             <div class="ms-2">
@@ -47,7 +47,7 @@
                 <article class="col-lg-4 col-md-6 col-12">
                     <figure class="mb-4 zoom-img">
                         <a href="../blog-single.html">
-                            <img src="https://block.codescandy.com/blocks/assets/images/blog/blog-img-5.jpg"
+                            <img src="https://block.codescandy.com/assets/images/blog/blog-img-5.jpg"
                                 alt="blog" class="img-fluid rounded-3" />
                         </a>
                     </figure>
@@ -62,7 +62,7 @@
                     <div
                         class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
                         <div class="d-flex align-items-center">
-                            <img src="https://block.codescandy.com/blocks/assets/images/avatar/avatar-6.jpg"
+                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-6.jpg"
                                 alt="Avatar"
                                 class="avatar avatar-xs rounded-circle" />
                             <div class="ms-2">
@@ -77,7 +77,7 @@
                 <article class="col-lg-4 col-md-6 col-12">
                     <figure class="mb-4 zoom-img">
                         <a href="../blog-single.html">
-                            <img src="https://block.codescandy.com/blocks/assets/images/blog/blog-img-4.jpg"
+                            <img src="https://block.codescandy.com/assets/images/blog/blog-img-4.jpg"
                                 alt="blog" class="img-fluid rounded-3" />
                         </a>
                     </figure>
@@ -92,7 +92,7 @@
                     <div
                         class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
                         <div class="d-flex align-items-center">
-                            <img src="https://block.codescandy.com/blocks/assets/images/avatar/avatar-4.jpg"
+                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-4.jpg"
                                 alt="Avatar"
                                 class="avatar avatar-xs rounded-circle" />
                             <div class="ms-2">
