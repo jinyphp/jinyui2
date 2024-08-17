@@ -1,30 +1,44 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_buttongroup_code1"])
+        'filename' => 'components/buttongroup/code1',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code2"])
+        'filename' => 'components/buttongroup/code2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code3"])
+        'filename' => 'components/buttongroup/code3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code4"])
+        'filename' => 'components/buttongroup/code4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code5"])
+        'filename' => 'components/buttongroup/code5',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code6"])
+        'filename' => 'components/buttongroup/code6',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code7"])
+        'filename' => 'components/buttongroup/code7',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code8"])
+        'filename' => 'components/buttongroup/code8',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code10"])
+        'filename' => 'components/buttongroup/code10',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code11"])
+        'filename' => 'components/buttongroup/code11',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code12"])
+        'filename' => 'components/buttongroup/code12',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code13"])
+        'filename' => 'components/buttongroup/code13',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code14"])
+        'filename' => 'components/buttongroup/code14',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_buttongroup_code15"])
+        'filename' => 'components/buttongroup/code15',
+    ])
 </x-www-layout>

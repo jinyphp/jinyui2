@@ -1,91 +1,91 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_popovers_title"
-])
+        'filename' => 'components/popovers/title',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_popovers_overview"
-])
+        'filename' => 'components/popovers/overview',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_popovers_overview_note"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">예시</h2>
-</x-www-preview>
+        'filename' => 'components/popovers/overview_note',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">예시</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_enablePopovers"
-])
+        'filename' => 'components/popovers/enablePopovers',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_popovers_livedemo"
-])
+        'filename' => 'components/popovers/livedemo',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_popovers_fourDirections"
-])
+        'filename' => 'components/popovers/fourDirections',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_coustomContainer",
-])
+        'filename' => 'components/popovers/coustomContainer',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_coustomContainer2"
-])
+        'filename' => 'components/popovers/coustomContainer2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_coustomPopovers"
-])
+        'filename' => 'components/popovers/coustomPopovers',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_popovers_coustomPopovers2"
-])
+        'filename' => 'components/popovers/coustomPopovers2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_popovers_dismissOnNextClick"
-])
+        'filename' => 'components/popovers/dismissOnNextClick',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_dismissOnNextClick2"
-])
+        'filename' => 'components/popovers/dismissOnNextClick2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_popovers_disabledElement"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+        'filename' => 'components/popovers/disabledElement',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_variables"
-])
+        'filename' => 'components/popovers/variables',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_Sass"
-])
+        'filename' => 'components/popovers/Sass',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_Usage"
-])
+        'filename' => 'components/popovers/Usage',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_popovers_Useage_note"
-])
+        'filename' => 'components/popovers/Useage_note',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_popovers_option"
-])
+        'filename' => 'components/popovers/option',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_popovers_optionTable"
-])
+        'filename' => 'components/popovers/optionTable',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_popovers_optionTable_note"
-])
+        'filename' => 'components/popovers/optionTable_note',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_USingFunction"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">메소드</h2>
-</x-www-preview>
+        'filename' => 'components/popovers/USingFunction',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">메소드</h2>
+    </x-www-preview>
     @livewire('WidgetTableStyle2', [
-    'filename' => "component_popovers_methodTable"
-])
+        'filename' => 'components/popovers/methodTable',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_method"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">이벤트</h2>
-</x-www-preview>
+        'filename' => 'components/popovers/method',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">이벤트</h2>
+    </x-www-preview>
     @livewire('WidgetTableStyle3', [
-    'filename' => "component_popovers_eventTable"
-])
+        'filename' => 'components/popovers/eventTable',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_popovers_event"
-])
+        'filename' => 'components/popovers/event',
+    ])
 
 
 

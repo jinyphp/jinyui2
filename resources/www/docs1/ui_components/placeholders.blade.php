@@ -1,37 +1,37 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_placeholders_title"
-])
+        'filename' => 'components/placeholders/title',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_Intro"
-])
+        'filename' => 'components/placeholders/Intro',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_example"
-])
+        'filename' => 'components/placeholders/example',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_howItWorks"
-])
+        'filename' => 'components/placeholders/howItWorks',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_placeholders_howItWorks_note"
-])
+        'filename' => 'components/placeholders/howItWorks_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_width"
-])
+        'filename' => 'components/placeholders/width',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_color"
-])
+        'filename' => 'components/placeholders/color',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_sizing"
-])
+        'filename' => 'components/placeholders/sizing',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_placeholders_animation"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+        'filename' => 'components/placeholders/animation',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_placeholders_Sass"
-])
+        'filename' => 'components/placeholders/Sass',
+    ])
 
 
 </x-www-layout>

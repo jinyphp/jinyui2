@@ -1,25 +1,42 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_accordion_code1"])
+        'filename' => 'components/accordion/code1',
+    ])
+
     @livewire('WidgetText', [
-    'filename' => "component_accordion_works"])
+        'filename' => 'components/accordion/works',
+    ])
+
     @livewire('WidgetNote', [
-    'filename' => "component_accordion_about_note"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_accordion_code2"
+        'filename' => 'components/accordion/about_note',
     ])
+
     @livewire('WidgetCode-Component', [
-    'filename' => "component_accordion_code3"
+        'filename' => 'components/accordion/code2',
     ])
+
     @livewire('WidgetCode-Component', [
-    'filename' => "component_accordion_code4"])
+        'filename' => 'components/accordion/code3',
+    ])
+
+    @livewire('WidgetCode-Component', [
+        'filename' => 'components/accordion/code4',
+    ])
+
     @livewire('WidgetText', [
-    'filename' => "component_accordion_css"])
+        'filename' => 'components/accordion/css',
+    ])
+
     @livewire('WidgetText', [
-    'filename' => "component_accordion_accessibility"])
+        'filename' => 'components/accordion/accessibility',
+    ])
+
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_accordion_code5"])
+        'filename' => 'components/accordion/code5',
+    ])
+
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_accordion_sass"])
+        'filename' => 'components/accordion/sass',
+    ])
 
 </x-www-layout>

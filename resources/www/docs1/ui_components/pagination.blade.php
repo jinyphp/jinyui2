@@ -1,42 +1,42 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_pagination_title"
-])
+        'filename' => 'components/pagination/title',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_overview"
-])
+        'filename' => 'components/pagination/overview',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_workingWithIcons"
-])
+        'filename' => 'components/pagination/workingWithIcons',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_disabledAndAcriveStates"
-])
+        'filename' => 'components/pagination/disabledAndAcriveStates',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_disabledAndAcriveStates2"
-])
+        'filename' => 'components/pagination/disabledAndAcriveStates2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_sizing"
-])
+        'filename' => 'components/pagination/sizing',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_sizing2"
-])
+        'filename' => 'components/pagination/sizing2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_alignment"
-])
+        'filename' => 'components/pagination/alignment',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_pagination_alignment2"
-])
-<x-www-preview>
-    <h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+        'filename' => 'components/pagination/alignment2',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_pagination_variables"
-])
+        'filename' => 'components/pagination/variables',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_pagination_sass"
-])
+        'filename' => 'components/pagination/sass',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_pagination_sassMixins"
-])
+        'filename' => 'components/pagination/sassMixins',
+    ])
 
 </x-www-layout>

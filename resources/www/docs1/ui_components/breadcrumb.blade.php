@@ -1,32 +1,46 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_breadcrumb_code1"])
+        'filename' => 'components/breadcrumb/code1',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_breadcrumb_code2"])
+        'filename' => 'components/breadcrumb/code2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_breadcrumb_code3"])
+        'filename' => 'components/breadcrumb/code3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_breadcrumb_code5"])
+        'filename' => 'components/breadcrumb/code5',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_breadcrumb_accesibility"])
+        'filename' => 'components/breadcrumb/accesibility',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_breadcrumb_code4"])
+        'filename' => 'components/breadcrumb/code4',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_breadcrumb_code6"])
+        'filename' => 'components/breadcrumb/code6',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_breadcrumb_code7"])
+        'filename' => 'components/breadcrumb/code7',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_breadcrumb_none"])
+        'filename' => 'components/breadcrumb/none',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_breadcrumb_access"])
+        'filename' => 'components/breadcrumb/access',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_breadcrumb_css"])
+        'filename' => 'components/breadcrumb/css',
+    ])
 
 
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_breadcrumb_code8"])
+        'filename' => 'components/breadcrumb/code8',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_breadcrumb_code10"])
+        'filename' => 'components/breadcrumb/code10',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_breadcrumb_code11"])
+        'filename' => 'components/breadcrumb/code11',
+    ])
 </x-www-layout>

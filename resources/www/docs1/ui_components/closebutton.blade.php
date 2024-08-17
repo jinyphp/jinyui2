@@ -1,19 +1,27 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_closebutton_code1"])
+        'filename' => 'components/closebutton/code1',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_closebutton_code2"])
+        'filename' => 'components/closebutton/code2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_closebutton_code3"])
+        'filename' => 'components/closebutton/code3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_closebutton_code4"])
-    @livewire('WidgetNote',[
-    'filename' => "component_closebutton_note"])
+        'filename' => 'components/closebutton/code4',
+    ])
+    @livewire('WidgetNote', [
+        'filename' => 'components/closebutton/note',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_closebutton_code5"])
+        'filename' => 'components/closebutton/code5',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_closebutton_code6"])
+        'filename' => 'components/closebutton/code6',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_closebutton_code7"])
+        'filename' => 'components/closebutton/code7',
+    ])
 
 </x-www-layout>

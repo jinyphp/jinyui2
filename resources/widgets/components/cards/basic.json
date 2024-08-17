@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Basic example",
+        "code": "<!-- Basic card example -->\n<div class=\"card\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n    <a class=\"btn btn-primary\" href=\"#\">Go somewhere<\/a>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-16 17:48:54"
+    }
+}

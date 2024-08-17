@@ -1,64 +1,91 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_alert_code1"])
+        'filename' => 'components/alert/code1',
+    ])
 
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code2"])
+        'filename' => 'components/alert/code2',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_alert_about_note"])
+        'filename' => 'components/alert/about_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code3"])
+        'filename' => 'components/alert/code3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_js"])
+        'filename' => 'components/alert/js',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code5"])
+        'filename' => 'components/alert/code5',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code6"])
+        'filename' => 'components/alert/code6',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code7"])
+        'filename' => 'components/alert/code7',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code8"])
+        'filename' => 'components/alert/code8',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_alert_code9"])
+        'filename' => 'components/alert/code9',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_alert_about_note2"])
+        'filename' => 'components/alert/about_note2',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_alert_css"])
+        'filename' => 'components/alert/css',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code11"])
+        'filename' => 'components/alert/code11',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code12"])
+        'filename' => 'components/alert/code12',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code13"])
+        'filename' => 'components/alert/code13',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code14"])
+        'filename' => 'components/alert/code14',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_alert_javascript"])
+        'filename' => 'components/alert/javascript',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code15"])
+        'filename' => 'components/alert/code15',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_alert_about_for"])
+        'filename' => 'components/alert/about_for',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code16"])
+        'filename' => 'components/alert/code16',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code17"])
+        'filename' => 'components/alert/code17',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_alert_note"])
+        'filename' => 'components/alert/note',
+    ])
 
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_methods"])
+        'filename' => 'components/alert/methods',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_alert_data"])
+        'filename' => 'components/alert/data',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_alert_methods_table"
+        'filename' => 'components/alert/methods_table',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code18"])
+        'filename' => 'components/alert/code18',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_alert_code19"])
+        'filename' => 'components/alert/code19',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_alert_methods_table_events"
+        'filename' => 'components/alert/methods_table_events',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_alert_code20"])
+        'filename' => 'components/alert/code20',
+    ])
 </x-www-layout>
