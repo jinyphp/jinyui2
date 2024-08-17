@@ -5,11 +5,9 @@
         <!-- Sidebar navigation -->
         <aside class="col-lg-3 pe-xl-4">
 
-            {{$sidebar}}
+            <x-www-sidebar>
 
-            {{-- <x-www-sidebar>
-
-            </x-www-sidebar> --}}
+            </x-www-sidebar>
         </aside>
 
         <!-- Page content -->
