@@ -2,7 +2,7 @@
     "items": {
         "title": "No style",
         "description": "요소에서 기존 테두리 스타일을 제거하려면 border-none을 사용하세요. 이는 더 작은 중단점에 적용된 테두리 스타일을 제거하는 데 가장 일반적으로 사용됩니다.",
-        "code": "<button class=\"border-none p-1\">Save Changes<\/button>\n",
-        "updated_at": "2024-08-13 05:51:44"
+        "code": "<div class=\"mx-auto bg-white p-6 rounded-lg shadow-lg\">\n    <h1 class=\"text-2xl font-bold mb-4\">border-none 반응형 예제<\/h1>\n    \n    <div class=\"border-4 border-blue-500 p-4 mb-4 md:border-none transition-all duration-300\">\n        <p class=\"text-lg font-semibold\">반응형 테두리 예제<\/p>\n        <p>이 요소는 작은 화면에서는 테두리가 있지만, 중간 크기 이상의 화면에서는 테두리가 제거됩니다.<\/p>\n    <\/div>\n\n    <div class=\"mt-8\">\n        <h2 class=\"text-xl font-semibold mb-2\">설명:<\/h2>\n        <ul class=\"list-disc pl-5\">\n            <li><code class=\"bg-gray-200 px-1 rounded\">md:border-none<\/code>을 사용하여 중간 크기(768px) 이상의 화면에서 테두리를 제거합니다.<\/li>\n            <li>화면 크기를 조절해보세요. 768px를 기준으로 테두리가 나타나거나 사라집니다.<\/li>\n        <\/ul>\n        <p class=\"mt-4\">\n            이 예제는 <code class=\"bg-gray-200 px-1 rounded\">border-none<\/code>을 사용하여 특정 화면 크기에서 \n            테두리를 제거하는 방법을 보여줍니다. 이는 반응형 디자인에서 레이아웃을 조정하거나 \n            시각적 요소를 단순화할 때 유용합니다.\n        <\/p>\n    <\/div>\n<\/div>\n",
+        "updated_at": "2024-08-16 06:13:39"
     }
 }
