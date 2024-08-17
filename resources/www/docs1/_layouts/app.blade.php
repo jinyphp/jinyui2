@@ -37,7 +37,10 @@
     @vite('resources/css2/scss/app-saas.scss')
     -->
     @vite('resources/css/test/main.scss')
+    @vite('resources/css/test/default.min.css')
 
+
+    
 
     <!-- popover 실행을 위한-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
@@ -83,6 +86,8 @@
 <!-- Body -->
 
 <body data-bs-spy="scroll" data-bs-target="#anchorNav">
+    
+
 
     <x-www-header>
 
@@ -129,6 +134,44 @@
             })
         })()
     </script>
+        <!-- highliter.js-->
+    @vite('resources/js/core.js')
+    @vite('resources/js/javascript.js')
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof hljs !== 'undefined') {
+                hljs.highlightAll();
+            } else {
+                console.error('hljs is not defined');
+            }
+        });
+    </script>
+    
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    if (window.hljs) {
+        document.querySelectorAll('pre code').forEach((block) => {
+            if (block.dataset.highlighted) {
+                // 이미 하이라이팅된 경우, 데이터 속성을 제거
+                delete block.dataset.highlighted;
+            }
+
+            // 하이라이팅 적용
+            const result = window.hljs.highlightAuto(block.textContent || '');
+            block.innerHTML = result.value;
+
+            // 하이라이팅이 적용된 코드 블록에 데이터 속성 추가
+            block.dataset.highlighted = 'yes';
+        });
+
+        console.log('hljs is available and highlighting applied with auto detection');
+    } else {
+        console.error('hljs is not defined');
+    }
+});
+</script>
 </body>
 
 </html>
