@@ -1,42 +1,46 @@
-<x-www-layout>
-    @livewire('WidgetTitle', [
-        'filename' => 'components/accordion/code1',
-    ])
+<x-www-app>
 
-    @livewire('WidgetText', [
-        'filename' => 'components/accordion/works',
-    ])
+    <x-www-layout>
+        @livewire('WidgetTitle', [
+            'filename' => 'components/accordion/code1',
+        ])
 
-    @livewire('WidgetNote', [
-        'filename' => 'components/accordion/about_note',
-    ])
+        @livewire('WidgetText', [
+            'filename' => 'components/accordion/works',
+        ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'components/accordion/code2',
-    ])
+        @livewire('WidgetNote', [
+            'filename' => 'components/accordion/about_note',
+        ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'components/accordion/code3',
-    ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/accordion/code2',
+        ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'components/accordion/code4',
-    ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/accordion/code3',
+        ])
 
-    @livewire('WidgetText', [
-        'filename' => 'components/accordion/css',
-    ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/accordion/code4',
+        ])
 
-    @livewire('WidgetText', [
-        'filename' => 'components/accordion/accessibility',
-    ])
+        @livewire('WidgetText', [
+            'filename' => 'components/accordion/css',
+        ])
 
-    @livewire('WidgetOnlyCode', [
-        'filename' => 'components/accordion/code5',
-    ])
+        @livewire('WidgetText', [
+            'filename' => 'components/accordion/accessibility',
+        ])
 
-    @livewire('WidgetOnlyCode', [
-        'filename' => 'components/accordion/sass',
-    ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/accordion/code5',
+        ])
 
-</x-www-layout>
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/accordion/sass',
+        ])
+
+    </x-www-layout>
+
+</x-www-app>
