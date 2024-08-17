@@ -1,135 +1,135 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_navstabs_title"
-])
+        'filename' => 'components/navstabs/title',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_baseNav"
-])
+        'filename' => 'components/navstabs/baseNav',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_navstabs_baseNav_note"
-])
+        'filename' => 'components/navstabs/baseNav_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_baseNav2"
-])
+        'filename' => 'components/navstabs/baseNav2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_able"
-])
+        'filename' => 'components/navstabs/able',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_horizontalAlignment"
-])
+        'filename' => 'components/navstabs/horizontalAlignment',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_horizontalAlignment2"
-])
+        'filename' => 'components/navstabs/horizontalAlignment2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_vertical"
-])
+        'filename' => 'components/navstabs/vertical',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_vertical2"
-])
+        'filename' => 'components/navstabs/vertical2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_tabs"
-])
+        'filename' => 'components/navstabs/tabs',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_pills"
-])
+        'filename' => 'components/navstabs/pills',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_underline"
-])
+        'filename' => 'components/navstabs/underline',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify"
-])
+        'filename' => 'components/navstabs/fillAndJustify',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify2"
-])
+        'filename' => 'components/navstabs/fillAndJustify2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify3"
-])
+        'filename' => 'components/navstabs/fillAndJustify3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify4"
-])
+        'filename' => 'components/navstabs/fillAndJustify4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_workingWithFlexUtilities"
-])
+        'filename' => 'components/navstabs/workingWithFlexUtilities',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navstabs_ac"
-])
+        'filename' => 'components/navstabs/ac',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navstabs_UsingDropdown"
-])
+        'filename' => 'components/navstabs/UsingDropdown',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_tabsWithDropdowns"
-])
+        'filename' => 'components/navstabs/tabsWithDropdowns',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_pillsWithDropdowns"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+        'filename' => 'components/navstabs/pillsWithDropdowns',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables"
-])
+        'filename' => 'components/navstabs/variables',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables2"
-])
+        'filename' => 'components/navstabs/variables2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables3"
-])
+        'filename' => 'components/navstabs/variables3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables4"
-])
+        'filename' => 'components/navstabs/variables4',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_sass"
-])
+        'filename' => 'components/navstabs/sass',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior"
-])
+        'filename' => 'components/navstabs/javaScriptBehavior',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior2"
-])
+        'filename' => 'components/navstabs/javaScriptBehavior2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior3"
-])
+        'filename' => 'components/navstabs/javaScriptBehavior3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior4"
-])
+        'filename' => 'components/navstabs/javaScriptBehavior4',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navstabs_access"
-])
+        'filename' => 'components/navstabs/access',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_navstabs_access_note1"
-])
+        'filename' => 'components/navstabs/access_note1',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_navstabs_access_note2"
-])
+        'filename' => 'components/navstabs/access_note2',
+    ])
 
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_UsingDataAttributes"
-])
+        'filename' => 'components/navstabs/UsingDataAttributes',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_viaJavaScript"
-])
+        'filename' => 'components/navstabs/viaJavaScript',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_viaJavaScript2"
-])
+        'filename' => 'components/navstabs/viaJavaScript2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_fadeEffect"
-])
+        'filename' => 'components/navstabs/fadeEffect',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navstabs_method"
-])
+        'filename' => 'components/navstabs/method',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_navstabs_method_note"
-])
+        'filename' => 'components/navstabs/method_note',
+    ])
     @livewire('WidgetTableStyle2', [
-    'filename' => "component_navstabs_method_table1"
-])
+        'filename' => 'components/navstabs/method_table1',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navstabs_event"
-])
+        'filename' => 'components/navstabs/event',
+    ])
     @livewire('WidgetTableStyle3', [
-    'filename' => "component_navstabs_event_table"
-])
+        'filename' => 'components/navstabs/event_table',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_event_table"
-])
+        'filename' => 'components/navstabs/event_table',
+    ])
 </x-www-layout>

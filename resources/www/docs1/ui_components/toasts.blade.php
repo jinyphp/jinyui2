@@ -1,87 +1,87 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_toasts_title"
+        'filename' => 'components/toasts/title',
     ])
     @livewire('WidgetText', [
-    'filename' => "component_toasts_toast"
+        'filename' => 'components/toasts/toast',
     ])
     @livewire('WidgetText', [
-    'filename' => "component_toasts_overview"
+        'filename' => 'components/toasts/overview',
     ])
     <h2>Examples</h2>
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_basic"
+        'filename' => 'components/toasts/basic',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_live_example"
+        'filename' => 'components/toasts/live_example',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_live_example2"
+        'filename' => 'components/toasts/live_example2',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_translucent"
+        'filename' => 'components/toasts/translucent',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_stacking"
+        'filename' => 'components/toasts/stacking',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_custom_content"
+        'filename' => 'components/toasts/custom_content',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_custom_content2"
+        'filename' => 'components/toasts/custom_content2',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_color_schemes"
+        'filename' => 'components/toasts/color_schemes',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_placement"
+        'filename' => 'components/toasts/placement',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_placement2"
+        'filename' => 'components/toasts/placement2',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_placement3"
+        'filename' => 'components/toasts/placement3',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_accessibility"
+        'filename' => 'components/toasts/accessibility',
     ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_toasts_accessibility2"
+        'filename' => 'components/toasts/accessibility2',
     ])
     <h2>CSS</h2>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_variables"
+        'filename' => 'components/toasts/variables',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_sass"
+        'filename' => 'components/toasts/sass',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_usage"
+        'filename' => 'components/toasts/usage',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_triggers"
+        'filename' => 'components/toasts/triggers',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_triggers2"
+        'filename' => 'components/toasts/triggers2',
     ])
     @livewire('WidgetText', [
-    'filename' => "component_toasts_option"
+        'filename' => 'components/toasts/option',
     ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_toasts_optionTable"
+        'filename' => 'components/toasts/optionTable',
     ])
     @livewire('WidgetText', [
-    'filename' => "component_toasts_method"
+        'filename' => 'components/toasts/method',
     ])
     @livewire('WidgetTableStyle2', [
-    'filename' => "component_toasts_methodTable"
+        'filename' => 'components/toasts/methodTable',
     ])
     <h2>Events</h2>
     @livewire('WidgetTableStyle3', [
-    'filename' => "component_toasts_event"
+        'filename' => 'components/toasts/event',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_toasts_event2"
+        'filename' => 'components/toasts/event2',
     ])
 
 </x-www-layout>

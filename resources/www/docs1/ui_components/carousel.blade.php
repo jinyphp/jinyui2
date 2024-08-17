@@ -1,64 +1,95 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_carousel_code1"])
+        'filename' => 'components/carousel/code1',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code2"])
+        'filename' => 'components/carousel/code2',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_carousel_note"])
+        'filename' => 'components/carousel/note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code3"])
+        'filename' => 'components/carousel/code3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code4"])
+        'filename' => 'components/carousel/code4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code5"])
+        'filename' => 'components/carousel/code5',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code6"])
+        'filename' => 'components/carousel/code6',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code7"])
+        'filename' => 'components/carousel/code7',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_carousel_accessibility"])
+        'filename' => 'components/carousel/accessibility',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code8"])
+        'filename' => 'components/carousel/code8',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code9"])
+        'filename' => 'components/carousel/code9',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code10"])
+        'filename' => 'components/carousel/code10',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code11"])
+        'filename' => 'components/carousel/code11',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code12"])
+        'filename' => 'components/carousel/code12',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_carousel_caution"])
+        'filename' => 'components/carousel/caution',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_carousel_code13"])
+        'filename' => 'components/carousel/code13',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code14"])
+        'filename' => 'components/carousel/code14',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code15"])
+        'filename' => 'components/carousel/code15',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code16"])
+        'filename' => 'components/carousel/code16',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code17"])
+        'filename' => 'components/carousel/code17',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code18"])
+        'filename' => 'components/carousel/code18',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code19"])
+        'filename' => 'components/carousel/code19',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_code20"])
+        'filename' => 'components/carousel/code20',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_option"])
+        'filename' => 'components/carousel/option',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_carousel_table_option"])
+        'filename' => 'components/carousel/table_option',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_carousel_api"])
+        'filename' => 'components/carousel/api',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_carousel_method"])
+        'filename' => 'components/carousel/method',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_methods"])
+        'filename' => 'components/carousel/methods',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_carousel_table_method"])
+        'filename' => 'components/carousel/table_method',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_carousel_events"])
+        'filename' => 'components/carousel/events',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_carousel_table_events"])
+        'filename' => 'components/carousel/table_events',
+    ])
 </x-www-layout>

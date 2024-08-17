@@ -1,18 +1,25 @@
-<x-www-app><x-www-layout>
+<x-www-app>
+    <x-www_layout-component>
 
-    <!-- Page title -->
-    <section class="py-2 pb-sm-3">
-        <a class="badge d-inline-flex align-items-center text-info bg-info-subtle fw-semibold text-decoration-none py-2 px-3 mb-2 rounded-pill"
-            href="https://getbootstrap.com/docs/5.3/components/card/" target="_blank" rel="noreferrer">
-            Bootstrap docs
-            <i class="ci-external-link fs-sm ms-1"></i>
-        </a>
-        <h1 class="pt-1">Card</h1>
-        <p class="text-body-secondary mb-4">Flexible and extensible content container.</p>
-    </section>
+        <!-- Page title -->
+        <section class="py-2 pb-sm-3">
+            <a class="badge d-inline-flex align-items-center text-info bg-info-subtle fw-semibold text-decoration-none py-2 px-3 mb-2 rounded-pill"
+                href="https://getbootstrap.com/docs/5.3/components/card/" target="_blank" rel="noreferrer">
+                Bootstrap docs
+                <i class="ci-external-link fs-sm ms-1"></i>
+            </a>
+            <h1 class="pt-1">Card</h1>
+            <p class="text-body-secondary mb-4">Flexible and extensible content container.</p>
+        </section>
+
+        {{-- Component Card Basic --}}
+        @livewire('WidgetCode-Component', [
+            'filename' => "components/cards/basic",
+            'viewList'=> "www::docs1._widgets.preview"])
 
 
-    <!-- Basic example -->
+
+    {{-- <!-- Basic example -->
     <section id="card-basic" class="cd-section pb-sm-2 mb-5">
         <h4>Basic example</h4>
         <div class="card border-0 shadow">
@@ -67,11 +74,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
+    @livewire('WidgetCode-Component', [
+        'filename' => "components/cards/alternative",
+        'viewList'=> "www::docs1._widgets.preview"])
 
     <!-- Alternative card style -->
-    <section id="card-alt-style" class="cd-section pb-sm-2 mb-5">
+    {{-- <section id="card-alt-style" class="cd-section pb-sm-2 mb-5">
         <h4>Alternative card style</h4>
         <div class="card border-0 shadow">
             <span class="d-none d-block-dark position-absolute top-0 start-0 w-100 h-100 bg-dark rounded"
@@ -144,7 +154,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <!-- Image caps -->
@@ -1921,4 +1931,7 @@
             </div>
         </div>
     </section>
-</x-www-layout></x-www-app>
+
+
+    </x-www_layout-component>
+</x-www-app>

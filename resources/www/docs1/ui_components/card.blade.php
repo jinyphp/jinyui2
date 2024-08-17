@@ -1,88 +1,134 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_card_code1"])
+        'filename' => 'components/card/code1',
+    ])
+
     @livewire('WidgetText', [
-    'filename' => "component_card_code2"])
+        'filename' => 'components/card/code2',
+    ])
+
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code3"])
+        'filename' => 'components/card/code3',
+    ])
+
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code6"])
+        'filename' => 'components/card/code6',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code4"])
+        'filename' => 'components/card/code4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code5"])
+        'filename' => 'components/card/code5',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code7"])
+        'filename' => 'components/card/code7',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code8"])
+        'filename' => 'components/card/code8',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code9"])
+        'filename' => 'components/card/code9',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code10"])
+        'filename' => 'components/card/code10',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code11"])
+        'filename' => 'components/card/code11',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code12"])
+        'filename' => 'components/card/code12',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code13"])
+        'filename' => 'components/card/code13',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code14"])
+        'filename' => 'components/card/code14',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code15"])
+        'filename' => 'components/card/code15',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code16"])
+        'filename' => 'components/card/code16',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code17"])
+        'filename' => 'components/card/code17',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code18"])
+        'filename' => 'components/card/code18',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code19"])
+        'filename' => 'components/card/code19',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code20"])
+        'filename' => 'components/card/code20',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code21"])
+        'filename' => 'components/card/code21',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code22"])
+        'filename' => 'components/card/code22',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code23"])
+        'filename' => 'components/card/code23',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code24"])
+        'filename' => 'components/card/code24',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code25"])
+        'filename' => 'components/card/code25',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_card_note"])
+        'filename' => 'components/card/note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code26"])
+        'filename' => 'components/card/code26',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code27"])
+        'filename' => 'components/card/code27',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code28"])
+        'filename' => 'components/card/code28',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_card_accessibility"])
+        'filename' => 'components/card/accessibility',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code29"])
+        'filename' => 'components/card/code29',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code30"])
+        'filename' => 'components/card/code30',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code31"])
+        'filename' => 'components/card/code31',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code32"])
+        'filename' => 'components/card/code32',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code33"])
+        'filename' => 'components/card/code33',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code34"])
+        'filename' => 'components/card/code34',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code35"])
+        'filename' => 'components/card/code35',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code36"])
+        'filename' => 'components/card/code36',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_card_code37"])
+        'filename' => 'components/card/code37',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code38"])
+        'filename' => 'components/card/code38',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code39"])
+        'filename' => 'components/card/code39',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code40"])
+        'filename' => 'components/card/code40',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_card_code41"])
+        'filename' => 'components/card/code41',
+    ])
 </x-www-layout>

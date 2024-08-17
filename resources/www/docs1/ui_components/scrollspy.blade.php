@@ -1,49 +1,49 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_scrollspy_title"
-])
+        'filename' => 'components/scrollspy/title',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_scrollspy_howItWorks"
-])
-<h2>Examples</h2>
+        'filename' => 'components/scrollspy/howItWorks',
+    ])
+    <h2>Examples</h2>
     @livewire('WidgetCode-Component', [
-    'filename' => "component_scrollspy_navbar"
-])
+        'filename' => 'components/scrollspy/navbar',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_scrollspy_nestedNav"
-])
+        'filename' => 'components/scrollspy/nestedNav',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_scrollspy_listGroup"
-])
+        'filename' => 'components/scrollspy/listGroup',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_scrollspy_simpleAnchors"
-])
+        'filename' => 'components/scrollspy/simpleAnchors',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_scrollspy_NonVisibleElements"
-])
-<h2>Usage</h2>
+        'filename' => 'components/scrollspy/NonVisibleElements',
+    ])
+    <h2>Usage</h2>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_scrollspy_viaDataAttributes"
-])
+        'filename' => 'components/scrollspy/viaDataAttributes',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_scrollspy_viaJavaScript"
-])
+        'filename' => 'components/scrollspy/viaJavaScript',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_scrollspy_option"
-])
+        'filename' => 'components/scrollspy/option',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_scrollspy_optionTable"
-]) 
+        'filename' => 'components/scrollspy/optionTable',
+    ])
     @livewire('WidgetTableStyle2', [
-    'filename' => "component_scrollspy_methodTable"
-]) 
+        'filename' => 'components/scrollspy/methodTable',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_scrollspy_method"
-])
+        'filename' => 'components/scrollspy/method',
+    ])
     @livewire('WidgetTableStyle3', [
-    'filename' => "component_scrollspy_eventTable"
-])
+        'filename' => 'components/scrollspy/eventTable',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_scrollspy_event"
-]) 
+        'filename' => 'components/scrollspy/event',
+    ])
 </x-www-layout>

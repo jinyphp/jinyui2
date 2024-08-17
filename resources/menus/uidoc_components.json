@@ -1,0 +1,47 @@
+{
+    "items": [
+        {
+            "title": "Accordion",
+            "header": false,
+            "updated_at": "2024-08-16 17:05:55"
+        },
+        {
+            "title": "Alerts"
+        },
+        {
+            "title": "Blog components"
+        },
+        {
+            "title": "Buttons",
+            "items": [
+                {
+                    "title": "Solid"
+                },
+                {
+                    "title": "Outline"
+                },
+                {
+                    "title": "Static icons"
+                },
+                {
+                    "title": "Animated icons"
+                },
+                {
+                    "title": "Market buttons"
+                },
+                {
+                    "title": "Shapes"
+                },
+                {
+                    "title": "Sizes"
+                },
+                {
+                    "title": "States"
+                }
+            ]
+        },
+        {
+            "title": "Badges"
+        }
+    ]
+}

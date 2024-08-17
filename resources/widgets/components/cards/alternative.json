@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "Alternative card style",
+        "code": "<!-- Alternative card style: no border + gray background -->\n<div class=\"card bg-body-tertiary border-0\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n    <a class=\"btn btn-primary\" href=\"#\">Go somewhere<\/a>\n  <\/div>\n<\/div>\n\n<!-- Alternative card style: no border + shadow -->\n<div class=\"card border-0 shadow\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Card title<\/h5>\n    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.<\/p>\n    <a class=\"btn btn-primary\" href=\"#\">Go somewhere<\/a>\n  <\/div>\n<\/div>",
+        "updated_at": "2024-08-16 17:56:14"
+    }
+}

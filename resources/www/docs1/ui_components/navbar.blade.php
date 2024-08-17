@@ -1,130 +1,130 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_navbar_title"
-])
+        'filename' => 'components/navbar/title',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navbar_how"
-])
+        'filename' => 'components/navbar/how',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_navbar_how_note"
-])
+        'filename' => 'components/navbar/how_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_supportedContent"
-])
+        'filename' => 'components/navbar/supportedContent',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navbar_brand"
-])
+        'filename' => 'components/navbar/brand',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_text"
-])
+        'filename' => 'components/navbar/text',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_image"
-])
+        'filename' => 'components/navbar/image',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_imageAndText"
-])
+        'filename' => 'components/navbar/imageAndText',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_nav"
-])
+        'filename' => 'components/navbar/nav',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_nav2"
-])
+        'filename' => 'components/navbar/nav2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_nav3"
-])
+        'filename' => 'components/navbar/nav3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_form"
-])
+        'filename' => 'components/navbar/form',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_form2"
-])
+        'filename' => 'components/navbar/form2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_form3"
-])
+        'filename' => 'components/navbar/form3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_form4"
-])
+        'filename' => 'components/navbar/form4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_text"
-])
+        'filename' => 'components/navbar/text',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_text2"
-])
+        'filename' => 'components/navbar/text2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_colorSchemes"
-])
+        'filename' => 'components/navbar/colorSchemes',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_containers"
-])
+        'filename' => 'components/navbar/containers',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_containers2"
-])
+        'filename' => 'components/navbar/containers2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_placement"
-])
+        'filename' => 'components/navbar/placement',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_plecement2"
-])
+        'filename' => 'components/navbar/plecement2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_plecement3"
-])
+        'filename' => 'components/navbar/plecement3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_plecement4"
-])
+        'filename' => 'components/navbar/plecement4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_plecement5"
-])
+        'filename' => 'components/navbar/plecement5',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_scrolling"
-])
+        'filename' => 'components/navbar/scrolling',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navbar_response_beha"
-])
+        'filename' => 'components/navbar/response_beha',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_toggler"
-])
+        'filename' => 'components/navbar/toggler',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_toggler2"
-])
+        'filename' => 'components/navbar/toggler2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_toggler3"
-])
+        'filename' => 'components/navbar/toggler3',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_externalContent"
-])
+        'filename' => 'components/navbar/externalContent',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_navbar_externalContent_text"
-])
+        'filename' => 'components/navbar/externalContent_text',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_offcanvas"
-])
+        'filename' => 'components/navbar/offcanvas',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_offcanvas2"
-])
+        'filename' => 'components/navbar/offcanvas2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_navbar_offcanvas3"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+        'filename' => 'components/navbar/offcanvas3',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navbar_variables"
-])
+        'filename' => 'components/navbar/variables',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navbar_variables2"
-])
+        'filename' => 'components/navbar/variables2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navbar_variables3"
-])
+        'filename' => 'components/navbar/variables3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navbar_sass"
-])
+        'filename' => 'components/navbar/sass',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navbar_sass2"
-])
+        'filename' => 'components/navbar/sass2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_navbar_sassloops"
-])
+        'filename' => 'components/navbar/sassloops',
+    ])
 
 
 

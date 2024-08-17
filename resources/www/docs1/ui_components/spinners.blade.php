@@ -1,80 +1,80 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_spinners_title"
-])
+        'filename' => 'components/spinners/title',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_spinners_about"
-])
+        'filename' => 'components/spinners/about',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_spinners_about_note"
-])
+        'filename' => 'components/spinners/about_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_border"
-])
+        'filename' => 'components/spinners/border',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_colors"
-])
+        'filename' => 'components/spinners/colors',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_spinners_colors_note"
-])
+        'filename' => 'components/spinners/colors_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_growing"
-])
+        'filename' => 'components/spinners/growing',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_growing2"
-])
+        'filename' => 'components/spinners/growing2',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_spinners_align"
-])
+        'filename' => 'components/spinners/align',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_margin"
-])
+        'filename' => 'components/spinners/margin',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_spinners_placement"
-])
+        'filename' => 'components/spinners/placement',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_flex"
-])
+        'filename' => 'components/spinners/flex',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_flex2"
-])
+        'filename' => 'components/spinners/flex2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_floats"
-])
+        'filename' => 'components/spinners/floats',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_textAlign"
-])
+        'filename' => 'components/spinners/textAlign',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_size"
-])
+        'filename' => 'components/spinners/size',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_size2"
-])
+        'filename' => 'components/spinners/size2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_button"
-])
+        'filename' => 'components/spinners/button',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_spinners_button2"
-])
-<x-www-preview>
-    <h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+        'filename' => 'components/spinners/button2',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_spinners_variables"
-])
+        'filename' => 'components/spinners/variables',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_spinners_variables2"
-])
+        'filename' => 'components/spinners/variables2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_spinners_variables3"
-])
+        'filename' => 'components/spinners/variables3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_spinners_sass"
-])
+        'filename' => 'components/spinners/sass',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_spinners_keyframes"
-])
+        'filename' => 'components/spinners/keyframes',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_spinners_keyframes2"
-])
+        'filename' => 'components/spinners/keyframes2',
+    ])
 </x-www-layout>

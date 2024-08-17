@@ -1,140 +1,140 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_modal_title"
-])
+        'filename' => 'components/modal/title',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_howItWorks"
-])
+        'filename' => 'components/modal/howItWorks',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_modal_howItWorks_note"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">예시</h2>
-</x-www-preview>
+        'filename' => 'components/modal/howItWorks_note',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">예시</h2>
+    </x-www-preview>
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_modalComponent"
-])
+        'filename' => 'components/modal/modalComponent',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_modal_modalComponent_note"
-])
+        'filename' => 'components/modal/modalComponent_note',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_liveDemo"
-])
+        'filename' => 'components/modal/liveDemo',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_staticBackdrop"
-])
+        'filename' => 'components/modal/staticBackdrop',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_ScrollingLongContent"
-])
+        'filename' => 'components/modal/ScrollingLongContent',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_ScrollingLongContent2"
-])
+        'filename' => 'components/modal/ScrollingLongContent2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_verticallyCentered"
-])
+        'filename' => 'components/modal/verticallyCentered',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_tooltipsAndPopovers"
-])
+        'filename' => 'components/modal/tooltipsAndPopovers',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_usingTheGrid"
-])
+        'filename' => 'components/modal/usingTheGrid',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_varyingModalContent"
-])
+        'filename' => 'components/modal/varyingModalContent',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_varyingModalContent2"
-])
+        'filename' => 'components/modal/varyingModalContent2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_toggleBetweenModals"
-])
+        'filename' => 'components/modal/toggleBetweenModals',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_ChangeAnimation"
-])
+        'filename' => 'components/modal/ChangeAnimation',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_RemoveAnimation"
-])
+        'filename' => 'components/modal/RemoveAnimation',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_modal_height"
-])
+        'filename' => 'components/modal/height',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_modal_access"
-])
+        'filename' => 'components/modal/access',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_modal_youtube"
-])
+        'filename' => 'components/modal/youtube',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_optionalSizes"
-])
+        'filename' => 'components/modal/optionalSizes',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_modal_optionalSizes_table"
-])
+        'filename' => 'components/modal/optionalSizes_table',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_fullscreenModal"
-])
+        'filename' => 'components/modal/fullscreenModal',
+    ])
     @livewire('WidgetTableStyle2', [
-    'filename' => "component_modal_fullscreenModal_table"
-])
+        'filename' => 'components/modal/fullscreenModal_table',
+    ])
 
-<x-www-preview>
-<h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">CSS</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_variables"
-])
+        'filename' => 'components/modal/variables',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_variables2"
-])
+        'filename' => 'components/modal/variables2',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_sass"
-])
+        'filename' => 'components/modal/sass',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_sassLoops"
-])
+        'filename' => 'components/modal/sassLoops',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_modal_use"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">데이터 속성 사용하기</h2>
-</x-www-preview>
+        'filename' => 'components/modal/use',
+    ])
+    <x-www-preview>
+        <h2 class="text-4xl font-bold">데이터 속성 사용하기</h2>
+    </x-www-preview>
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_toggle"
-])
+        'filename' => 'components/modal/toggle',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_dismiss"
-])
+        'filename' => 'components/modal/dismiss',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_dismiss2"
-])
+        'filename' => 'components/modal/dismiss2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_dismiss2_note"
-])
+        'filename' => 'components/modal/dismiss2_note',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_viaJavaScript"
-])
+        'filename' => 'components/modal/viaJavaScript',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_option"
-])
+        'filename' => 'components/modal/option',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_modal_option_table"
-])
-<x-www-preview>
-    <h3 class="text-3xl font-bold">메소드</h3>
-</x-www-preview>
+        'filename' => 'components/modal/option_table',
+    ])
+    <x-www-preview>
+        <h3 class="text-3xl font-bold">메소드</h3>
+    </x-www-preview>
     @livewire('WidgetNote', [
-    'filename' => "component_modal_method"
-])
+        'filename' => 'components/modal/method',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_modal_option_send"
-])
+        'filename' => 'components/modal/option_send',
+    ])
     @livewire('WidgetTableStyle2', [
-    'filename' => "component_modal_method_table"
-])
+        'filename' => 'components/modal/method_table',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_modal_event"
-])
+        'filename' => 'components/modal/event',
+    ])
     @livewire('WidgetTableStyle3', [
-    'filename' => "component_modal_event_table"
-])
+        'filename' => 'components/modal/event_table',
+    ])
 
 
 </x-www-layout>

@@ -1,29 +1,42 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_badge_code1"])
+        'filename' => 'components/badge/code1',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code2"])
+        'filename' => 'components/badge/code2',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code3"])
+        'filename' => 'components/badge/code3',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_badge_code4"])
+        'filename' => 'components/badge/code4',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code5"])
+        'filename' => 'components/badge/code5',
+    ])
 
     @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code6"])
+        'filename' => 'components/badge/code6',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code7"])
+        'filename' => 'components/badge/code7',
+    ])
     @livewire('WidgetNote', [
-    'filename' => "component_badge_accesibility"])
+        'filename' => 'components/badge/accesibility',
+    ])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code8"])
+        'filename' => 'components/badge/code8',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_badge_css"])
+        'filename' => 'components/badge/css',
+    ])
     @livewire('WidgetText', [
-    'filename' => "component_badge_code11"])
+        'filename' => 'components/badge/code11',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_badge_code9"])
+        'filename' => 'components/badge/code9',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_badge_code10"])
+        'filename' => 'components/badge/code10',
+    ])
 </x-www-layout>

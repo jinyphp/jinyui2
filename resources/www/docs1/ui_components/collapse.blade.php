@@ -1,46 +1,51 @@
 <x-www-layout>
     @livewire('WidgetTitle', [
-    'filename' => "component_collapse_code1"
+        'filename' => 'components/collapse/code1',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code2"
+        'filename' => 'components/collapse/code2',
     ])
-    @livewire('WidgetNote',[
-    'filename' => "component_collapse_note"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_collapse_code3"
+    @livewire('WidgetNote', [
+        'filename' => 'components/collapse/note',
     ])
-    @livewire('WidgetNote',[
-    'filename' => "component_collapse_caution"])
     @livewire('WidgetCode-Component', [
-    'filename' => "component_collapse_code4"
+        'filename' => 'components/collapse/code3',
+    ])
+    @livewire('WidgetNote', [
+        'filename' => 'components/collapse/caution',
+    ])
+    @livewire('WidgetCode-Component', [
+        'filename' => 'components/collapse/code4',
     ])
 
     @livewire('WidgetCode-Component', [
-    'filename' => "component_collapse_code5"
+        'filename' => 'components/collapse/code5',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code6"
+        'filename' => 'components/collapse/code6',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code7"
+        'filename' => 'components/collapse/code7',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code8"
+        'filename' => 'components/collapse/code8',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code9"
+        'filename' => 'components/collapse/code9',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code10"
+        'filename' => 'components/collapse/code10',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code11"
+        'filename' => 'components/collapse/code11',
     ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_code12"])
+        'filename' => 'components/collapse/code12',
+    ])
     @livewire('WidgetOnlyCode', [
-    'filename' => "component_collapse_option"])
+        'filename' => 'components/collapse/option',
+    ])
     @livewire('WidgetTableStyle1', [
-    'filename' => "component_collapse_option_table"])
+        'filename' => 'components/collapse/option_table',
+    ])
 </x-www-layout>

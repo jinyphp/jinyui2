@@ -51,7 +51,7 @@
             </section>
 
             <!-- contributor -->
-            <section class="py-8 pb-3 pb-lg-4" data-cue="fadeIn" data-show="true"
+            {{-- <section class="py-8 pb-3 pb-lg-4" data-cue="fadeIn" data-show="true"
                 style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                 <h2
                     class="text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:text-4xl">
@@ -94,7 +94,7 @@
 
                 </div>
 
-            </section>
+            </section> --}}
 
 
             <!-- Page title -->
