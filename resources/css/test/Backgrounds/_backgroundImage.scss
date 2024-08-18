@@ -1,4 +1,5 @@
 @import "../breakpointtest.scss";
+@import "../pseudo.scss";
 
 $backgroundImages: (
   none: none,
@@ -13,50 +14,25 @@ $backgroundImages: (
 );
 
 
+// 배경 이미지 클래스 생성
 @each $key, $value in $backgroundImages {
   .bg-#{$key} {
     background-image: $value;
   }
-}
 
-.group:hover {
-  @each $key, $value in $backgroundImages {
-    .group-hover\:bg-#{$key} {
-      background-image: $value !important;
-    }
-  }
-}
-
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $backgroundImages {
+  // 반응형 클래스 설정
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
       .#{$breakpoint}\:bg-#{$key} {
         background-image: $value;
       }
     }
   }
-}
 
-@each $key, $value in $backgroundImages {
-  .focus-within\:bg-#{$key}:focus-within {
-    background-image: $value;
-  }
-}
-
-@each $key, $value in $backgroundImages {
-  .hover\:bg-#{$key}:hover {
-    background-image: $value;
-  }
-}
-
-@each $key, $value in $backgroundImages {
-  .focus\:bg-#{$key}:focus {
-    background-image: $value;
-  }
-}
-
-@each $key, $value in $backgroundImages {
-  .active\:bg-#{$key}:active {
-    background-image: $value;
+  // pseudo 클래스 설정
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "bg-#{$key}") {
+      background-image: $value;
+    }
   }
 }
