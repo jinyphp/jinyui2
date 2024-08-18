@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_gridAutoColumns_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_gridAutoColumns_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_gridAutoColumns_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/gridAutoColumns/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/gridAutoColumns/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/gridAutoColumns/apply',
+  ])
 
 </x-www_layout2>

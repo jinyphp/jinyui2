@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_breakBefore_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_breakBefore_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_breakBefore_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/breakBefore/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/breakBefore/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/breakBefore/apply',
+  ])
 </x-www_layout2>

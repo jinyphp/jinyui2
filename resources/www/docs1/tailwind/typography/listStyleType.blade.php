@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_listStyleType_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_listStyleType_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_listStyleType_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/listStyleType/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/listStyleType/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/listStyleType/apply',
+  ])
 
 </x-www_layout2>

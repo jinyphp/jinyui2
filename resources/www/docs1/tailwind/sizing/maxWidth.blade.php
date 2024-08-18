@@ -1,21 +1,21 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'sizing_maxWidth_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxWidth_basic_maximun',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxWidth_basic_large',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxWidth_basic_reading',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxWidth_basic_breakpoing',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxWidth_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/sizing/maxWidth/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxWidth/basic_maximun',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxWidth/basic_large',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxWidth/basic_reading',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxWidth/basic_breakpoing',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxWidth/apply',
+  ])
 
 </x-www_layout2>

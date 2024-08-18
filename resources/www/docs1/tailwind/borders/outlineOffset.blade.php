@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_outlineOffset_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_outlineOffset_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_outlineOffset_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/outlineOffset/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/outlineOffset/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/outlineOffset/apply',
+  ])
 </x-www_layout2>

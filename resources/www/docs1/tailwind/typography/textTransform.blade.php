@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_textTransform_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_textTransform_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_textTransform_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/textTransform/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/textTransform/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/textTransform/apply',
+  ])
 </x-www_layout2>

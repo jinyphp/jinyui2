@@ -1,21 +1,21 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_float_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_float_basic_right',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_float_basic_left',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_float_basic_disable',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_float_basic_logical',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_float_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/float/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/float/basic_right',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/float/basic_left',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/float/basic_disable',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/float/basic_logical',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/float/apply',
+  ])
 
 </x-www_layout2>

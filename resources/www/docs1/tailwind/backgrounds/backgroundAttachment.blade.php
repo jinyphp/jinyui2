@@ -1,23 +1,23 @@
 <x-www_layout2>
 
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_backgroundAttachment_title',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/backgroundAttachment/title',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundAttachment_basic_fixed',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundAttachment/basic_fixed',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundAttachment_basic_local',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundAttachment/basic_local',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundAttachment_basic_scroll',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundAttachment/basic_scroll',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundAttachment_apply',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundAttachment/apply',
+  ])
 
 </x-www_layout2>

@@ -1,24 +1,24 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_gradientColorStops_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_gradientColorStops_basic_start',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_gradientColorStops_basic_end',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_gradientColorStops_basic_middle',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_gradientColorStops_basic_specify',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_gradientColorStops_basic_padding',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_gradientColorStops_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/backgrounds/gradientColorStops/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/gradientColorStops/basic_start',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/gradientColorStops/basic_end',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/gradientColorStops/basic_middle',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/gradientColorStops/basic_specify',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/gradientColorStops/basic_padding',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/gradientColorStops/apply',
+  ])
 
 </x-www_layout2>

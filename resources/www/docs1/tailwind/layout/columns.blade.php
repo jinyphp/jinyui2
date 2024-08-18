@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_columns_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_columns_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_columns_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/columns/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/columns/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/columns/apply',
+  ])
 </x-www_layout2>
