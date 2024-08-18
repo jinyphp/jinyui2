@@ -14,62 +14,61 @@ $gradients: (
   to-bl: linear-gradient(to bottom left, var(--tw-gradient-stops)),
 );
 
-
 // 색상 맵에서 사용하여 그라디언트 클래스 생성
 @each $colorName, $colorValue in $colors-map {
-    $hexValue: if(
-      type-of($colorValue) == "string",
-      $colorValue,
-      rgb-to-hex($colorValue)
-    );
-  
-    .from-#{$colorName} {
+  $hexValue: if(
+    type-of($colorValue) == "string",
+    $colorValue,
+    rgb-to-hex($colorValue)
+  );
+
+  .from-#{"#{$colorName}"} {
+    --tw-gradient-from: #{$hexValue} var(--tw-gradient-from-position);
+    --tw-gradient-to: #{$hexValue}00 var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .to-#{"#{$colorName}"} {
+    --tw-gradient-to: #{$hexValue} var(--tw-gradient-to-position);
+  }
+
+  .via-#{"#{$colorName}"} {
+    --tw-gradient-stops: var(--tw-gradient-from), #{$colorValue}, var(--tw-gradient-to);
+  }
+
+  // pseudo 클래스 적용
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "from-#{$colorName}") {
       --tw-gradient-from: #{$hexValue} var(--tw-gradient-from-position);
       --tw-gradient-to: #{$hexValue}00 var(--tw-gradient-to-position);
       --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
     }
-  
-    .to-#{$colorName} {
+
+    @include pseudo($pseudo, "to-#{$colorName}") {
       --tw-gradient-to: #{$hexValue} var(--tw-gradient-to-position);
     }
-  
-    .via-#{$colorName} {
+
+    @include pseudo($pseudo, "via-#{$colorName}") {
       --tw-gradient-stops: var(--tw-gradient-from), #{$colorValue}, var(--tw-gradient-to);
     }
-  
-    // pseudo 클래스 적용
-    @each $pseudo in map-keys($pseudos) {
-      @include pseudo($pseudo, "from-#{$colorName}") {
+  }
+
+  // 반응형 클래스 적용
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:from-#{"#{$colorName}"} {
         --tw-gradient-from: #{$hexValue} var(--tw-gradient-from-position);
         --tw-gradient-to: #{$hexValue}00 var(--tw-gradient-to-position);
         --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
       }
-  
-      @include pseudo($pseudo, "to-#{$colorName}") {
+
+      .#{$breakpoint}\:to-#{"#{$colorName}"} {
         --tw-gradient-to: #{$hexValue} var(--tw-gradient-to-position);
       }
-  
-      @include pseudo($pseudo, "via-#{$colorName}") {
+
+      .#{$breakpoint}\:via-#{"#{$colorName}"} {
         --tw-gradient-stops: var(--tw-gradient-from), #{$colorValue}, var(--tw-gradient-to);
       }
     }
-  
-    // 반응형 클래스 적용
-    @each $breakpoint in map-keys($breakpoints) {
-      @include breakpoint($breakpoint) {
-        .#{$breakpoint}\:from-#{$colorName} {
-          --tw-gradient-from: #{$hexValue} var(--tw-gradient-from-position);
-          --tw-gradient-to: #{$hexValue}00 var(--tw-gradient-to-position);
-          --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-        }
-  
-        .#{$breakpoint}\:to-#{$colorName} {
-          --tw-gradient-to: #{$hexValue} var(--tw-gradient-to-position);
-        }
-  
-        .#{$breakpoint}\:via-#{$colorName} {
-          --tw-gradient-stops: var(--tw-gradient-from), #{$colorValue}, var(--tw-gradient-to);
-        }
-      }
-    }
   }
+}
