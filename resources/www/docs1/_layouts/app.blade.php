@@ -137,6 +137,8 @@
         <!-- highliter.js-->
     @vite('resources/js/core.js')
     @vite('resources/js/javascript.js')
+    @vite('resources/js/xml.js')
+    @vite('resources/js/scss.js')
 
 
     <script>
@@ -172,6 +174,33 @@
     }
 });
 </script>
+
+
+    <script>
+            document.addEventListener('DOMContentLoaded', ()=>{
+                if (window.hljs) {
+                    document.querySelectorAll('pre code').forEach((block)=>{
+                        if (block.dataset.highlighted) {
+                            // 이미 하이라이팅된 경우, 데이터 속성을 제거
+                            delete block.dataset.highlighted;
+                        }
+
+                        // 하이라이팅 적용
+                        const result = window.hljs.highlightAuto(block.textContent || '');
+                        block.innerHTML = result.value;
+
+                        // 하이라이팅이 적용된 코드 블록에 데이터 속성 추가
+                        block.dataset.highlighted = 'yes';
+                    }
+                    );
+
+                    console.log('hljs is available and highlighting applied with auto detection');
+                } else {
+                    console.error('hljs is not defined');
+                }
+            }
+            );
+    </script>
 </body>
 
 </html>
