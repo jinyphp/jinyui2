@@ -1,15 +1,21 @@
 <x-www_layout2>
     @livewire('WidgetTitle', [
-        'filename' => "typography_wordBreak_title"])
+        'filename' => 'typography/wordBreak/title',
+    ])
     @livewire('WidgetCode-Component', [
-        'filename' => "typography_wordBreak_basic_normal"])    
-        @livewire('WidgetCode-Component', [
-          'filename' => "typography_wordBreak_basic_breakword"])
-          @livewire('WidgetCode-Component', [
-            'filename' => "typography_wordBreak_basic_breakall"])
-            @livewire('WidgetCode-Component', [
-              'filename' => "typography_wordBreak_basic_breakkeep"])
+        'filename' => 'typography/wordBreak/basic_normal',
+    ])
     @livewire('WidgetCode-Component', [
-        'filename' => "typography_wordBreak_apply"])
-    
+        'filename' => 'typography/wordBreak/basic_breakword',
+    ])
+    @livewire('WidgetCode-Component', [
+        'filename' => 'typography/wordBreak/basic_breakall',
+    ])
+    @livewire('WidgetCode-Component', [
+        'filename' => 'typography/wordBreak/basic_breakkeep',
+    ])
+    @livewire('WidgetCode-Component', [
+        'filename' => 'typography/wordBreak/apply',
+    ])
+
 </x-www_layout2>

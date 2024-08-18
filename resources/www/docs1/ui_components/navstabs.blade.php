@@ -1,135 +1,139 @@
-<x-www-layout>
-    @livewire('WidgetTitle', [
-    'filename' => "component_navstabs_title"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_baseNav"
-])
-    @livewire('WidgetNote', [
-    'filename' => "component_navstabs_baseNav_note"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_baseNav2"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_able"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_horizontalAlignment"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_horizontalAlignment2"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_vertical"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_vertical2"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_tabs"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_pills"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_underline"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify2"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify3"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_fillAndJustify4"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_workingWithFlexUtilities"
-])
-    @livewire('WidgetText', [
-    'filename' => "component_navstabs_ac"
-])
-    @livewire('WidgetText', [
-    'filename' => "component_navstabs_UsingDropdown"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_tabsWithDropdowns"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_pillsWithDropdowns"
-])
-<x-www-preview>
-<h2 class="text-4xl font-bold">CSS</h2>
-</x-www-preview>
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables2"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables3"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_variables4"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_sass"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior2"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior3"
-])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_navstabs_javaScriptBehavior4"
-])
-    @livewire('WidgetText', [
-    'filename' => "component_navstabs_access"
-])
-    @livewire('WidgetNote', [
-    'filename' => "component_navstabs_access_note1"
-])
-    @livewire('WidgetNote', [
-    'filename' => "component_navstabs_access_note2"
-])
+<x-www-app>
 
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_UsingDataAttributes"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_viaJavaScript"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_viaJavaScript2"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_fadeEffect"
-])
-    @livewire('WidgetText', [
-    'filename' => "component_navstabs_method"
-])
-    @livewire('WidgetNote', [
-    'filename' => "component_navstabs_method_note"
-])
-    @livewire('WidgetTableStyle2', [
-    'filename' => "component_navstabs_method_table1"
-])
-    @livewire('WidgetText', [
-    'filename' => "component_navstabs_event"
-])
-    @livewire('WidgetTableStyle3', [
-    'filename' => "component_navstabs_event_table"
-])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_navstabs_event_table"
-])
-</x-www-layout>
+    <x-www-layout>
+        @livewire('WidgetTitle', [
+            'filename' => 'components/navstabs/title',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/baseNav',
+        ])
+        @livewire('WidgetNote', [
+            'filename' => 'components/navstabs/baseNav_note',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/baseNav2',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/able',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/horizontalAlignment',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/horizontalAlignment2',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/vertical',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/vertical2',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/tabs',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/pills',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/underline',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/fillAndJustify',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/fillAndJustify2',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/fillAndJustify3',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/fillAndJustify4',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/workingWithFlexUtilities',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/navstabs/ac',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/navstabs/UsingDropdown',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/tabsWithDropdowns',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/pillsWithDropdowns',
+        ])
+        <x-www-preview>
+            <h2 class="text-4xl font-bold">CSS</h2>
+        </x-www-preview>
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/variables',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/variables2',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/variables3',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/variables4',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/sass',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/javaScriptBehavior',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/javaScriptBehavior2',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/javaScriptBehavior3',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/navstabs/javaScriptBehavior4',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/navstabs/access',
+        ])
+        @livewire('WidgetNote', [
+            'filename' => 'components/navstabs/access_note1',
+        ])
+        @livewire('WidgetNote', [
+            'filename' => 'components/navstabs/access_note2',
+        ])
+
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/UsingDataAttributes',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/viaJavaScript',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/viaJavaScript2',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/fadeEffect',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/navstabs/method',
+        ])
+        @livewire('WidgetNote', [
+            'filename' => 'components/navstabs/method_note',
+        ])
+        @livewire('WidgetTableStyle2', [
+            'filename' => 'components/navstabs/method_table1',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/navstabs/event',
+        ])
+        @livewire('WidgetTableStyle3', [
+            'filename' => 'components/navstabs/event_table',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/navstabs/event_table',
+        ])
+    </x-www-layout>
+
+</x-www-app>

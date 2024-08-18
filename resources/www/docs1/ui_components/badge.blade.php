@@ -1,29 +1,46 @@
-<x-www-layout>
-    @livewire('WidgetTitle', [
-    'filename' => "component_badge_code1"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code2"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code3"])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_badge_code4"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code5"])
+<x-www-app>
 
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code6"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code7"])
-    @livewire('WidgetNote', [
-    'filename' => "component_badge_accesibility"])
-    @livewire('WidgetCode-Component', [
-    'filename' => "component_badge_code8"])
-    @livewire('WidgetText', [
-    'filename' => "component_badge_css"])
-    @livewire('WidgetText', [
-    'filename' => "component_badge_code11"])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_badge_code9"])
-    @livewire('WidgetOnlyCode', [
-    'filename' => "component_badge_code10"])
-</x-www-layout>
+    <x-www-layout>
+        @livewire('WidgetTitle', [
+            'filename' => 'components/badge/code1',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/badge/code2',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/badge/code3',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/badge/code4',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/badge/code5',
+        ])
+
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/badge/code6',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/badge/code7',
+        ])
+        @livewire('WidgetNote', [
+            'filename' => 'components/badge/accesibility',
+        ])
+        @livewire('WidgetCode-Component', [
+            'filename' => 'components/badge/code8',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/badge/css',
+        ])
+        @livewire('WidgetText', [
+            'filename' => 'components/badge/code11',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/badge/code9',
+        ])
+        @livewire('WidgetOnlyCode', [
+            'filename' => 'components/badge/code10',
+        ])
+    </x-www-layout>
+
+</x-www-app>
