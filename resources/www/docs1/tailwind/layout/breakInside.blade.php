@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_breakInside_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_breakInside_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_breakInside_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/breakInside/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/breakInside/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/breakInside/apply',
+  ])
 
 </x-www_layout2>

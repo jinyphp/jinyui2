@@ -1,15 +1,15 @@
 <x-www_layout2>
 
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_backgroundImage_title',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/backgroundImage/title',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundImage_basic',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundImage/basic',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundImage_apply',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundImage/apply',
+  ])
 
 </x-www_layout2>

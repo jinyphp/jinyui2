@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_fontStyle_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_fontStyle_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_fontStyle_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/fontStyle/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/fontStyle/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/fontStyle/apply',
+  ])
 
 </x-www_layout2>

@@ -1,18 +1,18 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_backgroundSize_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundSize_basic_auto',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundSize_basic_cover',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundSize_basic_contain',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundSize_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/backgroundSize/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundSize/basic_auto',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundSize/basic_cover',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundSize/basic_contain',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundSize/apply',
+  ])
 
 </x-www_layout2>

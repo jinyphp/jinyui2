@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'sizing_minHeight_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_minHeight_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_minHeight_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/sizing/minHeight/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/minHeight/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/minHeight/apply',
+  ])
 </x-www_layout2>

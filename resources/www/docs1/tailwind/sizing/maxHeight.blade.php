@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'sizing_maxHeight_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxHeight_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_maxHeight_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/sizing/maxHeight/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxHeight/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/maxHeight/apply',
+  ])
 </x-www_layout2>

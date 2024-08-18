@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_flexBasis_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_flexBasis_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_flexBasis_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/flexBasis/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/flexBasis/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/flexBasis/apply',
+  ])
 
 </x-www_layout2>

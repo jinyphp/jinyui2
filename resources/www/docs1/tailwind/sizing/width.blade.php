@@ -1,18 +1,18 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'sizing_width_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_width_basic_fixed',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_width_basic_percentage',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_width_basic_viewPort',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'sizing_width_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/sizing/width/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/width/basic_fixed',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/width/basic_percentage',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/width/basic_viewPort',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/sizing/width/apply',
+  ])
 
 </x-www_layout2>

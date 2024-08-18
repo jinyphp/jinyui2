@@ -1,24 +1,24 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_justifySelf_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_justifySelf_basic_auto',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_justifySelf_basic_start',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_justifySelf_basic_center',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_justifySelf_basic_end',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_justifySelf_basic_stretch',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_justifySelf_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/justifySelf/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/justifySelf/basic_auto',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/justifySelf/basic_start',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/justifySelf/basic_center',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/justifySelf/basic_end',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/justifySelf/basic_stretch',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/justifySelf/apply',
+  ])
 
 </x-www_layout2>

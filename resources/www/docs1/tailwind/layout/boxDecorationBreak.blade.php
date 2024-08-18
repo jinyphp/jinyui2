@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_boxDecorationBreak_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_boxDecorationBreak_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_boxDecorationBreak_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/boxDecorationBreak/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/boxDecorationBreak/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/boxDecorationBreak/apply',
+  ])
 </x-www_layout2>
