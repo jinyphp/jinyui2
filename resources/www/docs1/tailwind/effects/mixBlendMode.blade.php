@@ -1,4 +1,4 @@
-<x-www-app>
+<x-www_layout2>
   <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16
     ">
 
@@ -647,4 +647,4 @@ a                 rk:ring-0 dark:hover:bg-slate-700 dark:hover:text-slate-200"><
     </div>
   </div>
   </div>
-</x-www-app>
+</x-www_layout2>
