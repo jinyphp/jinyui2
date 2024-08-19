@@ -1,4 +1,4 @@
-<x-www-app>
+<x-www_layout2>
     <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16
     ">
 
@@ -822,4 +822,4 @@ t       -sky-400 border-t border-slate-100 dark:border-slate-400/10">
       </div>
     </div>
   </div>
-</x-www-app>
+</x-www_layout2>

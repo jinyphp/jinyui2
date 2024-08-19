@@ -1,4 +1,4 @@
-<x-www-app>
+<x-www_layout2>
   <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16">
     <header id="header" class="relative z-20">
       <div>
@@ -231,7 +231,8 @@
               </svg></span></span>Breakpoints and media queries</a></h3>
       <p>You can also use variant modifiers to target media queries like responsive breakpoints, dark mode,
         prefers-reduced-motion, and more. For example, use <code>md:duration-150</code> to apply the
-        <code>duration-150</code> utility at only medium screen sizes and above.</p>
+        <code>duration-150</code> utility at only medium screen sizes and above.
+      </p>
       <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transition duration-0 <span class="code-highlight bg-code-highlight">md:duration-150</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token comment">&lt;!-- ... --&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
@@ -260,7 +261,8 @@
               </svg></span></span>Customizing your theme</a></h3>
       <p>By default, Tailwind provides eight general purpose transition-duration utilities. You can customize these
         values by editing <code>theme.transitionDuration</code> or <code>theme.extend.transitionDuration</code> in your
-        <code>tailwind.config.js</code> file.</p>
+        <code>tailwind.config.js</code> file.
+      </p>
       <div class="mt-5 mb-8 first:mt-0 last:mb-0 relative overflow-hidden rounded-2xl">
         <div class="pt-2 bg-slate-800 shadow-lg group">
           <div class="flex text-slate-400 text-xs leading-6">
@@ -403,4 +405,4 @@
       </div>
     </div>
   </div>
-</x-www-app>
+</x-www_layout2>
