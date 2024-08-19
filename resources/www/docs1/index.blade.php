@@ -14,32 +14,28 @@
                         <div class="text-center d-flex flex-column gap-5" data-cue="zoomIn" data-group="page-title"
                             data-delay="700" data-show="true"
                             style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 700ms; animation-direction: normal; animation-fill-mode: both;">
+                            <!-- 
                             <div class="d-flex justify-content-center">
                                 <span
                                     class="bg-primary bg-opacity-10 text-primary border-primary border p-2 fs-6 rounded-pill lh-1 d-flex align-items-center">
                                     <span>Modern Design</span>
                                 </span>
                             </div>
+                            -->
                             <div class="d-flex flex-column gap-3 mx-lg-8">
-                                <h1 class="mb-0 display-5">Kickstart your project with Block</h1>
-                                <p class="mb-0 lead">Block build with a modular web design concept will easily kickstart
-                                    your project, and build website &amp; marketing site faster.</p>
+                                <h1 class="mb-0 display-5">Kickstart your project with Demo</h1>
+                                <p class="mb-0 lead">An integrated CSS framework environment that offers various UI components with semantic tags</p>
                             </div>
                             <div class="d-flex flex-row gap-2 justify-content-center">
-                                <a href="https://bit.ly/block-theme" class="btn btn-primary" target="_blank">Purchase
-                                    Template</a>
-                                <a href="#demo" class="btn btn-light">Demos</a>
+                                <a href="https://bit.ly/block-theme" class="btn btn-primary" target="_blank">
+                                    Start With Demo</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-center px-40 ">
-                    <iframe class="mt-12" width="800" height="500"
-                        src="https://www.youtube.com/embed/d541yNnX2uc?si=uekBSVHv3rEJOrHC" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="flex justify-center px-40 mt-20 ">
+                    <iframe width="560" height="400" src="https://www.youtube.com/embed/oGvqn10krIo?si=vv0ICsFOluVTgrTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
 
@@ -97,7 +93,6 @@
             </section> --}}
 
 
-            <!-- Page title -->
             <section class="py-2 pb-3 pb-lg-4">
                 <span
                     class="badge d-inline-flex align-items-center text-success bg-success-subtle fw-semibold text-decoration-none py-2 px-3 mb-2 rounded-pill">Getting
