@@ -4,12 +4,12 @@
     </li>
 
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">
-        <a class="nav-link" href="/ui_components/accordion">Utility</a>
+        <a class="nav-link" href="/tailwind/backgrounds/backgroundAttachment">Utility</a>
     </li>
 
 
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">
-        <a class="nav-link" href="typography">Blade Components</a>
+        <a class="nav-link" href="/ui_components/accordion">Blade Components</a>
     </li>
 
 
@@ -247,7 +247,7 @@
 
 
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">
-        <a class="nav-link" href="widget">Blocks Widget</a>
+        <a class="nav-link" href="/blocks/hero">Blocks Widget</a>
     </li>
 
     <li class="nav-item pb-lg-2 me-lg-n2 me-xl-0">

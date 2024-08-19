@@ -1,40 +1,30 @@
 @import "../colors";
+@import "../pseudo.scss";
+@import "../breakpointtest.scss";
 
-// Generate border color classes using the colors map
-@each $key, $value in $colors-map {
-  .divide-#{$key} {
-    border-color: $value;
+@each $color, $value in $colors-map {
+  // 기본 클래스 설정
+  .divide-#{"#{$color}"} > * + * {
+    --tw-divide-color: #{$value};
+    border-color: var(--tw-divide-color);
   }
 
-  // State-based border color classes
-  .hover\:divide-#{$key}:hover {
-    border-color: $value;
-  }
-  .focus\:divide-#{$key}:focus {
-    border-color: $value;
-  }
-  .active\:divide-#{$key}:active {
-    border-color: $value;
-  }
-}
-
-// Generate responsive border color classes
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $colors-map {
-      .#{$breakpoint}\:divide-#{$key} {
-        border-color: $value;
+  // 반응형 클래스 설정
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:divide-#{"#{$color}"} > * + * {
+        --tw-divide-color: #{$value};
+        border-color: var(--tw-divide-color);
       }
+    }
+  }
 
-      // Responsive state-based classes
-      .#{$breakpoint}\:hover\:divide-#{$key}:hover {
-        border-color: $value;
-      }
-      .#{$breakpoint}\:focus\:divide-#{$key}:focus {
-        border-color: $value;
-      }
-      .#{$breakpoint}\:active\:divide-#{$key}:active {
-        border-color: $value;
+  // pseudo 클래스 설정
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "divide-#{"#{$color}"}") {
+      > * + * {
+        --tw-divide-color: #{$value};
+        border-color: var(--tw-divide-color);
       }
     }
   }

@@ -9,7 +9,8 @@
             Forced Color Adjust</h1>
         </div>
       </div>
-      <p class="mt-2 text-lg text-slate-700 dark:text-slate-400">Utilities for opting in and out of forced colors.</p>
+      <p class="mt-2 text-lg text-slate-700 dark:text-slate-400">Utilities for opting in and out of forced
+        colors.</p>
     </header>
     <div class="mt-10 relative">
       <h2 class="flex whitespace-pre-wrap not-prose relative scroll-mt-[var(--scroll-mt)]" id="class-reference"><a
@@ -28,11 +29,13 @@
               <tr>
                 <th
                   class="sticky z-10 top-0 text-sm leading-6 font-semibold text-slate-700 bg-white p-0 dark:bg-slate-900 dark:text-slate-300">
-                  <div class="py-2 pr-2 border-b border-slate-200 dark:border-slate-400/20">Class</div>
+                  <div class="py-2 pr-2 border-b border-slate-200 dark:border-slate-400/20">Class
+                  </div>
                 </th>
                 <th
                   class="sticky z-10 top-0 text-sm leading-6 font-semibold text-slate-700 bg-white p-0 dark:bg-slate-900 dark:text-slate-300">
-                  <div class="py-2 pl-2 border-b border-slate-200 dark:border-slate-400/20">Properties</div>
+                  <div class="py-2 pl-2 border-b border-slate-200 dark:border-slate-400/20">
+                    Properties</div>
                 </th>
               </tr>
             </thead>
@@ -80,7 +83,8 @@
                   stroke-linecap="round"></path>
               </svg></span></span>Opting out of forced colors</a></h3>
       <p>Use <code>forced-color-adjust-none</code> to opt an element out the colors enforced by <a
-          href="/docs/hover-focus-and-other-states#forced-colors-mode">forced colors mode</a>. This is useful in
+          href="/docs/hover-focus-and-other-states#forced-colors-mode">forced colors mode</a>. This is
+        useful in
         situations where enforcing a limited color palette will degrade usability.</p>
       <div class="mt-4 -mb-3">
         <div class="not-prose mb-4">
@@ -92,7 +96,8 @@
               <path d="M3 5s.35-.47 1.25-.828m9.516-.422c2.078.593 3.484 1.5 3.484 1.5"
                 class="stroke-slate-400 dark:stroke-sky-400"></path>
             </svg>
-            <p class="text-slate-700 text-sm font-medium dark:text-slate-200">Try emulating `forced-colors: active` in
+            <p class="text-slate-700 text-sm font-medium dark:text-slate-200">Try emulating
+              `forced-colors: active` in
               your developer tools to see the changes</p>
           </div>
         </div>
@@ -143,7 +148,8 @@
               </div>
             </div>
           </div>
-          <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+          <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+          </div>
         </div>
       </div>
       <pre
@@ -174,7 +180,8 @@
                 <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5"
                   stroke-linecap="round"></path>
               </svg></span></span>Restoring forced colors</a></h3>
-      <p>Use <code>forced-color-adjust-auto</code> to undo <code>forced-color-adjust-none</code>, making an element
+      <p>Use <code>forced-color-adjust-auto</code> to undo <code>forced-color-adjust-none</code>, making an
+        element
         adhere to colors enforced by forced colors mode.</p>
       <p>This can be useful if you use a different control on a larger screen size for example:</p>
       <pre
@@ -214,15 +221,19 @@
                 <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5"
                   stroke-linecap="round"></path>
               </svg></span></span>Hover, focus, and other states</a></h3>
-      <p>Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example,
-        use <code>focus:forced-color-adjust-none</code> to only apply the <code>forced-color-adjust-none</code> utility
-        on focus.</p>
+      <p>Tailwind lets you conditionally apply utility classes in different states using variant modifiers.
+        For example,
+        use <code>focus:forced-color-adjust-none</code> to only apply the
+        <code>forced-color-adjust-none</code> utility
+        on focus.
+      </p>
       <pre
         class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#content<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>forced-color-adjust-none <span class="code-highlight bg-code-highlight">focus:forced-color-adjust-auto</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   Skip to content
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span></code></pre>
       <p>For a complete list of all available state modifiers, check out the <a
-          href="/docs/hover-focus-and-other-states">Hover, Focus, &amp; Other States</a> documentation.</p>
+          href="/docs/hover-focus-and-other-states">Hover, Focus, &amp; Other States</a> documentation.
+      </p>
       <h3 class="flex whitespace-pre-wrap not-prose" id="breakpoints-and-media-queries" data-docsearch-ignore=""><a
           class="group relative border-none lg:-ml-2 lg:pl-2" href="#breakpoints-and-media-queries"><span
             class="absolute -ml-8 hidden items-center border-0 opacity-0 group-hover:opacity-100 group-focus:opacity-100 lg:flex">​<span
@@ -232,7 +243,8 @@
                   stroke-linecap="round"></path>
               </svg></span></span>Breakpoints and media queries</a></h3>
       <p>You can also use variant modifiers to target media queries like responsive breakpoints, dark mode,
-        prefers-reduced-motion, and more. For example, use <code>md:forced-color-adjust-auto</code> to apply the
+        prefers-reduced-motion, and more. For example, use <code>md:forced-color-adjust-auto</code> to apply
+        the
         <code>forced-color-adjust-auto</code> utility at only medium screen sizes and above.
       </p>
       <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>forced-color-adjust-none <span class="code-highlight bg-code-highlight">md:forced-color-adjust-auto</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -318,7 +330,8 @@
             <div>
               <p class="text-[0.8125rem] font-semibold leading-5 text-sky-500 dark:text-sky-400">From the creators of
                 Tailwind CSS</p>
-              <p class="mt-1 text-base font-bold tracking-tight leading-[1.375] text-slate-900 dark:text-slate-200">Make
+              <p class="mt-1 text-base font-bold tracking-tight leading-[1.375] text-slate-900 dark:text-slate-200">
+                Make
                 your ideas look awesome, without relying on a designer.</p>
               <figure class="mt-6 pl-4 border-l border-slate-100 dark:border-slate-700">
                 <blockquote class="text-sm leading-5 text-slate-600 dark:text-slate-400">“This is the survival kit I
