@@ -1,17 +1,17 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_hyphens_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_hyphens_basic_none',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_hyphens_basic_manual',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_hyphens_basic_auto',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_hyphens_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/hyphens/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/hyphens/basic_none',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/hyphens/basic_manual',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/hyphens/basic_auto',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/hyphens/apply',
+  ])
 </x-www_layout2>

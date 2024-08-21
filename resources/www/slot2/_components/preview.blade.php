@@ -1,3 +1,3 @@
-<div class="mx-4 mb-24 md:mx-48">
+<div class="mx-4 mb-20 md:mx-48">
     {{$slot}}
 </div>

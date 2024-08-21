@@ -1,15 +1,15 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_gridTemplateRows_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_gridTemplateRows_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_gridTemplateRows_basic_subGrid',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'flexbox_gridTemplateRows_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/gridTemplateRows/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/gridTemplateRows/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/gridTemplateRows/basic_subGrid',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/flexbox/gridTemplateRows/apply',
+  ])
 
 </x-www_layout2>

@@ -1,18 +1,18 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_divideWidth_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_divideWidth_basic_horizontal',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_divideWidth_basic_stack',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_divideWidth_basic_reverse',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_divideWidth_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/divideWidth/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/divideWidth/basic/horizontal',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/divideWidth/basic/stack',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/divideWidth/basic/reverse',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/divideWidth/apply',
+  ])
 
 </x-www_layout2>

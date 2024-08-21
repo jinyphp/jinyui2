@@ -1,19 +1,19 @@
 <x-www_layout2>
 
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_backgroundColor_title',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/backgroundColor/title',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundColor_basic_setting',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundColor/basic_setting',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundColor_basic_opacity',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundColor/basic_opacity',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundColor_apply',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundColor/apply',
+  ])
 
 </x-www_layout2>

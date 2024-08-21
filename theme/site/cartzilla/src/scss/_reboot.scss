@@ -148,27 +148,6 @@ legend {
   }
 }
 
-
-// Code
-
-pre,
-.hljs {
-  padding: $pre-padding-y $pre-padding-x;
-  margin: 0;
-  background-color: $pre-bg;
-  @include border-radius($pre-border-radius);
-}
-
-kbd {
-  @include border-radius($border-radius-xs);
-}
-
-.hljs-comment,
-.hljs-quote {
-  font-style: normal;
-}
-
-
 // Section that is wider than a container on a left/right side
 
 .container-start {

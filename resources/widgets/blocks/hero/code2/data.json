@@ -1,8 +1,14 @@
 {
     "items": {
+<<<<<<< HEAD
         "title": "dsfasd",
         "description": "dfasdf",
         "updated_at": "2024-08-18 16:20:24",
         "image": "/images/widgets/blocks/hero/code2/o0egnmQDo7mOvavFLMAfN9QMU1Z6mJfRT0sxi2t5.png"
+=======
+        "title": "Build better products with customer feedback",
+        "image": "/images/widgets/blocks/hero/code2/O6FxU2xN4jjKuAnvN1CVIESNJWWcZWL0RoiYw2d9.png",
+        "updated_at": "2024-08-19 08:35:59"
+>>>>>>> 1bc01546294b0a9361b1a3c95153d33805930006
     }
 }

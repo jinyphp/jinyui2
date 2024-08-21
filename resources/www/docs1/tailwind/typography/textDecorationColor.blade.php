@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_textDecorationColor_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_textDecorationColor_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_textDecorationColor_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/textDecorationColor/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/textDecorationColor/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/textDecorationColor/apply',
+  ])
 
 </x-www_layout2>

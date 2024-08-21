@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_textDecorationThickness_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_textDecorationThickness_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_textDecorationThickness_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/textDecorationThickness/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/textDecorationThickness/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/textDecorationThickness/apply',
+  ])
 
 </x-www_layout2>

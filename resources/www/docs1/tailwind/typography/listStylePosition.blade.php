@@ -1,11 +1,11 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_listStylePosition_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_listStylePosition_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_listStylePosition_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/listStylePosition/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/listStylePosition/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/listStylePosition/apply',
+  ])
 </x-www_layout2>

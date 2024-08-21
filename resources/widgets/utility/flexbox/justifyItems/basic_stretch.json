@@ -1,8 +1,8 @@
 {
     "items": {
         "title": "Basic usage - Stretch",
-        "code": "<div class=\"grid justify-items-center ...\">\n  <div>01<\/div>\n  <div>02<\/div>\n  <div>03<\/div>\n  <div>04<\/div>\n  <div>05<\/div>\n  <div>06<\/div>\n<\/div>",
+        "code": "<div class=\"relative rounded-xl overflow-auto p-8\"><div class=\"grid grid-cols-3 gap-4 justify-items-stretch font-mono text-white text-sm font-bold leading-6\">\n  <div class=\"h-14 rounded-lg flex items-center justify-center bg-blue-500 shadow-lg\">01<\/div>\n  <div class=\"h-14 rounded-lg flex items-center justify-center bg-blue-500 shadow-lg\">02<\/div>\n  <div class=\"h-14 rounded-lg flex items-center justify-center bg-blue-500 shadow-lg\">03<\/div>\n  <div class=\"h-14 rounded-lg flex items-center justify-center bg-blue-500 shadow-lg\">04<\/div>\n  <div class=\"h-14 rounded-lg flex items-center justify-center bg-blue-500 shadow-lg\">05<\/div>\n  <div class=\"h-14 rounded-lg flex items-center justify-center bg-blue-500 shadow-lg\">06<\/div>\n<\/div><\/div>",
         "description": "인라인 축을 따라 항목을 늘리려면 justify-items-stretch를 사용하십시오.",
-        "updated_at": "2024-08-07 16:11:28"
+        "updated_at": "2024-08-19 09:09:06"
     }
 }

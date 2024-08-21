@@ -1,41 +1,27 @@
 @import "../colors";
+@import "../pseudo.scss";
+@import "../breakpointtest.scss";
 
-// Generate outline color classes using the colors map
-@each $key, $value in $colors-map {
-  .outline-#{$key} {
-    outline-color: $value;
+@each $color, $value in $colors-map {
+  // 기본 클래스 설정
+  .outline-#{"#{$color}"} {
+    outline-color: #{$value};
   }
 
-  // State-based outline color classes
-  .hover\:outline-#{$key}:hover {
-    outline-color: $value;
-  }
-  .focus\:outline-#{$key}:focus {
-    outline-color: $value;
-  }
-  .active\:outline-#{$key}:active {
-    outline-color: $value;
-  }
-}
-
-// Generate responsive outline color classes
-@each $breakpoint in map-keys($breakpoints) {
-  @include breakpoint($breakpoint) {
-    @each $key, $value in $colors-map {
-      .#{$breakpoint}\:outline-#{$key} {
-        outline-color: $value;
-      }
-
-      // Responsive state-based classes
-      .#{$breakpoint}\:hover\:outline-#{$key}:hover {
-        outline-color: $value;
-      }
-      .#{$breakpoint}\:focus\:outline-#{$key}:focus {
-        outline-color: $value;
-      }
-      .#{$breakpoint}\:active\:outline-#{$key}:active {
-        outline-color: $value;
+  // 반응형 클래스 설정
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      .#{$breakpoint}\:outline-#{"#{$color}"} {
+        outline-color: #{$value};
       }
     }
   }
+
+  // pseudo 클래스 설정
+  @each $pseudo in map-keys($pseudos) {
+    @include pseudo($pseudo, "outline-#{"#{$color}"}") {
+      outline-color: #{$value};
+    }
+  }
 }
+

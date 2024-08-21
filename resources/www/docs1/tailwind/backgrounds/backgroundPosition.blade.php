@@ -1,15 +1,15 @@
 <x-www_layout2>
 
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_backgroundPosition_title',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/backgroundPosition/title',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundPosition_basic',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundPosition/basic',
+  ])
 
-    @livewire('WidgetCode-Component', [
-        'filename' => 'backgrounds_backgroundPosition_apply',
-    ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/backgrounds/backgroundPosition/apply',
+  ])
 
 </x-www_layout2>

@@ -1,12 +1,12 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'typography_fontWeight_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_fontWeight_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'typography_fontWeight_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/typography/fontWeight/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/fontWeight/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/typography/fontWeight/apply',
+  ])
 
 </x-www_layout2>

@@ -1,4 +1,4 @@
-<x-www-app><x-www-layout>
+<x-www-layout>
 
   <!-- Page title -->
   <section class="py-2 pb-sm-3">
@@ -7764,4 +7764,4 @@
       </div>
     </div>
   </section>
-</x-www-layout></x-www-app>
+</x-www-layout>

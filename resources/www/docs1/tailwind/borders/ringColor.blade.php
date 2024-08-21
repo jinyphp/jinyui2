@@ -1,15 +1,15 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_ringColor_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_ringColor_basic_setting',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_ringColor_basic_opacity',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'borders_ringColor_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/ringColor/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/ringColor/basic_setting',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/ringColor/basic_opacity',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/borders/ringColor/apply',
+  ])
 
 </x-www_layout2>

@@ -1,15 +1,15 @@
 <x-www_layout2>
-    @livewire('WidgetTitle', [
-        'filename' => 'layout_zindex_title',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_zindex_basic',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_zindex_basic_negative',
-    ])
-    @livewire('WidgetCode-Component', [
-        'filename' => 'layout_zindex_apply',
-    ])
+  @livewire('WidgetTitle', [
+  'filename' => 'utility/layout/zindex/title',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/zindex/basic',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/zindex/basic_negative',
+  ])
+  @livewire('WidgetCode-Component', [
+  'filename' => 'utility/layout/zindex/apply',
+  ])
 
 </x-www_layout2>
