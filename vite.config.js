@@ -10,6 +10,7 @@ export default defineConfig({
                 "resources/css/app.scss",
                 "resources/css/tailwind.scss",
                 "resources/js/app.js",
+                "resources/js/chart.js",
                 "resources/js/core.js",
                 "resources/js/highlight.js",
                 "resources/js/javascript.js",
