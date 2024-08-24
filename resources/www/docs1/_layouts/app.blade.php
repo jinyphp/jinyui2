@@ -33,15 +33,11 @@
     <link rel="preload" href="/assets/css/theme.min.css" as="style">
     <link rel="stylesheet" href="/assets/css/theme.min.css" id="theme-styles">
 
-    <!--@vite('resources/css/app.scss') 
+    <!--@vite('resources/css/app.scss')
     @vite('resources/css2/scss/app-saas.scss')
     -->
     @vite('resources/css/test/main.scss')
     @vite('resources/css/test/default.min.css')
-
-  
-
-
 
     <!-- Docs specific styles -->
     <style>
@@ -61,13 +57,15 @@
         }
     }
     </style>
+
+    @stack('css')
 </head>
 
 
 <!-- Body -->
 
 <body data-bs-spy="scroll" data-bs-target="#anchorNav">
-    
+
 
 
     <x-www-header>
@@ -115,12 +113,16 @@
             })
         })()
     </script>
+
+
+
         <!-- highliter.js-->
     @vite('resources/js/core.js')
     @vite('resources/js/javascript.js')
     @vite('resources/js/xml.js')
     @vite('resources/js/scss.js')
 
+    @stack('script')
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -131,7 +133,7 @@
             }
         });
     </script>
-    
+
 <script>
     document.addEventListener('DOMContentLoaded', () => {
     if (window.hljs) {

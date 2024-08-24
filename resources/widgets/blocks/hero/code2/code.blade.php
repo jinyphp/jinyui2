@@ -37,6 +37,9 @@
         </div>
     </div>
 </section>
+<<<<<<< HEAD
+<!--Integrate apps end-->
+=======
 <div class="pattern-square"></div>
 <section class="container py-lg-8 py-5">
     <div class="row justify-content-center">
@@ -56,3 +59,4 @@
     </div>
 </section>
 <!--Hero section close-->
+>>>>>>> 1bc01546294b0a9361b1a3c95153d33805930006
