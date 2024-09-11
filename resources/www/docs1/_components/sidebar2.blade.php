@@ -256,13 +256,13 @@ $jsonData = '{
 }';
 
 $items = json_decode($jsonData, true)['items'];
+$currentUrl = url()->current();
 @endphp
 
 <div class="cd-sidebar"
   data-filter-list='{"searchClass": "docs-search", "listClass": "docs-list", "valueNames": ["list-group-item"]}'>
   <div id="sidebarNav" class="offcanvas-lg offcanvas-start d-flex flex-column h-100" tabindex="-1"
     aria-labelledby="sidebarNavLabel">
-
     <div class="offcanvas-header py-3">
       <h5 class="offcanvas-title" id="sidebarNavLabel">Browse docs</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav"
@@ -285,13 +285,19 @@ $items = json_decode($jsonData, true)['items'];
           @foreach($items as $item)
           <div class="dropdown">
             <a class="list-group-item list-group-item-action justify-content-between dropdown-toggle text-wrap pe-3"
-              href="#" onclick="toggleDropdown(event, this)">
+              href="#" onclick="toggleDropdown(event, this)" data-navlink="{{ $item['navlink'] }}">
               {{ $item['name'] }}
             </a>
             @if(isset($item['children']) && count($item['children']) > 0)
-            <ul class="dropdown-menu">
+            <ul id="anchorNav" class="dropdown-menu nav nav-underline flex-column border-start ms-2 my-2"
+              style="gap: .25rem;">
+
               @foreach($item['children'] as $child)
-              <li><a class="dropdown-item" href="{{ $child['navlink'] }}">{{ $child['name'] }}</a></li>
+              <li>
+                <a class="dropdown-item" href="{{ $child['navlink'] }}" data-navlink="{{ $child['navlink'] }}">
+                  {{ $child['name'] }}
+                </a>
+              </li>
               @endforeach
             </ul>
             @endif
@@ -321,14 +327,33 @@ function toggleDropdown(event, element) {
   }
 }
 
-// Close dropdowns when clicking outside
-document.addEventListener('click', function(e) {
-  if (!e.target.closest('.dropdown')) {
-    const openDropdowns = document.querySelectorAll('.dropdown-menu.show');
-    openDropdowns.forEach(dropdown => {
-      dropdown.classList.remove('show');
-    });
-  }
+// 현재 페이지에 해당하는 항목 하이라이트 및 드롭다운 열기
+document.addEventListener('DOMContentLoaded', function() {
+  const currentUrl = '{{ $currentUrl }}';
+  const sidebarItems = document.querySelectorAll('[data-navlink]');
+
+  sidebarItems.forEach(item => {
+    const navlink = item.getAttribute('data-navlink');
+    if (currentUrl.includes(navlink)) {
+      item.classList.add('active');
+      if (item.classList.contains('dropdown-item')) {
+        const parentDropdown = item.closest('.dropdown');
+        if (parentDropdown) {
+          const dropdownToggle = parentDropdown.querySelector('.dropdown-toggle');
+          const dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
+          if (dropdownToggle && dropdownMenu) {
+            dropdownToggle.classList.add('active');
+            dropdownMenu.classList.add('show');
+          }
+        }
+      } else if (item.classList.contains('list-group-item')) {
+        const dropdownMenu = item.nextElementSibling;
+        if (dropdownMenu && dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.add('show');
+        }
+      }
+    }
+  });
 });
 
 function closeSidebar() {
@@ -362,9 +387,28 @@ function closeSidebar() {
 }
 
 .dropdown-item:hover,
-.dropdown-item:focus {
+.dropdown-item:focus,
+.dropdown-item.active {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
+}
+
+#scrollable::-webkit-scrollbar {
+  width: 4px;
+}
+
+#scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+#scrollable::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+#scrollable::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 </style>

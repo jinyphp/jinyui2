@@ -3,6 +3,6 @@
         "title": "No style",
         "description": "요소에서 기존 테두리 스타일을 제거하려면 border-none을 사용하세요. 이는 더 작은 중단점에 적용된 테두리 스타일을 제거하는 데 가장 일반적으로 사용됩니다.",
         "code": "<div class=\"relative rounded-xl overflow-auto p-8\"><div class=\"flex justify-center gap-4 text-white text-sm text-center font-bold leading-6\">\n  <button class=\"px-4 py-2 font-semibold text-sm bg-white text-slate-700 dark:bg-slate-700 dark:text-white rounded-md shadow-sm ring-1 ring-slate-900\/5 dark:ring-white\/10 dark:ring-inset border-indigo-500 border-2 border-none\">Save Changes<\/button>\n<\/div><\/div>",
-        "updated_at": "2024-08-19 09:00:07"
+        "updated_at": "2024-08-27 08:42:18"
     }
 }
