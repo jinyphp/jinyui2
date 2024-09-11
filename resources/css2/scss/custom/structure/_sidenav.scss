@@ -728,9 +728,9 @@ html[data-layout-mode="detached"]:not([data-layout="topnav"]) {
         z-index: 10;
     }
 
-    .leftbar-user {
+    /* .leftbar-user {
         background: url("../images/waves.png") no-repeat;
-    }
+    } */
 
     &[data-sidenav-size="condensed"] {
         .content-page {
