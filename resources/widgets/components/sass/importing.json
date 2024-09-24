@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "불러오기",
+        "description": "당신의 custom.scss에서 Bootstrap의 소스 Sass 파일을 가져옵니다. 두 가지 옵션이 있습니다: Bootstrap 모두를 포함할지, 필요한 부분을 선택할 지 입니다. 후자를 권하지만 컴포넌트 간에 몇 가지 요건과 의존 관계가 있다는 점에 유의해 주세요. 또한 플러그인 사용을 위해 위해 몇 가지 JavaScript를 포함해야 합니다.",
+        "code": "\/\/ Custom.scss\n\/\/ Option A: Include all of Bootstrap\n\n\/\/ Include any default variable overrides here (though functions won't be available)\n\n@import \"..\/node_modules\/bootstrap\/scss\/bootstrap\";\n\n\/\/ Then add additional custom code here",
+        "updated_at": "2024-09-24 08:46:18"
+    }
+}

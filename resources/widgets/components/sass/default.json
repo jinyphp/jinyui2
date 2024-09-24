@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "기본값 변수",
+        "description": "Bootstrap의 모든 Sass 변수에는 !default 플래그가 포함되어 있으며, Bootstrap의 소스 코드를 수정하지 않고 당신의 Sass에서 변수의 기본값을 재정의할 수 있습니다. 필요에 따라 변수를 복사&붙여넣기 하여 값을 수정하고 !default 플래그를 삭제하세요. 변수가 이미 설정되어 있으면 Bootstrap의 기본값으로 재설정되지 않습니다.\n\nBootstrap 변수의 전체 목록은 scss\/_variables.scss에 있습니다. 몇 가지 변수는 null로 설정되어 있어, 이러한 변수는 설정에서 재정의되지 않는 한, 속성을 출력하지 않습니다.\n\n변수의 재정의는 함수를 가져온 이후 나머지를 가져오기 전에 수행해야 합니다.\n\n여기에서는 npm으로 가져온 Bootstrap을 컴파일 할 때에,<body>의 background-color와 color를 변경하는 예시를 보여주고 있습니다.",
+        "code": "\/\/ Required\n@import \"..\/node_modules\/bootstrap\/scss\/functions\";\n\n\/\/ Default variable overrides\n$body-bg: #000;\n$body-color: #111;\n\n\/\/ Required\n@import \"..\/node_modules\/bootstrap\/scss\/variables\";\n@import \"..\/node_modules\/bootstrap\/scss\/variables-dark\";\n@import \"..\/node_modules\/bootstrap\/scss\/maps\";\n@import \"..\/node_modules\/bootstrap\/scss\/mixins\";\n@import \"..\/node_modules\/bootstrap\/scss\/root\";\n\n\/\/ Optional Bootstrap components here\n@import \"..\/node_modules\/bootstrap\/scss\/reboot\";\n@import \"..\/node_modules\/bootstrap\/scss\/type\";\n\/\/ etc",
+        "updated_at": "2024-09-24 08:53:03"
+    }
+}

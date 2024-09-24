@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Focus variables",
+        "description": "Bootstrap은 특정 컴포넌트 및 요소에 선택적으로 추가할 수 있는 Sass 및 CSS 변수의 조합을 사용하여 사용자 정의 :focus 스타일을 제공합니다. 아직 모든 :focus 스타일을 전역적으로 재정의하지는 않습니다.\n\nSass에서는 컴파일하기 전에 사용자 정의할 수 있는 기본값을 설정합니다.",
+        "code": "$focus-ring-width:      .25rem;\n$focus-ring-opacity:    .25;\n$focus-ring-color:      rgba($primary, $focus-ring-opacity);\n$focus-ring-blur:       0;\n$focus-ring-box-shadow: 0 0 $focus-ring-blur $focus-ring-width $focus-ring-color;",
+        "updated_at": "2024-09-24 09:54:06"
+    }
+}

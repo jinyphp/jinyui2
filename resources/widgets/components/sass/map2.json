@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "나중에 이러한 변수는 Bootstrap의 $theme-colors 맵에 설정됩니다:",
+        "code": "$theme-colors: (\n  \"primary\": $primary,\n  \"danger\": $danger\n);",
+        "updated_at": "2024-09-24 08:55:16"
+    }
+}

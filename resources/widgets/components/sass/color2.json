@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "실제로는 이 함수를 호출하여 색상과 중량의 파라미터를 전달합니다.",
+        "code": ".custom-element {\n  color: tint-color($primary, 10%);\n}\n\n.custom-element-2 {\n  color: shade-color($danger, 30%);\n}\n\n.custom-element-3 {\n  color: shift-color($success, 40%);\n  background-color: shift-color($success, -60%);\n}",
+        "updated_at": "2024-09-24 08:58:42"
+    }
+}

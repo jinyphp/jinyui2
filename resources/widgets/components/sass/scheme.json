@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "색상 스킴",
+        "description": "prefers-color-scheme 미디어 쿼리의 간단한 믹스인은 light 및 dark 색상 배합을 지원합니다. 색상 모드 믹스인에 대한 정보는 색상 모드 문서에서 확인할 수 있습니다.",
+        "code": "@mixin color-scheme($name) {\n  @media (prefers-color-scheme: #{$name}) {\n    @content;\n  }\n}",
+        "updated_at": "2024-09-24 09:07:11"
+    }
+}

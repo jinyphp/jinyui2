@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "또한, 단발적인 요구에도 대응할 수 있습니다:",
+        "code": ".custom-element {\n  color: color-contrast(#000); \/\/ returns `color: #fff`\n}",
+        "updated_at": "2024-09-24 09:00:07"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "맵에서 제거",
+        "description": "$theme-colors나 그 밖의 맵에서 색을 삭제하려면 map-remove를 사용합니다. Be aware you must insert $theme-colors between our requirements just after its definition in variables and before its usage in maps:",
+        "code": "\/\/ Required\n@import \"..\/node_modules\/bootstrap\/scss\/functions\";\n@import \"..\/node_modules\/bootstrap\/scss\/variables\";\n@import \"..\/node_modules\/bootstrap\/scss\/variables-dark\";\n\n$theme-colors: map-remove($theme-colors, \"info\", \"light\", \"dark\");\n\n@import \"..\/node_modules\/bootstrap\/scss\/maps\";\n@import \"..\/node_modules\/bootstrap\/scss\/mixins\";\n@import \"..\/node_modules\/bootstrap\/scss\/root\";\n\n\/\/ Optional\n@import \"..\/node_modules\/bootstrap\/scss\/reboot\";\n@import \"..\/node_modules\/bootstrap\/scss\/type\";\n\/\/ etc",
+        "updated_at": "2024-09-24 08:56:29"
+    }
+}

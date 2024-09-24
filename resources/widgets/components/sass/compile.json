@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "컴파일",
+        "description": "브라우저에서 사용자 정의 Sass 코드를 CSS로 사용하려면 Sass 컴파일러가 필요합니다. Sass는 CLI 패키지로 제공되지만 Gulp 또는 Webpack과 같은 다른 빌드 도구나 GUI 애플리케이션을 사용하여 컴파일할 수도 있습니다. 일부 IDE에는 Sass 컴파일러가 기본 제공되거나 다운로드 가능한 확장 기능으로 제공되기도 합니다.\n\n저희는 CLI를 사용하여 Sass를 컴파일하는 것을 권장하지만 원하는 방법을 사용할 수도 있습니다. 명령줄에서 다음을 실행합니다:",
+        "code": "# Install Sass globally\nnpm install -g sass\n\n# Watch your custom Sass for changes and compile it to CSS\nsass --watch .\/scss\/custom.scss .\/css\/custom.css",
+        "updated_at": "2024-09-24 08:50:28"
+    }
+}

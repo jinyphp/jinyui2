@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "그리고 색상 map 함수로 기본 색을 지정할 수도 있습니다:",
+        "code": ".custom-element {\n  color: color-contrast($dark); \/\/ returns `color: #fff`\n}",
+        "updated_at": "2024-09-24 09:03:24"
+    }
+}

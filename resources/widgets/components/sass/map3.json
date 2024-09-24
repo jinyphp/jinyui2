@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "맵에 추가",
+        "description": "사용자 정의 값으로 $theme-colors나 기타 맵에 새로운 색을 추가하여 새로운 Sass 맵을 만들고 기존 맵과 병합할 수 있습니다. 아래 예시에서는 새로운 $theme-colors 맵을 만들어 $theme-colors와 병합할 것입니다.",
+        "code": "\/\/ Create your own map\n$custom-colors: (\n  \"custom-color\": #900\n);\n\n\/\/ Merge the maps\n$theme-colors: map-merge($theme-colors, $custom-colors);",
+        "updated_at": "2024-09-24 08:55:58"
+    }
+}

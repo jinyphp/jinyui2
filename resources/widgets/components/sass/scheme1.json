@@ -1,0 +1,6 @@
+{
+    "items": {
+        "code": ".custom-element {\n  @include color-scheme(light) {\n    \/\/ Insert light mode styles here\n  }\n\n  @include color-scheme(dark) {\n    \/\/ Insert dark mode styles here\n  }\n}",
+        "updated_at": "2024-09-24 09:07:32"
+    }
+}
