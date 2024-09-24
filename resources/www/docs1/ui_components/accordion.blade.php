@@ -3,8 +3,6 @@
         @livewire('WidgetTitle', [
         'filename' => 'components/accordion/code1',
         ])
-
-
         @livewire('WidgetText', [
         'filename' => 'components/accordion/works',
         ])
@@ -12,7 +10,6 @@
         @livewire('WidgetNote', [
         'filename' => 'components/accordion/about_note',
         ])
-
         @livewire('WidgetCode-Component', [
         'filename' => 'components/accordion/code2',
         ])

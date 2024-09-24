@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "",
+        "updated_at": "2024-09-24 08:48:07",
+        "code": "\/\/ Custom.scss\n\/\/ Option B: Include parts of Bootstrap\n\n\/\/ 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)\n@import \"..\/node_modules\/bootstrap\/scss\/functions\";\n\n\/\/ 2. Include any default variable overrides here\n\n\/\/ 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)\n@import \"..\/node_modules\/bootstrap\/scss\/variables\";\n@import \"..\/node_modules\/bootstrap\/scss\/variables-dark\";\n\n\/\/ 4. Include any default map overrides here\n\n\/\/ 5. Include remainder of required parts\n@import \"..\/node_modules\/bootstrap\/scss\/maps\";\n@import \"..\/node_modules\/bootstrap\/scss\/mixins\";\n@import \"..\/node_modules\/bootstrap\/scss\/root\";\n\n\/\/ 6. Optionally include any other parts as needed\n@import \"..\/node_modules\/bootstrap\/scss\/utilities\";\n@import \"..\/node_modules\/bootstrap\/scss\/reboot\";\n@import \"..\/node_modules\/bootstrap\/scss\/type\";\n@import \"..\/node_modules\/bootstrap\/scss\/images\";\n@import \"..\/node_modules\/bootstrap\/scss\/containers\";\n@import \"..\/node_modules\/bootstrap\/scss\/grid\";\n@import \"..\/node_modules\/bootstrap\/scss\/helpers\";\n\n\/\/ 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`\n@import \"..\/node_modules\/bootstrap\/scss\/utilities\/api\";\n\n\/\/ 8. Add additional custom code here"
+    }
+}

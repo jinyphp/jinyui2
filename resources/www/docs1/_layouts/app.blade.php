@@ -18,7 +18,11 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" type="image/png" href="/assets/app-icons/icon-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon" href="/assets/app-icons/icon-180x180.png">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
     <!-- Preloaded local web font (Inter) -->
     <link rel="preload" href="/assets/fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -116,7 +120,7 @@
 
 
 
-        <!-- highliter.js-->
+    <!-- highliter.js-->
     @vite('resources/js/core.js')
     @vite('resources/js/javascript.js')
     @vite('resources/js/xml.js')
@@ -125,64 +129,62 @@
     @stack('script')
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            if (typeof hljs !== 'undefined') {
-                hljs.highlightAll();
-            } else {
-                console.error('hljs is not defined');
-            }
-        });
+    document.addEventListener('DOMContentLoaded', () => {
+        if (typeof hljs !== 'undefined') {
+            hljs.highlightAll();
+        } else {
+            console.error('hljs is not defined');
+        }
+    });
     </script>
 
-<script>
+    <script>
     document.addEventListener('DOMContentLoaded', () => {
-    if (window.hljs) {
-        document.querySelectorAll('pre code').forEach((block) => {
-            if (block.dataset.highlighted) {
-                // 이미 하이라이팅된 경우, 데이터 속성을 제거
-                delete block.dataset.highlighted;
-            }
+        if (window.hljs) {
+            document.querySelectorAll('pre code').forEach((block) => {
+                if (block.dataset.highlighted) {
+                    // 이미 하이라이팅된 경우, 데이터 속성을 제거
+                    delete block.dataset.highlighted;
+                }
 
-            // 하이라이팅 적용
-            const result = window.hljs.highlightAuto(block.textContent || '');
-            block.innerHTML = result.value;
+                // 하이라이팅 적용
+                const result = window.hljs.highlightAuto(block.textContent || '');
+                block.innerHTML = result.value;
 
-            // 하이라이팅이 적용된 코드 블록에 데이터 속성 추가
-            block.dataset.highlighted = 'yes';
-        });
+                // 하이라이팅이 적용된 코드 블록에 데이터 속성 추가
+                block.dataset.highlighted = 'yes';
+            });
 
-        console.log('hljs is available and highlighting applied with auto detection');
-    } else {
-        console.error('hljs is not defined');
-    }
-});
-</script>
+            console.log('hljs is available and highlighting applied with auto detection');
+        } else {
+            console.error('hljs is not defined');
+        }
+    });
+    </script>
 
 
     <script>
-            document.addEventListener('DOMContentLoaded', ()=>{
-                if (window.hljs) {
-                    document.querySelectorAll('pre code').forEach((block)=>{
-                        if (block.dataset.highlighted) {
-                            // 이미 하이라이팅된 경우, 데이터 속성을 제거
-                            delete block.dataset.highlighted;
-                        }
-
-                        // 하이라이팅 적용
-                        const result = window.hljs.highlightAuto(block.textContent || '');
-                        block.innerHTML = result.value;
-
-                        // 하이라이팅이 적용된 코드 블록에 데이터 속성 추가
-                        block.dataset.highlighted = 'yes';
-                    }
-                    );
-
-                    console.log('hljs is available and highlighting applied with auto detection');
-                } else {
-                    console.error('hljs is not defined');
+    document.addEventListener('DOMContentLoaded', () => {
+        if (window.hljs) {
+            document.querySelectorAll('pre code').forEach((block) => {
+                if (block.dataset.highlighted) {
+                    // 이미 하이라이팅된 경우, 데이터 속성을 제거
+                    delete block.dataset.highlighted;
                 }
-            }
-            );
+
+                // 하이라이팅 적용
+                const result = window.hljs.highlightAuto(block.textContent || '');
+                block.innerHTML = result.value;
+
+                // 하이라이팅이 적용된 코드 블록에 데이터 속성 추가
+                block.dataset.highlighted = 'yes';
+            });
+
+            console.log('hljs is available and highlighting applied with auto detection');
+        } else {
+            console.error('hljs is not defined');
+        }
+    });
     </script>
 </body>
 

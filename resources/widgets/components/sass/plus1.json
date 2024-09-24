@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "더하기 및 빼기 기능",
+        "description": "CSS calc 함수 사용을 위해 add와 subtract 함수를 사용합니다. 이들 함수의 주된 목적은 “단위가 없다”, calc의 식에 0의 값이 들어갔을 때 에러를 피하는 것입니다. calc(10px - 0)과 같은 식은 수학적 의미로는 맞지만, 모든 브라우저에서 오류를 반환합니다.\n\ncalc 계산이 유효한 예시:",
+        "code": "$border-radius: .25rem;\n$border-width: 1px;\n\n.element {\n  \/\/ Output calc(.25rem - 1px) is valid\n  border-radius: calc($border-radius - $border-width);\n}\n\n.element {\n  \/\/ Output the same calc(.25rem - 1px) as above\n  border-radius: subtract($border-radius, $border-width);\n}",
+        "updated_at": "2024-09-24 09:04:58"
+    }
+}

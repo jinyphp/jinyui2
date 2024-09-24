@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "Include",
+        "description": "CSS가 컴파일되면 HTML 파일에 포함할 수 있습니다. index.html 안에 컴파일된 CSS 파일을 포함할 수 있습니다. 컴파일된 CSS 파일의 경로를 변경한 경우 반드시 업데이트하세요.",
+        "code": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Custom Bootstrap<\/title>\n    <link href=\"\/css\/custom.css\" rel=\"stylesheet\">\n  <\/head>\n  <body>\n    <h1>Hello, world!<\/h1>\n  <\/body>\n<\/html>",
+        "updated_at": "2024-09-24 08:52:05"
+    }
+}

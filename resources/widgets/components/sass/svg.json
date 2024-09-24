@@ -1,0 +1,7 @@
+{
+    "items": {
+        "title": "SVG 이스케이프",
+        "description": "SVG 배경 이미지 코드에서 <, >, #의 텍스트를 사용하지 않기 위해 escape-svg 함수를 사용합니다. escape-svg 함수를 사용할 때에는 data URI를 인용해야 합니다.",
+        "updated_at": "2024-09-24 09:03:57"
+    }
+}
