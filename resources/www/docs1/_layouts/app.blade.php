@@ -18,7 +18,11 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="icon" type="image/png" href="/assets/app-icons/icon-32x32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/app-icons/icon-180x180.png">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
   <!-- Preloaded local web font (Inter) -->
   <link rel="preload" href="/assets/fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -33,9 +37,9 @@
   <link rel="preload" href="/assets/css/theme.min.css" as="style">
   <link rel="stylesheet" href="/assets/css/theme.min.css" id="theme-styles">
 
-  @vite('resources/css/app.scss')
-  @vite('resources/css2/scss/app-saas.scss')
-
+  <!--@vite('resources/css/app.scss')
+    @vite('resources/css2/scss/app-saas.scss')
+    -->
   @vite('resources/css/test/main.scss')
   @vite('resources/css/test/default.min.css')
 

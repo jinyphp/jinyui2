@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "Bootstrap의 tint-color()와 shade-color() 함수로, 색을 밝게 혹은 어둡게 만들 수 있습니다. 이들 함수는 Sass의 순수한 lighten()과 darken() 함수와는 달리 색을 검은색 혹은 흰색과 섞어 밝기를 일정량 변화시켜 원하는 효과를 얻지 못하는 경우가 많습니다.\n\nshift-color() combines these two functions by shading the color if the weight is positive and tinting the color if the weight is negative.",
+        "code": "\/\/ Tint a color: mix a color with white\n@function tint-color($color, $weight) {\n  @return mix(white, $color, $weight);\n}\n\n\/\/ Shade a color: mix a color with black\n@function shade-color($color, $weight) {\n  @return mix(black, $color, $weight);\n}\n\n\/\/ Shade the color if the weight is positive, else tint it\n@function shift-color($color, $weight) {\n  @return if($weight > 0, shade-color($color, $weight), tint-color($color, -$weight));\n}",
+        "updated_at": "2024-09-24 08:58:16"
+    }
+}

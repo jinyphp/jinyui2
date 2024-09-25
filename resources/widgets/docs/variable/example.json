@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "예시",
+        "description": "CSS 변수는 Sass 변수와 동일한 유연성을 제공하지만 브라우저에 제공되기 전에 컴파일할 필요는 없습니다. 예를 들어, 여기에서는 페이지의 글꼴이나 링크의 스타일을 CSS 변수로 재설정하고 있습니다.",
+        "code": "body {\n  font: 1rem\/1.5 var(--bs-font-sans-serif);\n}\na {\n  color: var(--bs-blue);\n}",
+        "updated_at": "2024-09-24 09:53:20"
+    }
+}

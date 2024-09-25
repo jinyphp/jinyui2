@@ -1,0 +1,8 @@
+{
+    "items": {
+        "title": "색상",
+        "description": "Sass 맵의 사용 외에 $primary과 같이 독립된 변수로 사용할 수 있습니다.",
+        "code": ".custom-element {\n  color: $gray-100;\n  background-color: $dark;\n}",
+        "updated_at": "2024-09-24 08:57:54"
+    }
+}

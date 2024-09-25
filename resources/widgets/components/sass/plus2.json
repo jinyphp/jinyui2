@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "calc 계산이 잘못된 예시:",
+        "code": "$border-radius: .25rem;\n$border-width: 0;\n\n.element {\n  \/\/ Output calc(.25rem - 0) is invalid\n  border-radius: calc($border-radius - $border-width);\n}\n\n.element {\n  \/\/ Output .25rem\n  border-radius: subtract($border-radius, $border-width);\n}",
+        "updated_at": "2024-09-24 09:05:20"
+    }
+}

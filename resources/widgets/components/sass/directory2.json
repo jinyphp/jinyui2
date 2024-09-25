@@ -1,0 +1,7 @@
+{
+    "items": {
+        "description": "소스 파일을 다운로드한 후 패키지 관리자를 사용하지 않는 경우 해당 구조와 유사한 파일을 수동으로 생성하고 Bootstrap의 소스 파일을 개인 파일과는 별도로 분리해 두는 것이 좋습니다.",
+        "code": "your-project\/\n├── scss\/\n│   └── custom.scss\n├── bootstrap\/\n│   ├── js\/\n│   └── scss\/\n└── index.html",
+        "updated_at": "2024-09-24 08:41:48"
+    }
+}
