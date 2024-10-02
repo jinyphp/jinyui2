@@ -1,24 +1,16 @@
 {
-    "name": "jiny/jinyerp",
+    "name": "jiny/ui-demo",
     "type": "project",
-    "description": "The skeleton application for JinyERP",
+    "description": "jiny ui and demo site",
     "keywords": ["jinyerp"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "czproject/git-php": "^4.3",
-        "jiny/admin": "^0.4.0",
-        "jiny/auth": "^0.7.0",
-        "jiny/laravel": "^0.1.0",
-        "jiny/shop": "^0.1.0",
-        "jiny/site": "^0.7.0",
-        "jiny/site-board": "^0.3.0",
-        "jiny/site-cms": "^0.2.0",
         "laravel/framework": "^11.9",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.5",
-        "webuni/front-matter": "^2.0"
+
+        "jiny/site": "^0.14"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
