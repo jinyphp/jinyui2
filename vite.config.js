@@ -9,6 +9,7 @@ export default defineConfig({
                 "resources/css2/scss/app-saas.scss",
                 "resources/css/app.scss",
                 "resources/css/tailwind.scss",
+                "resources/css3/scss/app-sass.scss",
                 "resources/js/app.js",
                 "resources/js/chart.js",
                 "resources/js/core.js",

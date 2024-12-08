@@ -155,7 +155,7 @@ $box-shadow:       0 0.1rem 0.2rem rgba($black, .05) !default;
 $box-shadow-lg:    0 0.2rem 0.2rem rgba($black, .05) !default;
 
 // Navbar input
-$navbar-input-bg: darken($body-bg, 0.5%) !default;
+$navbar-input-bg: color.adjust($color, $lightness: -0.5%) !default;
 
 // Border radius
 $border-radius-sm: .1rem !default;

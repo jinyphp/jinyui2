@@ -1,0 +1,72 @@
+// app-saas.scss
+
+// 1. Functions, Variables, and Mixins
+@import "functions";
+@import "variables";
+@import "variables-dark";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// 2. Configuration
+// 여기에 사용자 정의 변수나 설정을 추가할 수 있습니다.
+
+// 3. Layout & Components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// 4. Helpers
+@import "helpers";
+
+// 5. Utilities
+@import "utilities/api";
+
+// 6. Custom Components
+@import "avatar";
+@import "custom-forms";
+@import "docs";
+@import "hero";
+@import "preloader";
+@import "print";
+@import "ribbons";
+@import "scrollbar";
+@import "select-box";
+@import "social";
+@import "steps";
+@import "switch";
+
+// 7. Plugins (선택적)
+// 필요한 플러그인 스타일을 여기에 추가할 수 있습니다.
+
+// 8. Responsive
+// 필요한 경우 여기에 추가 반응형 스타일을 포함할 수 있습니다.
